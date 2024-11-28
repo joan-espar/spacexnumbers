@@ -1,0 +1,129 @@
+{
+    "id": "afc772a3-6ea7-4550-a4e9-35c70c22ebba",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/afc772a3-6ea7-4550-a4e9-35c70c22ebba/",
+    "slug": "falcon-9-block-5-galaxy-37",
+    "name": "Falcon 9 Block 5 | Galaxy 37",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:41:52Z",
+    "net": "2023-08-03T05:00:00Z",
+    "window_end": "2023-08-03T06:15:00Z",
+    "window_start": "2023-08-03T04:15:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": 90,
+    "weather_concerns": "Anvil Cloud Rules, Cumulus Cloud Rule",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7550,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 5977,
+        "name": "Galaxy 37",
+        "description": "Galaxy 37 is a geostationary communications satellite manufactured by Maxar and operated by Intelsat.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [
+            {
+                "id": 206,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/206/",
+                "name": "Intelsat",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "LUX",
+                "abbrev": "I",
+                "description": null,
+                "administrator": null,
+                "founding_year": null,
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": null,
+                "wiki_url": "https://en.wikipedia.org/wiki/Intelsat",
+                "logo_url": null,
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20230803065839.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6486,
+    "location_launch_attempt_count": 899,
+    "pad_launch_attempt_count": 192,
+    "agency_launch_attempt_count": 266,
+    "orbital_launch_attempt_count_year": 118,
+    "location_launch_attempt_count_year": 31,
+    "pad_launch_attempt_count_year": 29,
+    "agency_launch_attempt_count_year": 53,
+    "type": "normal"
+}

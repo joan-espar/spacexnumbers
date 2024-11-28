@@ -1,0 +1,94 @@
+{
+    "id": "e24a2dce-7c0e-450b-a2ca-3c9c4520a9ae",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e24a2dce-7c0e-450b-a2ca-3c9c4520a9ae/",
+    "slug": "tsiklon-2a-i2p-2",
+    "name": "Tsiklon-2A | I2P 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:24:33Z",
+    "net": "1968-11-01T00:27:15Z",
+    "window_end": "1968-11-01T00:27:15Z",
+    "window_start": "1968-11-01T00:27:15Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3839,
+        "configuration": {
+            "id": 444,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/444/",
+            "name": "Tsiklon-2A",
+            "family": "Tsiklon",
+            "full_name": "Tsiklon-2A",
+            "variant": "2A"
+        }
+    },
+    "mission": {
+        "id": 2257,
+        "name": "I2P 2",
+        "description": "The I2P satellites were the first soviet coorbital ASAT system.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 134,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/134/",
+        "agency_id": null,
+        "name": "90/20",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_90",
+        "map_url": "https://www.google.com/maps?q=46.081,62.929806",
+        "latitude": "46.081",
+        "longitude": "62.929806",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_134_20200803143259.jpg",
+        "total_launch_count": 23,
+        "orbital_launch_attempt_count": 23
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 896,
+    "location_launch_attempt_count": 241,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 359,
+    "orbital_launch_attempt_count_year": 108,
+    "location_launch_attempt_count_year": 38,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 70,
+    "type": "normal"
+}

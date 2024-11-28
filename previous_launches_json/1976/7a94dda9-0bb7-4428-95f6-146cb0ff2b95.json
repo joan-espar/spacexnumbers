@@ -1,0 +1,94 @@
+{
+    "id": "7a94dda9-0bb7-4428-95f6-146cb0ff2b95",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7a94dda9-0bb7-4428-95f6-146cb0ff2b95/",
+    "slug": "proton-kdm-ekran",
+    "name": "Proton-K/DM | Ekran",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:32:41Z",
+    "net": "1976-10-26T14:50:00Z",
+    "window_end": "1976-10-26T14:50:00Z",
+    "window_start": "1976-10-26T14:50:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4769,
+        "configuration": {
+            "id": 349,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/349/",
+            "name": "Proton-K/DM",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-K/DM",
+            "variant": "DM"
+        }
+    },
+    "mission": {
+        "id": 3186,
+        "name": "Ekran",
+        "description": "Ekran was a Soviet series of geostationary satellites which were the first in the world to provide Direct-To-Home TV service.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1893,
+    "location_launch_attempt_count": 470,
+    "pad_launch_attempt_count": 25,
+    "agency_launch_attempt_count": 1061,
+    "orbital_launch_attempt_count_year": 110,
+    "location_launch_attempt_count_year": 27,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 82,
+    "type": "normal"
+}

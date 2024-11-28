@@ -1,0 +1,124 @@
+{
+    "id": "d0fa4bb2-80ea-4808-af08-7785dde53bf6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d0fa4bb2-80ea-4808-af08-7785dde53bf6/",
+    "slug": "ariane-5-eca-james-webb-space-telescope-jwst",
+    "name": "Ariane 5 ECA+ | James Webb Space Telescope (JWST)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:13:15Z",
+    "net": "2021-12-25T12:20:07Z",
+    "window_end": "2021-12-25T12:52:00Z",
+    "window_start": "2021-12-25T12:20:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2688,
+        "configuration": {
+            "id": 215,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/215/",
+            "name": "Ariane 5 ECA+",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA+",
+            "variant": "ECA+"
+        }
+    },
+    "mission": {
+        "id": 1422,
+        "name": "James Webb Space Telescope (JWST)",
+        "description": "The James Webb Space Telescope is a space telescope developed by NASA, ESA and CSA to succeed the Hubble Space Telescope as NASA's flagship astrophysics mission.  Its primary mirror, the Optical Telescope Element, is composed of 18 hexagonal mirror segments which combine to create a 6.5 m diameter mirror, considerably larger than Hubble's 2.4 m mirror. This will allow JWST to provide improved infrared resolution and sensitivity over Hubble, and will enable a broad range of investigations across the fields of astronomy and cosmology, including observing some of the most distant events and objects in the universe, such as the formation of the first galaxies.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 16,
+            "name": "Sun-Earth L2",
+            "abbrev": "L2"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane2520525_image_20211224103958.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 36,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/36/",
+            "name": "NASA Large Strategic Science Missions",
+            "description": "NASA's large strategic science missions or large strategic missions, formerly known as Flagship missions or Flagship-class missions, are the costliest and most capable NASA science spacecraft. Flagship missions exist within all four divisions of NASA's Science Mission Directorate (SMD): the astrophysics, Earth science, heliophysics and planetary science divisions.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nasa2520large_program_20240205122003.jpeg",
+            "start_date": "1975-08-22T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Large_strategic_science_missions",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6176,
+    "location_launch_attempt_count": 311,
+    "pad_launch_attempt_count": 113,
+    "agency_launch_attempt_count": 306,
+    "orbital_launch_attempt_count_year": 139,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 14,
+    "type": "normal"
+}

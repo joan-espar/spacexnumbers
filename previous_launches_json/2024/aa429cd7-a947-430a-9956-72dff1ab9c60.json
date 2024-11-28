@@ -1,0 +1,129 @@
+{
+    "id": "aa429cd7-a947-430a-9956-72dff1ab9c60",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/aa429cd7-a947-430a-9956-72dff1ab9c60/",
+    "slug": "h3-22-dsn-3-kirameki-3",
+    "name": "H3-22 | DSN 3 (Kirameki 3)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-11-05T04:18:22Z",
+    "net": "2024-11-04T06:48:00Z",
+    "window_end": "2024-11-04T08:16:00Z",
+    "window_start": "2024-11-04T06:48:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7772,
+        "configuration": {
+            "id": 486,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/486/",
+            "name": "H3-22",
+            "family": "H3",
+            "full_name": "H3-22",
+            "variant": "22"
+        }
+    },
+    "mission": {
+        "id": 6290,
+        "name": "DSN 3 (Kirameki 3)",
+        "description": "DSN 3, also known as Kirameki 3, is a geostationary communications satellite to be used for military communications by the Japanese military.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [
+            {
+                "id": 1073,
+                "url": "https://lldev.thespacedevs.com/2.2.0/agencies/1073/",
+                "name": "DSN Corporation",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "JPN",
+                "abbrev": "",
+                "description": "DSN Corporation Japanese: \u682a\u5f0f\u4f1a\u793e\u30c7\u30a3\u30fc\u30fb\u30a8\u30b9\u30fb\u30a8\u30cc is a corporation owned by SKY Perfect JSAT Group, NEC and NTT Com. It was founded on December 19, 2012 for the sole purpose of acting as an investment vehicle in the private finance initiative that would handle the Japanese military X-band DSN satellite network from 2015 to 2031.",
+                "administrator": null,
+                "founding_year": "2012",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://en.wikipedia.org/wiki/DSN_Corporation",
+                "wiki_url": null,
+                "logo_url": null,
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 209,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/209/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400938,130.97564",
+        "latitude": "30.400938",
+        "longitude": "130.97564",
+        "location": {
+            "id": 26,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yoshinobu_launch_complex_lp-2_20230707124715.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 13
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_image_20230307130808.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6791,
+    "location_launch_attempt_count": 93,
+    "pad_launch_attempt_count": 13,
+    "agency_launch_attempt_count": 53,
+    "orbital_launch_attempt_count_year": 202,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

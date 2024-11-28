@@ -1,0 +1,80 @@
+{
+    "id": "fd608f82-d496-454e-957e-6350ee9e1a41",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fd608f82-d496-454e-957e-6350ee9e1a41/",
+    "slug": "pegasus-xl-space-test-experiments-platform-1-step",
+    "name": "Pegasus XL | Space Test Experiments Platform 1 (STEP-1)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:55:14Z",
+    "net": "1994-06-27T21:15:00Z",
+    "window_end": "1994-06-27T21:15:00Z",
+    "window_start": "1994-06-27T21:15:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Flight termination after loss of vehicle control 35 seconds into flight",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 376,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 62,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/62/",
+        "agency_id": null,
+        "name": "Vandenberg Space Force Base",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base",
+        "map_url": "https://www.google.com/maps?q=34.732778,-120.568056",
+        "latitude": "34.732778",
+        "longitude": "-120.568056",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_62_20200803143441.jpg",
+        "total_launch_count": 22,
+        "orbital_launch_attempt_count": 22
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3906,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 7,
+    "orbital_launch_attempt_count_year": 3906,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

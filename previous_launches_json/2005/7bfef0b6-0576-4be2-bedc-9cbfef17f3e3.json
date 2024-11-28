@@ -1,0 +1,94 @@
+{
+    "id": "7bfef0b6-0576-4be2-bedc-9cbfef17f3e3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7bfef0b6-0576-4be2-bedc-9cbfef17f3e3/",
+    "slug": "proton-m-briz-m-anik-f1r",
+    "name": "Proton-M Briz-M | Anik F1R",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:35:04Z",
+    "net": "2005-09-08T21:53:40Z",
+    "window_end": "2005-09-08T21:53:40Z",
+    "window_start": "2005-09-08T21:53:40Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7242,
+        "configuration": {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/22/",
+            "name": "Proton-M Briz-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Briz-M",
+            "variant": "Briz-M"
+        }
+    },
+    "mission": {
+        "id": 5631,
+        "name": "Anik F1R",
+        "description": "It carried a 24 C-band and 32 Ku-band transponders. Anik F1R has a design life of 15 years. In addition, a Wide Area Augmentation System (WAAS-GEO 4) navigation package operating in C-band for uplink and L-band for downlink provides precision Global Positioning System-based guidance information to aircraft.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 15,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/15/",
+        "agency_id": null,
+        "name": "200/39 (200L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.039984,63.032093",
+        "latitude": "46.039984",
+        "longitude": "63.032093",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_15_20200803143530.jpg",
+        "total_launch_count": 167,
+        "orbital_launch_attempt_count": 167
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m2520briz-m_image_20190224012317.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4733,
+    "location_launch_attempt_count": 1245,
+    "pad_launch_attempt_count": 101,
+    "agency_launch_attempt_count": 115,
+    "orbital_launch_attempt_count_year": 39,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

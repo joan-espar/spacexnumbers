@@ -1,0 +1,99 @@
+{
+    "id": "26771108-3dcf-41c1-940d-d8ff4c444625",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/26771108-3dcf-41c1-940d-d8ff4c444625/",
+    "slug": "pslv-ca-cartosat-2b-alsat-2a-studsat-aissat-1-tisa",
+    "name": "PSLV-CA | Cartosat-2B, AlSat-2A, StudSat, AISSat-1, TIsat-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T17:57:26Z",
+    "net": "2010-07-12T03:52:00Z",
+    "window_end": "2010-07-12T03:52:00Z",
+    "window_start": "2010-07-12T03:52:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1472,
+        "configuration": {
+            "id": 43,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/43/",
+            "name": "PSLV",
+            "family": "PSLV",
+            "full_name": "PSLV-CA",
+            "variant": "CA"
+        }
+    },
+    "mission": {
+        "id": 405,
+        "name": "Cartosat-2B, AlSat-2A, StudSat, AISSat-1, TIsat-1",
+        "description": "Cartosat-2B is fourth of Cartosat series of Earth observation satellites to be deployed in sun-synchronous orbit. Its main purpose is to collect high resolution imagery for cartography purposes. Cartosat-2B was launched along with several small satellites for Algeria, Canada and Switzerland.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20230730102956.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5069,
+    "location_launch_attempt_count": 31,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 31,
+    "orbital_launch_attempt_count_year": 37,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

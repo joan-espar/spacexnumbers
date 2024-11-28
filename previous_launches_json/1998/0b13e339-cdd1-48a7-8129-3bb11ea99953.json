@@ -1,0 +1,94 @@
+{
+    "id": "0b13e339-cdd1-48a7-8129-3bb11ea99953",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0b13e339-cdd1-48a7-8129-3bb11ea99953/",
+    "slug": "paektusan-1-kwangmyongsong-1",
+    "name": "Paektusan 1 | Kwangmyongsong 1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:30:02Z",
+    "net": "1998-08-31T03:07:00Z",
+    "window_end": "1998-08-31T03:07:00Z",
+    "window_start": "1998-08-31T03:07:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 40,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/40/",
+        "name": "Korean Committee of Space Technology",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6875,
+        "configuration": {
+            "id": 343,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/343/",
+            "name": "Paektusan 1",
+            "family": "",
+            "full_name": "Paektusan 1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 5265,
+        "name": "Kwangmyongsong 1",
+        "description": "Thir first attempt to launch a North Korean satellite ended in vain, as the third stage of the Pekdosan-1 (a.k.a. Taepodong-1) launch vehicle failed shortly before it reached orbital velocity. Kwangmy\u014fngs\u014fng 1 would have beamed propaganda songs from space, if it had reached a stable orbit.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 184,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/184/",
+        "agency_id": null,
+        "name": "Satellite Launch Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Tonghae_Satellite_Launching_Ground",
+        "map_url": "https://www.google.com/maps?q=40.855799,129.665895",
+        "latitude": "40.855799",
+        "longitude": "129.665895",
+        "location": {
+            "id": 153,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/153/",
+            "name": "Tonghae Satellite Launching Ground",
+            "country_code": "PRK",
+            "description": "The Tonghae Satellite Launching Ground is a rocket launching site in North Korea.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_153_20200803142503.jpg",
+            "timezone_name": "Asia/Pyongyang",
+            "total_launch_count": 2,
+            "total_landing_count": 0
+        },
+        "country_code": "PRK",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_184_20200803143423.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4261,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 54,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

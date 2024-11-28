@@ -1,0 +1,119 @@
+{
+    "id": "9811adbb-bc94-49a3-a703-85c5ef97ef75",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9811adbb-bc94-49a3-a703-85c5ef97ef75/",
+    "slug": "delta-ii-gps-iia-9",
+    "name": "Delta II | GPS IIA-9",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-01-02T15:04:06Z",
+    "net": "1993-02-03T02:55:00Z",
+    "window_end": "1993-02-03T02:55:00Z",
+    "window_start": "1993-02-03T02:55:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6502,
+        "configuration": {
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/159/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925",
+            "variant": "7925"
+        }
+    },
+    "mission": {
+        "id": 4892,
+        "name": "GPS IIA-9",
+        "description": "GPS-2A (Global Positioning System) or Navstar-2A (Navigation System using Timing And ranging) are improved satellites of the second generation of the GPS navigation system.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030440.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 29,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/29/",
+            "name": "Global Positioning System",
+            "description": "The Global Positioning System (GPS), originally Navstar GPS, is a satellite-based radio navigation system owned by the United States government and operated by the United States Space Force. It is one of the global navigation satellite systems (GNSS) that provide geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites.",
+            "agencies": [
+                {
+                    "id": 1041,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/",
+                    "name": "United States Space Force",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/global2520posi_program_20231229182501.png",
+            "start_date": "1978-02-22T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.gps.gov/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3792,
+    "location_launch_attempt_count": 467,
+    "pad_launch_attempt_count": 101,
+    "agency_launch_attempt_count": 921,
+    "orbital_launch_attempt_count_year": 7,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

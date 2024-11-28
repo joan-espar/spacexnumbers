@@ -1,0 +1,94 @@
+{
+    "id": "dce0b178-8fc2-45d5-a2fc-594ca3e052ad",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dce0b178-8fc2-45d5-a2fc-594ca3e052ad/",
+    "slug": "ariane-44l-superbird-b-bs-2x",
+    "name": "Ariane 44L | Superbird B & BS 2x",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:22:19Z",
+    "net": "1990-02-22T23:17:00Z",
+    "window_end": "1990-02-22T23:17:00Z",
+    "window_start": "1990-02-22T23:17:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6246,
+        "configuration": {
+            "id": 225,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/225/",
+            "name": "Ariane 44L",
+            "family": "Ariane",
+            "full_name": "Ariane 44L",
+            "variant": "44L"
+        }
+    },
+    "mission": {
+        "id": 4636,
+        "name": "Superbird B & BS 2x",
+        "description": "Japanese communications satellites",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_44l_at_e_image_20240401082337.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3493,
+    "location_launch_attempt_count": 45,
+    "pad_launch_attempt_count": 11,
+    "agency_launch_attempt_count": 35,
+    "orbital_launch_attempt_count_year": 17,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

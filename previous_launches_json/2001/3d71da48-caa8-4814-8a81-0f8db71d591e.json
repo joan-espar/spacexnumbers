@@ -1,0 +1,94 @@
+{
+    "id": "3d71da48-caa8-4814-8a81-0f8db71d591e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3d71da48-caa8-4814-8a81-0f8db71d591e/",
+    "slug": "atlas-iias-ico-f2",
+    "name": "Atlas IIAS | ICO F2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:39:54Z",
+    "net": "2001-06-19T04:41:02Z",
+    "window_end": "2001-06-19T04:41:02Z",
+    "window_start": "2001-06-19T04:41:02Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+        "name": "Lockheed Martin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7046,
+        "configuration": {
+            "id": 255,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/255/",
+            "name": "Atlas IIAS",
+            "family": "Atlas",
+            "full_name": "Atlas IIAS",
+            "variant": "IIAS"
+        }
+    },
+    "mission": {
+        "id": 5435,
+        "name": "ICO F2",
+        "description": "The ICO-2 satellite was launched by British New ICO (formerly ICO Global Communications) to provide mobile communications and data/Internet services at S-band, supporting 4500 simultaneous calls.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 3,
+            "name": "Geosynchronous Orbit",
+            "abbrev": "GSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 122,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/122/",
+        "agency_id": 161,
+        "name": "Launch Complex 36B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=28.4705556,-80.542194",
+        "latitude": "28.4705556",
+        "longitude": "-80.542194",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_122_20200803143232.jpg",
+        "total_launch_count": 76,
+        "orbital_launch_attempt_count": 76
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4478,
+    "location_launch_attempt_count": 591,
+    "pad_launch_attempt_count": 69,
+    "agency_launch_attempt_count": 55,
+    "orbital_launch_attempt_count_year": 26,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

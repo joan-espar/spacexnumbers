@@ -1,0 +1,99 @@
+{
+    "id": "23ba3860-a7e8-4a81-8f41-9c9958e34e38",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/23ba3860-a7e8-4a81-8f41-9c9958e34e38/",
+    "slug": "kinetica-1-flight-3",
+    "name": "Kinetica 1 | Flight 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:59:24Z",
+    "net": "2024-01-23T04:03:00Z",
+    "window_end": "2024-01-23T04:16:00Z",
+    "window_start": "2024-01-23T03:52:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1040,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1040/",
+        "name": "CAS Space",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8173,
+        "configuration": {
+            "id": 483,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/483/",
+            "name": "Kinetica 1",
+            "family": "",
+            "full_name": "Kinetica 1",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6740,
+        "name": "Flight 3",
+        "description": "Carries 5 Earth and spatial observation satellites manufactured by MINOSPACE; details TBD:\r\n\r\n* Taijing-1-03\r\n* Taijing-2-02\r\n* Taijing-2-04\r\n* Taijing-3-02\r\n* Taijing-4-03",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 151,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/151/",
+        "agency_id": null,
+        "name": "Launch Area 130",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.8182,100.22514",
+        "latitude": "40.8182",
+        "longitude": "100.22514",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_151_20200803143425.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kinetica25201_image_20240123092350.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6605,
+    "location_launch_attempt_count": 221,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

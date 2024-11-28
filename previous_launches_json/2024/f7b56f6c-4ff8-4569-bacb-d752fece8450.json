@@ -1,0 +1,129 @@
+{
+    "id": "f7b56f6c-4ff8-4569-bacb-d752fece8450",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/f7b56f6c-4ff8-4569-bacb-d752fece8450/",
+    "slug": "atlas-v-551-ussf-51",
+    "name": "Atlas V 551 | USSF-51",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-07-31T14:29:48Z",
+    "net": "2024-07-30T10:45:00Z",
+    "window_end": "2024-07-30T15:45:00Z",
+    "window_start": "2024-07-30T10:45:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": 85,
+    "weather_concerns": "Cumulus Cloud Rule , Anvil Cloud Rules",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2742,
+        "configuration": {
+            "id": 27,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/27/",
+            "name": "Atlas V 551",
+            "family": "Atlas",
+            "full_name": "Atlas V 551",
+            "variant": "551"
+        }
+    },
+    "mission": {
+        "id": 6154,
+        "name": "USSF-51",
+        "description": "Classified payload for the US Space Force.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 25,
+            "name": "Unknown",
+            "abbrev": "N/A"
+        },
+        "agencies": [
+            {
+                "id": 1041,
+                "url": "https://lldev.thespacedevs.com/2.2.0/agencies/1041/",
+                "name": "United States Space Force",
+                "featured": false,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "USSF",
+                "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
+                "administrator": null,
+                "founding_year": "2019",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.spaceforce.mil/",
+                "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 988,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6727,
+    "location_launch_attempt_count": 966,
+    "pad_launch_attempt_count": 113,
+    "agency_launch_attempt_count": 163,
+    "orbital_launch_attempt_count_year": 138,
+    "location_launch_attempt_count_year": 39,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

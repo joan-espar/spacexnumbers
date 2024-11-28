@@ -1,0 +1,119 @@
+{
+    "id": "d30c3dbd-6cd1-4beb-80d0-ae94da6976d9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d30c3dbd-6cd1-4beb-80d0-ae94da6976d9/",
+    "slug": "titan-ii-glv-gemini-vii",
+    "name": "Titan II GLV | Gemini VII",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:09Z",
+    "net": "1965-12-04T19:30:03Z",
+    "window_end": "1965-12-04T19:30:03Z",
+    "window_start": "1965-12-04T19:30:03Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 204,
+        "configuration": {
+            "id": 98,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/98/",
+            "name": "Titan II",
+            "family": "Titan",
+            "full_name": "Titan II GLV",
+            "variant": "GLV"
+        }
+    },
+    "mission": {
+        "id": 785,
+        "name": "Gemini VII (Gemini 7)",
+        "description": "Gemini 7 was the fourth crewed mission of the NASA's Project Gemini. The mission was commanded by Command Pilor Frank F. Borman, II and Pilot James A. Lovell, Jr. The crew spent nearly 14 days in space, and their spacecraft was the passive target for the first crewed space rendezvous performed by Gemini 6A. The mission began on December 4, 1965, 19:30:03 UTC and ended on December 18, 1965, 14:05:04 UTC.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 18,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/18/",
+        "agency_id": null,
+        "name": "Launch Complex 19",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_19",
+        "map_url": "https://www.google.com/maps?q=28.506898,-80.554169",
+        "latitude": "28.506898",
+        "longitude": "-80.554169",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_18_20200803143356.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 11
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/titan2520ii_image_20190222030027.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/3/",
+            "name": "Gemini",
+            "description": "Project Gemini was NASA's second human spaceflight program. Conducted between projects Mercury and Apollo, Gemini started in 1961 and concluded in 1966.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520gem_program_20200820195350.png",
+            "start_date": "1961-12-07T00:00:00Z",
+            "end_date": "1966-11-15T19:21:04Z",
+            "info_url": "https://www.nasa.gov/mission_pages/gemini/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Project_Gemini",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 504,
+    "location_launch_attempt_count": 156,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 73,
+    "orbital_launch_attempt_count_year": 111,
+    "location_launch_attempt_count_year": 30,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

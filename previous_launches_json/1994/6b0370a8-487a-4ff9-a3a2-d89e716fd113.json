@@ -1,0 +1,94 @@
+{
+    "id": "6b0370a8-487a-4ff9-a3a2-d89e716fd113",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6b0370a8-487a-4ff9-a3a2-d89e716fd113/",
+    "slug": "proton-raduga-32",
+    "name": "Proton | Raduga 32",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:46:17Z",
+    "net": "1994-12-28T11:31:00Z",
+    "window_end": "1994-12-28T11:31:00Z",
+    "window_start": "1994-12-28T11:31:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6638,
+        "configuration": {
+            "id": 80,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/80/",
+            "name": "Proton",
+            "family": "Proton / UR-500",
+            "full_name": "Proton K/DM-2",
+            "variant": "K/DM-2"
+        }
+    },
+    "mission": {
+        "id": 5028,
+        "name": "Raduga 32",
+        "description": "Geostationary communications satellite for military and governmental puposes",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/31/",
+        "agency_id": null,
+        "name": "81/23 (81L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.073997,62.977999",
+        "latitude": "46.073997",
+        "longitude": "62.977999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_31_20200803143402.jpg",
+        "total_launch_count": 104,
+        "orbital_launch_attempt_count": 104
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3959,
+    "location_launch_attempt_count": 1048,
+    "pad_launch_attempt_count": 66,
+    "agency_launch_attempt_count": 27,
+    "orbital_launch_attempt_count_year": 91,
+    "location_launch_attempt_count_year": 29,
+    "pad_launch_attempt_count_year": 10,
+    "agency_launch_attempt_count_year": 13,
+    "type": "normal"
+}

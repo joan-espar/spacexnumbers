@@ -1,0 +1,99 @@
+{
+    "id": "8a9895bf-5618-47e7-b7b1-9c84fca06ed8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8a9895bf-5618-47e7-b7b1-9c84fca06ed8/",
+    "slug": "spaceshiptwo-vss-unity-24",
+    "name": "SpaceShipTwo | VSS Unity 24",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T09:00:53Z",
+    "net": "2023-04-26T13:47:00Z",
+    "window_end": "2023-04-26T13:47:00Z",
+    "window_start": "2023-04-26T13:47:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1024,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1024/",
+        "name": "Virgin Galactic",
+        "type": "Private"
+    },
+    "rocket": {
+        "id": 7849,
+        "configuration": {
+            "id": 465,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/465/",
+            "name": "SpaceShipTwo",
+            "family": "",
+            "full_name": "SpaceShipTwo",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6356,
+        "name": "VSS Unity 24",
+        "description": "Unpowered glide test",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 191,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/191/",
+        "agency_id": 1024,
+        "name": "Spaceport America",
+        "description": null,
+        "info_url": "https://www.spaceportamerica.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Spaceport_America",
+        "map_url": "https://www.google.com/maps?q=32.9902778,-106.9719162",
+        "latitude": "32.9902778",
+        "longitude": "-106.9719162",
+        "location": {
+            "id": 144,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/144/",
+            "name": "Air launch to Suborbital flight",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_144_20200803142439.jpg",
+            "timezone_name": "",
+            "total_launch_count": 86,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_spaceport_america_20210522162030.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spaceshiptwo_image_20210522140909.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 78,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 59,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

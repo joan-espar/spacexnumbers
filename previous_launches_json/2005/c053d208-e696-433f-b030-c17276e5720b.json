@@ -1,0 +1,94 @@
+{
+    "id": "c053d208-e696-433f-b030-c17276e5720b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c053d208-e696-433f-b030-c17276e5720b/",
+    "slug": "delta-ii-noaa-18",
+    "name": "Delta II | NOAA 18",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:52:47Z",
+    "net": "2005-05-20T10:22:01Z",
+    "window_end": "2005-05-20T10:22:01Z",
+    "window_start": "2005-05-20T10:22:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7225,
+        "configuration": {
+            "id": 56,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/56/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7320-10C",
+            "variant": "7320-10C"
+        }
+    },
+    "mission": {
+        "id": 5614,
+        "name": "NOAA 18",
+        "description": "NOAA-18, known before launch as NOAA-N, is a weather forecasting satellite run by NOAA. NOAA-N (18) was launched on May 20, 2005, into a sun-synchronous orbit at an altitude of 854 km above the Earth, with an orbital period of 102 minutes. It hosts the AMSU-A, MHS, AVHRR, Space Environment Monitor SEM/2 instrument and High Resolution Infrared Radiation Sounder (HIRS) instruments, as well as the SBUV/2 ozone-monitoring instrument. It is the first NOAA POES satellite to use MHS in place of AMSU-B. NOAA-18 also hosts Cospas-Sarsat payloads.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 39,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/39/",
+        "agency_id": null,
+        "name": "Space Launch Complex 2W",
+        "description": "SLC-2W was originally used for Delta, Thor-Agena and Delta II launches. After the last Delta II flight in 2018, SLC-2W was repurposed to launch Firefly Alpha rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7556,-120.6224",
+        "latitude": "34.7556",
+        "longitude": "-120.6224",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_39_20200803143542.jpg",
+        "total_launch_count": 97,
+        "orbital_launch_attempt_count": 97
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030834.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4712,
+    "location_launch_attempt_count": 621,
+    "pad_launch_attempt_count": 73,
+    "agency_launch_attempt_count": 1068,
+    "orbital_launch_attempt_count_year": 18,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

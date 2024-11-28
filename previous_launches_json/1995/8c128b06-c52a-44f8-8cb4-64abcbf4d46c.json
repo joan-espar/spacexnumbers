@@ -1,0 +1,179 @@
+{
+    "id": "8c128b06-c52a-44f8-8cb4-64abcbf4d46c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8c128b06-c52a-44f8-8cb4-64abcbf4d46c/",
+    "slug": "space-shuttle-atlantis-ov-104-sts-74",
+    "name": "Space Shuttle Atlantis / OV-104 | STS-74",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:48:55Z",
+    "net": "1995-11-12T12:30:43Z",
+    "window_end": "1995-11-12T12:30:43Z",
+    "window_start": "1995-11-12T12:30:43Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 197,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/197/",
+        "name": "Lockheed Martin Space Operations",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 394,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 794,
+        "name": "STS-74",
+        "description": "STS-74 was the fourth mission of the US/Russian Shuttle-Mir Program, and the second docking of the Space Shuttle with Mir. Space Shuttle Atlantis lifted off from Kennedy Space Center launch pad 39A on 12 November 1995. The mission ended 8 days later with the landing of Atlantis back at Kennedy. It was the second in a series of seven straight missions to the station flown by Atlantis.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/12/",
+            "name": "Shuttle\u2013Mir",
+            "description": "The Shuttle\u2013Mir program was a collaborative 11-mission space program between Russia and the United States that involved American Space Shuttles visiting the Russian space station Mir, Russian cosmonauts flying on the Shuttle, and an American astronaut flying aboard a Soyuz spacecraft to engage in long-duration expeditions aboard Mir.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shuttle25e225_program_20200821090507.png",
+            "start_date": "1993-09-01T00:00:00Z",
+            "end_date": "1998-06-12T18:00:18Z",
+            "info_url": "https://www.nasa.gov/audience/formedia/factsheet/shuttle_mir_factsheet.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Shuttle\u2013Mir_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/16/",
+            "name": "Mir",
+            "description": "Mir was a space station that operated in low Earth orbit from 1986 to 2001, operated by the Soviet Union and later by Russia. Mir was the first modular space station and was assembled in orbit from 1986 to 1996.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mir_program_20200821092345.jpeg",
+            "start_date": "1986-02-20T21:28:23Z",
+            "end_date": "2001-03-23T05:59:00Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Mir",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4028,
+    "location_launch_attempt_count": 90,
+    "pad_launch_attempt_count": 57,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 67,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

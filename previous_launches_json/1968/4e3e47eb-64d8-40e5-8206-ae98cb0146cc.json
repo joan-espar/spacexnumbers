@@ -1,0 +1,94 @@
+{
+    "id": "4e3e47eb-64d8-40e5-8206-ae98cb0146cc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4e3e47eb-64d8-40e5-8206-ae98cb0146cc/",
+    "slug": "molniya-m-molniya-1yu-15l",
+    "name": "Molniya-M | Molniya-1Yu 15L",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:48:39Z",
+    "net": "1968-12-16T09:15:03Z",
+    "window_end": "1968-12-16T09:15:03Z",
+    "window_start": "1968-12-16T09:15:03Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3857,
+        "configuration": {
+            "id": 106,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/106/",
+            "name": "Molniya-M",
+            "family": "R-7",
+            "full_name": "Molniya-M 2BL",
+            "variant": "2BL"
+        }
+    },
+    "mission": {
+        "id": 2275,
+        "name": "Molniya-1Yu 15L",
+        "description": "The Molniya-1Yu satellites were modified Molniya-1 satellites to test and calibrate the deep space tracking systems of the Soviet lunar program.",
+        "launch_designator": null,
+        "type": "Test Target",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 915,
+    "location_launch_attempt_count": 245,
+    "pad_launch_attempt_count": 112,
+    "agency_launch_attempt_count": 369,
+    "orbital_launch_attempt_count_year": 127,
+    "location_launch_attempt_count_year": 42,
+    "pad_launch_attempt_count_year": 12,
+    "agency_launch_attempt_count_year": 80,
+    "type": "normal"
+}

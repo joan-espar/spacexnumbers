@@ -1,0 +1,94 @@
+{
+    "id": "83f38440-8a73-4209-911d-fb4f30b1bda9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/83f38440-8a73-4209-911d-fb4f30b1bda9/",
+    "slug": "atlas-v-541-ussf-12",
+    "name": "Atlas V 541 | USSF-12",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:44:32Z",
+    "net": "2022-07-01T23:15:00Z",
+    "window_end": "2022-07-02T00:00:00Z",
+    "window_start": "2022-07-01T22:00:00Z",
+    "net_precision": null,
+    "probability": 50,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "USSF12",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 147,
+        "configuration": {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/1/",
+            "name": "Atlas V 541",
+            "family": "Atlas",
+            "full_name": "Atlas V 541",
+            "variant": "541"
+        }
+    },
+    "mission": {
+        "id": 6082,
+        "name": "USSF-12",
+        "description": "Two US national security payloads. The first is the Space Force's Wide Field of View (WFOV) Testbed satellite, the second is a multi-manifest satellite for the Department of Defense (DoD).",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 3,
+            "name": "Geosynchronous Orbit",
+            "abbrev": "GSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v252_image_20220629172200.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6258,
+    "location_launch_attempt_count": 849,
+    "pad_launch_attempt_count": 106,
+    "agency_launch_attempt_count": 152,
+    "orbital_launch_attempt_count_year": 76,
+    "location_launch_attempt_count_year": 19,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

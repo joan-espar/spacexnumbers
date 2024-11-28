@@ -1,0 +1,94 @@
+{
+    "id": "5ccc5cbb-0e32-43ae-a121-7251855a97e2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5ccc5cbb-0e32-43ae-a121-7251855a97e2/",
+    "slug": "titan-405a-quasar-11",
+    "name": "Titan 405A | Quasar 11",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:41:38Z",
+    "net": "1996-07-03T00:30:02Z",
+    "window_end": "1996-07-03T00:30:02Z",
+    "window_start": "1996-07-03T00:30:02Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6735,
+        "configuration": {
+            "id": 434,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/434/",
+            "name": "Titan 405A",
+            "family": "Titan",
+            "full_name": "Titan 405A",
+            "variant": "405A"
+        }
+    },
+    "mission": {
+        "id": 5125,
+        "name": "Quasar 11",
+        "description": "Satellite Data System (SDS) spacecraft are communication relay satellites for transmiting real-time data from US reconnaissance satellites (e.g. KH-11) in polar areas. They are also used for communications to USAF air craft on polar routes and connect the various ground stations of the Air Force Satellite Control Network (AFSCN). The spacecraft relay the downlinked KH-11 data to a ground station at Fort Belvoir, Virginia.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4083,
+    "location_launch_attempt_count": 515,
+    "pad_launch_attempt_count": 43,
+    "agency_launch_attempt_count": 967,
+    "orbital_launch_attempt_count_year": 42,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

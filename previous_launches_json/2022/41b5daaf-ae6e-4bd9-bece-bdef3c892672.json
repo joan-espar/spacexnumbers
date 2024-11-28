@@ -1,0 +1,94 @@
+{
+    "id": "41b5daaf-ae6e-4bd9-bece-bdef3c892672",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/41b5daaf-ae6e-4bd9-bece-bdef3c892672/",
+    "slug": "long-march-2d-advanced-space-borne-solar-observato",
+    "name": "Long March 2D | Advanced Space-borne Solar Observatory (ASO-S)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:13Z",
+    "net": "2022-10-08T23:43:00Z",
+    "window_end": "2022-10-08T23:59:00Z",
+    "window_start": "2022-10-08T23:32:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7648,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 6149,
+        "name": "Advanced Space-borne Solar Observatory (ASO-S)",
+        "description": "ASO-S (Advanced Space-borne Solar Observatory) is a Chinese solar space observatory that aims to study the interaction between the Sun's magnetic field, solar flares and coronal mass ejections. It's the first space solar observatory of China.\r\n\r\nASO-S is a 3-axis stabilized satellite with a mass of less than 1,000 kg with a pointing accuracy of 0.01\u00b0 and an orientation stability of 1 to 2 arc seconds every 20 seconds. The payload has a mass below 335 kg and consumes about 300 watts. The platform's pointing accuracy is lower than 0.01\u00b0, the measurement accuracy is lower than 1 arc second and the orientation drift is below 0.0004\u00b0/s.\r\n\r\nASO-S has three instruments:\r\n\r\n- The Full-Disc Vector Magnetograph (FMG) instrument is intended to map the magnetic field of the photosphere over the entire solar disk. It includes an imager, an optical polarization system and a CCD detector.\r\n\r\n- The Hard X-ray Imager (HXI) camera should image the whole solar disk in X-rays. The instrument is optimized to take images of solar flares.\r\n\r\n- A set of three LST (Lyman-alpha Solar Telescope) telescopes is used to observe the Lyman-alpha line (121.6 nm) of solar flares up to a distance of several solar radii from the Sun's disk. These three telescopes are SDI (to obtain an image of the solar disk), SCI (coronagraph for observation between 1.1 and 2.5 solar radii) and WST (white light emitted by the solar disk used for calibration purposes).",
+        "launch_designator": null,
+        "type": "Heliophysics",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6315,
+    "location_launch_attempt_count": 175,
+    "pad_launch_attempt_count": 93,
+    "agency_launch_attempt_count": 389,
+    "orbital_launch_attempt_count_year": 133,
+    "location_launch_attempt_count_year": 18,
+    "pad_launch_attempt_count_year": 10,
+    "agency_launch_attempt_count_year": 37,
+    "type": "normal"
+}

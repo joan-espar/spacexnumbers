@@ -1,0 +1,99 @@
+{
+    "id": "6109337b-0ac2-4a89-a5fe-dba37cb107fe",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6109337b-0ac2-4a89-a5fe-dba37cb107fe/",
+    "slug": "spaceshiptwo-galactic-01",
+    "name": "SpaceShipTwo | Galactic 01",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-12-27T13:36:01Z",
+    "net": "2023-06-29T15:28:38Z",
+    "window_end": "2023-06-29T15:28:38Z",
+    "window_start": "2023-06-29T15:28:38Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1024,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1024/",
+        "name": "Virgin Galactic",
+        "type": "Private"
+    },
+    "rocket": {
+        "id": 7848,
+        "configuration": {
+            "id": 465,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/465/",
+            "name": "SpaceShipTwo",
+            "family": "",
+            "full_name": "SpaceShipTwo",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6355,
+        "name": "Galactic 01",
+        "description": "Research mission for the Italian Air Force, first commercial Virgin Galactic mission.",
+        "launch_designator": null,
+        "type": "Biology",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 191,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/191/",
+        "agency_id": 1024,
+        "name": "Spaceport America",
+        "description": null,
+        "info_url": "https://www.spaceportamerica.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Spaceport_America",
+        "map_url": "https://www.google.com/maps?q=32.9902778,-106.9719162",
+        "latitude": "32.9902778",
+        "longitude": "-106.9719162",
+        "location": {
+            "id": 144,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/144/",
+            "name": "Air launch to Suborbital flight",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_144_20200803142439.jpg",
+            "timezone_name": "",
+            "total_launch_count": 86,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_spaceport_america_20210522162030.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spaceshiptwo_image_20210522140909.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 80,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 61,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

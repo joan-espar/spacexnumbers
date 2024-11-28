@@ -1,0 +1,129 @@
+{
+    "id": "715392d7-2ecb-4caf-81b1-ba5ba6b985ff",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/715392d7-2ecb-4caf-81b1-ba5ba6b985ff/",
+    "slug": "long-march-3be-l-sar4-01-ltdc-4a",
+    "name": "Long March 3B/E | L-SAR4-01 (LTDC-4A)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:48:27Z",
+    "net": "2023-08-12T17:26:00Z",
+    "window_end": "2023-08-12T18:05:00Z",
+    "window_start": "2023-08-12T16:46:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1562,
+        "configuration": {
+            "id": 50,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/50/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B/E",
+            "variant": "B/E"
+        }
+    },
+    "mission": {
+        "id": 6506,
+        "name": "L-SAR4-01 (LTDC-4A)",
+        "description": "China\u2019s (and globally) first synthetic aperture radar (SAR) satellite being put into geosynchronous orbit. It can provide unprecedented all-time Earth observations of an area near the same longitude and can provide unique non-interrupted observations for various uses.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 4,
+            "name": "Geosynchronous Transfer Orbit",
+            "abbrev": "GSTO"
+        },
+        "agencies": [
+            {
+                "id": 88,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+                "name": "China Aerospace Science and Technology Corporation",
+                "featured": true,
+                "type": "Government",
+                "country_code": "CHN",
+                "abbrev": "CASC",
+                "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+                "administrator": "Chairman & President: Lei Fanpei",
+                "founding_year": "1999",
+                "launchers": "Long March",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 494,
+                "consecutive_successful_launches": 36,
+                "successful_launches": 480,
+                "failed_launches": 14,
+                "pending_launches": 4,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://english.spacechina.com/",
+                "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230812191538.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6494,
+    "location_launch_attempt_count": 189,
+    "pad_launch_attempt_count": 105,
+    "agency_launch_attempt_count": 430,
+    "orbital_launch_attempt_count_year": 126,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 25,
+    "type": "normal"
+}

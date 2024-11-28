@@ -1,0 +1,836 @@
+{
+    "id": "da9a0172-062c-4b29-81d8-acf777d3777f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/da9a0172-062c-4b29-81d8-acf777d3777f/",
+    "slug": "starship-integrated-flight-test-6",
+    "flightclub_url": "https://flightclub.io/result?llId=da9a0172-062c-4b29-81d8-acf777d3777f",
+    "r_spacex_api_id": null,
+    "name": "Starship | Integrated Flight Test 6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-11-21T08:16:26Z",
+    "updates": [
+        {
+            "id": 9248,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Starship has splashed down in the planned location.",
+            "info_url": "https://x.com/i/broadcasts/1RDGlydZAeOJL",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-11-19T23:10:00Z"
+        },
+        {
+            "id": 9247,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Liftoff.",
+            "info_url": "https://x.com/i/broadcasts/1RDGlydZAeOJL",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-11-19T22:00:00Z"
+        },
+        {
+            "id": 9246,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Unofficial Webcast by SPACE AFFAIRS has started",
+            "info_url": "https://www.youtube.com/watch?v=ucEu075bgx0",
+            "created_by": "LL2",
+            "created_on": "2024-11-19T21:15:00Z"
+        },
+        {
+            "id": 9215,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "GO for launch on November 19.",
+            "info_url": "https://www.spacex.com/launches/mission/?missionId=starship-flight-6",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-11-16T03:17:00Z"
+        },
+        {
+            "id": 9105,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "NET November 18",
+            "info_url": "https://www.spacex.com/launches/mission/?missionId=starship-flight-6",
+            "created_by": "Nosu",
+            "created_on": "2024-11-06T18:49:00Z"
+        },
+        {
+            "id": 8880,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added launch.",
+            "info_url": "https://x.com/elonmusk/status/1845633730154545465",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-10-14T01:57:00Z"
+        }
+    ],
+    "net": "2024-11-19T22:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "window_end": "2024-11-19T22:30:00Z",
+    "window_start": "2024-11-19T22:00:00Z",
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 433,
+        "consecutive_successful_launches": 50,
+        "successful_launches": 421,
+        "failed_launches": 12,
+        "pending_launches": 115,
+        "consecutive_successful_landings": 3,
+        "successful_landings": 381,
+        "failed_landings": 26,
+        "attempted_landings": 406,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+    },
+    "rocket": {
+        "id": 8378,
+        "configuration": {
+            "id": 464,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/464/",
+            "name": "Starship",
+            "active": true,
+            "reusable": true,
+            "description": "Fully reusable two-stage super heavy-lift launch vehicle.",
+            "family": "Starship",
+            "full_name": "Starship",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": null,
+                "total_launch_count": 433,
+                "consecutive_successful_launches": 50,
+                "successful_launches": 421,
+                "failed_launches": 12,
+                "pending_launches": 115,
+                "consecutive_successful_landings": 3,
+                "successful_landings": 381,
+                "failed_landings": 26,
+                "attempted_landings": 406,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+            },
+            "program": [
+                {
+                    "id": 1,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+                    "name": "SpaceX Starship",
+                    "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+                    "agencies": [
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex2520star_program_20201129204513.png",
+                    "start_date": "2019-03-01T05:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.spacex.com/vehicles/starship/",
+                    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                    "mission_patches": [],
+                    "type": {
+                        "id": 7,
+                        "name": "Technology"
+                    }
+                }
+            ],
+            "variant": "",
+            "alias": "",
+            "min_stage": 2,
+            "max_stage": 2,
+            "length": 120,
+            "diameter": 9,
+            "maiden_flight": "2023-04-20",
+            "launch_cost": null,
+            "launch_mass": 5000,
+            "leo_capacity": 100000,
+            "gto_capacity": 21000,
+            "to_thrust": 72000,
+            "apogee": null,
+            "vehicle_range": null,
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_20240314160301.jpg",
+            "info_url": "https://www.spacex.com/vehicles/starship/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "total_launch_count": 6,
+            "consecutive_successful_launches": 4,
+            "successful_launches": 4,
+            "failed_launches": 2,
+            "pending_launches": 2,
+            "attempted_landings": 5,
+            "successful_landings": 2,
+            "failed_landings": 3,
+            "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 603,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 188,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/188/",
+                    "details": "Super Heavy booster used for the sixth Starship integrated flight test.  Lost to the ocean after a soft splashdown; as part of an offshore divert from the originally planned tower catch at the launch site.",
+                    "flight_proven": false,
+                    "serial_number": "Booster 13",
+                    "status": "lost",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/booster_13_duri_image_20241023102335.jpg",
+                    "successful_landings": 0,
+                    "attempted_landings": 1,
+                    "flights": 1,
+                    "last_launch_date": "2024-11-19T22:00:00Z",
+                    "first_launch_date": "2024-11-19T22:00:00Z"
+                },
+                "landing": {
+                    "id": 1464,
+                    "attempt": true,
+                    "success": false,
+                    "description": "The Superheavy booster No. 13 did not attempt a return back to the launch site at Starbase and splashed down in the Gulf of Mexico instead; due to hardware problems on the launch and catch tower triggering an abort.",
+                    "downrange_distance": 0,
+                    "location": {
+                        "id": 39,
+                        "name": "Orbital Launch Mount A",
+                        "abbrev": "OLM-A",
+                        "description": "",
+                        "location": {
+                            "id": 143,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+                            "name": "SpaceX Starbase; TX, USA",
+                            "country_code": "USA",
+                            "description": "Starbase is an industrial complex for Starship rockets and the headquarters of the American aerospace manufacturer company SpaceX. Located near Brownsville; Texas, United States, it has been under construction since the late 2010s by SpaceX. Starbase is composed of a spaceport near the Gulf of Mexico, a production facility at the Boca Chica village, and a small structure test site along the Texas State Highway 4.",
+                            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_143_20200803142438.jpg",
+                            "timezone_name": "America/Chicago",
+                            "total_launch_count": 15,
+                            "total_landing_count": 11
+                        },
+                        "successful_landings": 1
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": null,
+                "previous_flight": null
+            }
+        ],
+        "spacecraft_stage": {
+            "id": 861,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/861/",
+            "mission_end": "2024-11-19T23:05:32Z",
+            "destination": "Indian Ocean",
+            "launch_crew": [],
+            "onboard_crew": [],
+            "landing_crew": [],
+            "spacecraft": {
+                "id": 600,
+                "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/600/",
+                "name": "Ship 31",
+                "serial_number": "S31",
+                "is_placeholder": false,
+                "in_space": false,
+                "time_in_space": "PT1H5M32S",
+                "time_docked": "P0D",
+                "flights_count": 1,
+                "mission_ends_count": 1,
+                "status": {
+                    "id": 3,
+                    "name": "Destroyed"
+                },
+                "description": "Ship 31 (S31) is the 2nd stage vehicle; used for the sixth Starship integrated flight test.",
+                "spacecraft_config": {
+                    "id": 26,
+                    "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/26/",
+                    "name": "Starship",
+                    "type": {
+                        "id": 6,
+                        "name": "Reuseable Upper Stage"
+                    },
+                    "agency": {
+                        "id": 121,
+                        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                        "name": "SpaceX",
+                        "featured": true,
+                        "type": "Commercial",
+                        "country_code": "USA",
+                        "abbrev": "SpX",
+                        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                        "administrator": "CEO: Elon Musk",
+                        "founding_year": "2002",
+                        "launchers": "Falcon | Starship",
+                        "spacecraft": "Dragon",
+                        "parent": null,
+                        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
+                    },
+                    "in_use": true,
+                    "capability": "More than 100 tons to Earth orbit",
+                    "history": "The Starship second stage was testing during a number of low and high altitude suborbital flights before the first orbital launch attempt.",
+                    "details": "Second stage of the two-stage Starship super heavy-lift launch vehicle.",
+                    "maiden_flight": "2023-04-20",
+                    "height": 50,
+                    "diameter": 9,
+                    "human_rated": false,
+                    "crew_capacity": 0,
+                    "payload_capacity": 100000,
+                    "payload_return_capacity": null,
+                    "flight_life": "Unknown at this stage",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_image_20231116184708.jpeg",
+                    "nation_url": null,
+                    "wiki_link": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                    "info_link": "https://www.spacex.com/vehicles/starship/"
+                }
+            },
+            "landing": {
+                "id": 1465,
+                "attempt": true,
+                "success": true,
+                "description": "Starship Ship 31 made an atmospheric re-entry and soft landing over the Indian Ocean.",
+                "downrange_distance": null,
+                "location": {
+                    "id": 32,
+                    "name": "Indian Ocean",
+                    "abbrev": "IND",
+                    "description": "Indian Ocean",
+                    "location": null,
+                    "successful_landings": 6
+                },
+                "type": {
+                    "id": 3,
+                    "name": "Ocean",
+                    "abbrev": "Ocean",
+                    "description": "No recovery attempt"
+                }
+            },
+            "docking_events": []
+        }
+    },
+    "mission": {
+        "id": 6959,
+        "name": "Integrated Flight Test 6",
+        "description": "Sixth test flight of the two-stage Starship launch vehicle.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [
+            {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": null,
+                "total_launch_count": 433,
+                "consecutive_successful_launches": 50,
+                "successful_launches": 421,
+                "failed_launches": 12,
+                "pending_launches": 115,
+                "consecutive_successful_landings": 3,
+                "successful_landings": 381,
+                "failed_landings": 26,
+                "attempted_landings": 406,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 188,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/188/",
+        "agency_id": 121,
+        "name": "Orbital Launch Mount A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_South_Texas_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=25.997116;-97.15503099856647",
+        "latitude": "25.997116",
+        "longitude": "-97.15503099856647",
+        "location": {
+            "id": 143,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+            "name": "SpaceX Starbase; TX, USA",
+            "country_code": "USA",
+            "description": "Starbase is an industrial complex for Starship rockets and the headquarters of the American aerospace manufacturer company SpaceX. Located near Brownsville; Texas, United States, it has been under construction since the late 2010s by SpaceX. Starbase is composed of a spaceport near the Gulf of Mexico, a production facility at the Boca Chica village, and a small structure test site along the Texas State Highway 4.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_143_20200803142438.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 15,
+            "total_landing_count": 11
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_orbital_launch_mount_a_20210514061342.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 0
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "source": "www.spacex.com",
+            "title": "SpaceX",
+            "description": "SpaceX designs; manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/mission/?missionId=starship-flight-6",
+            "type": {
+                "id": 1,
+                "name": "Official Page"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            }
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 8,
+            "source": "youtube.com",
+            "publisher": "The Space Devs",
+            "title": "SpaceX Integrated Flight Test 6",
+            "description": "On Tuesday November 19; 2024, SpaceX launched the Integrated Flight Test 6 mission with a Starship from Orbital Launch Mount A at SpaceX Starbase, TX, USA.  Description generated from the Launch Libra...",
+            "feature_image": "https://i.ytimg.com/vi/XpyWcPuepV8/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=XpyWcPuepV8",
+            "type": {
+                "id": 4,
+                "name": "Unofficial Re-stream"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-11-20T00:08:15Z",
+            "end_time": "2024-11-20T01:56:41Z"
+        },
+        {
+            "priority": 9,
+            "source": "youtube.com",
+            "publisher": "SPACE AFFAIRS",
+            "title": "SpaceX - Starship Suborbital Test Flight 6 - OLP-A - Starbase; Texas - November 19, 2024",
+            "description": "Launch Date: November 19; 2024 Launch Time:  4:00 p.m. CT, 5:00 p.m. ET, 2200 UTC, 23:00 CET Launch Window: Opens 4:00 p.m. CT - 30 Minutes Launch Status: Mission in Preparation and announced Launch P...",
+            "feature_image": "https://i.ytimg.com/vi/ucEu075bgx0/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=ucEu075bgx0",
+            "type": {
+                "id": 3,
+                "name": "Unofficial Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-11-19T21:15:13Z",
+            "end_time": "2024-11-19T23:13:25Z"
+        },
+        {
+            "priority": 10,
+            "source": "x.com",
+            "publisher": "SpaceX",
+            "title": "Starship's Sixth Flight Test",
+            "description": "Livestream on X",
+            "feature_image": "https://pbs.twimg.com/media/GceY4hsa4AAF-z1.jpg",
+            "url": "https://x.com/i/broadcasts/1RDGlydZAeOJL",
+            "type": {
+                "id": 1,
+                "name": "Official Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-11-19T21:19:55Z",
+            "end_time": "2024-11-19T23:08:20Z"
+        },
+        {
+            "priority": 11,
+            "source": "youtube.com",
+            "publisher": "Everyday Astronaut",
+            "title": "[4K] Starship Flight 6: Watch SpaceX launch Starship!",
+            "description": "[TIME SUBJECT TO CHANGE] This is the sixth fully integrated test flight of Starship with its Super Heavy booster; the largest and most powerful rocket to ever fly. It produces over twice as much thrus...",
+            "feature_image": "https://i.ytimg.com/vi/DjDFirLcQDM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=DjDFirLcQDM",
+            "type": {
+                "id": 3,
+                "name": "Unofficial Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-11-19T19:00:42Z",
+            "end_time": "2024-11-20T00:26:38Z"
+        },
+        {
+            "priority": 12,
+            "source": "youtube.com",
+            "publisher": "NASASpaceflight",
+            "title": "\ud83d\udd34FULL REPLAY: SpaceX Launches Starship Flight 6 (Booster Catch Aborted)",
+            "description": "SpaceX is preparing to launch the sixth Starship flight test. The window for the launch opens at 4 p.m. local time on Tuesday. The company has confirmed on its website; and X, that it is targeting a p...",
+            "feature_image": "https://i.ytimg.com/vi/6yd_cpPP4fE/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=6yd_cpPP4fE",
+            "type": {
+                "id": 3,
+                "name": "Unofficial Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-11-19T18:35:11Z",
+            "end_time": "2024-11-20T00:13:44Z"
+        }
+    ],
+    "webcast_live": false,
+    "timeline": [
+        {
+            "type": {
+                "id": 1,
+                "abbrev": "GO for Prop Load",
+                "description": "Launch director verifies go for propellant load"
+            },
+            "relative_time": "-PT1H15M"
+        },
+        {
+            "type": {
+                "id": 86,
+                "abbrev": "Stage 2 LNG Load",
+                "description": "Start of liquid methane loading in the second stage"
+            },
+            "relative_time": "-PT49M50S"
+        },
+        {
+            "type": {
+                "id": 4,
+                "abbrev": "Stage 2 LOX Load",
+                "description": "Start of liquid oxygen loading in the second stage"
+            },
+            "relative_time": "-PT49M21S"
+        },
+        {
+            "type": {
+                "id": 87,
+                "abbrev": "Stage 1 LNG Load",
+                "description": "Start of liquid methane loading in the first stage"
+            },
+            "relative_time": "-PT41M15S"
+        },
+        {
+            "type": {
+                "id": 3,
+                "abbrev": "Stage 1 LOX Load",
+                "description": "Start of liquid oxygen loading in the first stage"
+            },
+            "relative_time": "-PT35M39S"
+        },
+        {
+            "type": {
+                "id": 5,
+                "abbrev": "Engine Chill",
+                "description": "Start of engine chilling"
+            },
+            "relative_time": "-PT19M40S"
+        },
+        {
+            "type": {
+                "id": 89,
+                "abbrev": "Stage 2 Propellant Load Complete",
+                "description": "End of propellant loading in the second stage"
+            },
+            "relative_time": "-PT3M20S"
+        },
+        {
+            "type": {
+                "id": 88,
+                "abbrev": "Stage 1 Propellant Load Complete",
+                "description": "End of propellant loading in the first stage"
+            },
+            "relative_time": "-PT2M50S"
+        },
+        {
+            "type": {
+                "id": 8,
+                "abbrev": "GO for Launch",
+                "description": "Launch director verifies go for launch"
+            },
+            "relative_time": "-PT30S"
+        },
+        {
+            "type": {
+                "id": 90,
+                "abbrev": "Flame Deflector Activation",
+                "description": "Activation of the flame deflector ahead of engine ignition"
+            },
+            "relative_time": "-PT10S"
+        },
+        {
+            "type": {
+                "id": 9,
+                "abbrev": "Ignition",
+                "description": "Start of the engine ignition sequence"
+            },
+            "relative_time": "-PT3S"
+        },
+        {
+            "type": {
+                "id": 91,
+                "abbrev": "Excitement Guaranteed",
+                "description": "Excitement guaranteed"
+            },
+            "relative_time": "P0D"
+        },
+        {
+            "type": {
+                "id": 10,
+                "abbrev": "Liftoff",
+                "description": "First upwards movement of the rocket"
+            },
+            "relative_time": "PT2S"
+        },
+        {
+            "type": {
+                "id": 11,
+                "abbrev": "Max-Q",
+                "description": "Maximum dynamic pressure"
+            },
+            "relative_time": "PT1M2S"
+        },
+        {
+            "type": {
+                "id": 12,
+                "abbrev": "MECO",
+                "description": "Cut-off of the main engine"
+            },
+            "relative_time": "PT2M32S"
+        },
+        {
+            "type": {
+                "id": 13,
+                "abbrev": "Stage 2 Separation",
+                "description": "Separation of the second stage from the first"
+            },
+            "relative_time": "PT2M39S"
+        },
+        {
+            "type": {
+                "id": 39,
+                "abbrev": "Booster Boostback Burn Startup",
+                "description": "Start of the booster boostback burn"
+            },
+            "relative_time": "PT2M44S"
+        },
+        {
+            "type": {
+                "id": 40,
+                "abbrev": "Booster Boostback Burn Shutdown",
+                "description": "End of the booster boostback burn"
+            },
+            "relative_time": "PT3M38S"
+        },
+        {
+            "type": {
+                "id": 104,
+                "abbrev": "Booster Hot Stage Jettison",
+                "description": "Separation of the hot stage from the booster"
+            },
+            "relative_time": "PT3M40S"
+        },
+        {
+            "type": {
+                "id": 92,
+                "abbrev": "Booster Transonic",
+                "description": "Booster passing through the transonic regime"
+            },
+            "relative_time": "PT6M25S"
+        },
+        {
+            "type": {
+                "id": 18,
+                "abbrev": "Stage 1 Landing Burn",
+                "description": "Start of the first stage landing burn"
+            },
+            "relative_time": "PT6M38S"
+        },
+        {
+            "type": {
+                "id": 19,
+                "abbrev": "Stage 1 Landing",
+                "description": "Landing of the first stage"
+            },
+            "relative_time": "PT7M"
+        },
+        {
+            "type": {
+                "id": 20,
+                "abbrev": "SECO-1",
+                "description": "First cut-off of the second engine"
+            },
+            "relative_time": "PT8M27S"
+        },
+        {
+            "type": {
+                "id": 85,
+                "abbrev": "SEB-2",
+                "description": "2nd burn of the second engine"
+            },
+            "relative_time": "PT37M46S"
+        },
+        {
+            "type": {
+                "id": 95,
+                "abbrev": "Atmospheric Entry",
+                "description": "Start of the atmospheric re-entry"
+            },
+            "relative_time": "PT47M13S"
+        },
+        {
+            "type": {
+                "id": 96,
+                "abbrev": "Starship Transonic",
+                "description": "Starship passing through the transonic regime"
+            },
+            "relative_time": "PT1H2M6S"
+        },
+        {
+            "type": {
+                "id": 97,
+                "abbrev": "Starship Subsonic",
+                "description": "Starship reaches a subsonic velocity"
+            },
+            "relative_time": "PT1H3M12S"
+        },
+        {
+            "type": {
+                "id": 105,
+                "abbrev": "Landing Flip",
+                "description": "Flip maneuver to set the orientation for landing"
+            },
+            "relative_time": "PT1H4M56S"
+        },
+        {
+            "type": {
+                "id": 106,
+                "abbrev": "Starship Landing Burn",
+                "description": "Start of the Starship orbital stage landing burn"
+            },
+            "relative_time": "PT1H5M1S"
+        },
+        {
+            "type": {
+                "id": 98,
+                "abbrev": "Starship Landing",
+                "description": "Landing of the Starship orbital stage"
+            },
+            "relative_time": "PT1H5M24S"
+        }
+    ],
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_20241121081619.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+            "name": "SpaceX Starship",
+            "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+            "agencies": [
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex2520star_program_20201129204513.png",
+            "start_date": "2019-03-01T05:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "mission_patches": [],
+            "type": {
+                "id": 7,
+                "name": "Technology"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 15,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 430,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 119,
+    "pad_turnaround": "P37DT9H35M",
+    "mission_patches": [
+        {
+            "id": 773,
+            "name": "Starship IFT patch",
+            "priority": 10,
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ],
+    "type": "detailed"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "4360ffb4-efae-415b-bb0b-6abfc6c4c586",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4360ffb4-efae-415b-bb0b-6abfc6c4c586/",
+    "slug": "delta-ii-opportunity-rover",
+    "name": "Delta II | Opportunity Rover",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:53Z",
+    "net": "2003-07-08T03:18:15Z",
+    "window_end": "2003-07-08T03:18:15Z",
+    "window_start": "2003-07-08T03:18:15Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7141,
+        "configuration": {
+            "id": 155,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/155/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925H-9.5",
+            "variant": "7925H-9.5"
+        }
+    },
+    "mission": {
+        "id": 5530,
+        "name": "Opportunity Rover",
+        "description": "Opportunity, also known as MER-B or MER-1, and nicknamed \"Oppy\", is a robotic rover that was active on Mars from 2004 until the middle of 2018. Opportunity was able to stay operational for 5111 sols after landing, maintaining its power and key systems through continual recharging of its batteries using solar power, and hibernating during events such as dust storms to save power. Due to the planetary 2018 dust storm on Mars, Opportunity ceased communications on June 10 and entered hibernation on June 12, 2018. It was hoped it would reboot once the weather cleared, but it did not, suggesting either a catastrophic failure or that a layer of dust had covered its solar panels.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030358.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4608,
+    "location_launch_attempt_count": 612,
+    "pad_launch_attempt_count": 119,
+    "agency_launch_attempt_count": 1052,
+    "orbital_launch_attempt_count_year": 32,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

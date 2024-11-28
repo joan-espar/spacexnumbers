@@ -1,0 +1,94 @@
+{
+    "id": "e5df737b-ac37-4e09-80ae-001c592452d0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e5df737b-ac37-4e09-80ae-001c592452d0/",
+    "slug": "pegasus-xl-8-x-cygnss",
+    "name": "Pegasus XL | 8 x CYGNSS",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:09:26Z",
+    "net": "2016-12-15T13:37:21Z",
+    "window_end": "2016-12-15T14:21:00Z",
+    "window_start": "2016-12-15T13:21:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 179,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/179/",
+        "name": "Orbital ATK",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1973,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 168,
+        "name": "8 x CYGNSS",
+        "description": "CYGNSS or Cyclone Global Navigation Satellite System is a NASA developed system to improve hurricane forecasting. It is a constellation of 8 small observation satellites, 27.5 kg each, that will make accurate measurements of ocean surface winds in and near the eye of the storm throughout the lifecycle of tropical cyclones, typhoons & hurricanes.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 84,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/84/",
+        "agency_id": null,
+        "name": "Cape Canaveral",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral",
+        "map_url": "https://www.google.com/maps?q=28.455556,-80.527778",
+        "latitude": "28.455556",
+        "longitude": "-80.527778",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_84_20200803143436.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5610,
+    "location_launch_attempt_count": 43,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 81,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

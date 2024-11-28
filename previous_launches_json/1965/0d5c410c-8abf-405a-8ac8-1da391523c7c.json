@@ -1,0 +1,94 @@
+{
+    "id": "0d5c410c-8abf-405a-8ac8-1da391523c7c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0d5c410c-8abf-405a-8ac8-1da391523c7c/",
+    "slug": "kosmos-65s3-strela-1-121314",
+    "name": "Kosmos 65S3 | Strela-1 12,13,14",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:26:40Z",
+    "net": "1965-03-15T11:00:00Z",
+    "window_end": "1965-03-15T11:00:00Z",
+    "window_start": "1965-03-15T11:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3375,
+        "configuration": {
+            "id": 329,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/329/",
+            "name": "Kosmos 65S3",
+            "family": "Kosmos",
+            "full_name": "Kosmos 65S3",
+            "variant": "65S3"
+        }
+    },
+    "mission": {
+        "id": 1796,
+        "name": "Strela-1 12,13,14",
+        "description": "The Strela-1 satellites were prototype store-dump communications satellites for tactical communication.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 164,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/164/",
+        "agency_id": null,
+        "name": "41/15",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=45.976,63.666806",
+        "latitude": "45.976",
+        "longitude": "63.666806",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_164_20200803143415.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 417,
+    "location_launch_attempt_count": 91,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 118,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}

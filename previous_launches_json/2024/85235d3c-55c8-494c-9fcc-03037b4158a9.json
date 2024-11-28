@@ -1,0 +1,99 @@
+{
+    "id": "85235d3c-55c8-494c-9fcc-03037b4158a9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/85235d3c-55c8-494c-9fcc-03037b4158a9/",
+    "slug": "long-march-2cyz-1s-dro-ab",
+    "name": "Long March 2C/YZ-1S | DRO-A/B",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2024-03-14T10:22:56Z",
+    "net": "2024-03-13T12:51:00Z",
+    "window_end": "2024-03-13T12:59:00Z",
+    "window_start": "2024-03-13T12:39:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Upper stage problem; payload deployed to wrong orbit.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8218,
+        "configuration": {
+            "id": 156,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/156/",
+            "name": "Long March 2C/YZ-1S",
+            "family": "Long March",
+            "full_name": "Long March 2C/YZ-1S",
+            "variant": "C/YZ-1S"
+        }
+    },
+    "mission": {
+        "id": 6790,
+        "name": "DRO-A/B",
+        "description": "Two spacecraft by the Chinese Academy of Sciences designed to perform communication and navigation testing from a Distant Retrograde Orbit (DRO) around the Moon with a 3rd satellite in Low Earth Orbit.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2c-i_image_20210908194304.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6638,
+    "location_launch_attempt_count": 202,
+    "pad_launch_attempt_count": 89,
+    "agency_launch_attempt_count": 458,
+    "orbital_launch_attempt_count_year": 49,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

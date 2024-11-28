@@ -1,0 +1,99 @@
+{
+    "id": "01032968-e280-4306-b44c-f39ddf5bf1ab",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/01032968-e280-4306-b44c-f39ddf5bf1ab/",
+    "slug": "long-march-3byz-1-beidou-3-m25-m27",
+    "name": "Long March 3B/YZ-1 | Beidou-3 M25 & M27",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-23T18:02:08Z",
+    "net": "2024-09-19T01:14:00Z",
+    "window_end": "2024-09-19T01:30:00Z",
+    "window_start": "2024-09-19T00:54:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8354,
+        "configuration": {
+            "id": 78,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/78/",
+            "name": "Long March 3B/YZ-1",
+            "family": "Long March",
+            "full_name": "Long March 3B/YZ-1",
+            "variant": "B/YZ-1"
+        }
+    },
+    "mission": {
+        "id": 6935,
+        "name": "Beidou-3 M25 & M27",
+        "description": "These two satellites will be used to provide global navigation coverage as part of the Chinese Beidou (Compass) satellite navigation system.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6761,
+    "location_launch_attempt_count": 211,
+    "pad_launch_attempt_count": 112,
+    "agency_launch_attempt_count": 482,
+    "orbital_launch_attempt_count_year": 172,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 30,
+    "type": "normal"
+}

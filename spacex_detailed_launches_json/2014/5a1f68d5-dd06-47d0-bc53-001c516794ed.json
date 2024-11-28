@@ -1,0 +1,264 @@
+{
+    "id": "5a1f68d5-dd06-47d0-bc53-001c516794ed",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5a1f68d5-dd06-47d0-bc53-001c516794ed/",
+    "slug": "falcon-9-v11-thaicom-6",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 v1.1 | Thaicom-6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T00:37:28Z",
+    "updates": [],
+    "net": "2014-01-06T22:06:00Z",
+    "net_precision": null,
+    "window_end": "2014-01-06T22:06:00Z",
+    "window_start": "2014-01-06T22:06:00Z",
+    "probability": -1,
+    "holdreason": null,
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 249,
+        "consecutive_successful_launches": 10,
+        "successful_launches": 239,
+        "failed_launches": 10,
+        "pending_launches": 110,
+        "consecutive_successful_landings": 118,
+        "successful_landings": 200,
+        "failed_landings": 17,
+        "attempted_landings": 217,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 1733,
+        "configuration": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/14/",
+            "name": "Falcon 9",
+            "active": false,
+            "reusable": false,
+            "description": "Falcon 9 v1.1 is a significantly redesigned version of the its predecessor; including a higher payload capacity. This version arranges the engines in a structural form SpaceX calls an Octaweb.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 v1.1",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 249,
+                "consecutive_successful_launches": 10,
+                "successful_launches": 239,
+                "failed_launches": 10,
+                "pending_launches": 110,
+                "consecutive_successful_landings": 118,
+                "successful_landings": 200,
+                "failed_landings": 17,
+                "attempted_landings": 217,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights; covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "v1.1",
+            "alias": "",
+            "min_stage": 2,
+            "max_stage": 2,
+            "length": 68.4,
+            "diameter": 3.65,
+            "maiden_flight": "2013-09-29",
+            "launch_cost": "61200000",
+            "launch_mass": 506,
+            "leo_capacity": 13150,
+            "gto_capacity": 4850,
+            "to_thrust": 5883,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon252092520v1.1_image_20190222030927.jpeg",
+            "info_url": "http://www.spacex.com/falcon9",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
+            "total_launch_count": 15,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 14,
+            "failed_launches": 1,
+            "pending_launches": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 8,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 15,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/15/",
+                    "details": "",
+                    "flight_proven": true,
+                    "serial_number": "B1005",
+                    "status": "lost",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/15_image_20190226091005.jpg",
+                    "successful_landings": 0,
+                    "attempted_landings": 0,
+                    "flights": 1,
+                    "last_launch_date": "2014-01-06T22:06:00Z",
+                    "first_launch_date": "2014-01-06T22:06:00Z"
+                },
+                "landing": {
+                    "id": 45,
+                    "attempt": false,
+                    "success": null,
+                    "description": "",
+                    "location": null,
+                    "type": null
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 808,
+        "name": "Thaicom-6",
+        "description": "Thaicom 6 is a planned Thai television satellite of the Thaicom series; to be operated by Thaicom Public Company Limited (formerly Shin Satellite Public Company Limited), a subsidiary of Shin Corporation, headquartered in Bangkok, Thailand. Thaicom 6 will be colocated with Thaicom 5 at 78.5 degrees East, (\"Hot Bird\" position), in Geostationary orbit. The total cost for the satellite is US$160 million. The launch is planned for January 3, 2014 by Space Exploration Technologies Corp. on a Falcon 9 v1.1 launch vehicle.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        }
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122;-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 888,
+            "total_landing_count": 34
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 182,
+        "orbital_launch_attempt_count": 182
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 0,
+            "title": "SpaceX Webcast - Thaicom 6 Falcon 9 Launch Success! January 6; 2014",
+            "description": "SpaceX Webcast Thaicom 6 Falcon 9 successful Launch on January 6; 2014 http://www.spacex.com/webcast/ Twitter: https://twitter.com/megneous Facebook: https:/...",
+            "feature_image": "https://i.ytimg.com/vi/AnSNRzMEmCU/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=AnSNRzMEmCU"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon252092520v1.1_image_20190222030927.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5342,
+    "location_launch_attempt_count": 704,
+    "pad_launch_attempt_count": 62,
+    "agency_launch_attempt_count": 13,
+    "orbital_launch_attempt_count_year": 2,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "mission_patches": [
+        {
+            "id": 564,
+            "name": "Thaicom-6 Patch",
+            "priority": 10,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/thaicom-62520p_mission_patch_20211031044158.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ]
+}

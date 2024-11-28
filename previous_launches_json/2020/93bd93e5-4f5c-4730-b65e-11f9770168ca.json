@@ -1,0 +1,94 @@
+{
+    "id": "93bd93e5-4f5c-4730-b65e-11f9770168ca",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/93bd93e5-4f5c-4730-b65e-11f9770168ca/",
+    "slug": "ceres-1-tianqi-11",
+    "name": "Ceres-1 | Tianqi-11",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:42:03Z",
+    "net": "2020-11-07T07:12:00Z",
+    "window_end": "2020-11-07T07:42:00Z",
+    "window_start": "2020-11-07T07:06:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1021,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2806,
+        "configuration": {
+            "id": 461,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/461/",
+            "name": "Ceres-1",
+            "family": "Ceres-1",
+            "full_name": "Ceres-1",
+            "variant": "Ceres-1"
+        }
+    },
+    "mission": {
+        "id": 1206,
+        "name": "Tianqi-11",
+        "description": "Tianqi (also transcribed Tiange) is a series of small Chinese experimental LEO comsats by Guodian Gaoke for IoT (Internet of Things) communications, which are also carrying a camera for educational purposes.\r\n\r\nGuodian Gaoke plans to operate an IoT constellation. The \"Apocalypse Constellation\" provides users with much-needed data collection and transmission services for terrestrial network coverage blind areas, which are widely used in marine, environmental protection, meteorological, forestry, geological, emergency, rescue and smart city industries to enhance China's global data network coverage and application capabilities are of strategic importance.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1_image_20230722081939.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6010,
+    "location_launch_attempt_count": 134,
+    "pad_launch_attempt_count": 21,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 88,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

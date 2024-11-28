@@ -1,0 +1,94 @@
+{
+    "id": "af08066a-de7b-42d3-ba1c-9fba4f430695",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/af08066a-de7b-42d3-ba1c-9fba4f430695/",
+    "slug": "thor-delta-e1-imp-f",
+    "name": "Thor Delta E1 | IMP F",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:18:57Z",
+    "net": "1967-05-24T14:05:54Z",
+    "window_end": "1967-05-24T14:05:54Z",
+    "window_start": "1967-05-24T14:05:54Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3662,
+        "configuration": {
+            "id": 405,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/405/",
+            "name": "Thor Delta E1",
+            "family": "Thor",
+            "full_name": "Thor Delta E1",
+            "variant": "Delta E1"
+        }
+    },
+    "mission": {
+        "id": 2080,
+        "name": "IMP F",
+        "description": "Satellite instrumented to study interplanetary magnetic fields, energetic particles, and plasma.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/98/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 2E",
+        "description": "SLC-2E,  was used for Delta, Thor-Agena and Thorad launches between 1966 and 1972 and has been demolished",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7516,-120.6192",
+        "latitude": "34.7516",
+        "longitude": "-120.6192",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_98_20200803143228.jpg",
+        "total_launch_count": 47,
+        "orbital_launch_attempt_count": 47
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 704,
+    "location_launch_attempt_count": 263,
+    "pad_launch_attempt_count": 31,
+    "agency_launch_attempt_count": 398,
+    "orbital_launch_attempt_count_year": 56,
+    "location_launch_attempt_count_year": 18,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 26,
+    "type": "normal"
+}

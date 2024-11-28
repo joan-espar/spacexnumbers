@@ -1,0 +1,94 @@
+{
+    "id": "1af93428-ea94-4197-bf22-c5b4b1a8bb55",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1af93428-ea94-4197-bf22-c5b4b1a8bb55/",
+    "slug": "atlas-slv-3a-agena-d-canyon-4",
+    "name": "Atlas SLV-3A Agena D | Canyon 4",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:40:23Z",
+    "net": "1971-12-04T22:33:00Z",
+    "window_end": "1971-12-04T22:33:00Z",
+    "window_start": "1971-12-04T22:33:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4204,
+        "configuration": {
+            "id": 259,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/259/",
+            "name": "Atlas SLV-3A Agena D",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3A Agena D",
+            "variant": "SLV-3A Agena D"
+        }
+    },
+    "mission": {
+        "id": 2622,
+        "name": "Canyon 4",
+        "description": "Canyon was the first series of NRO's near geostationary ELINT/SIGINT satellites launched under the designation AFP-827 or Program 7500 for NRO's Program A. They were focussed on communications intelligence (COMINT).",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/117/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 13",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_13",
+        "map_url": "https://www.google.com/maps?q=28.4859,-80.546594",
+        "latitude": "28.4859",
+        "longitude": "-80.546594",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_117_20200803143223.jpg",
+        "total_launch_count": 21,
+        "orbital_launch_attempt_count": 21
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1291,
+    "location_launch_attempt_count": 261,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 562,
+    "orbital_launch_attempt_count_year": 120,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 26,
+    "type": "normal"
+}

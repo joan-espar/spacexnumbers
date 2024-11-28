@@ -1,0 +1,725 @@
+{
+    "id": "ffd29f94-06b4-49f7-b5f9-b21a928e6eaa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ffd29f94-06b4-49f7-b5f9-b21a928e6eaa/",
+    "slug": "falcon-9-block-5-hts-113bt-merah-putih-2",
+    "flightclub_url": "https://flightclub.io/result?llId=ffd29f94-06b4-49f7-b5f9-b21a928e6eaa",
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 Block 5 | HTS-113BT (Merah Putih 2)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-20T11:00:59Z",
+    "updates": [
+        {
+            "id": 6750,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Launch success.",
+            "info_url": "https://twitter.com/SpaceX/status/1760063643583148365",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-02-21T04:18:12Z"
+        },
+        {
+            "id": 6717,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+            "comment": "Liftoff",
+            "info_url": "https://twitter.com/i/broadcasts/1dRJZEqPyAoGB",
+            "created_by": "hitura-nobad",
+            "created_on": "2024-02-20T20:11:27Z"
+        },
+        {
+            "id": 6716,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=EJd6sIXBR_I",
+            "created_by": "LL2",
+            "created_on": "2024-02-20T19:54:48Z"
+        },
+        {
+            "id": 6712,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "GO for launch.",
+            "info_url": "https://twitter.com/spacex/status/1759687489592463477",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-02-20T00:47:33Z"
+        },
+        {
+            "id": 6710,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+            "comment": "Weather > 95% GO",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20TelkomSat-113BT%20L-1%20Forecast%20-%2020%20FEB%20Launch.pdf?ver=e41B5PIdOLJEW9RBUlicjg%3d%3d",
+            "created_by": "hitura-nobad",
+            "created_on": "2024-02-19T16:58:26Z"
+        },
+        {
+            "id": 6666,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET February 20 per marine navigation warnings.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=59798.msg2567754#msg2567754",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-02-14T23:54:30Z"
+        },
+        {
+            "id": 6660,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added tentative launch window.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=59798.msg2567667#msg2567667",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-02-14T15:17:39Z"
+        },
+        {
+            "id": 6541,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET February 20.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=59798.msg2564438#msg2564438",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-02-02T16:32:54Z"
+        },
+        {
+            "id": 6255,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET February.",
+            "info_url": "https://twitter.com/Thales_Alenia_S/status/1745479785441120567",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2024-01-11T16:34:35Z"
+        },
+        {
+            "id": 5588,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added launch.",
+            "info_url": "https://twitter.com/Thales_Alenia_S/status/1720002791962186140",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-11-02T10:06:10Z"
+        }
+    ],
+    "net": "2024-02-20T20:11:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "window_end": "2024-02-20T22:11:00Z",
+    "window_start": "2024-02-20T20:11:00Z",
+    "probability": 98,
+    "weather_concerns": "Cumulus Cloud Rule",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 434,
+        "consecutive_successful_launches": 51,
+        "successful_launches": 422,
+        "failed_launches": 12,
+        "pending_launches": 119,
+        "consecutive_successful_landings": 4,
+        "successful_landings": 382,
+        "failed_landings": 26,
+        "attempted_landings": 407,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+    },
+    "rocket": {
+        "id": 8081,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "active": true,
+            "reusable": true,
+            "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": null,
+                "total_launch_count": 434,
+                "consecutive_successful_launches": 51,
+                "successful_launches": 422,
+                "failed_launches": 12,
+                "pending_launches": 119,
+                "consecutive_successful_landings": 4,
+                "successful_landings": 382,
+                "failed_landings": 26,
+                "attempted_landings": 407,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+            },
+            "program": [
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": [],
+                    "type": {
+                        "id": 2,
+                        "name": "Human Spaceflight"
+                    }
+                },
+                {
+                    "id": 5,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+                    "name": "Commercial Crew Program",
+                    "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+                    "agencies": [
+                        {
+                            "id": 80,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                            "name": "Boeing",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+                    "start_date": "2011-04-18T00:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+                    "mission_patches": [],
+                    "type": {
+                        "id": 2,
+                        "name": "Human Spaceflight"
+                    }
+                }
+            ],
+            "variant": "Block 5",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 2,
+            "length": 70.0,
+            "diameter": 3.65,
+            "maiden_flight": "2018-05-11",
+            "launch_cost": "52000000",
+            "launch_mass": 549,
+            "leo_capacity": 22800,
+            "gto_capacity": 8300,
+            "to_thrust": 7607,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+            "total_launch_count": 346,
+            "consecutive_successful_launches": 48,
+            "successful_launches": 345,
+            "failed_launches": 1,
+            "pending_launches": 108,
+            "attempted_landings": 339,
+            "successful_landings": 334,
+            "failed_landings": 5,
+            "consecutive_successful_landings": 34
+        },
+        "launcher_stage": [
+            {
+                "id": 492,
+                "type": "Core",
+                "reused": true,
+                "launcher_flight_number": 17,
+                "launcher": {
+                    "id": 101,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/101/",
+                    "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
+                    "flight_proven": true,
+                    "serial_number": "B1067",
+                    "status": "active",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1067_on_slc-40_image_20240407145708.jpeg",
+                    "successful_landings": 23,
+                    "attempted_landings": 23,
+                    "flights": 23,
+                    "last_launch_date": "2024-11-11T17:22:00Z",
+                    "first_launch_date": "2021-06-03T17:29:15Z"
+                },
+                "landing": {
+                    "id": 1302,
+                    "attempt": true,
+                    "success": true,
+                    "description": "The Falcon 9 first stage B1067 has landed on ASDS JRTI after its 17th flight.",
+                    "downrange_distance": 645.0,
+                    "location": {
+                        "id": 3,
+                        "name": "Just Read the Instructions",
+                        "abbrev": "JRTI",
+                        "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                        "location": null,
+                        "successful_landings": 98
+                    },
+                    "type": {
+                        "id": 1,
+                        "name": "Autonomous Spaceport Drone Ship",
+                        "abbrev": "ASDS",
+                        "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                    }
+                },
+                "previous_flight_date": "2024-01-07T22:35:40Z",
+                "turn_around_time_days": 43,
+                "previous_flight": {
+                    "id": "60634a63-633d-42b3-b87e-710e7e0d4282",
+                    "name": "Falcon 9 Block 5 | Starlink Group 6-35"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 6634,
+        "name": "HTS-113BT (Merah Putih 2)",
+        "description": "HTS-113BT is a new High Throughput Satellite telecommunications satellite in C-band/Ku-Band for PT Telkom Satelit Indonesia (Telkomsat) , a state-owned digital telecommunication company in Indonesia, for its orbital position at 113\u00b0 East.\r\n\r\nBuilt on Thales Alenia Space's historical Spacebus 4000B2 platform, HTS 113BT will provide more than 32 Gbps capacity over Indonesia. The satellite will weigh about 4 metric tons at launch and will be delivered early 2024 for a 15-year expected lifetime.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [
+            {
+                "id": 1084,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1084/",
+                "name": "PT Telkom Satellite Indonesia",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "IDN",
+                "abbrev": "Telkomsat",
+                "description": "PT Telkom Satellite Indonesia or commonly abbreviated as Telkomsat, is a subsidiary of Telkom Indonesia which is engaged in satellite service providers with international standards with a comprehensive and innovative business portfolio scope from upstream to downstream.",
+                "administrator": "President Director: Lukman Hakim Abd. Rauf",
+                "founding_year": "1995",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.telkomsat.co.id/id/",
+                "wiki_url": "https://id.wikipedia.org/wiki/Telkomsat",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pt2520telkom2520satellite2520indonesia_logo_20240217062048.png",
+                "image_url": null,
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pt2520telkom2520satellite2520indonesia_nation_20240218144120.png"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "source": "www.spacex.com",
+            "title": "SpaceX",
+            "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/mission/?missionId=merahputih2",
+            "type": {
+                "id": 1,
+                "name": "Official Page"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            }
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 7,
+            "source": "youtube.com",
+            "publisher": "The Space Devs",
+            "title": "SpaceX HTS-113BT (Merah Putih 2)",
+            "description": "On Tuesday February 20, 2024, SpaceX launched the HTS-113BT (Merah Putih 2) mission with a Falcon 9 Block 5 from Space Launch Complex 40 at Cape Canaveral, F...",
+            "feature_image": "https://i.ytimg.com/vi/bcMgv7qw7kQ/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=bcMgv7qw7kQ",
+            "type": {
+                "id": 4,
+                "name": "Unofficial Re-stream"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-02-20T21:09:54Z",
+            "end_time": "2024-02-20T21:09:54Z"
+        },
+        {
+            "priority": 8,
+            "source": "youtube.com",
+            "publisher": "Spaceflight Now",
+            "title": "Watch Live: SpaceX Falcon 9 rocket launches satellite for Indonesia from Cape Canaveral",
+            "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying the Merah Putih 2 telecommunications satellite into a geosynchronous transfer orbit for Ind...",
+            "feature_image": "https://i.ytimg.com/vi/t3lEbob3eOg/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=t3lEbob3eOg",
+            "type": {
+                "id": 3,
+                "name": "Unofficial Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-02-20T19:09:45Z",
+            "end_time": "2024-02-20T20:54:54Z"
+        },
+        {
+            "priority": 9,
+            "source": "youtube.com",
+            "publisher": "NASASpaceflight",
+            "title": "SpaceX Falcon 9 Launches HTS-113BT (Merah Putih 2)",
+            "description": "HTS-113BT is a new High Throughput Satellite telecommunications satellite in C-band/Ku-Band for PT Telkom Satelit Indonesia (Telkomsat), a state-owned digita...",
+            "feature_image": "https://i.ytimg.com/vi/XzYonTLnRY0/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=XzYonTLnRY0",
+            "type": {
+                "id": 3,
+                "name": "Unofficial Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2024-02-20T19:10:00Z",
+            "end_time": null
+        },
+        {
+            "priority": 10,
+            "source": "twitter.com",
+            "publisher": "",
+            "title": "Livestream on X",
+            "description": "This browser is no longer supported.\n\nPlease switch to a supported browser to continue using twitter.com. You can see a list of supported browsers in our Help Center.",
+            "feature_image": null,
+            "url": "https://twitter.com/i/broadcasts/1dRJZEqPyAoGB",
+            "type": {
+                "id": 1,
+                "name": "Official Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": null,
+            "end_time": null
+        }
+    ],
+    "webcast_live": false,
+    "timeline": [
+        {
+            "type": {
+                "id": 1,
+                "abbrev": "GO for Prop Load",
+                "description": "Launch director verifies go for propellant load"
+            },
+            "relative_time": "-PT38M"
+        },
+        {
+            "type": {
+                "id": 2,
+                "abbrev": "Prop Load",
+                "description": "Start of propelland loading"
+            },
+            "relative_time": "-PT35M"
+        },
+        {
+            "type": {
+                "id": 3,
+                "abbrev": "Stage 1 LOX Load",
+                "description": "Start of liquid oxygen loading in the first stage"
+            },
+            "relative_time": "-PT35M"
+        },
+        {
+            "type": {
+                "id": 4,
+                "abbrev": "Stage 2 LOX Load",
+                "description": "Start of liquid oxygen loading in the second stage"
+            },
+            "relative_time": "-PT16M"
+        },
+        {
+            "type": {
+                "id": 5,
+                "abbrev": "Engine Chill",
+                "description": "Start of engine chilling"
+            },
+            "relative_time": "-PT7M"
+        },
+        {
+            "type": {
+                "id": 6,
+                "abbrev": "Startup",
+                "description": "The onboard computer takes control over the countdown and runs last checks"
+            },
+            "relative_time": "-PT1M"
+        },
+        {
+            "type": {
+                "id": 7,
+                "abbrev": "Tank Press",
+                "description": "Fuel tanks are pressurized to flight levels"
+            },
+            "relative_time": "-PT1M"
+        },
+        {
+            "type": {
+                "id": 8,
+                "abbrev": "GO for Launch",
+                "description": "Launch director verifies go for launch"
+            },
+            "relative_time": "-PT45S"
+        },
+        {
+            "type": {
+                "id": 9,
+                "abbrev": "Ignition",
+                "description": "Start of the engine ignition sequence"
+            },
+            "relative_time": "-PT3S"
+        },
+        {
+            "type": {
+                "id": 10,
+                "abbrev": "Liftoff",
+                "description": "First upwards movement of the rocket"
+            },
+            "relative_time": "P0D"
+        },
+        {
+            "type": {
+                "id": 11,
+                "abbrev": "Max-Q",
+                "description": "Maximum dynamic pressure"
+            },
+            "relative_time": "PT1M13S"
+        },
+        {
+            "type": {
+                "id": 12,
+                "abbrev": "MECO",
+                "description": "Cut-off of the main engine"
+            },
+            "relative_time": "PT2M31S"
+        },
+        {
+            "type": {
+                "id": 13,
+                "abbrev": "Stage 2 Separation",
+                "description": "Separation of the second stage from the first"
+            },
+            "relative_time": "PT2M35S"
+        },
+        {
+            "type": {
+                "id": 14,
+                "abbrev": "SES-1",
+                "description": "First start of the second engine"
+            },
+            "relative_time": "PT2M42S"
+        },
+        {
+            "type": {
+                "id": 15,
+                "abbrev": "Fairing Separation",
+                "description": "Separation of the payload fairing"
+            },
+            "relative_time": "PT3M34S"
+        },
+        {
+            "type": {
+                "id": 16,
+                "abbrev": "Entry Burn Startup",
+                "description": "Start of the atmospheric entry burn"
+            },
+            "relative_time": "PT6M18S"
+        },
+        {
+            "type": {
+                "id": 17,
+                "abbrev": "Entry Burn Shutdown",
+                "description": "End of the atmospheric entry burn"
+            },
+            "relative_time": "PT6M42S"
+        },
+        {
+            "type": {
+                "id": 20,
+                "abbrev": "SECO-1",
+                "description": "First cut-off of the second engine"
+            },
+            "relative_time": "PT8M5S"
+        },
+        {
+            "type": {
+                "id": 18,
+                "abbrev": "Stage 1 Landing Burn",
+                "description": "Start of the first stage landing burn"
+            },
+            "relative_time": "PT8M14S"
+        },
+        {
+            "type": {
+                "id": 19,
+                "abbrev": "Stage 1 Landing",
+                "description": "Landing of the first stage"
+            },
+            "relative_time": "PT8M37S"
+        },
+        {
+            "type": {
+                "id": 21,
+                "abbrev": "SES-2",
+                "description": "Second start of the second engine"
+            },
+            "relative_time": "PT27M59S"
+        },
+        {
+            "type": {
+                "id": 22,
+                "abbrev": "SECO-2",
+                "description": "Second cut-off of the second engine"
+            },
+            "relative_time": "PT29M3S"
+        },
+        {
+            "type": {
+                "id": 35,
+                "abbrev": "Payload Separation",
+                "description": "Final deployment of the payload from the rocket"
+            },
+            "relative_time": "PT33M34S"
+        }
+    ],
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20240221072153.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6624,
+    "location_launch_attempt_count": 935,
+    "pad_launch_attempt_count": 225,
+    "agency_launch_attempt_count": 327,
+    "orbital_launch_attempt_count_year": 35,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 16,
+    "pad_turnaround": "P5DT21H41M",
+    "mission_patches": [
+        {
+            "id": 1054,
+            "name": "Merah Putih-2",
+            "priority": 10,
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/merah2520putih_mission_patch_20241020110055.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ],
+    "type": "detailed"
+}

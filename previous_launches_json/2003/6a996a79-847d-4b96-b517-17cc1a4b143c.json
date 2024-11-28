@@ -1,0 +1,99 @@
+{
+    "id": "6a996a79-847d-4b96-b517-17cc1a4b143c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6a996a79-847d-4b96-b517-17cc1a4b143c/",
+    "slug": "ariane-5-g-insat-3e-ebird-1-smart-1",
+    "name": "Ariane 5 G | INSAT-3E, eBird 1, SMART-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:18:30Z",
+    "net": "2003-09-27T23:14:46Z",
+    "window_end": "2003-09-27T23:14:46Z",
+    "window_start": "2003-09-27T23:14:46Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 498,
+        "configuration": {
+            "id": 131,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/131/",
+            "name": "Ariane 5 G",
+            "family": "Ariane",
+            "full_name": "Ariane 5 G",
+            "variant": "G"
+        }
+    },
+    "mission": {
+        "id": 846,
+        "name": "INSAT-3A",
+        "description": "INSAT-3A is a multipurpose satellite for providing telecommunications, television broadcasting, meteorological and search & rescue services. INSAT-3A payloads include Normal C-band transponders with expanded coverage from Middle East to South East Asia, Extended C-band transponders providing India coverage and Ku-band transponders providing India coverage. The satellite also carries one Data Relay Transponder (DRT) and one Satellite Aided Search and Rescue (SAS&R) payload. SAS&R payload has a global receive coverage with 406 MHz uplink and C-band downlink with India coverage for the relay of signals from distress beacons in sea, air or land.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520g_image_20190222030331.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4620,
+    "location_launch_attempt_count": 170,
+    "pad_launch_attempt_count": 17,
+    "agency_launch_attempt_count": 156,
+    "orbital_launch_attempt_count_year": 44,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

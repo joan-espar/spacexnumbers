@@ -1,0 +1,129 @@
+{
+    "id": "355ab4b9-504c-49ce-84bf-a6df31a0aadf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/355ab4b9-504c-49ce-84bf-a6df31a0aadf/",
+    "slug": "vega-theos-2-triton-others",
+    "name": "Vega | THEOS-2, TRITON & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:24:02Z",
+    "net": "2023-10-09T01:36:25Z",
+    "window_end": "2023-10-09T01:36:25Z",
+    "window_start": "2023-10-09T01:36:25Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7903,
+        "configuration": {
+            "id": 167,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/167/",
+            "name": "Vega",
+            "family": "Vega",
+            "full_name": "Vega",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6492,
+        "name": "THEOS-2, TRITON & others",
+        "description": "THEOS-2 is Thailand\u2019s first Earth observation satellite. Built by Airbus Defense and Space and based on the Astrobus-S platform, it is designed for optical measurements with a ground resolution of approximately 1 meter.\r\n\r\nTRITON or FORMOSAT-7R is an additional satellite by NSPO added to the joint Taiwanese-US FORMOSAT 7 / COSMIC-2 constellation for collecting atmospheric data for weather prediction and for ionosphere, climate and gravity research. Its GNSS Reflectometry payload can be used to calculate the wind speed over sea surfaces.\r\n\r\nCubesats:\r\n\r\nPROBA-V-CC (Project for On-Board Autonomy - Vegetation - Companion CubeSat) (12U) is a mission that will fly a scaled-down version of the vegetation-monitoring instrument aboard the Earth-observing PROBA-V to conduct combined experimental observations with its predecessor.\r\n\r\nPRETTY (Passive REflecTomeTry and dosimetrY) (3U) flies a GPS/Galileo signal reflectometer and radiation monitor for Graz University of Technology of Austria.\r\n\r\nMACSAT (6U) is an In-orbit demonstration (IoD) missionto demonstrate IoT communication over 5G for OQTech.\r\n\r\nCSC-1 and 2 (6U) contains 7 different experimental payloads from various institutions being flown by ISISPACE/ISL.\r\n\r\nN3SS (Nanosat 3U pour la Surveillance du Spectre) (3U) is a demonstration system for detecting and\r\nlocalize radio-frequency jammers on civil spectrum for the French CNES.\r\n\r\nESTCUBE-2 is a technology demonstration mission with multiple scientific payloads for University of Tartu of Estonia.\r\n\r\nANSER LEADER/FOLLOWER 1/2 (Advanced\r\nNanosatellite Systems for Earth observation Research) is a cluster of 3 Earth observing cubesats with panchromatic and hyperspectral cameras for Spain's INTA for monitoring the quality of inland (reservoirs) water over the Iberian Peninsula.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [
+            {
+                "id": 115,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+                "name": "Arianespace",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "FRA",
+                "abbrev": "ASA",
+                "description": "Arianespace SA is a multinational company founded in 1980 as the world's first commercial launch service provider. It undertakes the production, operation, and marketing of the Ariane programme. Their vehicles launch exclusively from French Guiana in South America.",
+                "administrator": "CEO: St\u00e9phane Isra\u00ebl",
+                "founding_year": "1980",
+                "launchers": "Ariane | Vega",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 316,
+                "consecutive_successful_launches": 4,
+                "successful_launches": 301,
+                "failed_launches": 15,
+                "pending_launches": 49,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.arianespace.com",
+                "wiki_url": "http://en.wikipedia.org/wiki/Arianespace",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/arianespace_logo_20210603173752.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/arianespace_image_20190207032425.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/arianespace_nation_20230530190314.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/34/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 1 (ELV)",
+        "description": "ELA-1, now named Ensemble de Lancement Vega (short ELV), is a launch pad at the Centre Spatial Guyanais in French Guiana. It has been used to support launches of the Europa rocket, Ariane 1, Ariane 3, and is currently used to launch Vega rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-1",
+        "map_url": "https://www.google.com/maps?q=5.236,-52.775",
+        "latitude": "5.236",
+        "longitude": "-52.775",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
+        "total_launch_count": 50,
+        "orbital_launch_attempt_count": 50
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega2520257c_image_20231009052620.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6532,
+    "location_launch_attempt_count": 320,
+    "pad_launch_attempt_count": 49,
+    "agency_launch_attempt_count": 315,
+    "orbital_launch_attempt_count_year": 164,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

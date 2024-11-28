@@ -1,0 +1,94 @@
+{
+    "id": "032efced-4436-42f7-9dda-2e1ad65b059f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/032efced-4436-42f7-9dda-2e1ad65b059f/",
+    "slug": "shavit-2-ofek-13",
+    "name": "Shavit-2 | Ofek-13",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-18T16:47:32Z",
+    "net": "2023-03-28T23:10:00Z",
+    "window_end": "2023-03-28T23:10:00Z",
+    "window_start": "2023-03-28T23:10:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 95,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/95/",
+        "name": "Israel Aerospace Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7836,
+        "configuration": {
+            "id": 110,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/110/",
+            "name": "Shavit-2",
+            "family": "Shavit",
+            "full_name": "Shavit-2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 6339,
+        "name": "Ofek-13",
+        "description": "Ofek is a series of Israeli reconnaissance satellites. Ofek-13 is an Israeli SAR (Synthetic Aperture Radar) reconnaissance satellite that combines high resolution with large area coverage using electronic beam steering.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 75,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/75/",
+        "agency_id": 95,
+        "name": "Shavit Launch Pad",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Palmachim_Airbase",
+        "map_url": "https://www.google.com/maps?q=31.884444,34.680278",
+        "latitude": "31.884444",
+        "longitude": "34.680278",
+        "location": {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/4/",
+            "name": "Palmachim Airbase, State of Israel",
+            "country_code": "ISR",
+            "description": "Palmachim Airbase is an Israeli Air Force (IAF) base and spaceport, which the IAF and the Israel Space Agency (ISA) operate jointly. It is located west of the city of Yavne on the Mediterranean coast, 12 km south of the Gush Dan metropolitan area with Tel Aviv, named after the Kibbutz Palmachim north of it.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_4_20200803142418.jpg",
+            "timezone_name": "Asia/Jerusalem",
+            "total_launch_count": 12,
+            "total_landing_count": 0
+        },
+        "country_code": "ISR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_75_20200803143316.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shavit-2_liftof_image_20240918164729.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6417,
+    "location_launch_attempt_count": 12,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 49,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

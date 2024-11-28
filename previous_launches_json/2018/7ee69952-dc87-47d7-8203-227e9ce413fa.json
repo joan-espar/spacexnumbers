@@ -1,0 +1,94 @@
+{
+    "id": "7ee69952-dc87-47d7-8203-227e9ce413fa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7ee69952-dc87-47d7-8203-227e9ce413fa/",
+    "slug": "soyuz-stafregat-cso-1",
+    "name": "Soyuz STA/Fregat | CSO-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:08:29Z",
+    "net": "2018-12-19T16:37:14Z",
+    "window_end": "2018-12-19T16:37:14Z",
+    "window_start": "2018-12-19T16:37:14Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2148,
+        "configuration": {
+            "id": 49,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/49/",
+            "name": "Soyuz STA",
+            "family": "Soyuz",
+            "full_name": "Soyuz STA Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 695,
+        "name": "CSO-1",
+        "description": "The CSO-1 (Composante Spatiale Optique-1) satellite is the first of three new-generation high-resolution optical imaging satellites for the French military, replacing the Helios 2 spy satellite series.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 81,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/81/",
+        "agency_id": 115,
+        "name": "Soyuz Launch Complex",
+        "description": "The Ensemble de Lancement Soyouz (ELS)  is a launch complex at the Guiana Space Centre in Kourou/Sinnamary, French Guiana. It was used by Soyuz-ST rockets: modified versions of the Soyuz-2 optimised for launch from Kourou under Soyuz at the Guiana Space Centre programme.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Ensemble_de_Lancement_Soyouz",
+        "map_url": "https://www.google.com/maps?q=5.3019,-52.8346",
+        "latitude": "5.3019",
+        "longitude": "-52.8346",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_81_20200803143601.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520sta_image_20191210133244.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5814,
+    "location_launch_attempt_count": 288,
+    "pad_launch_attempt_count": 19,
+    "agency_launch_attempt_count": 273,
+    "orbital_launch_attempt_count_year": 108,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "6cdf9823-7574-4c0d-a3b2-956c7b364756",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6cdf9823-7574-4c0d-a3b2-956c7b364756/",
+    "slug": "delta-iv-heavy-nrol-44",
+    "name": "Delta IV Heavy | NROL-44",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:29:29Z",
+    "net": "2020-12-11T01:09:00Z",
+    "window_end": "2020-12-11T03:30:00Z",
+    "window_start": "2020-12-10T22:50:00Z",
+    "net_precision": null,
+    "probability": 100,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#NROL44",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2531,
+        "configuration": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/21/",
+            "name": "Delta IV Heavy",
+            "family": "Delta",
+            "full_name": "Delta IV Heavy",
+            "variant": "Heavy"
+        }
+    },
+    "mission": {
+        "id": 1150,
+        "name": "NROL-44",
+        "description": "Classified payload for NRO.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 38,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/38/",
+        "agency_id": null,
+        "name": "Space Launch Complex 37B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37",
+        "map_url": "https://www.google.com/maps?q=28.5317,-80.56495",
+        "latitude": "28.5317",
+        "longitude": "-80.56495",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_38_20200803143515.jpg",
+        "total_launch_count": 40,
+        "orbital_launch_attempt_count": 40
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_20240308072023.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/delta2520iv25_infographic_20200828105447.png",
+    "program": [],
+    "orbital_launch_attempt_count": 6027,
+    "location_launch_attempt_count": 810,
+    "pad_launch_attempt_count": 38,
+    "agency_launch_attempt_count": 143,
+    "orbital_launch_attempt_count_year": 105,
+    "location_launch_attempt_count_year": 19,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

@@ -1,0 +1,119 @@
+{
+    "id": "962f4ad2-81e0-43f9-8148-fb78f52cb0f5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/962f4ad2-81e0-43f9-8148-fb78f52cb0f5/",
+    "slug": "vostok-8k72-korabl-sputnik-2",
+    "name": "Vostok 8K72 | Korabl-Sputnik (2)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:48:26Z",
+    "net": "1960-07-28T09:31:00Z",
+    "window_end": "1960-07-28T09:31:00Z",
+    "window_start": "1960-07-28T09:31:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3072,
+        "configuration": {
+            "id": 453,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/453/",
+            "name": "Vostok 8K72",
+            "family": "Vostok",
+            "full_name": "Vostok 8K72",
+            "variant": "8K72"
+        }
+    },
+    "mission": {
+        "id": 1494,
+        "name": "Korabl-Sputnik (2)",
+        "description": "A test of the Vostok capsule carrying a pair of dogs. Unfortunately this failed after a failure of the booster.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [
+        {
+            "id": 9,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/9/",
+            "name": "Vostok",
+            "description": "The Vostok programme was a Soviet human spaceflight project to put the first Soviet citizens into low Earth orbit and return them safely. Competing with the United States Project Mercury, it succeeded in placing the first human into space, Yuri Gagarin, in a single orbit in Vostok 1 on April 12, 1961.",
+            "agencies": [
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vostok_program_20210417063956.png",
+            "start_date": "1961-04-12T06:07:00Z",
+            "end_date": "1963-06-19T08:20:00Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Vostok_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 70,
+    "location_launch_attempt_count": 15,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 15,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "974b8306-fe0c-42a8-b415-73a7acc50b17",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/974b8306-fe0c-42a8-b415-73a7acc50b17/",
+    "slug": "long-march-7-tianzhou-1",
+    "name": "Long March 7 | Tianzhou-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T17:03:29Z",
+    "net": "2017-04-20T11:41:35Z",
+    "window_end": "2017-04-20T11:41:35Z",
+    "window_start": "2017-04-20T11:41:35Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1997,
+        "configuration": {
+            "id": 100,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/100/",
+            "name": "Long March 7",
+            "family": "Long March",
+            "full_name": "Long March 7",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 354,
+        "name": "Tianzhou-1",
+        "description": "Tianzhou 1 is the first Chinese uncrewed cargo spacecraft to service the Tiangong 2 and follow on space stations.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 32,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 20
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7_image_20210513083007.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5637,
+    "location_launch_attempt_count": 3,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 194,
+    "orbital_launch_attempt_count_year": 22,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

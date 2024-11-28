@@ -1,0 +1,119 @@
+{
+    "id": "79477a4a-055d-460a-9bdc-b3b58a8ac3ca",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/79477a4a-055d-460a-9bdc-b3b58a8ac3ca/",
+    "slug": "soyuz-21bfregat-m-oneweb-2",
+    "name": "Soyuz 2.1b/Fregat-M | OneWeb 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-13T18:03:11Z",
+    "net": "2020-02-06T21:42:41Z",
+    "window_end": "2020-02-06T21:42:41Z",
+    "window_start": "2020-02-06T21:42:41Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2599,
+        "configuration": {
+            "id": 134,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/134/",
+            "name": "Soyuz 2.1b/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 1080,
+        "name": "OneWeb 2",
+        "description": "A batch of 34 satellites for the OneWeb satellite constellation, which is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 648 microsatellites (of which 60 are spares), around 150 kg each, operating in Ku-band from low Earth orbit. Eventually it can be expanded to include extra 1260 satellites, for a total of 1908.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20210520085936.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/soyuz25202.1b_infographic_20200807035203.png",
+    "program": [
+        {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/26/",
+            "name": "OneWeb",
+            "description": "Satellite constellation in low Earth orbit that can provide high-speed broadband internet to rural and isolated areas.",
+            "agencies": [
+                {
+                    "id": 1081,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1081/",
+                    "name": "Eutelsat OneWeb",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/oneweb_program_20231228155842.jpeg",
+            "start_date": "2019-02-27T21:37:00Z",
+            "end_date": null,
+            "info_url": "https://oneweb.net/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+            "mission_patches": [],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5930,
+    "location_launch_attempt_count": 1509,
+    "pad_launch_attempt_count": 382,
+    "agency_launch_attempt_count": 284,
+    "orbital_launch_attempt_count_year": 8,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

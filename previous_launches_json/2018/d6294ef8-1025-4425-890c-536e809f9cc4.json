@@ -1,0 +1,94 @@
+{
+    "id": "d6294ef8-1025-4425-890c-536e809f9cc4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d6294ef8-1025-4425-890c-536e809f9cc4/",
+    "slug": "atlas-v-411-sbirs-geo-flight-4-sbirs-geo-3",
+    "name": "Atlas V 411 | SBIRS GEO Flight 4 (SBIRS GEO-3)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:25Z",
+    "net": "2018-01-20T00:48:00Z",
+    "window_end": "2018-01-20T01:32:00Z",
+    "window_start": "2018-01-20T00:48:00Z",
+    "net_precision": null,
+    "probability": 90,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2069,
+        "configuration": {
+            "id": 83,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/83/",
+            "name": "Atlas V 411",
+            "family": "Atlas",
+            "full_name": "Atlas V 411",
+            "variant": "411"
+        }
+    },
+    "mission": {
+        "id": 477,
+        "name": "SBIRS GEO Flight 4 (SBIRS GEO-3)",
+        "description": "This geostationary satellite is tasked with providing capabilities for early missile warning and missile defense.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520411_image_20190224012306.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5715,
+    "location_launch_attempt_count": 763,
+    "pad_launch_attempt_count": 89,
+    "agency_launch_attempt_count": 126,
+    "orbital_launch_attempt_count_year": 9,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

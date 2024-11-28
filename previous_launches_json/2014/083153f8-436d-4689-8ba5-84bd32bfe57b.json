@@ -1,0 +1,149 @@
+{
+    "id": "083153f8-436d-4689-8ba5-84bd32bfe57b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/083153f8-436d-4689-8ba5-84bd32bfe57b/",
+    "slug": "atlas-v-401-gps-iif-7-usa-256",
+    "name": "Atlas V 401 | GPS IIF-7 (USA-256)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-13T17:59:34Z",
+    "net": "2014-08-02T03:23:00Z",
+    "window_end": "2014-08-02T03:23:00Z",
+    "window_start": "2014-08-02T03:23:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1775,
+        "configuration": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/16/",
+            "name": "Atlas V 401",
+            "family": "Atlas",
+            "full_name": "Atlas V 401",
+            "variant": "401"
+        }
+    },
+    "mission": {
+        "id": 6729,
+        "name": "GPS IIF-7 (USA-256)",
+        "description": "GPS IIF-7 is a next-generation GPS satellite which provides navigational assistance for U.S. military operations on land, at sea, and in the air.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [
+            {
+                "id": 161,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+                "name": "United States Air Force",
+                "featured": false,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "USAF",
+                "description": "The United States Air Force (USAF) is the air service branch of the United States Armed Forces, and is one of the eight uniformed services of the United States. Originally created on 1 August 1907, as a part of the United States Army Signal Corps, the USAF was established as a separate branch of the United States Armed Forces in 1947 with the enactment of the National Security Act of 1947.",
+                "administrator": "Commander-in-Chief: President of the US",
+                "founding_year": "1947",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 1078,
+                "consecutive_successful_launches": 68,
+                "successful_launches": 972,
+                "failed_launches": 106,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.af.mil",
+                "wiki_url": "http://en.wikipedia.org/wiki/United_States_Air_Force",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520air2520force_logo_20230804084626.png",
+                "image_url": null,
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520air2520force_nation_20230804085132.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_image_20201212013334.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 29,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/29/",
+            "name": "Global Positioning System",
+            "description": "The Global Positioning System (GPS), originally Navstar GPS, is a satellite-based radio navigation system owned by the United States government and operated by the United States Space Force. It is one of the global navigation satellite systems (GNSS) that provide geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites.",
+            "agencies": [
+                {
+                    "id": 1041,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/",
+                    "name": "United States Space Force",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/global2520posi_program_20231229182501.png",
+            "start_date": "1978-02-22T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.gps.gov/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5396,
+    "location_launch_attempt_count": 713,
+    "pad_launch_attempt_count": 66,
+    "agency_launch_attempt_count": 87,
+    "orbital_launch_attempt_count_year": 47,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

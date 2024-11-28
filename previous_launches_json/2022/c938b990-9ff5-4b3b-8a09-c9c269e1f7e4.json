@@ -1,0 +1,94 @@
+{
+    "id": "c938b990-9ff5-4b3b-8a09-c9c269e1f7e4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c938b990-9ff5-4b3b-8a09-c9c269e1f7e4/",
+    "slug": "ceres-1-jilin-1-high-resolution-03d-08-51-to-54",
+    "name": "Ceres-1 | Jilin-1 High Resolution 03D-08, 51 to 54",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:07:25Z",
+    "net": "2022-11-16T06:20:00Z",
+    "window_end": "2022-11-16T06:58:00Z",
+    "window_start": "2022-11-16T06:11:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1021,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7701,
+        "configuration": {
+            "id": 461,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/461/",
+            "name": "Ceres-1",
+            "family": "Ceres-1",
+            "full_name": "Ceres-1",
+            "variant": "Ceres-1"
+        }
+    },
+    "mission": {
+        "id": 6216,
+        "name": "Jilin-1 High Resolution 03D-08, 51 to 54",
+        "description": "5 new Earth observation satellites for the Jilin-1 commercial Earth observation satellites constellation.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1252025_image_20230703100031.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6342,
+    "location_launch_attempt_count": 178,
+    "pad_launch_attempt_count": 34,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 160,
+    "location_launch_attempt_count_year": 21,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

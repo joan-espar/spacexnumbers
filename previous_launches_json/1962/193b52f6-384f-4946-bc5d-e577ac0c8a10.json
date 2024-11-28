@@ -1,0 +1,94 @@
+{
+    "id": "193b52f6-384f-4946-bc5d-e577ac0c8a10",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/193b52f6-384f-4946-bc5d-e577ac0c8a10/",
+    "slug": "thor-agena-d-poppy-3a-3b",
+    "name": "Thor Agena D | Poppy 3A & 3B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:18:57Z",
+    "net": "1962-12-13T04:07:00Z",
+    "window_end": "1962-12-13T04:07:00Z",
+    "window_start": "1962-12-13T04:07:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3174,
+        "configuration": {
+            "id": 393,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/393/",
+            "name": "Thor Agena D",
+            "family": "Thor",
+            "full_name": "Thor Agena D",
+            "variant": "Agena D"
+        }
+    },
+    "mission": {
+        "id": 1596,
+        "name": "Poppy 3A & 3B",
+        "description": "Poppy was the follow-on ELINT system, which succeeded the Grab ELINT satellite system.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/98/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 2E",
+        "description": "SLC-2E,  was used for Delta, Thor-Agena and Thorad launches between 1966 and 1972 and has been demolished",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7516,-120.6192",
+        "latitude": "34.7516",
+        "longitude": "-120.6192",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_98_20200803143228.jpg",
+        "total_launch_count": 47,
+        "orbital_launch_attempt_count": 47
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 218,
+    "location_launch_attempt_count": 79,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 122,
+    "orbital_launch_attempt_count_year": 76,
+    "location_launch_attempt_count_year": 35,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 51,
+    "type": "normal"
+}

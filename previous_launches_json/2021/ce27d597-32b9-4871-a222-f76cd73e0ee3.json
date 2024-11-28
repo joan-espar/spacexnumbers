@@ -1,0 +1,94 @@
+{
+    "id": "ce27d597-32b9-4871-a222-f76cd73e0ee3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce27d597-32b9-4871-a222-f76cd73e0ee3/",
+    "slug": "hyperbola-1-jilin-1-mofang-01a",
+    "name": "Hyperbola-1 | Jilin-1 Mofang-01A (?)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-07-08T08:41:13Z",
+    "net": "2021-08-03T07:39:30Z",
+    "window_end": "2021-08-03T08:15:00Z",
+    "window_start": "2021-08-03T07:39:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Payload fairing failed to separate.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 274,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/274/",
+        "name": "iSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2976,
+        "configuration": {
+            "id": 193,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/193/",
+            "name": "Hyperbola-1",
+            "family": "",
+            "full_name": "Hyperbola-1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 1403,
+        "name": "Jilin-1 Mofang-01A (?)",
+        "description": "New generation experimental Earth imaging satellite for the Jilin-1 constellation.\r\n\r\nNOTE: Payload identity unconfirmed.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hyperbola-1_in__image_20240711064715.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6110,
+    "location_launch_attempt_count": 146,
+    "pad_launch_attempt_count": 23,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 73,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

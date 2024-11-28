@@ -1,0 +1,94 @@
+{
+    "id": "d9712e38-cf44-40aa-8988-c003bfb2521c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d9712e38-cf44-40aa-8988-c003bfb2521c/",
+    "slug": "dnepr-genesis-1",
+    "name": "Dnepr | Genesis-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:30:00Z",
+    "net": "2006-07-12T14:53:36Z",
+    "window_end": "2006-07-12T14:53:36Z",
+    "window_start": "2006-07-12T14:53:36Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 119,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/119/",
+        "name": "ISC Kosmotras",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7275,
+        "configuration": {
+            "id": 31,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/31/",
+            "name": "Dnepr",
+            "family": "",
+            "full_name": "Dnepr 1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 5664,
+        "name": "Genesis-1",
+        "description": "Genesis Pathfinder is a technology demonstration for the inflatable Nautilus space station structure as a prototype for a space hotel by Bigelow Aerospace. Once in Earth orbit, the one-third scale hardware is to produce important data regarding multiple features of a full-scale spacecraft. Genesis 1 will be pressurized with nitrogen, but later units will use an oxygen/nitrogen mixture. Genesis includes also windows and an airlock simulator with key seal interfaces. Genesis is 10 ft\u00d78 ft in size when inflated.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 182,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/182/",
+        "agency_id": null,
+        "name": "370/11",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Dombarovsky_Air_Base",
+        "map_url": "https://www.google.com/maps?q=51.0938889,59.8400282",
+        "latitude": "51.0938889",
+        "longitude": "59.8400282",
+        "location": {
+            "id": 5,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/5/",
+            "name": "Dombarovskiy, Russian Federation",
+            "country_code": "RUS",
+            "description": "Dombarovsky is a military airbase near Yasny in Russia's Orenburg Oblast. Operated by the Soviet Air Defence Forces and later by the Russian Air Force, it hosted fighter interceptor squadrons and hosts an ICBM base (which has been adapted for commercial satellite launches) with a supporting helicopter base.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_5_20200803142425.jpg",
+            "timezone_name": "Asia/Yekaterinburg",
+            "total_launch_count": 10,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_182_20200803143504.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/dnepr-1_liftoff_image_20240411092543.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4782,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 32,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

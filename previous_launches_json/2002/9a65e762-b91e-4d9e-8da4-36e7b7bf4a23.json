@@ -1,0 +1,94 @@
+{
+    "id": "9a65e762-b91e-4d9e-8da4-36e7b7bf4a23",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9a65e762-b91e-4d9e-8da4-36e7b7bf4a23/",
+    "slug": "shavit-2-ofeq-5",
+    "name": "Shavit-2 | Ofeq-5",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:58:14Z",
+    "net": "2002-05-28T15:25:00Z",
+    "window_end": "2002-05-28T15:25:00Z",
+    "window_start": "2002-05-28T15:25:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 35,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/35/",
+        "name": "Israeli Space Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7089,
+        "configuration": {
+            "id": 110,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/110/",
+            "name": "Shavit-2",
+            "family": "Shavit",
+            "full_name": "Shavit-2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 5478,
+        "name": "Ofeq-5",
+        "description": "Military Observation satellite.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 75,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/75/",
+        "agency_id": 95,
+        "name": "Shavit Launch Pad",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Palmachim_Airbase",
+        "map_url": "https://www.google.com/maps?q=31.884444,34.680278",
+        "latitude": "31.884444",
+        "longitude": "34.680278",
+        "location": {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/4/",
+            "name": "Palmachim Airbase, State of Israel",
+            "country_code": "ISR",
+            "description": "Palmachim Airbase is an Israeli Air Force (IAF) base and spaceport, which the IAF and the Israel Space Agency (ISA) operate jointly. It is located west of the city of Yavne on the Mediterranean coast, 12 km south of the Gush Dan metropolitan area with Tel Aviv, named after the Kibbutz Palmachim north of it.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_4_20200803142418.jpg",
+            "timezone_name": "Asia/Jerusalem",
+            "total_launch_count": 12,
+            "total_landing_count": 0
+        },
+        "country_code": "ISR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_75_20200803143316.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4536,
+    "location_launch_attempt_count": 5,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 25,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

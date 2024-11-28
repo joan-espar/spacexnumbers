@@ -1,0 +1,94 @@
+{
+    "id": "8695499e-9a59-4673-8519-d162e52984c4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8695499e-9a59-4673-8519-d162e52984c4/",
+    "slug": "simorgh-zafar-1",
+    "name": "Simorgh | Zafar-1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2024-08-02T16:54:13Z",
+    "net": "2020-02-09T15:45:00Z",
+    "window_end": "2020-02-09T15:45:00Z",
+    "window_start": "2020-02-09T15:45:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/34/",
+        "name": "Iranian Space Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2658,
+        "configuration": {
+            "id": 142,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/142/",
+            "name": "Simorgh",
+            "family": "",
+            "full_name": "Simorgh",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1082,
+        "name": "Zafar-1",
+        "description": "Zafar-1 is a small Earth observation satellite with reported ground resolution of 22.5 m. This is also a third attempt for Simorgh rocket to conduct a successful launch.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/88/",
+        "agency_id": 34,
+        "name": "Imam Khomeini Spaceport",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Imam_Khomeini_Spaceport",
+        "map_url": "https://www.google.com/maps?q=35.237005,53.9505",
+        "latitude": "35.237005",
+        "longitude": "53.9505",
+        "location": {
+            "id": 2,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/2/",
+            "name": "Semnan Space Center, Islamic Republic of Iran",
+            "country_code": "IRN",
+            "description": "Semnan Space Center is the primary Iranian spaceport, located 50 km southeast of the city of Semnan in the north of the country.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_2_20200803142458.jpg",
+            "timezone_name": "Asia/Tehran",
+            "total_launch_count": 14,
+            "total_landing_count": 0
+        },
+        "country_code": "IRN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_88_20200803143310.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5932,
+    "location_launch_attempt_count": 11,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 11,
+    "orbital_launch_attempt_count_year": 10,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

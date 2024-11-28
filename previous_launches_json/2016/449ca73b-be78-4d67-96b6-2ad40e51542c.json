@@ -1,0 +1,94 @@
+{
+    "id": "449ca73b-be78-4d67-96b6-2ad40e51542c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/449ca73b-be78-4d67-96b6-2ad40e51542c/",
+    "slug": "soyuz-21b-resurs-p-no3",
+    "name": "Soyuz 2.1b | Resurs-P No.3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:41:03Z",
+    "net": "2016-03-13T18:56:00Z",
+    "window_end": "2016-03-13T18:56:00Z",
+    "window_start": "2016-03-13T18:56:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1913,
+        "configuration": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
+            "name": "Soyuz 2.1b",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 833,
+        "name": "Resurs-P No.3",
+        "description": "This is the third satellite in the Resurs-P series of Earth observation satellites launched by the Russian government to replace the Resurs-DK 1 satellite. The satellite is capable of capturing images with a resolution of 3m per pixel in colour mode and as low as 1m in its panchromatic mode. The images provided will be used for the Russian ministries of Agriculture and Fishing, Meteorology, Transportation, Defence, and Natural Resources.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5545,
+    "location_launch_attempt_count": 1464,
+    "pad_launch_attempt_count": 367,
+    "agency_launch_attempt_count": 253,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

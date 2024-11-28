@@ -1,0 +1,94 @@
+{
+    "id": "0c0b4bb4-c3a9-4875-b350-dc90d052f8c2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0c0b4bb4-c3a9-4875-b350-dc90d052f8c2/",
+    "slug": "h-iia-202-akatsuki-planet-c",
+    "name": "H-IIA 202 | Akatsuki (Planet-C)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-09-08T09:07:41Z",
+    "net": "2010-05-20T21:58:22Z",
+    "window_end": "2010-05-20T21:58:22Z",
+    "window_start": "2010-05-20T21:58:22Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1458,
+        "configuration": {
+            "id": 32,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/32/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 202",
+            "variant": "202"
+        }
+    },
+    "mission": {
+        "id": 6537,
+        "name": "Akatsuki (Planet-C)",
+        "description": "Planet-C or VCO (Venus Climate Orbiter, renamed Akatsuki after launch) is a Japanese Space Agency (JAXA) mission to study the dynamics of the atmosphere of Venus from orbit, particularly the upper atmosphere super-rotation and the three-dimensional motion in the lower part of the atmosphere, using multi-wavelength imaging. It will also measure atmospheric temperatures and look for evidence of volcanic activity and lightning. The scientific payload consists primarily of cameras in the near-infrared range.\r\n\r\nThe Planet-C main bus is a 1.6 m \u00d7 1.6 m \u00d7 1.25 m box with two solar array paddles, each with an area of 1.4 square meters, on opposite (+y and -y) sides and a 1.6 m high gain antenna on the +x side. On the opposite side (-x) from the antenna is a 0.45 m long orbital maneuvering engine. The total launch mass of the spacecraft will be 640 kg, including 320 kg of propellants and 34 kg of scientific instruments.\r\n\r\nThe spacecraft was to go into a near equatorial Venus orbit with an apoapsis of about 60,000 to 80,000 km and a very low periapsis.\r\n\r\nOn 7 December 2010, Akatsuki failed to enter orbit around Venus due to a malfunction in the propulsion system. An unexpected pressure drop in the spacecraft's fuel line, or possibly damage to the probe's engine nozzle, are the likely causes. JAXA plans to manoeuvre the probe to try it again five years later.\r\n\r\nTests of the engine in September 2011 resulted in low thrust. The back-up option is to use the RCS for orbit insertion. To enable this, the oxidizer needs to be dumped to reduce the weight of the probe. This will result in a less than optimal orbit. On 7 December 2015, another attempt to enter orbit was successful, this time using the RCS thrusters. It entered a 400 km \u00d7 ~440000 km orbit of ~3\u00b0 inclination with an orbital period of 13 days and 14 hours.\r\n\r\nAlso on board is IKAROS (Interplanetary Kite-craft Accelerated by Radiation Of the Sun), a experimental a solar sail. It is the world's first solar powered sail craft employing both photon propulsion and thin film solar power generation during its interplanetary cruise. After separation from the carrier rocket, it spun at up to 20 rpm, deploying the membrane and generating solar power by means of thin film solar cells (minimum success level) within several weeks. Acceleration and navigation using the solar sail will then be demonstrated (full success level) within half a year.\r\n\r\nThe shape of the membrane is square, with a diagonal distance of 20m. It is made of polyimide a mere 0.0075 mm thick. In addition to the thin film solar cells, the steering devices and dust-counter sensors are fitted to the membrane. The membrane is deployed, and kept flat, by its spinning motion. Four masses are attached to the four tips of the membrane in order to facilitate deployment. Deployment is in two stages. During the first stage, the membrane is deployed statically, and during the second stage, dynamically. This deployment method can be realized with simpler and lighter mechanisms than conventional mast or boom types as it does not require rigid structural elements.\r\n\r\nAfter successfully unfolding the solar sail IKAROS deployed two tiny subsatellites called DCAM 1 and 2 to photograph the deployed sail.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_20240325123250.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5053,
+    "location_launch_attempt_count": 49,
+    "pad_launch_attempt_count": 24,
+    "agency_launch_attempt_count": 11,
+    "orbital_launch_attempt_count_year": 21,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

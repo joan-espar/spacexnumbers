@@ -1,0 +1,173 @@
+{
+    "id": "37632616-07e2-4755-8f2e-42ca58c9d9c0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/37632616-07e2-4755-8f2e-42ca58c9d9c0/",
+    "slug": "space-shuttle-atlantis-ov-104-sts-34",
+    "name": "Space Shuttle Atlantis / OV-104 | STS-34",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-02-09T07:19:12Z",
+    "net": "1989-10-18T16:53:40Z",
+    "window_end": "1989-10-18T16:53:40Z",
+    "window_start": "1989-10-18T16:53:40Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 192,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/192/",
+        "name": "Lockheed Space Operations Company",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 329,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 701,
+        "name": "STS-34 (Galileo)",
+        "description": "STS-34 was the thirty-first shuttle mission and the fifth for Atlantis. It deployed the Jupiter-bound Galileo probe.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 44,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "launch_library_url": null,
+                "total_launch_count": 141,
+                "consecutive_successful_launches": 11,
+                "successful_launches": 121,
+                "failed_launches": 20,
+                "pending_launches": 6,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.nasa.gov",
+                "wiki_url": "http://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 4,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/4/",
+        "agency_id": 44,
+        "name": "Launch Complex 39B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39B",
+        "map_url": "https://www.google.com/maps?q=28.62711233,-80.62101503",
+        "latitude": "28.62711233",
+        "longitude": "-80.62101503",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
+        "total_launch_count": 58,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 36,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/36/",
+            "name": "NASA Large Strategic Science Missions",
+            "description": "NASA's large strategic science missions or large strategic missions, formerly known as Flagship missions or Flagship-class missions, are the costliest and most capable NASA science spacecraft. Flagship missions exist within all four divisions of NASA's Science Mission Directorate (SMD): the astrophysics, Earth science, heliophysics and planetary science divisions.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nasa2520large_program_20240205122003.jpeg",
+            "start_date": "1975-08-22T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Large_strategic_science_missions",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3459,
+    "location_launch_attempt_count": 48,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 22,
+    "orbital_launch_attempt_count_year": 85,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

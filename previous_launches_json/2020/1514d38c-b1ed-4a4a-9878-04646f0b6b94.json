@@ -1,0 +1,99 @@
+{
+    "id": "1514d38c-b1ed-4a4a-9878-04646f0b6b94",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1514d38c-b1ed-4a4a-9878-04646f0b6b94/",
+    "slug": "electron-return-to-sender-rideshare",
+    "name": "Electron | Return to Sender (Rideshare)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T12:25:21Z",
+    "net": "2020-11-20T02:20:01Z",
+    "window_end": "2020-11-20T04:34:00Z",
+    "window_start": "2020-11-20T01:44:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": 85,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#ReturnToSender",
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2804,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1204,
+        "name": "Return to Sender (Rideshare)",
+        "description": "\"Return to Sender\" will loft 30 satellites to a sun-synchronous orbit at 500 km altitude for a range of customers, including TriSept, Unseenlabs, Swarm, Te P\u016bnaha \u0100tea - Auckland Space Institute, and global gaming software company Valve. The satellites span a range of operations, from TriSept\u2019s tech demonstration of new tether systems designed to accelerate spacecraft reentry and reduce orbital debris, through to the next generation of maritime surveillance satellites for Unseenlabs, as well as communications satellites for Swarm. The mission will also deploy New Zealand\u2019s first student-built satellite, the APSS-1 satellite for Te P\u016bnaha \u0100tea - Auckland Space Institute at The University of Auckland.\r\n\r\nThe DRAGRACER mission will test the effectiveness of new tether technologies designed to accelerate spacecraft reentry and reduce orbital debris at the conclusion of space missions. TriSept has completed the integration of a pair of qualified Millennium Space Systems 6U small satellites, one featuring the tether drag device and one without. The controlled spacecraft should deorbit in approximately 45 days, while the second spacecraft is expected to remain in orbit for seven to nine years.\r\n\r\nBRO-2 and BRO-3 are the second and third satellites in French company Unseenlabs\u2019 planned constellation of about 20 satellites dedicated to maritime surveillance. \r\n\r\nSwarm will launch the latest 24 1/4U SpaceBEE satellites to continue building out its planned constellation of 150 satellites to provide affordable satellite communications services to IoT devices in remote regions around the world. \r\n\r\nThe student-built Waka \u0100miorangi Aotearoa APSS-1 satellite is designed to monitor electrical activity in Earth\u2019s upper atmosphere to test whether ionospheric disturbances can predict earthquakes.\r\n\r\nExtra payload on this flight is a 150 mm 3D printed Half-Life Gnome Chompski. Created for Valve Software's co-founder Gabe Newell by design studio Weta Workshop, it serves as an homage to the innovation and creativity of gamers worldwide, and also aims to test and qualify a novel 3D printing technique that could be employed for future spacecraft components. Gnome will remain attached to the Kick Stage and will burn up on reentry.\r\n\r\nBesides payloads, this flight will also serve as a test of Electron's reusability. Rocket Lab will attempt to bring Electron\u2019s first stage back to Earth under a parachute system for a controlled water landing before collection by a recovery vessel.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+            "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+            "country_code": "NZL",
+            "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of M\u0101hia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+            "timezone_name": "Pacific/Auckland",
+            "total_launch_count": 51,
+            "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 27,
+        "orbital_launch_attempt_count": 27
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron25202_image_20201120015105.jpg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/electron25202_infographic_20201112150118.png",
+    "program": [],
+    "orbital_launch_attempt_count": 6016,
+    "location_launch_attempt_count": 16,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 16,
+    "orbital_launch_attempt_count_year": 94,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

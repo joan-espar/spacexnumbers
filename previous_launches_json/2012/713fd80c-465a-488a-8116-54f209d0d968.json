@@ -1,0 +1,94 @@
+{
+    "id": "713fd80c-465a-488a-8116-54f209d0d968",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/713fd80c-465a-488a-8116-54f209d0d968/",
+    "slug": "pegasus-xl-nuclear-spectroscopic-telescope-array-n",
+    "name": "Pegasus XL | Nuclear Spectroscopic Telescope Array (NuSTAR)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:55Z",
+    "net": "2012-06-13T16:00:37Z",
+    "window_end": "2012-06-13T16:00:37Z",
+    "window_start": "2012-06-13T16:00:37Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1615,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 813,
+        "name": "Nuclear Spectroscopic Telescope Array (NuSTAR)",
+        "description": "Designed to image high-energy X-ray radiation, the Nuclear Spectroscopic Telescope Array (NuSTAR) is tasked with surveying regions surrounding the center of own Milky Way Galaxy and performing deep observations of the extragalactic sky, studying black holes and supernovas.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 59,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/59/",
+        "agency_id": null,
+        "name": "Kwajalein Atoll",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kwajalein_Atoll",
+        "map_url": "https://www.google.com/maps?q=8.716667,167.733333",
+        "latitude": "8.716667",
+        "longitude": "167.733333",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "MHL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_59_20200803143427.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 4
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5223,
+    "location_launch_attempt_count": 41,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 64,
+    "orbital_launch_attempt_count_year": 33,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

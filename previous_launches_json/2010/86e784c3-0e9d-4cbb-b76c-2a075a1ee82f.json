@@ -1,0 +1,94 @@
+{
+    "id": "86e784c3-0e9d-4cbb-b76c-2a075a1ee82f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/86e784c3-0e9d-4cbb-b76c-2a075a1ee82f/",
+    "slug": "ariane-5-eca-hispasat-1e-koreasat-6",
+    "name": "Ariane 5 ECA | Hispasat-1E & Koreasat 6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:04Z",
+    "net": "2010-12-29T21:27:00Z",
+    "window_end": "2010-12-29T21:27:00Z",
+    "window_start": "2010-12-29T21:27:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 695,
+        "configuration": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/20/",
+            "name": "Ariane 5 ECA",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA",
+            "variant": "ECA"
+        }
+    },
+    "mission": {
+        "id": 634,
+        "name": " Hispasat-1E & Koreasat 6",
+        "description": "Koreasat 6 is a South Korean communications satellite operated by Koreasat. Hispasat 1E provides Fixed Satellite Services (FSS) and a Broadcast Satellite Services (BSS) to Europe, the Americas and North Africa. Located at 30 degrees West.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5106,
+    "location_launch_attempt_count": 208,
+    "pad_launch_attempt_count": 55,
+    "agency_launch_attempt_count": 194,
+    "orbital_launch_attempt_count_year": 74,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

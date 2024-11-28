@@ -1,0 +1,94 @@
+{
+    "id": "0560cfb0-ed19-4e8b-9fe9-728feb0f817c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0560cfb0-ed19-4e8b-9fe9-728feb0f817c/",
+    "slug": "falcon-1-ratsat",
+    "name": "Falcon 1 | RatSat",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:51:15Z",
+    "net": "2008-09-28T23:15:00Z",
+    "window_end": "2008-09-28T23:15:00Z",
+    "window_start": "2008-09-28T23:15:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1400,
+        "configuration": {
+            "id": 133,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/133/",
+            "name": "Falcon 1",
+            "family": "Falcon",
+            "full_name": "Falcon 1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 6461,
+        "name": "RatSat",
+        "description": "RatSat was an aluminum mass simulator on the fourth flight of the Falcon 1 rocket.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 107,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/107/",
+        "agency_id": null,
+        "name": "Omelek Island",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Omelek_Island",
+        "map_url": "https://www.google.com/maps?q=9.047861,167.743",
+        "latitude": "9.047861",
+        "longitude": "167.743",
+        "location": {
+            "id": 142,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/142/",
+            "name": "Ronald Reagan Ballistic Missile Defense Test Site, Kwajalein Atoll, Marshall Islands",
+            "country_code": "MHL",
+            "description": "The Ronald Reagan Ballistic Missile Defense Test Site is a missile test range in Marshall Islands. It covers about 750,000 square miles (1,900,000 km2) and includes rocket launch sites at the Kwajalein Atoll (on multiple islands), Wake Island, and Aur Atoll. It primarily functions as a test facility for U.S. missile defense and space research programs.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_142_20200803142511.jpg",
+            "timezone_name": "Pacific/Tarawa",
+            "total_launch_count": 5,
+            "total_landing_count": 0
+        },
+        "country_code": "MHL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_107_20200803143450.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_image_20190222030438.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4935,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 50,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

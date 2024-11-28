@@ -1,0 +1,274 @@
+{
+    "id": "e443b805-1d5c-4491-b053-e03cd588611e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e443b805-1d5c-4491-b053-e03cd588611e/",
+    "slug": "falcon-9-full-thrust-paz-microsat-2a-microsat-2b",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 Full Thrust | PAZ & Microsat-2a; Microsat-2b",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T01:14:17Z",
+    "updates": [],
+    "net": "2018-02-22T14:17:00Z",
+    "net_precision": null,
+    "window_end": "2018-02-22T14:17:00Z",
+    "window_start": "2018-02-22T14:17:00Z",
+    "probability": 90,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 249,
+        "consecutive_successful_launches": 10,
+        "successful_launches": 239,
+        "failed_launches": 10,
+        "pending_launches": 110,
+        "consecutive_successful_landings": 118,
+        "successful_landings": 200,
+        "failed_landings": 17,
+        "attempted_landings": 217,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2079,
+        "configuration": {
+            "id": 55,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/55/",
+            "name": "Falcon 9",
+            "active": false,
+            "reusable": true,
+            "description": "The Full Thrust variants first stage includes all systems necessary for an operational re-use of stages while the second stage is operated as an expendable rocket stage.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Full Thrust",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 249,
+                "consecutive_successful_launches": 10,
+                "successful_launches": 239,
+                "failed_launches": 10,
+                "pending_launches": 110,
+                "consecutive_successful_landings": 118,
+                "successful_landings": 200,
+                "failed_landings": 17,
+                "attempted_landings": 217,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights; covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Full Thrust",
+            "alias": "",
+            "min_stage": 2,
+            "max_stage": 2,
+            "length": 71,
+            "diameter": 3.65,
+            "maiden_flight": "2015-12-22",
+            "launch_cost": "50000000",
+            "launch_mass": 546,
+            "leo_capacity": 22800,
+            "gto_capacity": 8305,
+            "to_thrust": 6804,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+            "info_url": "http://www.spacex.com/falcon9",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+            "total_launch_count": 25,
+            "consecutive_successful_launches": 16,
+            "successful_launches": 24,
+            "failed_launches": 1,
+            "pending_launches": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 50,
+                "type": "Core",
+                "reused": true,
+                "launcher_flight_number": 2,
+                "launcher": {
+                    "id": 46,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/46/",
+                    "details": "Stage Expended",
+                    "flight_proven": true,
+                    "serial_number": "B1038",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/46_image_20190226083648.jpeg",
+                    "successful_landings": 1,
+                    "attempted_landings": 1,
+                    "flights": 2,
+                    "last_launch_date": "2018-02-22T14:17:00Z",
+                    "first_launch_date": "2017-08-24T18:51:00Z"
+                },
+                "landing": {
+                    "id": 88,
+                    "attempt": false,
+                    "success": null,
+                    "description": "",
+                    "location": null,
+                    "type": null
+                },
+                "previous_flight_date": "2017-08-24T18:51:00Z",
+                "turn_around_time_days": 181,
+                "previous_flight": {
+                    "id": "f9779d72-915c-42f0-b331-a13c8075f19d",
+                    "name": "Falcon 9 Full Thrust | Formosat 5"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 302,
+        "name": "PAZ & Microsat-2a; Microsat-2b",
+        "description": "PAZ is a military Earth radar observation satellite; designed and built by Airbus Defence and Space for Spain. The satellite is owned and operated by Hisdesat. The PAZ satellite is equipped with an advanced radar instrument designed for high flexibility, and the capability to operate in numerous modes allowing for the choice of several different image configurations. It will be able to generate images with up to 25 cm resolution. Designed for a mission of five and a half years, PAZ will orbit Earth 15 times per day, covering an area of over 300,000 square kilometres. On its slightly inclined quasi-polar orbit, PAZ will cover the entire globe in 24 hours, serving both government and commercial needs. Satellite is sharing the ride with two small SpaceX satellites. These will test the technologies for the planned satellite network called Starlink, which will consist of roughly 4000 satellites providing space-based Internet around the globe.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        }
+    },
+    "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=34.632;-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB; CA, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 719,
+            "total_landing_count": 10
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 110,
+        "orbital_launch_attempt_count": 110
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 0,
+            "title": "SpaceX Falcon 9 PAZ launch from Vandenberg AFB",
+            "description": "Team Vandenberg successfully launched a Falcon 9 rocket carrying a PAZ payload from Space Launch Complex-4; Thursday, Feb. 22, at 6:17 a.m. PST. Col. Greg Wo...",
+            "feature_image": "https://i.ytimg.com/vi/4911KtNe-bo/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=4911KtNe-bo"
+        },
+        {
+            "priority": 0,
+            "title": "PAZ Mission",
+            "description": "SpaceX is targeting a Falcon 9 launch of the PAZ satellite to low-Earth orbit on Thursday; February 22 from Space Launch Complex 4 East (SLC-4E) at Vandenber...",
+            "feature_image": "https://i.ytimg.com/vi/-p-PToD2URA/hqdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=-p-PToD2URA"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5717,
+    "location_launch_attempt_count": 676,
+    "pad_launch_attempt_count": 76,
+    "agency_launch_attempt_count": 56,
+    "orbital_launch_attempt_count_year": 20,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "mission_patches": [
+        {
+            "id": 578,
+            "name": "Space X Paz Mission Patch",
+            "priority": 9,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20211102195735.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ]
+}

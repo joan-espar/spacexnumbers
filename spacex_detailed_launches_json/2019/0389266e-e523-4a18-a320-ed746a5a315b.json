@@ -1,0 +1,278 @@
+{
+    "id": "0389266e-e523-4a18-a320-ed746a5a315b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0389266e-e523-4a18-a320-ed746a5a315b/",
+    "slug": "starship-hopper-150m-hop",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Starship Hopper | 150m Hop",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T00:15:53Z",
+    "updates": [],
+    "net": "2019-08-27T22:02:00Z",
+    "net_precision": null,
+    "window_end": "2019-08-27T22:02:00Z",
+    "window_start": "2019-08-27T22:02:00Z",
+    "probability": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 248,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 111,
+        "consecutive_successful_landings": 117,
+        "successful_landings": 199,
+        "failed_landings": 17,
+        "attempted_landings": 216,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2748,
+        "configuration": {
+            "id": 207,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/207/",
+            "name": "Starship Prototype",
+            "active": false,
+            "reusable": true,
+            "description": "Prototype of SpaceX's Starship; a fully reusable second stage and space vehicle.",
+            "family": "Starship",
+            "full_name": "Starship Prototype",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 248,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 111,
+                "consecutive_successful_landings": 117,
+                "successful_landings": 199,
+                "failed_landings": 17,
+                "attempted_landings": 216,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 1,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+                    "name": "SpaceX Starship",
+                    "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+                    "agencies": [
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/spacex2520star_program_20201129204513.png",
+                    "start_date": "2019-03-01T05:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.spacex.com/vehicles/starship/",
+                    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Prototype",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 1,
+            "length": 50,
+            "diameter": 9,
+            "maiden_flight": "2019-07-26",
+            "launch_cost": null,
+            "launch_mass": 45,
+            "leo_capacity": null,
+            "gto_capacity": null,
+            "to_thrust": null,
+            "apogee": null,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/starship_protot_image_20210506061556.jpeg",
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "total_launch_count": 9,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 6,
+            "failed_launches": 3,
+            "pending_launches": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 135,
+                "type": "Core",
+                "reused": true,
+                "launcher_flight_number": 2,
+                "launcher": {
+                    "id": 74,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/74/",
+                    "details": "First prototype of the Starship vehicle. Starhopper was a short test article that flew once to a height of 150m before landing safely.",
+                    "flight_proven": true,
+                    "serial_number": "Starhopper",
+                    "status": "retired",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/none_image_20200820190716.jpeg",
+                    "successful_landings": 2,
+                    "attempted_landings": 2,
+                    "flights": 2,
+                    "last_launch_date": "2019-08-27T22:02:00Z",
+                    "first_launch_date": "2019-07-26T03:45:00Z"
+                },
+                "landing": {
+                    "id": 167,
+                    "attempt": true,
+                    "success": true,
+                    "description": "Starhopper successfully landed after its 150m hop.",
+                    "location": {
+                        "id": 14,
+                        "name": "SpaceX Starship Landing Pad",
+                        "abbrev": "LZ",
+                        "description": "This is the landing pad used for early Starship development flights.",
+                        "location": {
+                            "id": 143,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+                            "name": "SpaceX Space Launch Facility; TX, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
+                            "timezone_name": "America/Chicago",
+                            "total_launch_count": 10,
+                            "total_landing_count": 9
+                        },
+                        "successful_landings": 5
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": "2019-07-26T03:45:00Z",
+                "turn_around_time_days": 32,
+                "previous_flight": {
+                    "id": "eae177d1-3de8-4a21-ad79-fe21afac4f04",
+                    "name": "Starship Hopper | 20m Hop"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 1146,
+        "name": "Starhopper 150m Hop",
+        "description": "SpaceX's latest prototype rocket design; Starhopper, has successfully performed a 150m  hop on Tuesday August 27, 2019 at 22:02 UTC.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        }
+    },
+    "pad": {
+        "id": 111,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/111/",
+        "agency_id": 121,
+        "name": "Launch Pad A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_South_Texas_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=25.997116;-97.15503099856647",
+        "latitude": "25.997116",
+        "longitude": "-97.15503099856647",
+        "location": {
+            "id": 143,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+            "name": "SpaceX Space Launch Facility; TX, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 10,
+            "total_landing_count": 9
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_111_20200803143229.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 0
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 10,
+            "title": "150 Meter Starhopper Test",
+            "description": "Starhopper's test flight in Boca Chica; TX.",
+            "feature_image": "https://i.ytimg.com/vi/bYb3bfA6_sQ/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=bYb3bfA6_sQ"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/starship2520ho_image_20200820191836.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+            "name": "SpaceX Starship",
+            "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+            "agencies": [
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/spacex2520star_program_20201129204513.png",
+            "start_date": "2019-03-01T05:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "mission_patches": []
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 85,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 12,
+    "mission_patches": []
+}

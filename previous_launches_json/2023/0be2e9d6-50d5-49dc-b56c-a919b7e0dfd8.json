@@ -1,0 +1,129 @@
+{
+    "id": "0be2e9d6-50d5-49dc-b56c-a919b7e0dfd8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0be2e9d6-50d5-49dc-b56c-a919b7e0dfd8/",
+    "slug": "falcon-9-block-5-o3b-mpower-5-6",
+    "name": "Falcon 9 Block 5 | O3b mPower 5 & 6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:39:12Z",
+    "net": "2023-11-12T21:08:00Z",
+    "window_end": "2023-11-12T22:37:00Z",
+    "window_start": "2023-11-12T21:08:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": 70,
+    "weather_concerns": "Cumulus Cloud Rule",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7552,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 6156,
+        "name": "O3b mPower 5 & 6",
+        "description": "Fifth and sixth of a constellation of eleven high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [
+            {
+                "id": 203,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/203/",
+                "name": "SES",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "LUX",
+                "abbrev": "SES",
+                "description": null,
+                "administrator": null,
+                "founding_year": null,
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": null,
+                "wiki_url": "https://en.wikipedia.org/wiki/SES_S.A.",
+                "logo_url": null,
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20231113051301.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6552,
+    "location_launch_attempt_count": 919,
+    "pad_launch_attempt_count": 210,
+    "agency_launch_attempt_count": 297,
+    "orbital_launch_attempt_count_year": 184,
+    "location_launch_attempt_count_year": 51,
+    "pad_launch_attempt_count_year": 47,
+    "agency_launch_attempt_count_year": 84,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "f47daa0f-677c-4041-8be7-1ff47c3a0509",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f47daa0f-677c-4041-8be7-1ff47c3a0509/",
+    "slug": "proton-altair-13l-luch-1",
+    "name": "Proton | Altair 13L (Luch 1)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:46:20Z",
+    "net": "1994-12-16T12:00:00Z",
+    "window_end": "1994-12-16T12:00:00Z",
+    "window_start": "1994-12-16T12:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6633,
+        "configuration": {
+            "id": 80,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/80/",
+            "name": "Proton",
+            "family": "Proton / UR-500",
+            "full_name": "Proton K/DM-2",
+            "variant": "K/DM-2"
+        }
+    },
+    "mission": {
+        "id": 5023,
+        "name": "Altair 13L (Luch 1)",
+        "description": "The Luch or Altair satellites were the first generation of Soviet and later Russian data relay satellites. These satellites provided communications service to the Mir space station, Buran space shuttle, Soyuz-TM spacecraft, military satellites and the TsUPK ground control center.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/31/",
+        "agency_id": null,
+        "name": "81/23 (81L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.073997,62.977999",
+        "latitude": "46.073997",
+        "longitude": "62.977999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_31_20200803143402.jpg",
+        "total_launch_count": 104,
+        "orbital_launch_attempt_count": 104
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3954,
+    "location_launch_attempt_count": 1046,
+    "pad_launch_attempt_count": 65,
+    "agency_launch_attempt_count": 26,
+    "orbital_launch_attempt_count_year": 86,
+    "location_launch_attempt_count_year": 27,
+    "pad_launch_attempt_count_year": 9,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "10841065-8861-47ba-8c55-228c15672792",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/10841065-8861-47ba-8c55-228c15672792/",
+    "slug": "taurus-1110-mti",
+    "name": "Taurus 1110 | MTI",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:43Z",
+    "net": "2000-03-12T09:29:00Z",
+    "window_end": "2000-03-12T09:29:00Z",
+    "window_start": "2000-03-12T09:29:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6976,
+        "configuration": {
+            "id": 383,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/383/",
+            "name": "Minotaur-C 1110",
+            "family": "Minotaur",
+            "full_name": "Minotaur-C 1110",
+            "variant": "1110"
+        }
+    },
+    "mission": {
+        "id": 5365,
+        "name": "MTI",
+        "description": "The primary objective of MTI (Multispectral Thermal Imager) was to demonstrate advanced multispectral and thermal imaging, image processing, and associated technologies that could be used in future systems for detecting and characterizing facilities producing weapons of mass destruction using radiometrically accurate, high spatial resolution, multispectral imaging.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 55,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/55/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 576E",
+        "description": "Launch Complex 576 is a group of rocket launch pads at Vandenberg Space Force Base. The pads were used from 1959 until 1971 to launch SM-65 Atlas missiles. The site was also known as Complex ABRES. Pads in Area 576 include 576A-1, 576A-2 and 576A-3, 576B-1, 576B-2 and 576B-3, 576-C, 576-D, 576-E, OSTF-1 and OSTF-2.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Launch_Complex_576",
+        "map_url": "https://www.google.com/maps?q=34.739444,-120.619167",
+        "latitude": "34.739444",
+        "longitude": "-120.619167",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_55_20200803143429.jpg",
+        "total_launch_count": 9,
+        "orbital_launch_attempt_count": 9
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4382,
+    "location_launch_attempt_count": 599,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 34,
+    "orbital_launch_attempt_count_year": 15,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

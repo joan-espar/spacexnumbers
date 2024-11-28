@@ -1,0 +1,99 @@
+{
+    "id": "c1d26e40-68d9-4702-83e4-4da8ebf39d4f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c1d26e40-68d9-4702-83e4-4da8ebf39d4f/",
+    "slug": "soyuz-u-pvb-yantar-4k2m-3",
+    "name": "Soyuz-U-PVB | Yantar-4K2M 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T18:10:20Z",
+    "net": "2007-06-07T18:00:01Z",
+    "window_end": "2007-06-07T18:00:01Z",
+    "window_start": "2007-06-07T18:00:01Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7317,
+        "configuration": {
+            "id": 378,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/378/",
+            "name": "Soyuz-U-PVB",
+            "family": "Soyuz",
+            "full_name": "Soyuz-U-PVB",
+            "variant": "U-PVB"
+        }
+    },
+    "mission": {
+        "id": 5706,
+        "name": "Yantar-4K2M 3",
+        "description": "Film-return reconnaisance satellite.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 35,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/35/",
+        "agency_id": 163,
+        "name": "16/2",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.960091,40.682983",
+        "latitude": "62.960091",
+        "longitude": "40.682983",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_35_20200803143306.jpg",
+        "total_launch_count": 136,
+        "orbital_launch_attempt_count": 136
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4841,
+    "location_launch_attempt_count": 1552,
+    "pad_launch_attempt_count": 127,
+    "agency_launch_attempt_count": 66,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

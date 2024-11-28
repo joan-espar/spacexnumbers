@@ -1,0 +1,94 @@
+{
+    "id": "5bdce7b6-0b8f-4df3-979e-3560654f9fe2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5bdce7b6-0b8f-4df3-979e-3560654f9fe2/",
+    "slug": "kuaizhou-1a-chuangxin-16",
+    "name": "Kuaizhou-1A | Chuangxin-16",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-12-25T03:46:01Z",
+    "net": "2022-08-23T02:36:00Z",
+    "window_end": "2022-08-23T02:44:00Z",
+    "window_start": "2022-08-23T02:24:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 184,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/184/",
+        "name": "China Aerospace Science and Industry Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7625,
+        "configuration": {
+            "id": 135,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/135/",
+            "name": "Kuaizhou",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-1A",
+            "variant": "1A"
+        }
+    },
+    "mission": {
+        "id": 6130,
+        "name": "Chuangxin-16",
+        "description": "2 satellites of unknown purposes built by Chinese Academy of Sciences.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 157,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/157/",
+        "agency_id": null,
+        "name": "Mobile Launcher Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.242774,102.032944",
+        "latitude": "28.242774",
+        "longitude": "102.032944",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_157_20200803143359.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6288,
+    "location_launch_attempt_count": 175,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 106,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

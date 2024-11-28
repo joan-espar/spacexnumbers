@@ -1,0 +1,94 @@
+{
+    "id": "621ec779-86ee-4795-b2a2-a4db9abef7c3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/621ec779-86ee-4795-b2a2-a4db9abef7c3/",
+    "slug": "proton-mbriz-m-blagovest-n13l-kosmos-2533",
+    "name": "Proton-M/Briz-M | Blagovest N13L (Kosmos 2533)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-11T17:24:59Z",
+    "net": "2018-12-21T00:20:00Z",
+    "window_end": "2018-12-21T00:20:00Z",
+    "window_start": "2018-12-21T00:20:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 50,
+        "configuration": {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/22/",
+            "name": "Proton-M Briz-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Briz-M",
+            "variant": "Briz-M"
+        }
+    },
+    "mission": {
+        "id": 650,
+        "name": "Blagovest N13L (Kosmos 2533)",
+        "description": "The third of four Blagovest communication satellites. It is a high throughput communications satellite used for high speed internet services, TV, radio broadcasting and voice/video networking.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m2520briz-m_image_20190224012317.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5815,
+    "location_launch_attempt_count": 1495,
+    "pad_launch_attempt_count": 88,
+    "agency_launch_attempt_count": 180,
+    "orbital_launch_attempt_count_year": 109,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

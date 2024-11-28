@@ -1,0 +1,154 @@
+{
+    "id": "e11c7aee-b185-49d5-8596-65959d2e009b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e11c7aee-b185-49d5-8596-65959d2e009b/",
+    "slug": "long-march-7-tianzhou-7",
+    "name": "Long March 7 | Tianzhou-7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-30T08:42:02Z",
+    "net": "2024-01-17T14:27:30Z",
+    "window_end": "2024-01-17T14:34:00Z",
+    "window_start": "2024-01-17T14:17:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8103,
+        "configuration": {
+            "id": 100,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/100/",
+            "name": "Long March 7",
+            "family": "Long March",
+            "full_name": "Long March 7",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6661,
+        "name": "Tianzhou 7",
+        "description": "Sixth cargo delivery mission to the Chinese space station.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 17,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                "name": "China National Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "CHN",
+                "abbrev": "CNSA",
+                "description": "The China National Space Administration (CNSA) is the national space agency of the People's Republic of China. It is responsible for the national space program and for planning and development of space activities. CNSA and China Aerospace Corporation (CASC) assumed the authority over space development efforts previously held by the Ministry of Aerospace Industry. The CNSA has many launch sites around China with their orbital sites located in Jiuquan, Xichang, Taiyuan and Wenchang.",
+                "administrator": "Administrator: Tang Dengjie",
+                "founding_year": "1993",
+                "launchers": "",
+                "spacecraft": "Shenzhou",
+                "launch_library_url": null,
+                "total_launch_count": 2,
+                "consecutive_successful_launches": 2,
+                "successful_launches": 2,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.cnsa.gov.cn/",
+                "wiki_url": "http://en.wikipedia.org/wiki/China_National_Space_Administration",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520national2520space2520administration_logo_20190207032431.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520national2520space2520administration_image_20190207032431.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520national2520space2520administration_nation_20190602114400.png"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 32,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 20
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20240117193513.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/19/",
+            "name": "Tiangong space station",
+            "description": "The Tiangong space station is a space station placed in Low Earth orbit between 340 and 450 km above the surface.",
+            "agencies": [
+                {
+                    "id": 88,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+                    "name": "China Aerospace Science and Technology Corporation",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/chinese2520spa_program_20210608105528.png",
+            "start_date": "2021-04-29T03:23:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Tiangong_space_station",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6602,
+    "location_launch_attempt_count": 26,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 454,
+    "orbital_launch_attempt_count_year": 13,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

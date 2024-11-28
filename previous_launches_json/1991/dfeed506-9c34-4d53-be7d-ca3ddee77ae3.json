@@ -1,0 +1,94 @@
+{
+    "id": "dfeed506-9c34-4d53-be7d-ca3ddee77ae3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dfeed506-9c34-4d53-be7d-ca3ddee77ae3/",
+    "slug": "soyuz-u-orlets-1-3",
+    "name": "Soyuz-U | Orlets-1 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:48:51Z",
+    "net": "1991-10-09T13:15:00Z",
+    "window_end": "1991-10-09T13:15:00Z",
+    "window_start": "1991-10-09T13:15:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6400,
+        "configuration": {
+            "id": 101,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/101/",
+            "name": "Soyuz-U",
+            "family": "",
+            "full_name": "Soyuz-U2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 4790,
+        "name": "Orlets-1 3",
+        "description": "Film-return reconnaissance satellite",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-u_image_20191229074852.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3671,
+    "location_launch_attempt_count": 970,
+    "pad_launch_attempt_count": 305,
+    "agency_launch_attempt_count": 2446,
+    "orbital_launch_attempt_count_year": 74,
+    "location_launch_attempt_count_year": 18,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 51,
+    "type": "normal"
+}

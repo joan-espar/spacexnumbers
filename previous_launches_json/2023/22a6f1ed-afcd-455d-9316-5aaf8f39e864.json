@@ -1,0 +1,99 @@
+{
+    "id": "22a6f1ed-afcd-455d-9316-5aaf8f39e864",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/22a6f1ed-afcd-455d-9316-5aaf8f39e864/",
+    "slug": "long-march-2d-skysight-as-01-to-03-lingxi-03",
+    "name": "Long March 2D | Skysight AS-01 to 03 & Lingxi-03",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:50:11Z",
+    "net": "2023-07-23T02:50:00Z",
+    "window_end": "2023-07-23T03:20:00Z",
+    "window_start": "2023-07-23T02:41:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7957,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 6475,
+        "name": "Skysight AS-01 to 03 & Lingxi-03",
+        "description": "Skysight AS-01 to 03: 3 Earth observation satellites by Skysight, including optical, radar and infrared observation capabilities.\r\n\r\nLingxi-03: Flat-panel satellite bus LEO communication demonstration satellite for Galaxy Space.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230723045115.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6478,
+    "location_launch_attempt_count": 121,
+    "pad_launch_attempt_count": 70,
+    "agency_launch_attempt_count": 426,
+    "orbital_launch_attempt_count_year": 110,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 21,
+    "type": "normal"
+}

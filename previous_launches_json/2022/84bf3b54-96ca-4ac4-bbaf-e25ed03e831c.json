@@ -1,0 +1,132 @@
+{
+    "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/84bf3b54-96ca-4ac4-bbaf-e25ed03e831c/",
+    "slug": "falcon-9-block-5-starlink-group-4-20-varuna-tdm",
+    "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:11:04Z",
+    "net": "2022-09-05T02:09:40Z",
+    "window_end": "2022-09-05T02:09:40Z",
+    "window_start": "2022-09-05T02:09:40Z",
+    "net_precision": null,
+    "probability": 80,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7586,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 6028,
+        "name": "Starlink Group 4-20 & Varuna-TDM",
+        "description": "A batch of 51 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system. Spaceflight's propulsive Sherpa-LTC2 space tug is also onboard as a rideshare to deploy into Boeing\u2019s Varuna Technology Demonstration Mission in a higher orbit.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+    "infographic": null,
+    "program": [
+        {
+            "id": 25,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+            "name": "Starlink",
+            "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+            "agencies": [
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+            "start_date": "2018-02-22T14:17:00Z",
+            "end_date": null,
+            "info_url": "https://starlink.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+            "mission_patches": [
+                {
+                    "id": 7,
+                    "name": "Space X Starlink Mission Patch",
+                    "priority": 10,
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+                    "agency": {
+                        "id": 121,
+                        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                        "name": "SpaceX",
+                        "type": "Commercial"
+                    }
+                }
+            ],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6293,
+    "location_launch_attempt_count": 856,
+    "pad_launch_attempt_count": 152,
+    "agency_launch_attempt_count": 192,
+    "orbital_launch_attempt_count_year": 111,
+    "location_launch_attempt_count_year": 26,
+    "pad_launch_attempt_count_year": 19,
+    "agency_launch_attempt_count_year": 40,
+    "type": "normal"
+}

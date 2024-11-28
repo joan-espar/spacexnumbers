@@ -1,0 +1,94 @@
+{
+    "id": "4edae34f-34fc-4b80-b806-23c242fa2ad6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4edae34f-34fc-4b80-b806-23c242fa2ad6/",
+    "slug": "long-march-2fg-chinese-reusable-space-vehicle-2",
+    "name": "Long March 2F/G | Chinese Reusable Space Vehicle",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T03:51:34Z",
+    "net": "2022-08-04T16:00:00Z",
+    "window_end": "2022-08-04T17:40:00Z",
+    "window_start": "2022-08-04T15:52:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2679,
+        "configuration": {
+            "id": 84,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/84/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2F/G",
+            "variant": "F/G"
+        }
+    },
+    "mission": {
+        "id": 6116,
+        "name": "Chinese Reusable Space Vehicle",
+        "description": "Note: Launch time is approximate.\r\n\r\nProbable reflight of the Chinese spaceplane capable of returning to Earth, which flew in orbit September 4 - 6, 2020.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/37/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-1 / 921)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.957893,100.290944",
+        "latitude": "40.957893",
+        "longitude": "100.290944",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_37_20200803143603.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20210908195835.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6278,
+    "location_launch_attempt_count": 170,
+    "pad_launch_attempt_count": 18,
+    "agency_launch_attempt_count": 378,
+    "orbital_launch_attempt_count_year": 96,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 26,
+    "type": "normal"
+}

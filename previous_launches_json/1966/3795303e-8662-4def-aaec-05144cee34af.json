@@ -1,0 +1,94 @@
+{
+    "id": "3795303e-8662-4def-aaec-05144cee34af",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3795303e-8662-4def-aaec-05144cee34af/",
+    "slug": "diamant-a-diapason-d-1a",
+    "name": "Diamant A | Diapason D-1A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:25:03Z",
+    "net": "1966-02-17T08:33:36Z",
+    "window_end": "1966-02-17T08:33:36Z",
+    "window_start": "1966-02-17T08:33:36Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 46,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/46/",
+        "name": "National Center of Space Research",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3492,
+        "configuration": {
+            "id": 311,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/311/",
+            "name": "Diamant A",
+            "family": "Diamant",
+            "full_name": "Diamant A",
+            "variant": "A"
+        }
+    },
+    "mission": {
+        "id": 1912,
+        "name": "Diapason D-1A",
+        "description": "Diapason was a small cylindrical satellite, 20 cm long and 50 cm in diameter which was used for making geodetic measurements.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 141,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/141/",
+        "agency_id": null,
+        "name": "Brigitte",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Hammaguir",
+        "map_url": "https://www.google.com/maps?q=30.7787318,-3.0669721",
+        "latitude": "30.7787318",
+        "longitude": "-3.0669721",
+        "location": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/147/",
+            "name": "Interarmy Special Vehicles Test Centre, French Algeria",
+            "country_code": "FRA",
+            "description": "The Centre Interarm\u00e9es d'Essais d'Engins Sp\u00e9ciaux was France's first space launch and ballistic missile testing facility. Outside France, the facility is often referred to by the name of the nearest town, Hammaguir. It was established on 24 April 1947, by ministerial decree as the Special Weapons Test Center (CEES, Centre d'essais d'engins sp\u00e9ciaux) for use by the French Army. In 1948, it was turned over to the French Air Force, who renamed it CIEES. Its remote location in the middle of the Saharan Desert and its relative closeness to the Equator (compared with Metropolitan France) made it an attractive launch site for missiles and orbital rockets.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_147_20240808092142.jpg",
+            "timezone_name": "Africa/Algiers",
+            "total_launch_count": 4,
+            "total_landing_count": 0
+        },
+        "country_code": "FRA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_141_20200803143211.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 4
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/diamant_a_lifto_image_20240411170731.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 531,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 14,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

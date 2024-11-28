@@ -1,0 +1,94 @@
+{
+    "id": "db62cfa1-4d10-41d3-b25f-a58e138ce202",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/db62cfa1-4d10-41d3-b25f-a58e138ce202/",
+    "slug": "soyuz-fg-mars-express",
+    "name": "Soyuz-FG | Mars Express",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:41:10Z",
+    "net": "2003-06-02T17:45:26Z",
+    "window_end": "2003-06-02T17:45:26Z",
+    "window_start": "2003-06-02T17:45:26Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7134,
+        "configuration": {
+            "id": 70,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/70/",
+            "name": "Soyuz-FG",
+            "family": "",
+            "full_name": "Soyuz-FG Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 5523,
+        "name": "Mars Express",
+        "description": "Mars Express is a space exploration mission being conducted by the European Space Agency (ESA). The Mars Express mission is exploring the planet Mars, and is the first planetary mission attempted by the agency. Mars Express consists of two parts, the Mars Express Orbiter and Beagle 2, a lander designed to perform exobiology and geochemistry research. Although the lander failed to fully deploy after it landed on the Martian surface, the orbiter has been successfully performing scientific measurements since early 2004, namely, high-resolution imaging and mineralogical mapping of the surface, radar sounding of the subsurface structure down to the permafrost, precise determination of the atmospheric circulation and composition, and study of the interaction of the atmosphere with the interplanetary medium.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 19,
+            "name": "Mars Orbit",
+            "abbrev": "Mars"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_image_20190717035842.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4598,
+    "location_launch_attempt_count": 1205,
+    "pad_launch_attempt_count": 331,
+    "agency_launch_attempt_count": 128,
+    "orbital_launch_attempt_count_year": 22,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

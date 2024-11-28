@@ -1,0 +1,99 @@
+{
+    "id": "b83dc12b-3758-4f13-a079-74493a8228e2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b83dc12b-3758-4f13-a079-74493a8228e2/",
+    "slug": "long-march-3be-gaofen-14",
+    "name": "Long March 3B/E | Gaofen 14",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T17:18:47Z",
+    "net": "2020-12-06T03:57:37Z",
+    "window_end": "2020-12-06T04:17:00Z",
+    "window_start": "2020-12-06T03:49:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2810,
+        "configuration": {
+            "id": 50,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/50/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B/E",
+            "variant": "B/E"
+        }
+    },
+    "mission": {
+        "id": 1215,
+        "name": "Gaofen 14",
+        "description": "Gaofen is a series of civilian Earth observation satellites developed and launched for the China High-definition Earth Observation System (CHEOS), a state-sponsored programme aimed to develop a near-real time, all-weather, global surveillance network consisting of satellite, near-space (stratosphere) airships, and aerial observation platforms.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6024,
+    "location_launch_attempt_count": 150,
+    "pad_launch_attempt_count": 60,
+    "agency_launch_attempt_count": 301,
+    "orbital_launch_attempt_count_year": 102,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 31,
+    "type": "normal"
+}

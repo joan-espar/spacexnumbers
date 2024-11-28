@@ -1,0 +1,99 @@
+{
+    "id": "6e5725b3-d0e9-4484-9d79-514fe8b978be",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6e5725b3-d0e9-4484-9d79-514fe8b978be/",
+    "slug": "soyuz-21bfregat-m-meteor-m-no2-3-others",
+    "name": "Soyuz 2.1b/Fregat-M | Meteor-M No.2-3 & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:17:24Z",
+    "net": "2023-06-27T11:34:49Z",
+    "window_end": "2023-06-27T11:34:49Z",
+    "window_start": "2023-06-27T11:34:49Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2510,
+        "configuration": {
+            "id": 134,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/134/",
+            "name": "Soyuz 2.1b/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 6317,
+        "name": "Meteor-M No.2-3 & others",
+        "description": "Meteor-M satellites are a new generation of Russian meteorological satellites to replace the Meteor-3M series. The first two Meteor-M satellites will feature following instruments:\r\n\r\n- MSU-MR - Low-resolution Multispectral Scanner for global and regional for cloud cover mapping\r\n- KMSS-2 - multichannel scanning unit for Earth surface monitoring\r\n- MTVZA-GYa - imager/sounder for Atmospheric temperature and humidity profiles, sea surface wind\r\n- IKFS-2 advanced IR sounder for Atmospheric temperature and humidity profiles\r\n- BRK SSPD - Data Collection System\r\n- RK-SM-MKA - Modified Rescue Radio complex\r\n\r\nOne initial Meteor-M 1 satellite was built, followed by the improved Meteor-M 2 series satellites.\r\n\r\n42 cubesats from various Russian and international organizations will be launched as co-passengers.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 17,
+        "orbital_launch_attempt_count": 17
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20240101084745.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6465,
+    "location_launch_attempt_count": 14,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 313,
+    "orbital_launch_attempt_count_year": 97,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

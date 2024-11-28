@@ -1,0 +1,94 @@
+{
+    "id": "b0c5fb22-0636-4819-b041-eafa02ffb189",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b0c5fb22-0636-4819-b041-eafa02ffb189/",
+    "slug": "delta-ii-7920-10c-stss-demogmd",
+    "name": "Delta II 7920-10C | STSS-DEMO/GMD",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:49Z",
+    "net": "2009-09-25T12:20:00Z",
+    "window_end": "2009-09-25T12:20:00Z",
+    "window_start": "2009-09-25T12:20:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1428,
+        "configuration": {
+            "id": 99,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/99/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7920-10C",
+            "variant": "7920-10C"
+        }
+    },
+    "mission": {
+        "id": 567,
+        "name": "STSS-DEMO/GMD",
+        "description": "A satellite to demonstrate new technology for missile detection early wanring systems. Used in later operation capacities.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030612.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5009,
+    "location_launch_attempt_count": 666,
+    "pad_launch_attempt_count": 131,
+    "agency_launch_attempt_count": 33,
+    "orbital_launch_attempt_count_year": 55,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

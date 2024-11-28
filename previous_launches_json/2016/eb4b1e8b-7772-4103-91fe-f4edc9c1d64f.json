@@ -1,0 +1,94 @@
+{
+    "id": "eb4b1e8b-7772-4103-91fe-f4edc9c1d64f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/eb4b1e8b-7772-4103-91fe-f4edc9c1d64f/",
+    "slug": "long-march-11-xiaoxiang-1-xpnav-1-3-others",
+    "name": "Long March 11 | Xiaoxiang-1, XPNAV-1 & 3 others.",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:25:43Z",
+    "net": "2016-11-09T23:42:00Z",
+    "window_end": "2016-11-09T23:42:00Z",
+    "window_start": "2016-11-09T23:42:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1961,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 346,
+        "name": "Xiaoxiang-1, XPNAV-1 & 3 others.",
+        "description": "XPNAV-1 (X-Ray Pulsar Navigation) is the first ever satellite to test the technology of spacecraft navigation by using signals from X-ray pulsars. It is launched along with the Xiaoxiang 1 cubsat and several other small satellites.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5597,
+    "location_launch_attempt_count": 89,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 185,
+    "orbital_launch_attempt_count_year": 68,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 17,
+    "type": "normal"
+}

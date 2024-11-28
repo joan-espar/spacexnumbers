@@ -1,0 +1,80 @@
+{
+    "id": "fa0c50c8-886a-4d25-a8b7-748b3f5b6c59",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fa0c50c8-886a-4d25-a8b7-748b3f5b6c59/",
+    "slug": "unha-3-kwangmyongsong-3-unit-2",
+    "name": "Unha-3 | Kwangmyongsong-3 Unit 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:58:09Z",
+    "net": "2012-12-12T00:49:46Z",
+    "window_end": "2012-12-12T00:49:46Z",
+    "window_start": "2012-12-12T00:49:46Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 40,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/40/",
+        "name": "Korean Committee of Space Technology",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1652,
+        "configuration": {
+            "id": 67,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/67/",
+            "name": "Unha-3",
+            "family": "Taepodong",
+            "full_name": "Unha-3",
+            "variant": "Unha-3"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 74,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/74/",
+        "agency_id": 40,
+        "name": "Unha Launch Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Sohae_Satellite_Launching_Station",
+        "map_url": "https://www.google.com/maps?q=39.660065,124.705366",
+        "latitude": "39.660065",
+        "longitude": "124.705366",
+        "location": {
+            "id": 7,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/7/",
+            "name": "Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea",
+            "country_code": "PRK",
+            "description": "Sohae Satellite Launching Station is a rocket launching site in Tongch'ang-ri, Cholsan County, North Pyongan Province, North Korea. The base is located among hills close to the northern border with China. The spaceport was built on the site of the village Pongdong-ri which was displaced during construction.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_7_20200803142414.jpg",
+            "timezone_name": "Asia/Pyongyang",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "PRK",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_74_20200803143358.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/unha_image_20190222030930.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5265,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 5265,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

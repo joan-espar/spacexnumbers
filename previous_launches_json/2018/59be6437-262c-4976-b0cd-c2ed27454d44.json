@@ -1,0 +1,119 @@
+{
+    "id": "59be6437-262c-4976-b0cd-c2ed27454d44",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/59be6437-262c-4976-b0cd-c2ed27454d44/",
+    "slug": "delta-iv-heavy-parker-solar-probe",
+    "name": "Delta IV Heavy | Parker Solar Probe",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-13T09:37:48Z",
+    "net": "2018-08-12T07:31:00Z",
+    "window_end": "2018-08-12T08:36:00Z",
+    "window_start": "2018-08-12T07:31:00Z",
+    "net_precision": null,
+    "probability": 95,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#SolarProbe",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2123,
+        "configuration": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/21/",
+            "name": "Delta IV Heavy",
+            "family": "Delta",
+            "full_name": "Delta IV Heavy",
+            "variant": "Heavy"
+        }
+    },
+    "mission": {
+        "id": 262,
+        "name": "Parker Solar Probe",
+        "description": "Flying into the Sun\u00e2\u20ac\u2122s atmosphere (or corona) for the first time. Coming closer to the Sun than any previous spacecraft, Parker Solar Probe will employ a combination of in situ measurements and imaging to achieve the mission\u00e2\u20ac\u2122s primary\nscientific goal: to understand how the Sun\u00e2\u20ac\u2122s corona is heated and how the solar wind is accelerated.",
+        "launch_designator": null,
+        "type": "Heliophysics",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 38,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/38/",
+        "agency_id": null,
+        "name": "Space Launch Complex 37B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37",
+        "map_url": "https://www.google.com/maps?q=28.5317,-80.56495",
+        "latitude": "28.5317",
+        "longitude": "-80.56495",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_38_20200803143515.jpg",
+        "total_launch_count": 40,
+        "orbital_launch_attempt_count": 40
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_iv_heavy__image_20240313093740.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 36,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/36/",
+            "name": "NASA Large Strategic Science Missions",
+            "description": "NASA's large strategic science missions or large strategic missions, formerly known as Flagship missions or Flagship-class missions, are the costliest and most capable NASA science spacecraft. Flagship missions exist within all four divisions of NASA's Science Mission Directorate (SMD): the astrophysics, Earth science, heliophysics and planetary science divisions.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nasa2520large_program_20240205122003.jpeg",
+            "start_date": "1975-08-22T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Large_strategic_science_missions",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5771,
+    "location_launch_attempt_count": 774,
+    "pad_launch_attempt_count": 35,
+    "agency_launch_attempt_count": 130,
+    "orbital_launch_attempt_count_year": 65,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

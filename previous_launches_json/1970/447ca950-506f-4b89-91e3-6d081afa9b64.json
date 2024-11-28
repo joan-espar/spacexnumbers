@@ -1,0 +1,94 @@
+{
+    "id": "447ca950-506f-4b89-91e3-6d081afa9b64",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/447ca950-506f-4b89-91e3-6d081afa9b64/",
+    "slug": "voskhod-zenit-4-72",
+    "name": "Voskhod | Zenit-4 72",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:40:56Z",
+    "net": "1970-06-10T09:30:01Z",
+    "window_end": "1970-06-10T09:30:01Z",
+    "window_start": "1970-06-10T09:30:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4013,
+        "configuration": {
+            "id": 104,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/104/",
+            "name": "Voskhod",
+            "family": "R-7",
+            "full_name": "Voskhod",
+            "variant": "Voskhod"
+        }
+    },
+    "mission": {
+        "id": 2431,
+        "name": "Zenit-4 72",
+        "description": "Zenit-4 film-return reconnaissance satellite.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1091,
+    "location_launch_attempt_count": 289,
+    "pad_launch_attempt_count": 98,
+    "agency_launch_attempt_count": 482,
+    "orbital_launch_attempt_count_year": 45,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 29,
+    "type": "normal"
+}

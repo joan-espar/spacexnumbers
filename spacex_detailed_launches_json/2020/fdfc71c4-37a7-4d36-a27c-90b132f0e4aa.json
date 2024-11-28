@@ -1,0 +1,442 @@
+{
+    "id": "fdfc71c4-37a7-4d36-a27c-90b132f0e4aa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fdfc71c4-37a7-4d36-a27c-90b132f0e4aa/",
+    "slug": "starship-sn8-125-km-flight",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Starship SN8 | 12.5 km Flight",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit; or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2023-01-21T01:21:41Z",
+    "updates": [
+        {
+            "id": 120,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "",
+            "info_url": "https://www.youtube.com/watch?v=ap-BkkrRg-o",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T22:55:33Z"
+        },
+        {
+            "id": 118,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "new T-0 22:40 UTC",
+            "info_url": "https://www.youtube.com/watch?v=ap-BkkrRg-o",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T21:26:44Z"
+        },
+        {
+            "id": 117,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/scottm3_profile_20210817212204.png",
+            "comment": "NET 22:40 utc",
+            "info_url": null,
+            "created_by": "scottm3",
+            "created_on": "2020-12-09T21:25:52Z"
+        },
+        {
+            "id": 116,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "updated T-0",
+            "info_url": "https://www.youtube.com/watch?v=ap-BkkrRg-o",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T20:58:35Z"
+        },
+        {
+            "id": 115,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Changed T-0 to 21:10 UTC; will be updated again once SpaceX stream is live",
+            "info_url": "https://www.youtube.com/watch?v=ap-BkkrRg-o",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T20:49:22Z"
+        },
+        {
+            "id": 114,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Set to GO; but T-0 kept to 21:30 UTC based on the NASA airborne surveillance plane flight plan.",
+            "info_url": "https://youtu.be/ap-BkkrRg-o",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T20:19:52Z"
+        },
+        {
+            "id": 111,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Pushed T-0 to 21:30 UTC to match the new flight plan of NASA's airborne surveillance plane.",
+            "info_url": "https://flightaware.com/live/flight/NASA927",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T18:48:45Z"
+        },
+        {
+            "id": 110,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Pushed T-0 to 20:00 UTC to roughly match the flight plan of NASA's airborne surveillance plane.",
+            "info_url": "https://flightaware.com/live/flight/NASA927",
+            "created_by": "Nosu",
+            "created_on": "2020-12-09T17:23:35Z"
+        },
+        {
+            "id": 106,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Standing down for today. Moved to tomorrow's window.",
+            "info_url": "https://youtu.be/nf83yzzme2I",
+            "created_by": "Nosu",
+            "created_on": "2020-12-08T22:40:46Z"
+        },
+        {
+            "id": 105,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "adjusted T-0 to 22:30 UTC",
+            "info_url": "https://youtu.be/nf83yzzme2I",
+            "created_by": "Nosu",
+            "created_on": "2020-12-08T22:16:45Z"
+        },
+        {
+            "id": 104,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Updated T-0 to fit the new flight plan of NASA's airborne surveillance plane.",
+            "info_url": "https://twitter.com/DJSnM/status/1336405840417320960",
+            "created_by": "Nosu",
+            "created_on": "2020-12-08T20:28:31Z"
+        },
+        {
+            "id": 103,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Slight push of the T-0 to account for fuel loading duration",
+            "info_url": null,
+            "created_by": "Nosu",
+            "created_on": "2020-12-08T20:14:15Z"
+        },
+        {
+            "id": 101,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Pushed T-0 all the way to 2100 UTC to match the flight plan of a NASA airborne surveillance aircraft.",
+            "info_url": "https://twitter.com/StephenClark1/status/1336354876985585666?s=19",
+            "created_by": "Nosu",
+            "created_on": "2020-12-08T17:12:23Z"
+        },
+        {
+            "id": 97,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Set to GO with T-0 at the beginning of the TFR. Subject to change.",
+            "info_url": null,
+            "created_by": "Nosu",
+            "created_on": "2020-12-07T20:11:43Z"
+        },
+        {
+            "id": 87,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/scottm3_profile_20210817212204.png",
+            "comment": "Pushed to Monday based off road closures and flight restrictions.",
+            "info_url": "https://twitter.com/nextspaceflight/status/1334641195084079104",
+            "created_by": "scottm3",
+            "created_on": "2020-12-03T23:50:25Z"
+        },
+        {
+            "id": 82,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "TFR published for december 4 to 6; 14:00 to 23:00 UTC.",
+            "info_url": "https://tfr.faa.gov/save_pages/detail_0_8392.html",
+            "created_by": "Nosu",
+            "created_on": "2020-12-02T16:10:08Z"
+        },
+        {
+            "id": 73,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "",
+            "info_url": "https://twitter.com/elonmusk/status/1333123173815087111",
+            "created_by": "Nosu",
+            "created_on": "2020-11-29T19:01:10Z"
+        },
+        {
+            "id": 45,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Changed status",
+            "info_url": "https://www.cameroncounty.us/spacex/",
+            "created_by": "Nosu",
+            "created_on": "2020-11-21T08:47:38Z"
+        }
+    ],
+    "net": "2020-12-09T22:45:25Z",
+    "net_precision": null,
+    "window_end": "2020-12-09T23:00:00Z",
+    "window_start": "2020-12-09T14:00:00Z",
+    "probability": null,
+    "holdreason": "",
+    "failreason": "Test completed set out objectives; but the vehicle failed to land successfully due to low pressure in the propellant header tanks cutting out the engines.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 248,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 111,
+        "consecutive_successful_landings": 117,
+        "successful_landings": 199,
+        "failed_landings": 17,
+        "attempted_landings": 216,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2803,
+        "configuration": {
+            "id": 207,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/207/",
+            "name": "Starship Prototype",
+            "active": false,
+            "reusable": true,
+            "description": "Prototype of SpaceX's Starship; a fully reusable second stage and space vehicle.",
+            "family": "Starship",
+            "full_name": "Starship Prototype",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 248,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 111,
+                "consecutive_successful_landings": 117,
+                "successful_landings": 199,
+                "failed_landings": 17,
+                "attempted_landings": 216,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 1,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+                    "name": "SpaceX Starship",
+                    "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+                    "agencies": [
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/spacex2520star_program_20201129204513.png",
+                    "start_date": "2019-03-01T05:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.spacex.com/vehicles/starship/",
+                    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Prototype",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 1,
+            "length": 50,
+            "diameter": 9,
+            "maiden_flight": "2019-07-26",
+            "launch_cost": null,
+            "launch_mass": 45,
+            "leo_capacity": null,
+            "gto_capacity": null,
+            "to_thrust": null,
+            "apogee": null,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/starship_protot_image_20210506061556.jpeg",
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "total_launch_count": 9,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 6,
+            "failed_launches": 3,
+            "pending_launches": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 145,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 83,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/83/",
+                    "details": "SN8 was destroyed when attempting to land after its first flight due to low header tank pressure during landing burn.",
+                    "flight_proven": true,
+                    "serial_number": "SN8",
+                    "status": "destroyed",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/83_image_20201211002626.jpeg",
+                    "successful_landings": 0,
+                    "attempted_landings": 1,
+                    "flights": 1,
+                    "last_launch_date": "2020-12-09T22:45:25Z",
+                    "first_launch_date": "2020-12-09T22:45:25Z"
+                },
+                "landing": {
+                    "id": 176,
+                    "attempt": true,
+                    "success": false,
+                    "description": "SN8 was destroyed when attempting to land back near its launch site after its first flight.",
+                    "location": {
+                        "id": 14,
+                        "name": "SpaceX Starship Landing Pad",
+                        "abbrev": "LZ",
+                        "description": "This is the landing pad used for early Starship development flights.",
+                        "location": {
+                            "id": 143,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+                            "name": "SpaceX Space Launch Facility; TX, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
+                            "timezone_name": "America/Chicago",
+                            "total_launch_count": 10,
+                            "total_landing_count": 9
+                        },
+                        "successful_landings": 5
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 1203,
+        "name": "12.5 km Flight",
+        "description": "The SN8 Starship prototype was destroyed when attempting to land after a first flight to an altitude of 12.5 km or 41;000 ft.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        }
+    },
+    "pad": {
+        "id": 111,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/111/",
+        "agency_id": 121,
+        "name": "Launch Pad A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_South_Texas_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=25.997116;-97.15503099856647",
+        "latitude": "25.997116",
+        "longitude": "-97.15503099856647",
+        "location": {
+            "id": 143,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+            "name": "SpaceX Space Launch Facility; TX, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 10,
+            "total_landing_count": 9
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_111_20200803143229.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 0
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "title": "",
+            "description": "SpaceX designs; manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/starship-sn8-takes-flight/"
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 1,
+            "title": "Starship SN8 12.5km Flight",
+            "description": "Full flight of the Starship SN8 prototype.",
+            "feature_image": "https://i.ytimg.com/vi/Gltp8TcOayA/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=Gltp8TcOayA"
+        },
+        {
+            "priority": 9,
+            "title": "Starship | SN8 | High-Altitude Flight Test",
+            "description": "On Wednesday; December 9, Starship serial number 8 (SN8) lifted off from our Cameron County launch pad and successfully ascended, transitioned propellant, an...",
+            "feature_image": "https://i.ytimg.com/vi/ap-BkkrRg-o/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=ap-BkkrRg-o"
+        },
+        {
+            "priority": 10,
+            "title": "Nerdle Cam 4K- Starship Live At SpaceX Boca Chica Launch Facility",
+            "description": "FRIDAY 12/11/2020 || Onsite Weather provided by INITWEATHER.COM || BOCA CHICA NEWS: SN8 completed successful launch; flip maneuver, hard landing. || SN9 now ...",
+            "feature_image": "https://i.ytimg.com/vi/Ky5l9ZxsG9M/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=Ky5l9ZxsG9M"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/starship2520sn_image_20201211072219.jpeg",
+    "infographic": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/starship2520sn_infographic_20220203220713.png",
+    "program": [
+        {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+            "name": "SpaceX Starship",
+            "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+            "agencies": [
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/spacex2520star_program_20201129204513.png",
+            "start_date": "2019-03-01T05:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "mission_patches": []
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 5,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 115,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 27,
+    "mission_patches": []
+}

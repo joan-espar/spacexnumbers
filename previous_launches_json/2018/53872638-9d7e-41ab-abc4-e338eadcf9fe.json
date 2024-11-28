@@ -1,0 +1,94 @@
+{
+    "id": "53872638-9d7e-41ab-abc4-e338eadcf9fe",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/53872638-9d7e-41ab-abc4-e338eadcf9fe/",
+    "slug": "long-march-2csma-prss-1-paktes-1a",
+    "name": "Long March 2C/SMA | PRSS-1 & PakTes-1A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:12Z",
+    "net": "2018-07-09T03:56:13Z",
+    "window_end": "2018-07-09T04:15:00Z",
+    "window_start": "2018-07-09T03:47:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2114,
+        "configuration": {
+            "id": 66,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/66/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2C/SMA",
+            "variant": "C/SMA"
+        }
+    },
+    "mission": {
+        "id": 511,
+        "name": "PRSS-1 & PakTes-1A",
+        "description": "The Pakistan Remote Sensing Satellite (PRSS) is a dual purpose Earh observation and optical satellite. It is to operate in sun-synchronous orbit with a planned lifetime of 5 years.  PakTes-1A is a remote sensing satellite built by Pakistan's space agency with assistance from Space Advisory Company of South Africa.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202_image_20190222031140.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5762,
+    "location_launch_attempt_count": 105,
+    "pad_launch_attempt_count": 57,
+    "agency_launch_attempt_count": 226,
+    "orbital_launch_attempt_count_year": 56,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 19,
+    "type": "normal"
+}

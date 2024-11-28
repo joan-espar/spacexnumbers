@@ -1,0 +1,94 @@
+{
+    "id": "ecf4290b-22dc-43c8-b86e-3506d5630fa2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ecf4290b-22dc-43c8-b86e-3506d5630fa2/",
+    "slug": "new-shepard-ns-15",
+    "name": "New Shepard | NS-15",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T09:55:45Z",
+    "net": "2021-04-14T16:49:15Z",
+    "window_end": "2021-04-17T20:00:00Z",
+    "window_start": "2021-04-14T13:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 141,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/141/",
+        "name": "Blue Origin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2851,
+        "configuration": {
+            "id": 137,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/137/",
+            "name": "New Shepard",
+            "family": "",
+            "full_name": "New Shepard",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1265,
+        "name": "NS-15",
+        "description": "Fifteenth flight of Blue Origin's New Shepard rocket.\r\n\r\nDuring the mission, astronaut operational exercises will be conducted in preparation for human space flight. The primary operations will entail Blue Origin personnel standing in as astronauts entering into the capsule prior to launch. These astronauts will climb the launch tower, get into their seats, buckle their harnesses, and conduct a communications check from their seat with CAPCOM, the Capsule Communicator. The tower operations team will prepare the capsule cabin for launch and then briefly close the capsule hatch. The astronauts will then exit the capsule prior to launch. \r\n\r\nPost-landing, the astronauts will get inside the capsule to rehearse hatch opening, and exiting the capsule at the landing site.  \r\n\r\nInside the capsule during the flight will be Mannequin Skywalker, along with more than 25,000 postcards on behalf of Club for the Future, Blue Origin\u2019s nonprofit organization",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 90,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/90/",
+        "agency_id": 141,
+        "name": "West Texas Suborbital Launch Site/ Corn Ranch",
+        "description": null,
+        "info_url": "http://www.blueorigin.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Corn_Ranch",
+        "map_url": "https://www.google.com/maps?q=31.422878000000000,-104.757121000000000",
+        "latitude": "31.422878",
+        "longitude": "-104.757121",
+        "location": {
+            "id": 29,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/29/",
+            "name": "Corn Ranch, Van Horn, TX, USA",
+            "country_code": "USA",
+            "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 28,
+            "total_landing_count": 28
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_90_20200803143233.jpg",
+        "total_launch_count": 28,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new2520shepard_image_20190207032624.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/new2520shepard_infographic_20210412202149.jpeg",
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 15,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 15,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

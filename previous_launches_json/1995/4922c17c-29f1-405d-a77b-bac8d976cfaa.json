@@ -1,0 +1,94 @@
+{
+    "id": "4922c17c-29f1-405d-a77b-bac8d976cfaa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4922c17c-29f1-405d-a77b-bac8d976cfaa/",
+    "slug": "conestoga-1620-meteor-sm",
+    "name": "Conestoga 1620 | Meteor SM",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:58:39Z",
+    "net": "1995-10-23T22:03:00Z",
+    "window_end": "1995-10-23T22:03:00Z",
+    "window_start": "1995-10-23T22:03:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1007,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1007/",
+        "name": "Space Services Inc.",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6689,
+        "configuration": {
+            "id": 273,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/273/",
+            "name": "Conestoga 1620",
+            "family": "",
+            "full_name": "Conestoga 1620",
+            "variant": "1620"
+        }
+    },
+    "mission": {
+        "id": 5079,
+        "name": "Meteor SM",
+        "description": "METEOR (Multiple Experiment Transport to Earth Orbit & Return), formerly COMET (Commercial Experiment Transporter), was a NASA program to develop a commercially available experiment transporter for microgravity experiments over longer periods.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 76,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/76/",
+        "agency_id": 44,
+        "name": "Launch Area 0 A",
+        "description": "LP-0A was first built for the failed Conestoga rocket program. The original launch tower was subsequently demolished in September 2008. A new pad facility was built from 2009 to 2011 for Orbital Sciences Taurus II, now renamed Antares.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Regional_Spaceport_Launch_Pad_0#Pad_0A",
+        "map_url": "https://www.google.com/maps?q=37.8337,-75.4881",
+        "latitude": "37.8337",
+        "longitude": "-75.4881",
+        "location": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+            "name": "Wallops Flight Facility, Virginia, USA",
+            "country_code": "USA",
+            "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 79,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_76_20200803143538.jpg",
+        "total_launch_count": 19,
+        "orbital_launch_attempt_count": 19
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/conestoga-1620__image_20240411094033.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4024,
+    "location_launch_attempt_count": 48,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 63,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

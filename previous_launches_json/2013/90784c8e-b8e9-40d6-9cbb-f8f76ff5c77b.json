@@ -1,0 +1,94 @@
+{
+    "id": "90784c8e-b8e9-40d6-9cbb-f8f76ff5c77b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/90784c8e-b8e9-40d6-9cbb-f8f76ff5c77b/",
+    "slug": "rokot-briz-km-swarm-a-b-c",
+    "name": "Rokot / Briz-KM | Swarm A, B, C",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:31:43Z",
+    "net": "2013-11-22T12:02:29Z",
+    "window_end": "2013-11-22T12:02:29Z",
+    "window_start": "2013-11-22T12:02:29Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/117/",
+        "name": "Eurockot Launch Services",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1719,
+        "configuration": {
+            "id": 40,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/40/",
+            "name": "Rokot/Briz-KM",
+            "family": "Rokot",
+            "full_name": "Rokot/Briz-KM",
+            "variant": "Briz-KM"
+        }
+    },
+    "mission": {
+        "id": 17,
+        "name": "Swarm A, B, C",
+        "description": "European Space Agency's mission Swarm consists of 3 satellites tasked with studying Earth's magnetic field.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 3,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/3/",
+        "agency_id": 163,
+        "name": "133/3 (133L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.886999,40.846984",
+        "latitude": "62.886999",
+        "longitude": "40.846984",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_3_20200803143438.jpg",
+        "total_launch_count": 159,
+        "orbital_launch_attempt_count": 159
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rokot25202f2520briz-km_image_20190224012237.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5337,
+    "location_launch_attempt_count": 1591,
+    "pad_launch_attempt_count": 147,
+    "agency_launch_attempt_count": 11,
+    "orbital_launch_attempt_count_year": 69,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

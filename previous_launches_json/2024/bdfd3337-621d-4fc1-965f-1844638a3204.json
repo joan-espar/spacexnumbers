@@ -1,0 +1,99 @@
+{
+    "id": "bdfd3337-621d-4fc1-965f-1844638a3204",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/bdfd3337-621d-4fc1-965f-1844638a3204/",
+    "slug": "long-march-2d-shijian-19",
+    "name": "Long March 2D | Shijian 19",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-27T17:56:17Z",
+    "net": "2024-09-27T10:30:00Z",
+    "window_end": "2024-09-27T11:02:00Z",
+    "window_start": "2024-09-27T10:22:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8361,
+        "configuration": {
+            "id": 17,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 6942,
+        "name": "Shijian 19",
+        "description": "Shijian 19 is a Chinese recoverable satellite for hoisting various scientific experiments in microgravity.\r\n\r\nUnlike previous similar Chinese satellites, the return capsule can be reused up to 15 times and can carry about 500 kg of recoverable payload, as well as 200 kg of unrecoverable payload. This type of satellite can be flown in a short term configuration powered by batteries or in a long term configuration with solar arrays.",
+        "launch_designator": null,
+        "type": "Biology",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 235,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 117,
+        "orbital_launch_attempt_count": 117
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6770,
+    "location_launch_attempt_count": 231,
+    "pad_launch_attempt_count": 115,
+    "agency_launch_attempt_count": 484,
+    "orbital_launch_attempt_count_year": 181,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 32,
+    "type": "normal"
+}

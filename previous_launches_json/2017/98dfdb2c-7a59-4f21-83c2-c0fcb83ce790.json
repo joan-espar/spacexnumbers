@@ -1,0 +1,94 @@
+{
+    "id": "98dfdb2c-7a59-4f21-83c2-c0fcb83ce790",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/98dfdb2c-7a59-4f21-83c2-c0fcb83ce790/",
+    "slug": "proton-m-briz-m-echostar-21",
+    "name": "Proton-M Briz-M | Echostar 21",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:32:42Z",
+    "net": "2017-06-08T03:45:47Z",
+    "window_end": "2017-06-08T03:45:47Z",
+    "window_start": "2017-06-08T03:45:47Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 118,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/118/",
+        "name": "International Launch Services",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2007,
+        "configuration": {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/22/",
+            "name": "Proton-M Briz-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Briz-M",
+            "variant": "Briz-M"
+        }
+    },
+    "mission": {
+        "id": 239,
+        "name": "Echostar 21",
+        "description": "Echostar 21, formerly known as TerreStar 2, is a geostationary communications satellite built by Space System/Loral company. Equipped with S-band transponders, satellite is tasked with providing mobile broadband services over Europe. The spacecraft, based on SSL\u00e2\u20ac\u2122s 1300 bus, will be located at the 10.25\u00c2\u00b0 East orbital slot.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m2520briz-m_image_20190224012317.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5649,
+    "location_launch_attempt_count": 1476,
+    "pad_launch_attempt_count": 85,
+    "agency_launch_attempt_count": 39,
+    "orbital_launch_attempt_count_year": 34,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

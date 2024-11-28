@@ -1,0 +1,80 @@
+{
+    "id": "808bb3d2-2142-4916-9326-7b488ce9e0cd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/808bb3d2-2142-4916-9326-7b488ce9e0cd/",
+    "slug": "soyuz-2-1b-lotos-s-kosmos-2502",
+    "name": "Soyuz 2-1B | Lotos-S (Kosmos 2502)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:11:00Z",
+    "net": "2014-12-25T03:01:13Z",
+    "window_end": "2014-12-25T03:01:13Z",
+    "window_start": "2014-12-25T03:01:13Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 163,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/163/",
+        "name": "Russian Aerospace Defence Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1815,
+        "configuration": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
+            "name": "Soyuz 2.1b",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 85,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/85/",
+        "agency_id": 163,
+        "name": "43/4 (43R)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.92883,40.457098",
+        "latitude": "62.92883",
+        "longitude": "40.457098",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_85_20200803143554.jpg",
+        "total_launch_count": 321,
+        "orbital_launch_attempt_count": 321
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5438,
+    "location_launch_attempt_count": 1603,
+    "pad_launch_attempt_count": 279,
+    "agency_launch_attempt_count": 18,
+    "orbital_launch_attempt_count_year": 5438,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

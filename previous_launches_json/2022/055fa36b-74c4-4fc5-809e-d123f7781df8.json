@@ -1,0 +1,94 @@
+{
+    "id": "055fa36b-74c4-4fc5-809e-d123f7781df8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/055fa36b-74c4-4fc5-809e-d123f7781df8/",
+    "slug": "black-brant-ix-sistine",
+    "name": "Black Brant IX | SISTINE",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:31:05Z",
+    "net": "2022-07-06T13:54:00Z",
+    "window_end": "2022-07-06T13:54:00Z",
+    "window_start": "2022-07-06T13:54:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1038,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1038/",
+        "name": "Equatorial Launch Australia",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7611,
+        "configuration": {
+            "id": 481,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/481/",
+            "name": "Black Brant IX",
+            "family": "",
+            "full_name": "Black Brant IX",
+            "variant": "IX"
+        }
+    },
+    "mission": {
+        "id": 6097,
+        "name": "SISTINE",
+        "description": "The Suborbital Imaging Spectrograph for Transition region Irradiance from Nearby Exoplanet host stars (SISTINE) is a payload from the University of Colorado. Its objective is to study how light from stars affects the atmospheres of the planets around them, including the gases thought to be signs of life. For this flight, it will measure the ultraviolet light output from \u03b1 Centauri A and B, two stars of the three-star \u03b1 Centauri system that are the closest stars to our Sun.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 202,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/202/",
+        "agency_id": 1038,
+        "name": "Suborbital Launch Ramp",
+        "description": null,
+        "info_url": "https://ela.space/arnhem-space-centre/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arnhem_Land#Economy",
+        "map_url": "https://www.google.com/maps?q=-12.3892948,136.7903215",
+        "latitude": "-12.3892948",
+        "longitude": "136.7903215",
+        "location": {
+            "id": 160,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/160/",
+            "name": "Arnhem Space Centre",
+            "country_code": "AUS",
+            "description": "The Arnhem Space Centre is Australia's first commercial spaceport, located near Nhulunbuy, in Arnhem Land, Australia. It is owned and operated by Equatorial Launch Australia (ELA), and it is the site of NASA's first non-orbital sounding rocket launch from a commercial port outside the United States on 27 June 2022.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_arnhem_space_centre_20220622160552.jpg",
+            "timezone_name": "Australia/Darwin",
+            "total_launch_count": 3,
+            "total_landing_count": 0
+        },
+        "country_code": "AUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_suborbital_launch_ramp_20220625184504.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/black_brant_ix_image_20220625190201.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

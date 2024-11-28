@@ -1,0 +1,94 @@
+{
+    "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/aa88b853-9e04-4a28-9433-d87799331b1b/",
+    "slug": "falcon-heavy-ussf-44",
+    "name": "Falcon Heavy | USSF-44",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:46:17Z",
+    "net": "2022-11-01T13:41:00Z",
+    "window_end": "2022-11-01T14:11:00Z",
+    "window_start": "2022-11-01T13:41:00Z",
+    "net_precision": null,
+    "probability": 95,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2220,
+        "configuration": {
+            "id": 161,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/161/",
+            "name": "Falcon Heavy",
+            "family": "Falcon",
+            "full_name": "Falcon Heavy",
+            "variant": "Heavy"
+        }
+    },
+    "mission": {
+        "id": 5869,
+        "name": "USSF-44",
+        "description": "Classified US Space Force carrying two payloads directly to geostationary orbit. One is called the Shepherd Demonstration, and the other is LDPE 2 spacecraft that carries three hosted payloads and three deployable sub-satellites. One of them is an experimental microsatellite called TETRA-1.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520heav_image_20230723153005.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6331,
+    "location_launch_attempt_count": 209,
+    "pad_launch_attempt_count": 152,
+    "agency_launch_attempt_count": 202,
+    "orbital_launch_attempt_count_year": 149,
+    "location_launch_attempt_count_year": 15,
+    "pad_launch_attempt_count_year": 15,
+    "agency_launch_attempt_count_year": 50,
+    "type": "normal"
+}

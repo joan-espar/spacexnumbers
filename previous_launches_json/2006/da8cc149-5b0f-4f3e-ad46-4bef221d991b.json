@@ -1,0 +1,94 @@
+{
+    "id": "da8cc149-5b0f-4f3e-ad46-4bef221d991b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/da8cc149-5b0f-4f3e-ad46-4bef221d991b/",
+    "slug": "soyuz-u-pvb-resurs-dk",
+    "name": "Soyuz-U-PVB | Resurs-DK",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:48:46Z",
+    "net": "2006-06-15T08:00:00Z",
+    "window_end": "2006-06-15T08:00:00Z",
+    "window_start": "2006-06-15T08:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7269,
+        "configuration": {
+            "id": 378,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/378/",
+            "name": "Soyuz-U-PVB",
+            "family": "Soyuz",
+            "full_name": "Soyuz-U-PVB",
+            "variant": "U-PVB"
+        }
+    },
+    "mission": {
+        "id": 5658,
+        "name": "Resurs-DK",
+        "description": "The Russian Resurs-DK 1 (46KS) satellite is mainly designed to image and transmit data on information for Earth natural resources study, data on ecology and emergency, sea surface status, ice situation, meteorological conditions in Earth polar regions, as well as to support digital data exchange between ground users. The satellite is continuously oriented towards the Earth in order to fulfill this program of Earth surface observation. The spacecraft was built by TsSKB Progress in Samara. It is based on the military Yantar-4KS1M (Neman) imaging satellite. The main sensor of the spacecraft is the Geoton-L1 optoelectronic push-broom imager. Panchromatic resolution at an altitude of 360 km is 0.9 m, at an altitude of 604 km it is 1.5 m. Multispectral resolution is between 1.5 and 2 m.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4773,
+    "location_launch_attempt_count": 1255,
+    "pad_launch_attempt_count": 402,
+    "agency_launch_attempt_count": 155,
+    "orbital_launch_attempt_count_year": 23,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

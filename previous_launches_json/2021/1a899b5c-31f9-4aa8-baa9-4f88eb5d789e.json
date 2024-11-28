@@ -1,0 +1,94 @@
+{
+    "id": "1a899b5c-31f9-4aa8-baa9-4f88eb5d789e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1a899b5c-31f9-4aa8-baa9-4f88eb5d789e/",
+    "slug": "long-march-2d-tianhui-1-04",
+    "name": "Long March 2D | Tianhui-1-04",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:05Z",
+    "net": "2021-07-29T04:01:00Z",
+    "window_end": "2021-07-29T04:21:00Z",
+    "window_start": "2021-07-29T03:45:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2974,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 1401,
+        "name": "Tianhui-1-04",
+        "description": "TH 1 (Tianhui-1 = \"Sky drawing\") is a Chinese stereo-topographic mapping satellite operated by the People\u2019s Liberation Army (PLA).\r\n\r\nThe satellites are built by the Hangtian Dongfanghong Weixing Corporation and the China Aerospace Science and Technology Corporation and the Chinese Academy of Space Technology (CAST). The satellites operate on a 500 km circular sun synchronous orbit. Electrical power is provided by two deployable solar panels that is stored on onboard batteries.\r\n\r\nThey are equipped with a three-dimensional survey camera and a CCD camera with a ground resolution of 5 meters, spectral region of 0.51 \u00b5m to 0.69 \u00b5m and with a camera angle of 25 degrees. Also on board is a multi-spectral camera with a ground resolution of 10 meters operating in four spectral bands of 0.43 \u00b5m to 0.52 \u00b5m, 0.52 \u00b5m to 0.61 \u00b5m, 0.61 \u00b5m to 0.69 \u00b5m, and 0.76 \u00b5m to 0.90 \u00b5m. The swath width of the cameras is 60 kilometers wide.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6107,
+    "location_launch_attempt_count": 145,
+    "pad_launch_attempt_count": 78,
+    "agency_launch_attempt_count": 328,
+    "orbital_launch_attempt_count_year": 70,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 24,
+    "type": "normal"
+}

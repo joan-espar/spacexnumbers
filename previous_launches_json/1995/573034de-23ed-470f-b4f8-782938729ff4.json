@@ -1,0 +1,119 @@
+{
+    "id": "573034de-23ed-470f-b4f8-782938729ff4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/573034de-23ed-470f-b4f8-782938729ff4/",
+    "slug": "space-shuttle-columbia-ov-102-sts-73",
+    "name": "Space Shuttle Columbia / OV-102 | STS-73",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:55:14Z",
+    "net": "1995-10-20T13:53:00Z",
+    "window_end": "1995-10-20T13:53:00Z",
+    "window_start": "1995-10-20T13:53:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 197,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/197/",
+        "name": "Lockheed Martin Space Operations",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 393,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 793,
+        "name": "STS-73",
+        "description": "STS-73 was a Space Shuttle program mission, during October\u00e2\u20ac\u201cNovember 1995, on board the space shuttle Columbia. The mission was the second mission for the United States Microgravity Laboratory. The crew, who spent 16 days in space, were broken up into 2 teams, the red team and the blue team. The mission also included several Detailed Test Objectives or DTO's.",
+        "launch_designator": null,
+        "type": "",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 4,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/4/",
+        "agency_id": 44,
+        "name": "Launch Complex 39B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39B",
+        "map_url": "https://www.google.com/maps?q=28.62711233,-80.62101503",
+        "latitude": "28.62711233",
+        "longitude": "-80.62101503",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
+        "total_launch_count": 58,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4022,
+    "location_launch_attempt_count": 89,
+    "pad_launch_attempt_count": 33,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 61,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

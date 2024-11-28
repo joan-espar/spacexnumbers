@@ -1,0 +1,94 @@
+{
+    "id": "c7fce96c-ee24-4727-b41f-9f5d3a8ffe09",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c7fce96c-ee24-4727-b41f-9f5d3a8ffe09/",
+    "slug": "titan-iiic-dsp-8",
+    "name": "Titan IIIC | DSP 8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:41:47Z",
+    "net": "1979-06-10T13:39:00Z",
+    "window_end": "1979-06-10T13:39:00Z",
+    "window_start": "1979-06-10T13:39:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5082,
+        "configuration": {
+            "id": 439,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/439/",
+            "name": "Titan IIIC",
+            "family": "Titan",
+            "full_name": "Titan IIIC",
+            "variant": "IIIC"
+        }
+    },
+    "mission": {
+        "id": 3494,
+        "name": "DSP 8",
+        "description": "American early warning satellite",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2227,
+    "location_launch_attempt_count": 358,
+    "pad_launch_attempt_count": 21,
+    "agency_launch_attempt_count": 743,
+    "orbital_launch_attempt_count_year": 54,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

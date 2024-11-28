@@ -1,0 +1,94 @@
+{
+    "id": "bdfc56dd-cda9-4178-b6b6-76344c3135dd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bdfc56dd-cda9-4178-b6b6-76344c3135dd/",
+    "slug": "proton-kd-1-venera-14",
+    "name": "Proton-K/D-1 | Venera-14",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:35:15Z",
+    "net": "1981-11-04T05:31:16Z",
+    "window_end": "1981-11-04T05:31:16Z",
+    "window_start": "1981-11-04T05:31:16Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5341,
+        "configuration": {
+            "id": 347,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/347/",
+            "name": "Proton-K/D-1",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-K/D-1",
+            "variant": "D-1"
+        }
+    },
+    "mission": {
+        "id": 3749,
+        "name": "Venera-14",
+        "description": "Venus orbiter and lander",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 20,
+            "name": "Venus Orbit",
+            "abbrev": "Venus"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 15,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/15/",
+        "agency_id": null,
+        "name": "200/39 (200L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.039984,63.032093",
+        "latitude": "46.039984",
+        "longitude": "63.032093",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_15_20200803143530.jpg",
+        "total_launch_count": 167,
+        "orbital_launch_attempt_count": 167
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2503,
+    "location_launch_attempt_count": 613,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 1542,
+    "orbital_launch_attempt_count_year": 112,
+    "location_launch_attempt_count_year": 35,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 91,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "a724d9f3-32f9-494d-b04a-36082d7fd53a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a724d9f3-32f9-494d-b04a-36082d7fd53a/",
+    "slug": "soyuz-21bfregat-corot",
+    "name": "Soyuz 2.1b/Fregat | COROT",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:41:12Z",
+    "net": "2006-12-27T14:23:38Z",
+    "window_end": "2006-12-27T14:23:38Z",
+    "window_start": "2006-12-27T14:23:38Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7302,
+        "configuration": {
+            "id": 42,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/42/",
+            "name": "Soyuz 2.1b/Fregat",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 5691,
+        "name": "COROT",
+        "description": "French-European astrophysics satellite. Operated until November 2, 2012 due to a computer failure.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4817,
+    "location_launch_attempt_count": 1268,
+    "pad_launch_attempt_count": 340,
+    "agency_launch_attempt_count": 162,
+    "orbital_launch_attempt_count_year": 67,
+    "location_launch_attempt_count_year": 17,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}

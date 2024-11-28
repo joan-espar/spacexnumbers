@@ -1,0 +1,178 @@
+{
+    "id": "45bd2cb8-05d1-4080-8c50-602c9f43971e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/45bd2cb8-05d1-4080-8c50-602c9f43971e/",
+    "slug": "long-march-2fg-shenzhou-17",
+    "name": "Long March 2F/G | Shenzhou 17",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-05-29T05:52:30Z",
+    "net": "2023-10-26T03:14:02Z",
+    "window_end": "2023-10-26T03:44:00Z",
+    "window_start": "2023-10-26T03:04:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7827,
+        "configuration": {
+            "id": 84,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/84/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2F/G",
+            "variant": "F/G"
+        }
+    },
+    "mission": {
+        "id": 6333,
+        "name": "Shenzhou 17",
+        "description": "Sixth crewed flight to the Chinese space station.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 17,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                "name": "China National Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "CHN",
+                "abbrev": "CNSA",
+                "description": "The China National Space Administration (CNSA) is the national space agency of the People's Republic of China. It is responsible for the national space program and for planning and development of space activities. CNSA and China Aerospace Corporation (CASC) assumed the authority over space development efforts previously held by the Ministry of Aerospace Industry. The CNSA has many launch sites around China with their orbital sites located in Jiuquan, Xichang, Taiyuan and Wenchang.",
+                "administrator": "Administrator: Tang Dengjie",
+                "founding_year": "1993",
+                "launchers": "",
+                "spacecraft": "Shenzhou",
+                "launch_library_url": null,
+                "total_launch_count": 2,
+                "consecutive_successful_launches": 2,
+                "successful_launches": 2,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.cnsa.gov.cn/",
+                "wiki_url": "http://en.wikipedia.org/wiki/China_National_Space_Administration",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520national2520space2520administration_logo_20190207032431.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520national2520space2520administration_image_20190207032431.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520national2520space2520administration_nation_20190602114400.png"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/37/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-1 / 921)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.957893,100.290944",
+        "latitude": "40.957893",
+        "longitude": "100.290944",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_37_20200803143603.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20231231163528.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/19/",
+            "name": "Tiangong space station",
+            "description": "The Tiangong space station is a space station placed in Low Earth orbit between 340 and 450 km above the surface.",
+            "agencies": [
+                {
+                    "id": 88,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+                    "name": "China Aerospace Science and Technology Corporation",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/chinese2520spa_program_20210608105528.png",
+            "start_date": "2021-04-29T03:23:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Tiangong_space_station",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 7,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/7/",
+            "name": "Shenzhou",
+            "description": "The Shenzhou program is a crewed spaceflight initiative by China. The program put the first Chinese citizen, Yang Liwei, into orbit on 15 October 2003.",
+            "agencies": [
+                {
+                    "id": 17,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                    "name": "China National Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_program_20200820204745.PNG",
+            "start_date": "1993-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Shenzhou_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6541,
+    "location_launch_attempt_count": 209,
+    "pad_launch_attempt_count": 21,
+    "agency_launch_attempt_count": 440,
+    "orbital_launch_attempt_count_year": 173,
+    "location_launch_attempt_count_year": 27,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 35,
+    "type": "normal"
+}

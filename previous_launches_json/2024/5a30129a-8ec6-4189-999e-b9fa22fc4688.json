@@ -1,0 +1,99 @@
+{
+    "id": "5a30129a-8ec6-4189-999e-b9fa22fc4688",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5a30129a-8ec6-4189-999e-b9fa22fc4688/",
+    "slug": "smart-dragon-3-9-satellites",
+    "name": "Smart Dragon 3 | 9 satellites",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-22T15:26:49Z",
+    "net": "2024-02-03T03:06:00Z",
+    "window_end": "2024-02-03T03:16:00Z",
+    "window_start": "2024-02-03T02:56:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 272,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/272/",
+        "name": "China Rocket Co. Ltd.",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8176,
+        "configuration": {
+            "id": 484,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/484/",
+            "name": "Smart Dragon 3",
+            "family": "Smart Dragon",
+            "full_name": "Smart Dragon 3",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6743,
+        "name": "9 satellites",
+        "description": "Carried 9 satellites to Sun-synchronous orbit:\r\n\r\n* DRO-L\r\n* Zhixing-2A (SmartSat-2A)\r\n* DongFangHuiYan-GF01\r\n* WeiHai-1-01/02\r\n* XingShiDai-18/19/20\r\n* NEXSAT-1",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 217,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/217/",
+        "agency_id": null,
+        "name": "Bo Run Jiu Zhou mobile launch platform",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=21.283333,112.0",
+        "latitude": "21.283333",
+        "longitude": "112.0",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_bo_run_jiu_zhou_mobile_launch_platform_20231206001303.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart2520drago_image_20240204094625.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6613,
+    "location_launch_attempt_count": 50,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

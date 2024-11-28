@@ -1,0 +1,85 @@
+{
+    "id": "7a8b05d4-846d-4605-9fa6-ead7a70a0964",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7a8b05d4-846d-4605-9fa6-ead7a70a0964/",
+    "slug": "pegasus-hybrid-high-energy-transient-explorer-2-he",
+    "name": "Pegasus Hybrid | High Energy Transient Explorer 2 (HETE-2)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:53:23Z",
+    "net": "2000-10-09T05:38:18Z",
+    "window_end": "2000-10-09T05:38:18Z",
+    "window_start": "2000-10-09T05:38:18Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 457,
+        "configuration": {
+            "id": 129,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/129/",
+            "name": "Pegasus Hybrid",
+            "family": "Pegasus",
+            "full_name": "Pegasus Hybrid",
+            "variant": "Hybrid"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 59,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/59/",
+        "agency_id": null,
+        "name": "Kwajalein Atoll",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kwajalein_Atoll",
+        "map_url": "https://www.google.com/maps?q=8.716667,167.733333",
+        "latitude": "8.716667",
+        "longitude": "167.733333",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "MHL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_59_20200803143427.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 4
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_image_20190830213841.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4430,
+    "location_launch_attempt_count": 29,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 37,
+    "orbital_launch_attempt_count_year": 4430,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

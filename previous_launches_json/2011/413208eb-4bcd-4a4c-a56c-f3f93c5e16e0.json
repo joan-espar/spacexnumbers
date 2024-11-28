@@ -1,0 +1,94 @@
+{
+    "id": "413208eb-4bcd-4a4c-a56c-f3f93c5e16e0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/413208eb-4bcd-4a4c-a56c-f3f93c5e16e0/",
+    "slug": "zenit-3f-elektro-l-no1",
+    "name": "Zenit-3F | Elektro-L No.1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:30:57Z",
+    "net": "2011-01-20T12:29:01Z",
+    "window_end": "2011-01-20T12:29:01Z",
+    "window_start": "2011-01-20T12:29:01Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1506,
+        "configuration": {
+            "id": 58,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/58/",
+            "name": "Zenit 3F",
+            "family": "Zenith",
+            "full_name": "Zenit",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 895,
+        "name": "Elektro-L No.1",
+        "description": "Elektro-L is a series of meteorological satellites developed for the Russian Federal Space Agency by NPO Lavochkin. Electro-L \u00e2\u201e\u20131 was the first of the series and became the first Russian weather satellite that successfully operates in geostationary orbit. It is designed to capture real-time images of clouds and the Earth\u00e2\u20ac\u2122s underlying surface, heliogeophysical measurements, collection and translating hydrometeorological and service data.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 2,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/2/",
+        "agency_id": null,
+        "name": "45/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.943492,63.653014",
+        "latitude": "45.943492",
+        "longitude": "63.653014",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_2_20200803143256.jpg",
+        "total_launch_count": 46,
+        "orbital_launch_attempt_count": 46
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5107,
+    "location_launch_attempt_count": 1356,
+    "pad_launch_attempt_count": 40,
+    "agency_launch_attempt_count": 200,
+    "orbital_launch_attempt_count_year": 1,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

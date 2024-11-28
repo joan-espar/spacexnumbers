@@ -1,0 +1,94 @@
+{
+    "id": "5d6245e1-4b75-46bd-b2be-7f934341fb8a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5d6245e1-4b75-46bd-b2be-7f934341fb8a/",
+    "slug": "momo-1st-test-flight",
+    "name": "MOMO | 1st Test Flight",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:19:27Z",
+    "net": "2017-07-30T07:30:00Z",
+    "window_end": "2017-07-30T07:30:00Z",
+    "window_start": "2017-07-30T07:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Flight was terminated about 80 seconds after engine ignition.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1002,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1002/",
+        "name": "Interstellar Technologies",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2498,
+        "configuration": {
+            "id": 198,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/198/",
+            "name": "MOMO v0",
+            "family": "MOMO",
+            "full_name": "MOMO v0",
+            "variant": "v0"
+        }
+    },
+    "mission": {
+        "id": 1017,
+        "name": "1st Test Flight",
+        "description": "First Test Flight of the MOMO suborbital rocket.\r\nFlight was terminated about 80 seconds after engine ignition.",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 106,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/106/",
+        "agency_id": 1002,
+        "name": "Launch Complex 0",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Taiki_Aerospace_Research_Field",
+        "map_url": "https://www.google.com/maps?q=42.50000000,143.441389",
+        "latitude": "42.5",
+        "longitude": "143.441389",
+        "location": {
+            "id": 32,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/32/",
+            "name": "Hokkaido Spaceport, Japan",
+            "country_code": "JPN",
+            "description": "Rocket launch pad of Interstellar Technologies, located next to the Taiki Aerospace Research Field.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_32_20200803142407.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_106_20200803143453.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/momo_image_20190705174455.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

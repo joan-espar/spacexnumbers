@@ -1,0 +1,94 @@
+{
+    "id": "d9d97bfe-b3ce-438e-9600-a0a1a98f3f1d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d9d97bfe-b3ce-438e-9600-a0a1a98f3f1d/",
+    "slug": "molniya-m-us-k-31",
+    "name": "Molniya-M | US-K 31",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:50:24Z",
+    "net": "1983-12-28T03:48:05Z",
+    "window_end": "1983-12-28T03:48:05Z",
+    "window_start": "1983-12-28T03:48:05Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5592,
+        "configuration": {
+            "id": 106,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/106/",
+            "name": "Molniya-M",
+            "family": "R-7",
+            "full_name": "Molniya-M 2BL",
+            "variant": "2BL"
+        }
+    },
+    "mission": {
+        "id": 3995,
+        "name": "US-K 31",
+        "description": "Early warning satellite",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 35,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/35/",
+        "agency_id": 163,
+        "name": "16/2",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.960091,40.682983",
+        "latitude": "62.960091",
+        "longitude": "40.682983",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_35_20200803143306.jpg",
+        "total_launch_count": 136,
+        "orbital_launch_attempt_count": 136
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2774,
+    "location_launch_attempt_count": 969,
+    "pad_launch_attempt_count": 23,
+    "agency_launch_attempt_count": 1758,
+    "orbital_launch_attempt_count_year": 128,
+    "location_launch_attempt_count_year": 63,
+    "pad_launch_attempt_count_year": 10,
+    "agency_launch_attempt_count_year": 99,
+    "type": "normal"
+}

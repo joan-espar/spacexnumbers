@@ -1,0 +1,111 @@
+{
+    "id": "e4be286d-77f3-4ee6-b361-fc29d265eebe",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e4be286d-77f3-4ee6-b361-fc29d265eebe/",
+    "slug": "n1-soyuz-7k-lok-no1",
+    "name": "N1 | Soyuz 7K-LOK No.1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:19:19Z",
+    "net": "1971-06-26T23:15:08Z",
+    "window_end": "1971-06-26T23:15:08Z",
+    "window_start": "1971-06-26T23:15:08Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2448,
+        "configuration": {
+            "id": 114,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/114/",
+            "name": "N1",
+            "family": "",
+            "full_name": "N1",
+            "variant": "N1"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 103,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/103/",
+        "agency_id": null,
+        "name": "110/37 (110L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.964747,63.304744",
+        "latitude": "45.964747",
+        "longitude": "63.304744",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_103_20200803143220.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 1235,
+    "location_launch_attempt_count": 329,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 584,
+    "orbital_launch_attempt_count_year": 1235,
+    "location_launch_attempt_count_year": 17,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 43,
+    "type": "normal"
+}

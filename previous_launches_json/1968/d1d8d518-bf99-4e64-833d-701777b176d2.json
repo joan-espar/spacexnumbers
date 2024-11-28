@@ -1,0 +1,94 @@
+{
+    "id": "d1d8d518-bf99-4e64-833d-701777b176d2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d1d8d518-bf99-4e64-833d-701777b176d2/",
+    "slug": "thor-delta-e1-pioneer-9",
+    "name": "Thor Delta E1 | Pioneer 9",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:49Z",
+    "net": "1968-11-08T09:46:29Z",
+    "window_end": "1968-11-08T09:46:29Z",
+    "window_start": "1968-11-08T09:46:29Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3842,
+        "configuration": {
+            "id": 405,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/405/",
+            "name": "Thor Delta E1",
+            "family": "Thor",
+            "full_name": "Thor Delta E1",
+            "variant": "Delta E1"
+        }
+    },
+    "mission": {
+        "id": 2260,
+        "name": "Pioneer 9",
+        "description": "Pioneer A to E (Pioneer 6 to 9 after launch) were a series of five solar-orbiting, spin-stabilized, solar-cell and battery-powered satellites designed to obtain measurements of interplanetary phenomena from widely separated points in space on a continuing basis.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 899,
+    "location_launch_attempt_count": 224,
+    "pad_launch_attempt_count": 34,
+    "agency_launch_attempt_count": 468,
+    "orbital_launch_attempt_count_year": 111,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 35,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "3b1d60f4-157a-436a-8679-73e91628a25c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3b1d60f4-157a-436a-8679-73e91628a25c/",
+    "slug": "long-march-6-zhongzi-group-02-ningxia-1-02",
+    "name": "Long March 6 | Zhongzi Group 02 (Ningxia-1-02)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:20:12Z",
+    "net": "2021-07-09T11:59:00Z",
+    "window_end": "2021-07-09T12:25:00Z",
+    "window_start": "2021-07-09T11:53:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2968,
+        "configuration": {
+            "id": 54,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/54/",
+            "name": "Long March 6",
+            "family": "Long March",
+            "full_name": "Long March 6",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1390,
+        "name": "Zhongzi Group 02 (Ningxia-1-02)",
+        "description": "The Ningxin-1 satellites (also called Zhongzi) are a series of Chinese commercial remote sensing satellite owned by Ningxia Jingui Information Technology Co. Ltd.\r\n\r\nThe satellites were built by DFH Satellite Co. Ltd of CAST. They have been reported to be a commercial operated global EM spectrum signal monitoring satellite system (SIGINT).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 113,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/113/",
+        "agency_id": null,
+        "name": "Launch Complex 16",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.868222,111.58024",
+        "latitude": "38.868222",
+        "longitude": "111.58024",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_113_20200803143556.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6104,
+    "location_launch_attempt_count": 94,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 326,
+    "orbital_launch_attempt_count_year": 67,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 22,
+    "type": "normal"
+}

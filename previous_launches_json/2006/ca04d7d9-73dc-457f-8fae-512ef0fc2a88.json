@@ -1,0 +1,94 @@
+{
+    "id": "ca04d7d9-73dc-457f-8fae-512ef0fc2a88",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ca04d7d9-73dc-457f-8fae-512ef0fc2a88/",
+    "slug": "h-iia-2022-daichi",
+    "name": "H-IIA 2022 | Daichi",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:10Z",
+    "net": "2006-01-24T01:33:00Z",
+    "window_end": "2006-01-24T01:33:00Z",
+    "window_start": "2006-01-24T01:33:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7254,
+        "configuration": {
+            "id": 321,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/321/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 2022",
+            "variant": "2022"
+        }
+    },
+    "mission": {
+        "id": 5643,
+        "name": "Daichi",
+        "description": "ALOS (Advanced Land Observation Satellite) is used for cartography, regional observation, disaster monitoring, and resource surveying.\r\n\r\nALOS has three remote-sensing instruments:\r\n\r\n- the Panchromatic Remote-sensing Instrument for Stereo Mapping (PRISM) for digital elevation mapping with 2.5 meter resolution,\r\n- the Advanced Visible and Near Infrared Radiometer type 2 (AVNIR-2) for precise land coverage observation with 10 meter resolution, and\r\n- the Phased Array type L-band Synthetic Aperture Radar (PALSAR) for day-and-night and all-weather land observation.\r\n\r\nALOS transmitts its data via the DRTS (Kodama) satellite.\r\n\r\nThe ALOS was launched by an H-2A-2022 launch vehicle from the Tanegashima Space Center. ALOS as been given the nickname Daichi.\r\n\r\nFive minutes after spacecraft separation, ALOS began to unfurl its 72-foot solar array that will provide electrical power to the craft throughout its mission. Six cameras are on-board to visually verify the correct deployment of the solar panel and various instrument antennas.\r\n\r\nALOS lost all power on 22. April 2011, thus ending the mission.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-ii_2022_lifto_image_20240411175401.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4752,
+    "location_launch_attempt_count": 39,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 16,
+    "orbital_launch_attempt_count_year": 2,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

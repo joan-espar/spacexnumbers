@@ -1,0 +1,94 @@
+{
+    "id": "abf6d6dc-b949-4f28-a44c-51214895e368",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/abf6d6dc-b949-4f28-a44c-51214895e368/",
+    "slug": "atlas-agena-b-mariner-1",
+    "name": "Atlas Agena B | Mariner 1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:40:08Z",
+    "net": "1962-07-22T09:21:23Z",
+    "window_end": "1962-07-22T09:21:23Z",
+    "window_start": "1962-07-22T09:21:23Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3139,
+        "configuration": {
+            "id": 183,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/183/",
+            "name": "Atlas Agena B",
+            "family": "Atlas",
+            "full_name": "Atlas LV-3 Agena B",
+            "variant": "LV-3 Agena B"
+        }
+    },
+    "mission": {
+        "id": 1561,
+        "name": "Mariner 1",
+        "description": "Spacecraft designed to flyby Venus. It was lost during launch.",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 22,
+            "name": "Venus flyby",
+            "abbrev": "Venus flyby"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 99,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/99/",
+        "agency_id": 161,
+        "name": "Launch Complex 12",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_12",
+        "map_url": "https://www.google.com/maps?q=28.480607,-80.541938",
+        "latitude": "28.480607",
+        "longitude": "-80.541938",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_99_20200803143435.jpg",
+        "total_launch_count": 23,
+        "orbital_launch_attempt_count": 21
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 181,
+    "location_launch_attempt_count": 85,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 100,
+    "orbital_launch_attempt_count_year": 39,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 29,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "8fd1e2cf-5a1e-4514-b17a-aecaf95f7c2e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8fd1e2cf-5a1e-4514-b17a-aecaf95f7c2e/",
+    "slug": "soyuz-21avolga-mikhailo-lomonosov-aist-2d-samsat-2",
+    "name": "Soyuz-2.1a/Volga | Mikhailo Lomonosov, Aist-2D & SamSat 218",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:48:29Z",
+    "net": "2016-04-28T02:01:21Z",
+    "window_end": "2016-04-28T02:01:21Z",
+    "window_start": "2016-04-28T02:01:21Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1923,
+        "configuration": {
+            "id": 57,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/57/",
+            "name": "Soyuz 2.1a/Volga",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1a Volga",
+            "variant": "Volga"
+        }
+    },
+    "mission": {
+        "id": 145,
+        "name": "Mikhailo Lomonosov, Aist-2D & SamSat 218",
+        "description": "MVL-300 is named after Mikhail Vasilyevich Lomonosov to honour the 300th year since his birth. The Russian mission will study transient phenomena in the Earth\u00e2\u20ac\u2122s upper atmosphere, as well as observing cosmic rays and gamma ray bursts. With a short lifespan of 5 years, the 450kg craft will operate in a 550km Sun-Synchronous orbit.This will mark the first Soyuz mission to launch from the Vostochny Cosmodrome, Russia",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 17,
+        "orbital_launch_attempt_count": 17
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5555,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 256,
+    "orbital_launch_attempt_count_year": 26,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

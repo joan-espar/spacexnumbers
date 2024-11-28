@@ -1,0 +1,94 @@
+{
+    "id": "e0975cef-e8c6-4f35-bbf7-1b55963e06a5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e0975cef-e8c6-4f35-bbf7-1b55963e06a5/",
+    "slug": "juno-i-explorer-4",
+    "name": "Juno-I | Explorer 4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:44Z",
+    "net": "1958-07-26T15:00:57Z",
+    "window_end": "1958-07-26T15:00:57Z",
+    "window_start": "1958-07-26T15:00:57Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 271,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/271/",
+        "name": "Army Ballistic Missile Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3017,
+        "configuration": {
+            "id": 324,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/324/",
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+        }
+    },
+    "mission": {
+        "id": 1439,
+        "name": "Explorer 4",
+        "description": "An American satellite in order to study the Van Allen radiation belts and the effects of nuclear explosions upon these belts.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 123,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/123/",
+        "agency_id": 161,
+        "name": "Launch Complex 5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_5",
+        "map_url": "https://www.google.com/maps?q=28.43942,-80.573301",
+        "latitude": "28.43942",
+        "longitude": "-80.573301",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_123_20200803143235.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/juno_i_on_the_p_image_20240411120216.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 15,
+    "location_launch_attempt_count": 10,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 12,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

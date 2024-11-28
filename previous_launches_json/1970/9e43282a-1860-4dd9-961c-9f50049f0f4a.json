@@ -1,0 +1,119 @@
+{
+    "id": "9e43282a-1860-4dd9-961c-9f50049f0f4a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e43282a-1860-4dd9-961c-9f50049f0f4a/",
+    "slug": "proton-luna-16c",
+    "name": "Proton | Luna-16c",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:46:16Z",
+    "net": "1970-02-06T04:16:06Z",
+    "window_end": "1970-02-06T04:16:06Z",
+    "window_start": "1970-02-06T04:16:06Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3982,
+        "configuration": {
+            "id": 191,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/191/",
+            "name": "Proton",
+            "family": "Proton / UR-500",
+            "full_name": "Proton / UR-500 K/D",
+            "variant": "K/D"
+        }
+    },
+    "mission": {
+        "id": 2400,
+        "name": "Luna-16c",
+        "description": "Lunar lander and sample return probe",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/31/",
+        "agency_id": null,
+        "name": "81/23 (81L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.073997,62.977999",
+        "latitude": "46.073997",
+        "longitude": "62.977999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_31_20200803143402.jpg",
+        "total_launch_count": 104,
+        "orbital_launch_attempt_count": 104
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 38,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/38/",
+            "name": "Luna",
+            "description": "The Luna program was a series of robotic spacecraft missions sent to the Moon by the Soviet Union between 1959 and 1976. The program accomplished many firsts in space exploration, including first flyby of the Moon, first impact of the Moon and first photos of the far side of the Moon. Each mission was designed as either an orbiter or lander. They also performed many experiments, studying the Moon's chemical composition, gravity, temperature, and radiation.",
+            "agencies": [
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/luna_1_impactor_image_20240813082956.jpg",
+            "start_date": "1958-09-23T07:40:23Z",
+            "end_date": "1976-08-22T17:55:00Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Luna_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 1057,
+    "location_launch_attempt_count": 285,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 460,
+    "orbital_launch_attempt_count_year": 11,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

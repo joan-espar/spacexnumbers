@@ -1,0 +1,85 @@
+{
+    "id": "556fc04a-d443-4b90-866b-1fd4640190fa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/556fc04a-d443-4b90-866b-1fd4640190fa/",
+    "slug": "pegasus-xl-reuven-ramaty-high-energy-solar-spectro",
+    "name": "Pegasus XL | Reuven Ramaty High Energy Solar Spectroscopic Imager (RHESSI)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:03:44Z",
+    "net": "2002-02-05T20:58:12Z",
+    "window_end": "2002-02-05T20:58:12Z",
+    "window_start": "2002-02-05T20:58:12Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 474,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 84,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/84/",
+        "agency_id": null,
+        "name": "Cape Canaveral",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral",
+        "map_url": "https://www.google.com/maps?q=28.455556,-80.527778",
+        "latitude": "28.455556",
+        "longitude": "-80.527778",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_84_20200803143436.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4515,
+    "location_launch_attempt_count": 30,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 39,
+    "orbital_launch_attempt_count_year": 4515,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

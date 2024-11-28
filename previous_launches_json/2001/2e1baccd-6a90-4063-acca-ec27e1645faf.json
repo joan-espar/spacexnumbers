@@ -1,0 +1,94 @@
+{
+    "id": "2e1baccd-6a90-4063-acca-ec27e1645faf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2e1baccd-6a90-4063-acca-ec27e1645faf/",
+    "slug": "athena-i-starshine-oscar-43",
+    "name": "Athena I | Starshine-OSCAR-43",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:51Z",
+    "net": "2001-09-30T02:40:00Z",
+    "window_end": "2001-09-30T02:40:00Z",
+    "window_start": "2001-09-30T02:40:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+        "name": "Lockheed Martin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7059,
+        "configuration": {
+            "id": 228,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/228/",
+            "name": "Athena I",
+            "family": "Athena",
+            "full_name": "Athena I",
+            "variant": "I"
+        }
+    },
+    "mission": {
+        "id": 5448,
+        "name": "Starshine-OSCAR-43",
+        "description": "Research (Atmospheric density) satellite built by Naval Research Laboratory (NRL) for NASA, USA.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 57,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/57/",
+        "agency_id": null,
+        "name": "Launch Pad 1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Pacific_Spaceport_Complex_%E2%80%93_Alaska",
+        "map_url": "https://www.google.com/maps?q=57.435833,-152.337778",
+        "latitude": "57.435833",
+        "longitude": "-152.337778",
+        "location": {
+            "id": 25,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/25/",
+            "name": "Pacific Spaceport Complex, Alaska, USA",
+            "country_code": "USA",
+            "description": "The Pacific Spaceport Complex \u2013 Alaska (PSCA), formerly known as the Kodiak Launch Complex (KLC), is a dual-use commercial and military spaceport for sub-orbital and orbital launch vehicles. The facility is owned and operated by the Alaska Aerospace Corporation, a corporation owned by the Government of Alaska, and is located on Kodiak Island in Alaska.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_25_20200803142500.jpg",
+            "timezone_name": "America/Anchorage",
+            "total_launch_count": 9,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_57_20200803143509.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/athena_1_liftof_image_20240411090356.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4496,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 58,
+    "orbital_launch_attempt_count_year": 44,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "7614f1a3-2ffe-4334-82b1-58aab43fe6d6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7614f1a3-2ffe-4334-82b1-58aab43fe6d6/",
+    "slug": "h-iia-202-igs-optical-7",
+    "name": "H-IIA 202 | IGS Optical 7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:08Z",
+    "net": "2020-02-09T01:34:00Z",
+    "window_end": "2020-02-09T01:39:00Z",
+    "window_start": "2020-02-09T01:34:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2598,
+        "configuration": {
+            "id": 32,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/32/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 202",
+            "variant": "202"
+        }
+    },
+    "mission": {
+        "id": 1077,
+        "name": "IGS Optical 7",
+        "description": "Information Gathering Satellite (IGS) is a Japanese governmental spy satellite program. IGS Optical 7, as the name suggests, is an optical reconnaissance satellite.\n\nJapan began development of IGS in the late 1990s, following North Korea\u00e2\u20ac\u2122s attempted satellite launch in 1998. Although the North Korean launch failed to reach orbit, the rocket carrying it crossed Japan during its ascent, sparking fears that North Korean missiles would be able to target the islands. With IGS, Japan aimed to develop an independent reconnaissance capability to monitor future threats. The constellation can also be used for disaster monitoring and other civilian applications by the Japanese government.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_20240325123250.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5931,
+    "location_launch_attempt_count": 80,
+    "pad_launch_attempt_count": 48,
+    "agency_launch_attempt_count": 41,
+    "orbital_launch_attempt_count_year": 9,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

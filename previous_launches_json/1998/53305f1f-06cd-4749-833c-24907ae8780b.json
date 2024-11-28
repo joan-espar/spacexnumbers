@@ -1,0 +1,119 @@
+{
+    "id": "53305f1f-06cd-4749-833c-24907ae8780b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/53305f1f-06cd-4749-833c-24907ae8780b/",
+    "slug": "delta-ii-iridium-50-52-53-54-56",
+    "name": "Delta II | Iridium 50, 52, 53, 54, 56",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-12-30T10:33:32Z",
+    "net": "1998-02-18T13:58:09Z",
+    "window_end": "1998-02-18T13:58:09Z",
+    "window_start": "1998-02-18T13:58:09Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6840,
+        "configuration": {
+            "id": 99,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/99/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7920-10C",
+            "variant": "7920-10C"
+        }
+    },
+    "mission": {
+        "id": 5230,
+        "name": "Iridium 50, 52, 53, 54, 56",
+        "description": "Iridium provides global mobile telecommunications services using a constellation of 66 low earth orbit satellites in a 86.4\u00b0 inclined orbit. Although 77 satellites were originally envisioned for the system and spawned the name based on the 77th element in the periodic table, the system has been scaled back. Motorola's Satellite Communications Group designed and manufactured the Iridium satellites with Lockheed Martin providing the LM-700A spacecraft buses.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 39,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/39/",
+        "agency_id": null,
+        "name": "Space Launch Complex 2W",
+        "description": "SLC-2W was originally used for Delta, Thor-Agena and Delta II launches. After the last Delta II flight in 2018, SLC-2W was repurposed to launch Firefly Alpha rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7556,-120.6224",
+        "latitude": "34.7556",
+        "longitude": "-120.6224",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_39_20200803143542.jpg",
+        "total_launch_count": 97,
+        "orbital_launch_attempt_count": 97
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030612.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 28,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/28/",
+            "name": "Iridium Constellation",
+            "description": "The Iridium satellite constellation provides L band voice and data information coverage to satellite phones, satellite messenger communication devices and integrated transceivers.",
+            "agencies": [
+                {
+                    "id": 202,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/202/",
+                    "name": "Iridium Communications",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/iridium2520con_program_20231228184831.jpeg",
+            "start_date": "1997-05-05T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://iridium.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Iridium_satellite_constellation",
+            "mission_patches": [],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4218,
+    "location_launch_attempt_count": 582,
+    "pad_launch_attempt_count": 57,
+    "agency_launch_attempt_count": 990,
+    "orbital_launch_attempt_count_year": 11,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

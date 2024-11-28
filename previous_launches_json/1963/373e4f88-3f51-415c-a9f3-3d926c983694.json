@@ -1,0 +1,119 @@
+{
+    "id": "373e4f88-3f51-415c-a9f3-3d926c983694",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/373e4f88-3f51-415c-a9f3-3d926c983694/",
+    "slug": "atlas-lv-3b-mercury-atlas-9",
+    "name": "Atlas LV-3B | Mercury-Atlas 9",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:43Z",
+    "net": "1963-05-15T13:04:13Z",
+    "window_end": "1963-05-15T13:04:13Z",
+    "window_start": "1963-05-15T13:04:13Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 196,
+        "configuration": {
+            "id": 162,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/162/",
+            "name": "Atlas LV-3B",
+            "family": "Atlas",
+            "full_name": "Atlas LV-3B",
+            "variant": "LV-3B"
+        }
+    },
+    "mission": {
+        "id": 158,
+        "name": "Mercury-Atlas 9",
+        "description": "Mercury-Atlas 9 was the final manned spaceflight of the United States' Mercury program. It carried the Faith 7 spacecraft with astronaut Gordon Cooper to orbit where it completed 22 orbits seconds before reentry. The mission lasted for, 34 hours, 19 minutes & 49 seconds. This was the last time an American was launched to space on a solo orbital mission. The mission had several technical problems, the biggest which was a short-circuit in the bus bar serving the 250 volt main inverter causing the automatic stabilization and control system to stop working during the 21st orbit. In the end Cooper had to use lines he had drawn on the window and his wristwatch to correctly execute burns to safely re-enter the atmosphere.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 17,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/17/",
+        "agency_id": 1048,
+        "name": "Space Launch Complex 14",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_14",
+        "map_url": "https://www.google.com/maps?q=28.49103,-80.54687",
+        "latitude": "28.49103",
+        "longitude": "-80.54687",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_17_20200803143405.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 16
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_image_20190222030015.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 2,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/2/",
+            "name": "Mercury",
+            "description": "Project Mercury was the first human spaceflight program of the United States, running from 1958 through 1963.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520mer_program_20200820194755.png",
+            "start_date": "1958-10-07T00:00:00Z",
+            "end_date": "1963-05-16T23:24:02Z",
+            "info_url": "https://www.nasa.gov/mission_pages/mercury/missions/program-toc.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Project_Mercury",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 246,
+    "location_launch_attempt_count": 99,
+    "pad_launch_attempt_count": 13,
+    "agency_launch_attempt_count": 47,
+    "orbital_launch_attempt_count_year": 22,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

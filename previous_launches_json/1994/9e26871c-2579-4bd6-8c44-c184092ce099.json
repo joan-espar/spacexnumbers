@@ -1,0 +1,94 @@
+{
+    "id": "9e26871c-2579-4bd6-8c44-c184092ce099",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e26871c-2579-4bd6-8c44-c184092ce099/",
+    "slug": "aslv-sross-c2",
+    "name": "ASLV | SROSS-C2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-07T14:10:41Z",
+    "net": "1994-05-04T00:00:00Z",
+    "window_end": "1994-05-04T00:00:00Z",
+    "window_start": "1994-05-04T00:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6586,
+        "configuration": {
+            "id": 218,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/218/",
+            "name": "ASLV",
+            "family": "ASLV",
+            "full_name": "ASLV",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 4976,
+        "name": "SROSS-C2",
+        "description": "SROSS C and C2 (Stretched Rohini Satellite Series) were the third and fourth satellites in ISRO's SROSS series and to perform experiments on Gamma-ray astronomy and ionospheric science.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 40,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/40/",
+        "agency_id": 31,
+        "name": "SLV-3 Launch Pad",
+        "description": "The SLV3 Launch Pad, began operation in 1979 and was decommissioned in 1994. It was used by two launch vehicles of the ISRO: the Satellite Launch Vehicle (SLV) and the Augmented Satellite Launch Vehicle (ASLV) Initially it was built for launching SLV-3s but was later also used as an ASLV launch complex.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_SLV_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.666193,80.227231",
+        "latitude": "13.666193",
+        "longitude": "80.227231",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_40_20200803143325.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/aslv_image_20240210153603.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3896,
+    "location_launch_attempt_count": 9,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 9,
+    "orbital_launch_attempt_count_year": 28,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

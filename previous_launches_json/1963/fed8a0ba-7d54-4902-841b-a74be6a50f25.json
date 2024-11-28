@@ -1,0 +1,94 @@
+{
+    "id": "fed8a0ba-7d54-4902-841b-a74be6a50f25",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fed8a0ba-7d54-4902-841b-a74be6a50f25/",
+    "slug": "thor-slv-2a-agena-d-kh-6-1",
+    "name": "Thor SLV-2A Agena D | KH-6 1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:18:28Z",
+    "net": "1963-03-18T21:13:01Z",
+    "window_end": "1963-03-18T21:13:01Z",
+    "window_start": "1963-03-18T21:13:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3188,
+        "configuration": {
+            "id": 417,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/417/",
+            "name": "Thor SLV-2A Agena D",
+            "family": "Thor",
+            "full_name": "Thor SLV-2A Agena D",
+            "variant": "SLV-2A Agena D"
+        }
+    },
+    "mission": {
+        "id": 1610,
+        "name": "KH-6 1",
+        "description": "KH-6 (Keyhole 6, codenamed Lanyard) was an early attempt to gain higher resolution imagery, which flew only one successful mission in 1963. It was part of the Corona program.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 95,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/95/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 1W",
+        "description": "Space Launch Complex 1 West (SLC-1W) was a launch pad at Vandenberg Space Force Base in California, United States. It was built in 1958 for the never activated 75th Strategic Missile Squadron for Thor Agena A launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=34.7572,-120.6303",
+        "latitude": "34.7572",
+        "longitude": "-120.6303",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_95_20200803143209.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 232,
+    "location_launch_attempt_count": 87,
+    "pad_launch_attempt_count": 30,
+    "agency_launch_attempt_count": 133,
+    "orbital_launch_attempt_count_year": 8,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

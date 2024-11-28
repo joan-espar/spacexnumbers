@@ -1,0 +1,94 @@
+{
+    "id": "738b8ac7-63c3-4216-9a7c-5e56edd113b6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/738b8ac7-63c3-4216-9a7c-5e56edd113b6/",
+    "slug": "long-march-1-dong-fang-hong-1",
+    "name": "Long March 1 | Dong Fang Hong 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T02:36:29Z",
+    "net": "1970-04-24T13:35:45Z",
+    "window_end": "1970-04-24T13:35:45Z",
+    "window_start": "1970-04-24T13:35:45Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1035,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1035/",
+        "name": "Seventh Ministry of Machine Building Industry",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 228,
+        "configuration": {
+            "id": 92,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/92/",
+            "name": "Long March 1",
+            "family": "Long March",
+            "full_name": "Long March 1",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6489,
+        "name": "Dong Fang Hong 1",
+        "description": "Dong Fang Hong 1 (DFH-1) was the first Chinese satellite. This was the first satellite launched by China on its own booster, making China the fifth nation to put a spacecraft into orbit using its own rocket.\r\n\r\nThe satellite was developed under the direction of Tsien Hsue-Shen, dean of the Chinese Academy of Space Technology (CAST). The experimental satellite was a nearly spherically shaped symmetrical 72-faced polyhedron with a 1-meter diameter. It was battery-powered and carried a radio transmitter. The primary mission was to broadcast the song \"Dong Fang Hong\", paying tribute to Chairman Mao, and to announce the time. \r\n\r\nA total of five identical satellites were built to have backups in case of launch failures. The first satellite launched successfully.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 6,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/6/",
+        "agency_id": null,
+        "name": "Launch Area 2A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=41.308833,100.316512",
+        "latitude": "41.308833",
+        "longitude": "100.316512",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_6_20200803143329.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1082,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 36,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "c67f0f61-3a4b-4adb-af2b-3c02a1ff6055",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c67f0f61-3a4b-4adb-af2b-3c02a1ff6055/",
+    "slug": "hyperbola-1-dummy-payload",
+    "name": "Hyperbola-1 | Dummy Payload",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:16:40Z",
+    "net": "2023-04-07T04:00:00Z",
+    "window_end": "2023-04-07T06:25:00Z",
+    "window_start": "2023-04-07T03:54:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 274,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/274/",
+        "name": "iSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7833,
+        "configuration": {
+            "id": 193,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/193/",
+            "name": "Hyperbola-1",
+            "family": "",
+            "full_name": "Hyperbola-1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 6344,
+        "name": "Dummy Payload",
+        "description": "Test launch of Hyperbola-1 to test reliability after 3 successive failures in 2021-22.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hyperbola-1252_image_20240101094736.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6424,
+    "location_launch_attempt_count": 191,
+    "pad_launch_attempt_count": 39,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 56,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

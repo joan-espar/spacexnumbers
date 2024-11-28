@@ -1,0 +1,15 @@
+id,name,abbrev
+1,Geostationary Orbit,Direct-GEO
+2,Geostationary Transfer Orbit,GTO
+5,Heliocentric L1,L1-point
+6,Heliocentric N/A,Helio-N/A
+7,High Earth Orbit,HEO
+8,Low Earth Orbit,LEO
+11,Lunar Orbit,LO
+12,Medium Earth Orbit,MEO
+13,Polar Orbit,PO
+15,Suborbital,Sub
+16,Sun-Earth L2,L2
+17,Sun-Synchronous Orbit,SSO
+21,Asteroid,Asteroid
+25,Unknown,N/A

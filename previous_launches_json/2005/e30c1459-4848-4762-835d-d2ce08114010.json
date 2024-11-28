@@ -1,0 +1,119 @@
+{
+    "id": "e30c1459-4848-4762-835d-d2ce08114010",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e30c1459-4848-4762-835d-d2ce08114010/",
+    "slug": "delta-ii-deep-impact-dif",
+    "name": "Delta II | Deep Impact (DIF)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-12-31T12:28:14Z",
+    "net": "2005-01-12T18:47:08Z",
+    "window_end": "2005-01-12T18:47:08Z",
+    "window_start": "2005-01-12T18:47:08Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7212,
+        "configuration": {
+            "id": 140,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/140/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925-9.5",
+            "variant": "7925-9.5"
+        }
+    },
+    "mission": {
+        "id": 5601,
+        "name": "Deep Impact (DIF)",
+        "description": "Deep Impact was to fly by Comet 9P/Tempel-1 on 3 July 2005. An impacter it released was to hit the comet on 4 July at 10.2 km/s, producing a crater and ejecta plume that would allow the flyby spacecraft to determine the composition and structure of the comet's nucleus.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 21,
+            "name": "Asteroid",
+            "abbrev": "Asteroid"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_ii_7925-9_image_20240312090356.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 33,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/33/",
+            "name": "Discovery Program",
+            "description": "The Discovery Program is a series of Solar System exploration missions funded by the U.S. National Aeronautics and Space Administration (NASA) through its Planetary Missions Program Office. The cost of each mission is capped at a lower level than missions from NASA's New Frontiers or Flagship Programs. As a result, Discovery missions tend to be more focused on a specific scientific goal rather than serving a general purpose.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/discovery2520p_program_20231231122246.jpeg",
+            "start_date": "1990-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/planetarymissions/discovery-program/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Discovery_Program",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4695,
+    "location_launch_attempt_count": 632,
+    "pad_launch_attempt_count": 125,
+    "agency_launch_attempt_count": 1066,
+    "orbital_launch_attempt_count_year": 1,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

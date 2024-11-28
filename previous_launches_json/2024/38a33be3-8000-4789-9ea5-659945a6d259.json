@@ -1,0 +1,99 @@
+{
+    "id": "38a33be3-8000-4789-9ea5-659945a6d259",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/38a33be3-8000-4789-9ea5-659945a6d259/",
+    "slug": "long-march-2dyz-3-yunhai-2-group-02",
+    "name": "Long March 2D/YZ-3 | Yunhai-2 Group 02",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-22T07:17:44Z",
+    "net": "2024-03-21T05:27:00Z",
+    "window_end": "2024-03-21T05:52:00Z",
+    "window_start": "2024-03-21T05:19:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8222,
+        "configuration": {
+            "id": 176,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/176/",
+            "name": "Long March 2D/YZ-3",
+            "family": "Long March",
+            "full_name": "Long March 2D/YZ-3",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6799,
+        "name": "Yunhai-2 Group 02",
+        "description": "Yunhai-2 is a constellation of Chinese military meteorological satellites.\r\n\r\nReportedly the satellites use Global Navigation Satellite System (GNSS) Radio Occultation (GNSS-RO) to collect atmospheric data for weather prediction and for ionosphere, climate, and gravity research.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-2d_liftoff__image_20240322071740.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6642,
+    "location_launch_attempt_count": 222,
+    "pad_launch_attempt_count": 112,
+    "agency_launch_attempt_count": 460,
+    "orbital_launch_attempt_count_year": 53,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

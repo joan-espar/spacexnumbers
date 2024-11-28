@@ -1,0 +1,110 @@
+{
+    "id": "224c8fb5-11a0-4bdf-a1d2-1b4ef197eec1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/224c8fb5-11a0-4bdf-a1d2-1b4ef197eec1/",
+    "slug": "saturn-v-skylab-1",
+    "name": "Saturn V | Skylab 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T19:00:34Z",
+    "net": "1973-05-14T17:30:00Z",
+    "window_end": "1973-05-14T17:30:00Z",
+    "window_start": "1973-05-14T17:30:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 237,
+        "configuration": {
+            "id": 93,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/93/",
+            "name": "Saturn V",
+            "family": "Saturn",
+            "full_name": "Saturn V",
+            "variant": "V"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/saturn2520v_image_20190222030036.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/13/",
+            "name": "Skylab",
+            "description": "Skylab was the first United States space station, launched by NASA, occupied for about 24 weeks between May 1973 and February 1974. It was operated by three separate three-astronaut crews: SL-2, SL-3 and SL-4. Major operations included an orbital workshop, a solar observatory, Earth observation, and hundreds of experiments.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skylab_program_20240305184407.png",
+            "start_date": "1973-05-14T17:30:00Z",
+            "end_date": "1979-07-11T16:37:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/skylab/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Skylab",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 1450,
+    "location_launch_attempt_count": 13,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 121,
+    "orbital_launch_attempt_count_year": 1450,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

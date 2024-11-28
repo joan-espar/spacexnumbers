@@ -1,0 +1,94 @@
+{
+    "id": "e604798c-401c-49dd-9f77-15248c703ba5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e604798c-401c-49dd-9f77-15248c703ba5/",
+    "slug": "soyuz-21bfregat-eks-tundra-kosmos-2510",
+    "name": "Soyuz-2.1b/Fregat | EKS (Tundra) (Kosmos 2510)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:10:58Z",
+    "net": "2015-11-17T06:33:41Z",
+    "window_end": "2015-11-17T06:33:41Z",
+    "window_start": "2015-11-17T06:33:41Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1883,
+        "configuration": {
+            "id": 42,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/42/",
+            "name": "Soyuz 2.1b/Fregat",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 418,
+        "name": "EKS (Tundra) (Kosmos 2510)",
+        "description": "The Tundra or EKS (meaning Unified Space System) series of satellites is the next generation of Russian early warning satellites.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 85,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/85/",
+        "agency_id": 163,
+        "name": "43/4 (43R)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.92883,40.457098",
+        "latitude": "62.92883",
+        "longitude": "40.457098",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_85_20200803143554.jpg",
+        "total_launch_count": 321,
+        "orbital_launch_attempt_count": 321
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5512,
+    "location_launch_attempt_count": 1609,
+    "pad_launch_attempt_count": 283,
+    "agency_launch_attempt_count": 87,
+    "orbital_launch_attempt_count_year": 70,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

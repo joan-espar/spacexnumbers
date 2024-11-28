@@ -1,0 +1,94 @@
+{
+    "id": "1f0cb622-4dcf-4206-b8d7-3c741c07ab00",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1f0cb622-4dcf-4206-b8d7-3c741c07ab00/",
+    "slug": "titan-ii-slv-noaa-15",
+    "name": "Titan II SLV | NOAA 15",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-22T12:06:05Z",
+    "net": "1998-05-13T15:52:04Z",
+    "window_end": "1998-05-13T15:52:04Z",
+    "window_start": "1998-05-13T15:52:04Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6856,
+        "configuration": {
+            "id": 436,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/436/",
+            "name": "Titan II SLV",
+            "family": "Titan",
+            "full_name": "Titan II SLV",
+            "variant": "23G"
+        }
+    },
+    "mission": {
+        "id": 5246,
+        "name": "NOAA 15",
+        "description": "The NOAA K, L and M POES satellites begin the fifth generation of improved environmental monitoring in support of NOAA missions. The instrument payload has significant improvements and additions/deletions. The instrument changes have effected the spacecraft subsystems and data formats.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 156,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/156/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4W",
+        "description": "SLC-4W started operations in 1963 as Space Launch Complex 4W, and continued as an operational launch site through 2003. In 2015, SpaceX started conversion of the launch site into Landing Zone LZ-4. Landing operations commenced in 2018 at LZ-4.",
+        "info_url": "http://www.astronautix.com/v/vandenbergslc4w.html",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Air_Force_Base_Space_Launch_Complex_4#SLC-4W",
+        "map_url": "https://www.google.com/maps?q=34.63312,-120.61584",
+        "latitude": "34.63312",
+        "longitude": "-120.61584",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_156_20200803143351.jpg",
+        "total_launch_count": 93,
+        "orbital_launch_attempt_count": 93
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/titan_ii_slv_li_image_20240922120444.JPG",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4238,
+    "location_launch_attempt_count": 584,
+    "pad_launch_attempt_count": 87,
+    "agency_launch_attempt_count": 994,
+    "orbital_launch_attempt_count_year": 31,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

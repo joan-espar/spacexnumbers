@@ -1,0 +1,124 @@
+{
+    "id": "a49d791b-3c7f-4ee9-8917-14596a2a1a25",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a49d791b-3c7f-4ee9-8917-14596a2a1a25/",
+    "slug": "saturn-ib-apollo-1-failure-before-launch",
+    "name": "Saturn IB | Apollo 1 (Failure before launch)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:42:44Z",
+    "net": "1967-01-27T23:31:19Z",
+    "window_end": "1967-01-27T23:31:19Z",
+    "window_start": "1967-01-27T23:31:19Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Crew and spacecraft lost due to a cabin fire that occurred during a launch rehearsal at Cape Kennedy Air Force Station Launch Complex 34 on January 27, 1967.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2880,
+        "configuration": {
+            "id": 163,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/163/",
+            "name": "Saturn IB",
+            "family": "Saturn",
+            "full_name": "Saturn IB",
+            "variant": "IB"
+        }
+    },
+    "mission": {
+        "id": 1296,
+        "name": "Apollo 1",
+        "description": "Apollo 1, initially designated AS-204, was the first crewed mission of the United States Apollo program, the undertaking to land the first man on the Moon. It was planned to launch on February 21, 1967, as the first low Earth orbital test of the Apollo command and service module. The mission never flew; a cabin fire during a launch rehearsal test at Cape Kennedy Air Force Station Launch Complex 34 on January 27 killed all three crew members\u2014Command Pilot Gus Grissom, Senior Pilot Ed White, and Pilot Roger B. Chaffee\u2014and destroyed the command module (CM). The name Apollo 1, chosen by the crew, was made official by NASA in their honor after the fire.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 19,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/19/",
+        "agency_id": null,
+        "name": "Launch Complex 34",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_34",
+        "map_url": "https://www.google.com/maps?q=28.521811,-80.56113",
+        "latitude": "28.521811",
+        "longitude": "-80.56113",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_19_20200803143428.jpg",
+        "total_launch_count": 9,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/saturn2520ib_image_20190222030046.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/4/",
+            "name": "Apollo",
+            "description": "The Apollo program was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which succeeded in landing the first humans on the Moon from 1969 to 1972.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/apollo_program_20200820200202.png",
+            "start_date": "1966-11-16T00:00:00Z",
+            "end_date": "1972-12-19T19:24:59Z",
+            "info_url": "https://www.nasa.gov/mission_pages/apollo/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Apollo_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 655,
+    "location_launch_attempt_count": 195,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 87,
+    "orbital_launch_attempt_count_year": 7,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

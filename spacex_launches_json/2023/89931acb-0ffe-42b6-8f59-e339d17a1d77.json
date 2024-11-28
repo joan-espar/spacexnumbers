@@ -1,0 +1,99 @@
+{
+    "id": "89931acb-0ffe-42b6-8f59-e339d17a1d77",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/89931acb-0ffe-42b6-8f59-e339d17a1d77/",
+    "slug": "falcon-9-block-5-intelsat-40e",
+    "name": "Falcon 9 Block 5 | Intelsat 40e",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:37:35Z",
+    "net": "2023-04-07T04:30:00Z",
+    "window_end": "2023-04-07T06:29:00Z",
+    "window_start": "2023-04-07T04:30:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": 90,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2695,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 6305,
+        "name": "Intelsat 40e",
+        "description": "Intelsat 40e is an advanced geostationary satellite that will provide Intelsat\u2019s government and enterprise customers across North and Central America with high-throughput, \u201ccoast-to-coast\u201d services. The satellite\u2019s capabilities will support the growing number of customers that depend on Intelsat\u2019s managed services and solutions to easily integrate satellite into their overall networking and communications strategies.\r\n\r\nHosted on the Intelsat 40e satellite is NASA\u2019s Tropospheric Emissions: Monitoring of Pollution (TEMPO), an Earth science instrument that will observe air pollution over North America in unprecedented detail.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20240101094344.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6425,
+    "location_launch_attempt_count": 882,
+    "pad_launch_attempt_count": 176,
+    "agency_launch_attempt_count": 236,
+    "orbital_launch_attempt_count_year": 57,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 13,
+    "agency_launch_attempt_count_year": 23,
+    "type": "normal"
+}

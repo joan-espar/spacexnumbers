@@ -1,0 +1,94 @@
+{
+    "id": "748ed2a0-e731-49e4-ac5f-468dc80d7d46",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/748ed2a0-e731-49e4-ac5f-468dc80d7d46/",
+    "slug": "long-march-3b-nusantara-dua",
+    "name": "Long March 3B | Nusantara Dua",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:53:47Z",
+    "net": "2020-04-09T11:46:00Z",
+    "window_end": "2020-04-09T12:25:00Z",
+    "window_start": "2020-04-09T11:38:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Third stage of the rocket suffered an anomaly resulting in only one of the two engines operating properly, and it broke up along with the payload while reentering the atmosphere.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 133,
+        "configuration": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/19/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B",
+            "variant": "3B"
+        }
+    },
+    "mission": {
+        "id": 1105,
+        "name": "Nusantara Dua",
+        "description": "Nusantara Dua is a high throughput communications satellite built by CAST for Indonesian satellite operator PT Pasifik Satelit Nusantara. It will replace the Palapa D satellite. Nusantara Dua will provide broadband internet and broadcasting access to users in Indonesia, as well as some regions of Asia-Pacific and Australia.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5948,
+    "location_launch_attempt_count": 143,
+    "pad_launch_attempt_count": 86,
+    "agency_launch_attempt_count": 277,
+    "orbital_launch_attempt_count_year": 26,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

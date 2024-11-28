@@ -1,0 +1,99 @@
+{
+    "id": "e0d5b592-ae3c-4586-b840-b717d269ba22",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/e0d5b592-ae3c-4586-b840-b717d269ba22/",
+    "slug": "qaem-100-chamran-1",
+    "name": "Qaem 100 | Chamran-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-17T15:48:53Z",
+    "net": "2024-09-14T05:58:00Z",
+    "window_end": "2024-09-14T05:58:00Z",
+    "window_start": "2024-09-14T05:58:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1032,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/1032/",
+        "name": "Islamic Revolutionary Guard Corps Aerospace Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8353,
+        "configuration": {
+            "id": 505,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/505/",
+            "name": "Qaem 100",
+            "family": "",
+            "full_name": "Qaem 100",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6934,
+        "name": "Chamran-1",
+        "description": "Iranian technological demonstration satellite to test out a propulsion system, with mass of 60 kg.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 115,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/115/",
+        "agency_id": null,
+        "name": "Launch Platform",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=36.200595,55.333939",
+        "latitude": "36.200595",
+        "longitude": "55.333939",
+        "location": {
+            "id": 145,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/145/",
+            "name": "Shahrud Missile Test Site, Islamic Republic of Iran",
+            "country_code": "IRN",
+            "description": "Shahroud Space Center is a Military Spaceport under control of the Islamic Revolutionary Guard Corps Aerospace Force (IRGCASF) located south-east of Shahroud Semnan Province, used to orbit military satellites for Iran's military space program.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_145_20200803142443.jpg",
+            "timezone_name": "Asia/Tehran",
+            "total_launch_count": 6,
+            "total_landing_count": 0
+        },
+        "country_code": "IRN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_115_20200803143303.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/qaem_100_image_20240123065309.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6758,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 169,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

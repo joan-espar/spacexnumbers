@@ -1,0 +1,80 @@
+{
+    "id": "5fb584f7-b2cd-44ed-812c-f3681c9d17f7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5fb584f7-b2cd-44ed-812c-f3681c9d17f7/",
+    "slug": "dnepr-1-multipayload-mission-33-satellites",
+    "name": "Dnepr 1 | Multipayload mission, 33 satellites",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-07T13:35:56Z",
+    "net": "2013-11-21T07:10:11Z",
+    "window_end": "2013-11-21T07:10:11Z",
+    "window_start": "2013-11-21T07:10:11Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 119,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/119/",
+        "name": "ISC Kosmotras",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1718,
+        "configuration": {
+            "id": 31,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/31/",
+            "name": "Dnepr",
+            "family": "",
+            "full_name": "Dnepr 1",
+            "variant": "1"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 183,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/183/",
+        "agency_id": null,
+        "name": "370/13",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Dombarovsky_Air_Base",
+        "map_url": "https://www.google.com/maps?q=51.0938889,59.8400282",
+        "latitude": "51.0938889",
+        "longitude": "59.8400282",
+        "location": {
+            "id": 5,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/5/",
+            "name": "Dombarovskiy, Russian Federation",
+            "country_code": "RUS",
+            "description": "Dombarovsky is a military airbase near Yasny in Russia's Orenburg Oblast. Operated by the Soviet Air Defence Forces and later by the Russian Air Force, it hosted fighter interceptor squadrons and hosts an ICBM base (which has been adapted for commercial satellite launches) with a supporting helicopter base.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_5_20200803142425.jpg",
+            "timezone_name": "Asia/Yekaterinburg",
+            "total_launch_count": 10,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_183_20200803143512.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/dnepr-1_liftoff_image_20240411092543.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5336,
+    "location_launch_attempt_count": 7,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 19,
+    "orbital_launch_attempt_count_year": 5336,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

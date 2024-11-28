@@ -1,0 +1,94 @@
+{
+    "id": "f9cbd171-1b62-4fdf-9294-0608497a8cf6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f9cbd171-1b62-4fdf-9294-0608497a8cf6/",
+    "slug": "ariane-5-eca-eutelsat-konnect-gsat-30",
+    "name": "Ariane 5 ECA | Eutelsat Konnect & GSAT-30",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:02Z",
+    "net": "2020-01-16T21:05:00Z",
+    "window_end": "2020-01-16T23:00:00Z",
+    "window_start": "2020-01-16T21:05:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 97,
+        "configuration": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/20/",
+            "name": "Ariane 5 ECA",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA",
+            "variant": "ECA"
+        }
+    },
+    "mission": {
+        "id": 1073,
+        "name": "Eutelsat Konnect & GSAT-30",
+        "description": "Eutelsat Konnect is an all-electric, Ka-band geostationary communications satellite built by Thales Alenia Space for Eutelsat. It will provide broadband services to users in Africa and Europe.  The baseline mission of the satellite is to provide 75 Gbps of capacity across a network of 65 spotbeams that together provide quasi-complete coverage of Sub-Saharan Africa. The satellite will address direct-to-user consumer and enterprise broadband services using dishes from approximately 75 cm. It will also be used for community networks connected to Wi-Fi hotspots, mobile phone backhauling and rural connectivity.\r\nEutelsat Konnect is the first to use Thales Alenia Space\u00e2\u20ac\u2122s all-electric Spacebus NEO platform, developed under the Neosat Partnership Project conducted by the European and French space agencies (ESA and CNES). More robust, more modular, more powerful, more innovative, more flexible, this platform is perfectly adapted to operators' expectations in the evolving telecommunication market, and particlularly well positioned for very demanding VHTS missions. Eutelsat Konnect will allow the in-orbit validation of the complete end-to-end system of the new Spacebus Neo product line, including the fully-electric orbit-raising phase\r\n\r\nGSAT-30 is a telecommunications satellite designed and manufactured  by  ISRO. To be positioned at a longitude  of  83\u00c2\u00b0 East, it will provide high-quality television, telecommunications and broadcasting services over Indian mainland and Islands. \r\nGSAT-30 is configured on ISRO\u00e2\u20ac\u2122s enhanced I-3K platform to provide communications services from geostationary orbit in C-and Ku-band for a lifetime greater than 15 years. By operating GSAT-30, ISRO will once again foster the use of space to help bridge the digital divide in the Indian subcontinent as part of its ambitious space program. These objectives are to develop India by focusing on all types of space applications, including navigation, Earth observation, telecommunications and  broadcasts of educational programs, while pursuing science research and planetary exploration.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/ariane2520525_infographic_20240811020237.png",
+    "program": [],
+    "orbital_launch_attempt_count": 5927,
+    "location_launch_attempt_count": 298,
+    "pad_launch_attempt_count": 108,
+    "agency_launch_attempt_count": 283,
+    "orbital_launch_attempt_count_year": 5,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

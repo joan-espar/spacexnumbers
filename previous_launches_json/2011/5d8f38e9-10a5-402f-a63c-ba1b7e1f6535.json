@@ -1,0 +1,99 @@
+{
+    "id": "5d8f38e9-10a5-402f-a63c-ba1b7e1f6535",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5d8f38e9-10a5-402f-a63c-ba1b7e1f6535/",
+    "slug": "rokotbriz-km-geo-ik-2-no11l-kosmos-2470",
+    "name": "Rokot/Briz-KM | Geo-IK-2 No.11L (Kosmos 2470)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2024-06-15T13:57:15Z",
+    "net": "2011-02-01T14:00:14Z",
+    "window_end": "2011-02-01T14:00:14Z",
+    "window_start": "2011-02-01T14:00:14Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1510,
+        "configuration": {
+            "id": 40,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/40/",
+            "name": "Rokot/Briz-KM",
+            "family": "Rokot",
+            "full_name": "Rokot/Briz-KM",
+            "variant": "Briz-KM"
+        }
+    },
+    "mission": {
+        "id": 896,
+        "name": "Geo-IK-2 No.11L (Kosmos 2470)",
+        "description": "Geo-IK-2 is a Russian geodesy mission to deliver precise three-dimensional maps of the Earth\u00e2\u20ac\u2122s surface and gravitational data for use in scientific studies and military applications. This satellite was supposed to be the first one of the two-spacecraft system, however it was not delivered to an operational orbit due to upper stage underperformance.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 3,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/3/",
+        "agency_id": 163,
+        "name": "133/3 (133L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.886999,40.846984",
+        "latitude": "62.886999",
+        "longitude": "40.846984",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_3_20200803143438.jpg",
+        "total_launch_count": 159,
+        "orbital_launch_attempt_count": 159
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rokot25202f2520briz-km_image_20190224012237.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5111,
+    "location_launch_attempt_count": 1577,
+    "pad_launch_attempt_count": 143,
+    "agency_launch_attempt_count": 80,
+    "orbital_launch_attempt_count_year": 5,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

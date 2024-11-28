@@ -1,0 +1,155 @@
+{
+    "id": "85d0721d-0b26-4a1f-91be-a9e48e719f9f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/85d0721d-0b26-4a1f-91be-a9e48e719f9f/",
+    "slug": "soyuz-u2-soyuz-tm-11",
+    "name": "Soyuz-U2 | Soyuz TM-11",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:55:32Z",
+    "net": "1990-12-02T08:13:32Z",
+    "window_end": "1990-12-02T08:13:32Z",
+    "window_start": "1990-12-02T08:13:32Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 340,
+        "configuration": {
+            "id": 101,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/101/",
+            "name": "Soyuz-U",
+            "family": "",
+            "full_name": "Soyuz-U2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 790,
+        "name": "Soyuz TM-11",
+        "description": "Soyuz TM-11 was the 11th mission and the eighth long-duration expedition to Mir space station. The mission began on December 2, 1990, 08:13:32 UTC, launching Commander Viktor Afanasyev, Flight Engineer Musa Manarov and Research Cosmonaut Toyohiro Akiyama, the first space tourist, into orbit. They docked with Mir two days later. During their stay there, cosmonauts performed EVAs, various station repair and maintenance tasks, and carried out scientific experiments in biology, geophysics, space technology, astronomy etc. They were visited by several Progress resupply spacecrafts, and welcomed aboard the ninth long-duration expedition crew, which arrived in Soyuz TM-12 vehicle.\nToyohiro Akiyama returned on December 10, 1990, in Soyuz TM-10 spacecraft, while the mission itself concluded with a safe landing back on Earth on May 26, 1991, 10:04:13 UTC.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-u_image_20191229074852.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/16/",
+            "name": "Mir",
+            "description": "Mir was a space station that operated in low Earth orbit from 1986 to 2001, operated by the Soviet Union and later by Russia. Mir was the first modular space station and was assembled in orbit from 1986 to 1996.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mir_program_20200821092345.jpeg",
+            "start_date": "1986-02-20T21:28:23Z",
+            "end_date": "2001-03-23T05:59:00Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Mir",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3588,
+    "location_launch_attempt_count": 947,
+    "pad_launch_attempt_count": 296,
+    "agency_launch_attempt_count": 2386,
+    "orbital_launch_attempt_count_year": 112,
+    "location_launch_attempt_count_year": 24,
+    "pad_launch_attempt_count_year": 11,
+    "agency_launch_attempt_count_year": 70,
+    "type": "normal"
+}

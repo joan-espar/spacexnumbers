@@ -1,0 +1,94 @@
+{
+    "id": "33bf26a0-818e-4519-a47a-4fe79a07e84e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/33bf26a0-818e-4519-a47a-4fe79a07e84e/",
+    "slug": "atlas-v-421-sbirs-geo-6",
+    "name": "Atlas V 421 | SBIRS GEO-6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:33:58Z",
+    "net": "2022-08-04T10:29:00Z",
+    "window_end": "2022-08-04T11:09:00Z",
+    "window_start": "2022-08-04T10:29:00Z",
+    "net_precision": null,
+    "probability": 80,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2229,
+        "configuration": {
+            "id": 28,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/28/",
+            "name": "Atlas V 421",
+            "family": "Atlas",
+            "full_name": "Atlas V 421",
+            "variant": "421"
+        }
+    },
+    "mission": {
+        "id": 6088,
+        "name": "SBIRS GEO-6",
+        "description": "Sixth geosynchronous satellite of the Space Based Infrared System program (SBIRS), providing capabilities for early missile warning and missile defense. SBIRS GEO-6 is the second satellite using Lockheed Martin's LM2100 combat bus.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v252_image_20220804055901.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6277,
+    "location_launch_attempt_count": 852,
+    "pad_launch_attempt_count": 107,
+    "agency_launch_attempt_count": 153,
+    "orbital_launch_attempt_count_year": 95,
+    "location_launch_attempt_count_year": 22,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

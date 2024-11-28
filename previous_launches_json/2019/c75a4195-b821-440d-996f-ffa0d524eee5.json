@@ -1,0 +1,94 @@
+{
+    "id": "c75a4195-b821-440d-996f-ffa0d524eee5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c75a4195-b821-440d-996f-ffa0d524eee5/",
+    "slug": "ariane-5-eca-tiba-1-inmarsat-5-f5-global-xpress-5",
+    "name": "Ariane 5 ECA | TIBA-1 & Inmarsat-5 F5 (Global Xpress-5)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:03Z",
+    "net": "2019-11-26T21:23:00Z",
+    "window_end": "2019-11-26T22:54:00Z",
+    "window_start": "2019-11-26T21:09:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#VA250",
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 116,
+        "configuration": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/20/",
+            "name": "Ariane 5 ECA",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA",
+            "variant": "ECA"
+        }
+    },
+    "mission": {
+        "id": 1059,
+        "name": "TIBA-1 & Inmarsat-5 F5 (Global Xpress-5)",
+        "description": "TIBA-1 is a geostationary communications satellite for the Government of Egypt developed jointly by Thales Alenia Space (TAS) and Airbus. TAS, the leading partner, designed and built the communications payload, featuring a dual mission in Ka-band for secure and broadband communications. Airbus Defence and Space supplied the Eurostar E3000 platform and assembled and tested the spacecraft. Designed to remain in service in orbit for more than 15 years, TIBA-1 will have a launch mass of 5600 kg and an electric power capability of higher than 9 kW.\r\n\r\nInmarsat-5 F5 (Global Xpress-5 or GX-5) is Inmarsat's very high throughput satellite (V-HTS), which will offer services covering the Middle East, Europe and the Indian sub-continent. The payload will be fully integrated into Inmarsat\u00e2\u20ac\u2122s current Global Express high-speed network. Inmarsat-5 F5 satellite is based on Thales Alenia Space\u00e2\u20ac\u2122s upgraded Spacebus 4000 B2 platform and will be fitted with 72 Ka-band beams. With a specified design life of 16 years, it will weigh 4007 kg at launch and will offer payload power of about 6.8 kW.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/ariane2520525_infographic_20200806035858.png",
+    "program": [],
+    "orbital_launch_attempt_count": 5905,
+    "location_launch_attempt_count": 296,
+    "pad_launch_attempt_count": 107,
+    "agency_launch_attempt_count": 281,
+    "orbital_launch_attempt_count_year": 85,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

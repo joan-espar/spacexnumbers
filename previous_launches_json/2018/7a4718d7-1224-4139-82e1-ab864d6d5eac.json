@@ -1,0 +1,125 @@
+{
+    "id": "7a4718d7-1224-4139-82e1-ab864d6d5eac",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7a4718d7-1224-4139-82e1-ab864d6d5eac/",
+    "slug": "rokot-briz-km-sentinel-3b",
+    "name": "Rokot / Briz-KM | Sentinel-3B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:31:50Z",
+    "net": "2018-04-25T17:57:52Z",
+    "window_end": "2018-04-25T17:57:52Z",
+    "window_start": "2018-04-25T17:57:52Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/117/",
+        "name": "Eurockot Launch Services",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2097,
+        "configuration": {
+            "id": 40,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/40/",
+            "name": "Rokot/Briz-KM",
+            "family": "Rokot",
+            "full_name": "Rokot/Briz-KM",
+            "variant": "Briz-KM"
+        }
+    },
+    "mission": {
+        "id": 476,
+        "name": "Sentinel-3B",
+        "description": "Sentinel-3B is the second in a constellation of earth observation satellites developed by ESA to provide near real time data for the Global Monitoring for Environment and Security Program. Sentinel-3B contains a temperature scanner, colour instrument and altimeter for monitoring the sea and land. The satellite focuses on providing accurate data about the oceans and in addition also provides information about wildfires and vegetation.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 3,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/3/",
+        "agency_id": 163,
+        "name": "133/3 (133L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.886999,40.846984",
+        "latitude": "62.886999",
+        "longitude": "40.846984",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_3_20200803143438.jpg",
+        "total_launch_count": 159,
+        "orbital_launch_attempt_count": 159
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rokot25202f2520briz-km_image_20190224012237.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/22/",
+            "name": "Copernicus",
+            "description": "Copernicus is the European Union's Earth observation programme coordinated and managed for the European Commission by the European Union Agency for the Space Programme in partnership with the European Space Agency (ESA), the EU Member States. It aims at achieving a global, continuous, autonomous, high quality, wide range Earth observation capacity. Providing accurate, timely and easily accessible information to, among other things, improve the management of the environment, understand and mitigate the effects of climate change, and ensure civil security.",
+            "agencies": [
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                },
+                {
+                    "id": 1043,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1043/",
+                    "name": "European Union Agency for the Space Programme",
+                    "type": "Multinational"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/copernicus_program_20221129162831.png",
+            "start_date": "2014-04-03T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.copernicus.eu",
+            "wiki_url": "https://en.wikipedia.org/wiki/Copernicus_Programme",
+            "mission_patches": [],
+            "type": {
+                "id": 8,
+                "name": "Earth Observation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5745,
+    "location_launch_attempt_count": 1622,
+    "pad_launch_attempt_count": 156,
+    "agency_launch_attempt_count": 14,
+    "orbital_launch_attempt_count_year": 39,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "90ce11d2-8718-4ee8-99be-9c001c91d365",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/90ce11d2-8718-4ee8-99be-9c001c91d365/",
+    "slug": "titan-iiic-ov2-1",
+    "name": "Titan IIIC | OV2-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:41:59Z",
+    "net": "1965-10-15T17:23:59Z",
+    "window_end": "1965-10-15T17:23:59Z",
+    "window_start": "1965-10-15T17:23:59Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3445,
+        "configuration": {
+            "id": 439,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/439/",
+            "name": "Titan IIIC",
+            "family": "Titan",
+            "full_name": "Titan IIIC",
+            "variant": "IIIC"
+        }
+    },
+    "mission": {
+        "id": 1865,
+        "name": "OV2-1",
+        "description": "The OV2 (Orbiting Vehicle 2) series satellites were originally built for project ARENTS (Advanced Research Environmental Test Satellite), which was intended to obtain supporting data for the Vela program. After the cancellation of the ARENTS program, the already built hardware was reused for OV2, a low-cost series of experimental satellites, which were to be launched for free on Titan-3C test flights to very different orbits.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 485,
+    "location_launch_attempt_count": 153,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 289,
+    "orbital_launch_attempt_count_year": 92,
+    "location_launch_attempt_count_year": 27,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 58,
+    "type": "normal"
+}

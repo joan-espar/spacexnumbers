@@ -1,0 +1,94 @@
+{
+    "id": "9959bda6-fa27-4ed5-8bea-d2f55f7a5b68",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9959bda6-fa27-4ed5-8bea-d2f55f7a5b68/",
+    "slug": "saturn-ib-apollo-soyuz-test-project",
+    "name": "Saturn IB | Apollo-Soyuz Test Project",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:44:40Z",
+    "net": "1975-07-15T19:50:00Z",
+    "window_end": "1975-07-15T19:50:00Z",
+    "window_start": "1975-07-15T19:50:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 252,
+        "configuration": {
+            "id": 163,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/163/",
+            "name": "Saturn IB",
+            "family": "Saturn",
+            "full_name": "Saturn IB",
+            "variant": "IB"
+        }
+    },
+    "mission": {
+        "id": 914,
+        "name": "Apollo-Soyuz Test Project",
+        "description": "The Apollo-Soyuz Test Project was the first joint US-Soviet space flight and the last crewed US space mission until the Space Shuttle program.\nThe US side of mission began on July 15, 1975, 19:50:00 UTC, launching Commander Thomas P. Stafford, Command Module Pilot Vance D. Brand and Docking Module Pilot Donald K. Slayton into orbit. Two days later, they docked with the Soyuz 19 spacecraft. American and Soviet crews visited each other's spacecrafts, performed docking and redocking maneuvers, conducted joint scientific experiments, exchanged flags and gifts. Crews spent more than 44 hours together, and after final parting of the ships on July 19, Apollo crew spent nine more days in orbit, conducting Earth observation experiments.\nThe Apollo crew returned to Earth on July 24, 1975, 21:18:0 UTC with a splashdown in the Pacific Ocean.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 4,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/4/",
+        "agency_id": 44,
+        "name": "Launch Complex 39B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39B",
+        "map_url": "https://www.google.com/maps?q=28.62711233,-80.62101503",
+        "latitude": "28.62711233",
+        "longitude": "-80.62101503",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
+        "total_launch_count": 58,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/saturn2520ib_image_20190222030046.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1721,
+    "location_launch_attempt_count": 17,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 129,
+    "orbital_launch_attempt_count_year": 70,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

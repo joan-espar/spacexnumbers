@@ -1,0 +1,94 @@
+{
+    "id": "d737f18a-f778-44f7-8dc1-ec0943b743e1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d737f18a-f778-44f7-8dc1-ec0943b743e1/",
+    "slug": "soyuz-u-pvb-globalstar-33505558",
+    "name": "Soyuz-U-PVB | Globalstar 33,50,55,58",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:48:34Z",
+    "net": "1999-09-22T14:33:00Z",
+    "window_end": "1999-09-22T14:33:00Z",
+    "window_start": "1999-09-22T14:33:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6940,
+        "configuration": {
+            "id": 378,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/378/",
+            "name": "Soyuz-U-PVB",
+            "family": "Soyuz",
+            "full_name": "Soyuz-U-PVB",
+            "variant": "U-PVB"
+        }
+    },
+    "mission": {
+        "id": 5330,
+        "name": "Globalstar 33,50,55,58",
+        "description": "The Globalstar global mobile communications network offers global, digital real time voice, data and fax via a constellation of 48 minisatellites. The constellation operates in a 1410 km orbit inclined at 52 degrees, and will also have 8 spares. The satellites were built by Space Systems Loral and Alenia Aerospazio in Rome, Italy.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4340,
+    "location_launch_attempt_count": 1135,
+    "pad_launch_attempt_count": 358,
+    "agency_launch_attempt_count": 92,
+    "orbital_launch_attempt_count_year": 51,
+    "location_launch_attempt_count_year": 16,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "03f31be8-7d86-45a5-ba5b-bdeef2dac608",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/03f31be8-7d86-45a5-ba5b-bdeef2dac608/",
+    "slug": "thor-delta-telstar-1",
+    "name": "Thor Delta | Telstar 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:57Z",
+    "net": "1962-07-10T08:35:05Z",
+    "window_end": "1962-07-10T08:35:05Z",
+    "window_start": "1962-07-10T08:35:05Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3136,
+        "configuration": {
+            "id": 398,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/398/",
+            "name": "Thor Delta",
+            "family": "Thor",
+            "full_name": "Thor Delta",
+            "variant": "Delta"
+        }
+    },
+    "mission": {
+        "id": 1558,
+        "name": "Telstar 1",
+        "description": "Communications satellite",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 178,
+    "location_launch_attempt_count": 84,
+    "pad_launch_attempt_count": 11,
+    "agency_launch_attempt_count": 96,
+    "orbital_launch_attempt_count_year": 36,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 25,
+    "type": "normal"
+}

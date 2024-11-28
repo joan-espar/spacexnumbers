@@ -1,0 +1,99 @@
+{
+    "id": "bc39f59e-46ed-43c2-93e4-96f1a69838ad",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bc39f59e-46ed-43c2-93e4-96f1a69838ad/",
+    "slug": "long-march-2c-yaogan-30-07",
+    "name": "Long March 2C | Yaogan-30-07",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:21:13Z",
+    "net": "2020-10-26T15:19:05Z",
+    "window_end": "2020-10-26T15:28:00Z",
+    "window_start": "2020-10-26T15:08:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2800,
+        "configuration": {
+            "id": 61,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/61/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 1202,
+        "name": "Yaogan-30-07",
+        "description": "The Yaogan 30-01-01 to 30-01-03 (Remote Sensing Satellite-30-01-01 to 30-01-03) satellites, were launched by CZ-2C rocket from China's Xichang space center on 29 September 2017. The purpose is not confirmed, although the news reports hint towards a SIGINT mission, especially to detect ships by their radio emissions. They are also known as CX 5 by the manufacturer.\r\n\r\nThe satellites are spaced by 120\u00c2\u00b0 in their orbit.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6006,
+    "location_launch_attempt_count": 148,
+    "pad_launch_attempt_count": 59,
+    "agency_launch_attempt_count": 297,
+    "orbital_launch_attempt_count_year": 84,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 27,
+    "type": "normal"
+}

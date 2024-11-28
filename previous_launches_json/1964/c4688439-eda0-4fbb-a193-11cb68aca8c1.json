@@ -1,0 +1,94 @@
+{
+    "id": "c4688439-eda0-4fbb-a193-11cb68aca8c1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c4688439-eda0-4fbb-a193-11cb68aca8c1/",
+    "slug": "titan-iiia-transtage-1",
+    "name": "Titan IIIA | Transtage 1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:39:58Z",
+    "net": "1964-09-01T15:00:06Z",
+    "window_end": "1964-09-01T15:00:06Z",
+    "window_start": "1964-09-01T15:00:06Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3313,
+        "configuration": {
+            "id": 437,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/437/",
+            "name": "Titan IIIA",
+            "family": "Titan",
+            "full_name": "Titan IIIA",
+            "variant": "IIIA"
+        }
+    },
+    "mission": {
+        "id": 1735,
+        "name": "Transtage 1",
+        "description": "Test flights of the cryogenic Transtage stage.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 120,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/120/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 20",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_20",
+        "map_url": "https://www.google.com/maps?q=28.5122222,-80.5588607",
+        "latitude": "28.5122222",
+        "longitude": "-80.5588607",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_120_20200803143230.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 4
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 356,
+    "location_launch_attempt_count": 118,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 210,
+    "orbital_launch_attempt_count_year": 63,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 35,
+    "type": "normal"
+}

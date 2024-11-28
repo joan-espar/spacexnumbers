@@ -1,0 +1,85 @@
+{
+    "id": "379c8a3e-44e8-4f00-adb7-ba6710bdefbb",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/379c8a3e-44e8-4f00-adb7-ba6710bdefbb/",
+    "slug": "long-march-4c-feng-yun-3b",
+    "name": "Long March 4C | Feng Yun-3B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:06:02Z",
+    "net": "2010-11-04T18:37:12Z",
+    "window_end": "2010-11-04T18:37:12Z",
+    "window_start": "2010-11-04T18:37:12Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1494,
+        "configuration": {
+            "id": 64,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/64/",
+            "name": "Long March 4C",
+            "family": "Long March",
+            "full_name": "Long March 4C",
+            "variant": "C"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 33,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/33/",
+        "agency_id": null,
+        "name": "Launch Complex 7",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8489311,111.6079339",
+        "latitude": "38.8489311",
+        "longitude": "111.6079339",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_33_20200803143335.jpg",
+        "total_launch_count": 32,
+        "orbital_launch_attempt_count": 32
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5093,
+    "location_launch_attempt_count": 35,
+    "pad_launch_attempt_count": 28,
+    "agency_launch_attempt_count": 80,
+    "orbital_launch_attempt_count_year": 5093,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 13,
+    "type": "normal"
+}

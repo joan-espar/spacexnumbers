@@ -1,0 +1,94 @@
+{
+    "id": "abf8dac7-d3f3-45f4-8904-2f798d5047c6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/abf8dac7-d3f3-45f4-8904-2f798d5047c6/",
+    "slug": "start-1-earlybird",
+    "name": "Start-1 | EarlyBird",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:23:09Z",
+    "net": "1997-12-24T13:32:52Z",
+    "window_end": "1997-12-24T13:32:52Z",
+    "window_start": "1997-12-24T13:32:52Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 270,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/270/",
+        "name": "Strategic Rocket Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6830,
+        "configuration": {
+            "id": 381,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/381/",
+            "name": "Start-1",
+            "family": "Start",
+            "full_name": "Start-1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 5220,
+        "name": "EarlyBird",
+        "description": "EarlyBird 1, a remote sensing satellite built by CTA Space Systems (now part of Orbital Sciences Corporation (OSC)) for EarthWatch, Inc., was to provide high resolution commercial imagery. EarthWatch planed to offer black-and-white images with a resolution as high as 3 meters per pixel, and color images with a resolution of 15 meters per pixel. The imaging sensor was derived from NASA's cancelled Clark satellite.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 128,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/128/",
+        "agency_id": 163,
+        "name": "5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Svobodny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.7,127.997806",
+        "latitude": "51.7",
+        "longitude": "127.997806",
+        "location": {
+            "id": 146,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/146/",
+            "name": "Svobodny Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Svobodny was a Russian rocket launch site located approximately 15 km north of Svobodny, Amur Oblast. The cosmodrome was originally constructed as a launch site for intercontinental ballistic missiles called Svobodny-18. It was initially selected as a replacement for Baikonur Cosmodrome in the Kazakh Soviet Socialist Republic, which became independent as Kazakhstan after the dissolution of the Soviet Union. However the development of Svobodny was subsequently ended in 2007 in favour of a totally new space port, the Vostochny Cosmodrome.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_146_20200803142450.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 5,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_128_20200803143250.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4206,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 7,
+    "orbital_launch_attempt_count_year": 88,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

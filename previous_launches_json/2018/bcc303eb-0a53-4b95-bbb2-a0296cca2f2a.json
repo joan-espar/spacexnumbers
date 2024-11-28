@@ -1,0 +1,94 @@
+{
+    "id": "bcc303eb-0a53-4b95-bbb2-a0296cca2f2a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bcc303eb-0a53-4b95-bbb2-a0296cca2f2a/",
+    "slug": "ss-520-5-tricom-1r",
+    "name": "SS-520-5 | TRICOM-1R",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:15Z",
+    "net": "2018-02-03T05:03:00Z",
+    "window_end": "2018-02-03T05:13:00Z",
+    "window_start": "2018-02-03T05:03:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2075,
+        "configuration": {
+            "id": 144,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/144/",
+            "name": "SS-520",
+            "family": "S-Series",
+            "full_name": "SS-520-5",
+            "variant": "5"
+        }
+    },
+    "mission": {
+        "id": 479,
+        "name": "TRICOM-1R",
+        "description": "TRICOM-1 is an experimental 3U cubsat build by University of Tokyo. It is equipped with 5 small cameras for Earth imaging purposes, and is also tasked with storing and transmitting data between ground terminals.\nTRICOM-1R is a replacement for the failed SS-520-4 launch of TRICOM-1.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 43,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/43/",
+        "agency_id": null,
+        "name": "KS Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2519752,131.0791609",
+        "latitude": "31.2519752",
+        "longitude": "131.0791609",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_43_20200803143309.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5722,
+    "location_launch_attempt_count": 40,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 31,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

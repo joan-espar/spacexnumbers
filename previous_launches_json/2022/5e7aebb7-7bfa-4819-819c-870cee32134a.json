@@ -1,0 +1,99 @@
+{
+    "id": "5e7aebb7-7bfa-4819-819c-870cee32134a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5e7aebb7-7bfa-4819-819c-870cee32134a/",
+    "slug": "long-march-11-centispace-1-s5-s6",
+    "name": "Long March 11 | CentiSpace-1 S5 & S6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:32:17Z",
+    "net": "2022-10-07T13:10:29Z",
+    "window_end": "2022-10-07T13:39:00Z",
+    "window_start": "2022-10-07T13:10:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7649,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 6151,
+        "name": "CentiSpace-1 S5 & S6",
+        "description": "CentiSpace-1 S5 and S6 are Chinese commercial small satellites by Beijing-based company Future Navigation for providing GNSS augmentation signals services from LEO. They are precursors to a planned 160 satellites constellation.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 89,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/89/",
+        "agency_id": 88,
+        "name": "DeFu-15002 mobile launch platform",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=36.631333,121.198361",
+        "latitude": "36.631333",
+        "longitude": "121.198361",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_89_20200803143242.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6312,
+    "location_launch_attempt_count": 43,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 388,
+    "orbital_launch_attempt_count_year": 130,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 36,
+    "type": "normal"
+}

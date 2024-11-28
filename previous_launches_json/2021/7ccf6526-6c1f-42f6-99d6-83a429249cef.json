@@ -1,0 +1,99 @@
+{
+    "id": "7ccf6526-6c1f-42f6-99d6-83a429249cef",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7ccf6526-6c1f-42f6-99d6-83a429249cef/",
+    "slug": "ceres-1-golden-bauhinia-1-03-others",
+    "name": "Ceres-1 | Golden Bauhinia 1-03 & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:31:45Z",
+    "net": "2021-12-07T04:12:30Z",
+    "window_end": "2021-12-07T04:12:30Z",
+    "window_start": "2021-12-07T04:12:30Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1021,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2714,
+        "configuration": {
+            "id": 461,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/461/",
+            "name": "Ceres-1",
+            "family": "Ceres-1",
+            "full_name": "Ceres-1",
+            "variant": "Ceres-1"
+        }
+    },
+    "mission": {
+        "id": 5902,
+        "name": "Golden Bauhinia 1-03 & others",
+        "description": "This mission carried five commercial small satellites into orbit. These include: a remote sensing satellite Tianjin University-1, two remote sensing satellites for Golden Bauhinia 1 (also known as Jinzijing 1) constellation; and experimental satellites Lize-1 and Baoyun.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1_image_20230722081939.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6162,
+    "location_launch_attempt_count": 154,
+    "pad_launch_attempt_count": 27,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 125,
+    "location_launch_attempt_count_year": 19,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

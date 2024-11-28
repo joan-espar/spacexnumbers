@@ -1,0 +1,94 @@
+{
+    "id": "0a408547-a635-4cac-a422-61764a552964",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0a408547-a635-4cac-a422-61764a552964/",
+    "slug": "atlas-d-ov1-7",
+    "name": "Atlas D | OV1-7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:29:31Z",
+    "net": "1966-07-14T02:10:02Z",
+    "window_end": "1966-07-14T02:10:02Z",
+    "window_start": "1966-07-14T02:10:02Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3549,
+        "configuration": {
+            "id": 237,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/237/",
+            "name": "Atlas D",
+            "family": "Atlas",
+            "full_name": "SM-65D Atlas",
+            "variant": "D"
+        }
+    },
+    "mission": {
+        "id": 1969,
+        "name": "OV1-7",
+        "description": "The OV1 (Orbiting Vehicle 1) were small research satellite to be launched piggy back on Atlas ICBM test flights. They consisted in general of the OV1 satellite and the OV1-PM propulsion module (or upper stage) to reach orbit.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 170,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/170/",
+        "agency_id": null,
+        "name": "576B3",
+        "description": "Site 3 was active from 12 September 1960 to 21 January 1965, then was used for the space program from 27 May 1965 to 11 October 1967",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/List_of_Vandenberg_Air_Force_Base_launch_facilities",
+        "map_url": "https://www.google.com/maps?q=34.7897222,-120.5980273",
+        "latitude": "34.7897222",
+        "longitude": "-120.5980273",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_170_20200803143421.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 587,
+    "location_launch_attempt_count": 224,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 337,
+    "orbital_launch_attempt_count_year": 70,
+    "location_launch_attempt_count_year": 25,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 38,
+    "type": "normal"
+}

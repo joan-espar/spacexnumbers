@@ -1,0 +1,80 @@
+{
+    "id": "2e6be816-fd8a-44e3-8ace-b78658db9ba2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2e6be816-fd8a-44e3-8ace-b78658db9ba2/",
+    "slug": "proton-mblok-dm-03-uragan-m-no48-49-50",
+    "name": "Proton-M/Blok DM-03 | Uragan-M No.48, 49 & 50",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:32:40Z",
+    "net": "2013-07-02T02:38:22Z",
+    "window_end": "2013-07-02T02:38:22Z",
+    "window_start": "2013-07-02T02:38:22Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1688,
+        "configuration": {
+            "id": 46,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/46/",
+            "name": "Proton-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Blok DM-03",
+            "variant": "M Blok DM-03"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m_image_20191211081456.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5304,
+    "location_launch_attempt_count": 1413,
+    "pad_launch_attempt_count": 72,
+    "agency_launch_attempt_count": 162,
+    "orbital_launch_attempt_count_year": 5304,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "950b7606-4c59-4c67-8524-6ffc4a3539c1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/950b7606-4c59-4c67-8524-6ffc4a3539c1/",
+    "slug": "delta-7425-95-mars-climate-orbiter",
+    "name": "Delta 7425-9.5 | Mars Climate Orbiter",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:15Z",
+    "net": "1998-12-11T18:45:52Z",
+    "window_end": "1998-12-11T18:45:52Z",
+    "window_start": "1998-12-11T18:45:52Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6892,
+        "configuration": {
+            "id": 304,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/304/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7425-9.5",
+            "variant": "7425-9.5"
+        }
+    },
+    "mission": {
+        "id": 5282,
+        "name": "Mars Climate Orbiter",
+        "description": "The Mars Surveyor '98 program is comprised of two spacecraft launched separately, the MCO (Mars Climate Orbiter, formerly the Mars Surveyor '98 Orbiter) and the MPL (Mars Polar Lander, formerly the Mars Surveyor '98 Lander). The two missions were to study the Martian weather, climate, and water and carbon dioxide budget, in order to understand the reservoirs, behavior, and atmospheric role of volatiles and to search for evidence of long-term and episodic climate changes. The Mars Climate Orbiter was destroyed when a navigation error caused it to miss its target altitude at Mars by 80 to 90 km, instead entering the Martian atmosphere at an altitude of 57 km during the orbit insertion maneuver.",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4285,
+    "location_launch_attempt_count": 556,
+    "pad_launch_attempt_count": 120,
+    "agency_launch_attempt_count": 1003,
+    "orbital_launch_attempt_count_year": 78,
+    "location_launch_attempt_count_year": 17,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 16,
+    "type": "normal"
+}

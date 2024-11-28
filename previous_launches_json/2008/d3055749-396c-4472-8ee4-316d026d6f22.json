@@ -1,0 +1,94 @@
+{
+    "id": "d3055749-396c-4472-8ee4-316d026d6f22",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d3055749-396c-4472-8ee4-316d026d6f22/",
+    "slug": "atlas-v-421-ico-g1",
+    "name": "Atlas V 421 | ICO G1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:39Z",
+    "net": "2008-04-14T20:12:00Z",
+    "window_end": "2008-04-14T20:12:00Z",
+    "window_start": "2008-04-14T20:12:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1393,
+        "configuration": {
+            "id": 28,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/28/",
+            "name": "Atlas V 421",
+            "family": "Atlas",
+            "full_name": "Atlas V 421",
+            "variant": "421"
+        }
+    },
+    "mission": {
+        "id": 314,
+        "name": "ICO G1",
+        "description": "A satellite built by SSL bosed on the Loral 1300 platform. Its purpose, to support a wide range of mobile voice, video and data services. It covers the Continental US, Alaska, Hawaii, Puerto Rico and US Virgin Islands.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_421_image_20210519053741.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4901,
+    "location_launch_attempt_count": 656,
+    "pad_launch_attempt_count": 40,
+    "agency_launch_attempt_count": 18,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

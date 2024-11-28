@@ -1,0 +1,80 @@
+{
+    "id": "5a6d62fa-e03b-4728-9dd7-c5bcf6e20f54",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5a6d62fa-e03b-4728-9dd7-c5bcf6e20f54/",
+    "slug": "pegasus-array-of-low-energy-x-ray-imaging-sensors",
+    "name": "Pegasus | Array of Low Energy X-ray Imaging Sensors (ALEXIS)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T17:01:18Z",
+    "net": "1993-04-25T13:56:00Z",
+    "window_end": "1993-04-25T13:56:00Z",
+    "window_start": "1993-04-25T13:56:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 364,
+        "configuration": {
+            "id": 119,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/119/",
+            "name": "Pegasus",
+            "family": "Pegasus",
+            "full_name": "Pegasus",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 70,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/70/",
+        "agency_id": 100,
+        "name": "Edwards Air Force Base",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Edwards_Air_Force_Base",
+        "map_url": "https://www.google.com/maps?q=34.905556,-117.883611",
+        "latitude": "34.905556",
+        "longitude": "-117.883611",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_70_20200803143352.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_image_20190830213841.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3811,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 3811,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

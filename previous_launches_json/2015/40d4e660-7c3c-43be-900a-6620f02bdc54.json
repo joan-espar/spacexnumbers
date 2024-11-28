@@ -1,0 +1,94 @@
+{
+    "id": "40d4e660-7c3c-43be-900a-6620f02bdc54",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/40d4e660-7c3c-43be-900a-6620f02bdc54/",
+    "slug": "long-march-3be-laosat-1",
+    "name": "Long March 3B/E | LaoSat-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:56:37Z",
+    "net": "2015-11-20T16:07:04Z",
+    "window_end": "2015-11-20T16:44:00Z",
+    "window_start": "2015-11-20T15:53:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1884,
+        "configuration": {
+            "id": 50,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/50/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B/E",
+            "variant": "B/E"
+        }
+    },
+    "mission": {
+        "id": 78,
+        "name": "LaoSat-1",
+        "description": "The DFH-4 based satellite is a communications satellite with a service life of 15 years. LaoSat-1 contains 14 C-band transponders, 8 Ku-band transponders powered by two solar arrays and will be stationed at 128.5\u00c2\u00b0 East.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5513,
+    "location_launch_attempt_count": 91,
+    "pad_launch_attempt_count": 30,
+    "agency_launch_attempt_count": 164,
+    "orbital_launch_attempt_count_year": 71,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 15,
+    "type": "normal"
+}

@@ -1,0 +1,119 @@
+{
+    "id": "5aff8c15-abef-45a5-bab0-567e829cd97d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5aff8c15-abef-45a5-bab0-567e829cd97d/",
+    "slug": "saturn-i-saturn-sa-1",
+    "name": "Saturn I | Saturn SA-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:45Z",
+    "net": "1961-10-27T15:06:04Z",
+    "window_end": "1961-10-27T15:06:04Z",
+    "window_start": "1961-10-27T15:06:04Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7418,
+        "configuration": {
+            "id": 355,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/355/",
+            "name": "Saturn I",
+            "family": "Saturn",
+            "full_name": "Saturn I",
+            "variant": "I"
+        }
+    },
+    "mission": {
+        "id": 5807,
+        "name": "Saturn SA-1",
+        "description": "First test flight of the Saturn I launch vehicle and first mission of the Apollo program.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 19,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/19/",
+        "agency_id": null,
+        "name": "Launch Complex 34",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_34",
+        "map_url": "https://www.google.com/maps?q=28.521811,-80.56113",
+        "latitude": "28.521811",
+        "longitude": "-80.56113",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_19_20200803143428.jpg",
+        "total_launch_count": 9,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/saturn_1_on_lc-_image_20240411095856.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/4/",
+            "name": "Apollo",
+            "description": "The Apollo program was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which succeeded in landing the first humans on the Moon from 1969 to 1972.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/apollo_program_20200820200202.png",
+            "start_date": "1966-11-16T00:00:00Z",
+            "end_date": "1972-12-19T19:24:59Z",
+            "info_url": "https://www.nasa.gov/mission_pages/apollo/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Apollo_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 68,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 34,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 18,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 15,
+    "type": "normal"
+}

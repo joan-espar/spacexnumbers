@@ -1,0 +1,94 @@
+{
+    "id": "9c84d2c4-9f45-47ab-a71a-d7825d0d5ef3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9c84d2c4-9f45-47ab-a71a-d7825d0d5ef3/",
+    "slug": "delta-3910-solar-maximum-mission",
+    "name": "Delta 3910 | Solar Maximum Mission",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:11Z",
+    "net": "1980-02-14T15:57:00Z",
+    "window_end": "1980-02-14T15:57:00Z",
+    "window_start": "1980-02-14T15:57:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5150,
+        "configuration": {
+            "id": 288,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/288/",
+            "name": "Delta 3910",
+            "family": "Delta",
+            "full_name": "Delta 3910",
+            "variant": "3910"
+        }
+    },
+    "mission": {
+        "id": 3561,
+        "name": "Solar Maximum Mission",
+        "description": "Solarmax (also known as Solar Maximum Mission or SMM) was a solar observation satellite. Its primary mission was the study of solar flares.",
+        "launch_designator": null,
+        "type": "Heliophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_3910_image_20231231105538.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2297,
+    "location_launch_attempt_count": 365,
+    "pad_launch_attempt_count": 69,
+    "agency_launch_attempt_count": 753,
+    "orbital_launch_attempt_count_year": 14,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

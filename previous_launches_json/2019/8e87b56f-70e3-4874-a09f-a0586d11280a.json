@@ -1,0 +1,94 @@
+{
+    "id": "8e87b56f-70e3-4874-a09f-a0586d11280a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8e87b56f-70e3-4874-a09f-a0586d11280a/",
+    "slug": "os-m1-lingque-1b",
+    "name": "OS-M1 | Lingque-1B",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-07-08T08:40:22Z",
+    "net": "2019-03-27T09:39:00Z",
+    "window_end": "2019-03-27T10:42:00Z",
+    "window_start": "2019-03-27T09:31:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Rocket lost attitude control after first stage separation.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 263,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/263/",
+        "name": "OneSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2193,
+        "configuration": {
+            "id": 177,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/177/",
+            "name": "OS-M1",
+            "family": "",
+            "full_name": "OS-M1",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 971,
+        "name": "Lingque-1B",
+        "description": "This is the first flight of the OS-M1 rocket. It carries a remote sensing satellite developed by a ZeroG Lab.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5838,
+    "location_launch_attempt_count": 115,
+    "pad_launch_attempt_count": 10,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 18,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

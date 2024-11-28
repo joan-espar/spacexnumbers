@@ -1,0 +1,94 @@
+{
+    "id": "5fa1d9e1-e034-41aa-8a3e-427bb9df770a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5fa1d9e1-e034-41aa-8a3e-427bb9df770a/",
+    "slug": "proton-kd-2-mars-96",
+    "name": "Proton-K/D-2 | Mars-96",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:35:02Z",
+    "net": "1996-11-16T20:48:53Z",
+    "window_end": "1996-11-16T20:48:53Z",
+    "window_start": "1996-11-16T20:48:53Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6756,
+        "configuration": {
+            "id": 348,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/348/",
+            "name": "Proton-K/D-2",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-K/D-2",
+            "variant": "D-2"
+        }
+    },
+    "mission": {
+        "id": 5146,
+        "name": "Mars-96",
+        "description": "The Mars 96 spacecraft was launched into Earth orbit, but failed to achieve insertion into Mars cruise trajectory and re-entered the Earth's atmosphere at about 00:45 to 01:30 UT on 17 November 1996 and crashed within a presumed 320 km by 80 km area which includes parts of the Pacific Ocean, Chile, and Bolivia. The cause of the crash is not known.",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 15,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/15/",
+        "agency_id": null,
+        "name": "200/39 (200L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.039984,63.032093",
+        "latitude": "46.039984",
+        "longitude": "63.032093",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_15_20200803143530.jpg",
+        "total_launch_count": 167,
+        "orbital_launch_attempt_count": 167
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4109,
+    "location_launch_attempt_count": 1082,
+    "pad_launch_attempt_count": 77,
+    "agency_launch_attempt_count": 42,
+    "orbital_launch_attempt_count_year": 68,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "cda59ebe-13ad-4c0f-adac-3755320d456c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/cda59ebe-13ad-4c0f-adac-3755320d456c/",
+    "slug": "long-march-6-jilin-1-04-jilin-1-05-jilin-1-06",
+    "name": "Long March 6 | Jilin-1-04, Jilin-1-05 & Jilin-1-06",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T16:54:56Z",
+    "net": "2017-11-21T04:50:13Z",
+    "window_end": "2017-11-21T04:50:13Z",
+    "window_start": "2017-11-21T04:50:13Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2047,
+        "configuration": {
+            "id": 54,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/54/",
+            "name": "Long March 6",
+            "family": "Long March",
+            "full_name": "Long March 6",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 485,
+        "name": "Jilin-1-04, Jilin-1-05 & Jilin-1-06",
+        "description": "Jilin-1 is a series of Chinese commercial remote sensing satellites.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 113,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/113/",
+        "agency_id": null,
+        "name": "Launch Complex 16",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.868222,111.58024",
+        "latitude": "38.868222",
+        "longitude": "111.58024",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_113_20200803143556.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5693,
+    "location_launch_attempt_count": 66,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 202,
+    "orbital_launch_attempt_count_year": 78,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

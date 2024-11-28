@@ -1,0 +1,94 @@
+{
+    "id": "d3234425-8b9c-4761-b62c-de9468ee4ff1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d3234425-8b9c-4761-b62c-de9468ee4ff1/",
+    "slug": "diamant-bp4-castor-pollux",
+    "name": "Diamant BP4 | Castor & Pollux",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:27Z",
+    "net": "1975-05-17T10:32:00Z",
+    "window_end": "1975-05-17T10:32:00Z",
+    "window_start": "1975-05-17T10:32:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 46,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/46/",
+        "name": "National Center of Space Research",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4580,
+        "configuration": {
+            "id": 313,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/313/",
+            "name": "Diamant BP4",
+            "family": "Diamant",
+            "full_name": "Diamant BP4",
+            "variant": "BP4"
+        }
+    },
+    "mission": {
+        "id": 2998,
+        "name": "Castor & Pollux",
+        "description": "Dual French scientific satellites",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 125,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/125/",
+        "agency_id": 115,
+        "name": "Diamant Launch Area",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=5.2222222,-52.7758051",
+        "latitude": "5.2222222",
+        "longitude": "-52.7758051",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_125_20200803143236.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1693,
+    "location_launch_attempt_count": 8,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 13,
+    "orbital_launch_attempt_count_year": 42,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

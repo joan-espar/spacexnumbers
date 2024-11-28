@@ -1,0 +1,129 @@
+{
+    "id": "a00842a0-ba6d-486e-a296-429e9943ac44",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a00842a0-ba6d-486e-a296-429e9943ac44/",
+    "slug": "kslv-2-tlv-test-flight",
+    "name": "KSLV-2-TLV | Test Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:47:02Z",
+    "net": "2018-11-28T07:00:00Z",
+    "window_end": "2018-11-28T07:00:00Z",
+    "window_start": "2018-11-28T07:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/41/",
+        "name": "Korea Aerospace Research Institute",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8198,
+        "configuration": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/147/",
+            "name": "KSLV 2 TLV",
+            "family": "KSLV",
+            "full_name": "KSLV 2 TLV",
+            "variant": "TLV"
+        }
+    },
+    "mission": {
+        "id": 6769,
+        "name": "Test Flight",
+        "description": "Suborbital test flight, reaching a maximum altitude of 209 km and a 151-second burn time",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [
+            {
+                "id": 41,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/41/",
+                "name": "Korea Aerospace Research Institute",
+                "featured": false,
+                "type": "Government",
+                "country_code": "KOR",
+                "abbrev": "KARI",
+                "description": "The Korea Aerospace Research Institute (KARI) established in 1989, is the aeronautics and space agency of Republic of Korea. Its main laboratories are located in Daejeon, in the Daedeok Science Town.",
+                "administrator": "Administrator: Lee Sang-Ryool",
+                "founding_year": "1989",
+                "launchers": "Nuri",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 7,
+                "consecutive_successful_launches": 2,
+                "successful_launches": 4,
+                "failed_launches": 3,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.kari.kr/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Korea_Aerospace_Research_Institute",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/korea2520aerospace2520research2520institute_logo_20200806032236.png",
+                "image_url": null,
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/korea2520aerospace2520research2520institute_nation_20230604194037.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 192,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/192/",
+        "agency_id": 41,
+        "name": "LC-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Naro_Space_Center",
+        "map_url": "https://www.google.com/maps?q=34.431867,127.535069",
+        "latitude": "34.431867",
+        "longitude": "127.535069",
+        "location": {
+            "id": 9,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/9/",
+            "name": "Naro Space Center, South Korea",
+            "country_code": "KOR",
+            "description": "The Naro Space Center is a South Korean spaceport in South Jeolla's Goheung County, operated by the state-run Korea Aerospace Research Institute.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_9_20200803142441.jpg",
+            "timezone_name": "Asia/Seoul",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "KOR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_lc-2_20210812070305.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kslv-2-tlv2520_image_20240217134241.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

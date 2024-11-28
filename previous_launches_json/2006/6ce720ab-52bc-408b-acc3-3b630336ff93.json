@@ -1,0 +1,80 @@
+{
+    "id": "6ce720ab-52bc-408b-acc3-3b630336ff93",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6ce720ab-52bc-408b-acc3-3b630336ff93/",
+    "slug": "gslv-insat-4c",
+    "name": "GSLV | INSAT-4C",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:08:54Z",
+    "net": "2006-07-10T12:08:00Z",
+    "window_end": "2006-07-10T12:08:00Z",
+    "window_start": "2006-07-10T12:08:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "The primary cause for the failure was the sudden loss of thrust in one out of the four liquid propellant strap-on stages (S4) immediately after lift-off at 0.2 sec. Rocket's self destruct was engaged over the Bay of Bengal.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 524,
+        "configuration": {
+            "id": 5,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/5/",
+            "name": "GSLV",
+            "family": "GSLV",
+            "full_name": "GSLV",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/82/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre Second Launch Pad",
+        "description": "The second launch pad was built between 1999 and 2003.  It became functional in 2005 and has since been used for various rockets. This launch pad supports missions by PSLV, GSLV, LVM3 rockets and is even envisioned for India's future crewed spaceflight.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_Second_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.7199,80.2304",
+        "latitude": "13.7199",
+        "longitude": "80.2304",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_82_20200803143602.jpg",
+        "total_launch_count": 28,
+        "orbital_launch_attempt_count": 27
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv_image_20190604000621.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4781,
+    "location_launch_attempt_count": 21,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 21,
+    "orbital_launch_attempt_count_year": 4781,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

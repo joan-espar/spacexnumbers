@@ -1,0 +1,94 @@
+{
+    "id": "1eeafaec-b6c2-45c1-92c6-1b447408f755",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1eeafaec-b6c2-45c1-92c6-1b447408f755/",
+    "slug": "soyuz-21afregat-kanopus-v-ik",
+    "name": "Soyuz-2.1a/Fregat | Kanopus-V-IK",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2023-06-14T03:41:33Z",
+    "net": "2017-07-14T06:36:49Z",
+    "window_end": "2017-07-14T06:36:49Z",
+    "window_start": "2017-07-14T06:36:49Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Numerous payloads experienced technical problems after an upper stage anomaly.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2017,
+        "configuration": {
+            "id": 45,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/45/",
+            "name": "Soyuz 2.1a/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1a Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 375,
+        "name": "Kanopus-V-IK",
+        "description": "Kanopus-V-IK is a small Russian remote sensing satellite for monitoring wildfires. Weighing about 473 kg, it is intended for 5 years of operation in a 510 km sun-synchronous orbit.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5660,
+    "location_launch_attempt_count": 1478,
+    "pad_launch_attempt_count": 372,
+    "agency_launch_attempt_count": 265,
+    "orbital_launch_attempt_count_year": 45,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

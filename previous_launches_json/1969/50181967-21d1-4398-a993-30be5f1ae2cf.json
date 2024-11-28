@@ -1,0 +1,94 @@
+{
+    "id": "50181967-21d1-4398-a993-30be5f1ae2cf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/50181967-21d1-4398-a993-30be5f1ae2cf/",
+    "slug": "tsiklon-2a-us-ao-5",
+    "name": "Tsiklon-2A | US-AO 5",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:24:24Z",
+    "net": "1969-01-25T11:14:03Z",
+    "window_end": "1969-01-25T11:14:03Z",
+    "window_start": "1969-01-25T11:14:03Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3867,
+        "configuration": {
+            "id": 444,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/444/",
+            "name": "Tsiklon-2A",
+            "family": "Tsiklon",
+            "full_name": "Tsiklon-2A",
+            "variant": "2A"
+        }
+    },
+    "mission": {
+        "id": 2285,
+        "name": "US-AO 5",
+        "description": "US-A (Upravlenniye Sputnik Aktivny) were active radar satellites for ocean surveillance. The high power consumtion of the active radar required a nuclear reactor as power source. The satellites were known as RORSAT in the west. The US-AO series consisted of satellites, which tested all the system components but the nuclear reactor. They were battery powered.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 133,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/133/",
+        "agency_id": null,
+        "name": "90/19",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_90",
+        "map_url": "https://www.google.com/maps?q=46.081,62.929806",
+        "latitude": "46.081",
+        "longitude": "62.929806",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_133_20200803143315.jpg",
+        "total_launch_count": 16,
+        "orbital_launch_attempt_count": 16
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 929,
+    "location_launch_attempt_count": 252,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 379,
+    "orbital_launch_attempt_count_year": 10,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "0a962985-a7c9-4663-b5fa-0fc1328384a6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0a962985-a7c9-4663-b5fa-0fc1328384a6/",
+    "slug": "r-36o-8k69-ogch-2",
+    "name": "R-36O 8K69 | OGCh 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:26:42Z",
+    "net": "1966-02-05T12:19:49Z",
+    "window_end": "1966-02-05T12:19:49Z",
+    "window_start": "1966-02-05T12:19:49Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3486,
+        "configuration": {
+            "id": 351,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/351/",
+            "name": "R-36O 8K69",
+            "family": "R-36O",
+            "full_name": "R-36O 8K69",
+            "variant": "8K69"
+        }
+    },
+    "mission": {
+        "id": 1906,
+        "name": "OGCh 2",
+        "description": "Missile equipped with the 8F021 warhead",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 165,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/165/",
+        "agency_id": null,
+        "name": "67/21",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=45.989,63.702806",
+        "latitude": "45.989",
+        "longitude": "63.702806",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_165_20200803143444.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 132,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 167,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

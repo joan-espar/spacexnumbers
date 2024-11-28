@@ -1,0 +1,99 @@
+{
+    "id": "9a5fe2ad-1089-4b16-bf94-273b0f426741",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/9a5fe2ad-1089-4b16-bf94-273b0f426741/",
+    "slug": "ceres-1s-6-satellites",
+    "name": "Ceres-1S | 6 satellites",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-31T01:22:44Z",
+    "net": "2024-08-29T05:22:00Z",
+    "window_end": "2024-08-29T05:35:00Z",
+    "window_start": "2024-08-29T05:10:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1021,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8273,
+        "configuration": {
+            "id": 500,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/500/",
+            "name": "Ceres-1S",
+            "family": "Ceres-1",
+            "full_name": "Ceres-1S",
+            "variant": "Ceres-1S"
+        }
+    },
+    "mission": {
+        "id": 6854,
+        "name": "6 satellites",
+        "description": "Carried 6 satellites to sun synchronous orbit:\r\n\r\n* Yunyao-1 15 to 17\r\n\r\n* Jitianxing A-03\r\n\r\n* Suxing 1-01\r\n\r\n* Tianfu Gaofen 2",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 212,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/212/",
+        "agency_id": 88,
+        "name": "Haiyang Spaceport",
+        "description": "Sea-based spaceport",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": null,
+        "latitude": "36.676794",
+        "longitude": "121.235103",
+        "location": {
+            "id": 3,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_haiyang_spaceport_20230827174240.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6746,
+    "location_launch_attempt_count": 52,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 15,
+    "orbital_launch_attempt_count_year": 157,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "3622669f-6e06-467a-86f3-47b56b1114c1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3622669f-6e06-467a-86f3-47b56b1114c1/",
+    "slug": "falcon-9-full-thrust-amos-6-failure-before-launch",
+    "name": "Falcon 9 Full Thrust | Amos 6 (Failure before launch)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:41:47Z",
+    "net": "2016-09-03T07:00:00Z",
+    "window_end": "2016-09-03T09:00:00Z",
+    "window_start": "2016-09-03T07:00:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Rocket and payload lost during anomaly originating around the upper stage oxygen tank during propellant load few minutes before static fire on Sept 1, 1307UTC.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1950,
+        "configuration": {
+            "id": 55,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/55/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Full Thrust",
+            "variant": "Full Thrust"
+        }
+    },
+    "mission": {
+        "id": 112,
+        "name": "Amos 6 (Failure before launch)",
+        "description": "**FAILURE: Rocket and payload lost during anomaly originating around the upper stage oxygen tank during propellant load few minutes before static fire on Sept 1, 1307UTC.**\n\n Built to replace the existing AMOS-2 satellite, AMOS-6 will be positioned in a geostationary orbit at 4 degrees west. The 5500kg craft will contain 43 Ku/Ka-band transponders and 2 S-band transponders to provide communications coverage for Africa, Europe and the Middle East. The 2 solar arrays on the craft will provide 9kW of power for the satellite\u00e2\u20ac\u2122s 16 year expected lifetime.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5584,
+    "location_launch_attempt_count": 750,
+    "pad_launch_attempt_count": 82,
+    "agency_launch_attempt_count": 34,
+    "orbital_launch_attempt_count_year": 55,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

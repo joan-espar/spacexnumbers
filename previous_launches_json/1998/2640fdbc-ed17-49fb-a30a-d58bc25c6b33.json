@@ -1,0 +1,94 @@
+{
+    "id": "2640fdbc-ed17-49fb-a30a-d58bc25c6b33",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2640fdbc-ed17-49fb-a30a-d58bc25c6b33/",
+    "slug": "zenit-2-11k7705-globalstar-5-7-9-to-13-16-to-18-20",
+    "name": "Zenit-2 11K77.05 | Globalstar 5, 7, 9 to 13, 16 to 18, 20, 21",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:31:00Z",
+    "net": "1998-09-09T20:29:00Z",
+    "window_end": "1998-09-09T20:29:00Z",
+    "window_start": "1998-09-09T20:29:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6877,
+        "configuration": {
+            "id": 456,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/456/",
+            "name": "Zenit-2 11K77.05",
+            "family": "Zenith",
+            "full_name": "Zenit-2 11K77.05",
+            "variant": "2 11K77.05"
+        }
+    },
+    "mission": {
+        "id": 5267,
+        "name": "Globalstar 5, 7, 9 to 13, 16 to 18, 20, 21",
+        "description": "The Globalstar global mobile communications network offers global, digital real time voice, data and fax via a constellation of 48 minisatellites. The constellation operates in a 1410 km orbit inclined at 52 degrees, and will also have 8 spares. The satellites were built by Space Systems Loral and Alenia Aerospazio in Rome, Italy.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 2,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/2/",
+        "agency_id": null,
+        "name": "45/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.943492,63.653014",
+        "latitude": "45.943492",
+        "longitude": "63.653014",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_2_20200803143256.jpg",
+        "total_launch_count": 46,
+        "orbital_launch_attempt_count": 46
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4263,
+    "location_launch_attempt_count": 1115,
+    "pad_launch_attempt_count": 29,
+    "agency_launch_attempt_count": 83,
+    "orbital_launch_attempt_count_year": 56,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

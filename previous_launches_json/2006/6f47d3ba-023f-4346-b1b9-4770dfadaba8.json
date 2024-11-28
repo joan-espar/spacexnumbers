@@ -1,0 +1,94 @@
+{
+    "id": "6f47d3ba-023f-4346-b1b9-4770dfadaba8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6f47d3ba-023f-4346-b1b9-4770dfadaba8/",
+    "slug": "delta-ii-mitex",
+    "name": "Delta II | MITEx",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:11Z",
+    "net": "2006-06-21T22:15:00Z",
+    "window_end": "2006-06-21T22:15:00Z",
+    "window_start": "2006-06-21T22:15:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7272,
+        "configuration": {
+            "id": 140,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/140/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925-9.5",
+            "variant": "7925-9.5"
+        }
+    },
+    "mission": {
+        "id": 5661,
+        "name": "MITEx",
+        "description": "MITEx (Micro-Satellite Technology Experiment) is an experimental U.S. military project to test whether the advanced technologies embedded in two miniature satellites and a new upper stage kick motor can operate through the rigors of spaceflight. MiTEx will investigate and demonstrate advanced space technologies such as lightweight power and propulsion systems, avionics and spacecraft structures; commercial-off-the-shelf processors; affordable, responsive fabrication/build-to-launch techniques; and single-string components. The MITEx experiment will be deployed into a geostationary transfer orbit (GTO), from which the MITEx Upper stage will put the experiments into a geostationary orbit (GEO).",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_ii_7925-9_image_20240312090356.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4776,
+    "location_launch_attempt_count": 641,
+    "pad_launch_attempt_count": 137,
+    "agency_launch_attempt_count": 1073,
+    "orbital_launch_attempt_count_year": 26,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

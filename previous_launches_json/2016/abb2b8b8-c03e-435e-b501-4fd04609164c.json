@@ -1,0 +1,94 @@
+{
+    "id": "abb2b8b8-c03e-435e-b501-4fd04609164c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/abb2b8b8-c03e-435e-b501-4fd04609164c/",
+    "slug": "epsilon-erg-arase",
+    "name": "Epsilon | ERG (ARASE)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T16:28:36Z",
+    "net": "2016-12-20T11:00:00Z",
+    "window_end": "2016-12-20T12:00:00Z",
+    "window_start": "2016-12-20T11:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1975,
+        "configuration": {
+            "id": 112,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/112/",
+            "name": "Epsilon",
+            "family": "Epsilon",
+            "full_name": "Epsilon",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 331,
+        "name": "ERG (Exploration of energization and Radiation in Geospace)",
+        "description": "The ERG\u00e2\u20ac\u2030 (Exploration of energization and Radiation in Geospace) project is a mission to study the Van Allen belts. The task is to elucidate how highly charged electrons are born while they generate and vanish repeatedly along with space storms caused by the disturbance of solar wind, influenced by space storms, and how space storms are developed.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/epsilon_image_20221009075145.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5612,
+    "location_launch_attempt_count": 37,
+    "pad_launch_attempt_count": 32,
+    "agency_launch_attempt_count": 28,
+    "orbital_launch_attempt_count_year": 83,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

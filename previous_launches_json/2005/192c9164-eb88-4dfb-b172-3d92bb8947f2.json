@@ -1,0 +1,94 @@
+{
+    "id": "192c9164-eb88-4dfb-b172-3d92bb8947f2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/192c9164-eb88-4dfb-b172-3d92bb8947f2/",
+    "slug": "m-v-suzaku",
+    "name": "M-V | Suzaku",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-07T13:28:07Z",
+    "net": "2005-07-10T03:30:00Z",
+    "window_end": "2005-07-10T03:30:00Z",
+    "window_start": "2005-07-10T03:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7234,
+        "configuration": {
+            "id": 334,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/334/",
+            "name": "M-V",
+            "family": "Mu",
+            "full_name": "M-V",
+            "variant": "V"
+        }
+    },
+    "mission": {
+        "id": 5623,
+        "name": "Suzaku",
+        "description": "Suzaku (formerly ASTRO-EII) was an X-ray astronomy satellite developed jointly by the Institute of Space and Aeronautical Science at JAXA and NASA's Goddard Space Flight Center to probe high energy X-ray sources, such as supernova explosions, black holes and galactic clusters. It was launched on 10 July 2005 aboard the M-V rocket on the M-V-6 mission. After its successful launch, the satellite was renamed Suzaku after the mythical Vermilion bird of the South",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4722,
+    "location_launch_attempt_count": 33,
+    "pad_launch_attempt_count": 28,
+    "agency_launch_attempt_count": 15,
+    "orbital_launch_attempt_count_year": 28,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

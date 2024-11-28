@@ -1,0 +1,124 @@
+{
+    "id": "3b633f7e-fad9-480e-9011-f38d1bb2f932",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3b633f7e-fad9-480e-9011-f38d1bb2f932/",
+    "slug": "atlas-v-401-insight-mars-cube-one-1-mars-cube-one",
+    "name": "Atlas V 401 | InSight, Mars Cube One 1 & Mars Cube One 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:41:13Z",
+    "net": "2018-05-05T11:05:01Z",
+    "window_end": "2018-05-05T11:05:01Z",
+    "window_start": "2018-05-05T11:05:01Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": 100,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#InSight",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2100,
+        "configuration": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/16/",
+            "name": "Atlas V 401",
+            "family": "Atlas",
+            "full_name": "Atlas V 401",
+            "variant": "401"
+        }
+    },
+    "mission": {
+        "id": 535,
+        "name": "InSight, Mars Cube One 1 & Mars Cube One 2",
+        "description": "InSight is a robotic Mars lander designed to study the interior and subsurface of Mars, which would in turn help scientists to understand the Earth and Solar System history. Two 6U CubeSats will piggyback with the InSight mission to help relay communications during the probe's entry, descent, and landing (EDL) phase.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 24,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/24/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 3E",
+        "description": "SLC-3E is a launch pad at Vandenberg Space Force Base. It was originally built for the MIDAS program and later used for various other missions. After a period of inactivity, it was refurbished in the early 2000s to launch Atlas V rockets. The pad is now being upgraded to accommodate the new Vulcan Centaur rocket. The last Atlas V launch from SLC-3E happened in November 2022, with the first Vulcan launch expected in 2025.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_3#SLC-3E",
+        "map_url": "https://www.google.com/maps?q=34.64,-120.5895",
+        "latitude": "34.64",
+        "longitude": "-120.5895",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_24_20200803143552.jpg",
+        "total_launch_count": 48,
+        "orbital_launch_attempt_count": 45
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_image_20201212013334.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 33,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/33/",
+            "name": "Discovery Program",
+            "description": "The Discovery Program is a series of Solar System exploration missions funded by the U.S. National Aeronautics and Space Administration (NASA) through its Planetary Missions Program Office. The cost of each mission is capped at a lower level than missions from NASA's New Frontiers or Flagship Programs. As a result, Discovery missions tend to be more focused on a specific scientific goal rather than serving a general purpose.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/discovery2520p_program_20231231122246.jpeg",
+            "start_date": "1990-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/planetarymissions/discovery-program/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Discovery_Program",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5748,
+    "location_launch_attempt_count": 678,
+    "pad_launch_attempt_count": 46,
+    "agency_launch_attempt_count": 129,
+    "orbital_launch_attempt_count_year": 42,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

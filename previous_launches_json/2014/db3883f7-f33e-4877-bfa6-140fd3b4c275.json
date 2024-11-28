@@ -1,0 +1,94 @@
+{
+    "id": "db3883f7-f33e-4877-bfa6-140fd3b4c275",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/db3883f7-f33e-4877-bfa6-140fd3b4c275/",
+    "slug": "h-iia-202-alos-2",
+    "name": "H-IIA 202 | ALOS-2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-30T08:24:53Z",
+    "net": "2014-05-24T03:05:14Z",
+    "window_end": "2014-05-24T03:05:14Z",
+    "window_start": "2014-05-24T03:05:14Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1759,
+        "configuration": {
+            "id": 32,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/32/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 202",
+            "variant": "202"
+        }
+    },
+    "mission": {
+        "id": 61,
+        "name": "ALOS-2",
+        "description": "ALOS 2 (Advanced Land Observation Satellite 2) is a planned radar Earth observation satellite to be used for cartography, regional observation, disaster monitoring, and resource surveying. It is the follow up to the radar component of ALOS (Daichi)",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_20240325123250.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5379,
+    "location_launch_attempt_count": 59,
+    "pad_launch_attempt_count": 31,
+    "agency_launch_attempt_count": 21,
+    "orbital_launch_attempt_count_year": 30,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "95dee817-97c7-4373-ae0a-ad24a3eab858",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/95dee817-97c7-4373-ae0a-ad24a3eab858/",
+    "slug": "atlas-slv-3d-centaur-intelsat-4a-5",
+    "name": "Atlas SLV-3D Centaur | Intelsat-4A 5",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:40:06Z",
+    "net": "1977-09-30T01:02:59Z",
+    "window_end": "1977-09-30T01:02:59Z",
+    "window_start": "1977-09-30T01:02:59Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4889,
+        "configuration": {
+            "id": 261,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/261/",
+            "name": "Atlas SLV-3D Centaur",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3D Centaur",
+            "variant": "SLV-3D Centaur"
+        }
+    },
+    "mission": {
+        "id": 3305,
+        "name": "Intelsat-4A 5",
+        "description": "Geostationary communications satellite developed by Hughes Aircraft Company",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/121/",
+        "agency_id": 161,
+        "name": "Launch Complex 36A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=28.4705556,-80.542194",
+        "latitude": "28.4705556",
+        "longitude": "-80.542194",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_121_20200803143231.jpg",
+        "total_launch_count": 68,
+        "orbital_launch_attempt_count": 68
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2017,
+    "location_launch_attempt_count": 332,
+    "pad_launch_attempt_count": 21,
+    "agency_launch_attempt_count": 698,
+    "orbital_launch_attempt_count_year": 102,
+    "location_launch_attempt_count_year": 15,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 18,
+    "type": "normal"
+}

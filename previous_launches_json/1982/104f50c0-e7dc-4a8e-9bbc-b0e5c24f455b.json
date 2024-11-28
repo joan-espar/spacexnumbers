@@ -1,0 +1,94 @@
+{
+    "id": "104f50c0-e7dc-4a8e-9bbc-b0e5c24f455b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/104f50c0-e7dc-4a8e-9bbc-b0e5c24f455b/",
+    "slug": "k65m-rb-bor-4-404",
+    "name": "K65M-RB | BOR-4 404",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:24:40Z",
+    "net": "1982-06-03T21:30:00Z",
+    "window_end": "1982-06-03T21:30:00Z",
+    "window_start": "1982-06-03T21:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5407,
+        "configuration": {
+            "id": 325,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/325/",
+            "name": "K65M-RB",
+            "family": "",
+            "full_name": "K65M-RB",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 3814,
+        "name": "BOR-4 404",
+        "description": "Test flight of a test article for the Spiral lifting body spacecraft",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 137,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/137/",
+        "agency_id": null,
+        "name": "107/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kapustin_Yar",
+        "map_url": "https://www.google.com/maps?q=48.540716,46.296826",
+        "latitude": "48.540716",
+        "longitude": "46.296826",
+        "location": {
+            "id": 30,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/30/",
+            "name": "Kapustin Yar, Russian Federation",
+            "country_code": "RUS",
+            "description": "Kapustin Yar is a Russian military training area and a rocket launch complex in Astrakhan Oblast, about 100 km east of Volgograd. It was established by the Soviet Union on 13 May 1946. In the beginning, Kapustin Yar used technology, material, and scientific support gained from the defeat of Germany in World War II. Numerous launches of test rockets for the Russian military were carried out at the site, as well as satellite and sounding rocket launches.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_30_20200803142515.jpg",
+            "timezone_name": "Europe/Volgograd",
+            "total_launch_count": 101,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_137_20200803143332.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 20
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2573,
+    "location_launch_attempt_count": 89,
+    "pad_launch_attempt_count": 11,
+    "agency_launch_attempt_count": 1599,
+    "orbital_launch_attempt_count_year": 56,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 48,
+    "type": "normal"
+}

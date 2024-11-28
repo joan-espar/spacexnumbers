@@ -1,0 +1,80 @@
+{
+    "id": "6d79207c-31ae-41d8-8133-8a1f825ebded",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6d79207c-31ae-41d8-8133-8a1f825ebded/",
+    "slug": "pegasus-hybrid-satelite-de-coleta-de-dados-2-scd-2",
+    "name": "Pegasus Hybrid | Sat\u00e9lite de Coleta de Dados-2 (SCD-2)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:09:28Z",
+    "net": "1998-10-23T00:02:00Z",
+    "window_end": "1998-10-23T00:02:00Z",
+    "window_start": "1998-10-23T00:02:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 437,
+        "configuration": {
+            "id": 129,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/129/",
+            "name": "Pegasus Hybrid",
+            "family": "Pegasus",
+            "full_name": "Pegasus Hybrid",
+            "variant": "Hybrid"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 84,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/84/",
+        "agency_id": null,
+        "name": "Cape Canaveral",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral",
+        "map_url": "https://www.google.com/maps?q=28.455556,-80.527778",
+        "latitude": "28.455556",
+        "longitude": "-80.527778",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_84_20200803143436.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_image_20190830213841.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4272,
+    "location_launch_attempt_count": 23,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 27,
+    "orbital_launch_attempt_count_year": 4272,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

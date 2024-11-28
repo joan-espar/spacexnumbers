@@ -1,0 +1,94 @@
+{
+    "id": "1bbd65cc-7c3d-495b-b5ae-b8a5827460ea",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1bbd65cc-7c3d-495b-b5ae-b8a5827460ea/",
+    "slug": "juno-ii-nasa-s-46",
+    "name": "Juno II | NASA S-46",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:40:22Z",
+    "net": "1960-03-23T13:35:11Z",
+    "window_end": "1960-03-23T13:35:11Z",
+    "window_start": "1960-03-23T13:35:11Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3061,
+        "configuration": {
+            "id": 188,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/188/",
+            "name": "Juno II",
+            "family": "",
+            "full_name": "Juno II",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1483,
+        "name": "NASA S-46",
+        "description": "Explorer 5 was a United States satellite with a mass of 15.7 kg. It was the last of the original series of Explorers built, designed, and operated by the Jet Propulsion Laboratory.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 97,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/97/",
+        "agency_id": 161,
+        "name": "Launch Complex 26B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_26",
+        "map_url": "https://www.google.com/maps?q=28.4433,-80.5712",
+        "latitude": "28.4433",
+        "longitude": "-80.5712",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_97_20200803143224.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/juno2520ii_image_20191201204701.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 59,
+    "location_launch_attempt_count": 33,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 12,
+    "orbital_launch_attempt_count_year": 5,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

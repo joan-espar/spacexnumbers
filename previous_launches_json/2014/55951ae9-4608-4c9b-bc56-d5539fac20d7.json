@@ -1,0 +1,94 @@
+{
+    "id": "55951ae9-4608-4c9b-bc56-d5539fac20d7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/55951ae9-4608-4c9b-bc56-d5539fac20d7/",
+    "slug": "soyuz-stbfregat-o3b-fm3-fm6-fm8",
+    "name": "Soyuz STB/Fregat | O3b FM3, FM6-FM8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:08:30Z",
+    "net": "2014-07-10T18:55:56Z",
+    "window_end": "2014-07-10T18:55:56Z",
+    "window_start": "2014-07-10T18:55:56Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1769,
+        "configuration": {
+            "id": 171,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/171/",
+            "name": "Soyuz STB",
+            "family": "Soyuz",
+            "full_name": "Soyuz STB Fregat",
+            "variant": "STB/Fregat"
+        }
+    },
+    "mission": {
+        "id": 299,
+        "name": "O3b FM3, FM6-FM8",
+        "description": "The O3b Satellite Constellation is designed for telecommunications and data backhaul from remote locations.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 81,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/81/",
+        "agency_id": 115,
+        "name": "Soyuz Launch Complex",
+        "description": "The Ensemble de Lancement Soyouz (ELS)  is a launch complex at the Guiana Space Centre in Kourou/Sinnamary, French Guiana. It was used by Soyuz-ST rockets: modified versions of the Soyuz-2 optimised for launch from Kourou under Soyuz at the Guiana Space Centre programme.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Ensemble_de_Lancement_Soyouz",
+        "map_url": "https://www.google.com/maps?q=5.3019,-52.8346",
+        "latitude": "5.3019",
+        "longitude": "-52.8346",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_81_20200803143601.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_stb_image_20211130181029.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5389,
+    "location_launch_attempt_count": 237,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 222,
+    "orbital_launch_attempt_count_year": 40,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

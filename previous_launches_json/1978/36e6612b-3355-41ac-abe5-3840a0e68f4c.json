@@ -1,0 +1,119 @@
+{
+    "id": "36e6612b-3355-41ac-abe5-3840a0e68f4c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/36e6612b-3355-41ac-abe5-3840a0e68f4c/",
+    "slug": "atlas-fsvs-navstar-1",
+    "name": "Atlas F/SVS | Navstar 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-01-02T15:22:35Z",
+    "net": "1978-02-22T23:44:00Z",
+    "window_end": "1978-02-22T23:44:00Z",
+    "window_start": "1978-02-22T23:44:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4933,
+        "configuration": {
+            "id": 249,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/249/",
+            "name": "Atlas F/SVS",
+            "family": "Atlas",
+            "full_name": "Atlas F/SVS",
+            "variant": "F/SVS"
+        }
+    },
+    "mission": {
+        "id": 3349,
+        "name": "Navstar 1",
+        "description": "First generation GPS satellite",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 24,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/24/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 3E",
+        "description": "SLC-3E is a launch pad at Vandenberg Space Force Base. It was originally built for the MIDAS program and later used for various other missions. After a period of inactivity, it was refurbished in the early 2000s to launch Atlas V rockets. The pad is now being upgraded to accommodate the new Vulcan Centaur rocket. The last Atlas V launch from SLC-3E happened in November 2022, with the first Vulcan launch expected in 2025.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_3#SLC-3E",
+        "map_url": "https://www.google.com/maps?q=34.64,-120.5895",
+        "latitude": "34.64",
+        "longitude": "-120.5895",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_24_20200803143552.jpg",
+        "total_launch_count": 48,
+        "orbital_launch_attempt_count": 45
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [
+        {
+            "id": 29,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/29/",
+            "name": "Global Positioning System",
+            "description": "The Global Positioning System (GPS), originally Navstar GPS, is a satellite-based radio navigation system owned by the United States government and operated by the United States Space Force. It is one of the global navigation satellite systems (GNSS) that provide geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites.",
+            "agencies": [
+                {
+                    "id": 1041,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/",
+                    "name": "United States Space Force",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/global2520posi_program_20231229182501.png",
+            "start_date": "1978-02-22T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.gps.gov/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 2065,
+    "location_launch_attempt_count": 456,
+    "pad_launch_attempt_count": 17,
+    "agency_launch_attempt_count": 708,
+    "orbital_launch_attempt_count_year": 20,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

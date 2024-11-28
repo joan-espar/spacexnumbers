@@ -1,0 +1,129 @@
+{
+    "id": "1c322288-e79c-4975-a76a-c2e83908903e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1c322288-e79c-4975-a76a-c2e83908903e/",
+    "slug": "firefly-alpha-flta004-fly-the-lightning",
+    "name": "Firefly Alpha | FLTA004 Fly the Lightning",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2024-03-05T17:48:06Z",
+    "net": "2023-12-22T17:32:30Z",
+    "window_end": "2023-12-22T17:48:00Z",
+    "window_start": "2023-12-22T17:18:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": 60,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Stage 2 2nd burn suffered problems and did not deliver the payload to its precise target orbit. Communication to the spacecraft has been established and mission operations are now underway.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 265,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/265/",
+        "name": "Firefly Aerospace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8106,
+        "configuration": {
+            "id": 179,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/179/",
+            "name": "Firefly Alpha",
+            "family": "",
+            "full_name": "Firefly Alpha",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6664,
+        "name": "FLTA004 Fly the Lightning",
+        "description": "Firefly\u2019s Alpha rocket will launch Lockheed Martin\u2019s new wideband Electronically Steerable Antenna (ESA) technology integrated on a Terran Orbital Nebula satellite bus. Developed within Lockheed Martin Space\u2019s Ignite organization using a proprietary design, the ESA payload will demonstrate faster on-orbit sensor calibration to deliver rapid capabilities to U.S. warfighters.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 82,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+                "name": "Lockheed Martin",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "LMT",
+                "description": "Lockheed Martin's Space Division started in the production of missiles and later ICBM's in the 1950s. Their TITAN missile system was used for 12 Gemini spacecraft and the Voyager probes.  They have worked largely in collaboration with NASA on many of their probes, landers, and spacecraft, and hope to play a key role in NASA's return to the moon in 2024.",
+                "administrator": null,
+                "founding_year": "1953",
+                "launchers": "Titan | Agena",
+                "spacecraft": "Hubble | JUNO | InSight",
+                "launch_library_url": null,
+                "total_launch_count": 80,
+                "consecutive_successful_launches": 38,
+                "successful_launches": 77,
+                "failed_launches": 3,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.lockheedmartin.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Lockheed_Martin",
+                "logo_url": null,
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 39,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/39/",
+        "agency_id": null,
+        "name": "Space Launch Complex 2W",
+        "description": "SLC-2W was originally used for Delta, Thor-Agena and Delta II launches. After the last Delta II flight in 2018, SLC-2W was repurposed to launch Firefly Alpha rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7556,-120.6224",
+        "latitude": "34.7556",
+        "longitude": "-120.6224",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_39_20200803143542.jpg",
+        "total_launch_count": 97,
+        "orbital_launch_attempt_count": 97
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520alp_image_20231220135356.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6579,
+    "location_launch_attempt_count": 738,
+    "pad_launch_attempt_count": 96,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 211,
+    "location_launch_attempt_count_year": 29,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,129 @@
+{
+    "id": "95a9c95c-1a30-4b34-8b11-16e765a26eb6",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/95a9c95c-1a30-4b34-8b11-16e765a26eb6/",
+    "slug": "soyuz-21a-kosmos-2579-bars-m-no-6",
+    "name": "Soyuz 2.1a | Kosmos 2579 (Bars-M No. 6)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-31T20:29:04Z",
+    "net": "2024-10-31T07:51:31Z",
+    "window_end": "2024-10-31T09:00:00Z",
+    "window_start": "2024-10-31T07:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8395,
+        "configuration": {
+            "id": 24,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/24/",
+            "name": "Soyuz 2.1a",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1a",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6980,
+        "name": "Kosmos 2579 (Bars-M No. 6)",
+        "description": "Note: Payload identity uncertain. \r\n\r\nBars-M is the second incarnation of the Bars project, which was started in the mid 1990ies to develop a successor for the Komtea class of area surveillance satellites. The original Bars project was halted in the early 2000s. In 2007, TsSKB-Progress was contracted for Bars-M, for which reportedly the Yantar-based service module was replaced by a new developed advanced service module.\r\n\r\nThe Bars-M satellites feature an electro-optical camera system called Karat, which is developed and built by the Leningrad Optical Mechanical Association (LOMO), and a dual laser altimeter instrument to deliver topographic imagery, stereo images, altimeter data and high-resolution images with a ground resolution around 1 meter.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [
+            {
+                "id": 175,
+                "url": "https://lldev.thespacedevs.com/2.2.0/agencies/175/",
+                "name": "Ministry of Defence of the Russian Federation",
+                "featured": false,
+                "type": "Government",
+                "country_code": "RUS",
+                "abbrev": "MOD_RUS",
+                "description": "The Ministry of Defence of the Russian Federation is the governing body of the Russian Armed Forces.",
+                "administrator": "Minister: Gen. Sergey Shoygu",
+                "founding_year": "1717",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.mil.ru",
+                "wiki_url": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Russia)",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ministry2520of2520defence2520of2520the2520russian2520federation_logo_20210905134213.png",
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 85,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/85/",
+        "agency_id": 163,
+        "name": "43/4 (43R)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.92883,40.457098",
+        "latitude": "62.92883",
+        "longitude": "40.457098",
+        "location": {
+            "id": 6,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_85_20200803143554.jpg",
+        "total_launch_count": 321,
+        "orbital_launch_attempt_count": 321
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6790,
+    "location_launch_attempt_count": 1670,
+    "pad_launch_attempt_count": 321,
+    "agency_launch_attempt_count": 140,
+    "orbital_launch_attempt_count_year": 201,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

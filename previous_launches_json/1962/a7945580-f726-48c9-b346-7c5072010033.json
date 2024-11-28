@@ -1,0 +1,94 @@
+{
+    "id": "a7945580-f726-48c9-b346-7c5072010033",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a7945580-f726-48c9-b346-7c5072010033/",
+    "slug": "thor-dm-21-ablestar-anna-1b",
+    "name": "Thor DM-21 Ablestar | ANNA 1B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:16Z",
+    "net": "1962-10-31T08:08:00Z",
+    "window_end": "1962-10-31T08:08:00Z",
+    "window_start": "1962-10-31T08:08:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3167,
+        "configuration": {
+            "id": 187,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/187/",
+            "name": "Thor DM-21 Ablestar",
+            "family": "Thor",
+            "full_name": "Thor DM-21 Ablestar",
+            "variant": "DM-21"
+        }
+    },
+    "mission": {
+        "id": 1589,
+        "name": "ANNA 1B",
+        "description": "ANNA 1B (Army, Navy, NASA, Air Force) was the second dedicated satellite for geodesy. It featured Xenon flashing lights and radio transponders (SECOR) for tracking the satellite.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/thor2520dm-212520ablestar_image_20191201205131.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 211,
+    "location_launch_attempt_count": 92,
+    "pad_launch_attempt_count": 19,
+    "agency_launch_attempt_count": 117,
+    "orbital_launch_attempt_count_year": 69,
+    "location_launch_attempt_count_year": 20,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 46,
+    "type": "normal"
+}

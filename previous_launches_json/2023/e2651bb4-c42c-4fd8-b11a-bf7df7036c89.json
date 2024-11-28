@@ -1,0 +1,99 @@
+{
+    "id": "e2651bb4-c42c-4fd8-b11a-bf7df7036c89",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e2651bb4-c42c-4fd8-b11a-bf7df7036c89/",
+    "slug": "electron-baby-come-back-rideshare",
+    "name": "Electron | Baby Come Back (Rideshare)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-01T16:28:33Z",
+    "net": "2023-07-18T01:27:00Z",
+    "window_end": "2023-07-18T01:30:00Z",
+    "window_start": "2023-07-17T23:30:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7883,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6390,
+        "name": "Baby Come Back (Rideshare)",
+        "description": "The \"Baby Come Back\" mission includes NASA's Starling project, which consists of four CubeSats designed to test technologies for future swarm missions. Telesat contributes the LEO 3 demonstration satellite, ensuring continuity for customers and ecosystem vendor testing. Additionally, two 3U satellites carrying GNSS-RO payloads from SpinGlobal will replenish their constellation of over 100 multipurpose satellites.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 185,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/185/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+            "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+            "country_code": "NZL",
+            "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of M\u0101hia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+            "timezone_name": "Pacific/Auckland",
+            "total_launch_count": 51,
+            "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_185_20200803143540.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron25202_image_20230719091624.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6474,
+    "location_launch_attempt_count": 36,
+    "pad_launch_attempt_count": 10,
+    "agency_launch_attempt_count": 39,
+    "orbital_launch_attempt_count_year": 106,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

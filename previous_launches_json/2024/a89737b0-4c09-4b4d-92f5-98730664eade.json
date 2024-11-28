@@ -1,0 +1,129 @@
+{
+    "id": "a89737b0-4c09-4b4d-92f5-98730664eade",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a89737b0-4c09-4b4d-92f5-98730664eade/",
+    "slug": "h3-22-advanced-land-observing-satellite-4-alos-4",
+    "name": "H3-22 | Advanced Land Observing Satellite-4 (ALOS-4)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-07-04T06:33:21Z",
+    "net": "2024-07-01T03:06:42Z",
+    "window_end": "2024-07-01T03:19:34Z",
+    "window_start": "2024-07-01T03:06:42Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2699,
+        "configuration": {
+            "id": 486,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/486/",
+            "name": "H3-22",
+            "family": "H3",
+            "full_name": "H3-22",
+            "variant": "22"
+        }
+    },
+    "mission": {
+        "id": 6162,
+        "name": "Advanced Land Observing Satellite-4 (ALOS-4)",
+        "description": "The Advanced Land Observing Satellite-4 (ALOS-4) is a Japanese satellite designed to observe the Earth's surface using a phased array type L-band synthetic aperture radar (PALSAR-3).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [
+            {
+                "id": 37,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+                "name": "Japan Aerospace Exploration Agency",
+                "featured": true,
+                "type": "Government",
+                "country_code": "JPN",
+                "abbrev": "JAXA",
+                "description": "The Japan Aerospace Exploration Agency (JAXA) is Japan's national aero-space agency. Through the merger of three previously independent organizations, JAXA was formed on 1 October 2003. JAXA is responsible for research, technology development and the launch of satellites into orbit, and is involved in many more advanced missions, such as asteroid exploration and possible manned exploration of the Moon. JAXA launch their Epsilon vehicle from the Uchinoura Space Center and their H-II vehicles from the Tanegashima Space Center.",
+                "administrator": "Administrator: Hiroshi Yamakawa",
+                "founding_year": "2003",
+                "launchers": "H-II",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 36,
+                "consecutive_successful_launches": 1,
+                "successful_launches": 32,
+                "failed_launches": 4,
+                "pending_launches": 3,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.jaxa.jp/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Japan_Aerospace_Exploration_Agency",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_logo_20190207032440.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_image_20190207032440.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/japan2520aerospace2520exploration2520agency_nation_20230531052930.png"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 209,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/209/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400938,130.97564",
+        "latitude": "30.400938",
+        "longitude": "130.97564",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yoshinobu_launch_complex_lp-2_20230707124715.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 13
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_image_20230307130808.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6715,
+    "location_launch_attempt_count": 91,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 51,
+    "orbital_launch_attempt_count_year": 126,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

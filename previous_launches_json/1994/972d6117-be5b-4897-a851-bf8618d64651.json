@@ -1,0 +1,94 @@
+{
+    "id": "972d6117-be5b-4897-a851-bf8618d64651",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/972d6117-be5b-4897-a851-bf8618d64651/",
+    "slug": "long-march-2d-fanhui-shi-weixing-16",
+    "name": "Long March 2D | Fanhui Shi Weixing (16)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:03Z",
+    "net": "1994-07-03T08:00:00Z",
+    "window_end": "1994-07-03T08:00:00Z",
+    "window_start": "1994-07-03T08:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 189,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/189/",
+        "name": "China Aerospace Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6594,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 4984,
+        "name": "Fanhui Shi Weixing (16)",
+        "description": "The FSW-2 (Fanhui Shi Weixing) or JB-1B series was the second series of chinese recoverable satellites. These satellites feature cameras for Earth observation.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 143,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/143/",
+        "agency_id": null,
+        "name": "Launch Area 2B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=41.306143,100.313229",
+        "latitude": "41.306143",
+        "longitude": "100.313229",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_143_20200803143313.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3908,
+    "location_launch_attempt_count": 27,
+    "pad_launch_attempt_count": 25,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 40,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

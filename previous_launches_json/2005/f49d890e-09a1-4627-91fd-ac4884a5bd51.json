@@ -1,0 +1,94 @@
+{
+    "id": "f49d890e-09a1-4627-91fd-ac4884a5bd51",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f49d890e-09a1-4627-91fd-ac4884a5bd51/",
+    "slug": "volna-cosmos-1",
+    "name": "Volna | Cosmos-1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:25:23Z",
+    "net": "2005-06-21T19:46:09Z",
+    "window_end": "2005-06-21T19:46:09Z",
+    "window_start": "2005-06-21T19:46:09Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1013,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1013/",
+        "name": "Makeyev Rocket Design Bureau",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7230,
+        "configuration": {
+            "id": 450,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/450/",
+            "name": "Volna",
+            "family": "",
+            "full_name": "Volna",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 5619,
+        "name": "Cosmos-1",
+        "description": "Cosmos 1 was a project by Cosmos Studios and The Planetary Society to test a solar sail in space. As part of the project, an unmanned solar-sail spacecraft named Cosmos 1 was launched into space at 15:46:09 EDT (19:46:09 UTC) on June 21, 2005 from the submarine Borisoglebsk in the Barents Sea. However, a rocket failure prevented the spacecraft from reaching its intended orbit.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 148,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/148/",
+        "agency_id": null,
+        "name": "Borisoglebsk (K-496)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Russian_submarine_Borisoglebsk_(K-496)",
+        "map_url": "https://www.google.com/maps?q=74.0000,38.0000",
+        "latitude": "74.0",
+        "longitude": "38.0",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_148_20200803143426.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4718,
+    "location_launch_attempt_count": 18,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

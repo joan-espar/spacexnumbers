@@ -1,0 +1,94 @@
+{
+    "id": "5511ccf5-0353-49c0-9a73-0d83134aa542",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5511ccf5-0353-49c0-9a73-0d83134aa542/",
+    "slug": "n-i-kiku-1",
+    "name": "N-I | Kiku-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-07T13:05:40Z",
+    "net": "1975-09-09T05:30:00Z",
+    "window_end": "1975-09-09T05:30:00Z",
+    "window_start": "1975-09-09T05:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 228,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/228/",
+        "name": "National Space Development Agency of Japan",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4620,
+        "configuration": {
+            "id": 459,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/459/",
+            "name": "N-I",
+            "family": "",
+            "full_name": "N-I",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 3038,
+        "name": "Kiku-1",
+        "description": "Japanese experimental satellite",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 10,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/10/",
+        "agency_id": 37,
+        "name": "Osaki Launch Complex",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Tanegashima_Space_Center",
+        "map_url": "https://www.google.com/maps?q=30.3993934,130.9702486",
+        "latitude": "30.3993934",
+        "longitude": "130.9702486",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_10_20200803143519.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1737,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 86,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

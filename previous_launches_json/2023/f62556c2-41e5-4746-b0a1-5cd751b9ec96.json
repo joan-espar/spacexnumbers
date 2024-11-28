@@ -1,0 +1,99 @@
+{
+    "id": "f62556c2-41e5-4746-b0a1-5cd751b9ec96",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f62556c2-41e5-4746-b0a1-5cd751b9ec96/",
+    "slug": "zhuque-2-flight-3",
+    "name": "Zhuque-2 | Flight 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:35:52Z",
+    "net": "2023-12-08T23:39:03Z",
+    "window_end": "2023-12-09T00:53:00Z",
+    "window_start": "2023-12-08T23:31:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 259,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/259/",
+        "name": "LandSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8099,
+        "configuration": {
+            "id": 199,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/199/",
+            "name": "Zhuque-2",
+            "family": "Zhuque",
+            "full_name": "Zhuque-2",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6656,
+        "name": "Flight 3",
+        "description": "First operational flight of LandSpace's Zhuque-2 rocket with 3 payloads: Tianyi-33 - 50 kg class satellite from TYSPACE & Hunan University of Science and Technology that tests various new technologies including a camera, new spacecraft thermal control, composite material for anti-radiation effects, high-output electric power supplies and payload control software using the Rust programming language; Honghu-1 & 2 - 50 kg class satellites for long term testing of Xenon & Krypton-based Hall-effect thrusters & Argon-based ion thrusters.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 9,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/9/",
+        "agency_id": 259,
+        "name": "Launch Area 96",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
+        "map_url": "https://www.google.com/maps?q=40.91491,100.245488",
+        "latitude": "40.91491",
+        "longitude": "100.245488",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_9_20200803143341.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-225202_image_20231209100246.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6570,
+    "location_launch_attempt_count": 213,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 202,
+    "location_launch_attempt_count_year": 31,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

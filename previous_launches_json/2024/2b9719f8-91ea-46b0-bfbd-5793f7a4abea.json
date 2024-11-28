@@ -1,0 +1,99 @@
+{
+    "id": "2b9719f8-91ea-46b0-bfbd-5793f7a4abea",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/2b9719f8-91ea-46b0-bfbd-5793f7a4abea/",
+    "slug": "long-march-2c-unknown-payload",
+    "name": "Long March 2C | Unknown Payload",
+    "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+    },
+    "last_updated": "2024-11-19T03:26:01Z",
+    "net": "2024-11-24T23:40:00Z",
+    "window_end": "2024-11-24T23:59:00Z",
+    "window_start": "2024-11-24T23:26:00Z",
+    "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8415,
+        "configuration": {
+            "id": 61,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/61/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 7004,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+            "id": 25,
+            "name": "Unknown",
+            "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 235,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 117,
+        "orbital_launch_attempt_count": 117
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6811,
+    "location_launch_attempt_count": 236,
+    "pad_launch_attempt_count": 118,
+    "agency_launch_attempt_count": 494,
+    "orbital_launch_attempt_count_year": 222,
+    "location_launch_attempt_count_year": 18,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 42,
+    "type": "normal"
+}

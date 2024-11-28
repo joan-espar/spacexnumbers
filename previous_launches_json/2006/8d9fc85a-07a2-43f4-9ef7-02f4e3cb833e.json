@@ -1,0 +1,125 @@
+{
+    "id": "8d9fc85a-07a2-43f4-9ef7-02f4e3cb833e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8d9fc85a-07a2-43f4-9ef7-02f4e3cb833e/",
+    "slug": "delta-iv-m42-goes-13",
+    "name": "Delta IV M+(4,2) | GOES 13",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:43:27Z",
+    "net": "2006-05-24T22:11:00Z",
+    "window_end": "2006-05-24T22:11:00Z",
+    "window_start": "2006-05-24T22:11:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7267,
+        "configuration": {
+            "id": 33,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/33/",
+            "name": "Delta IV M+(4,2)",
+            "family": "Delta",
+            "full_name": "Delta IV M+(4,2)",
+            "variant": "M+(4,2)"
+        }
+    },
+    "mission": {
+        "id": 5656,
+        "name": "GOES 13",
+        "description": "In January 1998, Boeing Satellite Systems, Inc.(BSS), of El Segundo, Calif., was awarded a contract from NASA's Goddard Space Flight Center in Greenbelt, Md. The contract includes the design, manufacture, integration and launch of two Geostationary Operational Environmental Satellites, GOES N and GOES O, with options for GOES P and GOES Q. The GOES program is funded and operated by the National Oceanic and Atmospheric Administration (NOAA).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 38,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/38/",
+        "agency_id": null,
+        "name": "Space Launch Complex 37B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37",
+        "map_url": "https://www.google.com/maps?q=28.5317,-80.56495",
+        "latitude": "28.5317",
+        "longitude": "-80.56495",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_38_20200803143515.jpg",
+        "total_launch_count": 40,
+        "orbital_launch_attempt_count": 40
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_iv_m252b_image_20220302002926.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 37,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/37/",
+            "name": "Geostationary Operational Environmental Satellite",
+            "description": "The Geostationary Operational Environmental Satellite (GOES), operated by the United States' National Oceanic and Atmospheric Administration (NOAA)'s National Environmental Satellite, Data, and Information Service division, supports weather forecasting, severe storm tracking, and meteorology research",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 210,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/210/",
+                    "name": "National Oceanic and Atmospheric Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/goes-u_render_image_20240623151909.jpg",
+            "start_date": "1975-10-16T22:40:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Geostationary_Operational_Environmental_Satellite",
+            "mission_patches": [],
+            "type": {
+                "id": 8,
+                "name": "Earth Observation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4770,
+    "location_launch_attempt_count": 640,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 1072,
+    "orbital_launch_attempt_count_year": 20,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

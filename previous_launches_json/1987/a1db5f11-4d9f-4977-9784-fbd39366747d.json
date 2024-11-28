@@ -1,0 +1,125 @@
+{
+    "id": "a1db5f11-4d9f-4977-9784-fbd39366747d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a1db5f11-4d9f-4977-9784-fbd39366747d/",
+    "slug": "delta-3924-goes-7",
+    "name": "Delta 3924 | GOES 7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:10Z",
+    "net": "1987-02-26T23:05:00Z",
+    "window_end": "1987-02-26T23:05:00Z",
+    "window_start": "1987-02-26T23:05:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5945,
+        "configuration": {
+            "id": 295,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/295/",
+            "name": "Delta 3924",
+            "family": "Delta",
+            "full_name": "Delta 3924",
+            "variant": "3924"
+        }
+    },
+    "mission": {
+        "id": 4340,
+        "name": "GOES 7",
+        "description": "Geostationary meteorological satellite",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_3910_image_20231231105538.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 37,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/37/",
+            "name": "Geostationary Operational Environmental Satellite",
+            "description": "The Geostationary Operational Environmental Satellite (GOES), operated by the United States' National Oceanic and Atmospheric Administration (NOAA)'s National Environmental Satellite, Data, and Information Service division, supports weather forecasting, severe storm tracking, and meteorology research",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 210,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/210/",
+                    "name": "National Oceanic and Atmospheric Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/goes-u_render_image_20240623151909.jpg",
+            "start_date": "1975-10-16T22:40:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Geostationary_Operational_Environmental_Satellite",
+            "mission_patches": [],
+            "type": {
+                "id": 8,
+                "name": "Earth Observation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3161,
+    "location_launch_attempt_count": 409,
+    "pad_launch_attempt_count": 85,
+    "agency_launch_attempt_count": 848,
+    "orbital_launch_attempt_count_year": 22,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

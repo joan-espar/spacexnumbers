@@ -1,0 +1,94 @@
+{
+    "id": "41077f29-434a-4e53-9360-ca754f37e052",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/41077f29-434a-4e53-9360-ca754f37e052/",
+    "slug": "long-march-11-jilin-1-others",
+    "name": "Long March 11 | Jilin-1 & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:30:10Z",
+    "net": "2019-06-05T04:06:01Z",
+    "window_end": "2019-06-05T06:25:00Z",
+    "window_start": "2019-06-05T04:06:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2423,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 990,
+        "name": "Jilin-1 & others",
+        "description": "The first sea launch of Long March 11 rocket. It carries 7 satellites, which include a new high-resolution Earth observation satellite Jilin-1 and several test satellites, verifying such technologies as sea surface wind measuring and satellite interlink communication.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 186,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/186/",
+        "agency_id": 88,
+        "name": "Tai Rui mobile launch platform",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=34.899444,121.190278",
+        "latitude": "34.899444",
+        "longitude": "121.190278",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_long_march_11_launch_platform_20200901183938.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5856,
+    "location_launch_attempt_count": 40,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 253,
+    "orbital_launch_attempt_count_year": 36,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

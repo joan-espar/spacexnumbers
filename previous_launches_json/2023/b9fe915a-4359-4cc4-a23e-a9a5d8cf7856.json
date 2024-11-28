@@ -1,0 +1,129 @@
+{
+    "id": "b9fe915a-4359-4cc4-a23e-a9a5d8cf7856",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b9fe915a-4359-4cc4-a23e-a9a5d8cf7856/",
+    "slug": "miura-1-sn1-test-flight",
+    "name": "Miura 1 | SN1 Test Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:50:05Z",
+    "net": "2023-10-07T00:19:00Z",
+    "window_end": "2023-10-07T08:00:00Z",
+    "window_start": "2023-10-07T00:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1051,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1051/",
+        "name": "Payload Aerospace S.L.",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7881,
+        "configuration": {
+            "id": 494,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/494/",
+            "name": "Miura 1",
+            "family": "Miura",
+            "full_name": "Miura 1",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6388,
+        "name": "SN1 Test Flight",
+        "description": "The first flight of PLD Space's MIURA 1 SN1 technology demonstrator allows the collection of as much data as possible for the validation and design of the technology to be transferred and integrated into MIURA 5. In addition, this first suborbital flight allows ZARM Research Institution to study microgravity conditions, gathering information necessary for scientific experiments in future suborbital flights.\r\nFinally, a PLD Space team shall pick up the rocket in the Atlantic Ocean once splashdown is completed.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [
+            {
+                "id": 1051,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1051/",
+                "name": "Payload Aerospace S.L.",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "ESP",
+                "abbrev": "PLD Space",
+                "description": "Payload Aerospace S.L. is a Spanish company developing two partially-reusable launch vehicles called Miura 1 and Miura 5.",
+                "administrator": "CEO: Ra\u00fal Torres",
+                "founding_year": "2011",
+                "launchers": "Miura 1 | Miura 5",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 1,
+                "consecutive_successful_launches": 1,
+                "successful_launches": 1,
+                "failed_launches": 0,
+                "pending_launches": 1,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.pldspace.com/en/",
+                "wiki_url": "https://en.wikipedia.org/wiki/PLD_Space",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/payload2520aerospace2520s.l._logo_20230530095525.png",
+                "image_url": null,
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/payload2520aerospace2520s.l._nation_20230530104423.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 207,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/207/",
+        "agency_id": null,
+        "name": "M\u00e9dano del Loro",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/El_Arenosillo",
+        "map_url": null,
+        "latitude": "37.09687",
+        "longitude": "-6.73863",
+        "location": {
+            "id": 163,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/163/",
+            "name": "El Arenosillo Test Centre",
+            "country_code": "ESP",
+            "description": "El Arenosillo Test Centre is the name of a rocket launch site managed by INTA, located in Moguer, Spain. It is located in the province of Huelva, Andaluc\u00eda, on the southwest coast of Spain.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_163_20240111100612.jpg",
+            "timezone_name": "Europe/Madrid",
+            "total_launch_count": 1,
+            "total_landing_count": 0
+        },
+        "country_code": "ESP",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_miura_1_pad_20230530101735.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/miura25201252_image_20231008042338.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

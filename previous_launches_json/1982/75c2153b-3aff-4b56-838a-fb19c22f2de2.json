@@ -1,0 +1,94 @@
+{
+    "id": "75c2153b-3aff-4b56-838a-fb19c22f2de2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/75c2153b-3aff-4b56-838a-fb19c22f2de2/",
+    "slug": "kosmos-3m-strela-1m-249-256",
+    "name": "Kosmos-3M | Strela-1M 249-256",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:43:46Z",
+    "net": "1982-11-24T11:00:00Z",
+    "window_end": "1982-11-24T11:00:00Z",
+    "window_start": "1982-11-24T11:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5463,
+        "configuration": {
+            "id": 102,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/102/",
+            "name": "Kosmos-3M",
+            "family": "Kosmos",
+            "full_name": "Kosmos-3M (11K65M)",
+            "variant": "-3M"
+        }
+    },
+    "mission": {
+        "id": 3868,
+        "name": "Strela-1M 249-256",
+        "description": "Military communications satellites",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 28,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/28/",
+        "agency_id": 163,
+        "name": "132/1 (132L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.883229,40.868549",
+        "latitude": "62.883229",
+        "longitude": "40.868549",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_28_20200803143254.jpg",
+        "total_launch_count": 212,
+        "orbital_launch_attempt_count": 212
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2636,
+    "location_launch_attempt_count": 903,
+    "pad_launch_attempt_count": 125,
+    "agency_launch_attempt_count": 1650,
+    "orbital_launch_attempt_count_year": 119,
+    "location_launch_attempt_count_year": 56,
+    "pad_launch_attempt_count_year": 9,
+    "agency_launch_attempt_count_year": 99,
+    "type": "normal"
+}

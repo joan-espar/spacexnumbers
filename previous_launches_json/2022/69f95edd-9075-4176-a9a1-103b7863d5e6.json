@@ -1,0 +1,94 @@
+{
+    "id": "69f95edd-9075-4176-a9a1-103b7863d5e6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69f95edd-9075-4176-a9a1-103b7863d5e6/",
+    "slug": "nuri-flight-test-2",
+    "name": "Nuri | Flight Test 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:30:54Z",
+    "net": "2022-06-21T07:00:00Z",
+    "window_end": "2022-06-21T08:00:00Z",
+    "window_start": "2022-06-21T06:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/41/",
+        "name": "Korea Aerospace Research Institute",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 74,
+        "configuration": {
+            "id": 117,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/117/",
+            "name": "Nuri",
+            "family": "KSLV",
+            "full_name": "KSLV-2 Nuri",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 5958,
+        "name": "Flight Test 2",
+        "description": "Second flight of the KSLV-II \"Nuri\" launch vehicle, carrying a dummy satellite Payload of 1500 kg to sun-synchronous orbit.\r\n\r\nThe mission will in addition launch the performance verification satellite (PVSAT) and four Cubesats:\r\n- CubeSat (6U) STEP Cube Lab-II\r\n- CubeSat (3U) SNUGLITE-II\r\n- CubeSat (3U) MIMAN\r\n- CubeSat (3U) RANDEV",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 192,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/192/",
+        "agency_id": 41,
+        "name": "LC-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Naro_Space_Center",
+        "map_url": "https://www.google.com/maps?q=34.431867,127.535069",
+        "latitude": "34.431867",
+        "longitude": "127.535069",
+        "location": {
+            "id": 9,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/9/",
+            "name": "Naro Space Center, South Korea",
+            "country_code": "KOR",
+            "description": "The Naro Space Center is a South Korean spaceport in South Jeolla's Goheung County, operated by the state-run Korea Aerospace Research Institute.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_9_20200803142441.jpg",
+            "timezone_name": "Asia/Seoul",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "KOR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_lc-2_20210812070305.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_on_the_lau_image_20240307163812.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6250,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 68,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

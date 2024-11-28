@@ -1,0 +1,99 @@
+{
+    "id": "78224ca7-278d-4410-a1ac-eddb3cc018ca",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/78224ca7-278d-4410-a1ac-eddb3cc018ca/",
+    "slug": "smart-dragon-3-8-satellites",
+    "name": "Smart Dragon 3 | 8 satellites",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-25T07:46:18Z",
+    "net": "2024-09-24T02:31:00Z",
+    "window_end": "2024-09-24T03:52:00Z",
+    "window_start": "2024-09-24T02:24:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 272,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/272/",
+        "name": "China Rocket Co. Ltd.",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8359,
+        "configuration": {
+            "id": 484,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/484/",
+            "name": "Smart Dragon 3",
+            "family": "Smart Dragon",
+            "full_name": "Smart Dragon 3",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6940,
+        "name": "8 satellites",
+        "description": "Carried 8 satellites to a 500 km Sun-synchronous orbit:\r\n\r\n* Tianyi-41\r\n* Luojia 4-01\r\n* Fudan-1\r\n* Tianyan-15\r\n* Jitianxing A-01\r\n* Xingshidai-15/21/22",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 212,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/212/",
+        "agency_id": 88,
+        "name": "Haiyang Spaceport",
+        "description": "Sea-based spaceport",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": null,
+        "latitude": "36.676794",
+        "longitude": "121.235103",
+        "location": {
+            "id": 3,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_haiyang_spaceport_20230827174240.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6766,
+    "location_launch_attempt_count": 53,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 177,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

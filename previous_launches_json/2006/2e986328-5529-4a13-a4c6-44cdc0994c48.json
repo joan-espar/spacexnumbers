@@ -1,0 +1,94 @@
+{
+    "id": "2e986328-5529-4a13-a4c6-44cdc0994c48",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2e986328-5529-4a13-a4c6-44cdc0994c48/",
+    "slug": "dnepr-belka",
+    "name": "Dnepr | BelKA",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:33:04Z",
+    "net": "2006-07-26T19:43:05Z",
+    "window_end": "2006-07-26T19:43:05Z",
+    "window_start": "2006-07-26T19:43:05Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 119,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/119/",
+        "name": "ISC Kosmotras",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7277,
+        "configuration": {
+            "id": 31,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/31/",
+            "name": "Dnepr",
+            "family": "",
+            "full_name": "Dnepr 1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 5666,
+        "name": "BelKA",
+        "description": "BelKa 1 is a remote sensing satellite that utilizes the Victoria universal satellite bus. Developed by Rocket and Space Corporation Energiya, Russia, under a contract with TSNIIMASH-Export, Russia, for National Academy of Sciences of Republic of Belarus as the final customer of the satellite.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 12,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/12/",
+        "agency_id": null,
+        "name": "109/95",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.95112,63.497095",
+        "latitude": "45.95112",
+        "longitude": "63.497095",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_12_20200803143322.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/dnepr-1_liftoff_image_20240411092543.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4784,
+    "location_launch_attempt_count": 1259,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 7,
+    "orbital_launch_attempt_count_year": 34,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

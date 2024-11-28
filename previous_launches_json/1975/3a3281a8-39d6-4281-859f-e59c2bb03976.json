@@ -1,0 +1,94 @@
+{
+    "id": "3a3281a8-39d6-4281-859f-e59c2bb03976",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3a3281a8-39d6-4281-859f-e59c2bb03976/",
+    "slug": "delta-2913-cos-b",
+    "name": "Delta 2913 | COS-B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:52:43Z",
+    "net": "1975-08-09T01:50:00Z",
+    "window_end": "1975-08-09T01:50:00Z",
+    "window_start": "1975-08-09T01:50:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4611,
+        "configuration": {
+            "id": 286,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/286/",
+            "name": "Delta 2913",
+            "family": "Delta",
+            "full_name": "Delta 2913",
+            "variant": "2913"
+        }
+    },
+    "mission": {
+        "id": 3029,
+        "name": "COS-B",
+        "description": "European astronomy satellite",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 39,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/39/",
+        "agency_id": null,
+        "name": "Space Launch Complex 2W",
+        "description": "SLC-2W was originally used for Delta, Thor-Agena and Delta II launches. After the last Delta II flight in 2018, SLC-2W was repurposed to launch Firefly Alpha rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7556,-120.6224",
+        "latitude": "34.7556",
+        "longitude": "-120.6224",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_39_20200803143542.jpg",
+        "total_launch_count": 97,
+        "orbital_launch_attempt_count": 97
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_2910_image_20231231105214.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1727,
+    "location_launch_attempt_count": 430,
+    "pad_launch_attempt_count": 35,
+    "agency_launch_attempt_count": 645,
+    "orbital_launch_attempt_count_year": 76,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 16,
+    "type": "normal"
+}

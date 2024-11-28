@@ -1,0 +1,94 @@
+{
+    "id": "51663388-597f-4356-9a94-306e253e6633",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/51663388-597f-4356-9a94-306e253e6633/",
+    "slug": "athena-i-gemstar-dss-1",
+    "name": "Athena I | Gemstar DSS-1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2024-04-11T09:15:05Z",
+    "net": "1995-08-15T22:30:00Z",
+    "window_end": "1995-08-15T22:30:00Z",
+    "window_start": "1995-08-15T22:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+        "name": "Lockheed Martin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6677,
+        "configuration": {
+            "id": 228,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/228/",
+            "name": "Athena I",
+            "family": "Athena",
+            "full_name": "Athena I",
+            "variant": "I"
+        }
+    },
+    "mission": {
+        "id": 5067,
+        "name": "Gemstar DSS-1",
+        "description": "The CTA GEMStar 1 (VITASAT 1) satellite partially sponsored by Volunteers In Technical Assistance (VITA) of Arlington Virginia, was launched at 2230 UTC from Vandenberg AFB on the 15-Aug-95, but a second stage failure destroyed the first flight of the Lockheed LLV-1 launch vehicle (later dubbed Athena-1).",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 11,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/11/",
+        "agency_id": null,
+        "name": "Space Launch Complex 6",
+        "description": "Space Launch Complex 6 at Vandenberg Space Force Base in California is a launch pad and support area. The site was originally developed starting in 1966, but no launches occurred until 1995, as it was repurposed sequentially for three programs that were subsequently cancelled. Initially to be used for Titan IIIM rockets and the Manned Orbiting Laboratory, these were cancelled before construction of SLC-6 was complete. The complex was later rebuilt to serve as the west coast launch site for the Space Shuttle, but went unused due to budget, safety and political considerations. The pad was subsequently used for four Athena rocket launches before being modified to support the Delta IV launch vehicle family, which used the pad for ten launches from 2006 until 2022. The last Delta IV launched in September 2022, and SpaceX leased SLC-6 in 2023 to convert it to launch Falcon 9 and Falcon Heavy starting in 2025.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_6",
+        "map_url": "https://www.google.com/maps?q=34.5815,-120.6262",
+        "latitude": "34.5815",
+        "longitude": "-120.6262",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_11_20200803143550.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/athena_1_liftof_image_20240411090356.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4008,
+    "location_launch_attempt_count": 564,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 12,
+    "orbital_launch_attempt_count_year": 47,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

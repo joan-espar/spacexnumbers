@@ -1,0 +1,94 @@
+{
+    "id": "618b3931-9a4a-4a2b-8d67-5c3ca30ff5ff",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/618b3931-9a4a-4a2b-8d67-5c3ca30ff5ff/",
+    "slug": "vega-perusat-1-skysat-4-7",
+    "name": "Vega | Per\u00faSAT-1 / SkySat 4-7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:49:37Z",
+    "net": "2016-09-16T01:43:35Z",
+    "window_end": "2016-09-16T01:43:35Z",
+    "window_start": "2016-09-16T01:43:35Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1178,
+        "configuration": {
+            "id": 167,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/167/",
+            "name": "Vega",
+            "family": "Vega",
+            "full_name": "Vega",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 240,
+        "name": "Per\u00faSAT-1 / SkySat x 4",
+        "description": "Launch VV07 from Arianespace launched 5 earth imaging satellites into a sun-synchronous orbit. Per\u00c3\u00baSAT-1 weighs 450kg and is able to capture images with a resolution of 70cm. The smaller Skybox satellites, each weighing 120kg, is  able to achieve a resolution of approximately 1 meter.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/34/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 1 (ELV)",
+        "description": "ELA-1, now named Ensemble de Lancement Vega (short ELV), is a launch pad at the Centre Spatial Guyanais in French Guiana. It has been used to support launches of the Europa rocket, Ariane 1, Ariane 3, and is currently used to launch Vega rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-1",
+        "map_url": "https://www.google.com/maps?q=5.236,-52.775",
+        "latitude": "5.236",
+        "longitude": "-52.775",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
+        "total_launch_count": 50,
+        "orbital_launch_attempt_count": 50
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega_image_20201111143622.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5589,
+    "location_launch_attempt_count": 262,
+    "pad_launch_attempt_count": 33,
+    "agency_launch_attempt_count": 247,
+    "orbital_launch_attempt_count_year": 60,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "d454be53-3a0c-4b7f-82b9-50ee4a4b48b0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d454be53-3a0c-4b7f-82b9-50ee4a4b48b0/",
+    "slug": "zhuque-2-flight-2",
+    "name": "Zhuque-2 | Flight 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:13:31Z",
+    "net": "2023-07-12T01:00:00Z",
+    "window_end": "2023-07-12T03:14:00Z",
+    "window_start": "2023-07-12T00:53:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 259,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/259/",
+        "name": "LandSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7837,
+        "configuration": {
+            "id": 199,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/199/",
+            "name": "Zhuque-2",
+            "family": "Zhuque",
+            "full_name": "Zhuque-2",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6456,
+        "name": "Flight 2",
+        "description": "Second test flight of LandSpace's Zhuque-2 rocket with a dummy payload. This launch was the first successful use of methane/liquid oxygen-powered rocket engines for transportation to Earth orbit and beyond.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 9,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/9/",
+        "agency_id": 259,
+        "name": "Launch Area 96",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
+        "map_url": "https://www.google.com/maps?q=40.91491,100.245488",
+        "latitude": "40.91491",
+        "longitude": "100.245488",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_9_20200803143341.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-225202_image_20230802052650.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6471,
+    "location_launch_attempt_count": 198,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 103,
+    "location_launch_attempt_count_year": 16,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

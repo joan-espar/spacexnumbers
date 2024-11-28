@@ -1,0 +1,99 @@
+{
+    "id": "739c7759-28d6-4853-a81f-859904bd0423",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/739c7759-28d6-4853-a81f-859904bd0423/",
+    "slug": "tianlong-2-demo-flight",
+    "name": "Tianlong-2 | Demo Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:55:03Z",
+    "net": "2023-04-02T08:48:15Z",
+    "window_end": "2023-04-02T09:47:00Z",
+    "window_start": "2023-04-02T08:23:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1049,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1049/",
+        "name": "Space Pioneer",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7831,
+        "configuration": {
+            "id": 492,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/492/",
+            "name": "Tianlong-2",
+            "family": "",
+            "full_name": "Tianlong-2",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6336,
+        "name": "Demo Flight",
+        "description": "First launch of the Tianlong-2 and first launch for the Chinese private company Space Pioneer. It carried a dummy payload and the iTaikong Science cubesat to SSO for technology demonstration and public outreach Earth observation purposes.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 150,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/150/",
+        "agency_id": null,
+        "name": "Launch Area 120",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.855242,100.199634",
+        "latitude": "40.855242",
+        "longitude": "100.199634",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_150_20200803143318.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tianlong-22520_image_20240101095135.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6422,
+    "location_launch_attempt_count": 190,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 54,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

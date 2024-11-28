@@ -1,0 +1,94 @@
+{
+    "id": "123a6f62-3ee0-4287-8aaa-6a6d39f866c2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/123a6f62-3ee0-4287-8aaa-6a6d39f866c2/",
+    "slug": "atlas-v-551-aehf-5-usa-292",
+    "name": "Atlas V 551 | AEHF-5 (USA 292)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:30Z",
+    "net": "2019-08-08T10:13:00Z",
+    "window_end": "2019-08-08T11:44:00Z",
+    "window_start": "2019-08-08T09:44:00Z",
+    "net_precision": null,
+    "probability": 90,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#AEHF5",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 109,
+        "configuration": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/27/",
+            "name": "Atlas V 551",
+            "family": "Atlas",
+            "full_name": "Atlas V 551",
+            "variant": "551"
+        }
+    },
+    "mission": {
+        "id": 741,
+        "name": "AEHF-5",
+        "description": "This is the fifth satellite in the Advanced Extremely High Frequency (AEHF) system, which is a series of communications satellites operated by the United States Air Force Space Command. It provides global, survivable, protected communications capabilities for strategic command and tactical warfighters operating on ground, sea and air platforms.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/atlas2520v252_infographic_20200806035543.png",
+    "program": [],
+    "orbital_launch_attempt_count": 5876,
+    "location_launch_attempt_count": 786,
+    "pad_launch_attempt_count": 93,
+    "agency_launch_attempt_count": 135,
+    "orbital_launch_attempt_count_year": 56,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

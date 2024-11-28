@@ -1,0 +1,94 @@
+{
+    "id": "682c07ca-8f04-4a38-bfea-7272a9714cad",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/682c07ca-8f04-4a38-bfea-7272a9714cad/",
+    "slug": "atlas-v-531-aehf-3-usa-246",
+    "name": "Atlas V 531 | AEHF-3 (USA-246)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:24Z",
+    "net": "2013-09-18T08:10:00Z",
+    "window_end": "2013-09-18T08:10:00Z",
+    "window_start": "2013-09-18T08:10:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1702,
+        "configuration": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/8/",
+            "name": "Atlas V 531",
+            "family": "Atlas",
+            "full_name": "Atlas V 531",
+            "variant": "531"
+        }
+    },
+    "mission": {
+        "id": 312,
+        "name": "AEHF-3 (USA-246)",
+        "description": "This is the third satellite in the Advanced Extremely High Frequency (AEHF) system, which is a series of communications satellites operated by the United States Air Force Space Command. It provides global, survivable, protected communications capabilities for strategic command and tactical warfighters operating on ground, sea and air platforms.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520531_image_20190222030726.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5320,
+    "location_launch_attempt_count": 701,
+    "pad_launch_attempt_count": 61,
+    "agency_launch_attempt_count": 76,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "39418e8d-d00e-43a4-b58b-b7b1a7335a9b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/39418e8d-d00e-43a4-b58b-b7b1a7335a9b/",
+    "slug": "atlas-v-501-otv-1-x-37b-usa-212",
+    "name": "Atlas V 501 | OTV-1 (X-37B) (USA 212)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:33Z",
+    "net": "2010-04-22T23:52:00Z",
+    "window_end": "2010-04-22T23:52:00Z",
+    "window_start": "2010-04-22T23:52:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1453,
+        "configuration": {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/4/",
+            "name": "Atlas V 501",
+            "family": "Atlas",
+            "full_name": "Atlas V 501",
+            "variant": "501"
+        }
+    },
+    "mission": {
+        "id": 800,
+        "name": "OTV-1 (X-37B) (USA 212)",
+        "description": "It is the first flight of Boeing X-37B, a United States Air Force Orbital Test Vehicle, which is an unmanned 5000 kg, 8.8 m-long reusable mini-spaceplane capable of autonomous re-entry and landing. The OTV-1 mission was designed to test new technologies, however the specific identity of the spaceship's payload was not revealed. OTV was the first vehicle since NASA's shuttle orbiter capable of returning experiments to Earth for further inspection and analysis. The mission concluded after 224 days in orbit, marking the first American autonomous orbital runway landing.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520501_image_20190222030851.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5048,
+    "location_launch_attempt_count": 671,
+    "pad_launch_attempt_count": 46,
+    "agency_launch_attempt_count": 41,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

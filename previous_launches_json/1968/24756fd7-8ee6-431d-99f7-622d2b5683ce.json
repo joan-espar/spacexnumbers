@@ -1,0 +1,119 @@
+{
+    "id": "24756fd7-8ee6-431d-99f7-622d2b5683ce",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/24756fd7-8ee6-431d-99f7-622d2b5683ce/",
+    "slug": "saturn-v-apollo-6",
+    "name": "Saturn V | Apollo 6",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2023-06-14T04:15:48Z",
+    "net": "1968-04-04T12:00:01Z",
+    "window_end": "1968-04-04T12:00:01Z",
+    "window_start": "1968-04-04T12:00:01Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 214,
+        "configuration": {
+            "id": 93,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/93/",
+            "name": "Saturn V",
+            "family": "Saturn",
+            "full_name": "Saturn V",
+            "variant": "V"
+        }
+    },
+    "mission": {
+        "id": 916,
+        "name": "Apollo 6",
+        "description": "Apollo 6 was intended to send a Command and Service Module (CSM) plus a Lunar Module Test Article (LTA), a simulated Lunar Module (LM) with mounted structural vibration sensors, into a translunar trajectory. However, the Moon would not be in position for a translunar flight, and the Service Module engine would be fired about five minutes later to slow the craft, dropping its apogee to 11,989 nautical miles (22,204 km) and causing the CSM to return to Earth, simulating a \"direct-return\" abort. On the return leg, the engine would fire once more to accelerate the craft to simulate the nominal lunar return trajectory with a re-entry angle of -6.5 degrees and velocity of 36,500 feet per second (11,100 m/s). The entire mission would last about 10 hours.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/saturn2520v_image_20190222030036.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/4/",
+            "name": "Apollo",
+            "description": "The Apollo program was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which succeeded in landing the first humans on the Moon from 1969 to 1972.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/apollo_program_20200820200202.png",
+            "start_date": "1966-11-16T00:00:00Z",
+            "end_date": "1972-12-19T19:24:59Z",
+            "info_url": "https://www.nasa.gov/mission_pages/apollo/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Apollo_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 815,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 93,
+    "orbital_launch_attempt_count_year": 27,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

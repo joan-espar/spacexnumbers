@@ -1,0 +1,94 @@
+{
+    "id": "2ebf4aeb-99c3-427a-971e-ca0d08fceb3b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2ebf4aeb-99c3-427a-971e-ca0d08fceb3b/",
+    "slug": "thor-slv-2a-agena-d-kh-4a-10",
+    "name": "Thor SLV-2A Agena D | KH-4A 10",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:18:05Z",
+    "net": "1964-09-14T22:53:43Z",
+    "window_end": "1964-09-14T22:53:43Z",
+    "window_start": "1964-09-14T22:53:43Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3316,
+        "configuration": {
+            "id": 417,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/417/",
+            "name": "Thor SLV-2A Agena D",
+            "family": "Thor",
+            "full_name": "Thor SLV-2A Agena D",
+            "variant": "SLV-2A Agena D"
+        }
+    },
+    "mission": {
+        "id": 1738,
+        "name": "KH-4A 10",
+        "description": "The KH-4A (Keyhole-4A) was the fifth optical reconnaissance satellite version in the Corona-program.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 93,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/93/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 3W",
+        "description": "SLC-3W was originally built for Atlas-Agena launches and the first flight off the pad was the launch of Samos 1 on October 11, 1960. The facility was extensively damaged 11 months later when Samos 3's booster exploded on the pad, but it was repaired quickly and hosted its next launch slightly under two months afterwards.\r\n\r\nIn 1962-63, the pad was converted for Thor-Agena use and was the primary launching site for Corona reconnaissance satellites for the next decade. After the Corona program ended in 1972, SLC-3W was converted back to support Atlases, this time flights of refurbished Atlas E/F missiles. The final such launch took place in 1995.\r\n\r\nSpaceX initially planned to use SLC-3W for the Falcon 1 launch vehicle but switched to SLC-4E with Falcon 9.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_3#SLC-3W",
+        "map_url": "https://www.google.com/maps?q=34.644,-120.593",
+        "latitude": "34.644",
+        "longitude": "-120.593",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_93_20200803143225.jpg",
+        "total_launch_count": 81,
+        "orbital_launch_attempt_count": 81
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 359,
+    "location_launch_attempt_count": 144,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 212,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 27,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 37,
+    "type": "normal"
+}

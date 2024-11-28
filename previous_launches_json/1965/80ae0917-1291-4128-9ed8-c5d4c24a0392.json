@@ -1,0 +1,119 @@
+{
+    "id": "80ae0917-1291-4128-9ed8-c5d4c24a0392",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/80ae0917-1291-4128-9ed8-c5d4c24a0392/",
+    "slug": "little-joe-ii-a-003",
+    "name": "Little Joe II | A-003",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:30:58Z",
+    "net": "1965-05-19T13:01:04Z",
+    "window_end": "1965-05-19T13:01:04Z",
+    "window_start": "1965-05-19T13:01:04Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7426,
+        "configuration": {
+            "id": 470,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/470/",
+            "name": "Little Joe II",
+            "family": "Little Joe",
+            "full_name": "Little Joe II",
+            "variant": "II"
+        }
+    },
+    "mission": {
+        "id": 5815,
+        "name": "A-003",
+        "description": "A-003 was the fourth abort test of the Apollo spacecraft. This particular flight is notable because during the abort test flight, an actual abort situation occurred, and further proved the Apollo launch escape system (LES). The CM was successfully pulled away from the malfunctioning Little Joe booster and it landed safely under parachutes.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 194,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/194/",
+        "agency_id": 165,
+        "name": "Launch Complex 36",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/White_Sands_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=32.416944,-106.321944",
+        "latitude": "32.416944",
+        "longitude": "-106.321944",
+        "location": {
+            "id": 155,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/155/",
+            "name": "White Sands Missile Range",
+            "country_code": "USA",
+            "description": "White Sands Missile Range is a United States Army military testing area and firing range located in the US state of New Mexico. The range was originally established in 1941 as the Alamogordo Bombing and Gunnery Range, where the Trinity test site lay at the northern end of the Range, in Socorro County near the towns of Carrizozo and San Antonio. It then became the White Sands Proving Ground on 9 July 1945.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_white_sands_missile_range_20210901072636.jpg",
+            "timezone_name": "America/Denver",
+            "total_launch_count": 5,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_launch_complex_36_20210901072730.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/little_joe_ii_image_20210901072351.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/4/",
+            "name": "Apollo",
+            "description": "The Apollo program was the third United States human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which succeeded in landing the first humans on the Moon from 1969 to 1972.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/apollo_program_20200820200202.png",
+            "start_date": "1966-11-16T00:00:00Z",
+            "end_date": "1972-12-19T19:24:59Z",
+            "info_url": "https://www.nasa.gov/mission_pages/apollo/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Apollo_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 66,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

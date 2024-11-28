@@ -1,0 +1,94 @@
+{
+    "id": "5413f2cf-b160-4e0d-9906-a24751e8fea4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5413f2cf-b160-4e0d-9906-a24751e8fea4/",
+    "slug": "kosmos-3m-taifun-1-19",
+    "name": "Kosmos-3M | Taifun-1 19",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:31:43Z",
+    "net": "1986-10-27T12:40:00Z",
+    "window_end": "1986-10-27T12:40:00Z",
+    "window_start": "1986-10-27T12:40:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5904,
+        "configuration": {
+            "id": 102,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/102/",
+            "name": "Kosmos-3M",
+            "family": "Kosmos",
+            "full_name": "Kosmos-3M (11K65M)",
+            "variant": "-3M"
+        }
+    },
+    "mission": {
+        "id": 4300,
+        "name": "Taifun-1 19",
+        "description": "Radar calibration satellite",
+        "launch_designator": null,
+        "type": "Test Target",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 3,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/3/",
+        "agency_id": 163,
+        "name": "133/3 (133L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.886999,40.846984",
+        "latitude": "62.886999",
+        "longitude": "40.846984",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_3_20200803143438.jpg",
+        "total_launch_count": 159,
+        "orbital_launch_attempt_count": 159
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3118,
+    "location_launch_attempt_count": 1137,
+    "pad_launch_attempt_count": 95,
+    "agency_launch_attempt_count": 2031,
+    "orbital_launch_attempt_count_year": 89,
+    "location_launch_attempt_count_year": 43,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 75,
+    "type": "normal"
+}

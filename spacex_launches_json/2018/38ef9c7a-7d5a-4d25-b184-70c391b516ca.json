@@ -1,0 +1,94 @@
+{
+    "id": "38ef9c7a-7d5a-4d25-b184-70c391b516ca",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/38ef9c7a-7d5a-4d25-b184-70c391b516ca/",
+    "slug": "falcon-9-block-5-bangabandhu-1",
+    "name": "Falcon 9 Block 5 | Bangabandhu-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T09:46:26Z",
+    "net": "2018-05-11T20:14:00Z",
+    "window_end": "2018-05-11T22:21:00Z",
+    "window_start": "2018-05-11T20:14:00Z",
+    "net_precision": null,
+    "probability": 70,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2102,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 478,
+        "name": "Bangabandhu-1",
+        "description": "The Bangabandhu 1 (BD-1) satellite, the first geostationary communications satellite of Bangladesh. Satellite is to be located at 119.1\u00c2\u00b0 East longitude slot in geostationary orbit, where it will provide service to Bangladesh and neighbouring countries. Satellite is build by Thales Aleinia Space. It is based on Spacebus 4000B2 platform, weighs 3500 kg and is fitted with Ku-Band and C-Band transponders. The major applications of the spacecraft include DTH, very small aperture terminal communications, backhaul and trunking, network restoration, and disaster preparedness and relief.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5750,
+    "location_launch_attempt_count": 167,
+    "pad_launch_attempt_count": 110,
+    "agency_launch_attempt_count": 61,
+    "orbital_launch_attempt_count_year": 44,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

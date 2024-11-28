@@ -1,0 +1,94 @@
+{
+    "id": "7323ed72-b69a-429c-8cfe-2ed454a8db28",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7323ed72-b69a-429c-8cfe-2ed454a8db28/",
+    "slug": "atlas-v-511-ussf-8",
+    "name": "Atlas V 511 | USSF-8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:34Z",
+    "net": "2022-01-21T19:00:00Z",
+    "window_end": "2022-01-21T21:15:00Z",
+    "window_start": "2022-01-21T18:15:00Z",
+    "net_precision": null,
+    "probability": 90,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2664,
+        "configuration": {
+            "id": 214,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/214/",
+            "name": "Atlas V 511",
+            "family": "Atlas",
+            "full_name": "Atlas V 511",
+            "variant": "511"
+        }
+    },
+    "mission": {
+        "id": 5928,
+        "name": "USSF-8",
+        "description": "USSF-8 will launch two identical Geosynchronous Space Situational Awareness Program (GSSAP) satellites GSSAP-5 and GSSAP-6 directly to a near-geosynchronous orbit approximately 36,000 km above the equator.\r\n\r\nData from the GSSAP will uniquely contribute to timely and accurate orbital predictions, further enabling space flight safety including satellite collision avoidance. \r\n\r\nUnique to this mission is the first and only planned flight of the Atlas V 511 configuration.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 3,
+            "name": "Geosynchronous Orbit",
+            "abbrev": "GSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_511_image_20220122075706.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6188,
+    "location_launch_attempt_count": 832,
+    "pad_launch_attempt_count": 103,
+    "agency_launch_attempt_count": 149,
+    "orbital_launch_attempt_count_year": 6,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

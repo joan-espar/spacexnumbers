@@ -1,0 +1,94 @@
+{
+    "id": "367068f8-c36e-4e4d-af55-3ddd07d470f7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/367068f8-c36e-4e4d-af55-3ddd07d470f7/",
+    "slug": "long-march-2csm-tan-ce-2",
+    "name": "Long March 2C/SM | Tan Ce 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T03:38:10Z",
+    "net": "2004-07-25T07:05:00Z",
+    "window_end": "2004-07-25T07:05:00Z",
+    "window_start": "2004-07-25T07:05:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7191,
+        "configuration": {
+            "id": 269,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/269/",
+            "name": "Long March 2C/SM",
+            "family": "Long March",
+            "full_name": "Long March 2C/SM",
+            "variant": "C/SM"
+        }
+    },
+    "mission": {
+        "id": 5580,
+        "name": "Tan Ce 2",
+        "description": "It is the first space mission launched by China to investigate Earth's magnetosphere. It consists of two satellites: an Equatorial satellite (TC-1) and Polar satellite (TC-2).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 33,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/33/",
+        "agency_id": null,
+        "name": "Launch Complex 7",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8489311,111.6079339",
+        "latitude": "38.8489311",
+        "longitude": "111.6079339",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_33_20200803143335.jpg",
+        "total_launch_count": 32,
+        "orbital_launch_attempt_count": 32
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4668,
+    "location_launch_attempt_count": 18,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 22,
+    "orbital_launch_attempt_count_year": 29,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

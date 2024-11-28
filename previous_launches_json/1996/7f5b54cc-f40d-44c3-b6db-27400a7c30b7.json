@@ -1,0 +1,94 @@
+{
+    "id": "7f5b54cc-f40d-44c3-b6db-27400a7c30b7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7f5b54cc-f40d-44c3-b6db-27400a7c30b7/",
+    "slug": "delta-ii-mars-global-surveyor",
+    "name": "Delta II | Mars Global Surveyor",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:17Z",
+    "net": "1996-11-07T17:00:49Z",
+    "window_end": "1996-11-07T17:00:49Z",
+    "window_start": "1996-11-07T17:00:49Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6754,
+        "configuration": {
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/159/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925",
+            "variant": "7925"
+        }
+    },
+    "mission": {
+        "id": 5144,
+        "name": "Mars Global Surveyor",
+        "description": "The Mars Global Surveyor (MGS) is designed to orbit Mars over a two year period and collect data on the surface morphology, topography, composition, gravity, atmospheric dynamics, and magnetic field. This data will be used to investigate the surface processes, geology, distribution of material, internal properties, evolution of the magnetic field, and the weather and climate of Mars.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030440.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4107,
+    "location_launch_attempt_count": 520,
+    "pad_launch_attempt_count": 110,
+    "agency_launch_attempt_count": 970,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

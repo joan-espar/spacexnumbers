@@ -1,0 +1,94 @@
+{
+    "id": "d3d2875b-ca3f-47b7-9944-fd207687e0b6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d3d2875b-ca3f-47b7-9944-fd207687e0b6/",
+    "slug": "ariane-44lp-inmarsat-3-f5-brasilsat-b3",
+    "name": "Ariane 44LP | Inmarsat-3 F5 & Brasilsat B3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:21Z",
+    "net": "1998-02-04T23:29:00Z",
+    "window_end": "1998-02-04T23:29:00Z",
+    "window_start": "1998-02-04T23:29:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6836,
+        "configuration": {
+            "id": 226,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/226/",
+            "name": "Ariane 44LP",
+            "family": "Ariane",
+            "full_name": "Ariane 44LP",
+            "variant": "44LP"
+        }
+    },
+    "mission": {
+        "id": 5226,
+        "name": "Inmarsat-3 F5 & Brasilsat B3",
+        "description": "Launched in 1996-8, the Inmarsat-3s were built by Lockheed Martin Astro Space (now Lockheed Martin Missiles & Space) of the USA, responsible for the basic spacecraft, and the European Matra Marconi Space (now Astrium), which developed the communications payload. Brazil's second generation of communications satellites are the result of joint engineering and manufacturing efforts in the United States and Brazil. The new spacecraft are called the Brasilsat B series, and are widebody, more powerful versions of Hughes Space and Communications Company's popular HS-376 model. EMBRATEL, Brazil's telecommunications company, signed a contract in August 1990 for two spacecraft. In December 1995, with those new satellites in orbit and rapidly filling with customers, EMBRATEL exercised an option for a third spacecraft. A fourth was ordered in June 1998.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_44lp_at__image_20240401083402.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4214,
+    "location_launch_attempt_count": 114,
+    "pad_launch_attempt_count": 78,
+    "agency_launch_attempt_count": 103,
+    "orbital_launch_attempt_count_year": 7,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

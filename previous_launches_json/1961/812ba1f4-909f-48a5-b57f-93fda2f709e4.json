@@ -1,0 +1,94 @@
+{
+    "id": "812ba1f4-909f-48a5-b57f-93fda2f709e4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/812ba1f4-909f-48a5-b57f-93fda2f709e4/",
+    "slug": "vostok-k-zenit-2-1",
+    "name": "Vostok-K | Zenit-2 1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:48:30Z",
+    "net": "1961-12-11T09:39:02Z",
+    "window_end": "1961-12-11T09:39:02Z",
+    "window_start": "1961-12-11T09:39:02Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Premature second stage cutoff",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2405,
+        "configuration": {
+            "id": 103,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/103/",
+            "name": "Vostok",
+            "family": "R-7",
+            "full_name": "Vostok-K",
+            "variant": "K"
+        }
+    },
+    "mission": {
+        "id": 1395,
+        "name": "Zenit-2 1",
+        "description": "Zenit-2 film-return and ELINT reconnaissance satellite.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vostok_image_20191104130128.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 139,
+    "location_launch_attempt_count": 27,
+    "pad_launch_attempt_count": 27,
+    "agency_launch_attempt_count": 27,
+    "orbital_launch_attempt_count_year": 46,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

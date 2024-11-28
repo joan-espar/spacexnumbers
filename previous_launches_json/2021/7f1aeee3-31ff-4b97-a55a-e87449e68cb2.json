@@ -1,0 +1,94 @@
+{
+    "id": "7f1aeee3-31ff-4b97-a55a-e87449e68cb2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7f1aeee3-31ff-4b97-a55a-e87449e68cb2/",
+    "slug": "long-march-3ce-tianlian-1-05",
+    "name": "Long March 3C/E | Tianlian 1-05",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:45Z",
+    "net": "2021-07-06T15:53:00Z",
+    "window_end": "2021-07-06T16:17:00Z",
+    "window_start": "2021-07-06T15:42:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2965,
+        "configuration": {
+            "id": 51,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/51/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3C/E",
+            "variant": "C/E"
+        }
+    },
+    "mission": {
+        "id": 1387,
+        "name": "Tianlian 1-05",
+        "description": "Tianlian 1, also known as Tian Lian 1, TL-1, and CTDRS-1 is a Chinese data tracking and relay communications satellite series. Based on the DFH-3 satellite bus, it will provide communication coverage for manned Shenzhou missions, from Shenzhou 7 onwards. Functionally, it is similar to the United States Tracking and Data Relay Satellite System.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_3_image_20210705160042.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6103,
+    "location_launch_attempt_count": 157,
+    "pad_launch_attempt_count": 92,
+    "agency_launch_attempt_count": 325,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 21,
+    "type": "normal"
+}
