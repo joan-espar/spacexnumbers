@@ -1,0 +1,421 @@
+net,status_abbrev,pad_name,mission_name,mission_orbit_abbrev,configuration_name,year,year_month
+2024-11-27 04:41:30+00:00,Success,Launch Complex 39A,Starlink Group 6-76,LEO,Falcon 9,2024,2024-11
+2024-11-25 10:02:20+00:00,Success,Space Launch Complex 40,Starlink Group 12-1,LEO,Falcon 9,2024,2024-11
+2024-11-24 05:25:30+00:00,Success,Space Launch Complex 4E,Starlink Group 9-13,LEO,Falcon 9,2024,2024-11
+2024-11-21 16:07:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-66,LEO,Falcon 9,2024,2024-11
+2024-11-19 22:00:00+00:00,Success,Orbital Launch Mount A,Integrated Flight Test 6,Sub,Starship,2024,2024-11
+2024-11-18 18:31:00+00:00,Success,Space Launch Complex 40,GSAT-20 (GSAT-N2),GTO,Falcon 9,2024,2024-11
+2024-11-18 05:53:30+00:00,Success,Space Launch Complex 4E,Starlink Group 9-12,LEO,Falcon 9,2024,2024-11
+2024-11-17 22:28:00+00:00,Success,Launch Complex 39A,Optus-X/TD7,GTO,Falcon 9,2024,2024-11
+2024-11-14 13:21:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-68,LEO,Falcon 9,2024,2024-11
+2024-11-14 05:23:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-11,LEO,Falcon 9,2024,2024-11
+2024-11-11 21:28:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-69,LEO,Falcon 9,2024,2024-11
+2024-11-11 17:22:00+00:00,Success,Launch Complex 39A,Koreasat 6A,GTO,Falcon 9,2024,2024-11
+2024-11-09 06:14:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-10,LEO,Falcon 9,2024,2024-11
+2024-11-07 20:19:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-77,LEO,Falcon 9,2024,2024-11
+2024-11-05 02:29:31+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-31,LEO,Falcon 9,2024,2024-11
+2024-10-30 21:10:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-13,LEO,Falcon 9,2024,2024-10
+2024-10-30 12:07:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-9,LEO,Falcon 9,2024,2024-10
+2024-10-26 21:47:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-8,LEO,Falcon 9,2024,2024-10
+2024-10-24 17:14:00+00:00,Success,Space Launch Complex 4E,NROL-167,,Falcon 9,2024,2024-10
+2024-10-23 21:47:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-61,LEO,Falcon 9,2024,2024-10
+2024-10-20 05:13:00+00:00,Success,Space Launch Complex 4E,OneWeb 20,PO,Falcon 9,2024,2024-10
+2024-10-18 23:31:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-19,LEO,Falcon 9,2024,2024-10
+2024-10-15 08:21:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-7,LEO,Falcon 9,2024,2024-10
+2024-10-15 06:10:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-10,LEO,Falcon 9,2024,2024-10
+2024-10-14 16:06:00+00:00,Success,Launch Complex 39A,Europa Clipper,Helio-N/A,Falcon Heavy,2024,2024-10
+2024-10-13 12:25:00+00:00,Success,Orbital Launch Mount A,Integrated Flight Test 5,Sub,Starship,2024,2024-10
+2024-10-07 14:52:11+00:00,Success,Space Launch Complex 40,Hera,Asteroid,Falcon 9,2024,2024-10
+2024-09-28 17:17:21+00:00,Success,Space Launch Complex 40,Crew-9,LEO,Falcon 9,2024,2024-09
+2024-09-25 04:01:20+00:00,Success,Space Launch Complex 4E,Starlink Group 9-8,LEO,Falcon 9,2024,2024-09
+2024-09-20 13:50:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-17,LEO,Falcon 9,2024,2024-09
+2024-09-17 22:50:49+00:00,Success,Space Launch Complex 40,Galileo L13 (FOC FM26 & FM32),MEO,Falcon 9,2024,2024-09
+2024-09-13 01:45:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-6,LEO,Falcon 9,2024,2024-09
+2024-09-12 08:52:00+00:00,Success,Space Launch Complex 40,BlueBird Block 1,LEO,Falcon 9,2024,2024-09
+2024-09-10 09:23:49+00:00,Success,Launch Complex 39A,Polaris Dawn,LEO,Falcon 9,2024,2024-09
+2024-09-06 03:20:00+00:00,Success,Space Launch Complex 4E,NROL-113,,Falcon 9,2024,2024-09
+2024-09-05 15:33:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-11,LEO,Falcon 9,2024,2024-09
+2024-08-31 08:48:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-5,LEO,Falcon 9,2024,2024-08
+2024-08-31 07:43:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-10,LEO,Falcon 9,2024,2024-08
+2024-08-28 07:48:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-6,LEO,Falcon 9,2024,2024-08
+2024-08-20 13:20:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-5,LEO,Falcon 9,2024,2024-08
+2024-08-16 18:56:00+00:00,Success,Space Launch Complex 4E,Transporter 11 (Dedicated SSO Rideshare),SSO,Falcon 9,2024,2024-08
+2024-08-15 13:00:00+00:00,Success,Space Launch Complex 40,WorldView Legion 3 & 4,LEO,Falcon 9,2024,2024-08
+2024-08-12 10:37:00+00:00,Success,Launch Complex 39A,Starlink Group 10-7,LEO,Falcon 9,2024,2024-08
+2024-08-12 02:02:00+00:00,Success,Space Launch Complex 4E,Arctic Satellite Broadband Mission (ASBM),,Falcon 9,2024,2024-08
+2024-08-10 12:50:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-3,LEO,Falcon 9,2024,2024-08
+2024-08-04 15:02:53+00:00,Success,Space Launch Complex 40,Cygnus CRS-2 NG-21 (S.S. Francis R. “Dick” Scobee),LEO,Falcon 9,2024,2024-08
+2024-08-04 07:24:00+00:00,Success,Space Launch Complex 4E,Starlink Group 11-1,LEO,Falcon 9,2024,2024-08
+2024-08-02 05:01:00+00:00,Success,Launch Complex 39A,Starlink Group 10-6,LEO,Falcon 9,2024,2024-08
+2024-07-28 09:22:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-4,LEO,Falcon 9,2024,2024-07
+2024-07-28 05:09:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-4,LEO,Falcon 9,2024,2024-07
+2024-07-27 05:45:00+00:00,Success,Launch Complex 39A,Starlink Group 10-9,LEO,Falcon 9,2024,2024-07
+2024-07-12 02:35:00+00:00,Failure,Space Launch Complex 4E,Starlink Group 9-3,LEO,Falcon 9,2024,2024-07
+2024-07-08 23:30:00+00:00,Success,Space Launch Complex 40,Türksat 6A,GTO,Falcon 9,2024,2024-07
+2024-07-03 08:55:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-9,LEO,Falcon 9,2024,2024-07
+2024-06-29 03:14:00+00:00,Success,Space Launch Complex 4E,NROL-186,,Falcon 9,2024,2024-06
+2024-06-27 11:14:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-3,LEO,Falcon 9,2024,2024-06
+2024-06-25 21:26:00+00:00,Success,Launch Complex 39A,GOES-U,GTO,Falcon Heavy,2024,2024-06
+2024-06-24 03:47:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-2,LEO,Falcon 9,2024,2024-06
+2024-06-23 17:15:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-2,LEO,Falcon 9,2024,2024-06
+2024-06-20 21:35:00+00:00,Success,Space Launch Complex 40,Astra 1P/SES-24,GTO,Falcon 9,2024,2024-06
+2024-06-19 03:40:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-1,LEO,Falcon 9,2024,2024-06
+2024-06-08 12:58:00+00:00,Success,Space Launch Complex 4E,Starlink Group 8-8,LEO,Falcon 9,2024,2024-06
+2024-06-08 01:56:00+00:00,Success,Space Launch Complex 40,Starlink Group 10-1,LEO,Falcon 9,2024,2024-06
+2024-06-06 12:50:00+00:00,Success,Orbital Launch Mount A,Integrated Flight Test 4,Sub,Starship,2024,2024-06
+2024-06-05 02:16:00+00:00,Success,Space Launch Complex 40,Starlink Group 8-5,LEO,Falcon 9,2024,2024-06
+2024-06-01 02:37:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-64,LEO,Falcon 9,2024,2024-06
+2024-05-28 22:20:10+00:00,Success,Space Launch Complex 4E,EarthCARE,SSO,Falcon 9,2024,2024-05
+2024-05-28 14:24:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-60,LEO,Falcon 9,2024,2024-05
+2024-05-24 02:45:00+00:00,Success,Launch Complex 39A,Starlink Group 6-63,LEO,Falcon 9,2024,2024-05
+2024-05-23 02:35:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-62,LEO,Falcon 9,2024,2024-05
+2024-05-22 08:00:00+00:00,Success,Space Launch Complex 4E,NROL-146,,Falcon 9,2024,2024-05
+2024-05-18 00:32:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-59,LEO,Falcon 9,2024,2024-05
+2024-05-14 18:39:00+00:00,Success,Space Launch Complex 4E,Starlink Group 8-7,LEO,Falcon 9,2024,2024-05
+2024-05-13 00:53:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-58,LEO,Falcon 9,2024,2024-05
+2024-05-10 04:30:00+00:00,Success,Space Launch Complex 4E,Starlink Group 8-2,LEO,Falcon 9,2024,2024-05
+2024-05-08 18:42:00+00:00,Success,Launch Complex 39A,Starlink Group 6-56,LEO,Falcon 9,2024,2024-05
+2024-05-06 18:14:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-57,LEO,Falcon 9,2024,2024-05
+2024-05-03 02:37:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-55,LEO,Falcon 9,2024,2024-05
+2024-05-02 18:36:00+00:00,Success,Space Launch Complex 4E,WorldView Legion 1 & 2,SSO,Falcon 9,2024,2024-05
+2024-04-28 22:08:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-54,LEO,Falcon 9,2024,2024-04
+2024-04-28 00:34:00+00:00,Success,Launch Complex 39A,Galileo L12 (FOC FM25 & FM27),MEO,Falcon 9,2024,2024-04
+2024-04-23 22:17:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-53,LEO,Falcon 9,2024,2024-04
+2024-04-18 22:40:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-52,LEO,Falcon 9,2024,2024-04
+2024-04-17 21:26:00+00:00,Success,Launch Complex 39A,Starlink Group 6-51,LEO,Falcon 9,2024,2024-04
+2024-04-13 01:40:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-49,LEO,Falcon 9,2024,2024-04
+2024-04-11 14:25:00+00:00,Success,Space Launch Complex 4E,USSF-62,PO,Falcon 9,2024,2024-04
+2024-04-10 05:40:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-48,LEO,Falcon 9,2024,2024-04
+2024-04-07 23:16:57+00:00,Success,Launch Complex 39A,Bandwagon 1 (Dedicated Mid-Inclination Rideshare),LEO,Falcon 9,2024,2024-04
+2024-04-07 02:25:00+00:00,Success,Space Launch Complex 4E,Starlink Group 8-1,LEO,Falcon 9,2024,2024-04
+2024-04-05 09:12:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-47,LEO,Falcon 9,2024,2024-04
+2024-04-02 02:30:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-18,LEO,Falcon 9,2024,2024-04
+2024-03-31 01:30:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-45,LEO,Falcon 9,2024,2024-03
+2024-03-30 21:52:00+00:00,Success,Launch Complex 39A,Eutelsat 36D,GTO,Falcon 9,2024,2024-03
+2024-03-25 23:42:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-46,LEO,Falcon 9,2024,2024-03
+2024-03-24 03:09:00+00:00,Success,Launch Complex 39A,Starlink Group 6-42,LEO,Falcon 9,2024,2024-03
+2024-03-21 20:55:09+00:00,Success,Space Launch Complex 40,Dragon CRS-2 SpX-30,LEO,Falcon 9,2024,2024-03
+2024-03-19 02:28:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-16,LEO,Falcon 9,2024,2024-03
+2024-03-16 00:21:00+00:00,Success,Launch Complex 39A,Starlink Group 6-44,LEO,Falcon 9,2024,2024-03
+2024-03-14 13:25:00+00:00,Success,Orbital Launch Mount A,Integrated Flight Test 3,Sub,Starship,2024,2024-03
+2024-03-11 04:09:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-17,LEO,Falcon 9,2024,2024-03
+2024-03-10 23:05:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-43,LEO,Falcon 9,2024,2024-03
+2024-03-04 23:56:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-41,LEO,Falcon 9,2024,2024-03
+2024-03-04 22:05:00+00:00,Success,Space Launch Complex 4E,Transporter 10 (Dedicated SSO Rideshare),SSO,Falcon 9,2024,2024-03
+2024-03-04 03:53:38+00:00,Success,Launch Complex 39A,Crew-8,LEO,Falcon 9,2024,2024-03
+2024-02-29 15:30:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-40,LEO,Falcon 9,2024,2024-02
+2024-02-25 22:06:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-39,LEO,Falcon 9,2024,2024-02
+2024-02-23 04:11:50+00:00,Success,Space Launch Complex 4E,Starlink Group 7-15,LEO,Falcon 9,2024,2024-02
+2024-02-20 20:11:00+00:00,Success,Space Launch Complex 40,HTS-113BT (Merah Putih 2),GTO,Falcon 9,2024,2024-02
+2024-02-15 21:34:30+00:00,Success,Space Launch Complex 4E,Starlink Group 7-14,LEO,Falcon 9,2024,2024-02
+2024-02-15 06:05:37+00:00,Success,Launch Complex 39A,Nova-C IM-1,LO,Falcon 9,2024,2024-02
+2024-02-14 22:30:00+00:00,Success,Space Launch Complex 40,USSF-124,LEO,Falcon 9,2024,2024-02
+2024-02-10 00:34:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-13,LEO,Falcon 9,2024,2024-02
+2024-02-08 06:33:36+00:00,Success,Space Launch Complex 40,"PACE (Plankton, Aerosol, Cloud, ocean Ecosystem)",SSO,Falcon 9,2024,2024-02
+2024-01-30 17:07:21+00:00,Success,Space Launch Complex 40,Cygnus CRS-2 NG-20 (S.S. Patricia “Patty” Hilliard Robertson),LEO,Falcon 9,2024,2024-01
+2024-01-29 05:57:20+00:00,Success,Space Launch Complex 4E,Starlink Group 7-12,LEO,Falcon 9,2024,2024-01
+2024-01-29 01:10:00+00:00,Success,Launch Complex 39A,Starlink Group 6-38,LEO,Falcon 9,2024,2024-01
+2024-01-24 00:35:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-11,LEO,Falcon 9,2024,2024-01
+2024-01-18 21:49:11+00:00,Success,Launch Complex 39A,Axiom Space Mission 3,LEO,Falcon 9,2024,2024-01
+2024-01-15 01:52:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-37,LEO,Falcon 9,2024,2024-01
+2024-01-14 08:59:30+00:00,Success,Space Launch Complex 4E,Starlink Group 7-10,LEO,Falcon 9,2024,2024-01
+2024-01-07 22:35:40+00:00,Success,Space Launch Complex 40,Starlink Group 6-35,LEO,Falcon 9,2024,2024-01
+2024-01-03 23:04:00+00:00,Success,Space Launch Complex 40,Ovzon-3,GTO,Falcon 9,2024,2024-01
+2024-01-03 03:44:20+00:00,Success,Space Launch Complex 4E,Starlink Group 7-9,LEO,Falcon 9,2024,2024-01
+2023-12-29 04:01:40+00:00,Success,Space Launch Complex 40,Starlink Group 6-36,LEO,Falcon 9,2023,2023-12
+2023-12-29 01:07:00+00:00,Success,Launch Complex 39A,OTV-7 (X-37B) (USSF-52),,Falcon Heavy,2023,2023-12
+2023-12-24 13:11:00+00:00,Success,Space Launch Complex 4E,SARah 2 & 3,PO,Falcon 9,2023,2023-12
+2023-12-23 05:33:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-32,LEO,Falcon 9,2023,2023-12
+2023-12-19 04:01:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-34,LEO,Falcon 9,2023,2023-12
+2023-12-08 08:03:40+00:00,Success,Space Launch Complex 4E,Starlink Group 7-8,LEO,Falcon 9,2023,2023-12
+2023-12-07 05:07:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-33,LEO,Falcon 9,2023,2023-12
+2023-12-03 04:00:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-31,LEO,Falcon 9,2023,2023-12
+2023-12-01 18:19:00+00:00,Success,Space Launch Complex 4E,425 Project Flight 1 & rideshare,SSO,Falcon 9,2023,2023-12
+2023-11-28 04:20:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-30,LEO,Falcon 9,2023,2023-11
+2023-11-22 07:47:40+00:00,Success,Space Launch Complex 40,Starlink Group 6-29,LEO,Falcon 9,2023,2023-11
+2023-11-20 10:30:40+00:00,Success,Space Launch Complex 4E,Starlink Group 7-7,LEO,Falcon 9,2023,2023-11
+2023-11-18 13:02:50+00:00,Partial Failure,Orbital Launch Mount A,Integrated Flight Test 2,Sub,Starship,2023,2023-11
+2023-11-18 05:05:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-28,LEO,Falcon 9,2023,2023-11
+2023-11-12 21:08:00+00:00,Success,Space Launch Complex 40,O3b mPower 5 & 6,MEO,Falcon 9,2023,2023-11
+2023-11-11 18:49:00+00:00,Success,Space Launch Complex 4E,Transporter 9 (Dedicated SSO Rideshare),SSO,Falcon 9,2023,2023-11
+2023-11-10 01:28:14+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-29,LEO,Falcon 9,2023,2023-11
+2023-11-08 05:05:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-27,LEO,Falcon 9,2023,2023-11
+2023-11-04 00:37:20+00:00,Success,Space Launch Complex 40,Starlink Group 6-26,LEO,Falcon 9,2023,2023-11
+2023-10-30 23:20:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-25,LEO,Falcon 9,2023,2023-10
+2023-10-29 09:00:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-6,LEO,Falcon 9,2023,2023-10
+2023-10-22 02:17:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-24,LEO,Falcon 9,2023,2023-10
+2023-10-21 08:23:00+00:00,Success,Space Launch Complex 4E,Starlink Group 7-5,LEO,Falcon 9,2023,2023-10
+2023-10-18 00:39:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-23,LEO,Falcon 9,2023,2023-10
+2023-10-13 23:01:10+00:00,Success,Space Launch Complex 40,Starlink Group 6-22,LEO,Falcon 9,2023,2023-10
+2023-10-13 14:19:43+00:00,Success,Launch Complex 39A,Psyche,Helio-N/A,Falcon Heavy,2023,2023-10
+2023-10-09 07:43:50+00:00,Success,Space Launch Complex 4E,Starlink Group 7-4,LEO,Falcon 9,2023,2023-10
+2023-10-05 05:36:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-21,LEO,Falcon 9,2023,2023-10
+2023-09-30 02:00:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-19,LEO,Falcon 9,2023,2023-09
+2023-09-25 08:48:20+00:00,Success,Space Launch Complex 4E,Starlink Group 7-3,LEO,Falcon 9,2023,2023-09
+2023-09-24 03:38:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-18,LEO,Falcon 9,2023,2023-09
+2023-09-20 03:38:10+00:00,Success,Space Launch Complex 40,Starlink Group 6-17,LEO,Falcon 9,2023,2023-09
+2023-09-16 03:38:20+00:00,Success,Space Launch Complex 40,Starlink Group 6-16,LEO,Falcon 9,2023,2023-09
+2023-09-12 06:57:50+00:00,Success,Space Launch Complex 4E,Starlink Group 7-2,LEO,Falcon 9,2023,2023-09
+2023-09-09 03:12:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-14,LEO,Falcon 9,2023,2023-09
+2023-09-04 02:47:20+00:00,Success,Launch Complex 39A,Starlink Group 6-12,LEO,Falcon 9,2023,2023-09
+2023-09-02 14:25:00+00:00,Success,Space Launch Complex 4E,SDA Tranche 0B,PO,Falcon 9,2023,2023-09
+2023-09-01 02:21:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-13,LEO,Falcon 9,2023,2023-09
+2023-08-27 01:05:40+00:00,Success,Space Launch Complex 40,Starlink Group 6-11,LEO,Falcon 9,2023,2023-08
+2023-08-26 07:27:00+00:00,Success,Launch Complex 39A,Crew-7,LEO,Falcon 9,2023,2023-08
+2023-08-22 09:37:30+00:00,Success,Space Launch Complex 4E,Starlink Group 7-1,LEO,Falcon 9,2023,2023-08
+2023-08-17 03:36:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-10,LEO,Falcon 9,2023,2023-08
+2023-08-11 05:17:40+00:00,Success,Space Launch Complex 40,Starlink Group 6-9,LEO,Falcon 9,2023,2023-08
+2023-08-08 03:57:00+00:00,Success,Space Launch Complex 4E,Starlink Group 6-20,LEO,Falcon 9,2023,2023-08
+2023-08-07 02:41:10+00:00,Success,Space Launch Complex 40,Starlink Group 6-8,LEO,Falcon 9,2023,2023-08
+2023-08-03 05:00:00+00:00,Success,Space Launch Complex 40,Galaxy 37,GTO,Falcon 9,2023,2023-08
+2023-07-29 03:04:00+00:00,Success,Launch Complex 39A,EchoStar 24/Jupiter-3,GTO,Falcon Heavy,2023,2023-07
+2023-07-28 04:01:10+00:00,Success,Space Launch Complex 40,Starlink Group 6-7,LEO,Falcon 9,2023,2023-07
+2023-07-24 00:50:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-6,LEO,Falcon 9,2023,2023-07
+2023-07-20 04:09:30+00:00,Success,Space Launch Complex 4E,Starlink Group 6-15,LEO,Falcon 9,2023,2023-07
+2023-07-16 03:50:00+00:00,Success,Space Launch Complex 40,Starlink Group 5-15,LEO,Falcon 9,2023,2023-07
+2023-07-10 03:58:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-5,LEO,Falcon 9,2023,2023-07
+2023-07-07 19:29:50+00:00,Success,Space Launch Complex 4E,Starlink Group 5-13,LEO,Falcon 9,2023,2023-07
+2023-07-01 15:12:00+00:00,Success,Space Launch Complex 40,Euclid,L2,Falcon 9,2023,2023-07
+2023-06-23 15:35:10+00:00,Success,Space Launch Complex 40,Starlink Group 5-12,LEO,Falcon 9,2023,2023-06
+2023-06-22 07:19:00+00:00,Success,Space Launch Complex 4E,Starlink Group 5-7,LEO,Falcon 9,2023,2023-06
+2023-06-18 22:21:00+00:00,Success,Space Launch Complex 40,Satria-1,GTO,Falcon 9,2023,2023-06
+2023-06-12 21:35:00+00:00,Success,Space Launch Complex 4E,Transporter 8 (Dedicated SSO Rideshare),SSO,Falcon 9,2023,2023-06
+2023-06-12 07:10:50+00:00,Success,Space Launch Complex 40,Starlink Group 5-11,LEO,Falcon 9,2023,2023-06
+2023-06-05 15:47:00+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-28,LEO,Falcon 9,2023,2023-06
+2023-06-04 12:20:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-4,LEO,Falcon 9,2023,2023-06
+2023-05-31 06:02:30+00:00,Success,Space Launch Complex 4E,Starlink Group 2-10,LEO,Falcon 9,2023,2023-05
+2023-05-27 04:30:00+00:00,Success,Space Launch Complex 40,BADR-8,GTO,Falcon 9,2023,2023-05
+2023-05-21 21:37:00+00:00,Success,Launch Complex 39A,Axiom Space Mission 2,LEO,Falcon 9,2023,2023-05
+2023-05-20 13:16:33+00:00,Success,Space Launch Complex 4E,Iridium-9 & OneWeb 19,PO,Falcon 9,2023,2023-05
+2023-05-19 06:19:30+00:00,Success,Space Launch Complex 40,Starlink Group 6-3,LEO,Falcon 9,2023,2023-05
+2023-05-14 05:03:50+00:00,Success,Space Launch Complex 40,Starlink Group 5-9,LEO,Falcon 9,2023,2023-05
+2023-05-10 20:09:00+00:00,Success,Space Launch Complex 4E,Starlink Group 2-9,LEO,Falcon 9,2023,2023-05
+2023-05-04 07:31:00+00:00,Success,Space Launch Complex 40,Starlink Group 5-6,LEO,Falcon 9,2023,2023-05
+2023-05-01 00:26:00+00:00,Success,Launch Complex 39A,ViaSat-3 Americas & Others,GTO,Falcon Heavy,2023,2023-05
+2023-04-28 22:12:00+00:00,Success,Space Launch Complex 40,O3b mPower 3 & 4,MEO,Falcon 9,2023,2023-04
+2023-04-27 13:40:50+00:00,Success,Space Launch Complex 4E,Starlink Group 3-5,LEO,Falcon 9,2023,2023-04
+2023-04-20 13:33:00+00:00,Failure,Orbital Launch Mount A,Integrated Flight Test,Sub,Starship,2023,2023-04
+2023-04-19 14:31:10+00:00,Success,Space Launch Complex 40,Starlink Group 6-2,LEO,Falcon 9,2023,2023-04
+2023-04-15 06:48:00+00:00,Success,Space Launch Complex 4E,Transporter 7 (Dedicated SSO Rideshare),SSO,Falcon 9,2023,2023-04
+2023-04-07 04:30:00+00:00,Success,Space Launch Complex 40,Intelsat 40e,GTO,Falcon 9,2023,2023-04
+2023-04-02 14:29:00+00:00,Success,Space Launch Complex 4E,SDA Tranche 0A,PO,Falcon 9,2023,2023-04
+2023-03-29 20:01:00+00:00,Success,Space Launch Complex 40,Starlink Group 5-10,LEO,Falcon 9,2023,2023-03
+2023-03-24 15:43:10+00:00,Success,Space Launch Complex 40,Starlink Group 5-5,LEO,Falcon 9,2023,2023-03
+2023-03-17 23:38:00+00:00,Success,Space Launch Complex 40,SES-18 & SES-19,GTO,Falcon 9,2023,2023-03
+2023-03-17 19:26:40+00:00,Success,Space Launch Complex 4E,Starlink Group 2-8,LEO,Falcon 9,2023,2023-03
+2023-03-15 00:30:42+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-27,LEO,Falcon 9,2023,2023-03
+2023-03-09 19:13:28+00:00,Success,Space Launch Complex 40,OneWeb 17,PO,Falcon 9,2023,2023-03
+2023-03-03 18:38:50+00:00,Success,Space Launch Complex 4E,Starlink Group 2-7,LEO,Falcon 9,2023,2023-03
+2023-03-02 05:34:14+00:00,Success,Launch Complex 39A,Crew-6,LEO,Falcon 9,2023,2023-03
+2023-02-27 23:13:50+00:00,Success,Space Launch Complex 40,Starlink Group 6-1,LEO,Falcon 9,2023,2023-02
+2023-02-18 03:59:00+00:00,Success,Space Launch Complex 40,Inmarsat-6 F2,GTO,Falcon 9,2023,2023-02
+2023-02-17 19:12:20+00:00,Success,Space Launch Complex 4E,Starlink Group 2-5,LEO,Falcon 9,2023,2023-02
+2023-02-12 05:10:10+00:00,Success,Space Launch Complex 40,Starlink Group 5-4,LEO,Falcon 9,2023,2023-02
+2023-02-07 01:32:00+00:00,Success,Space Launch Complex 40,Amazonas Nexus,GTO,Falcon 9,2023,2023-02
+2023-02-02 07:58:20+00:00,Success,Launch Complex 39A,Starlink Group 5-3,LEO,Falcon 9,2023,2023-02
+2023-01-31 16:15:00+00:00,Success,Space Launch Complex 4E,Starlink Group 2-6 & ION SCV009,LEO,Falcon 9,2023,2023-01
+2023-01-26 09:32:20+00:00,Success,Space Launch Complex 40,Starlink Group 5-2,LEO,Falcon 9,2023,2023-01
+2023-01-19 15:43:10+00:00,Success,Space Launch Complex 4E,Starlink Group 2-4,LEO,Falcon 9,2023,2023-01
+2023-01-18 12:24:00+00:00,Success,Space Launch Complex 40,GPS III SV06,MEO,Falcon 9,2023,2023-01
+2023-01-15 22:56:00+00:00,Success,Launch Complex 39A,USSF-67,Direct-GEO,Falcon Heavy,2023,2023-01
+2023-01-10 04:50:00+00:00,Success,Space Launch Complex 40,OneWeb 16,PO,Falcon 9,2023,2023-01
+2023-01-03 14:55:56+00:00,Success,Space Launch Complex 40,Transporter 6 (Dedicated SSO Rideshare),SSO,Falcon 9,2023,2023-01
+2022-12-30 07:38:00+00:00,Success,Space Launch Complex 4E,EROS-C3,LEO,Falcon 9,2022,2022-12
+2022-12-28 09:34:00+00:00,Success,Space Launch Complex 40,Starlink Group 5-1,LEO,Falcon 9,2022,2022-12
+2022-12-17 21:32:00+00:00,Success,Launch Complex 39A,Starlink Group 4-37,LEO,Falcon 9,2022,2022-12
+2022-12-16 22:48:00+00:00,Success,Space Launch Complex 40,O3b mPower 1 & 2,MEO,Falcon 9,2022,2022-12
+2022-12-16 11:46:47+00:00,Success,Space Launch Complex 4E,SWOT (Surface Water and Ocean Topography),LEO,Falcon 9,2022,2022-12
+2022-12-11 07:38:13+00:00,Success,Space Launch Complex 40,Hakuto-R M1 & Lunar Flashlight,LO,Falcon 9,2022,2022-12
+2022-12-08 22:27:48+00:00,Success,Launch Complex 39A,OneWeb 15,PO,Falcon 9,2022,2022-12
+2022-11-26 19:20:43+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-26,LEO,Falcon 9,2022,2022-11
+2022-11-23 02:57:00+00:00,Success,Space Launch Complex 40,Eutelsat 10B,GTO,Falcon 9,2022,2022-11
+2022-11-12 16:06:00+00:00,Success,Space Launch Complex 40,Galaxy 31 & 32,GTO,Falcon 9,2022,2022-11
+2022-11-03 05:22:00+00:00,Success,Space Launch Complex 40,Hotbird 13G,GTO,Falcon 9,2022,2022-11
+2022-11-01 13:41:00+00:00,Success,Launch Complex 39A,USSF-44,Direct-GEO,Falcon Heavy,2022,2022-11
+2022-10-28 01:14:10+00:00,Success,Space Launch Complex 4E,Starlink Group 4-31,LEO,Falcon 9,2022,2022-10
+2022-10-20 14:50:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-36,LEO,Falcon 9,2022,2022-10
+2022-10-15 05:22:00+00:00,Success,Space Launch Complex 40,Hotbird 13F,GTO,Falcon 9,2022,2022-10
+2022-10-08 23:05:00+00:00,Success,Space Launch Complex 40,Galaxy 33 & 34,GTO,Falcon 9,2022,2022-10
+2022-10-05 23:10:30+00:00,Success,Space Launch Complex 4E,Starlink Group 4-29,LEO,Falcon 9,2022,2022-10
+2022-10-05 16:00:57+00:00,Success,Launch Complex 39A,Crew-5,LEO,Falcon 9,2022,2022-10
+2022-09-24 23:32:10+00:00,Success,Space Launch Complex 40,Starlink Group 4-35,LEO,Falcon 9,2022,2022-09
+2022-09-19 00:18:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-34,LEO,Falcon 9,2022,2022-09
+2022-09-11 01:20:00+00:00,Success,Launch Complex 39A,Starlink Group 4-2 & BlueWalker 3,LEO,Falcon 9,2022,2022-09
+2022-09-05 02:09:40+00:00,Success,Space Launch Complex 40,Starlink Group 4-20 & Varuna-TDM,LEO,Falcon 9,2022,2022-09
+2022-08-31 05:40:10+00:00,Success,Space Launch Complex 4E,Starlink Group 3-4,LEO,Falcon 9,2022,2022-08
+2022-08-28 03:41:20+00:00,Success,Space Launch Complex 40,Starlink Group 4-23,LEO,Falcon 9,2022,2022-08
+2022-08-19 19:21:20+00:00,Success,Space Launch Complex 40,Starlink Group 4-27,LEO,Falcon 9,2022,2022-08
+2022-08-12 21:40:20+00:00,Success,Space Launch Complex 4E,Starlink Group 3-3,LEO,Falcon 9,2022,2022-08
+2022-08-10 02:14:00+00:00,Success,Launch Complex 39A,Starlink Group 4-26,LEO,Falcon 9,2022,2022-08
+2022-08-04 23:08:00+00:00,Success,Space Launch Complex 40,Danuri (KPLO - Korean Pathfinder Lunar Orbiter),,Falcon 9,2022,2022-08
+2022-07-24 13:38:00+00:00,Success,Launch Complex 39A,Starlink Group 4-25,LEO,Falcon 9,2022,2022-07
+2022-07-22 17:39:40+00:00,Success,Space Launch Complex 4E,Starlink Group 3-2,LEO,Falcon 9,2022,2022-07
+2022-07-17 14:20:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-22,LEO,Falcon 9,2022,2022-07
+2022-07-15 00:44:20+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-25,LEO,Falcon 9,2022,2022-07
+2022-07-11 01:39:40+00:00,Success,Space Launch Complex 4E,Starlink Group 3-1,LEO,Falcon 9,2022,2022-07
+2022-07-07 13:11:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-21,LEO,Falcon 9,2022,2022-07
+2022-06-29 21:04:00+00:00,Success,Space Launch Complex 40,SES-22,GTO,Falcon 9,2022,2022-06
+2022-06-19 04:27:00+00:00,Success,Space Launch Complex 40,Globalstar-2 FM15 & USA 328-331,LEO,Falcon 9,2022,2022-06
+2022-06-18 14:19:00+00:00,Success,Space Launch Complex 4E,SARah 1,SSO,Falcon 9,2022,2022-06
+2022-06-17 16:09:20+00:00,Success,Launch Complex 39A,Starlink Group 4-19,LEO,Falcon 9,2022,2022-06
+2022-06-08 21:04:00+00:00,Success,Space Launch Complex 40,Nilesat-301,Direct-GEO,Falcon 9,2022,2022-06
+2022-05-25 18:35:00+00:00,Success,Space Launch Complex 40,Transporter 5 (Dedicated SSO Rideshare),SSO,Falcon 9,2022,2022-05
+2022-05-18 10:59:40+00:00,Success,Launch Complex 39A,Starlink Group 4-18,LEO,Falcon 9,2022,2022-05
+2022-05-14 20:40:50+00:00,Success,Space Launch Complex 40,Starlink Group 4-15,LEO,Falcon 9,2022,2022-05
+2022-05-13 22:07:00+00:00,Success,Space Launch Complex 4E,Starlink Group 4-13,LEO,Falcon 9,2022,2022-05
+2022-05-06 09:42:00+00:00,Success,Launch Complex 39A,Starlink Group 4-17,LEO,Falcon 9,2022,2022-05
+2022-04-29 21:27:10+00:00,Success,Space Launch Complex 40,Starlink Group 4-16,LEO,Falcon 9,2022,2022-04
+2022-04-27 07:52:55+00:00,Success,Launch Complex 39A,Crew-4,LEO,Falcon 9,2022,2022-04
+2022-04-21 17:51:40+00:00,Success,Space Launch Complex 40,Starlink Group 4-14,LEO,Falcon 9,2022,2022-04
+2022-04-17 13:13:12+00:00,Success,Space Launch Complex 4E,NROL-85,,Falcon 9,2022,2022-04
+2022-04-08 15:17:11+00:00,Success,Launch Complex 39A,Axiom Space Mission 1,LEO,Falcon 9,2022,2022-04
+2022-04-01 16:24:17+00:00,Success,Space Launch Complex 40,Transporter 4 (Dedicated SSO Rideshare),SSO,Falcon 9,2022,2022-04
+2022-03-19 04:42:30+00:00,Success,Space Launch Complex 40,Starlink Group 4-12,LEO,Falcon 9,2022,2022-03
+2022-03-09 13:45:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-10,LEO,Falcon 9,2022,2022-03
+2022-03-03 14:25:00+00:00,Success,Launch Complex 39A,Starlink Group 4-9,LEO,Falcon 9,2022,2022-03
+2022-02-25 17:12:10+00:00,Success,Space Launch Complex 4E,Starlink Group 4-11,LEO,Falcon 9,2022,2022-02
+2022-02-21 14:44:20+00:00,Success,Space Launch Complex 40,Starlink Group 4-8,LEO,Falcon 9,2022,2022-02
+2022-02-03 18:13:00+00:00,Success,Launch Complex 39A,Starlink Group 4-7,LEO,Falcon 9,2022,2022-02
+2022-02-02 20:27:26+00:00,Success,Space Launch Complex 4E,NROL 87,SSO,Falcon 9,2022,2022-02
+2022-01-31 23:11:14+00:00,Success,Space Launch Complex 40,CSG-2,SSO,Falcon 9,2022,2022-01
+2022-01-19 02:02:40+00:00,Success,Launch Complex 39A,Starlink Group 4-6,LEO,Falcon 9,2022,2022-01
+2022-01-13 15:25:39+00:00,Success,Space Launch Complex 40,Transporter 3 (Dedicated SSO Rideshare),SSO,Falcon 9,2022,2022-01
+2022-01-06 21:49:10+00:00,Success,Launch Complex 39A,Starlink Group 4-5,LEO,Falcon 9,2022,2022-01
+2021-12-21 10:07:08+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-24,LEO,Falcon 9,2021,2021-12
+2021-12-19 03:58:39+00:00,Success,Space Launch Complex 40,Türksat 5B,GTO,Falcon 9,2021,2021-12
+2021-12-18 12:41:40+00:00,Success,Space Launch Complex 4E,Starlink Group 4-4,LEO,Falcon 9,2021,2021-12
+2021-12-09 06:00:00+00:00,Success,Launch Complex 39A,IXPE,LEO,Falcon 9,2021,2021-12
+2021-12-02 23:12:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-3,LEO,Falcon 9,2021,2021-12
+2021-11-24 06:21:02+00:00,Success,Space Launch Complex 4E,Double Asteroid Redirection Test (DART),Helio-N/A,Falcon 9,2021,2021-11
+2021-11-13 12:19:00+00:00,Success,Space Launch Complex 40,Starlink Group 4-1,LEO,Falcon 9,2021,2021-11
+2021-11-11 02:03:31+00:00,Success,Launch Complex 39A,Crew-3,LEO,Falcon 9,2021,2021-11
+2021-09-16 00:02:56+00:00,Success,Launch Complex 39A,Inspiration4,LEO,Falcon 9,2021,2021-09
+2021-09-14 03:55:00+00:00,Success,Space Launch Complex 4E,Starlink Group 2-1,PO,Falcon 9,2021,2021-09
+2021-08-29 07:14:49+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-23,LEO,Falcon 9,2021,2021-08
+2021-06-30 19:31:00+00:00,Success,Space Launch Complex 40,Transporter 2 (Dedicated SSO Rideshare),SSO,Falcon 9,2021,2021-06
+2021-06-17 16:09:35+00:00,Success,Space Launch Complex 40,GPS III SV05,MEO,Falcon 9,2021,2021-06
+2021-06-06 04:26:00+00:00,Success,Space Launch Complex 40,SXM-8,GTO,Falcon 9,2021,2021-06
+2021-06-03 17:29:15+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-22,LEO,Falcon 9,2021,2021-06
+2021-05-26 18:59:00+00:00,Success,Space Launch Complex 40,Starlink 28,LEO,Falcon 9,2021,2021-05
+2021-05-15 22:56:00+00:00,Success,Launch Complex 39A,Starlink 26 & Rideshare,LEO,Falcon 9,2021,2021-05
+2021-05-09 06:42:00+00:00,Success,Space Launch Complex 40,Starlink 27,LEO,Falcon 9,2021,2021-05
+2021-05-04 19:01:00+00:00,Success,Launch Complex 39A,Starlink 25,LEO,Falcon 9,2021,2021-05
+2021-04-29 03:44:00+00:00,Success,Space Launch Complex 40,Starlink 24,LEO,Falcon 9,2021,2021-04
+2021-04-23 09:49:02+00:00,Success,Launch Complex 39A,Crew-2,LEO,Falcon 9,2021,2021-04
+2021-04-07 16:34:00+00:00,Success,Space Launch Complex 40,Starlink 23,LEO,Falcon 9,2021,2021-04
+2021-03-24 08:28:00+00:00,Success,Space Launch Complex 40,Starlink 22,LEO,Falcon 9,2021,2021-03
+2021-03-14 10:01:00+00:00,Success,Launch Complex 39A,Starlink 21,LEO,Falcon 9,2021,2021-03
+2021-03-11 08:13:00+00:00,Success,Space Launch Complex 40,Starlink 20,LEO,Falcon 9,2021,2021-03
+2021-03-04 08:24:00+00:00,Success,Launch Complex 39A,Starlink 17,LEO,Falcon 9,2021,2021-03
+2021-02-16 03:59:00+00:00,Success,Space Launch Complex 40,Starlink 19,LEO,Falcon 9,2021,2021-02
+2021-02-04 06:19:54+00:00,Success,Space Launch Complex 40,Starlink 18,LEO,Falcon 9,2021,2021-02
+2021-01-24 15:00:00+00:00,Success,Space Launch Complex 40,Transporter 1 (Dedicated SSO Rideshare),SSO,Falcon 9,2021,2021-01
+2021-01-20 13:02:00+00:00,Success,Launch Complex 39A,Starlink 16,LEO,Falcon 9,2021,2021-01
+2021-01-08 02:15:00+00:00,Success,Space Launch Complex 40,Türksat 5A,GTO,Falcon 9,2021,2021-01
+2020-12-19 14:00:00+00:00,Success,Launch Complex 39A,NROL-108,LEO,Falcon 9,2020,2020-12
+2020-12-13 17:30:00+00:00,Success,Space Launch Complex 40,SXM-7,GTO,Falcon 9,2020,2020-12
+2020-12-06 16:17:00+00:00,Success,Launch Complex 39A,Dragon CRS-2 SpX-21,LEO,Falcon 9,2020,2020-12
+2020-11-25 02:13:00+00:00,Success,Space Launch Complex 40,Starlink 15,LEO,Falcon 9,2020,2020-11
+2020-11-21 17:17:00+00:00,Success,Space Launch Complex 4E,Sentinel-6 Michael Freilich (Sentinel-6A; Jason-CS),LEO,Falcon 9,2020,2020-11
+2020-11-16 00:27:17+00:00,Success,Launch Complex 39A,Crew-1,LEO,Falcon 9,2020,2020-11
+2020-11-05 23:24:23+00:00,Success,Space Launch Complex 40,"GPS III SV04 ""Sacagawea""",MEO,Falcon 9,2020,2020-11
+2020-10-24 15:31:34+00:00,Success,Space Launch Complex 40,Starlink 14,LEO,Falcon 9,2020,2020-10
+2020-10-18 12:25:57+00:00,Success,Launch Complex 39A,Starlink 13,LEO,Falcon 9,2020,2020-10
+2020-10-06 11:29:34+00:00,Success,Launch Complex 39A,Starlink 12,LEO,Falcon 9,2020,2020-10
+2020-09-03 12:46:00+00:00,Success,Launch Complex 39A,Starlink 11,LEO,Falcon 9,2020,2020-09
+2020-08-30 23:18:00+00:00,Success,Space Launch Complex 40,SAOCOM 1B,SSO,Falcon 9,2020,2020-08
+2020-08-18 14:31:00+00:00,Success,Space Launch Complex 40,Starlink 10,LEO,Falcon 9,2020,2020-08
+2020-08-07 05:12:00+00:00,Success,Launch Complex 39A,Starlink 9,LEO,Falcon 9,2020,2020-08
+2020-07-20 21:30:00+00:00,Success,Space Launch Complex 40,ANASIS-II,GTO,Falcon 9,2020,2020-07
+2020-06-30 20:10:46+00:00,Success,Space Launch Complex 40,"GPS III SV03 ""Columbus""",MEO,Falcon 9,2020,2020-06
+2020-06-13 09:21:00+00:00,Success,Space Launch Complex 40,Starlink 8,LEO,Falcon 9,2020,2020-06
+2020-06-04 01:25:00+00:00,Success,Space Launch Complex 40,Starlink 7,LEO,Falcon 9,2020,2020-06
+2020-05-30 19:22:45+00:00,Success,Launch Complex 39A,SpX-DM2 (Demonstration Mission 2),LEO,Falcon 9,2020,2020-05
+2020-04-22 19:30:00+00:00,Success,Launch Complex 39A,Starlink 6,LEO,Falcon 9,2020,2020-04
+2020-03-18 12:16:39+00:00,Success,Launch Complex 39A,Starlink 5,LEO,Falcon 9,2020,2020-03
+2020-03-07 04:50:31+00:00,Success,Space Launch Complex 40,SpX CRS-20,LEO,Falcon 9,2020,2020-03
+2020-02-17 15:05:55+00:00,Success,Space Launch Complex 40,Starlink 4,LEO,Falcon 9,2020,2020-02
+2020-01-29 14:06:00+00:00,Success,Space Launch Complex 40,Starlink 3,LEO,Falcon 9,2020,2020-01
+2020-01-19 15:30:00+00:00,Success,Launch Complex 39A,Crew Dragon In-Flight Abort Test,Sub,Falcon 9,2020,2020-01
+2020-01-07 02:19:00+00:00,Success,Space Launch Complex 40,Starlink 2,LEO,Falcon 9,2020,2020-01
+2019-12-17 00:10:00+00:00,Success,Space Launch Complex 40,JCSAT-18/KACIFIC-1,,Falcon 9,2019,2019-12
+2019-12-05 17:29:24+00:00,Success,Space Launch Complex 40,SpX CRS-19,LEO,Falcon 9,2019,2019-12
+2019-11-11 14:56:00+00:00,Success,Space Launch Complex 40,Starlink 1,LEO,Falcon 9,2019,2019-11
+2019-08-06 23:23:00+00:00,Success,Space Launch Complex 40,Amos-17,GTO,Falcon 9,2019,2019-08
+2019-07-25 22:01:56+00:00,Success,Space Launch Complex 40,SpX CRS-18,LEO,Falcon 9,2019,2019-07
+2019-06-25 06:30:00+00:00,Success,Launch Complex 39A,STP-2,LEO,Falcon Heavy,2019,2019-06
+2019-06-12 14:17:00+00:00,Success,Space Launch Complex 4E,RADARSAT Constellation,SSO,Falcon 9,2019,2019-06
+2019-05-24 02:30:00+00:00,Success,Space Launch Complex 40,Starlink Demo,LEO,Falcon 9,2019,2019-05
+2019-05-04 06:48:58+00:00,Success,Space Launch Complex 40,SpX CRS-17,LEO,Falcon 9,2019,2019-05
+2019-04-11 22:35:00+00:00,Success,Launch Complex 39A,Arabsat-6A,GTO,Falcon Heavy,2019,2019-04
+2019-03-02 07:49:00+00:00,Success,Launch Complex 39A,SpaceX DM-1 (Demonstration Mission 1),LEO,Falcon 9,2019,2019-03
+2019-02-22 01:45:00+00:00,Success,Space Launch Complex 40,GTO-1 (Beresheet; S5),LO,Falcon 9,2019,2019-02
+2019-01-11 15:31:33+00:00,Success,Space Launch Complex 4E,Iridium-8,PO,Falcon 9,2019,2019-01
+2018-12-23 13:51:00+00:00,Success,Space Launch Complex 40,"GPS III SV01 ""Vespucci""",MEO,Falcon 9,2018,2018-12
+2018-12-05 18:16:16+00:00,Success,Space Launch Complex 40,SpX CRS-16,LEO,Falcon 9,2018,2018-12
+2018-12-03 18:34:05+00:00,Success,Space Launch Complex 4E,Spaceflight SSO-A,SSO,Falcon 9,2018,2018-12
+2018-11-15 20:46:00+00:00,Success,Launch Complex 39A,Es'hail 2,GTO,Falcon 9,2018,2018-11
+2018-10-08 02:21:00+00:00,Success,Space Launch Complex 4E,SAOCOM 1A,SSO,Falcon 9,2018,2018-10
+2018-09-10 04:45:00+00:00,Success,Space Launch Complex 40,Telstar 18 VANTAGE,GTO,Falcon 9,2018,2018-09
+2018-08-07 05:18:00+00:00,Success,Space Launch Complex 40,Merah Putih (Telkom-4),GTO,Falcon 9,2018,2018-08
+2018-07-25 11:39:30+00:00,Success,Space Launch Complex 4E,Iridium-7,LEO,Falcon 9,2018,2018-07
+2018-07-22 05:50:00+00:00,Success,Space Launch Complex 40,Telstar 19 VANTAGE,GTO,Falcon 9,2018,2018-07
+2018-06-29 09:42:41+00:00,Success,Space Launch Complex 40,SpX CRS-15,LEO,Falcon 9,2018,2018-06
+2018-06-04 04:45:00+00:00,Success,Space Launch Complex 40,SES-12,GTO,Falcon 9,2018,2018-06
+2018-05-22 19:47:58+00:00,Success,Space Launch Complex 4E,Iridium-6 & GRACE-FO,LEO,Falcon 9,2018,2018-05
+2018-05-11 20:14:00+00:00,Success,Launch Complex 39A,Bangabandhu-1,GTO,Falcon 9,2018,2018-05
+2018-04-18 22:51:30+00:00,Success,Space Launch Complex 40,TESS (Transiting Exoplanet Survey Satellite),HEO,Falcon 9,2018,2018-04
+2018-04-02 20:30:38+00:00,Success,Space Launch Complex 40,SpX CRS-14,LEO,Falcon 9,2018,2018-04
+2018-03-30 14:13:51+00:00,Success,Space Launch Complex 4E,Iridium-5,LEO,Falcon 9,2018,2018-03
+2018-03-06 05:33:00+00:00,Success,Space Launch Complex 40,Hispasat 30W-6 (Hispasat 1F),GTO,Falcon 9,2018,2018-03
+2018-02-22 14:17:00+00:00,Success,Space Launch Complex 4E,PAZ & Microsat-2a; Microsat-2b,SSO,Falcon 9,2018,2018-02
+2018-02-06 20:45:00+00:00,Success,Launch Complex 39A,Demo Flight 1 (Maiden Flight),Helio-N/A,Falcon Heavy,2018,2018-02
+2018-01-31 21:25:00+00:00,Success,Space Launch Complex 40,GovSat (SES-16),GTO,Falcon 9,2018,2018-01
+2018-01-08 01:00:00+00:00,Success,Space Launch Complex 40,Zuma,LEO,Falcon 9,2018,2018-01
+2017-12-23 01:27:34+00:00,Success,Space Launch Complex 4E,Iridium-4,LEO,Falcon 9,2017,2017-12
+2017-12-15 15:36:09+00:00,Success,Space Launch Complex 40,SpX CRS-13,LEO,Falcon 9,2017,2017-12
+2017-10-30 19:34:00+00:00,Success,Launch Complex 39A,Koreasat 5A,GTO,Falcon 9,2017,2017-10
+2017-10-11 22:53:00+00:00,Success,Launch Complex 39A,Echostar 105/SES-11,GTO,Falcon 9,2017,2017-10
+2017-10-09 12:37:01+00:00,Success,Space Launch Complex 4E,Iridium-3,LEO,Falcon 9,2017,2017-10
+2017-09-07 14:00:00+00:00,Success,Launch Complex 39A,OTV-5 (X-37B),LEO,Falcon 9,2017,2017-09
+2017-08-24 18:51:00+00:00,Success,Space Launch Complex 4E,Formosat 5,SSO,Falcon 9,2017,2017-08
+2017-08-14 16:31:37+00:00,Success,Launch Complex 39A,SpX CRS-12,LEO,Falcon 9,2017,2017-08
+2017-07-05 23:38:00+00:00,Success,Launch Complex 39A,Intelsat 35e,GTO,Falcon 9,2017,2017-07
+2017-06-25 20:25:18+00:00,Success,Space Launch Complex 4E,Iridium-2,LEO,Falcon 9,2017,2017-06
+2017-06-23 19:10:00+00:00,Success,Launch Complex 39A,BulgariaSat-1,GTO,Falcon 9,2017,2017-06
+2017-06-03 21:07:38+00:00,Success,Launch Complex 39A,SpX CRS-11,LEO,Falcon 9,2017,2017-06
+2017-05-15 23:21:00+00:00,Success,Launch Complex 39A,Inmarsat-5 F4,GTO,Falcon 9,2017,2017-05
+2017-05-01 11:15:00+00:00,Success,Launch Complex 39A,NROL-76,LEO,Falcon 9,2017,2017-05
+2017-03-30 22:27:00+00:00,Success,Launch Complex 39A,SES-10,GTO,Falcon 9,2017,2017-03
+2017-03-16 06:00:00+00:00,Success,Launch Complex 39A,Echostar 23,GTO,Falcon 9,2017,2017-03
+2017-02-19 14:39:00+00:00,Success,Launch Complex 39A,SpX CRS-10,LEO,Falcon 9,2017,2017-02
+2017-01-14 17:54:34+00:00,Success,Space Launch Complex 4E,Iridium-1,LEO,Falcon 9,2017,2017-01
+2016-09-03 07:00:00+00:00,Failure,Space Launch Complex 40,Amos 6 (Failure before launch),GTO,Falcon 9,2016,2016-09
+2016-08-14 05:26:00+00:00,Success,Space Launch Complex 40,JCSAT-16,GTO,Falcon 9,2016,2016-08
+2016-07-18 04:45:00+00:00,Success,Space Launch Complex 40,SpX CRS-9,LEO,Falcon 9,2016,2016-07
+2016-06-15 14:29:00+00:00,Success,Space Launch Complex 40,Eutelsat 117 West B & ABS-2A,GTO,Falcon 9,2016,2016-06
+2016-05-27 21:39:00+00:00,Success,Space Launch Complex 40,Thaicom 8,GTO,Falcon 9,2016,2016-05
+2016-05-06 05:21:00+00:00,Success,Space Launch Complex 40,JCSAT-14,GTO,Falcon 9,2016,2016-05
+2016-04-08 20:43:32+00:00,Success,Space Launch Complex 40,SpX CRS-8,LEO,Falcon 9,2016,2016-04
+2016-03-04 23:35:00+00:00,Success,Space Launch Complex 40,SES-9,GTO,Falcon 9,2016,2016-03
+2016-01-17 18:42:18+00:00,Success,Space Launch Complex 4E,Jason 3,LEO,Falcon 9,2016,2016-01
+2015-12-22 01:29:00+00:00,Success,Space Launch Complex 40,Orbcomm OG2 Mission 2,LEO,Falcon 9,2015,2015-12
+2015-06-28 14:21:11+00:00,Failure,Space Launch Complex 40,SpX CRS-7,LEO,Falcon 9,2015,2015-06
+2015-04-27 23:03:00+00:00,Success,Space Launch Complex 40,TurkmenÃ„lem52E/MonacoSAT,GTO,Falcon 9,2015,2015-04
+2015-04-14 20:10:41+00:00,Success,Space Launch Complex 40,SpX CRS-6,LEO,Falcon 9,2015,2015-04
+2015-03-02 03:50:00+00:00,Success,Space Launch Complex 40,Eutelsat 115 West B & ABS-3A,GTO,Falcon 9,2015,2015-03
+2015-02-11 23:03:32+00:00,Success,Space Launch Complex 40,DSCOVR,L1-point,Falcon 9,2015,2015-02
+2015-01-10 09:47:10+00:00,Success,Space Launch Complex 40,SpX CRS-5,LEO,Falcon 9,2015,2015-01
+2014-09-21 05:52:03+00:00,Success,Space Launch Complex 40,SpX CRS-4,LEO,Falcon 9,2014,2014-09
+2014-09-07 05:00:00+00:00,Success,Space Launch Complex 40,AsiaSat 6,GTO,Falcon 9,2014,2014-09
+2014-08-05 08:00:00+00:00,Success,Space Launch Complex 40,AsiaSat 8,GTO,Falcon 9,2014,2014-08
+2014-07-14 15:15:00+00:00,Success,Space Launch Complex 40,Orbcomm OG2 Mission 1,LEO,Falcon 9,2014,2014-07
+2014-04-18 19:25:22+00:00,Success,Space Launch Complex 40,SpX CRS-3,LEO,Falcon 9,2014,2014-04
+2014-01-06 22:06:00+00:00,Success,Space Launch Complex 40,Thaicom-6,GTO,Falcon 9,2014,2014-01
+2013-12-03 21:41:00+00:00,Success,Space Launch Complex 40,SES-8,GTO,Falcon 9,2013,2013-12
+2013-09-29 16:00:00+00:00,Success,Space Launch Complex 4E,CASSIOPE,LEO,Falcon 9,2013,2013-09
+2013-03-01 15:10:13+00:00,Success,Space Launch Complex 40,SpX CRS-2,LEO,Falcon 9,2013,2013-03
+2012-10-08 00:35:07+00:00,Partial Failure,Space Launch Complex 40,SpX CRS-1,LEO,Falcon 9,2012,2012-10
+2012-05-22 07:44:38+00:00,Success,Space Launch Complex 40,SpaceX COTS Demo Flight 2,LEO,Falcon 9,2012,2012-05
+2010-12-08 15:43:00+00:00,Success,Space Launch Complex 40,SpaceX COTS Demo Flight 1,LEO,Falcon 9,2010,2010-12
+2010-06-04 18:45:00+00:00,Success,Space Launch Complex 40,Dragon Spacecraft Qualification Unit (DSQU),LEO,Falcon 9,2010,2010-06
