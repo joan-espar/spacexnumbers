@@ -1,0 +1,94 @@
+{
+    "id": "4a35280f-2665-4d3a-89cc-8d520c72edc0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4a35280f-2665-4d3a-89cc-8d520c72edc0/",
+    "slug": "zhuque-1-weilai-1-future-1",
+    "name": "Zhuque-1 | Weilai-1 (Future-1)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-07-08T08:40:11Z",
+    "net": "2018-10-27T08:00:00Z",
+    "window_end": "2018-10-27T08:57:00Z",
+    "window_start": "2018-10-27T02:27:30Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Attitude control failed after third stage ignition.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 259,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/259/",
+        "name": "LandSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1378,
+        "configuration": {
+            "id": 160,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/160/",
+            "name": "Zhuque-1",
+            "family": "Zhuque",
+            "full_name": "Zhuque-1",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 700,
+        "name": "Weilai-1 (Future-1)",
+        "description": "The satellite is operated by China Central Television (CCTV) and is intended to carry out scientific expermients and perform Earth observation. Weilai-1 is expected to operate in sun-synchronous orbit for two years.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5790,
+    "location_launch_attempt_count": 108,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 84,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

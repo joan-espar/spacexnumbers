@@ -1,0 +1,119 @@
+{
+    "id": "f2d23e54-6aeb-4dcf-88cb-d4e7e458daeb",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f2d23e54-6aeb-4dcf-88cb-d4e7e458daeb/",
+    "slug": "long-march-3b-change-3-yutu",
+    "name": "Long March 3B | Chang'e 3 & Yutu",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:46Z",
+    "net": "2013-12-01T17:30:00Z",
+    "window_end": "2013-12-01T17:30:00Z",
+    "window_start": "2013-12-01T17:30:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1722,
+        "configuration": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/19/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B",
+            "variant": "3B"
+        }
+    },
+    "mission": {
+        "id": 40,
+        "name": "Chang'e 3 & Yutu",
+        "description": "Chang'e 3 is an uncrewed lunar exploration mission consisting of a robotic lander and China's first lunar rover Yutu. The main objective of the mission is to achieve China's first soft landing and roving exploration on the Moon, as well as performing lunar-based astronomical observation and studying lunar topography and geology.",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/18/",
+            "name": "Chinese Lunar Exploration Program",
+            "description": "The Chinese Lunar Exploration Program also known as the Chang'e Project after the Chinese moon goddess Chang'e, is an ongoing series of robotic Moon missions by the China National Space Administration (CNSA). The program incorporates lunar orbiters, landers, rovers and sample return spacecraft, launched using Long March rockets.",
+            "agencies": [
+                {
+                    "id": 17,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                    "name": "China National Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/chinese2520lun_program_20201129190923.png",
+            "start_date": "2003-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Chinese_Lunar_Exploration_Program",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5340,
+    "location_launch_attempt_count": 81,
+    "pad_launch_attempt_count": 54,
+    "agency_launch_attempt_count": 132,
+    "orbital_launch_attempt_count_year": 72,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

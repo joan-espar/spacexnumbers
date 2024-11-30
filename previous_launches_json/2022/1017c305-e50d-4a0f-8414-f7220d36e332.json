@@ -1,0 +1,94 @@
+{
+    "id": "1017c305-e50d-4a0f-8414-f7220d36e332",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1017c305-e50d-4a0f-8414-f7220d36e332/",
+    "slug": "epsilon-raise-3-others",
+    "name": "Epsilon | RAISE-3 & others",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-08-16T06:36:33Z",
+    "net": "2022-10-12T00:50:43Z",
+    "window_end": "2022-10-12T00:55:11Z",
+    "window_start": "2022-10-12T00:50:43Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Flight Termination System activated at T+06:28 after rocket was observed not in correct attitude for normal 2nd/3rd stage separation.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 377,
+        "configuration": {
+            "id": 112,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/112/",
+            "name": "Epsilon",
+            "family": "Epsilon",
+            "full_name": "Epsilon",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6121,
+        "name": "RAISE-3 & others",
+        "description": "RAISE-3 (RApid Innovative payload demonstration Satellite-3) was a satellite for on-orbit demonstrations of 7 demonstration components and equipment selected by public solicitation. The satellite was to be operated in response to requests from the demonstration theme proposers, and will provide experimental data of the demonstration devices and environmental data during the experiments.\r\n\r\nThe launch is also carrying QPS-SAR 3 & 4 radar Earth observation satellites for iQPS, and 5 cubesats for various Japanese institutions & companies.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/epsilon_image_20221009075145.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6317,
+    "location_launch_attempt_count": 43,
+    "pad_launch_attempt_count": 36,
+    "agency_launch_attempt_count": 35,
+    "orbital_launch_attempt_count_year": 135,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

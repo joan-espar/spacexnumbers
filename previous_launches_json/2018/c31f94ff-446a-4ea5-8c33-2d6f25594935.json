@@ -1,0 +1,94 @@
+{
+    "id": "c31f94ff-446a-4ea5-8c33-2d6f25594935",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c31f94ff-446a-4ea5-8c33-2d6f25594935/",
+    "slug": "pslv-ca-sstl-s1-novasar-s",
+    "name": "PSLV-CA | SSTL-S1 & NovaSAR-S",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:28Z",
+    "net": "2018-09-16T16:38:00Z",
+    "window_end": "2018-09-16T20:15:00Z",
+    "window_start": "2018-09-16T16:15:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#PSLVC42",
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2128,
+        "configuration": {
+            "id": 43,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/43/",
+            "name": "PSLV",
+            "family": "PSLV",
+            "full_name": "PSLV-CA",
+            "variant": "CA"
+        }
+    },
+    "mission": {
+        "id": 589,
+        "name": "SSTL-S1 & NovaSAR-S",
+        "description": "The NovaSAR-S spacecraft carries a radar imaging instrument, and the mission was developed in partnership between the British government and the British satellite manufacturer SSTL. The SSTL-S1 satellite, also built by SSTL, is a high-resolution optical Earth observation satellite identical to three DMC3/TripleSat reconnaissance craft launched in 2015. Beijing-based 21AT will lease imaging capacity on the SSTL-S1 satellite. There are also several secondary payloads.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20230730102956.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5777,
+    "location_launch_attempt_count": 66,
+    "pad_launch_attempt_count": 43,
+    "agency_launch_attempt_count": 62,
+    "orbital_launch_attempt_count_year": 71,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

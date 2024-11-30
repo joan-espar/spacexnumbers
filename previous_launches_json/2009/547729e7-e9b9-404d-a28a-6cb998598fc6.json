@@ -1,0 +1,94 @@
+{
+    "id": "547729e7-e9b9-404d-a28a-6cb998598fc6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/547729e7-e9b9-404d-a28a-6cb998598fc6/",
+    "slug": "ares-i-ares-i-x",
+    "name": "Ares I | Ares I-X",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:32:09Z",
+    "net": "2009-09-28T15:30:00Z",
+    "window_end": "2009-09-28T15:30:00Z",
+    "window_start": "2009-09-28T15:30:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1429,
+        "configuration": {
+            "id": 126,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/126/",
+            "name": "Ares I-X",
+            "family": "",
+            "full_name": "Ares I-X",
+            "variant": "I-X"
+        }
+    },
+    "mission": {
+        "id": 415,
+        "name": "Ares I-X",
+        "description": "The Ares I-X vehicle used in the test flight was similar in shape, mass, and size to the planned configuration of later Ares I vehicles, but had largely dissimilar internal hardware consisting of only one powered stage. Ares I vehicles were intended to launch Orion crew exploration vehicles. Along with the Ares V launch system and the Altair lunar lander, Ares I and Orion were part of NASA's Constellation Program, which was developing the spacecraft for U.S. human spaceflight after the Space Shuttle fleet was retired.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 4,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/4/",
+        "agency_id": 44,
+        "name": "Launch Complex 39B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39B",
+        "map_url": "https://www.google.com/maps?q=28.62711233,-80.62101503",
+        "latitude": "28.62711233",
+        "longitude": "-80.62101503",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
+        "total_launch_count": 58,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ares2520i-x_image_20190222030444.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 146,
+    "pad_launch_attempt_count": 57,
+    "agency_launch_attempt_count": 139,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

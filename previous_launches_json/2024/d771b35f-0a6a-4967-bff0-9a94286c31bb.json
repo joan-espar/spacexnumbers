@@ -1,0 +1,99 @@
+{
+    "id": "d771b35f-0a6a-4967-bff0-9a94286c31bb",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/d771b35f-0a6a-4967-bff0-9a94286c31bb/",
+    "slug": "kinetica-1-15-satellites",
+    "name": "Kinetica 1 | 15 satellites",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-11-11T22:41:01Z",
+    "net": "2024-11-11T04:03:00Z",
+    "window_end": "2024-11-11T04:22:00Z",
+    "window_start": "2024-11-11T03:51:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1040,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/1040/",
+        "name": "CAS Space",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8398,
+        "configuration": {
+            "id": 483,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/483/",
+            "name": "Kinetica 1",
+            "family": "",
+            "full_name": "Kinetica 1",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6984,
+        "name": "15 satellites",
+        "description": "Launch of 15 satellites on share-ride to SSO:\r\n\r\n* Shiyan 26 A/B/C\r\n* Jilin-1 High Resolution-05B\r\n* Jilin-1 Platform-02A-03\r\n* Yunyao-1 31-36\r\n* Xiguang-1-04/05\r\n* Tianyan-24\r\n* Omani IRSS-1/OL-1",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 151,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/151/",
+        "agency_id": null,
+        "name": "Launch Area 130",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.8182,100.22514",
+        "latitude": "40.8182",
+        "longitude": "100.22514",
+        "location": {
+            "id": 17,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 235,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_151_20200803143425.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6798,
+    "location_launch_attempt_count": 235,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 209,
+    "location_launch_attempt_count_year": 17,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

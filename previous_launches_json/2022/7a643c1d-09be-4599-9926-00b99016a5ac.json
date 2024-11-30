@@ -1,0 +1,94 @@
+{
+    "id": "7a643c1d-09be-4599-9926-00b99016a5ac",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7a643c1d-09be-4599-9926-00b99016a5ac/",
+    "slug": "kuaizhou-1a-shiyan-14-shiyan-15",
+    "name": "Kuaizhou-1A | Shiyan 14 & Shiyan 15",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-12-25T03:46:26Z",
+    "net": "2022-09-24T22:55:00Z",
+    "window_end": "2022-09-24T23:04:00Z",
+    "window_start": "2022-09-24T22:42:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 184,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/184/",
+        "name": "China Aerospace Science and Industry Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7643,
+        "configuration": {
+            "id": 135,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/135/",
+            "name": "Kuaizhou",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-1A",
+            "variant": "1A"
+        }
+    },
+    "mission": {
+        "id": 6146,
+        "name": "Shiyan 14 & Shiyan 15",
+        "description": "2 Chinese classified satellites.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 158,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/158/",
+        "agency_id": null,
+        "name": "Mobile Launcher Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Taiyuan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=38.890002,111.608129",
+        "latitude": "38.890002",
+        "longitude": "111.608129",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_158_20200803143440.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6304,
+    "location_launch_attempt_count": 110,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 122,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

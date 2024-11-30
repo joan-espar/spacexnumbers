@@ -1,0 +1,94 @@
+{
+    "id": "31a1f461-130a-4706-b034-5916b2884a24",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/31a1f461-130a-4706-b034-5916b2884a24/",
+    "slug": "lambda-4s-ohsumi-4",
+    "name": "Lambda 4S | Ohsumi 4",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-07-07T13:26:53Z",
+    "net": "1969-09-22T02:10:00Z",
+    "window_end": "1969-09-22T02:10:00Z",
+    "window_start": "1969-09-22T02:10:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1009,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1009/",
+        "name": "Institute of Space and Astronautical Science",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3942,
+        "configuration": {
+            "id": 333,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/333/",
+            "name": "Lambda 4S",
+            "family": "",
+            "full_name": "Lambda 4S",
+            "variant": "4S"
+        }
+    },
+    "mission": {
+        "id": 2360,
+        "name": "Ohsumi 4",
+        "description": "Ohsumi was a series of five small satellites built to become the first Japanese satellite on orbit.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 43,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/43/",
+        "agency_id": null,
+        "name": "KS Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2519752,131.0791609",
+        "latitude": "31.2519752",
+        "longitude": "131.0791609",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_43_20200803143309.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1011,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 92,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

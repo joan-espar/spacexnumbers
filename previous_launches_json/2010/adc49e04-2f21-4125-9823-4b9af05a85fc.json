@@ -1,0 +1,85 @@
+{
+    "id": "adc49e04-2f21-4125-9823-4b9af05a85fc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/adc49e04-2f21-4125-9823-4b9af05a85fc/",
+    "slug": "dnepr-1-prisma-mango-prisma-tango-picard-bpa-1",
+    "name": "Dnepr 1 | Prisma-Mango, Prisma-Tango, Picard, BPA-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:47:13Z",
+    "net": "2010-06-15T14:42:21Z",
+    "window_end": "2010-06-15T14:42:21Z",
+    "window_start": "2010-06-15T14:42:21Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 119,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/119/",
+        "name": "ISC Kosmotras",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1466,
+        "configuration": {
+            "id": 31,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/31/",
+            "name": "Dnepr",
+            "family": "",
+            "full_name": "Dnepr 1",
+            "variant": "1"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 183,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/183/",
+        "agency_id": null,
+        "name": "370/13",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Dombarovsky_Air_Base",
+        "map_url": "https://www.google.com/maps?q=51.0938889,59.8400282",
+        "latitude": "51.0938889",
+        "longitude": "59.8400282",
+        "location": {
+            "id": 5,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/5/",
+            "name": "Dombarovskiy, Russian Federation",
+            "country_code": "RUS",
+            "description": "Dombarovsky is a military airbase near Yasny in Russia's Orenburg Oblast. Operated by the Soviet Air Defence Forces and later by the Russian Air Force, it hosted fighter interceptor squadrons and hosts an ICBM base (which has been adapted for commercial satellite launches) with a supporting helicopter base.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_5_20200803142425.jpg",
+            "timezone_name": "Asia/Yekaterinburg",
+            "total_launch_count": 10,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_183_20200803143512.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/dnepr-1_liftoff_image_20240411092543.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5062,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 15,
+    "orbital_launch_attempt_count_year": 5062,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

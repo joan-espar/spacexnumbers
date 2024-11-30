@@ -1,0 +1,94 @@
+{
+    "id": "88d18ceb-2e30-4968-b230-9c8142262e4d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/88d18ceb-2e30-4968-b230-9c8142262e4d/",
+    "slug": "long-march-4b-haiyang-2d",
+    "name": "Long March 4B | Haiyang 2D",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:10Z",
+    "net": "2021-05-19T04:03:00Z",
+    "window_end": "2021-05-19T04:21:00Z",
+    "window_start": "2021-05-19T03:55:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2884,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 1300,
+        "name": "Haiyang 2D",
+        "description": "Haiyang (Chinese: \"Ocean\"), abbreviated HY, is a marine remote sensing satellite series planned by China.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6082,
+    "location_launch_attempt_count": 142,
+    "pad_launch_attempt_count": 76,
+    "agency_launch_attempt_count": 317,
+    "orbital_launch_attempt_count_year": 45,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 13,
+    "type": "normal"
+}

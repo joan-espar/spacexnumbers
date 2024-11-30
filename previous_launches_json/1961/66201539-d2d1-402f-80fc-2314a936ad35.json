@@ -1,0 +1,94 @@
+{
+    "id": "66201539-d2d1-402f-80fc-2314a936ad35",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/66201539-d2d1-402f-80fc-2314a936ad35/",
+    "slug": "blue-scout-jr-blue-scout-jr-o-2",
+    "name": "Blue Scout Jr | Blue Scout Jr. O-2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:29:27Z",
+    "net": "1961-12-04T04:00:16Z",
+    "window_end": "1961-12-04T04:00:16Z",
+    "window_start": "1961-12-04T04:00:16Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3101,
+        "configuration": {
+            "id": 265,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/265/",
+            "name": "Blue Scout Jr",
+            "family": "Blue Scout",
+            "full_name": "Blue Scout Jr",
+            "variant": "Jr"
+        }
+    },
+    "mission": {
+        "id": 1523,
+        "name": "Blue Scout Jr. O-2",
+        "description": "A flight carrying particle detectors. It was the only completely successful flight of the initial Blue Scout Junior program.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 169,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/169/",
+        "agency_id": null,
+        "name": "Launch Complex A",
+        "description": "PALC-A at the Vandenberg Air Force Base, is a launch complex that was used for a number of sounding rocket launches between 1959 and 1966.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/List_of_Vandenberg_Air_Force_Base_launch_facilities",
+        "map_url": "https://www.google.com/maps?q=34.663800,-120.602200",
+        "latitude": "34.6638",
+        "longitude": "-120.6022",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_169_20200803143430.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue_scout_juni_image_20240411084702.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 42,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 69,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 22,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 31,
+    "type": "normal"
+}

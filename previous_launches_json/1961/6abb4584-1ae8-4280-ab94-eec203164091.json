@@ -1,0 +1,119 @@
+{
+    "id": "6abb4584-1ae8-4280-ab94-eec203164091",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6abb4584-1ae8-4280-ab94-eec203164091/",
+    "slug": "vostok-k-vostok-1",
+    "name": "Vostok-K | Vostok 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:38:41Z",
+    "net": "1961-04-12T06:07:00Z",
+    "window_end": "1961-04-12T06:07:00Z",
+    "window_start": "1961-04-12T06:07:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 189,
+        "configuration": {
+            "id": 103,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/103/",
+            "name": "Vostok",
+            "family": "R-7",
+            "full_name": "Vostok-K",
+            "variant": "K"
+        }
+    },
+    "mission": {
+        "id": 774,
+        "name": "Vostok 1",
+        "description": "The first crewed space launch & the first orbital launch. It carried the Soviet cosmonaut Yuri Gagarin who completed 1 orbit before safely re-entering the atmosphere, he ejected from his capsule at an altitude of 7 km in order to parachute safely to the ground. The mission lasted 108 minutes.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vostok_image_20191104130128.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 9,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/9/",
+            "name": "Vostok",
+            "description": "The Vostok programme was a Soviet human spaceflight project to put the first Soviet citizens into low Earth orbit and return them safely. Competing with the United States Project Mercury, it succeeded in placing the first human into space, Yuri Gagarin, in a single orbit in Vostok 1 on April 12, 1961.",
+            "agencies": [
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vostok_program_20210417063956.png",
+            "start_date": "1961-04-12T06:07:00Z",
+            "end_date": "1963-06-19T08:20:00Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Vostok_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 107,
+    "location_launch_attempt_count": 25,
+    "pad_launch_attempt_count": 25,
+    "agency_launch_attempt_count": 25,
+    "orbital_launch_attempt_count_year": 14,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

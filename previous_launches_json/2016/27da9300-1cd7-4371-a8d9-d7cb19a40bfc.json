@@ -1,0 +1,119 @@
+{
+    "id": "27da9300-1cd7-4371-a8d9-d7cb19a40bfc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/27da9300-1cd7-4371-a8d9-d7cb19a40bfc/",
+    "slug": "soyuz-21bfregat-glonass-m-no-53-kosmos-2516",
+    "name": "Soyuz-2.1b/Fregat | Glonass-M No. 53 (Kosmos 2516)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:10:51Z",
+    "net": "2016-05-29T08:44:37Z",
+    "window_end": "2016-05-29T08:44:37Z",
+    "window_start": "2016-05-29T08:44:37Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1929,
+        "configuration": {
+            "id": 42,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/42/",
+            "name": "Soyuz 2.1b/Fregat",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 177,
+        "name": "Glonass-M No. 53 (Kosmos 2516)",
+        "description": "Glonass-M, also known as Uragan-M, are the second generation of Uragan satellite design used for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite weighs 1415 kg, is equipped with 12 L-band antennas, and has an operational lifetime of 7 years.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 85,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/85/",
+        "agency_id": 163,
+        "name": "43/4 (43R)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.92883,40.457098",
+        "latitude": "62.92883",
+        "longitude": "40.457098",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_85_20200803143554.jpg",
+        "total_launch_count": 321,
+        "orbital_launch_attempt_count": 321
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 34,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/34/",
+            "name": "GLONASS",
+            "description": "GLONASS (\u0413\u041b\u041e\u041d\u0410\u0421\u0421, IPA: [\u0261\u026b\u0250\u02c8nas]; Russian: \u0413\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u0430\u044f \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u043f\u0443\u0442\u043d\u0438\u043a\u043e\u0432\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430, tr. Global'naya Navigatsionnaya Sputnikovaya Sistema, lit. 'Global Navigation Satellite System') is a Russian satellite navigation system operating as part of a radionavigation-satellite service. It provides an alternative to Global Positioning System (GPS) and is the second navigational system in operation with global coverage and of comparable precision.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/glonass_program_20240102170258.png",
+            "start_date": "1982-10-12T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.glonass-iac.ru/en/",
+            "wiki_url": "https://en.wikipedia.org/wiki/GLONASS",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5561,
+    "location_launch_attempt_count": 1614,
+    "pad_launch_attempt_count": 287,
+    "agency_launch_attempt_count": 91,
+    "orbital_launch_attempt_count_year": 32,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

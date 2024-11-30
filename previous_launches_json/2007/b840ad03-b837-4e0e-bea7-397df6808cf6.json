@@ -1,0 +1,94 @@
+{
+    "id": "b840ad03-b837-4e0e-bea7-397df6808cf6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b840ad03-b837-4e0e-bea7-397df6808cf6/",
+    "slug": "delta-ii-7925-95-gps-iir-m-4-usa-196",
+    "name": "Delta II 7925-9.5 | GPS IIR-M-4 (USA-196)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:18Z",
+    "net": "2007-10-17T12:23:00Z",
+    "window_end": "2007-10-17T12:23:00Z",
+    "window_start": "2007-10-17T12:23:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1382,
+        "configuration": {
+            "id": 140,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/140/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925-9.5",
+            "variant": "7925-9.5"
+        }
+    },
+    "mission": {
+        "id": 519,
+        "name": "GPS IIR-M-4 (USA-196)",
+        "description": "A satellite forming part of the Global Positioning System.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_ii_7925-9_image_20240312090356.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4867,
+    "location_launch_attempt_count": 651,
+    "pad_launch_attempt_count": 141,
+    "agency_launch_attempt_count": 11,
+    "orbital_launch_attempt_count_year": 50,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

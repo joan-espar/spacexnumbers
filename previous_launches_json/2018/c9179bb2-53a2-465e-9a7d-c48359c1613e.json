@@ -1,0 +1,124 @@
+{
+    "id": "c9179bb2-53a2-465e-9a7d-c48359c1613e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c9179bb2-53a2-465e-9a7d-c48359c1613e/",
+    "slug": "long-march-3b-yz-1-beidou-3-m11-m12",
+    "name": "Long March 3B / YZ-1 | Beidou-3 M11 & M12",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:32:18Z",
+    "net": "2018-08-24T23:52:04Z",
+    "window_end": "2018-08-25T00:50:00Z",
+    "window_start": "2018-08-24T23:08:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2124,
+        "configuration": {
+            "id": 78,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/78/",
+            "name": "Long March 3B/YZ-1",
+            "family": "Long March",
+            "full_name": "Long March 3B/YZ-1",
+            "variant": "B/YZ-1"
+        }
+    },
+    "mission": {
+        "id": 678,
+        "name": "Beidou-3 M11 & M12",
+        "description": "These two satellites will be used to provide global navigation coverage as part of the Chinese Beidou (Compass) satellite navigation system.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 35,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/35/",
+            "name": "BeiDou",
+            "description": "The BeiDou Navigation Satellite System is a satellite-based radio navigation system owned and operated by the China National Space Administration.[4] It is one of the global navigation satellite systems that provide geolocation and time information to a BDS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more BDS satellites.",
+            "agencies": [
+                {
+                    "id": 17,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                    "name": "China National Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/beidou_program_20240102170615.png",
+            "start_date": "2000-10-31T00:00:00Z",
+            "end_date": null,
+            "info_url": "http://en.beidou.gov.cn/",
+            "wiki_url": "https://en.wikipedia.org/wiki/BeiDou",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5773,
+    "location_launch_attempt_count": 119,
+    "pad_launch_attempt_count": 47,
+    "agency_launch_attempt_count": 230,
+    "orbital_launch_attempt_count_year": 67,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 23,
+    "type": "normal"
+}

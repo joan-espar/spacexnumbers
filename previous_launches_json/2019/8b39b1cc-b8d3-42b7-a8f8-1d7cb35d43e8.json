@@ -1,0 +1,94 @@
+{
+    "id": "8b39b1cc-b8d3-42b7-a8f8-1d7cb35d43e8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b39b1cc-b8d3-42b7-a8f8-1d7cb35d43e8/",
+    "slug": "proton-mbriz-m-eutelsat-5-west-b-mev-1",
+    "name": "Proton-M/Briz-M | Eutelsat 5 West B & MEV-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:35:10Z",
+    "net": "2019-10-09T10:17:56Z",
+    "window_end": "2019-10-09T10:17:56Z",
+    "window_start": "2019-10-09T10:17:56Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 118,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/118/",
+        "name": "International Launch Services",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 90,
+        "configuration": {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/22/",
+            "name": "Proton-M Briz-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Briz-M",
+            "variant": "Briz-M"
+        }
+    },
+    "mission": {
+        "id": 1036,
+        "name": "Eutelsat 5 West B & MEV-1",
+        "description": "Eutelsat 5 West B will replace the Ku-band capacity of Eutelsat 5 West A (formerly Stellat 5) satellite, a key digital infrastructure addressing predominantly French, Italian and Algerian broadcast markets. Eutelsat 5 West B will provide business continuity and improved quality for these services via a Ku-band payload. The satellite is built on Orbital ATKs GEOStar-2e bus and carries 35 equivalent 36 MHz Ku-band transponders connected to three service areas. Switchable transponders will also increase commercial flexibility.\n\nCo-passenger on this flight will be provided Northrop Grumman Innovation Systems. MEV-1 (Mission Extension Vehicle-1) incorporates flight-proven technologies the company has used in its commercial satellite and space logistics businesses. After successfully completing a series of in-orbit tests, the MEV-1 will begin its mission extension service for Intelsat-901 satellite in the graveyard orbit. MEV-1 will relocate the satellite scheduled for the mission extension service, which is planned for a five-year period, after which Intelsat 901 will be place back into graveyard orbit. Intelsat will also have the option to service multiple satellites using the same MEV.\n\nMEV-1 is based on the company\u00e2\u20ac\u2122s GEOStar-3 spacecraft bus platform. Controlled by the company\u00e2\u20ac\u2122s satellite operations team, the MEV-1 uses a reliable, low-risk docking system that attaches to existing features on a customer\u00e2\u20ac\u2122s satellite. The MEV-1 provides life-extending services by taking over the propulsion and attitude control functions. The vehicle has a 15-year design life with the ability to perform numerous dockings and undockings during its life span.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 15,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/15/",
+        "agency_id": null,
+        "name": "200/39 (200L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.039984,63.032093",
+        "latitude": "46.039984",
+        "longitude": "63.032093",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_15_20200803143530.jpg",
+        "total_launch_count": 167,
+        "orbital_launch_attempt_count": 167
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m2520briz-m_image_20190224012317.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5892,
+    "location_launch_attempt_count": 1506,
+    "pad_launch_attempt_count": 163,
+    "agency_launch_attempt_count": 42,
+    "orbital_launch_attempt_count_year": 72,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

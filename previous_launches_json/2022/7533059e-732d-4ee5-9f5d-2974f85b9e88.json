@@ -1,0 +1,94 @@
+{
+    "id": "7533059e-732d-4ee5-9f5d-2974f85b9e88",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7533059e-732d-4ee5-9f5d-2974f85b9e88/",
+    "slug": "black-brant-ix-xqc",
+    "name": "Black Brant IX | XQC",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:31:06Z",
+    "net": "2022-06-26T14:30:00Z",
+    "window_end": "2022-06-26T16:14:00Z",
+    "window_start": "2022-06-26T13:14:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1038,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1038/",
+        "name": "Equatorial Launch Australia",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7610,
+        "configuration": {
+            "id": 481,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/481/",
+            "name": "Black Brant IX",
+            "family": "",
+            "full_name": "Black Brant IX",
+            "variant": "IX"
+        }
+    },
+    "mission": {
+        "id": 6096,
+        "name": "XQC",
+        "description": "The X-ray Quantum Calorimeter Experiment (XQC) is a payload from the University of Wisconsin. Its objective is to measure X-rays with unprecedented precision to better understand the interstellar medium and its influence on the structure and evolution of galaxies and stars.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 202,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/202/",
+        "agency_id": 1038,
+        "name": "Suborbital Launch Ramp",
+        "description": null,
+        "info_url": "https://ela.space/arnhem-space-centre/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arnhem_Land#Economy",
+        "map_url": "https://www.google.com/maps?q=-12.3892948,136.7903215",
+        "latitude": "-12.3892948",
+        "longitude": "136.7903215",
+        "location": {
+            "id": 160,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/160/",
+            "name": "Arnhem Space Centre",
+            "country_code": "AUS",
+            "description": "The Arnhem Space Centre is Australia's first commercial spaceport, located near Nhulunbuy, in Arnhem Land, Australia. It is owned and operated by Equatorial Launch Australia (ELA), and it is the site of NASA's first non-orbital sounding rocket launch from a commercial port outside the United States on 27 June 2022.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_arnhem_space_centre_20220622160552.jpg",
+            "timezone_name": "Australia/Darwin",
+            "total_launch_count": 3,
+            "total_landing_count": 0
+        },
+        "country_code": "AUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_suborbital_launch_ramp_20220625184504.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/black_brant_ix_image_20220625190201.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

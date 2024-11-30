@@ -1,0 +1,94 @@
+{
+    "id": "d08f82c9-efa1-44a8-9004-2fb3305f828a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d08f82c9-efa1-44a8-9004-2fb3305f828a/",
+    "slug": "astra-rocket-3-stp-27ad2",
+    "name": "Astra Rocket 3 | STP-27AD2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:20:31Z",
+    "net": "2021-11-20T06:16:00Z",
+    "window_end": "2021-11-20T08:30:00Z",
+    "window_start": "2021-11-20T05:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 285,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/285/",
+        "name": "Astra Space",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7476,
+        "configuration": {
+            "id": 213,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/213/",
+            "name": "Astra Rocket 3",
+            "family": "Astra Rocket",
+            "full_name": "Astra Rocket 3",
+            "variant": "3"
+        }
+    },
+    "mission": {
+        "id": 5876,
+        "name": "STP-27AD2",
+        "description": "Space Force test payload contracted through the Defense Innovation Unit\u2019s Other Transaction Agreement with Astra Space.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 114,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/114/",
+        "agency_id": null,
+        "name": "Launch Pad 3B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Pacific_Spaceport_Complex_%E2%80%93_Alaska",
+        "map_url": "https://www.google.com/maps?q=57.430673,-152.353077",
+        "latitude": "57.430673",
+        "longitude": "-152.353077",
+        "location": {
+            "id": 25,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/25/",
+            "name": "Pacific Spaceport Complex, Alaska, USA",
+            "country_code": "USA",
+            "description": "The Pacific Spaceport Complex \u2013 Alaska (PSCA), formerly known as the Kodiak Launch Complex (KLC), is a dual-use commercial and military spaceport for sub-orbital and orbital launch vehicles. The facility is owned and operated by the Alaska Aerospace Corporation, a corporation owned by the Government of Alaska, and is located on Kodiak Island in Alaska.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_25_20200803142500.jpg",
+            "timezone_name": "America/Anchorage",
+            "total_launch_count": 9,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_114_20200803145248.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_3_image_20211012141057.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6153,
+    "location_launch_attempt_count": 7,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 116,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,124 @@
+{
+    "id": "aed6a40f-012e-4b97-b701-d7a8c73edcfd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/aed6a40f-012e-4b97-b701-d7a8c73edcfd/",
+    "slug": "long-march-8-queqiao-2",
+    "name": "Long March 8 | Queqiao-2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:33:16Z",
+    "net": "2024-03-20T00:31:28Z",
+    "window_end": "2024-03-20T02:16:00Z",
+    "window_start": "2024-03-20T00:21:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7839,
+        "configuration": {
+            "id": 462,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/462/",
+            "name": "Long March 8",
+            "family": "Long March",
+            "full_name": "Long March 8",
+            "variant": "8"
+        }
+    },
+    "mission": {
+        "id": 6346,
+        "name": "Queqiao-2",
+        "description": "Queqiao-2 is a Chinese artificial satellite to serve as a communications relay for future Chinese lunar far side missions that cannot communicate directly with the Earth, beginning with the Chang'e 6 lunar sample return mission in 2024.\r\n\r\nIt will operate from a Distant Retrograde Orbit (DRO) of the Moon.\r\n\r\nThe launch also carries the Tiandu-1 & 2 small satellites testing cis-lunar space navigation and inter-satellite communication techniques for CNSA\u2019s Deep Space Exploration Laboratory (DSEL).",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 32,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 20
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240320175819.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/18/",
+            "name": "Chinese Lunar Exploration Program",
+            "description": "The Chinese Lunar Exploration Program also known as the Chang'e Project after the Chinese moon goddess Chang'e, is an ongoing series of robotic Moon missions by the China National Space Administration (CNSA). The program incorporates lunar orbiters, landers, rovers and sample return spacecraft, launched using Long March rockets.",
+            "agencies": [
+                {
+                    "id": 17,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                    "name": "China National Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/chinese2520lun_program_20201129190923.png",
+            "start_date": "2003-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Chinese_Lunar_Exploration_Program",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6641,
+    "location_launch_attempt_count": 28,
+    "pad_launch_attempt_count": 17,
+    "agency_launch_attempt_count": 459,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "40b7cb3e-4418-4cdf-a274-d01709706b86",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/40b7cb3e-4418-4cdf-a274-d01709706b86/",
+    "slug": "angara-12-kosmos-2577-2578",
+    "name": "Angara 1.2 | Kosmos 2577 & 2578",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-17T15:51:45Z",
+    "net": "2024-09-17T07:01:00Z",
+    "window_end": "2024-09-17T09:00:00Z",
+    "window_start": "2024-09-17T07:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8320,
+        "configuration": {
+            "id": 136,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/136/",
+            "name": "Angara 1.2",
+            "family": "Angara",
+            "full_name": "Angara 1.2",
+            "variant": "1.2"
+        }
+    },
+    "mission": {
+        "id": 6901,
+        "name": "Kosmos 2577 & 2578",
+        "description": "2 Russian military satellites of unknown identities.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 42,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/42/",
+        "agency_id": 163,
+        "name": "35/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome_Site_35",
+        "map_url": "https://www.google.com/maps?q=62.927319,40.574897",
+        "latitude": "62.927319",
+        "longitude": "40.574897",
+        "location": {
+            "id": 6,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_42_20200803143543.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6759,
+    "location_launch_attempt_count": 1669,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 195,
+    "orbital_launch_attempt_count_year": 170,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

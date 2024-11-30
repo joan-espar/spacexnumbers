@@ -1,0 +1,94 @@
+{
+    "id": "7df36bc5-9d8d-4e69-916a-7261db021967",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7df36bc5-9d8d-4e69-916a-7261db021967/",
+    "slug": "vls-1-saci-2",
+    "name": "VLS-1 | SACI-2",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:25:22Z",
+    "net": "1999-12-11T18:25:00Z",
+    "window_end": "1999-12-11T18:25:00Z",
+    "window_start": "1999-12-11T18:25:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 12,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/12/",
+        "name": "Brazilian Space Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6957,
+        "configuration": {
+            "id": 448,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/448/",
+            "name": "VLS-1",
+            "family": "",
+            "full_name": "VLS-1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 5346,
+        "name": "SACI-2",
+        "description": "SACI 2 (Sat\u00e9lite Cient\u00edfico 2) is a 60 kg scientific satellite (Scientific Applications Satellite) launched on the 11th December 1999 on the second flight of the Brazilian VLS-1. Failure of the launcher second stage prevented it from reaching orbit.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 146,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/146/",
+        "agency_id": null,
+        "name": "VLS Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Alc%C3%A2ntara_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=-2.3177,-44.369984",
+        "latitude": "-2.3177",
+        "longitude": "-44.369984",
+        "location": {
+            "id": 150,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/150/",
+            "name": "Alc\u00e2ntara Space Center, Federative Republic of Brazil",
+            "country_code": "BRA",
+            "description": "The Alc\u00e2ntara Space Center, formerly known as Alc\u00e2ntara Launch Center is a space center and launching facility of the Brazilian Space Agency in the city of Alc\u00e2ntara, located on Brazil's northern Atlantic coast, in the state of Maranh\u00e3o.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_150_20200803142405.jpg",
+            "timezone_name": "America/Fortaleza",
+            "total_launch_count": 2,
+            "total_landing_count": 0
+        },
+        "country_code": "BRA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_146_20200803143337.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4360,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 71,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

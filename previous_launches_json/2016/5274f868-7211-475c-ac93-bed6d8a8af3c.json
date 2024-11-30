@@ -1,0 +1,94 @@
+{
+    "id": "5274f868-7211-475c-ac93-bed6d8a8af3c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5274f868-7211-475c-ac93-bed6d8a8af3c/",
+    "slug": "long-march-2d-shijian-10",
+    "name": "Long March 2D | Shijian 10",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:06Z",
+    "net": "2016-04-05T17:38:04Z",
+    "window_end": "2016-04-05T17:38:04Z",
+    "window_start": "2016-04-05T17:38:04Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1920,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 117,
+        "name": "Shijian-10",
+        "description": "Shijian-10 is a retrievable satellite that will perform 19 experiments in low earth orbit over 15 days before returning to earth. The experiments onboard include the Soret Coefficient in Crude Oil (SCCO) experiments, as well as experiments on radiation, combustion, and biology. Due to the short lifespan and retrievable design the craft will not be encapsulated within a fairing and will be powered by chemical batteries instead of solar panels.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5552,
+    "location_launch_attempt_count": 83,
+    "pad_launch_attempt_count": 41,
+    "agency_launch_attempt_count": 172,
+    "orbital_launch_attempt_count_year": 23,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

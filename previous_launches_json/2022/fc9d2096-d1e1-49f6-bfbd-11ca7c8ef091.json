@@ -1,0 +1,94 @@
+{
+    "id": "fc9d2096-d1e1-49f6-bfbd-11ca7c8ef091",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fc9d2096-d1e1-49f6-bfbd-11ca7c8ef091/",
+    "slug": "long-march-11-shiyan-21",
+    "name": "Long March 11 | Shiyan 21",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:30:30Z",
+    "net": "2022-12-16T06:17:00Z",
+    "window_end": "2022-12-16T08:05:00Z",
+    "window_start": "2022-12-16T05:50:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7732,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 6252,
+        "name": "Shiyan 21",
+        "description": "Chinese classified satellite of unknown purposes.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 157,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/157/",
+        "agency_id": null,
+        "name": "Mobile Launcher Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.242774,102.032944",
+        "latitude": "28.242774",
+        "longitude": "102.032944",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_157_20200803143359.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6360,
+    "location_launch_attempt_count": 182,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 403,
+    "orbital_launch_attempt_count_year": 178,
+    "location_launch_attempt_count_year": 15,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 51,
+    "type": "normal"
+}

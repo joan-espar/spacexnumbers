@@ -1,0 +1,94 @@
+{
+    "id": "23bf399a-fae9-412b-affc-9d165dbd69c0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/23bf399a-fae9-412b-affc-9d165dbd69c0/",
+    "slug": "minotaur-i-ors-1-usa-231",
+    "name": "Minotaur I | ORS-1 (USA-231)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:49Z",
+    "net": "2011-06-30T03:09:00Z",
+    "window_end": "2011-06-30T03:09:00Z",
+    "window_start": "2011-06-30T03:09:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1532,
+        "configuration": {
+            "id": 175,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/175/",
+            "name": "Minotaur I",
+            "family": "Minotaur",
+            "full_name": "Minotaur I",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 406,
+        "name": "ORS-1 (USA-231)",
+        "description": "ORS-1 satellite is designed to provide orbital space imagery of Southwest Asia and to enhance battlespace awareness to operational field commanders.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 56,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/56/",
+        "agency_id": 44,
+        "name": "Launch Area 0 B",
+        "description": "LP-0B became operational in 1999,and was subsequently upgraded in 2003 with the construction of a mobile service tower, which was completed in 2004. It is active, and is currently used by Northrop Grumman Minotaur rockets. The first launch from LP-0B was of a Minotaur I in December 2006, and was the first launch from the Mid-Atlantic Regional Spaceport.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Regional_Spaceport_Launch_Pad_0#Pad-0B",
+        "map_url": "https://www.google.com/maps?q=37.831,-75.4911",
+        "latitude": "37.831",
+        "longitude": "-75.4911",
+        "location": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+            "name": "Wallops Flight Facility, Virginia, USA",
+            "country_code": "USA",
+            "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 79,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_56_20200803143541.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/minotaur2520i_image_20190224012247.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5136,
+    "location_launch_attempt_count": 52,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 62,
+    "orbital_launch_attempt_count_year": 30,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

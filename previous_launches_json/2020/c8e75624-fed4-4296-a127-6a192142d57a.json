@@ -1,0 +1,94 @@
+{
+    "id": "c8e75624-fed4-4296-a127-6a192142d57a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c8e75624-fed4-4296-a127-6a192142d57a/",
+    "slug": "long-march-3b-tiantong-1-02",
+    "name": "Long March 3B | Tiantong-1-02",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:47Z",
+    "net": "2020-11-12T15:59:04Z",
+    "window_end": "2020-11-12T17:10:00Z",
+    "window_start": "2020-11-12T15:51:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2807,
+        "configuration": {
+            "id": 50,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/50/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B/E",
+            "variant": "B/E"
+        }
+    },
+    "mission": {
+        "id": 1207,
+        "name": "Tiantong-1-02",
+        "description": "Designed by the CAST Institute (China Academy of Space Technology), a subsidiary of the Chinese aerospace group CASC and specialized in spacecraft design, the Tiantong-1 02 satellite will be operated by China Satellite Communications Co. Ltd, another CASC subsidiary which owns about ten communication satellites such as the ChinaStar and APStar.\r\n\r\nTiantong-1 02 is the second satellite of China's first mobile communication network.\r\n\r\nIt uses a Chinese DFH-4 satellite platform, and, according to its manufacturer CAST, has the highest payload mass utilization rate compared to other satellites of the same family.\r\n\r\nThe project was launched in 2010 following the 2008 earthquake in Sichuan, where almost all ground communication networks were paralyzed. China had no mobile communication satellites at the time, so it had to lease services from foreign countries, such as Inmarsat in Europe, for its rescue teams.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6012,
+    "location_launch_attempt_count": 149,
+    "pad_launch_attempt_count": 89,
+    "agency_launch_attempt_count": 299,
+    "orbital_launch_attempt_count_year": 90,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 29,
+    "type": "normal"
+}

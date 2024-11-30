@@ -1,0 +1,99 @@
+{
+    "id": "6cce14a8-f7ac-4a7c-a60e-4aa0ac76ff64",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6cce14a8-f7ac-4a7c-a60e-4aa0ac76ff64/",
+    "slug": "long-march-2d-gaofen-9-05",
+    "name": "Long March 2D | Gaofen-9-05",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:32:29Z",
+    "net": "2020-08-23T02:27:04Z",
+    "window_end": "2020-08-23T02:43:00Z",
+    "window_start": "2020-08-23T02:19:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2749,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 1148,
+        "name": "Gaofen-9-05",
+        "description": "Gaofen is a series of civilian Earth observation satellites developed and launched for the China High-definition Earth Observation System (CHEOS), a state-sponsored programme aimed to develop a near-real time, all-weather, global surveillance network consisting of satellite, near-space (stratosphere) airships, and aerial observation platforms.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5986,
+    "location_launch_attempt_count": 130,
+    "pad_launch_attempt_count": 68,
+    "agency_launch_attempt_count": 290,
+    "orbital_launch_attempt_count_year": 64,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 20,
+    "type": "normal"
+}

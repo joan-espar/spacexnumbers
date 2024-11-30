@@ -1,0 +1,119 @@
+{
+    "id": "e0ac135c-0ca2-453c-b1e8-7de0750db985",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e0ac135c-0ca2-453c-b1e8-7de0750db985/",
+    "slug": "long-march-3c-beidou-2-g7",
+    "name": "Long March 3C | Beidou-2 G7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T06:15:58Z",
+    "net": "2016-06-12T15:30:00Z",
+    "window_end": "2016-06-12T16:10:00Z",
+    "window_start": "2016-06-12T15:30:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1934,
+        "configuration": {
+            "id": 90,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/90/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 209,
+        "name": "Beidou-2 G7",
+        "description": "Navigation satellite for China's BeiDou navigation satellite constellation.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 35,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/35/",
+            "name": "BeiDou",
+            "description": "The BeiDou Navigation Satellite System is a satellite-based radio navigation system owned and operated by the China National Space Administration.[4] It is one of the global navigation satellite systems that provide geolocation and time information to a BDS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more BDS satellites.",
+            "agencies": [
+                {
+                    "id": 17,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                    "name": "China National Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/beidou_program_20240102170615.png",
+            "start_date": "2000-10-31T00:00:00Z",
+            "end_date": null,
+            "info_url": "http://en.beidou.gov.cn/",
+            "wiki_url": "https://en.wikipedia.org/wiki/BeiDou",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5566,
+    "location_launch_attempt_count": 97,
+    "pad_launch_attempt_count": 33,
+    "agency_launch_attempt_count": 175,
+    "orbital_launch_attempt_count_year": 37,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

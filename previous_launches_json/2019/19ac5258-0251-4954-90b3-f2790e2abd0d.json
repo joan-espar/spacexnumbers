@@ -1,0 +1,94 @@
+{
+    "id": "19ac5258-0251-4954-90b3-f2790e2abd0d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/19ac5258-0251-4954-90b3-f2790e2abd0d/",
+    "slug": "ariane-5-eca-eutelsat-7c-att-t-16",
+    "name": "Ariane 5 ECA | Eutelsat 7C & AT&T T-16",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:25Z",
+    "net": "2019-06-20T21:43:00Z",
+    "window_end": "2019-06-20T23:30:00Z",
+    "window_start": "2019-06-20T21:43:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#VA248",
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 66,
+        "configuration": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/20/",
+            "name": "Ariane 5 ECA",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA",
+            "variant": "ECA"
+        }
+    },
+    "mission": {
+        "id": 1005,
+        "name": "Eutelsat 7C & AT&T T-16",
+        "description": "Eutelsat 7C is based on an all-electric propulsion version of the SSL-1300 satellite platform. Equipped with 44 operational Ku-band transponders, the new satellite will be copositioned with Eutelsat 7B, releasing Eutelsat 7A to another orbital location. This improved two-satellite constellation will enable Eutelsat to optimise resources across both satellites, with enhanced coverage flexibility and connectivity set to take the 7\u00c2\u00b0 East neighbourhood to a new level. By almost doubling capacity over Sub-Saharan Africa, from 22 to 42 transponders, it will also make room for several hundred additional digital channels to support the region\u00e2\u20ac\u2122s fast expanding TV market. Eutelsat 7C will also be equipped with a beam providing enhanced capacity for government services over Europe, the Middle East and Central Asia, and a beam that can be steered to cover any region visible from 7\u00c2\u00b0 East.\n\nAT&T T-16 is based on Astrium\u00e2\u20ac\u2122s Eurostar-3000 platform. The satellite has a payload comprising of high power transponders in Ku-band and transponders in Ka-band. It will operate from 100.85\u00c2\u00b0 West.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5858,
+    "location_launch_attempt_count": 293,
+    "pad_launch_attempt_count": 105,
+    "agency_launch_attempt_count": 278,
+    "orbital_launch_attempt_count_year": 38,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

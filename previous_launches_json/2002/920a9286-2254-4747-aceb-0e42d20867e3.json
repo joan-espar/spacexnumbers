@@ -1,0 +1,94 @@
+{
+    "id": "920a9286-2254-4747-aceb-0e42d20867e3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/920a9286-2254-4747-aceb-0e42d20867e3/",
+    "slug": "long-march-4b-zi-yuan-2-02-xing",
+    "name": "Long March 4B | Zi Yuan-2 02 xing",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:49:01Z",
+    "net": "2002-10-27T03:17:00Z",
+    "window_end": "2002-10-27T03:17:00Z",
+    "window_start": "2002-10-27T03:17:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7109,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 5498,
+        "name": "Zi Yuan-2 02 xing",
+        "description": "JB-3 2 was nominally a Chinese (PRC) remote sensing satellite, although US intelligence sources indicated it had primarily an intelligence imaging mission. JB-3 2 was the name adopted by the USSPACECOM. Most news reports from China and elsewhere use different names: ZY-2B (acronym for ZiYuan-2B, translated as Resource-2B), and Zhong Guo Zi Yuan Er Hao, translated as China Resource 2. No information was available on the instruments onboard the JB-3 2, but officially it was intended 'for territorial survey, environment monitoring and protection, urban planning, crop yield assessment, disaster monitoring, and space scientific experiments'.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 33,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/33/",
+        "agency_id": null,
+        "name": "Launch Complex 7",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8489311,111.6079339",
+        "latitude": "38.8489311",
+        "longitude": "111.6079339",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_33_20200803143335.jpg",
+        "total_launch_count": 32,
+        "orbital_launch_attempt_count": 32
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4562,
+    "location_launch_attempt_count": 15,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 12,
+    "orbital_launch_attempt_count_year": 51,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

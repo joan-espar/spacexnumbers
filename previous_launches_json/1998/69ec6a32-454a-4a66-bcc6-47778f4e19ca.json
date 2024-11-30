@@ -1,0 +1,94 @@
+{
+    "id": "69ec6a32-454a-4a66-bcc6-47778f4e19ca",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69ec6a32-454a-4a66-bcc6-47778f4e19ca/",
+    "slug": "proton-kdm-2m-echostar-iv",
+    "name": "Proton-K/DM-2M | Echostar IV",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:46:14Z",
+    "net": "1998-05-07T23:45:00Z",
+    "window_end": "1998-05-07T23:45:00Z",
+    "window_start": "1998-05-07T23:45:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6854,
+        "configuration": {
+            "id": 350,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/350/",
+            "name": "Proton-K/DM-2M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-K/DM-2M",
+            "variant": "DM-2M"
+        }
+    },
+    "mission": {
+        "id": 5244,
+        "name": "Echostar IV",
+        "description": "Echsostar 4 should have replaced EchoStar 1 at 119\u00b0W which would then have moved to 148\u00b0W (where only 24 transponders have been granted to EchoStar). After launch, the satellite has experienced anomalies in connection with solar panel deployment (two of five panels on one solar array have not unfolded). Therfore several transponders are not operational, so EchoStar 4 did not replace EchoStar 1. In Jul 1999 further anomalies with thermal control and fuel systems were reported. Only 16 transponders are reported to be operational. EchoStar has filled for constructive total loss of the satellite, which was insured for $220 million. In Jun 1999 the FCC approved a move request to 110\u00b0W to allow EchoStar to start broadcasting from there. Earlier the FCC granted to transfer of the 110\u00b0W licence of MCI to EchoStar. During May 1999, EchoStar IV experienced anomalies affecting transponders, heating systems and the fuel system. In July 1999, additional fuel system anomalies were confirmed. By 31 October 2000, a total of 26 transponders of 44 aboard failed and by 30 June 2002, 38 transponders had failed. Only six transponders were available for use at this time. Currently the satellite functions as an in-orbit spare. In September 2004, the jammed solar array deployed spontaneously.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/31/",
+        "agency_id": null,
+        "name": "81/23 (81L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.073997,62.977999",
+        "latitude": "46.073997",
+        "longitude": "62.977999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_31_20200803143402.jpg",
+        "total_launch_count": 104,
+        "orbital_launch_attempt_count": 104
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4236,
+    "location_launch_attempt_count": 1108,
+    "pad_launch_attempt_count": 79,
+    "agency_launch_attempt_count": 54,
+    "orbital_launch_attempt_count_year": 29,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

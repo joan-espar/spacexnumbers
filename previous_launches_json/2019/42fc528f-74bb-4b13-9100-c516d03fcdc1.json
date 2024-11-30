@@ -1,0 +1,119 @@
+{
+    "id": "42fc528f-74bb-4b13-9100-c516d03fcdc1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/42fc528f-74bb-4b13-9100-c516d03fcdc1/",
+    "slug": "soyuz-stbfregat-oneweb-1-f6",
+    "name": "Soyuz STB/Fregat | OneWeb 1 (F6)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-11T17:18:11Z",
+    "net": "2019-02-27T21:37:00Z",
+    "window_end": "2019-02-27T21:37:00Z",
+    "window_start": "2019-02-27T21:37:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#VS21",
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 86,
+        "configuration": {
+            "id": 171,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/171/",
+            "name": "Soyuz STB",
+            "family": "Soyuz",
+            "full_name": "Soyuz STB Fregat",
+            "variant": "STB/Fregat"
+        }
+    },
+    "mission": {
+        "id": 514,
+        "name": "OneWeb F6",
+        "description": "OneWeb satellite constellation is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 720 microsatellites, around 150 kg each, operating in Ku-band from low Earth orbit. Eventually it can be expanded to include extra 1260 satellites, for a total of 1980.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 81,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/81/",
+        "agency_id": 115,
+        "name": "Soyuz Launch Complex",
+        "description": "The Ensemble de Lancement Soyouz (ELS)  is a launch complex at the Guiana Space Centre in Kourou/Sinnamary, French Guiana. It was used by Soyuz-ST rockets: modified versions of the Soyuz-2 optimised for launch from Kourou under Soyuz at the Guiana Space Centre programme.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Ensemble_de_Lancement_Soyouz",
+        "map_url": "https://www.google.com/maps?q=5.3019,-52.8346",
+        "latitude": "5.3019",
+        "longitude": "-52.8346",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_81_20200803143601.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20210520085936.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/26/",
+            "name": "OneWeb",
+            "description": "Satellite constellation in low Earth orbit that can provide high-speed broadband internet to rural and isolated areas.",
+            "agencies": [
+                {
+                    "id": 1081,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1081/",
+                    "name": "Eutelsat OneWeb",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/oneweb_program_20231228155842.jpeg",
+            "start_date": "2019-02-27T21:37:00Z",
+            "end_date": null,
+            "info_url": "https://oneweb.net/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+            "mission_patches": [],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5832,
+    "location_launch_attempt_count": 290,
+    "pad_launch_attempt_count": 20,
+    "agency_launch_attempt_count": 275,
+    "orbital_launch_attempt_count_year": 12,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "e83eac3f-29eb-4fac-b826-247261bd170d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e83eac3f-29eb-4fac-b826-247261bd170d/",
+    "slug": "juno-ii-pioneer-3",
+    "name": "Juno II | Pioneer 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:44Z",
+    "net": "1958-12-06T05:44:52Z",
+    "window_end": "1958-12-06T05:44:52Z",
+    "window_start": "1958-12-06T05:44:52Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3032,
+        "configuration": {
+            "id": 188,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/188/",
+            "name": "Juno II",
+            "family": "",
+            "full_name": "Juno II",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1454,
+        "name": "Pioneer 3",
+        "description": "Pioneer 3 was a spin-stabilized spacecraft intended as a lunar probe but failed to perform a lunar flyby as planned. Its mission was revised to measure radiation in the outer Van Allen radiation belts.",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+            "id": 9,
+            "name": "Lunar flyby",
+            "abbrev": "Lunar flyby"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 123,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/123/",
+        "agency_id": 161,
+        "name": "Launch Complex 5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_5",
+        "map_url": "https://www.google.com/maps?q=28.43942,-80.573301",
+        "latitude": "28.43942",
+        "longitude": "-80.573301",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_123_20200803143235.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/juno2520ii_image_20191201204701.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 30,
+    "location_launch_attempt_count": 17,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 27,
+    "location_launch_attempt_count_year": 16,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

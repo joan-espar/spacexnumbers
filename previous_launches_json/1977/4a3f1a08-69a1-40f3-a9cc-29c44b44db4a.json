@@ -1,0 +1,94 @@
+{
+    "id": "4a3f1a08-69a1-40f3-a9cc-29c44b44db4a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4a3f1a08-69a1-40f3-a9cc-29c44b44db4a/",
+    "slug": "delta-2313-sirio-1",
+    "name": "Delta 2313 | Sirio 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:53Z",
+    "net": "1977-08-25T23:49:59Z",
+    "window_end": "1977-08-25T23:49:59Z",
+    "window_start": "1977-08-25T23:49:59Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4871,
+        "configuration": {
+            "id": 284,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/284/",
+            "name": "Delta 2313",
+            "family": "Delta",
+            "full_name": "Delta 2313",
+            "variant": "2313"
+        }
+    },
+    "mission": {
+        "id": 3288,
+        "name": "Sirio 1",
+        "description": "The SIRIO satellite is an experimental geostationary artificial telecommunications satellite, the first to be designed and built in Italy.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1998,
+    "location_launch_attempt_count": 329,
+    "pad_launch_attempt_count": 60,
+    "agency_launch_attempt_count": 695,
+    "orbital_launch_attempt_count_year": 83,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 15,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "8b8da7db-8443-4018-8655-33505bf24035",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b8da7db-8443-4018-8655-33505bf24035/",
+    "slug": "titan-iiib-kh-8-6",
+    "name": "Titan IIIB | KH-8 6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:26:24Z",
+    "net": "1967-06-20T16:15:00Z",
+    "window_end": "1967-06-20T16:15:00Z",
+    "window_start": "1967-06-20T16:15:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3677,
+        "configuration": {
+            "id": 438,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/438/",
+            "name": "Titan IIIB",
+            "family": "Titan",
+            "full_name": "Titan IIIB",
+            "variant": "IIIB"
+        }
+    },
+    "mission": {
+        "id": 2095,
+        "name": "KH-8 6",
+        "description": "KH-8 or Gambit-3 was the second generation of Gambit high resolution reconnaissance satellites.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 156,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/156/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4W",
+        "description": "SLC-4W started operations in 1963 as Space Launch Complex 4W, and continued as an operational launch site through 2003. In 2015, SpaceX started conversion of the launch site into Landing Zone LZ-4. Landing operations commenced in 2018 at LZ-4.",
+        "info_url": "http://www.astronautix.com/v/vandenbergslc4w.html",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Air_Force_Base_Space_Launch_Complex_4#SLC-4W",
+        "map_url": "https://www.google.com/maps?q=34.63312,-120.61584",
+        "latitude": "34.63312",
+        "longitude": "-120.61584",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_156_20200803143351.jpg",
+        "total_launch_count": 93,
+        "orbital_launch_attempt_count": 93
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 719,
+    "location_launch_attempt_count": 268,
+    "pad_launch_attempt_count": 18,
+    "agency_launch_attempt_count": 403,
+    "orbital_launch_attempt_count_year": 71,
+    "location_launch_attempt_count_year": 23,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 31,
+    "type": "normal"
+}

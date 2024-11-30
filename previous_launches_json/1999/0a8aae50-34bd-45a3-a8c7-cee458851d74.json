@@ -1,0 +1,94 @@
+{
+    "id": "0a8aae50-34bd-45a3-a8c7-cee458851d74",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0a8aae50-34bd-45a3-a8c7-cee458851d74/",
+    "slug": "ariane-42p-insat-2e",
+    "name": "Ariane 42P | Insat 2E",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:17Z",
+    "net": "1999-04-02T22:03:00Z",
+    "window_end": "1999-04-02T22:03:00Z",
+    "window_start": "1999-04-02T22:03:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6909,
+        "configuration": {
+            "id": 224,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/224/",
+            "name": "Ariane 42P",
+            "family": "Ariane",
+            "full_name": "Ariane 42P",
+            "variant": "42P"
+        }
+    },
+    "mission": {
+        "id": 5299,
+        "name": "Insat 2E",
+        "description": "Insat-2E of the Insat-2 series of satellites built by ISRO, is a multi-purpose satellites for telecommunication, television broadcasting and meteriological services.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane42p_at_el_image_20240310184548.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4305,
+    "location_launch_attempt_count": 126,
+    "pad_launch_attempt_count": 89,
+    "agency_launch_attempt_count": 114,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

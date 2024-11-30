@@ -1,0 +1,119 @@
+{
+    "id": "83d9fc74-71de-4562-b78d-cdb7daffb1b9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/83d9fc74-71de-4562-b78d-cdb7daffb1b9/",
+    "slug": "rokot-briz-km-iridium-97-98",
+    "name": "Rokot / Briz-KM | Iridium 97 & 98",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-12-30T10:30:36Z",
+    "net": "2002-06-20T09:33:46Z",
+    "window_end": "2002-06-20T09:33:46Z",
+    "window_start": "2002-06-20T09:33:46Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/117/",
+        "name": "Eurockot Launch Services",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7094,
+        "configuration": {
+            "id": 40,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/40/",
+            "name": "Rokot/Briz-KM",
+            "family": "Rokot",
+            "full_name": "Rokot/Briz-KM",
+            "variant": "Briz-KM"
+        }
+    },
+    "mission": {
+        "id": 5483,
+        "name": "Iridium 97 & 98",
+        "description": "The Iridium satellite constellation provides L band voice and data information coverage to satellite phones, pagers and integrated transceivers over the entire Earth surface.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 3,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/3/",
+        "agency_id": 163,
+        "name": "133/3 (133L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.886999,40.846984",
+        "latitude": "62.886999",
+        "longitude": "40.846984",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_3_20200803143438.jpg",
+        "total_launch_count": 159,
+        "orbital_launch_attempt_count": 159
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rokot25202f2520briz-km_image_20190224012237.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 28,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/28/",
+            "name": "Iridium Constellation",
+            "description": "The Iridium satellite constellation provides L band voice and data information coverage to satellite phones, satellite messenger communication devices and integrated transceivers.",
+            "agencies": [
+                {
+                    "id": 202,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/202/",
+                    "name": "Iridium Communications",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/iridium2520con_program_20231228184831.jpeg",
+            "start_date": "1997-05-05T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://iridium.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Iridium_satellite_constellation",
+            "mission_patches": [],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4542,
+    "location_launch_attempt_count": 1522,
+    "pad_launch_attempt_count": 131,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 31,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

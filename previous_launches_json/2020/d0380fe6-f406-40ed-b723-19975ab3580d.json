@@ -1,0 +1,94 @@
+{
+    "id": "d0380fe6-f406-40ed-b723-19975ab3580d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d0380fe6-f406-40ed-b723-19975ab3580d/",
+    "slug": "new-shepard-ns-13",
+    "name": "New Shepard | NS-13",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:05:17Z",
+    "net": "2020-10-13T13:37:00Z",
+    "window_end": "2020-10-13T13:37:00Z",
+    "window_start": "2020-10-13T13:37:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 141,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/141/",
+        "name": "Blue Origin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2793,
+        "configuration": {
+            "id": 137,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/137/",
+            "name": "New Shepard",
+            "family": "",
+            "full_name": "New Shepard",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1191,
+        "name": "NS-13",
+        "description": "This will be the 13th New Shepard mission and the 7th consecutive flight for this particular vehicle (a record), demonstrating its operational reusability. \r\n\r\nNew Shepard will fly 12 commercial payloads to space and back on this mission, including the Deorbit, Descent, and Landing Sensor Demonstration with NASA\u2019s Space Technology Mission Directorate under a Tipping Point partnership. This is the first payload to fly mounted on the exterior of a New Shepard booster rather than inside the capsule, opening the door to a wide range of future high-altitude sensing, sampling, and exposure payloads.",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 90,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/90/",
+        "agency_id": 141,
+        "name": "West Texas Suborbital Launch Site/ Corn Ranch",
+        "description": null,
+        "info_url": "http://www.blueorigin.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Corn_Ranch",
+        "map_url": "https://www.google.com/maps?q=31.422878000000000,-104.757121000000000",
+        "latitude": "31.422878",
+        "longitude": "-104.757121",
+        "location": {
+            "id": 29,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/29/",
+            "name": "Corn Ranch, Van Horn, TX, USA",
+            "country_code": "USA",
+            "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 28,
+            "total_landing_count": 28
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_90_20200803143233.jpg",
+        "total_launch_count": 28,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new2520shepard_image_20200922210608.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/new2520shepard_infographic_20200924012314.png",
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 13,
+    "pad_launch_attempt_count": 13,
+    "agency_launch_attempt_count": 13,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

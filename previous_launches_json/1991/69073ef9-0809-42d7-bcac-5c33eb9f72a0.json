@@ -1,0 +1,119 @@
+{
+    "id": "69073ef9-0809-42d7-bcac-5c33eb9f72a0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69073ef9-0809-42d7-bcac-5c33eb9f72a0/",
+    "slug": "space-shuttle-discovery-ov-103-sts-39",
+    "name": "Space Shuttle Discovery / OV-103 | STS-39",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:48:09Z",
+    "net": "1991-04-28T11:33:14Z",
+    "window_end": "1991-04-28T11:33:14Z",
+    "window_start": "1991-04-28T11:33:14Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 192,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/192/",
+        "name": "Lockheed Space Operations Company",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 342,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 715,
+        "name": "STS-39",
+        "description": "STS-39 was the twelfth mission of the Space Shuttle Discovery and its primary purpose was to conduct a variety of payload experiments for the Department of Defence.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3629,
+    "location_launch_attempt_count": 57,
+    "pad_launch_attempt_count": 40,
+    "agency_launch_attempt_count": 31,
+    "orbital_launch_attempt_count_year": 32,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

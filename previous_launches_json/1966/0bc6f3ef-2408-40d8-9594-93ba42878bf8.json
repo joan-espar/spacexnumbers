@@ -1,0 +1,94 @@
+{
+    "id": "0bc6f3ef-2408-40d8-9594-93ba42878bf8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0bc6f3ef-2408-40d8-9594-93ba42878bf8/",
+    "slug": "atlas-slv-3-agena-d-ats-1",
+    "name": "Atlas SLV-3 Agena D | ATS 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:08Z",
+    "net": "1966-12-07T02:12:01Z",
+    "window_end": "1966-12-07T02:12:01Z",
+    "window_start": "1966-12-07T02:12:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3598,
+        "configuration": {
+            "id": 258,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/258/",
+            "name": "Atlas SLV-3 Agena D",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3 Agena D",
+            "variant": "SLV-3 Agena D"
+        }
+    },
+    "mission": {
+        "id": 2017,
+        "name": "ATS 1",
+        "description": "ATS 1 (Applications Technology Satellite) was designed and launched for the purpose of testing new concepts in spacecraft design, propulsion, and stabilization, collecting high-quality cloudcover pictures and relaying processed meteorological data via an earth-synchronous satellite, providing in situ measurements of the aerospace environment, and testing improved communication systems.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 3,
+            "name": "Geosynchronous Orbit",
+            "abbrev": "GSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 99,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/99/",
+        "agency_id": 161,
+        "name": "Launch Complex 12",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_12",
+        "map_url": "https://www.google.com/maps?q=28.480607,-80.541938",
+        "latitude": "28.480607",
+        "longitude": "-80.541938",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_99_20200803143435.jpg",
+        "total_launch_count": 23,
+        "orbital_launch_attempt_count": 21
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 638,
+    "location_launch_attempt_count": 191,
+    "pad_launch_attempt_count": 20,
+    "agency_launch_attempt_count": 367,
+    "orbital_launch_attempt_count_year": 121,
+    "location_launch_attempt_count_year": 32,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 68,
+    "type": "normal"
+}

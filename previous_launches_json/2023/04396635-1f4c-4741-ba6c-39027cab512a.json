@@ -1,0 +1,94 @@
+{
+    "id": "04396635-1f4c-4741-ba6c-39027cab512a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/04396635-1f4c-4741-ba6c-39027cab512a/",
+    "slug": "long-march-7a-shijian-23",
+    "name": "Long March 7A | Shijian 23",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:34:16Z",
+    "net": "2023-01-08T22:00:00Z",
+    "window_end": "2023-01-09T01:15:00Z",
+    "window_start": "2023-01-08T21:50:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7756,
+        "configuration": {
+            "id": 216,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/216/",
+            "name": "Long March 7A",
+            "family": "Long March",
+            "full_name": "Long March 7A",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6273,
+        "name": "Shijian 23",
+        "description": "Shijian 23 is possibly an experimental Chinese High-throughput communication satellite based on the DFH-4E satellite bus; details TBD.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 32,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 20
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907131003.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6370,
+    "location_launch_attempt_count": 22,
+    "pad_launch_attempt_count": 13,
+    "agency_launch_attempt_count": 406,
+    "orbital_launch_attempt_count_year": 2,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

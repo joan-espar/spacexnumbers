@@ -1,0 +1,132 @@
+{
+    "id": "2b04a116-8460-42f9-8d4b-b65c73ed3e49",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2b04a116-8460-42f9-8d4b-b65c73ed3e49/",
+    "slug": "falcon-9-block-5-starlink-13",
+    "name": "Falcon 9 Block 5 | Starlink 13",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:28:50Z",
+    "net": "2020-10-18T12:25:57Z",
+    "window_end": "2020-10-18T12:25:57Z",
+    "window_start": "2020-10-18T12:25:57Z",
+    "net_precision": null,
+    "probability": 70,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2798,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 1197,
+        "name": "Starlink 13",
+        "description": "A batch of 60 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+    "infographic": null,
+    "program": [
+        {
+            "id": 25,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+            "name": "Starlink",
+            "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+            "agencies": [
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+            "start_date": "2018-02-22T14:17:00Z",
+            "end_date": null,
+            "info_url": "https://starlink.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+            "mission_patches": [
+                {
+                    "id": 7,
+                    "name": "Space X Starlink Mission Patch",
+                    "priority": 10,
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+                    "agency": {
+                        "id": 121,
+                        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                        "name": "SpaceX",
+                        "type": "Commercial"
+                    }
+                }
+            ],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6003,
+    "location_launch_attempt_count": 179,
+    "pad_launch_attempt_count": 122,
+    "agency_launch_attempt_count": 108,
+    "orbital_launch_attempt_count_year": 81,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 20,
+    "type": "normal"
+}

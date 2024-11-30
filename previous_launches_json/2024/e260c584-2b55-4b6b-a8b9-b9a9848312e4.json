@@ -1,0 +1,99 @@
+{
+    "id": "e260c584-2b55-4b6b-a8b9-b9a9848312e4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e260c584-2b55-4b6b-a8b9-b9a9848312e4/",
+    "slug": "long-march-6a-yunhai-3-02",
+    "name": "Long March 6A | Yunhai 3-02",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-27T16:43:25Z",
+    "net": "2024-03-26T22:51:00Z",
+    "window_end": "2024-03-26T23:36:00Z",
+    "window_start": "2024-03-26T22:42:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8223,
+        "configuration": {
+            "id": 478,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/478/",
+            "name": "Long March 6A",
+            "family": "Long March",
+            "full_name": "Long March 6A",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6800,
+        "name": "Yunhai 3-02",
+        "description": "Chinese satellite reported for atmospheric/ocean/environmental/spatial parameter research purposes, details TBD.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 200,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/200/",
+        "agency_id": null,
+        "name": "Launch Complex 9A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8583,111.5802",
+        "latitude": "38.8583",
+        "longitude": "111.5802",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_launch_complex_9a_20220330003717.jpg",
+        "total_launch_count": 9,
+        "orbital_launch_attempt_count": 9
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6a_liftoff__image_20240327164317.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6648,
+    "location_launch_attempt_count": 125,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 461,
+    "orbital_launch_attempt_count_year": 59,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

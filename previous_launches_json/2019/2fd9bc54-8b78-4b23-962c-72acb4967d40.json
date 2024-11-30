@@ -1,0 +1,94 @@
+{
+    "id": "2fd9bc54-8b78-4b23-962c-72acb4967d40",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2fd9bc54-8b78-4b23-962c-72acb4967d40/",
+    "slug": "momo-flight-4",
+    "name": "MOMO | Flight 4",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:19:28Z",
+    "net": "2019-07-27T07:20:00Z",
+    "window_end": "2019-07-27T08:20:00Z",
+    "window_start": "2019-07-27T07:20:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Launch anomaly",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1002,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1002/",
+        "name": "Interstellar Technologies",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2501,
+        "configuration": {
+            "id": 198,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/198/",
+            "name": "MOMO v0",
+            "family": "MOMO",
+            "full_name": "MOMO v0",
+            "variant": "v0"
+        }
+    },
+    "mission": {
+        "id": 1020,
+        "name": "Flight 4",
+        "description": "The Momo-4 rocket will carry a research device developed by Kochi University of Technology and release a paper plane in space as part of an experiment proposed by Castem Co., a precision parts manufacturer based in Fukuyama, Hiroshima Prefecture, that provided some of the funding for the project.",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 106,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/106/",
+        "agency_id": 1002,
+        "name": "Launch Complex 0",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Taiki_Aerospace_Research_Field",
+        "map_url": "https://www.google.com/maps?q=42.50000000,143.441389",
+        "latitude": "42.5",
+        "longitude": "143.441389",
+        "location": {
+            "id": 32,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/32/",
+            "name": "Hokkaido Spaceport, Japan",
+            "country_code": "JPN",
+            "description": "Rocket launch pad of Interstellar Technologies, located next to the Taiki Aerospace Research Field.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_32_20200803142407.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_106_20200803143453.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/momo_image_20190705174455.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

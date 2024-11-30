@@ -1,0 +1,94 @@
+{
+    "id": "ad8d7e65-5902-434c-984e-84a7157a82f5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad8d7e65-5902-434c-984e-84a7157a82f5/",
+    "slug": "molniya-m-prognoz-8",
+    "name": "Molniya-M | Prognoz-8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:41:08Z",
+    "net": "1980-12-25T04:02:00Z",
+    "window_end": "1980-12-25T04:02:00Z",
+    "window_start": "1980-12-25T04:02:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5232,
+        "configuration": {
+            "id": 106,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/106/",
+            "name": "Molniya-M",
+            "family": "R-7",
+            "full_name": "Molniya-M 2BL",
+            "variant": "2BL"
+        }
+    },
+    "mission": {
+        "id": 3642,
+        "name": "Prognoz-8",
+        "description": "Prognoz is a series of research satellites to study solar activity and its influence on Earth's magnetosphere and ionosphere.",
+        "launch_designator": null,
+        "type": "Heliophysics",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2389,
+    "location_launch_attempt_count": 577,
+    "pad_launch_attempt_count": 222,
+    "agency_launch_attempt_count": 1449,
+    "orbital_launch_attempt_count_year": 106,
+    "location_launch_attempt_count_year": 23,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 87,
+    "type": "normal"
+}

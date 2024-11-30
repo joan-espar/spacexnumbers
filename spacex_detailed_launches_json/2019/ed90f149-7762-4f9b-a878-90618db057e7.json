@@ -1,0 +1,341 @@
+{
+    "id": "ed90f149-7762-4f9b-a878-90618db057e7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ed90f149-7762-4f9b-a878-90618db057e7/",
+    "slug": "falcon-heavy-arabsat-6a",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Falcon Heavy | Arabsat-6A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T01:16:46Z",
+    "updates": [],
+    "net": "2019-04-11T22:35:00Z",
+    "net_precision": null,
+    "window_end": "2019-04-12T00:31:00Z",
+    "window_start": "2019-04-11T22:35:00Z",
+    "probability": 90,
+    "holdreason": null,
+    "failreason": null,
+    "hashtag": "#ArabSat6A",
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 249,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 110,
+        "consecutive_successful_landings": 118,
+        "successful_landings": 200,
+        "failed_landings": 17,
+        "attempted_landings": 217,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 30,
+        "configuration": {
+            "id": 161,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/161/",
+            "name": "Falcon Heavy",
+            "active": true,
+            "reusable": true,
+            "description": "The Falcon Heavy is a variant of the Falcon 9 full thrust launch vehicle and consists of a standard Falcon 9 rocket core; with two additional boosters derived from the Falcon 9 first stage.",
+            "family": "Falcon",
+            "full_name": "Falcon Heavy",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 249,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 110,
+                "consecutive_successful_landings": 118,
+                "successful_landings": 200,
+                "failed_landings": 17,
+                "attempted_landings": 217,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [],
+            "variant": "Heavy",
+            "alias": "",
+            "min_stage": 3,
+            "max_stage": 3,
+            "length": 70,
+            "diameter": 12.2,
+            "maiden_flight": "2018-02-06",
+            "launch_cost": "90000000",
+            "launch_mass": 1400,
+            "leo_capacity": 63800,
+            "gto_capacity": 26700,
+            "to_thrust": 22819,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
+            "info_url": "http://www.spacex.com/falcon-heavy",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_Heavy",
+            "total_launch_count": 6,
+            "consecutive_successful_launches": 6,
+            "successful_launches": 6,
+            "failed_launches": 0,
+            "pending_launches": 8
+        },
+        "launcher_stage": [
+            {
+                "id": 95,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 64,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/64/",
+                    "details": "Toppled by rough seas and broken in two after safely landing aboard OCISLY",
+                    "flight_proven": true,
+                    "serial_number": "B1055",
+                    "status": "lost",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/64_image_20190420114454.jpeg",
+                    "successful_landings": 1,
+                    "attempted_landings": 1,
+                    "flights": 1,
+                    "last_launch_date": "2019-04-11T22:35:00Z",
+                    "first_launch_date": "2019-04-11T22:35:00Z"
+                },
+                "landing": {
+                    "id": 125,
+                    "attempt": true,
+                    "success": true,
+                    "description": "The center core successfully landed on OCISLY however tipped over due to rough seas.",
+                    "location": {
+                        "id": 1,
+                        "name": "Of Course I Still Love You",
+                        "abbrev": "OCISLY",
+                        "description": "The second ASDS barge; Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                        "location": null,
+                        "successful_landings": 64
+                    },
+                    "type": {
+                        "id": 1,
+                        "name": "Autonomous Spaceport Drone Ship",
+                        "abbrev": "ASDS",
+                        "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge; outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            },
+            {
+                "id": 96,
+                "type": "Strap-On Booster",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 58,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/",
+                    "details": "Stage Expended",
+                    "flight_proven": true,
+                    "serial_number": "B1052",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/58_image_20220202001612.jpeg",
+                    "successful_landings": 7,
+                    "attempted_landings": 7,
+                    "flights": 8,
+                    "last_launch_date": "2023-05-01T00:26:00Z",
+                    "first_launch_date": "2019-04-11T22:35:00Z"
+                },
+                "landing": {
+                    "id": 126,
+                    "attempt": true,
+                    "success": true,
+                    "description": "Specific landing information is not currently known however an RTLS is likely for side boosters.",
+                    "location": {
+                        "id": 4,
+                        "name": "Landing Zone 1",
+                        "abbrev": "LZ-1",
+                        "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                        "location": {
+                            "id": 12,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                            "name": "Cape Canaveral; FL, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                            "timezone_name": "America/New_York",
+                            "total_launch_count": 888,
+                            "total_landing_count": 34
+                        },
+                        "successful_landings": 27
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            },
+            {
+                "id": 97,
+                "type": "Strap-On Booster",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 59,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/59/",
+                    "details": "Stage Expended",
+                    "flight_proven": true,
+                    "serial_number": "B1053",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/59_image_20191115083445.jpeg",
+                    "successful_landings": 2,
+                    "attempted_landings": 2,
+                    "flights": 3,
+                    "last_launch_date": "2023-05-01T00:26:00Z",
+                    "first_launch_date": "2019-04-11T22:35:00Z"
+                },
+                "landing": {
+                    "id": 127,
+                    "attempt": true,
+                    "success": true,
+                    "description": "Specific landing information is not currently known however an RTLS is likely for side boosters.",
+                    "location": {
+                        "id": 5,
+                        "name": "Landing Zone 2",
+                        "abbrev": "LZ-2",
+                        "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                        "location": {
+                            "id": 12,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                            "name": "Cape Canaveral; FL, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                            "timezone_name": "America/New_York",
+                            "total_launch_count": 888,
+                            "total_landing_count": 34
+                        },
+                        "successful_landings": 6
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 977,
+        "name": "Arabsat-6A",
+        "description": "Arabsat-6A is a Saudi Arabian communications satellite to be positioned at 30.5\u00c2\u00b0East orbital slot. Arabsat-6A was built by Lockheed Martin for Arabsat and will deliver TV; internet and mobile phone services to the Middle East, Africa and Europe.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        }
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681;-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 219,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 161,
+        "orbital_launch_attempt_count": 160
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 0,
+            "title": "Arabsat-6A Mission",
+            "description": "SpaceX is targeting Thursday; April 11 for a Falcon Heavy launch of the Arabsat-6A satellite from Launch Complex 39A (LC-39A) at NASA\u2019s Kennedy Space Center ...",
+            "feature_image": "https://i.ytimg.com/vi/TXMGu2d8c8g/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=TXMGu2d8c8g"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5835,
+    "location_launch_attempt_count": 170,
+    "pad_launch_attempt_count": 113,
+    "agency_launch_attempt_count": 77,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 4,
+    "mission_patches": [
+        {
+            "id": 504,
+            "name": "Arabsat-6A Patch",
+            "priority": 10,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/arabsat-6a2520_mission_patch_20211031044127.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ]
+}

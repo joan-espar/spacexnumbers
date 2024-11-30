@@ -1,0 +1,94 @@
+{
+    "id": "13d3216b-5fb4-4a9e-889c-dcda7a7f46cd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/13d3216b-5fb4-4a9e-889c-dcda7a7f46cd/",
+    "slug": "soyuz-21afregat-m-kanopus-v-no3-kanopus-v-no4",
+    "name": "Soyuz 2.1a/Fregat-M | Kanopus-V No.3 & Kanopus-V No.4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:09:16Z",
+    "net": "2018-02-01T02:07:18Z",
+    "window_end": "2018-02-01T02:07:18Z",
+    "window_start": "2018-02-01T02:07:18Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2073,
+        "configuration": {
+            "id": 45,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/45/",
+            "name": "Soyuz 2.1a/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1a Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 447,
+        "name": "Kanopus-V No.3 & Kanopus-V No.4",
+        "description": "Kanopus-V is a series of small remote sensing satellites, dedicated to monitoring manmade and natural emergencies, detecting forest fires and major emissions of atmosphere pollutants. Its other uses are monitoring of agriculture, water and coastal resoures, land use. Each satellite weighs about 500 kg and is placed into sun-synchronous orbit, where it is planned to operate for about 5 years.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 17,
+        "orbital_launch_attempt_count": 17
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5720,
+    "location_launch_attempt_count": 3,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 271,
+    "orbital_launch_attempt_count_year": 14,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

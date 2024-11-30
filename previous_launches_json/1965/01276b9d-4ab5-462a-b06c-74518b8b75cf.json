@@ -1,0 +1,94 @@
+{
+    "id": "01276b9d-4ab5-462a-b06c-74518b8b75cf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/01276b9d-4ab5-462a-b06c-74518b8b75cf/",
+    "slug": "atlas-agena-b-ranger-9",
+    "name": "Atlas Agena B | Ranger 9",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:08Z",
+    "net": "1965-03-21T21:37:02Z",
+    "window_end": "1965-03-21T21:37:02Z",
+    "window_start": "1965-03-21T21:37:02Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3377,
+        "configuration": {
+            "id": 183,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/183/",
+            "name": "Atlas Agena B",
+            "family": "Atlas",
+            "full_name": "Atlas LV-3 Agena B",
+            "variant": "LV-3 Agena B"
+        }
+    },
+    "mission": {
+        "id": 1798,
+        "name": "Ranger 9",
+        "description": "Lunar impactor which successfully reached the surface after transmitting 5,814 photographs.",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+            "id": 10,
+            "name": "Lunar Impactor",
+            "abbrev": "Lunar Impactor"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 99,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/99/",
+        "agency_id": 161,
+        "name": "Launch Complex 12",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_12",
+        "map_url": "https://www.google.com/maps?q=28.480607,-80.541938",
+        "latitude": "28.480607",
+        "longitude": "-80.541938",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_99_20200803143435.jpg",
+        "total_launch_count": 23,
+        "orbital_launch_attempt_count": 21
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 420,
+    "location_launch_attempt_count": 134,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 247,
+    "orbital_launch_attempt_count_year": 27,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 16,
+    "type": "normal"
+}

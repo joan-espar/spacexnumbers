@@ -1,0 +1,94 @@
+{
+    "id": "7bc965d8-9821-472e-aeba-f521ae2c06cf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7bc965d8-9821-472e-aeba-f521ae2c06cf/",
+    "slug": "hyperbola-1-maiden-flight",
+    "name": "Hyperbola-1 | Maiden Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:40:38Z",
+    "net": "2019-07-25T05:00:00Z",
+    "window_end": "2019-07-25T06:21:00Z",
+    "window_start": "2019-07-25T05:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 274,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/274/",
+        "name": "iSpace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2468,
+        "configuration": {
+            "id": 193,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/193/",
+            "name": "Hyperbola-1",
+            "family": "",
+            "full_name": "Hyperbola-1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 1025,
+        "name": "Maiden Flight",
+        "description": "This is the first flight of a small solid fuel rocket designed by iSpace, also known as Beijing Interstellar Glory Space Technology Ltd. It will carry several payloads for commercial customers to LEO.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hyperbola-1_in__image_20240711064715.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/hyperbola-1252_infographic_20200806035208.png",
+    "program": [],
+    "orbital_launch_attempt_count": 5868,
+    "location_launch_attempt_count": 116,
+    "pad_launch_attempt_count": 11,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 48,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

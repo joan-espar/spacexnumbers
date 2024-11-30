@@ -1,0 +1,94 @@
+{
+    "id": "445650f9-daeb-4521-95ab-8197c3b53ffc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/445650f9-daeb-4521-95ab-8197c3b53ffc/",
+    "slug": "long-march-2c-yinhe-1-x6",
+    "name": "Long March 2C | Yinhe-1 (x6)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:56:39Z",
+    "net": "2022-03-05T06:01:00Z",
+    "window_end": "2022-03-05T06:25:00Z",
+    "window_start": "2022-03-05T05:50:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2536,
+        "configuration": {
+            "id": 61,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/61/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 5963,
+        "name": "Yinhe-1 (x6)",
+        "description": "The first flight dedicated to the launch of the Internet constellation of GalaxySpace, a private company, planning the total deployment of more than 1000 satellites in earth orbit. The satellites broadcast in 5G, with a capacity of 10 Gb.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6206,
+    "location_launch_attempt_count": 168,
+    "pad_launch_attempt_count": 69,
+    "agency_launch_attempt_count": 357,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

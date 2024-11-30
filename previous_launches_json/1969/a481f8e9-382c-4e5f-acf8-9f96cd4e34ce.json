@@ -1,0 +1,94 @@
+{
+    "id": "a481f8e9-382c-4e5f-acf8-9f96cd4e34ce",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a481f8e9-382c-4e5f-acf8-9f96cd4e34ce/",
+    "slug": "europa-i-stv-2",
+    "name": "Europa I | STV 2",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:29:58Z",
+    "net": "1969-07-02T22:55:00Z",
+    "window_end": "1969-07-02T22:55:00Z",
+    "window_start": "1969-07-02T22:55:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1015,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1015/",
+        "name": "European Launcher Development Organisation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3919,
+        "configuration": {
+            "id": 316,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/316/",
+            "name": "Europa I",
+            "family": "Europa",
+            "full_name": "Europa I",
+            "variant": "I"
+        }
+    },
+    "mission": {
+        "id": 2337,
+        "name": "STV 2",
+        "description": "STV (Satellite Test Vehicle) was a series of vehicle evaluation payloads built for the test flights of the Europa-1 rocket.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 180,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/180/",
+        "agency_id": null,
+        "name": "Launch Area 6A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/RAAF_Woomera_Range_Complex",
+        "map_url": "https://www.google.com/maps?q=-30.9552778,136.5300282",
+        "latitude": "-30.9552778",
+        "longitude": "136.5300282",
+        "location": {
+            "id": 152,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/152/",
+            "name": "RAAF Woomera Range Complex",
+            "country_code": "AUS",
+            "description": "The RAAF Woomera Range Complex (WRC) is a major Australian military and civil aerospace facility and operation located in South Australia, approximately 450 km (280 mi) north-west of Adelaide. The WRC is operated by the Royal Australian Air Force (RAAF), a Service of the Australian Defence Force (ADF). The complex has a land area of 122,188 km2 (47,177 sq mi) or roughly the size of North Korea or Pennsylvania. The airspace above the area is restricted and controlled by the RAAF for safety and security. The WRC is a highly specialised ADF test and evaluation capability operated by the RAAF for the purposes of testing defence materiel.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_152_20200803142502.jpg",
+            "timezone_name": "Australia/Adelaide",
+            "total_launch_count": 6,
+            "total_landing_count": 0
+        },
+        "country_code": "AUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_180_20200803143508.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/europa_1_on_the_image_20240411115405.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 984,
+    "location_launch_attempt_count": 3,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 65,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

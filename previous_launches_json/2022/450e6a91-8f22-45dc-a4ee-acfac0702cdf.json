@@ -1,0 +1,99 @@
+{
+    "id": "450e6a91-8f22-45dc-a4ee-acfac0702cdf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/450e6a91-8f22-45dc-a4ee-acfac0702cdf/",
+    "slug": "ariane-5-eca-galaxy-35-36-mtg-i1",
+    "name": "Ariane 5 ECA+ | Galaxy 35 & 36, MTG-I1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:14:47Z",
+    "net": "2022-12-13T20:30:07Z",
+    "window_end": "2022-12-13T22:16:00Z",
+    "window_start": "2022-12-13T20:30:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7512,
+        "configuration": {
+            "id": 215,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/215/",
+            "name": "Ariane 5 ECA+",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA+",
+            "variant": "ECA+"
+        }
+    },
+    "mission": {
+        "id": 5922,
+        "name": "Galaxy 35 & 36, MTG-I1",
+        "description": "Galaxy 35, 36 are two geostationary communications satellites operated by Intelsat.\r\nMTG-I1 is the first of EUMETSAT's third generation of weather satellite.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6357,
+    "location_launch_attempt_count": 316,
+    "pad_launch_attempt_count": 116,
+    "agency_launch_attempt_count": 311,
+    "orbital_launch_attempt_count_year": 175,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

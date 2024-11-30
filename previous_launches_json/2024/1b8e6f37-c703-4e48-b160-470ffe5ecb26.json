@@ -1,0 +1,99 @@
+{
+    "id": "1b8e6f37-c703-4e48-b160-470ffe5ecb26",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b8e6f37-c703-4e48-b160-470ffe5ecb26/",
+    "slug": "angara-a5blok-dm-03-vostochny-angara-test-flight",
+    "name": "Angara A5/Blok DM-03 | Vostochny Angara Test Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-04-11T16:19:57Z",
+    "net": "2024-04-11T09:00:00Z",
+    "window_end": "2024-04-11T09:00:00Z",
+    "window_start": "2024-04-11T09:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2543,
+        "configuration": {
+            "id": 196,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/196/",
+            "name": "Angara A5/Blok DM-03",
+            "family": "Angara",
+            "full_name": "Angara A5/Blok DM-03",
+            "variant": "A5/DM-03"
+        }
+    },
+    "mission": {
+        "id": 6652,
+        "name": "Vostochny Angara Test Flight",
+        "description": "First test launch of the Angara A5 launch vehicle from the Vostochny Cosmodrome. The rocket will carry a mass simulator payload.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 108,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/108/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_108_20200803143525.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara_a5_lifto_image_20240411095331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6659,
+    "location_launch_attempt_count": 17,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 194,
+    "orbital_launch_attempt_count_year": 70,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

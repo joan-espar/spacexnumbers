@@ -1,0 +1,99 @@
+{
+    "id": "ce4add79-a6fc-4591-a255-6a763d563f6f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ce4add79-a6fc-4591-a255-6a763d563f6f/",
+    "slug": "vega-lisa-pathfinder",
+    "name": "Vega | LISA Pathfinder",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:40:19Z",
+    "net": "2015-12-03T04:04:01Z",
+    "window_end": "2015-12-03T04:04:01Z",
+    "window_start": "2015-12-03T04:04:01Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1105,
+        "configuration": {
+            "id": 167,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/167/",
+            "name": "Vega",
+            "family": "Vega",
+            "full_name": "Vega",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 814,
+        "name": "LISA Pathfinder",
+        "description": "LISA Pathfinder will pave the way for future missions by testing in flight the very concept of gravitational wave detection: it will put two test masses in a near-perfect gravitational free-fall and control and measure their motion with unprecedented accuracy. LISA Pathfinder will use the latest technology to minimise the extra forces on the test masses, and to take measurements. The inertial sensors, the laser metrology system, the drag-free control system and an ultra-precise micro-propulsion system make this a highly unusual mission.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 5,
+            "name": "Heliocentric L1",
+            "abbrev": "L1-point"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/34/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 1 (ELV)",
+        "description": "ELA-1, now named Ensemble de Lancement Vega (short ELV), is a launch pad at the Centre Spatial Guyanais in French Guiana. It has been used to support launches of the Europa rocket, Ariane 1, Ariane 3, and is currently used to launch Vega rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-1",
+        "map_url": "https://www.google.com/maps?q=5.236,-52.775",
+        "latitude": "5.236",
+        "longitude": "-52.775",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
+        "total_launch_count": 50,
+        "orbital_launch_attempt_count": 50
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega_image_20201111143622.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5516,
+    "location_launch_attempt_count": 254,
+    "pad_launch_attempt_count": 32,
+    "agency_launch_attempt_count": 239,
+    "orbital_launch_attempt_count_year": 74,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

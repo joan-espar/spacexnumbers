@@ -1,0 +1,99 @@
+{
+    "id": "79556b71-ae2d-4cfe-b4e1-76e02359bc26",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/79556b71-ae2d-4cfe-b4e1-76e02359bc26/",
+    "slug": "long-march-11-shiyan-24c",
+    "name": "Long March 11 | Shiyan 24C",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:38:34Z",
+    "net": "2023-12-25T22:39:00Z",
+    "window_end": "2023-12-25T23:05:00Z",
+    "window_start": "2023-12-25T22:20:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8151,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 6712,
+        "name": "Shiyan 24C",
+        "description": "3 satellites of unknown testing purposes, officially referred as for \"orbital technology testing\".",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 217,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/217/",
+        "agency_id": null,
+        "name": "Bo Run Jiu Zhou mobile launch platform",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=21.283333,112.0",
+        "latitude": "21.283333",
+        "longitude": "112.0",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_bo_run_jiu_zhou_mobile_launch_platform_20231206001303.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20231226095919.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6583,
+    "location_launch_attempt_count": 48,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 450,
+    "orbital_launch_attempt_count_year": 215,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 45,
+    "type": "normal"
+}

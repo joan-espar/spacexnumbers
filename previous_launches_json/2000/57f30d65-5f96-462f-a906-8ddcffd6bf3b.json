@@ -1,0 +1,94 @@
+{
+    "id": "57f30d65-5f96-462f-a906-8ddcffd6bf3b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/57f30d65-5f96-462f-a906-8ddcffd6bf3b/",
+    "slug": "ariane-5-g-astra-2d-ge-8-ldrex",
+    "name": "Ariane 5 G | Astra 2D & GE-8, LDREX",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:00:49Z",
+    "net": "2000-12-20T00:26:00Z",
+    "window_end": "2000-12-20T00:26:00Z",
+    "window_start": "2000-12-20T00:26:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 462,
+        "configuration": {
+            "id": 131,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/131/",
+            "name": "Ariane 5 G",
+            "family": "Ariane",
+            "full_name": "Ariane 5 G",
+            "variant": "G"
+        }
+    },
+    "mission": {
+        "id": 583,
+        "name": "Astra 2D & GE-8, LDREX",
+        "description": "Astra 2D is one of the Astra communications satellite owned and operated by SES. Providing digital television and radio broadcast service to the UK and Republic of Island. GE-8 is also a commercial communications satellite operated by GE American, covering the USA, Canada and Caribbean. LDREX was an engineering test to validate the antenna on the ETS-8.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520g_image_20190222030331.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4450,
+    "location_launch_attempt_count": 146,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 133,
+    "orbital_launch_attempt_count_year": 83,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

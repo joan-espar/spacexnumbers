@@ -1,0 +1,185 @@
+{
+    "id": "8225eb20-e71c-44fd-bcbe-868c29ca299f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8225eb20-e71c-44fd-bcbe-868c29ca299f/",
+    "slug": "atlas-v-401-cygnus-crs-orb-4-ss-deke-slayton-ii",
+    "name": "Atlas V 401 | Cygnus CRS Orb-4 (S.S. Deke Slayton II)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:33Z",
+    "net": "2015-12-06T21:44:57Z",
+    "window_end": "2015-12-06T22:14:56Z",
+    "window_start": "2015-12-06T21:44:57Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1888,
+        "configuration": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/16/",
+            "name": "Atlas V 401",
+            "family": "Atlas",
+            "full_name": "Atlas V 401",
+            "variant": "401"
+        }
+    },
+    "mission": {
+        "id": 79,
+        "name": "Cygnus CRS Orb-4 (S.S. Deke Slayton II)",
+        "description": "This is the 4th mission under NASA's Commercial Resupply Service agreement with Orbital ATK. The unmanned Cygnus cargo vessel delievered approximately 3,500 kg (7,700 lbs.) of supplies and science experiments to the International Space Station. The craft features a longer, enhanced cargo module and remained berthed to the station for 2 months.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_image_20201212013334.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+            "name": "Commercial Resupply Services",
+            "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 257,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                    "name": "Northrop Grumman Space Systems",
+                    "type": "Commercial"
+                },
+                {
+                    "id": 1020,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                    "name": "Sierra Nevada Corporation",
+                    "type": "Commercial"
+                },
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+            "start_date": "2008-12-23T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
+            "name": "International Space Station",
+            "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+            "agencies": [
+                {
+                    "id": 16,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+                    "name": "Canadian Space Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                },
+                {
+                    "id": 37,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+                    "name": "Japan Aerospace Exploration Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+            "start_date": "1998-11-20T06:40:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5518,
+    "location_launch_attempt_count": 735,
+    "pad_launch_attempt_count": 76,
+    "agency_launch_attempt_count": 104,
+    "orbital_launch_attempt_count_year": 76,
+    "location_launch_attempt_count_year": 16,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

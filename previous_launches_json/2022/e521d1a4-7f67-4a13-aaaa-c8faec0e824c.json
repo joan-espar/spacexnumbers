@@ -1,0 +1,94 @@
+{
+    "id": "e521d1a4-7f67-4a13-aaaa-c8faec0e824c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e521d1a4-7f67-4a13-aaaa-c8faec0e824c/",
+    "slug": "launcherone-straight-up",
+    "name": "LauncherOne | Straight Up",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:37Z",
+    "net": "2022-07-02T06:53:00Z",
+    "window_end": "2022-07-02T09:00:00Z",
+    "window_start": "2022-07-02T05:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 199,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/199/",
+        "name": "Virgin Orbit",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7574,
+        "configuration": {
+            "id": 141,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/141/",
+            "name": "LauncherOne",
+            "family": "",
+            "full_name": "LauncherOne",
+            "variant": "One"
+        }
+    },
+    "mission": {
+        "id": 6017,
+        "name": "Straight Up",
+        "description": "Launch contracted by the U.S. Space Force for the Rocket Systems Launch Program (RSLP), with payloads provided by the DoD Space Test Program (STP) as part of the Space Force\u2019s STP-28A mission.\r\nIt will carry seven satellites from multiple government agencies that are experiments intended to demonstrate novel modular satellite bus, space domain awareness, and adaptive radio frequency technologies. The target orbit is approximately 500 km above the Earth\u2019s surface at 45 degrees inclination.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 53,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/53/",
+        "agency_id": null,
+        "name": "Mojave Air and Space Port",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mojave_Air_and_Space_Port",
+        "map_url": "https://www.google.com/maps?q=35.059444,-118.151667",
+        "latitude": "35.059444",
+        "longitude": "-118.151667",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_53_20200803143612.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/launcherone_image_20200101110016.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6259,
+    "location_launch_attempt_count": 50,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 77,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,308 @@
+{
+    "id": "3a4faa1b-9aa3-4844-b518-ef8f83ff6ddd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3a4faa1b-9aa3-4844-b518-ef8f83ff6ddd/",
+    "slug": "falcon-9-block-5-gps-iii-sv01",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 Block 5 | GPS III SV01",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T00:29:42Z",
+    "updates": [],
+    "net": "2018-12-23T13:51:00Z",
+    "net_precision": null,
+    "window_end": "2018-12-23T14:17:00Z",
+    "window_start": "2018-12-23T13:51:00Z",
+    "probability": 95,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 249,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 110,
+        "consecutive_successful_landings": 118,
+        "successful_landings": 200,
+        "failed_landings": 17,
+        "attempted_landings": 217,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 48,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "active": true,
+            "reusable": true,
+            "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 249,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 110,
+                "consecutive_successful_landings": 118,
+                "successful_landings": 200,
+                "failed_landings": 17,
+                "attempted_landings": 217,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 5,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+                    "name": "Commercial Crew Program",
+                    "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA; in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+                    "agencies": [
+                        {
+                            "id": 80,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                            "name": "Boeing",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20200820201209.png",
+                    "start_date": "2011-04-18T00:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+                    "mission_patches": []
+                },
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights; covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Block 5",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 2,
+            "length": 70,
+            "diameter": 3.65,
+            "maiden_flight": "2018-05-11",
+            "launch_cost": "52000000",
+            "launch_mass": 549,
+            "leo_capacity": 22800,
+            "gto_capacity": 8300,
+            "to_thrust": 7607,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
+            "info_url": "http://www.spacex.com/falcon9",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+            "total_launch_count": 171,
+            "consecutive_successful_launches": 170,
+            "successful_launches": 170,
+            "failed_launches": 0,
+            "pending_launches": 100
+        },
+        "launcher_stage": [
+            {
+                "id": 77,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 61,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/61/",
+                    "details": "Stage Expended",
+                    "flight_proven": true,
+                    "serial_number": "B1054",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/61_image_20190228071607.jpg",
+                    "successful_landings": 0,
+                    "attempted_landings": 0,
+                    "flights": 1,
+                    "last_launch_date": "2018-12-23T13:51:00Z",
+                    "first_launch_date": "2018-12-23T13:51:00Z"
+                },
+                "landing": {
+                    "id": 112,
+                    "attempt": false,
+                    "success": null,
+                    "description": "A landing will not be attempted for this launch.",
+                    "location": null,
+                    "type": null
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 902,
+        "name": "GPS III SV01 \"Vespucci\"",
+        "description": "GPS-IIIA (Global Positioning System) is the first evolution stage of the third generation of the GPS satellites. It consists of the first ten (known as \"tranche\") of GPS III satellites.  This program will improve position; navigation, and timing services for the warfighter and civil users worldwide and provide advanced anti-jam capabilities yielding superior system security, accuracy and reliability.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        }
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122;-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 888,
+            "total_landing_count": 34
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 182,
+        "orbital_launch_attempt_count": 182
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 0,
+            "title": "GPS III Space Vehicle 01",
+            "description": "We are targeting December 23rd for launch of the United States Air Force's first Global Positioning System III space vehicle (SV) from Space Launch Complex 4...",
+            "feature_image": "https://i.ytimg.com/vi/yRiLPoy_Mzc/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=yRiLPoy_Mzc"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5808,
+    "location_launch_attempt_count": 778,
+    "pad_launch_attempt_count": 95,
+    "agency_launch_attempt_count": 73,
+    "orbital_launch_attempt_count_year": 111,
+    "location_launch_attempt_count_year": 17,
+    "pad_launch_attempt_count_year": 12,
+    "agency_launch_attempt_count_year": 21,
+    "mission_patches": [
+        {
+            "id": 35,
+            "name": "GPS III USAF Mission Patch",
+            "priority": 9,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/gps2520iii252_mission_patch_20210608180509.png",
+            "agency": {
+                "id": 161,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+                "name": "United States Air Force",
+                "type": "Government"
+            }
+        },
+        {
+            "id": 57,
+            "name": "GPS-III SV01 SpaceX Mission Patch",
+            "priority": 10,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/gps-iii2520sv0_mission_patch_20210616192903.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ]
+}

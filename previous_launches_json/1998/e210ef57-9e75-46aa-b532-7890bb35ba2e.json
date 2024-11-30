@@ -1,0 +1,94 @@
+{
+    "id": "e210ef57-9e75-46aa-b532-7890bb35ba2e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e210ef57-9e75-46aa-b532-7890bb35ba2e/",
+    "slug": "delta-7420-10c-globalstar-1-to-4",
+    "name": "Delta 7420-10C | Globalstar 1 to 4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:21Z",
+    "net": "1998-02-14T14:34:00Z",
+    "window_end": "1998-02-14T14:34:00Z",
+    "window_start": "1998-02-14T14:34:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6838,
+        "configuration": {
+            "id": 467,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/467/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7420-10C",
+            "variant": "7420-10C"
+        }
+    },
+    "mission": {
+        "id": 5228,
+        "name": "Globalstar 1 to 4",
+        "description": "The Globalstar global mobile communications network offers global, digital real time voice, data and fax via a constellation of 48 minisatellites. The constellation operates in a 1410 km orbit inclined at 52 degrees, and will also have 8 spares. The satellites were built by Space Systems Loral and Alenia Aerospazio in Rome, Italy.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4216,
+    "location_launch_attempt_count": 543,
+    "pad_launch_attempt_count": 116,
+    "agency_launch_attempt_count": 989,
+    "orbital_launch_attempt_count_year": 9,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

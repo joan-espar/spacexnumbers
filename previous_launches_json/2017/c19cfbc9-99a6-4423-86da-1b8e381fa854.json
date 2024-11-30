@@ -1,0 +1,119 @@
+{
+    "id": "c19cfbc9-99a6-4423-86da-1b8e381fa854",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c19cfbc9-99a6-4423-86da-1b8e381fa854/",
+    "slug": "delta-ii-7920-10-jpss-1-joint-polar-satellite-syst",
+    "name": "Delta II 7920-10 | JPSS 1 (Joint Polar Satellite System spacecraft No. 1)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:25:23Z",
+    "net": "2017-11-18T09:47:36Z",
+    "window_end": "2017-11-18T09:48:09Z",
+    "window_start": "2017-11-18T09:47:03Z",
+    "net_precision": null,
+    "probability": 100,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2046,
+        "configuration": {
+            "id": 75,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/75/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7920-10",
+            "variant": "7920-10"
+        }
+    },
+    "mission": {
+        "id": 128,
+        "name": "JPSS 1 (Joint Polar Satellite System spacecraft No. 1)",
+        "description": "From a 512-mile orbit, tilted 98.7 degrees to the equator and traveling pole-to-pole, the craft will provide imagery, atmospheric temperature and humidity profiles, and land and ocean surface temperature observations, all of which are key ingredients for weather forecasting. In addition, the satellite will measure ozone levels and reflected solar radiation from the planet.JPSS 1 will survey the entire globe twice per day with five sensor packages.The satellite will replace the existing Suomi NPP spacecraft that launched in 2011 for a five-year mission as a gapfiller between NOAA\u00e2\u20ac\u2122s legacy weather satellite constellation and the new JPSS generation.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 39,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/39/",
+        "agency_id": null,
+        "name": "Space Launch Complex 2W",
+        "description": "SLC-2W was originally used for Delta, Thor-Agena and Delta II launches. After the last Delta II flight in 2018, SLC-2W was repurposed to launch Firefly Alpha rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7556,-120.6224",
+        "latitude": "34.7556",
+        "longitude": "-120.6224",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_39_20200803143542.jpg",
+        "total_launch_count": 97,
+        "orbital_launch_attempt_count": 97
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030358.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 36,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/36/",
+            "name": "NASA Large Strategic Science Missions",
+            "description": "NASA's large strategic science missions or large strategic missions, formerly known as Flagship missions or Flagship-class missions, are the costliest and most capable NASA science spacecraft. Flagship missions exist within all four divisions of NASA's Science Mission Directorate (SMD): the astrophysics, Earth science, heliophysics and planetary science divisions.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nasa2520large_program_20240205122003.jpeg",
+            "start_date": "1975-08-22T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Large_strategic_science_missions",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5692,
+    "location_launch_attempt_count": 673,
+    "pad_launch_attempt_count": 91,
+    "agency_launch_attempt_count": 124,
+    "orbital_launch_attempt_count_year": 77,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "d3b5dfb9-0f58-433a-b7e7-e669260db994",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d3b5dfb9-0f58-433a-b7e7-e669260db994/",
+    "slug": "vega-mohammed-vi-b",
+    "name": "Vega | Mohammed VI-B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-11-13T17:56:42Z",
+    "net": "2018-11-21T01:42:31Z",
+    "window_end": "2018-11-21T01:42:31Z",
+    "window_start": "2018-11-21T01:42:31Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1376,
+        "configuration": {
+            "id": 167,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/167/",
+            "name": "Vega",
+            "family": "Vega",
+            "full_name": "Vega",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 737,
+        "name": "Mohammed VI-B",
+        "description": "A second Earth observation satellite for the Kingdom of Morocco. It was developed by Thales Alenia Space and Airbus. Satellite will be in particular used for mapping and land surveying activities, regional development, agricultural monitoring, the prevention and management of natural disasters, monitoring changes in the environment and desertification, as well as border and coastal surveillance.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/34/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 1 (ELV)",
+        "description": "ELA-1, now named Ensemble de Lancement Vega (short ELV), is a launch pad at the Centre Spatial Guyanais in French Guiana. It has been used to support launches of the Europa rocket, Ariane 1, Ariane 3, and is currently used to launch Vega rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-1",
+        "map_url": "https://www.google.com/maps?q=5.236,-52.775",
+        "latitude": "5.236",
+        "longitude": "-52.775",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
+        "total_launch_count": 50,
+        "orbital_launch_attempt_count": 50
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega_image_20201111143622.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5803,
+    "location_launch_attempt_count": 286,
+    "pad_launch_attempt_count": 39,
+    "agency_launch_attempt_count": 271,
+    "orbital_launch_attempt_count_year": 97,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

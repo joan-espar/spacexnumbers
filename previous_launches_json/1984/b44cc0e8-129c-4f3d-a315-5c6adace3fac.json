@@ -1,0 +1,94 @@
+{
+    "id": "b44cc0e8-129c-4f3d-a315-5c6adace3fac",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b44cc0e8-129c-4f3d-a315-5c6adace3fac/",
+    "slug": "ariane-1-spacenet-1",
+    "name": "Ariane 1 | Spacenet 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:49:34Z",
+    "net": "1984-05-23T01:33:29Z",
+    "window_end": "1984-05-23T01:33:29Z",
+    "window_start": "1984-05-23T01:33:29Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 5635,
+        "configuration": {
+            "id": 219,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/219/",
+            "name": "Ariane 1",
+            "family": "Ariane",
+            "full_name": "Ariane 1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 4037,
+        "name": "Spacenet 1",
+        "description": "Geostationary communications satellite",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/34/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 1 (ELV)",
+        "description": "ELA-1, now named Ensemble de Lancement Vega (short ELV), is a launch pad at the Centre Spatial Guyanais in French Guiana. It has been used to support launches of the Europa rocket, Ariane 1, Ariane 3, and is currently used to launch Vega rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-1",
+        "map_url": "https://www.google.com/maps?q=5.236,-52.775",
+        "latitude": "5.236",
+        "longitude": "-52.775",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
+        "total_launch_count": 50,
+        "orbital_launch_attempt_count": 50
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_1_in_fli_image_20240314094301.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2824,
+    "location_launch_attempt_count": 18,
+    "pad_launch_attempt_count": 10,
+    "agency_launch_attempt_count": 8,
+    "orbital_launch_attempt_count_year": 49,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

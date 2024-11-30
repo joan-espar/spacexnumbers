@@ -1,0 +1,94 @@
+{
+    "id": "7c7d63ef-4d32-4ce3-8191-7643ed68a66b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7c7d63ef-4d32-4ce3-8191-7643ed68a66b/",
+    "slug": "delta-ii-asc-2",
+    "name": "Delta II | ASC 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:54Z",
+    "net": "1991-04-13T00:09:00Z",
+    "window_end": "1991-04-13T00:09:00Z",
+    "window_start": "1991-04-13T00:09:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6363,
+        "configuration": {
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/159/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925",
+            "variant": "7925"
+        }
+    },
+    "mission": {
+        "id": 4753,
+        "name": "ASC 2",
+        "description": "The ASC series consisted of three satellites built by GE Astro-Space for Contel ASC and carried 18 C-band and 6 Ku-band transponders for TV news and interactive data transmissions to private networks and small terminals.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030440.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3625,
+    "location_launch_attempt_count": 445,
+    "pad_launch_attempt_count": 87,
+    "agency_launch_attempt_count": 896,
+    "orbital_launch_attempt_count_year": 28,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

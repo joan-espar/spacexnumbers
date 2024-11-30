@@ -1,0 +1,94 @@
+{
+    "id": "a469c122-12e2-4c3a-a638-b32d008fc986",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a469c122-12e2-4c3a-a638-b32d008fc986/",
+    "slug": "ariane-44p-intelsat-801",
+    "name": "Ariane 44P | INTELSAT 801",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:20Z",
+    "net": "1997-03-01T01:07:42Z",
+    "window_end": "1997-03-01T01:07:42Z",
+    "window_start": "1997-03-01T01:07:42Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6770,
+        "configuration": {
+            "id": 227,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/227/",
+            "name": "Ariane 44P",
+            "family": "Ariane",
+            "full_name": "Ariane 44P",
+            "variant": "44P"
+        }
+    },
+    "mission": {
+        "id": 5160,
+        "name": "INTELSAT 801",
+        "description": "The Intelsat VIII-VIII/A series has been designed to meet the needs of Intelsat users throughout the system for improved C-band coverage and service. These spacecraft will incorporate six-fold C-band frequency reuse, two-fold frequency reuse of expanded C-band capacity, and the highest C-band power level ever for an Intelsat satellite. Consequently, Intelsat VIII will provide significantly more C-band capacity for public switched telephony and Intelsat Business Service, better quality for video services, and encourage new international VSAT applications.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_44p_at_e_image_20240401083030.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4128,
+    "location_launch_attempt_count": 103,
+    "pad_launch_attempt_count": 68,
+    "agency_launch_attempt_count": 93,
+    "orbital_launch_attempt_count_year": 10,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

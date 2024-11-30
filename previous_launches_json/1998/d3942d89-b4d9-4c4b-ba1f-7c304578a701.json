@@ -1,0 +1,94 @@
+{
+    "id": "d3942d89-b4d9-4c4b-ba1f-7c304578a701",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d3942d89-b4d9-4c4b-ba1f-7c304578a701/",
+    "slug": "long-march-3b-zhongwei-1",
+    "name": "Long March 3B | Zhongwei 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T03:17:34Z",
+    "net": "1998-05-30T10:00:04Z",
+    "window_end": "1998-05-30T10:00:04Z",
+    "window_start": "1998-05-30T10:00:04Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 189,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/189/",
+        "name": "China Aerospace Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6858,
+        "configuration": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/19/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B",
+            "variant": "3B"
+        }
+    },
+    "mission": {
+        "id": 5248,
+        "name": "Zhongwei 1",
+        "description": "The Zhongwei 1 (Chinastar 1) satellite, an A2100A class comsat built by Lockheed Martin for the China Orient Telecommunications Satellite Co., part of the Chinese telecoms ministry. Zhongwei 1 will serve China, India, Korea and southeast Asia with 18 C-band and 20 Ku-band transponders. It was orbited on a CZ-3B launch vehicle using a supersynchronous transfer orbit.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4241,
+    "location_launch_attempt_count": 26,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 22,
+    "orbital_launch_attempt_count_year": 34,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

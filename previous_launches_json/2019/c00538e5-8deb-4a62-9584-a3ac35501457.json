@@ -1,0 +1,94 @@
+{
+    "id": "c00538e5-8deb-4a62-9584-a3ac35501457",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c00538e5-8deb-4a62-9584-a3ac35501457/",
+    "slug": "long-march-11-jilin-1-hyperspectral-01-02-xiaoxian",
+    "name": "Long March 11 | Jilin-1 Hyperspectral 01, 02, Xiaoxiang-1-03, Lingque-1A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:27:34Z",
+    "net": "2019-01-21T05:42:20Z",
+    "window_end": "2019-01-21T05:55:00Z",
+    "window_start": "2019-01-21T05:38:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2194,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 956,
+        "name": "Jilin-1 Hyperspectral 01, 02, Xiaoxiang-1-03, Lingque-1A",
+        "description": "Launch carried four remote sensing satellites for Chinese private companies.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5826,
+    "location_launch_attempt_count": 114,
+    "pad_launch_attempt_count": 9,
+    "agency_launch_attempt_count": 246,
+    "orbital_launch_attempt_count_year": 6,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

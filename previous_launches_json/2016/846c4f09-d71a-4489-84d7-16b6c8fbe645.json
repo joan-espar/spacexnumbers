@@ -1,0 +1,94 @@
+{
+    "id": "846c4f09-d71a-4489-84d7-16b6c8fbe645",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/846c4f09-d71a-4489-84d7-16b6c8fbe645/",
+    "slug": "long-march-5-yz-2-shijian-17",
+    "name": "Long March 5 / YZ-2 | Shijian 17",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:34:20Z",
+    "net": "2016-11-03T12:43:13Z",
+    "window_end": "2016-11-03T13:00:00Z",
+    "window_start": "2016-11-03T12:30:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1960,
+        "configuration": {
+            "id": 123,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/123/",
+            "name": "Long March 5/YZ-2",
+            "family": "Long March",
+            "full_name": "Long March 5/YZ-2",
+            "variant": "YZ-2"
+        }
+    },
+    "mission": {
+        "id": 247,
+        "name": "Shijian-17",
+        "description": "This will be the maiden flight of the Long March 5, which is China's next-generation heavy-lift space launch system, comparable in performance to the European Ariane 5 and the U.S. Delta IV Heavy. The rocket is powered by RP-1 and Hydrogen, and will be able to place 25 tonnes into low earth orbit.\nIt is carrying Shijian-17, an experimental satellite, reportedly tasked with testing ion propulsion systems for future space station keeping uses.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 175,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/175/",
+        "agency_id": null,
+        "name": "101",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.614334,110.951011",
+        "latitude": "19.614334",
+        "longitude": "110.951011",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 32,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_175_20200803143424.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5596,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 184,
+    "orbital_launch_attempt_count_year": 67,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 16,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "221552dc-18f2-438e-a858-e29b3eafcf1a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/221552dc-18f2-438e-a858-e29b3eafcf1a/",
+    "slug": "long-march-6-sdgsat-1",
+    "name": "Long March 6 | SDGSAT-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:20:12Z",
+    "net": "2021-11-05T02:19:00Z",
+    "window_end": "2021-11-05T02:39:00Z",
+    "window_start": "2021-11-05T02:12:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7490,
+        "configuration": {
+            "id": 54,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/54/",
+            "name": "Long March 6",
+            "family": "Long March",
+            "full_name": "Long March 6",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 5882,
+        "name": "SDGSAT-1",
+        "description": "Satellite developed by the Chinese Academy of Sciences (CAS) for pursuing sustainable development. \r\n\r\nIt is expected to provide advanced, open and shared data resources for monitoring and evaluating the sustainable development index representing the interaction between human and nature, in particular providing support for Sustainable Development Goals (SDGs) of the UN 2030 Agenda for Sustainable Development.\r\n\r\nThe satellite has three payloads including thermal infrared, low light level and multispectral imagers, with 300 km wide data acquisition swath  capability. It can achieve global coverage within 11 days.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 113,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/113/",
+        "agency_id": null,
+        "name": "Launch Complex 16",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.868222,111.58024",
+        "latitude": "38.868222",
+        "longitude": "111.58024",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_113_20200803143556.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6145,
+    "location_launch_attempt_count": 99,
+    "pad_launch_attempt_count": 9,
+    "agency_launch_attempt_count": 342,
+    "orbital_launch_attempt_count_year": 108,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 38,
+    "type": "normal"
+}

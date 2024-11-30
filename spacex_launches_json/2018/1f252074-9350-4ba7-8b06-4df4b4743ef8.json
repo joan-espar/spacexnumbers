@@ -1,0 +1,94 @@
+{
+    "id": "1f252074-9350-4ba7-8b06-4df4b4743ef8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1f252074-9350-4ba7-8b06-4df4b4743ef8/",
+    "slug": "falcon-9-block-5-eshail-2",
+    "name": "Falcon 9 Block 5 | Es'hail 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T09:46:31Z",
+    "net": "2018-11-15T20:46:00Z",
+    "window_end": "2018-11-15T22:29:00Z",
+    "window_start": "2018-11-15T20:46:00Z",
+    "net_precision": null,
+    "probability": 60,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#EsHail2",
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 22,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 735,
+        "name": "Es'hail 2",
+        "description": "Es'hail 2 is a communications satellite operated by a Quatar based company. The satellite will operate at 26 degrees East longitude along a geostationary orbit to provide direct-to-home television services in the Middle East and North Africa region.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5798,
+    "location_launch_attempt_count": 168,
+    "pad_launch_attempt_count": 111,
+    "agency_launch_attempt_count": 70,
+    "orbital_launch_attempt_count_year": 92,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 18,
+    "type": "normal"
+}

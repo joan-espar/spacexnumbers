@@ -1,0 +1,94 @@
+{
+    "id": "7a2b74f6-f1f8-4f02-8539-1091196757fe",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7a2b74f6-f1f8-4f02-8539-1091196757fe/",
+    "slug": "atlas-v-401-hellas-sat-2",
+    "name": "Atlas V 401 | Hellas Sat 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:27Z",
+    "net": "2003-05-13T22:10:00Z",
+    "window_end": "2003-05-13T22:10:00Z",
+    "window_start": "2003-05-13T22:10:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+        "name": "Lockheed Martin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7132,
+        "configuration": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/16/",
+            "name": "Atlas V 401",
+            "family": "Atlas",
+            "full_name": "Atlas V 401",
+            "variant": "401"
+        }
+    },
+    "mission": {
+        "id": 5521,
+        "name": "Hellas Sat 2",
+        "description": "The 3450 kg satellite carries 30 Ku-band transponders to provide direct-to-home voice and video transmissions to much of Europe, North Africa and the Middle East, after parking over 39.0\u00b0 East longitude.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_image_20201212013334.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4596,
+    "location_launch_attempt_count": 610,
+    "pad_launch_attempt_count": 29,
+    "agency_launch_attempt_count": 67,
+    "orbital_launch_attempt_count_year": 20,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

@@ -1,0 +1,124 @@
+{
+    "id": "294e456a-fccc-4af1-a75e-990f8bb9ffba",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/294e456a-fccc-4af1-a75e-990f8bb9ffba/",
+    "slug": "soyuz-21bfregat-m-oneweb-4",
+    "name": "Soyuz 2.1b/Fregat-M | OneWeb 4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T15:47:15Z",
+    "net": "2020-12-18T12:26:27Z",
+    "window_end": "2020-12-18T12:26:27Z",
+    "window_start": "2020-12-18T12:26:27Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2600,
+        "configuration": {
+            "id": 134,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/134/",
+            "name": "Soyuz 2.1b/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 1219,
+        "name": "OneWeb 4",
+        "description": "A batch of 36 satellites for the OneWeb satellite constellation, which is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 648 microsatellites (of which 60 are spares), around 150 kg each, operating in Ku-band from low Earth orbit.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 17,
+        "orbital_launch_attempt_count": 17
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20210520085936.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/26/",
+            "name": "OneWeb",
+            "description": "Satellite constellation in low Earth orbit that can provide high-speed broadband internet to rural and isolated areas.",
+            "agencies": [
+                {
+                    "id": 1081,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1081/",
+                    "name": "Eutelsat OneWeb",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/oneweb_program_20231228155842.jpeg",
+            "start_date": "2019-02-27T21:37:00Z",
+            "end_date": null,
+            "info_url": "https://oneweb.net/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+            "mission_patches": [],
+            "type": {
+                "id": 3,
+                "name": "Communication Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6033,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 291,
+    "orbital_launch_attempt_count_year": 111,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

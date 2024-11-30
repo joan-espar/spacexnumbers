@@ -1,0 +1,129 @@
+{
+    "id": "2277b184-5a07-4a71-90ce-367f41420eaa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2277b184-5a07-4a71-90ce-367f41420eaa/",
+    "slug": "soyuz-21bfregat-m-luna-25",
+    "name": "Soyuz 2.1b/Fregat-M | Luna 25",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:31:10Z",
+    "net": "2023-08-10T23:10:57Z",
+    "window_end": "2023-08-10T23:10:57Z",
+    "window_start": "2023-08-10T23:10:57Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2703,
+        "configuration": {
+            "id": 134,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/134/",
+            "name": "Soyuz 2.1b/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 6360,
+        "name": "Luna 25",
+        "description": "Luna 25 (ex-Luna-Glob) was a lunar lander mission by the Russian Federal Space Agency (Roscosmos) that crashed into the lunar surface after an anomalous orbital maneuver placed it on a collision trajectory towards the Moon. It was scheduled to land near the lunar south pole at the Boguslavsky crater to prove lunar landing technology. The mission carried 30 kg of scientific instruments, including a robotic arm for soil samples and possible drilling hardware. It was planned to remain active for at least one year on the lunar surface.",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [
+            {
+                "id": 63,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                "featured": true,
+                "type": "Government",
+                "country_code": "RUS",
+                "abbrev": "RFSA",
+                "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+                "administrator": "Administrator: Yuri Borisov",
+                "founding_year": "1992",
+                "launchers": "Soyuz",
+                "spacecraft": "Soyuz",
+                "launch_library_url": null,
+                "total_launch_count": 327,
+                "consecutive_successful_launches": 51,
+                "successful_launches": 316,
+                "failed_launches": 11,
+                "pending_launches": 9,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://en.roscosmos.ru/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 17,
+        "orbital_launch_attempt_count": 17
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20230811103805.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6492,
+    "location_launch_attempt_count": 15,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 314,
+    "orbital_launch_attempt_count_year": 124,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

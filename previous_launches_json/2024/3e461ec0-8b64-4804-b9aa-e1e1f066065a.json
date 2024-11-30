@@ -1,0 +1,129 @@
+{
+    "id": "3e461ec0-8b64-4804-b9aa-e1e1f066065a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3e461ec0-8b64-4804-b9aa-e1e1f066065a/",
+    "slug": "ariane-62-maiden-flight",
+    "name": "Ariane 62 | Maiden Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-07-10T23:33:34Z",
+    "net": "2024-07-09T19:00:00Z",
+    "window_end": "2024-07-09T22:00:00Z",
+    "window_start": "2024-07-09T18:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 27,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+        "name": "European Space Agency",
+        "type": "Multinational"
+    },
+    "rocket": {
+        "id": 2226,
+        "configuration": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/121/",
+            "name": "Ariane 62",
+            "family": "Ariane",
+            "full_name": "Ariane 62",
+            "variant": "62"
+        }
+    },
+    "mission": {
+        "id": 6520,
+        "name": "Maiden Flight",
+        "description": "Maiden Flight of the Ariane 62 launch vehicle, carrying ten cubesats, two deployers, five experiments, and two reentry capsules.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 27,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                "name": "European Space Agency",
+                "featured": false,
+                "type": "Multinational",
+                "country_code": "FRA,ITA,DEU,ESP,CHE,GBR,AUT,SWE,PRT,NLD,HUN,POL,DNK,CZE,ROU,NOR,FIN,GRC,EST,IRL,LUX,BEL",
+                "abbrev": "ESA",
+                "description": "The European Space Agency is an intergovernmental organisation of 22 member states. Established in 1975 and headquartered in Paris, France, ESA has a worldwide staff of about 2,000 employees.\r\n\r\nESA's space flight programme includes human spaceflight (mainly through participation in the International Space Station program); the launch and operation of unmanned exploration missions to other planets and the Moon; Earth observation, science and telecommunication; designing launch vehicles; and maintaining a major spaceport, the Guiana Space Centre at Kourou, French Guiana.",
+                "administrator": "Director General: Josef Aschbacher",
+                "founding_year": "1975",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 7,
+                "consecutive_successful_launches": 5,
+                "successful_launches": 6,
+                "failed_launches": 1,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.esa.int/",
+                "wiki_url": "http://en.wikipedia.org/wiki/European_Space_Agency",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/european2520space2520agency_logo_20221130101442.png",
+                "image_url": null,
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/european2520space2520agency_logo_20221130101442.png"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 67,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/67/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 4",
+        "description": "ELA-4, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. The complex is composed of a launch pad with mobile gantry, an horizontal assembly building and a dedicated launch operations building. ELA-4 is operated by Arianespace as part of the Ariane 6 program.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Guiana_Space_Centre",
+        "map_url": "https://www.google.com/maps?q=5.256319,-52.786838",
+        "latitude": "5.256319",
+        "longitude": "-52.786838",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6720,
+    "location_launch_attempt_count": 321,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 7,
+    "orbital_launch_attempt_count_year": 131,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

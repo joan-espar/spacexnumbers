@@ -1,0 +1,94 @@
+{
+    "id": "c75f847c-9a60-4bf1-87f2-fbd570dd103a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c75f847c-9a60-4bf1-87f2-fbd570dd103a/",
+    "slug": "tsiklon-2-us-a-23",
+    "name": "Tsiklon-2 | US-A 23",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:24:16Z",
+    "net": "1982-10-02T00:01:00Z",
+    "window_end": "1982-10-02T00:01:00Z",
+    "window_start": "1982-10-02T00:01:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5451,
+        "configuration": {
+            "id": 443,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/443/",
+            "name": "Tsiklon-2",
+            "family": "Tsiklon",
+            "full_name": "Tsiklon-2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 3856,
+        "name": "US-A 23",
+        "description": "Active radar satellite for ocean surveillance powered by a nuclear reactor.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 132,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/132/",
+        "agency_id": null,
+        "name": "90",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_90",
+        "map_url": "https://www.google.com/maps?q=46.081,62.929806",
+        "latitude": "46.081",
+        "longitude": "62.929806",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_132_20200803143344.jpg",
+        "total_launch_count": 74,
+        "orbital_launch_attempt_count": 74
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tsyklon-2_lifto_image_20240411113159.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2622,
+    "location_launch_attempt_count": 649,
+    "pad_launch_attempt_count": 41,
+    "agency_launch_attempt_count": 1640,
+    "orbital_launch_attempt_count_year": 105,
+    "location_launch_attempt_count_year": 32,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 89,
+    "type": "normal"
+}

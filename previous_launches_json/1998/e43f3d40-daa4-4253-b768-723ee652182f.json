@@ -1,0 +1,94 @@
+{
+    "id": "e43f3d40-daa4-4253-b768-723ee652182f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e43f3d40-daa4-4253-b768-723ee652182f/",
+    "slug": "atlas-iia-uhf-fo-f9",
+    "name": "Atlas IIA | UHF F/O F9",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:07Z",
+    "net": "1998-10-20T07:19:02Z",
+    "window_end": "1998-10-20T07:19:02Z",
+    "window_start": "1998-10-20T07:19:02Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+        "name": "Lockheed Martin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6883,
+        "configuration": {
+            "id": 254,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/254/",
+            "name": "Atlas IIA",
+            "family": "Atlas",
+            "full_name": "Atlas IIA",
+            "variant": "IIA"
+        }
+    },
+    "mission": {
+        "id": 5273,
+        "name": "UHF F/O F9",
+        "description": "The U.S. Navy began replacing and upgrading its ultra-high frequency (UHF) satellite communications network during the 1990s with a constellation of customized satellites built by Hughes Space and Communications Company. Known as the UFO (Ultra High Frequency Follow On) series, these HS-601 model satellites support the Navy's global communications network, serving ships at sea and a variety of other U.S. military fixed and mobile terminals.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/121/",
+        "agency_id": 161,
+        "name": "Launch Complex 36A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=28.4705556,-80.542194",
+        "latitude": "28.4705556",
+        "longitude": "-80.542194",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_121_20200803143231.jpg",
+        "total_launch_count": 68,
+        "orbital_launch_attempt_count": 68
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4270,
+    "location_launch_attempt_count": 553,
+    "pad_launch_attempt_count": 53,
+    "agency_launch_attempt_count": 38,
+    "orbital_launch_attempt_count_year": 63,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

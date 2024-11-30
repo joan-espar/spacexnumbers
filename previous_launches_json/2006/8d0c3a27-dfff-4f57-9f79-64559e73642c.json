@@ -1,0 +1,94 @@
+{
+    "id": "8d0c3a27-dfff-4f57-9f79-64559e73642c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8d0c3a27-dfff-4f57-9f79-64559e73642c/",
+    "slug": "long-march-2c-shi-jian-8",
+    "name": "Long March 2C | Shi Jian 8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T03:40:48Z",
+    "net": "2006-09-09T07:00:04Z",
+    "window_end": "2006-09-09T07:00:04Z",
+    "window_start": "2006-09-09T07:00:04Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7281,
+        "configuration": {
+            "id": 61,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/61/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 5670,
+        "name": "Shi Jian 8",
+        "description": "SJ 8 (Shijian 8) is a recoverable satellite based on the FSW type reentry vehicle, which is used to expose 215 kilograms of seeds of plants and fungus to the space environment. It was recovered after several weeks. Once the space-bred seeds are recovered, the Ministry of Agriculture organized research institutions to develop new seeds featuring high yield, good quality and high efficiency.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4789,
+    "location_launch_attempt_count": 41,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 36,
+    "orbital_launch_attempt_count_year": 39,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

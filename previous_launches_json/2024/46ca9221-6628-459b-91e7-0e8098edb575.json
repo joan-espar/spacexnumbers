@@ -1,0 +1,99 @@
+{
+    "id": "46ca9221-6628-459b-91e7-0e8098edb575",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/46ca9221-6628-459b-91e7-0e8098edb575/",
+    "slug": "long-march-6a-g60-polar-group-01",
+    "name": "Long March 6A | G60 Polar Group 01",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-07T05:51:57Z",
+    "net": "2024-08-06T06:42:00Z",
+    "window_end": "2024-08-06T07:17:00Z",
+    "window_start": "2024-08-06T06:33:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8288,
+        "configuration": {
+            "id": 478,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/478/",
+            "name": "Long March 6A",
+            "family": "Long March",
+            "full_name": "Long March 6A",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6869,
+        "name": "G60 Polar Group 01",
+        "description": "18 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacecom Satellite Technology (SSST) with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 200,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/200/",
+        "agency_id": null,
+        "name": "Launch Complex 9A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8583,111.5802",
+        "latitude": "38.8583",
+        "longitude": "111.5802",
+        "location": {
+            "id": 19,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_launch_complex_9a_20220330003717.jpg",
+        "total_launch_count": 9,
+        "orbital_launch_attempt_count": 9
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a_image_20221109174525.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6733,
+    "location_launch_attempt_count": 130,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 477,
+    "orbital_launch_attempt_count_year": 144,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 25,
+    "type": "normal"
+}

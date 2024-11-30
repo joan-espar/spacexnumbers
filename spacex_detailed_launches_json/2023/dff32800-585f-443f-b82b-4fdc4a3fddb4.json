@@ -1,0 +1,562 @@
+{
+    "id": "dff32800-585f-443f-b82b-4fdc4a3fddb4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dff32800-585f-443f-b82b-4fdc4a3fddb4/",
+    "slug": "falcon-9-block-5-sarah-2-3",
+    "flightclub_url": "https://flightclub.io/result?llId=dff32800-585f-443f-b82b-4fdc4a3fddb4",
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 Block 5 | SARah 2 & 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-20T10:55:49Z",
+    "updates": [
+        {
+            "id": 6109,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Launch success and satellites contacted.",
+            "info_url": "https://twitter.com/BaainBw/status/1738920750550028781",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-24T14:08:50Z"
+        },
+        {
+            "id": 6108,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Liftoff.",
+            "info_url": "https://twitter.com/i/broadcasts/1MnxnMbepeEJO",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-24T13:11:24Z"
+        },
+        {
+            "id": 6107,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=E9qf9vLqS44",
+            "created_by": "LL2",
+            "created_on": "2023-12-24T12:56:02Z"
+        },
+        {
+            "id": 6106,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+            "comment": "Scrubbed, targeting December 24 13:11 UTC",
+            "info_url": "https://www.spacex.com/launches/mission/?missionId=sarah-2",
+            "created_by": "hitura-nobad",
+            "created_on": "2023-12-23T13:34:48Z"
+        },
+        {
+            "id": 6105,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+            "comment": "New T-0 14:10 UTC",
+            "info_url": "https://www.spacex.com/launches/mission/?missionId=sarah-2",
+            "created_by": "hitura-nobad",
+            "created_on": "2023-12-23T13:16:24Z"
+        },
+        {
+            "id": 6104,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/SpaceX/status/1738541286851043636",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-23T12:47:06Z"
+        },
+        {
+            "id": 6103,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=mv-eEIG8_eg",
+            "created_by": "LL2",
+            "created_on": "2023-12-23T12:44:12Z"
+        },
+        {
+            "id": 6102,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+            "comment": "Targeting 13:26 UTC",
+            "info_url": "https://www.spacex.com/launches/mission/?missionId=sarah-2",
+            "created_by": "hitura-nobad",
+            "created_on": "2023-12-23T12:34:56Z"
+        },
+        {
+            "id": 6086,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "GO for launch.",
+            "info_url": "https://twitter.com/SpaceX/status/1738382770056081884",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-23T02:19:08Z"
+        },
+        {
+            "id": 6056,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Delayed to NET December 23 per new NOTAMs.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=44263.msg2551252#msg2551252",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-20T18:00:25Z"
+        },
+        {
+            "id": 6030,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET December 22 per marine navigation warnings.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=44263.msg2550712#msg2550712",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-19T00:30:45Z"
+        },
+        {
+            "id": 6015,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Updated launch window.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=44263.msg2550342#msg2550342",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-17T05:34:53Z"
+        },
+        {
+            "id": 6014,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET December 21.",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=44263.msg2550316#msg2550316",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-12-17T04:30:07Z"
+        },
+        {
+            "id": 1922,
+            "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "Adding launch TBD late 2022",
+            "info_url": "https://spaceflightnow.com/2022/06/17/german-military-radar-satellite-ready-for-spacex-rocket-ride/",
+            "created_by": "Nosu",
+            "created_on": "2022-06-18T21:49:59Z"
+        }
+    ],
+    "net": "2023-12-24T13:11:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "window_end": "2023-12-24T14:34:00Z",
+    "window_start": "2023-12-24T13:11:00Z",
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 434,
+        "consecutive_successful_launches": 51,
+        "successful_launches": 422,
+        "failed_launches": 12,
+        "pending_launches": 116,
+        "consecutive_successful_landings": 4,
+        "successful_landings": 382,
+        "failed_landings": 26,
+        "attempted_landings": 407,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+    },
+    "rocket": {
+        "id": 7605,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "active": true,
+            "reusable": true,
+            "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": null,
+                "total_launch_count": 434,
+                "consecutive_successful_launches": 51,
+                "successful_launches": 422,
+                "failed_launches": 12,
+                "pending_launches": 116,
+                "consecutive_successful_landings": 4,
+                "successful_landings": 382,
+                "failed_landings": 26,
+                "attempted_landings": 407,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+            },
+            "program": [
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": [],
+                    "type": {
+                        "id": 2,
+                        "name": "Human Spaceflight"
+                    }
+                },
+                {
+                    "id": 5,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+                    "name": "Commercial Crew Program",
+                    "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+                    "agencies": [
+                        {
+                            "id": 80,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                            "name": "Boeing",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+                    "start_date": "2011-04-18T00:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+                    "mission_patches": [],
+                    "type": {
+                        "id": 2,
+                        "name": "Human Spaceflight"
+                    }
+                }
+            ],
+            "variant": "Block 5",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 2,
+            "length": 70.0,
+            "diameter": 3.65,
+            "maiden_flight": "2018-05-11",
+            "launch_cost": "52000000",
+            "launch_mass": 549,
+            "leo_capacity": 22800,
+            "gto_capacity": 8300,
+            "to_thrust": 7607,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+            "total_launch_count": 346,
+            "consecutive_successful_launches": 48,
+            "successful_launches": 345,
+            "failed_launches": 1,
+            "pending_launches": 105,
+            "attempted_landings": 339,
+            "successful_landings": 334,
+            "failed_landings": 5,
+            "consecutive_successful_landings": 34
+        },
+        "launcher_stage": [
+            {
+                "id": 296,
+                "type": "Core",
+                "reused": true,
+                "launcher_flight_number": 8,
+                "launcher": {
+                    "id": 114,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/114/",
+                    "details": "Falcon 9 Block 5 booster first used for the Starlink Group 2-4 mission.",
+                    "flight_proven": true,
+                    "serial_number": "B1075",
+                    "status": "active",
+                    "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/114_image_20230807183155.jpeg",
+                    "successful_landings": 15,
+                    "attempted_landings": 15,
+                    "flights": 15,
+                    "last_launch_date": "2024-11-24T05:25:30Z",
+                    "first_launch_date": "2023-01-19T15:43:10Z"
+                },
+                "landing": {
+                    "id": 319,
+                    "attempt": true,
+                    "success": true,
+                    "description": "The Falcon 9 first stage B1075 has landed back at LZ-4 after its 8th flight.",
+                    "downrange_distance": 0.4,
+                    "location": {
+                        "id": 7,
+                        "name": "Landing Zone 4",
+                        "abbrev": "LZ-4",
+                        "description": "LZ at Vandenberg",
+                        "location": {
+                            "id": 11,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+                            "name": "Vandenberg SFB, CA, USA",
+                            "country_code": "USA",
+                            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+                            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+                            "timezone_name": "America/Los_Angeles",
+                            "total_launch_count": 780,
+                            "total_landing_count": 21
+                        },
+                        "successful_landings": 21
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": "2023-10-29T09:00:00Z",
+                "turn_around_time_days": 56,
+                "previous_flight": {
+                    "id": "9bfd7559-da1a-4286-baf8-e2342d55ef52",
+                    "name": "Falcon 9 Block 5 | Starlink Group 7-6"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 6093,
+        "name": "SARah 2 & 3",
+        "description": "SARah 2 & 3 are two passive reflector antenna radar satellites built by OHB-System, based on the reflector-antenna technology of SAR-Lupe. They are part of the three satellite constellation being built for the German government as a follow-up to the SAR-Lupe radar sat constellation.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [
+            {
+                "id": 1055,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1055/",
+                "name": "Bundeswehr",
+                "featured": false,
+                "type": "Government",
+                "country_code": "DEU",
+                "abbrev": "",
+                "description": "The Bundeswehr is the armed forces of the Federal Republic of Germany.",
+                "administrator": "Commander-in-Chief : Federal Minister of Defence",
+                "founding_year": "1955",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.bundeswehr.de/en/",
+                "wiki_url": "https://en.wikipedia.org/wiki/Bundeswehr",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/bundeswehr_logo_20230806165358.png",
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 168,
+        "orbital_launch_attempt_count": 168
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "source": "www.spacex.com",
+            "title": "SpaceX",
+            "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/mission/?missionId=sarah-2",
+            "type": {
+                "id": 1,
+                "name": "Official Page"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            }
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 8,
+            "source": "youtube.com",
+            "publisher": "The Space Devs",
+            "title": "SpaceX SARah 2 & 3",
+            "description": "On Sunday December 24, 2023, SpaceX launched the SARah 2 & 3 mission with a Falcon 9 Block 5 from Space Launch Complex 4E at Vandenberg SFB, CA, USA.Descript...",
+            "feature_image": "https://i.ytimg.com/vi/YEZJllWT2G8/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=YEZJllWT2G8",
+            "type": {
+                "id": 4,
+                "name": "Unofficial Re-stream"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2023-12-24T13:28:56Z",
+            "end_time": "2023-12-24T13:49:18Z"
+        },
+        {
+            "priority": 9,
+            "source": "youtube.com",
+            "publisher": "SPACE AFFAIRS",
+            "title": "SpaceX - Falcon 9 - SLC-4E - SARah 2 & 3 - Vandenberg Space Force Base - Space Affairs Livestream",
+            "description": "SpaceX is targeting Sunday, December 24 for a Falcon 9 launch of the SARah-2 mission to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenbe...",
+            "feature_image": "https://i.ytimg.com/vi/E9qf9vLqS44/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=E9qf9vLqS44",
+            "type": {
+                "id": 4,
+                "name": "Unofficial Re-stream"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": "2023-12-24T12:53:38Z",
+            "end_time": "2023-12-24T13:24:14Z"
+        },
+        {
+            "priority": 10,
+            "source": "twitter.com",
+            "publisher": "",
+            "title": "Livestream on X",
+            "description": "This browser is no longer supported.\n\nPlease switch to a supported browser to continue using twitter.com. You can see a list of supported browsers in our Help Center.",
+            "feature_image": null,
+            "url": "https://twitter.com/i/broadcasts/1MnxnMbepeEJO",
+            "type": {
+                "id": 1,
+                "name": "Official Webcast"
+            },
+            "language": {
+                "id": 1,
+                "name": "English",
+                "code": "en"
+            },
+            "start_time": null,
+            "end_time": null
+        }
+    ],
+    "webcast_live": false,
+    "timeline": [],
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20231223073520.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6581,
+    "location_launch_attempt_count": 739,
+    "pad_launch_attempt_count": 128,
+    "agency_launch_attempt_count": 309,
+    "orbital_launch_attempt_count_year": 213,
+    "location_launch_attempt_count_year": 30,
+    "pad_launch_attempt_count_year": 28,
+    "agency_launch_attempt_count_year": 96,
+    "pad_turnaround": "P16DT5H7M20S",
+    "mission_patches": [
+        {
+            "id": 1053,
+            "name": "Sarah 2/3",
+            "priority": 10,
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/sarah252022f3_mission_patch_20241020105544.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ],
+    "type": "detailed"
+}

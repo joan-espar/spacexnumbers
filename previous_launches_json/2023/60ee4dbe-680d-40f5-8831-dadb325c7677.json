@@ -1,0 +1,99 @@
+{
+    "id": "60ee4dbe-680d-40f5-8831-dadb325c7677",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/60ee4dbe-680d-40f5-8831-dadb325c7677/",
+    "slug": "electron-stronger-together-capella-9-10",
+    "name": "Electron | Stronger Together (Capella 9-10)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-01T16:32:48Z",
+    "net": "2023-03-16T22:38:59Z",
+    "window_end": "2023-03-17T00:00:00Z",
+    "window_start": "2023-03-16T22:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": 95,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7794,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6312,
+        "name": "Stronger Together (Capella 9-10)",
+        "description": "Payload consists of 2 Synthetic Aperture Radar (SAR) satellites for Capella Space.\r\n\r\nThese 100-kg class satellites will expand Capella\u2019s existing SAR constellation, increasing imaging capacity to meet growing customer demand.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 79,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/79/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=37.833262,-75.488235",
+        "latitude": "37.833262",
+        "longitude": "-75.488235",
+        "location": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+            "name": "Wallops Flight Facility, Virginia, USA",
+            "country_code": "USA",
+            "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 79,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_79_20200803143607.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron25202_image_20230824185319.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6407,
+    "location_launch_attempt_count": 75,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 34,
+    "orbital_launch_attempt_count_year": 39,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

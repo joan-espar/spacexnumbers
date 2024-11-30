@@ -1,0 +1,94 @@
+{
+    "id": "4ec11036-3cd8-4789-8f90-fe03a25d10ec",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4ec11036-3cd8-4789-8f90-fe03a25d10ec/",
+    "slug": "rokot-briz-k-rs-15-radio-rosto",
+    "name": "Rokot / Briz-K | RS-15 Radio-ROSTO",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:23:10Z",
+    "net": "1994-12-26T03:01:16Z",
+    "window_end": "1994-12-26T03:01:16Z",
+    "window_start": "1994-12-26T03:01:16Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6636,
+        "configuration": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/3/",
+            "name": "Rokot/Briz-K",
+            "family": "Rokot",
+            "full_name": "Rokot/Briz-K",
+            "variant": "Briz-K"
+        }
+    },
+    "mission": {
+        "id": 5026,
+        "name": "RS-15 Radio-ROSTO",
+        "description": "Radio-ROSTO, also known as RS 15, was a small amateur radio satellite launched on the maiden orbital flight of the Rokot-K booster.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 129,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/129/",
+        "agency_id": null,
+        "name": "175/58",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=46.051,62.984806",
+        "latitude": "46.051",
+        "longitude": "62.984806",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_129_20200803143247.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rokot25202f2520briz-km_image_20190224012237.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3957,
+    "location_launch_attempt_count": 1047,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 41,
+    "orbital_launch_attempt_count_year": 89,
+    "location_launch_attempt_count_year": 28,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

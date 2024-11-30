@@ -1,0 +1,119 @@
+{
+    "id": "c31e18ed-f09e-4840-b496-55289909a163",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c31e18ed-f09e-4840-b496-55289909a163/",
+    "slug": "proton-tks-2",
+    "name": "Proton | TKS 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:35:13Z",
+    "net": "1981-04-25T02:01:00Z",
+    "window_end": "1981-04-25T02:01:00Z",
+    "window_start": "1981-04-25T02:01:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5271,
+        "configuration": {
+            "id": 95,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/95/",
+            "name": "Proton",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-K",
+            "variant": "K"
+        }
+    },
+    "mission": {
+        "id": 3680,
+        "name": "TKS 2",
+        "description": "Resupply mission for Salyut space station",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 15,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/15/",
+        "agency_id": null,
+        "name": "200/39 (200L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.039984,63.032093",
+        "latitude": "46.039984",
+        "longitude": "63.032093",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_15_20200803143530.jpg",
+        "total_launch_count": 167,
+        "orbital_launch_attempt_count": 167
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20190207032625.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 23,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/23/",
+            "name": "Salyut",
+            "description": "The Salyut programme was the first space station programme, undertaken by the Soviet Union. It involved a series of four crewed scientific research space stations and two crewed military reconnaissance space stations over a period of 15 years, from 1971 to 1986.",
+            "agencies": [
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/salyut_program_20230506090532.png",
+            "start_date": "1971-04-19T01:40:00Z",
+            "end_date": "1986-07-16T12:34:05Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Salyut_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 2432,
+    "location_launch_attempt_count": 593,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 1485,
+    "orbital_launch_attempt_count_year": 41,
+    "location_launch_attempt_count_year": 15,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 34,
+    "type": "normal"
+}

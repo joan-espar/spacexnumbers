@@ -1,0 +1,94 @@
+{
+    "id": "de6ab962-db15-4660-afe3-e74137305e70",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/de6ab962-db15-4660-afe3-e74137305e70/",
+    "slug": "pslv-ca-hysis",
+    "name": "PSLV-CA | HysIS",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:27Z",
+    "net": "2018-11-29T04:27:30Z",
+    "window_end": "2018-11-29T08:00:00Z",
+    "window_start": "2018-11-29T04:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#HysIS",
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2156,
+        "configuration": {
+            "id": 43,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/43/",
+            "name": "PSLV",
+            "family": "PSLV",
+            "full_name": "PSLV-CA",
+            "variant": "CA"
+        }
+    },
+    "mission": {
+        "id": 716,
+        "name": "HysIS",
+        "description": "HysIS (Hyperspectral Imaging Spectrometer) is a small Indian earth observation satellite developed by ISRO. The primary goal of HysIS is to study the earth\u00e2\u20ac\u2122s surface in visible, near infrared and shortwave infrared regions of the electromagnetic spectrum. It is launched along with 30 small satellites and cubesats for international companies.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20230730102956.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5804,
+    "location_launch_attempt_count": 68,
+    "pad_launch_attempt_count": 44,
+    "agency_launch_attempt_count": 64,
+    "orbital_launch_attempt_count_year": 98,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

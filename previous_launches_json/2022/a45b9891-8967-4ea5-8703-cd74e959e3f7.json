@@ -1,0 +1,94 @@
+{
+    "id": "a45b9891-8967-4ea5-8703-cd74e959e3f7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a45b9891-8967-4ea5-8703-cd74e959e3f7/",
+    "slug": "long-march-4c-daqi-1-aems",
+    "name": "Long March 4C | Daqi-1 (AEMS)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:42:37Z",
+    "net": "2022-04-15T18:16:00Z",
+    "window_end": "2022-04-15T18:31:00Z",
+    "window_start": "2022-04-15T18:09:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7483,
+        "configuration": {
+            "id": 64,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/64/",
+            "name": "Long March 4C",
+            "family": "Long March",
+            "full_name": "Long March 4C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 6008,
+        "name": "Daqi-1 (AEMS)",
+        "description": "China\u2019s first satellite dedicated to comprehensive monitoring of the atmospheric environment, named Daqi-1, also known as Atmospheric Environment Monitoring Satellite (AEMS) and developed by the Shanghai Academy of Spaceflight Technology (SAST) in Shanghai, is designed to operate in sun-synchronous orbit. Daqi-1 can monitor fine particle pollution like PM2.5, pollutant gases including nitrogen dioxide, sulfur dioxide and ozone, as well as carbon dioxide concentration.\r\n\r\nIt combines both passive and active sensing, which can realize comprehensive monitoring of the atmospheric environment in a better way, according to a chief designer with SAST. The detection accuracy of fine particles and carbon dioxide column concentration by Daqi-1 has reached the international advanced level, the chief designer said. The atmospheric detection lidar deployed on the satellite is also the world's first that is capable of detecting both atmospheric aerosols and carbon dioxide.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6222,
+    "location_launch_attempt_count": 104,
+    "pad_launch_attempt_count": 58,
+    "agency_launch_attempt_count": 363,
+    "orbital_launch_attempt_count_year": 40,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

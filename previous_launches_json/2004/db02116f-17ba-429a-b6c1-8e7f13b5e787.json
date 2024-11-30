@@ -1,0 +1,94 @@
+{
+    "id": "db02116f-17ba-429a-b6c1-8e7f13b5e787",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/db02116f-17ba-429a-b6c1-8e7f13b5e787/",
+    "slug": "delta-ii-swift",
+    "name": "Delta II | Swift",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-22T11:49:13Z",
+    "net": "2004-11-20T17:16:01Z",
+    "window_end": "2004-11-20T17:16:01Z",
+    "window_start": "2004-11-20T17:16:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7208,
+        "configuration": {
+            "id": 56,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/56/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7320-10C",
+            "variant": "7320-10C"
+        }
+    },
+    "mission": {
+        "id": 5597,
+        "name": "Swift",
+        "description": "NASA Medium-class Explorer satellite dedicated to study of gamma ray bursts, the third after the IMAGE and WMAP satellites.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_ii_liftof_image_20240922114900.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4688,
+    "location_launch_attempt_count": 629,
+    "pad_launch_attempt_count": 135,
+    "agency_launch_attempt_count": 1065,
+    "orbital_launch_attempt_count_year": 49,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

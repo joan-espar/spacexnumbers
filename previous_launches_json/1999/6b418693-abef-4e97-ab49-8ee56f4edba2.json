@@ -1,0 +1,80 @@
+{
+    "id": "6b418693-abef-4e97-ab49-8ee56f4edba2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6b418693-abef-4e97-ab49-8ee56f4edba2/",
+    "slug": "pegasus-xl-wide-field-infrared-explorer-wire",
+    "name": "Pegasus XL | Wide Field Infrared Explorer (WIRE)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:55:14Z",
+    "net": "1999-03-05T02:56:00Z",
+    "window_end": "1999-03-05T02:56:00Z",
+    "window_start": "1999-03-05T02:56:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 442,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 62,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/62/",
+        "agency_id": null,
+        "name": "Vandenberg Space Force Base",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base",
+        "map_url": "https://www.google.com/maps?q=34.732778,-120.568056",
+        "latitude": "34.732778",
+        "longitude": "-120.568056",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_62_20200803143441.jpg",
+        "total_launch_count": 22,
+        "orbital_launch_attempt_count": 22
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4300,
+    "location_launch_attempt_count": 25,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 29,
+    "orbital_launch_attempt_count_year": 4300,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

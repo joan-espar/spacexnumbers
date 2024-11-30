@@ -1,0 +1,94 @@
+{
+    "id": "61e0c671-5847-4948-a699-e90b86e9b100",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/61e0c671-5847-4948-a699-e90b86e9b100/",
+    "slug": "atlas-slv-3-prime-3",
+    "name": "Atlas SLV-3 | PRIME 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:42:26Z",
+    "net": "1967-04-20T01:35:01Z",
+    "window_end": "1967-04-20T01:35:01Z",
+    "window_start": "1967-04-20T01:35:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3646,
+        "configuration": {
+            "id": 256,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/256/",
+            "name": "Atlas SLV-3",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3",
+            "variant": "SLV-3"
+        }
+    },
+    "mission": {
+        "id": 2064,
+        "name": "PRIME 3",
+        "description": "The Martin X-23 PRIME (Precision Recovery Including Maneuvering Entry) was a small uncrewed lifting body re-entry vehicle tested by the United States Air Force in the late 1960s. PRIME 3 mission was flown on 19 April 1967 and simulated reentry from low-earth orbit with a 1143 km cross-range. This time, all systems performed perfectly, and the X-23 was successfully recovered.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 24,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/24/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 3E",
+        "description": "SLC-3E is a launch pad at Vandenberg Space Force Base. It was originally built for the MIDAS program and later used for various other missions. After a period of inactivity, it was refurbished in the early 2000s to launch Atlas V rockets. The pad is now being upgraded to accommodate the new Vulcan Centaur rocket. The last Atlas V launch from SLC-3E happened in November 2022, with the first Vulcan launch expected in 2025.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_3#SLC-3E",
+        "map_url": "https://www.google.com/maps?q=34.64,-120.5895",
+        "latitude": "34.64",
+        "longitude": "-120.5895",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_24_20200803143552.jpg",
+        "total_launch_count": 48,
+        "orbital_launch_attempt_count": 45
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 256,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 390,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 18,
+    "type": "normal"
+}

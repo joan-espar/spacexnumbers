@@ -1,0 +1,94 @@
+{
+    "id": "09d5a8f8-225b-4b2d-93bb-5203bc47d092",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/09d5a8f8-225b-4b2d-93bb-5203bc47d092/",
+    "slug": "mu-3s-ii-akebono",
+    "name": "Mu-3S-II | Akebono",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:59Z",
+    "net": "1989-02-21T23:30:00Z",
+    "window_end": "1989-02-21T23:30:00Z",
+    "window_start": "1989-02-21T23:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1009,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1009/",
+        "name": "Institute of Space and Astronautical Science",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6154,
+        "configuration": {
+            "id": 339,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/339/",
+            "name": "Mu-3S-II",
+            "family": "Mu",
+            "full_name": "Mu-3S-II",
+            "variant": "S-II"
+        }
+    },
+    "mission": {
+        "id": 4544,
+        "name": "Akebono",
+        "description": "Japanese upper atmosphere research satellite",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3390,
+    "location_launch_attempt_count": 24,
+    "pad_launch_attempt_count": 19,
+    "agency_launch_attempt_count": 24,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

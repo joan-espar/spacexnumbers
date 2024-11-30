@@ -1,0 +1,119 @@
+{
+    "id": "c4db6995-f25f-4608-8eb9-ce95d5226af2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c4db6995-f25f-4608-8eb9-ce95d5226af2/",
+    "slug": "atlas-v-541-mars-2020-perseverance-rover-ingenuity",
+    "name": "Atlas V 541 | Mars 2020 (Perseverance rover & Ingenuity helicopter)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:12:01Z",
+    "net": "2020-07-30T11:50:00Z",
+    "window_end": "2020-07-30T13:50:00Z",
+    "window_start": "2020-07-30T11:50:00Z",
+    "net_precision": null,
+    "probability": 90,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 157,
+        "configuration": {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/1/",
+            "name": "Atlas V 541",
+            "family": "Atlas",
+            "full_name": "Atlas V 541",
+            "variant": "541"
+        }
+    },
+    "mission": {
+        "id": 1126,
+        "name": "Mars 2020 (Perseverance rover & Ingenuity helicopter)",
+        "description": "Atop this ULA Atlas V rocket will be Perseverance, a car-sized rover which will explore an ancient river delta on Mars. Armed with a suite of six scientific instruments, Perseverance will primarily hunt for clues to the planet's distant past, and hopefully uncover signs of ancient life and habitability. The rover also carries an experiment that'll convert carbon dioxide into oxygen, a box-sized helicopter named Ingenuity that'll demonstrate powered flight on Mars, and a system that enables the rover to leave behind samples for later retrieval and return to Earth during NASA and ESA's ambitious sample return mission later this decade.",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v252_image_20200729144937.jpg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/atlas2520v252_infographic_20200806042150.png",
+    "program": [
+        {
+            "id": 36,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/36/",
+            "name": "NASA Large Strategic Science Missions",
+            "description": "NASA's large strategic science missions or large strategic missions, formerly known as Flagship missions or Flagship-class missions, are the costliest and most capable NASA science spacecraft. Flagship missions exist within all four divisions of NASA's Science Mission Directorate (SMD): the astrophysics, Earth science, heliophysics and planetary science divisions.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nasa2520large_program_20240205122003.jpeg",
+            "start_date": "1975-08-22T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Large_strategic_science_missions",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5980,
+    "location_launch_attempt_count": 803,
+    "pad_launch_attempt_count": 98,
+    "agency_launch_attempt_count": 141,
+    "orbital_launch_attempt_count_year": 58,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

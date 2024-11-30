@@ -1,0 +1,94 @@
+{
+    "id": "2a50c3d9-924d-49f7-8d03-a26df7920e85",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2a50c3d9-924d-49f7-8d03-a26df7920e85/",
+    "slug": "soyuz-11a511l-t2k-3",
+    "name": "Soyuz 11A511L | T2K 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:40:56Z",
+    "net": "1971-08-12T05:30:00Z",
+    "window_end": "1971-08-12T05:30:00Z",
+    "window_start": "1971-08-12T05:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4162,
+        "configuration": {
+            "id": 375,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/375/",
+            "name": "Soyuz 11A511L",
+            "family": "Soyuz",
+            "full_name": "Soyuz 11A511L",
+            "variant": "11A511L"
+        }
+    },
+    "mission": {
+        "id": 2580,
+        "name": "T2K 3",
+        "description": "Uncrewed lunar lander prototype without landing legs.",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1250,
+    "location_launch_attempt_count": 334,
+    "pad_launch_attempt_count": 119,
+    "agency_launch_attempt_count": 594,
+    "orbital_launch_attempt_count_year": 79,
+    "location_launch_attempt_count_year": 22,
+    "pad_launch_attempt_count_year": 11,
+    "agency_launch_attempt_count_year": 53,
+    "type": "normal"
+}

@@ -1,0 +1,137 @@
+{
+    "id": "1048ab71-b740-4225-ab56-038b0ecd64f5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1048ab71-b740-4225-ab56-038b0ecd64f5/",
+    "slug": "antares-130-cygnus-crs-orb-3",
+    "name": "Antares 130 | Cygnus CRS Orb-3",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:58:45Z",
+    "net": "2014-10-28T22:22:38Z",
+    "window_end": "2014-10-28T22:22:38Z",
+    "window_start": "2014-10-28T22:22:38Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1795,
+        "configuration": {
+            "id": 59,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/59/",
+            "name": "Antares 130",
+            "family": "Antares",
+            "full_name": "Antares 130",
+            "variant": "130"
+        }
+    },
+    "mission": {
+        "id": 51,
+        "name": "Cygnus CRS Orb-3",
+        "description": "This was supposed to be the fourth Cygnus cargo delivery flight to the International Space Station, but resulted in the Antares rocket exploding seconds after liftoff.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 76,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/76/",
+        "agency_id": 44,
+        "name": "Launch Area 0 A",
+        "description": "LP-0A was first built for the failed Conestoga rocket program. The original launch tower was subsequently demolished in September 2008. A new pad facility was built from 2009 to 2011 for Orbital Sciences Taurus II, now renamed Antares.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Regional_Spaceport_Launch_Pad_0#Pad_0A",
+        "map_url": "https://www.google.com/maps?q=37.8337,-75.4881",
+        "latitude": "37.8337",
+        "longitude": "-75.4881",
+        "location": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+            "name": "Wallops Flight Facility, Virginia, USA",
+            "country_code": "USA",
+            "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 79,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_76_20200803143538.jpg",
+        "total_launch_count": 19,
+        "orbital_launch_attempt_count": 19
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/antares_130_exp_image_20240308083257.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+            "name": "Commercial Resupply Services",
+            "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 257,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                    "name": "Northrop Grumman Space Systems",
+                    "type": "Commercial"
+                },
+                {
+                    "id": 1020,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                    "name": "Sierra Nevada Corporation",
+                    "type": "Commercial"
+                },
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+            "start_date": "2008-12-23T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5418,
+    "location_launch_attempt_count": 59,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 72,
+    "orbital_launch_attempt_count_year": 69,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "57c418cc-97ae-4d8e-b806-bb0e0345217f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/57c418cc-97ae-4d8e-b806-bb0e0345217f/",
+    "slug": "long-march-8-xjy-7-others",
+    "name": "Long March 8 | XJY-7 & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T17:17:09Z",
+    "net": "2020-12-22T04:37:37Z",
+    "window_end": "2020-12-22T04:37:37Z",
+    "window_start": "2020-12-22T04:37:37Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2813,
+        "configuration": {
+            "id": 462,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/462/",
+            "name": "Long March 8",
+            "family": "Long March",
+            "full_name": "Long March 8",
+            "variant": "8"
+        }
+    },
+    "mission": {
+        "id": 1221,
+        "name": "XJY-7 & others",
+        "description": "XJY-7 is an undisclosed Chinese government payload for the first launch of Long March 8",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 32,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 20
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20201216110501.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6035,
+    "location_launch_attempt_count": 10,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 303,
+    "orbital_launch_attempt_count_year": 113,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 33,
+    "type": "normal"
+}

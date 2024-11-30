@@ -1,0 +1,94 @@
+{
+    "id": "f42a5c29-24bf-4813-8f78-42ee31695ea7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f42a5c29-24bf-4813-8f78-42ee31695ea7/",
+    "slug": "ariane-5-eca-eutelsat-w3b-bsat-3b",
+    "name": "Ariane 5 ECA | Eutelsat W3B & BSAT-3b",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:24Z",
+    "net": "2010-10-28T21:51:00Z",
+    "window_end": "2010-10-28T21:51:00Z",
+    "window_start": "2010-10-28T21:51:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 679,
+        "configuration": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/20/",
+            "name": "Ariane 5 ECA",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA",
+            "variant": "ECA"
+        }
+    },
+    "mission": {
+        "id": 805,
+        "name": "Eutelsat W3B & BSAT-3b",
+        "description": "Eutelsat W3B is a communication satellite to be located at 7 degrees East to provide broadcast and telecommunications accross Europe, the Middle East and Africa. However it took another satellites place, W2M which had failed. Directly after launch however W3B developed a sizeable leak and was declared a total loss. B-SAT 3b is a geostationary communications satellite operated by B-SAT stationed at 110 degrees East, providing high definition direct television services across Japan.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5090,
+    "location_launch_attempt_count": 206,
+    "pad_launch_attempt_count": 53,
+    "agency_launch_attempt_count": 192,
+    "orbital_launch_attempt_count_year": 58,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

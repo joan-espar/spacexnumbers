@@ -1,0 +1,154 @@
+{
+    "id": "6728f0ef-c3c9-43d5-a774-513d8979915e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6728f0ef-c3c9-43d5-a774-513d8979915e/",
+    "slug": "soyuz-u2-soyuz-t-12",
+    "name": "Soyuz-U2 | Soyuz T-12",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:44:02Z",
+    "net": "1984-07-17T17:40:54Z",
+    "window_end": "1984-07-17T17:40:54Z",
+    "window_start": "1984-07-17T17:40:54Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 299,
+        "configuration": {
+            "id": 101,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/101/",
+            "name": "Soyuz-U",
+            "family": "",
+            "full_name": "Soyuz-U2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 352,
+        "name": "Soyuz T-12",
+        "description": "Soyuz T-12 was the seventh mission to visit the Salyut 7 space station and the second to visit the long-duration Soyuz T-10 resident crew of the station. The mission began on July 17, 1984, 17:40:54 UTC, launching Commander Vladimir Dzhanibekov, Flight Engineer Svetlana Savitskaya and Research Igor Volk into orbit. They docked with the station the next day. During their 9-day stay on the station, crew carried out various experiments, and Savitskaya became the first woman to ever perform a spacewalk.\nThe mission concluded with a safe landing back on Earth on July 29, 1984, 12:55:30 UTC.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-u_image_20191229074852.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 23,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/23/",
+            "name": "Salyut",
+            "description": "The Salyut programme was the first space station programme, undertaken by the Soviet Union. It involved a series of four crewed scientific research space stations and two crewed military reconnaissance space stations over a period of 15 years, from 1971 to 1986.",
+            "agencies": [
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/salyut_program_20230506090532.png",
+            "start_date": "1971-04-19T01:40:00Z",
+            "end_date": "1986-07-16T12:34:05Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Salyut_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 2848,
+    "location_launch_attempt_count": 714,
+    "pad_launch_attempt_count": 277,
+    "agency_launch_attempt_count": 1816,
+    "orbital_launch_attempt_count_year": 73,
+    "location_launch_attempt_count_year": 20,
+    "pad_launch_attempt_count_year": 10,
+    "agency_launch_attempt_count_year": 57,
+    "type": "normal"
+}

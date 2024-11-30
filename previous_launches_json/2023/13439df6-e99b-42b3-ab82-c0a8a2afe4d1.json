@@ -1,0 +1,99 @@
+{
+    "id": "13439df6-e99b-42b3-ab82-c0a8a2afe4d1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/13439df6-e99b-42b3-ab82-c0a8a2afe4d1/",
+    "slug": "h3-22-alos-3-maiden-flight",
+    "name": "H3-22 | ALOS-3 (Maiden flight)",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2024-03-25T12:16:18Z",
+    "net": "2023-03-07T01:37:55Z",
+    "window_end": "2023-03-07T01:44:15Z",
+    "window_start": "2023-03-07T01:37:55Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "2nd stage engine failed to ignite due to electrical circuit failure between vehicle controller and engine igniter at engine ignition.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2538,
+        "configuration": {
+            "id": 486,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/486/",
+            "name": "H3-22",
+            "family": "H3",
+            "full_name": "H3-22",
+            "variant": "22"
+        }
+    },
+    "mission": {
+        "id": 6089,
+        "name": "ALOS-3 (Maiden flight)",
+        "description": "Maiden flight of the H3 launch vehicle, carrying the Advanced Land Observing Satellite-3 (ALOS-3).\r\n\r\nALOS-3, also known as Advanced Optical Satellite is a successor of the optical mission of the Advanced Land Observation Satellite \u201cDAICHI\u201d (ALOS). The new satellite will achieve improved ground resolution (0.8 m) while observing a wide -swath (70 km) by a larger sensor with higher performance compared to DAICH, and continuously observe not only Japan but also global land areas to construct a system that can swiftly and timely acquire, process and distribute image data. Based on the accumulated data captured in pre- and post-disaster times, the satellite aims to become one of the imperative devices for disaster prevention and preparation activities of countries and municipal governments.\r\n\r\nObservation data acquired by the satellite is also expected to be useful in various fields such as contributing to the maintenance and updates of precise geospatial information in Japan as well as developing countries, and research and applications on coastal and land environmental monitoring by its observation capabilities.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 209,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/209/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400938,130.97564",
+        "latitude": "30.400938",
+        "longitude": "130.97564",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yoshinobu_launch_complex_lp-2_20230707124715.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 13
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_image_20230307130808.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6400,
+    "location_launch_attempt_count": 87,
+    "pad_launch_attempt_count": 10,
+    "agency_launch_attempt_count": 48,
+    "orbital_launch_attempt_count_year": 32,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

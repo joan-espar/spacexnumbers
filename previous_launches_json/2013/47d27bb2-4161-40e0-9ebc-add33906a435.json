@@ -1,0 +1,143 @@
+{
+    "id": "47d27bb2-4161-40e0-9ebc-add33906a435",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/47d27bb2-4161-40e0-9ebc-add33906a435/",
+    "slug": "antares-110-cygnus-orb-1-ss-g-david-low",
+    "name": "Antares 110 | Cygnus Orb-1 (S.S. G. David Low)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:58:39Z",
+    "net": "2013-09-18T14:58:02Z",
+    "window_end": "2013-09-18T14:58:02Z",
+    "window_start": "2013-09-18T14:58:02Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1703,
+        "configuration": {
+            "id": 69,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/69/",
+            "name": "Antares 110",
+            "family": "Antares",
+            "full_name": "Antares 110",
+            "variant": "110"
+        }
+    },
+    "mission": {
+        "id": 967,
+        "name": "Cygnus Orb-D1 (S.S. G. David Low)",
+        "description": "This is the demonstration mission under NASA's Commercial Resupply Service agreement with Orbital Sciences. The unmanned Cygnus cargo vessel delivered approximately 700kg of supplies and science experiments to the International Space Station.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 76,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/76/",
+        "agency_id": 44,
+        "name": "Launch Area 0 A",
+        "description": "LP-0A was first built for the failed Conestoga rocket program. The original launch tower was subsequently demolished in September 2008. A new pad facility was built from 2009 to 2011 for Orbital Sciences Taurus II, now renamed Antares.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Regional_Spaceport_Launch_Pad_0#Pad_0A",
+        "map_url": "https://www.google.com/maps?q=37.8337,-75.4881",
+        "latitude": "37.8337",
+        "longitude": "-75.4881",
+        "location": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+            "name": "Wallops Flight Facility, Virginia, USA",
+            "country_code": "USA",
+            "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 79,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_76_20200803143538.jpg",
+        "total_launch_count": 19,
+        "orbital_launch_attempt_count": 19
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/antares_110_lau_image_20240308082903.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
+            "name": "International Space Station",
+            "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+            "agencies": [
+                {
+                    "id": 16,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+                    "name": "Canadian Space Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                },
+                {
+                    "id": 37,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+                    "name": "Japan Aerospace Exploration Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+            "start_date": "1998-11-20T06:40:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5321,
+    "location_launch_attempt_count": 55,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 68,
+    "orbital_launch_attempt_count_year": 53,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

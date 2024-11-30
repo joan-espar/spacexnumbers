@@ -1,0 +1,94 @@
+{
+    "id": "357d1686-d5c9-4b77-9e4c-f894b16887fa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/357d1686-d5c9-4b77-9e4c-f894b16887fa/",
+    "slug": "kuaizhou-1a-kx-09-ty-1-07-xiaoxiang-1-07",
+    "name": "Kuaizhou-1A | KX-09 & TY-1-07 (Xiaoxiang-1-07)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:18:55Z",
+    "net": "2019-08-30T23:41:25Z",
+    "window_end": "2019-08-30T23:41:25Z",
+    "window_start": "2019-08-30T23:41:25Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 194,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/194/",
+        "name": "ExPace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2168,
+        "configuration": {
+            "id": 135,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/135/",
+            "name": "Kuaizhou",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-1A",
+            "variant": "1A"
+        }
+    },
+    "mission": {
+        "id": 1034,
+        "name": "KX-09 & TY-1-07 (Xiaoxiang-1-07)",
+        "description": "Developed by the DFH Satellite Co., the microgravity experimental satellite KX-09 (supposedly Kuxue-09) will conduct studies in microgravity. Established in August 2001, DFH Satellite Co., Ltd. is mainly engaged in system R&D, design, integration and in-orbit service of small satellites. It is subordinated to China Academy of Space Technology (CAST) and wholly owned by the listed company China Spacesat Co., Ltd.\r\n\r\nXiaoxiang 1-07 (TY 1-07) is a small satellite developed by SpaceTY, possibly a CubeSat-2U. As one of the first commercial aerospace companies in China, \u00e2\u20ac\u0153Spacety\u00e2\u20ac\u009d specializes in developing commercial micro/nanosatellites. The company aims to provide short-cycle, low-cost and one-stop services to scientists, research institutes, and commercial companies, for science experiments and technology demonstrations.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5883,
+    "location_launch_attempt_count": 118,
+    "pad_launch_attempt_count": 13,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 63,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

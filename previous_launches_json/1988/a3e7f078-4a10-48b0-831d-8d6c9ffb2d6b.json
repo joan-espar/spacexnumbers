@@ -1,0 +1,94 @@
+{
+    "id": "a3e7f078-4a10-48b0-831d-8d6c9ffb2d6b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a3e7f078-4a10-48b0-831d-8d6c9ffb2d6b/",
+    "slug": "h-1-sakura-3b",
+    "name": "H-1 | Sakura 3B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-07T13:09:26Z",
+    "net": "1988-09-16T09:59:00Z",
+    "window_end": "1988-09-16T09:59:00Z",
+    "window_start": "1988-09-16T09:59:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6112,
+        "configuration": {
+            "id": 319,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/319/",
+            "name": "H-1",
+            "family": "",
+            "full_name": "H-I",
+            "variant": "I"
+        }
+    },
+    "mission": {
+        "id": 4502,
+        "name": "Sakura 3B",
+        "description": "Japanese geostationary communications satellite",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 10,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/10/",
+        "agency_id": 37,
+        "name": "Osaki Launch Complex",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Tanegashima_Space_Center",
+        "map_url": "https://www.google.com/maps?q=30.3993934,130.9702486",
+        "latitude": "30.3993934",
+        "longitude": "130.9702486",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_10_20200803143519.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-1_image_20240210175424.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3343,
+    "location_launch_attempt_count": 19,
+    "pad_launch_attempt_count": 19,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 90,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

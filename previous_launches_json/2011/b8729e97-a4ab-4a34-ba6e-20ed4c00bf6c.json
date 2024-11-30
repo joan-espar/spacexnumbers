@@ -1,0 +1,85 @@
+{
+    "id": "b8729e97-a4ab-4a34-ba6e-20ed4c00bf6c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b8729e97-a4ab-4a34-ba6e-20ed4c00bf6c/",
+    "slug": "zenit-2m-fobos-grunt-yinghuo-1",
+    "name": "Zenit 2M | Fobos-Grunt & Yinghuo-1",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2024-06-15T14:36:20Z",
+    "net": "2011-11-08T20:16:03Z",
+    "window_end": "2011-11-08T20:16:03Z",
+    "window_start": "2011-11-08T20:16:03Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1561,
+        "configuration": {
+            "id": 89,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/89/",
+            "name": "Zenit 2M",
+            "family": "Zenith",
+            "full_name": "Zenit 2M",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 2,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/2/",
+        "agency_id": null,
+        "name": "45/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.943492,63.653014",
+        "latitude": "45.943492",
+        "longitude": "63.653014",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_2_20200803143256.jpg",
+        "total_launch_count": 46,
+        "orbital_launch_attempt_count": 46
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5174,
+    "location_launch_attempt_count": 1374,
+    "pad_launch_attempt_count": 43,
+    "agency_launch_attempt_count": 209,
+    "orbital_launch_attempt_count_year": 5174,
+    "location_launch_attempt_count_year": 19,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}

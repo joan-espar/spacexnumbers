@@ -1,0 +1,99 @@
+{
+    "id": "ab9e0dbd-5720-46f4-a514-1faa9f2303b4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ab9e0dbd-5720-46f4-a514-1faa9f2303b4/",
+    "slug": "soyuz-21bfregat-m-egyptsat-a",
+    "name": "Soyuz 2.1b/Fregat-M | EgyptSat-A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:57:58Z",
+    "net": "2019-02-21T16:47:14Z",
+    "window_end": "2019-02-21T16:47:14Z",
+    "window_start": "2019-02-21T16:47:14Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2147,
+        "configuration": {
+            "id": 134,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/134/",
+            "name": "Soyuz 2.1b/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 109,
+        "name": "EgyptSat-A",
+        "description": "EgyptSat-A (MisrSat A) is Egypt's third Earth remote-sounding satellite. The satellite is jointly built by Egypt's National Authority for Remote Sensing and Space Sciences together with RKK Energiya in Russia. The imaging payload was developed by OAO Peleng and NIRUP Geoinformatsionnye Sistemy in Belarus.\n\nThe satellite is an improved version of EgyptSat 2 and is also based on RKK Energiya's 559GK bus, which inherits technologies from their USP platform. The satellite features SPD-70 electric engines using Xenon. It features an improved opto-electronic system and onboard control system, high-speed on-board radio link and solar cells with increased efficiency.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5830,
+    "location_launch_attempt_count": 1496,
+    "pad_launch_attempt_count": 376,
+    "agency_launch_attempt_count": 280,
+    "orbital_launch_attempt_count_year": 10,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

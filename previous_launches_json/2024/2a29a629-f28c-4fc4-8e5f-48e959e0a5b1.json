@@ -1,0 +1,129 @@
+{
+    "id": "2a29a629-f28c-4fc4-8e5f-48e959e0a5b1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2a29a629-f28c-4fc4-8e5f-48e959e0a5b1/",
+    "slug": "pslv-dl-xposat",
+    "name": "PSLV-DL | XPoSat",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:31:16Z",
+    "net": "2024-01-01T03:40:00Z",
+    "window_end": "2024-01-01T03:40:00Z",
+    "window_start": "2024-01-01T03:40:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7562,
+        "configuration": {
+            "id": 178,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/178/",
+            "name": "PSLV-DL",
+            "family": "PSLV",
+            "full_name": "PSLV-DL",
+            "variant": "DL"
+        }
+    },
+    "mission": {
+        "id": 6495,
+        "name": "XPoSat",
+        "description": "XPoSat (X-ray Polarimeter Satellite) is India\u2019s first dedicated polarimetry mission to study various dynamics of bright astronomical X-ray sources in extreme conditions. The spacecraft will carry two scientific payloads in a low earth orbit. The primary payload POLIX (Polarimeter Instrument in X-rays) will measure the polarimetry parameters (degree and angle of polarization) in medium X-ray energy range of 8-30 keV photons of astronomical origin. The XSPECT (X-ray Spectroscopy and Timing) payload will give spectroscopic information in the energy range of 0.8-15 keV.\r\n\r\nIn addition, 10 attached payloads on the PSLV 4th stage will perform various experiments and testing from Indian institutions coordinated by ISRO, known as PSLV Orbital Experimental Module-3 (POEM-3).",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 31,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+                "name": "Indian Space Research Organization",
+                "featured": true,
+                "type": "Government",
+                "country_code": "IND",
+                "abbrev": "ISRO",
+                "description": "The Indian Space Research Organisation (ISRO) is the space agency of the Government of India headquartered in the city of Bangalore. Its vision is to \"harness space technology for national development while pursuing space science research and planetary exploration.\"",
+                "administrator": "Chairman: S. Somanath",
+                "founding_year": "1969",
+                "launchers": "PSLV | GSLV",
+                "spacecraft": "Gaganyaan",
+                "launch_library_url": null,
+                "total_launch_count": 91,
+                "consecutive_successful_launches": 13,
+                "successful_launches": 78,
+                "failed_launches": 13,
+                "pending_launches": 19,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.isro.gov.in/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Indian_Space_Research_Organization",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_logo_20190215225409.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_image_20190215225409.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_nation_20230624125733.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv-dl252025_image_20240101105209.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6590,
+    "location_launch_attempt_count": 93,
+    "pad_launch_attempt_count": 58,
+    "agency_launch_attempt_count": 89,
+    "orbital_launch_attempt_count_year": 1,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

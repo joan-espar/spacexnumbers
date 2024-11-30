@@ -1,0 +1,94 @@
+{
+    "id": "b4a603e1-4fa0-4702-b324-24e745ab82df",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b4a603e1-4fa0-4702-b324-24e745ab82df/",
+    "slug": "delta-iv-m54-wgs-10",
+    "name": "Delta IV M+(5,4) | WGS-10",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:43:27Z",
+    "net": "2019-03-16T00:26:00Z",
+    "window_end": "2019-03-16T01:05:00Z",
+    "window_start": "2019-03-15T22:56:00Z",
+    "net_precision": null,
+    "probability": 100,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#WGS10",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 82,
+        "configuration": {
+            "id": 23,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/23/",
+            "name": "Delta IV M+(5,4)",
+            "family": "Delta",
+            "full_name": "Delta IV M+(5,4)",
+            "variant": "M+(5,4)"
+        }
+    },
+    "mission": {
+        "id": 974,
+        "name": "WGS-10",
+        "description": "WGS-10 is the tenth and final satellite in Wideband Global Satcom constellation.  These are high-capacity military communications satellites providing vital service for tactical forces who rely on WGS for connectivity to the Defence Information Systems Network (DISN).",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 38,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/38/",
+        "agency_id": null,
+        "name": "Space Launch Complex 37B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37",
+        "map_url": "https://www.google.com/maps?q=28.5317,-80.56495",
+        "latitude": "28.5317",
+        "longitude": "-80.56495",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_38_20200803143515.jpg",
+        "total_launch_count": 40,
+        "orbital_launch_attempt_count": 40
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_iv_m252b_image_20240308073027.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5836,
+    "location_launch_attempt_count": 780,
+    "pad_launch_attempt_count": 36,
+    "agency_launch_attempt_count": 134,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

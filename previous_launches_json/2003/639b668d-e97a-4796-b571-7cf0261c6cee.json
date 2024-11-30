@@ -1,0 +1,94 @@
+{
+    "id": "639b668d-e97a-4796-b571-7cf0261c6cee",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/639b668d-e97a-4796-b571-7cf0261c6cee/",
+    "slug": "atlas-asiasat-4",
+    "name": "Atlas | Asiasat 4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:39:58Z",
+    "net": "2003-04-12T00:47:01Z",
+    "window_end": "2003-04-12T00:47:01Z",
+    "window_start": "2003-04-12T00:47:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 82,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/82/",
+        "name": "Lockheed Martin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7129,
+        "configuration": {
+            "id": 472,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/472/",
+            "name": "Atlas IIIB",
+            "family": "Atlas",
+            "full_name": "Atlas IIIB",
+            "variant": "IIIB"
+        }
+    },
+    "mission": {
+        "id": 5518,
+        "name": "Asiasat 4",
+        "description": "AsiaSat 4 is designed to provide broadcast, telecommunications and broadband multimedia services to the Asia Pacific region, and direct-to-home broadcast servic-es to Hong Kong",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 3,
+            "name": "Geosynchronous Orbit",
+            "abbrev": "GSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 122,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/122/",
+        "agency_id": 161,
+        "name": "Launch Complex 36B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=28.4705556,-80.542194",
+        "latitude": "28.4705556",
+        "longitude": "-80.542194",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_122_20200803143232.jpg",
+        "total_launch_count": 76,
+        "orbital_launch_attempt_count": 76
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_iiia_image_20210901074920.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4590,
+    "location_launch_attempt_count": 609,
+    "pad_launch_attempt_count": 72,
+    "agency_launch_attempt_count": 66,
+    "orbital_launch_attempt_count_year": 14,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

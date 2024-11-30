@@ -1,0 +1,94 @@
+{
+    "id": "96fd4a72-a16a-4f32-8a04-4dc5b41917ab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/96fd4a72-a16a-4f32-8a04-4dc5b41917ab/",
+    "slug": "atlas-slv-3-agena-d-lunar-orbiter-3",
+    "name": "Atlas SLV-3 Agena D | Lunar Orbiter 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:25Z",
+    "net": "1967-02-05T01:17:01Z",
+    "window_end": "1967-02-05T01:17:01Z",
+    "window_start": "1967-02-05T01:17:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3617,
+        "configuration": {
+            "id": 258,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/258/",
+            "name": "Atlas SLV-3 Agena D",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3 Agena D",
+            "variant": "SLV-3 Agena D"
+        }
+    },
+    "mission": {
+        "id": 2036,
+        "name": "Lunar Orbiter 3",
+        "description": "Lunar probe designed to photograph the surface of the Moon with a resolution down to 1 meter.",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/117/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 13",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_13",
+        "map_url": "https://www.google.com/maps?q=28.4859,-80.546594",
+        "latitude": "28.4859",
+        "longitude": "-80.546594",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_117_20200803143223.jpg",
+        "total_launch_count": 21,
+        "orbital_launch_attempt_count": 21
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 658,
+    "location_launch_attempt_count": 196,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 379,
+    "orbital_launch_attempt_count_year": 10,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "e7f1ab18-908c-46b0-a16d-7deb6a52a8c1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e7f1ab18-908c-46b0-a16d-7deb6a52a8c1/",
+    "slug": "h-iia-204-inmarsat-6-f1",
+    "name": "H-IIA 204 | Inmarsat-6 F1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:07Z",
+    "net": "2021-12-22T15:32:00Z",
+    "window_end": "2021-12-22T16:33:26Z",
+    "window_start": "2021-12-22T14:33:52Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 134,
+        "configuration": {
+            "id": 48,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/48/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 204",
+            "variant": "204"
+        }
+    },
+    "mission": {
+        "id": 5893,
+        "name": "Inmarsat-6 F1",
+        "description": "Inmarsat-6 is the sixth generation of satellites for the London-based global mobile satellite communications operator Inmarsat. It consists of a dual mission to augment both L-band and Ka-band Global Xpress services.\r\n\r\nAirbus Defence and Space has been awarded a contract by Inmarsat to design and develop the first two Inmarsat-6 (I-6) mobile communications satellites, creating the most versatile mobile services satellites in its fleet.\r\n\r\nThe two I-6 satellites are based on Airbus Defence and Space's Eurostar platform in its E3000e variant, which exclusively uses electric propulsion for orbit raising. The satellites take advantage of the reduction in mass that this electric propulsion technology enables for a dual payload mission, with an exceptionally large next generation digitally processed payload.\r\n\r\nI-6 F1 and F2 both carry a large 9 m aperture L-band antenna and nine multibeam Ka-band antennas, and feature a high level of flexibility and connectivity. A new generation modular digital processor provides full routing flexibility over up to 8000 channels and dynamic power allocation to over 200 spot beams in L-band. Ka-band spot beams are steerable over the full Earth disk, with flexible channel to beam allocation.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_204_lifto_image_20240325124231.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6174,
+    "location_launch_attempt_count": 85,
+    "pad_launch_attempt_count": 52,
+    "agency_launch_attempt_count": 46,
+    "orbital_launch_attempt_count_year": 137,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

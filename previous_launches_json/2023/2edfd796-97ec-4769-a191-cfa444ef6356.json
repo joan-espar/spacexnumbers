@@ -1,0 +1,94 @@
+{
+    "id": "2edfd796-97ec-4769-a191-cfa444ef6356",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2edfd796-97ec-4769-a191-cfa444ef6356/",
+    "slug": "long-march-11-shiyan-19",
+    "name": "Long March 11 | Shiyan 19",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:36:36Z",
+    "net": "2023-03-15T11:41:00Z",
+    "window_end": "2023-03-15T11:56:00Z",
+    "window_start": "2023-03-15T11:36:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7816,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 6328,
+        "name": "Shiyan 19",
+        "description": "Chinese Earth observation satellite of unknown purposes.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20240101100445.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6406,
+    "location_launch_attempt_count": 187,
+    "pad_launch_attempt_count": 37,
+    "agency_launch_attempt_count": 414,
+    "orbital_launch_attempt_count_year": 38,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

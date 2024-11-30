@@ -1,0 +1,119 @@
+{
+    "id": "bfc39e50-485c-4519-bf1d-c87d27d36b85",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bfc39e50-485c-4519-bf1d-c87d27d36b85/",
+    "slug": "space-shuttle-discovery-ov-103-sts-56",
+    "name": "Space Shuttle Discovery / OV-103 | STS-56",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:48:59Z",
+    "net": "1993-04-08T05:29:00Z",
+    "window_end": "1993-04-08T05:29:00Z",
+    "window_start": "1993-04-08T05:29:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 192,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/192/",
+        "name": "Lockheed Space Operations Company",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 363,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 748,
+        "name": "STS-56",
+        "description": "STS-56 was a Space Shuttle Discovery mission to perform special experiments. The mission was launched from Kennedy Space Center, Florida, on 8 April 1993.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 4,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/4/",
+        "agency_id": 44,
+        "name": "Launch Complex 39B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39B",
+        "map_url": "https://www.google.com/maps?q=28.62711233,-80.62101503",
+        "latitude": "28.62711233",
+        "longitude": "-80.62101503",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
+        "total_launch_count": 58,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3808,
+    "location_launch_attempt_count": 71,
+    "pad_launch_attempt_count": 23,
+    "agency_launch_attempt_count": 45,
+    "orbital_launch_attempt_count_year": 23,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

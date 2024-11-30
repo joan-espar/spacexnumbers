@@ -1,0 +1,94 @@
+{
+    "id": "d0c2674d-851f-4e6e-867a-22b2e7624495",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d0c2674d-851f-4e6e-867a-22b2e7624495/",
+    "slug": "delta-2914-westar-2",
+    "name": "Delta 2914 | Westar 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:48Z",
+    "net": "1974-10-10T22:53:00Z",
+    "window_end": "1974-10-10T22:53:00Z",
+    "window_start": "1974-10-10T22:53:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4510,
+        "configuration": {
+            "id": 287,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/287/",
+            "name": "Delta 2914",
+            "family": "Delta",
+            "full_name": "Delta 2914",
+            "variant": "2914"
+        }
+    },
+    "mission": {
+        "id": 2928,
+        "name": "Westar 2",
+        "description": "Geostationary communications satellite developed by Hughes Aircraft Company",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_2910_image_20231231105214.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1619,
+    "location_launch_attempt_count": 285,
+    "pad_launch_attempt_count": 46,
+    "agency_launch_attempt_count": 624,
+    "orbital_launch_attempt_count_year": 81,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

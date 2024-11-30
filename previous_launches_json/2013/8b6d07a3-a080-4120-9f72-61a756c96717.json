@@ -1,0 +1,94 @@
+{
+    "id": "8b6d07a3-a080-4120-9f72-61a756c96717",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b6d07a3-a080-4120-9f72-61a756c96717/",
+    "slug": "minotaur-v-ladee",
+    "name": "Minotaur V | LADEE",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:50Z",
+    "net": "2013-09-07T03:27:00Z",
+    "window_end": "2013-09-07T03:27:00Z",
+    "window_start": "2013-09-07T03:27:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1699,
+        "configuration": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/13/",
+            "name": "Minotaur V",
+            "family": "Minotaur",
+            "full_name": "Minotaur V",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 39,
+        "name": "LADEE",
+        "description": "NASA's Lunar Atmosphere and Dust Environment Explorer (LADEE, pronounced like \"laddie\") was a robotic mission that orbited the moon to gather detailed information about the lunar atmosphere, conditions near the surface and environmental influences on lunar dust.",
+        "launch_designator": null,
+        "type": "Robotic Exploration",
+        "orbit": {
+            "id": 11,
+            "name": "Lunar Orbit",
+            "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 56,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/56/",
+        "agency_id": 44,
+        "name": "Launch Area 0 B",
+        "description": "LP-0B became operational in 1999,and was subsequently upgraded in 2003 with the construction of a mobile service tower, which was completed in 2004. It is active, and is currently used by Northrop Grumman Minotaur rockets. The first launch from LP-0B was of a Minotaur I in December 2006, and was the first launch from the Mid-Atlantic Regional Spaceport.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mid-Atlantic_Regional_Spaceport_Launch_Pad_0#Pad-0B",
+        "map_url": "https://www.google.com/maps?q=37.831,-75.4911",
+        "latitude": "37.831",
+        "longitude": "-75.4911",
+        "location": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+            "name": "Wallops Flight Facility, Virginia, USA",
+            "country_code": "USA",
+            "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 79,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_56_20200803143541.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/orbital2520atk_image_20190207032453.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5317,
+    "location_launch_attempt_count": 54,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 67,
+    "orbital_launch_attempt_count_year": 49,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

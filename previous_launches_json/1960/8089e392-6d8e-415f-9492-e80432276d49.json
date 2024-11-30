@@ -1,0 +1,119 @@
+{
+    "id": "8089e392-6d8e-415f-9492-e80432276d49",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8089e392-6d8e-415f-9492-e80432276d49/",
+    "slug": "redstone-mrlv-mercury-redstone-1a",
+    "name": "Redstone MRLV | Mercury-Redstone 1A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:57:35Z",
+    "net": "1960-12-19T16:15:00Z",
+    "window_end": "1960-12-19T16:15:00Z",
+    "window_start": "1960-12-19T16:15:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7437,
+        "configuration": {
+            "id": 107,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/107/",
+            "name": "Redstone",
+            "family": "Redstone",
+            "full_name": "Redstone MRLV",
+            "variant": "MRLV"
+        }
+    },
+    "mission": {
+        "id": 5826,
+        "name": "Mercury-Redstone 1A",
+        "description": "Mercury-Redstone 1A (MR-1A) was launched on December 19, 1960 from LC-5 at Cape Canaveral, Florida. The mission objectives of this uncrewed suborbital flight were to qualify the spacecraft for space flight and qualify the system for an upcoming primate suborbital flight.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 123,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/123/",
+        "agency_id": 161,
+        "name": "Launch Complex 5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_5",
+        "map_url": "https://www.google.com/maps?q=28.43942,-80.573301",
+        "latitude": "28.43942",
+        "longitude": "-80.573301",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_123_20200803143235.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/redstone_image_20190207032627.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 2,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/2/",
+            "name": "Mercury",
+            "description": "Project Mercury was the first human spaceflight program of the United States, running from 1958 through 1963.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520mer_program_20200820194755.png",
+            "start_date": "1958-10-07T00:00:00Z",
+            "end_date": "1963-05-16T23:24:02Z",
+            "info_url": "https://www.nasa.gov/mission_pages/mercury/missions/program-toc.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Project_Mercury",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 50,
+    "pad_launch_attempt_count": 9,
+    "agency_launch_attempt_count": 19,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 20,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

@@ -1,0 +1,85 @@
+{
+    "id": "0acafdb8-f363-4caf-8fc2-572def9a33fc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0acafdb8-f363-4caf-8fc2-572def9a33fc/",
+    "slug": "pegasus-xl-haps-orbcomm-a1-a8",
+    "name": "Pegasus XL HAPS | Orbcomm-A1 - A8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:21:09Z",
+    "net": "1997-12-23T19:11:42Z",
+    "window_end": "1997-12-23T19:11:42Z",
+    "window_start": "1997-12-23T19:11:42Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 426,
+        "configuration": {
+            "id": 118,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/118/",
+            "name": "Pegasus XL HAPS",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL HAPS",
+            "variant": "HAPS"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 52,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/52/",
+        "agency_id": null,
+        "name": "Wallops Flight Facility",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wallops_Flight_Facility",
+        "map_url": "https://www.google.com/maps?q=37.938611,-75.457222",
+        "latitude": "37.938611",
+        "longitude": "-75.457222",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_52_20200803143305.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4205,
+    "location_launch_attempt_count": 18,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 20,
+    "orbital_launch_attempt_count_year": 4205,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "cd66cc77-f993-4a9d-ad42-fd164b20a35a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/cd66cc77-f993-4a9d-ad42-fd164b20a35a/",
+    "slug": "h-iia-204-michibiki-3-qzs-3",
+    "name": "H-IIA 204 | Michibiki 3 (QZS-3)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-25T12:43:02Z",
+    "net": "2017-08-19T05:29:00Z",
+    "window_end": "2017-08-19T13:16:00Z",
+    "window_start": "2017-08-19T05:29:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2023,
+        "configuration": {
+            "id": 48,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/48/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 204",
+            "variant": "204"
+        }
+    },
+    "mission": {
+        "id": 446,
+        "name": "Michibiki 3 (QZS-3)",
+        "description": "The Quasi-Zenith Satellite System (QZSS) is a three-satellite regional time transfer system and the satellite-based augmentation system for the GPS that would be receivable within Japan. The primary purpose of QZSS is to increase the availability of GPS in Japan's numerous urban canyons, where only satellites at very high elevation can be seen. A secondary function is performance enhancement, increasing the accuracy and reliability of GPS derived navigation solutions. A single satellite weighs about 4000 kg, has an expected lifetime of 15 years and is put in a elliptical, highly inclined geosynchronous orbit.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_204_lifto_image_20240325124231.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5667,
+    "location_launch_attempt_count": 72,
+    "pad_launch_attempt_count": 42,
+    "agency_launch_attempt_count": 34,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "27655fc1-4d40-432b-aaca-b663ac519a3f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/27655fc1-4d40-432b-aaca-b663ac519a3f/",
+    "slug": "long-march-4b-zi-yuan-2-01-xing",
+    "name": "Long March 4B | Zi Yuan-2 01 xing",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:49:01Z",
+    "net": "2000-09-01T03:25:00Z",
+    "window_end": "2000-09-01T03:25:00Z",
+    "window_start": "2000-09-01T03:25:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7007,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 5396,
+        "name": "Zi Yuan-2 01 xing",
+        "description": "ZY-2 (Ziyuan-2, 'Resource-2'), while reported as a civilian Earth observation system, was actually code-named JB-3 (Jianbing-3) and was China's first high-resolution military imaging satellite. They are reportedly used for area surveillance.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 33,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/33/",
+        "agency_id": null,
+        "name": "Launch Complex 7",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8489311,111.6079339",
+        "latitude": "38.8489311",
+        "longitude": "111.6079339",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_33_20200803143335.jpg",
+        "total_launch_count": 32,
+        "orbital_launch_attempt_count": 32
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4419,
+    "location_launch_attempt_count": 12,
+    "pad_launch_attempt_count": 12,
+    "agency_launch_attempt_count": 5,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "4a34f5ce-74b6-437a-9888-baaa65b43019",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4a34f5ce-74b6-437a-9888-baaa65b43019/",
+    "slug": "diamant-b-polaire",
+    "name": "Diamant B | Polaire",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:22:27Z",
+    "net": "1971-12-05T16:20:00Z",
+    "window_end": "1971-12-05T16:20:00Z",
+    "window_start": "1971-12-05T16:20:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 46,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/46/",
+        "name": "National Center of Space Research",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4205,
+        "configuration": {
+            "id": 312,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/312/",
+            "name": "Diamant B",
+            "family": "Diamant",
+            "full_name": "Diamant B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 2623,
+        "name": "Polaire",
+        "description": "Satellite similar to Tournesol (detect the presence of hydrogen in several directions of the celestial sphere) but in a more polar orbit. It failed to reach orbit.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 125,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/125/",
+        "agency_id": 115,
+        "name": "Diamant Launch Area",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=5.2222222,-52.7758051",
+        "latitude": "5.2222222",
+        "longitude": "-52.7758051",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_125_20200803143236.jpg",
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/diamant_b_lifto_image_20240411170212.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1292,
+    "location_launch_attempt_count": 5,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 10,
+    "orbital_launch_attempt_count_year": 121,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

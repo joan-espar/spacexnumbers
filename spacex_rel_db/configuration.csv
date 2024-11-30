@@ -1,0 +1,10 @@
+id,name,family,full_name,variant
+14,Falcon 9,False,False,Falcon,Falcon 9 v1.1,v1.1
+55,Falcon 9,False,True,Falcon,Falcon 9 Full Thrust,Full Thrust
+133,Falcon 1,False,False,Falcon,Falcon 1,1
+145,Falcon 9,False,True,Falcon,Falcon 9 Block 4,Block 4
+161,Falcon Heavy,True,True,Falcon,Falcon Heavy,Heavy
+164,Falcon 9,True,True,Falcon,Falcon 9 Block 5,Block 5
+169,Falcon 9,False,False,Falcon,Falcon 9 v1.0,v1.0
+207,Starship Prototype,False,True,Starship,Starship Prototype,Prototype
+464,Starship,True,True,Starship,Starship,

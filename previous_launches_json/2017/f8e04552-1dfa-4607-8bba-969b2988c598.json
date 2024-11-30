@@ -1,0 +1,94 @@
+{
+    "id": "f8e04552-1dfa-4607-8bba-969b2988c598",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f8e04552-1dfa-4607-8bba-969b2988c598/",
+    "slug": "electron-its-a-test",
+    "name": "Electron | It's a Test",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-12-18T00:17:42Z",
+    "net": "2017-05-25T04:20:00Z",
+    "window_end": "2017-05-25T05:00:00Z",
+    "window_start": "2017-05-25T01:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Third-party contractor supporting the launch misconfigured ground equipment that translated radio signals from the rocket into data used by range safety officials. That caused \u00e2\u20ac\u0153extensive corruption of received position data,\u00e2\u20ac\u009d resulting in the data loss that led safety officials to trigger the rocket\u00e2\u20ac\u2122s flight termination system.",
+    "hashtag": "#ItsaTest",
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2002,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 274,
+        "name": "It's a Test",
+        "description": "This is the first test flight of the Electron rocket. Built and operated by Rocket Lab, Electron is meant to offer low-price launches for the small-sat market.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+            "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+            "country_code": "NZL",
+            "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of M\u0101hia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+            "timezone_name": "Pacific/Auckland",
+            "total_launch_count": 51,
+            "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 27,
+        "orbital_launch_attempt_count": 27
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5643,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 28,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

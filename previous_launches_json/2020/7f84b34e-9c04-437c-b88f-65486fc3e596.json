@@ -1,0 +1,94 @@
+{
+    "id": "7f84b34e-9c04-437c-b88f-65486fc3e596",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7f84b34e-9c04-437c-b88f-65486fc3e596/",
+    "slug": "long-march-11-xjs-g-xjs-h",
+    "name": "Long March 11 | XJS-G & XJS-H",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:28:40Z",
+    "net": "2020-05-29T20:13:33Z",
+    "window_end": "2020-05-29T20:21:00Z",
+    "window_start": "2020-05-29T20:03:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2715,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 1116,
+        "name": "XJS-G & XJS-H",
+        "description": "XJS-G and XJS-H are experimental small satellites which will be used for Earth observation.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 157,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/157/",
+        "agency_id": null,
+        "name": "Mobile Launcher Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.242774,102.032944",
+        "latitude": "28.242774",
+        "longitude": "102.032944",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_157_20200803143359.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5958,
+    "location_launch_attempt_count": 144,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 279,
+    "orbital_launch_attempt_count_year": 36,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

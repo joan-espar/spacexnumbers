@@ -1,0 +1,99 @@
+{
+    "id": "c34d6078-6fcb-4d9d-a128-c116eeae4258",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c34d6078-6fcb-4d9d-a128-c116eeae4258/",
+    "slug": "long-march-4b-cbers-4a",
+    "name": "Long March 4B | CBERS-4A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:31:55Z",
+    "net": "2019-12-20T03:22:29Z",
+    "window_end": "2019-12-20T03:41:00Z",
+    "window_start": "2019-12-20T03:13:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 32,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 1009,
+        "name": "CBERS-4A",
+        "description": "On April 24, 2015, China and Brazil have signed the agreement for the construction of CBERS-4A. It's a third satellite in the continuity to the CBERS program, and a sixth CBERS satellite to be constructed. The CBERS satellites enhance and complement the existing remote sensing systems in an effort to improve our knowledge about the Earth environment and resources.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5918,
+    "location_launch_attempt_count": 82,
+    "pad_launch_attempt_count": 42,
+    "agency_launch_attempt_count": 269,
+    "orbital_launch_attempt_count_year": 98,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 25,
+    "type": "normal"
+}

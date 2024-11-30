@@ -1,0 +1,80 @@
+{
+    "id": "1b9d8671-af41-41c6-aa56-dd92e884196b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b9d8671-af41-41c6-aa56-dd92e884196b/",
+    "slug": "spark-ors-4",
+    "name": "SPARK | ORS-4",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:55:15Z",
+    "net": "2015-11-04T03:45:00Z",
+    "window_end": "2015-11-04T03:45:00Z",
+    "window_start": "2015-11-04T03:45:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Vehicle lost attitude control around a minute into flight.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 195,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/195/",
+        "name": "Sandia National Laboratories",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1881,
+        "configuration": {
+            "id": 62,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/62/",
+            "name": "SPARK",
+            "family": "",
+            "full_name": "SPARK",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/63/",
+        "agency_id": 166,
+        "name": "LP-41",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Pacific_Missile_Range_Facility",
+        "map_url": "https://www.google.com/maps?q=21.982029,-159.759328",
+        "latitude": "21.982029",
+        "longitude": "-159.759328",
+        "location": {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/1/",
+            "name": "Pacific Missile Range Facility, Barking Sands, HI, USA",
+            "country_code": "USA",
+            "description": "The Pacific Missile Range Facility, Barking Sands is a U.S. naval facility and airport located five nautical miles (9 km) northwest of the central business district of Kekaha, in Kauai County, Hawaii, United States.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_1_20200803142427.jpg",
+            "timezone_name": "Pacific/Honolulu",
+            "total_launch_count": 1,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_63_20200803143308.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spark_image_20190222030915.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5509,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 5509,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

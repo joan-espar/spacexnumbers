@@ -1,0 +1,99 @@
+{
+    "id": "ec053d2b-acfc-4cf8-ba16-874bd8533651",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ec053d2b-acfc-4cf8-ba16-874bd8533651/",
+    "slug": "south-korean-add-solid-fuel-slv-3-stage-s-step",
+    "name": "South Korean ADD Solid-Fuel SLV (3 stage) | S-STEP",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:57:31Z",
+    "net": "2023-12-04T05:00:00Z",
+    "window_end": "2023-12-04T05:00:00Z",
+    "window_start": "2023-12-04T05:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1079,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1079/",
+        "name": "Agency for Defense Development",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8142,
+        "configuration": {
+            "id": 501,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/501/",
+            "name": "South Korean ADD Solid-Fuel SLV (3 stage)",
+            "family": "South Korean ADD Solid-Fuel SLV",
+            "full_name": "South Korean ADD Solid-Fuel SLV (3 stage)",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6700,
+        "name": "S-STEP",
+        "description": "Note: Launch vehicle name is provisional.\r\n\r\nPrototype small synthetic-aperture radar (SAR) satellite built by Hanhwa Aerospace on a planar satellite bus. First orbital test launch of the South Korean military small satellite launch vehicle after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022. Does not include planned 2nd stage of the full LV.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 216,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/216/",
+        "agency_id": null,
+        "name": "ADD Offshore launch platform",
+        "description": "Offshore launch platform for the South Korean military small satellite launch vehicle.",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": null,
+        "latitude": "33.216667",
+        "longitude": "126.366667",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "KOR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_add_offshore_launch_platform_20231204142359.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6565,
+    "location_launch_attempt_count": 46,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 197,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

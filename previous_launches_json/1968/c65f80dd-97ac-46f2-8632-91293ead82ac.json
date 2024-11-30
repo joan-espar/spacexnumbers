@@ -1,0 +1,111 @@
+{
+    "id": "c65f80dd-97ac-46f2-8632-91293ead82ac",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c65f80dd-97ac-46f2-8632-91293ead82ac/",
+    "slug": "soyuz-soyuz-2",
+    "name": "Soyuz | Soyuz 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:48:38Z",
+    "net": "1968-10-25T09:00:00Z",
+    "window_end": "1968-10-25T09:00:00Z",
+    "window_start": "1968-10-25T09:00:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2440,
+        "configuration": {
+            "id": 96,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/96/",
+            "name": "Soyuz",
+            "family": "Soyuz",
+            "full_name": "Soyuz",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 892,
+    "location_launch_attempt_count": 238,
+    "pad_launch_attempt_count": 110,
+    "agency_launch_attempt_count": 355,
+    "orbital_launch_attempt_count_year": 892,
+    "location_launch_attempt_count_year": 35,
+    "pad_launch_attempt_count_year": 10,
+    "agency_launch_attempt_count_year": 66,
+    "type": "normal"
+}

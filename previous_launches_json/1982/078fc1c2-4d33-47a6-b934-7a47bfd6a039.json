@@ -1,0 +1,154 @@
+{
+    "id": "078fc1c2-4d33-47a6-b934-7a47bfd6a039",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/078fc1c2-4d33-47a6-b934-7a47bfd6a039/",
+    "slug": "soyuz-u-soyuz-t-5",
+    "name": "Soyuz-U | Soyuz T-5",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:40:58Z",
+    "net": "1982-05-13T09:58:05Z",
+    "window_end": "1982-05-13T09:58:05Z",
+    "window_start": "1982-05-13T09:58:05Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 283,
+        "configuration": {
+            "id": 37,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/37/",
+            "name": "Soyuz U",
+            "family": "Soyuz",
+            "full_name": "Soyuz U",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 327,
+        "name": "Soyuz T-5",
+        "description": "Soyuz T-5 was the first long-duration expedition to the Salyut 7 space station. The mission began on May 13, 1982, 09:58:05 UTC, launching Commander Anatoli Berezovoy and Flight Engineer Valentin Lebedev into orbit. They docked with the station the next day. During their 211-day stay on the station, crew performed various scientific and medical experiments, and were visited by 4 uncrewed cargo Progress vehicles and 2 Soyuz missions. Soyuz T-5 crew, per usual, swapped vehicles with the visiting Soyuz T-7 crew, which allowed for a longer stay in orbit.\nCosmonauts returned in the Soyuz T-7 spacecraft, landing safely back on Earth on December 10, 1982, 19:02:36 UTC.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520u_image_20190222031023.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 23,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/23/",
+            "name": "Salyut",
+            "description": "The Salyut programme was the first space station programme, undertaken by the Soviet Union. It involved a series of four crewed scientific research space stations and two crewed military reconnaissance space stations over a period of 15 years, from 1971 to 1986.",
+            "agencies": [
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/salyut_program_20230506090532.png",
+            "start_date": "1971-04-19T01:40:00Z",
+            "end_date": "1986-07-16T12:34:05Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Salyut_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 2560,
+    "location_launch_attempt_count": 626,
+    "pad_launch_attempt_count": 188,
+    "agency_launch_attempt_count": 1586,
+    "orbital_launch_attempt_count_year": 43,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 35,
+    "type": "normal"
+}

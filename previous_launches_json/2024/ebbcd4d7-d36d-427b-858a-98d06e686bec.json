@@ -1,0 +1,99 @@
+{
+    "id": "ebbcd4d7-d36d-427b-858a-98d06e686bec",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/ebbcd4d7-d36d-427b-858a-98d06e686bec/",
+    "slug": "long-march-6-tianping-3",
+    "name": "Long March 6 | Tianping-3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-22T05:25:45Z",
+    "net": "2024-10-22T00:10:00Z",
+    "window_end": "2024-10-22T00:36:00Z",
+    "window_start": "2024-10-22T00:03:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8387,
+        "configuration": {
+            "id": 54,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/54/",
+            "name": "Long March 6",
+            "family": "Long March",
+            "full_name": "Long March 6",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6968,
+        "name": "Tianping-3",
+        "description": "3 satellites be used as calibration targets for ground based orbital objects surveillance services such as atmospheric space environment study and orbital prediction model correction.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 113,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/113/",
+        "agency_id": null,
+        "name": "Launch Complex 16",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.868222,111.58024",
+        "latitude": "38.868222",
+        "longitude": "111.58024",
+        "location": {
+            "id": 19,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_113_20200803143556.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6782,
+    "location_launch_attempt_count": 134,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 488,
+    "orbital_launch_attempt_count_year": 193,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 36,
+    "type": "normal"
+}

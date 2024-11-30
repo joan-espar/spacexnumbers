@@ -1,0 +1,94 @@
+{
+    "id": "d00485ff-f5c5-4e6b-9aa5-a2928c079f41",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d00485ff-f5c5-4e6b-9aa5-a2928c079f41/",
+    "slug": "vanguard-vanguard-9",
+    "name": "Vanguard | Vanguard",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:42:58Z",
+    "net": "1959-06-22T20:16:09Z",
+    "window_end": "1959-06-22T20:16:09Z",
+    "window_start": "1959-06-22T20:16:09Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 166,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/166/",
+        "name": "US Navy",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3042,
+        "configuration": {
+            "id": 449,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/449/",
+            "name": "Vanguard",
+            "family": "",
+            "full_name": "Vanguard",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1464,
+        "name": "Vanguard",
+        "description": "Vanguard is a scientific satellite to measure the Earth's magnetic field, solar X-ray radiation and its effects on the Earth's atmosphere and the near-Earth micrometeoroid environment.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 118,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/118/",
+        "agency_id": 166,
+        "name": "Launch Complex 18A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_18",
+        "map_url": "https://www.google.com/maps?q=28.4493,-80.564494",
+        "latitude": "28.4493",
+        "longitude": "-80.564494",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_118_20200803143338.jpg",
+        "total_launch_count": 18,
+        "orbital_launch_attempt_count": 11
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vanguard_1_on_p_image_20240411114304.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 40,
+    "location_launch_attempt_count": 22,
+    "pad_launch_attempt_count": 10,
+    "agency_launch_attempt_count": 16,
+    "orbital_launch_attempt_count_year": 9,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

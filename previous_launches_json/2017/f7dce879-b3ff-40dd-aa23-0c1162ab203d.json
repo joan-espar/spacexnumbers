@@ -1,0 +1,94 @@
+{
+    "id": "f7dce879-b3ff-40dd-aa23-0c1162ab203d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f7dce879-b3ff-40dd-aa23-0c1162ab203d/",
+    "slug": "soyuz-21bfregat-meteor-m-no2-1-rideshare-payloads",
+    "name": "Soyuz 2.1b/Fregat | Meteor-M No.2-1 & rideshare payloads",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:09:18Z",
+    "net": "2017-11-28T05:41:46Z",
+    "window_end": "2017-11-28T05:41:46Z",
+    "window_start": "2017-11-28T05:41:46Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "An algorithm glitch caused the Fregat upper stage to de-orbit.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2049,
+        "configuration": {
+            "id": 42,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/42/",
+            "name": "Soyuz 2.1b/Fregat",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 463,
+        "name": "Meteor-M No.2-1 & rideshare payloads",
+        "description": "This is the third spacecraft in the Russian Meteor-M series of remote sensing satellites. Weighing about 2750 kg, it is intended to gather hydrometeorological data from sun-synchronous orbit. This includes monitoring ozone layer and radiation levels in the near-Earth space, as well as monitoring ocean surface temperatures and ice conditions.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 18,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 17,
+        "orbital_launch_attempt_count": 17
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5695,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 269,
+    "orbital_launch_attempt_count_year": 80,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

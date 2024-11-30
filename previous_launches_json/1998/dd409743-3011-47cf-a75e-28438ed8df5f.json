@@ -1,0 +1,94 @@
+{
+    "id": "dd409743-3011-47cf-a75e-28438ed8df5f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dd409743-3011-47cf-a75e-28438ed8df5f/",
+    "slug": "ariane-44p-nilesat-101-bsat-1b",
+    "name": "Ariane 44P | Nilesat 101 & BSat 1b",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:22Z",
+    "net": "1998-04-28T22:53:00Z",
+    "window_end": "1998-04-28T22:53:00Z",
+    "window_start": "1998-04-28T22:53:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6850,
+        "configuration": {
+            "id": 227,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/227/",
+            "name": "Ariane 44P",
+            "family": "Ariane",
+            "full_name": "Ariane 44P",
+            "variant": "44P"
+        }
+    },
+    "mission": {
+        "id": 5240,
+        "name": "Nilesat 101 & BSat 1b",
+        "description": "With the launch of Nilesat 101 on 28 April 1998, delivering more than 100 digital TV channels as well as radio and multimedia services to more than five million homes over the whole of North Africa from Morocco to the Persian Gulf, Egypt became the first African country to have its own direct TV broadcast satellite. A second satellite, Nilesat 102, was launched in 2000, and the Nilesat system now broadcasts more than 150 digital TV channels and provides additional services such as data transmission, turbo internet and multicasting applications. BSAT-1a and -1b replaced the two BS-3 spacecraft used for DBS services, including Hi-Vision test broadcasts, by NHK, WOWOW, and others. Hughes selected the Ariane rocket as the launch vehicle for the BSAT-1 spacecraft. BSAT-1a was launched 16 April 1997 from the Guiana Space Center in Kourou, French Guiana. BSAT-1b was also launched from Kourou on 28 April 1998. The two satellites are located at 110 degrees East longitude.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_44p_at_e_image_20240401083030.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4232,
+    "location_launch_attempt_count": 117,
+    "pad_launch_attempt_count": 81,
+    "agency_launch_attempt_count": 106,
+    "orbital_launch_attempt_count_year": 25,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

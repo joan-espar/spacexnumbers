@@ -1,0 +1,94 @@
+{
+    "id": "c4bc7e53-6b48-4f13-9261-d510924a329d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c4bc7e53-6b48-4f13-9261-d510924a329d/",
+    "slug": "delta-3910pam-sbs-2",
+    "name": "Delta 3910/PAM | SBS 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:15Z",
+    "net": "1981-09-24T23:09:00Z",
+    "window_end": "1981-09-24T23:09:00Z",
+    "window_start": "1981-09-24T23:09:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5327,
+        "configuration": {
+            "id": 289,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/289/",
+            "name": "Delta 3910/PAM",
+            "family": "Delta",
+            "full_name": "Delta 3910/PAM",
+            "variant": "3910/PAM"
+        }
+    },
+    "mission": {
+        "id": 3735,
+        "name": "SBS 2",
+        "description": "Geostationary communications satellite built by Hughes Aircraft Company",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_3910_image_20231231105538.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2489,
+    "location_launch_attempt_count": 375,
+    "pad_launch_attempt_count": 73,
+    "agency_launch_attempt_count": 775,
+    "orbital_launch_attempt_count_year": 98,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

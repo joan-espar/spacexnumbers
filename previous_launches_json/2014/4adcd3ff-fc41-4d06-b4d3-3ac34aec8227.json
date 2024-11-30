@@ -1,0 +1,143 @@
+{
+    "id": "4adcd3ff-fc41-4d06-b4d3-3ac34aec8227",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4adcd3ff-fc41-4d06-b4d3-3ac34aec8227/",
+    "slug": "ariane-5-es-atv-5-georges-lemaitre",
+    "name": "Ariane 5 ES | ATV-5 (Georges Lemaitre)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:00:49Z",
+    "net": "2014-07-29T23:47:38Z",
+    "window_end": "2014-07-29T23:47:38Z",
+    "window_start": "2014-07-29T23:47:38Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 983,
+        "configuration": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/18/",
+            "name": "Ariane 5 ES",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ES",
+            "variant": "ES"
+        }
+    },
+    "mission": {
+        "id": 648,
+        "name": "ATV-5 (Georges Lemaitre)",
+        "description": "ATV-5 is the Automated Transfer Vehicle operated by the European Space Agency (ESA) to resupply the international space station (ISS) with propellant, water, air and dry cargo. After 15 days in orbit it docked to the ISS on 12th August 2014.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520es_image_20190222031145.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
+            "name": "International Space Station",
+            "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+            "agencies": [
+                {
+                    "id": 16,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+                    "name": "Canadian Space Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                },
+                {
+                    "id": 37,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+                    "name": "Japan Aerospace Exploration Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+            "start_date": "1998-11-20T06:40:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5395,
+    "location_launch_attempt_count": 238,
+    "pad_launch_attempt_count": 74,
+    "agency_launch_attempt_count": 223,
+    "orbital_launch_attempt_count_year": 46,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

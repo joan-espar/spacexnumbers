@@ -1,0 +1,94 @@
+{
+    "id": "206a3efe-0a28-45e6-a95e-983774fff9d9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/206a3efe-0a28-45e6-a95e-983774fff9d9/",
+    "slug": "long-march-2fg-chinese-reusable-space-vehicle",
+    "name": "Long March 2F/G | Chinese Reusable Space Vehicle",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T03:50:51Z",
+    "net": "2020-09-04T07:30:00Z",
+    "window_end": "2020-09-04T07:30:00Z",
+    "window_start": "2020-09-04T07:30:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2754,
+        "configuration": {
+            "id": 84,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/84/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2F/G",
+            "variant": "F/G"
+        }
+    },
+    "mission": {
+        "id": 1153,
+        "name": "Chinese Reusable Space Vehicle",
+        "description": "The payload is an experimental reusable spacecraft. It is rumored to be a prototype of a reusable spaceplane (similar to Boeing X-37B vehicle).  The spacecraft stayed in orbit for two days and returned to Earth on September 6. Though the landing site was not disclosed, the spacecraft is presumed to have landed at an airbase near Lop Nor nuclear test site.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/37/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-1 / 921)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.957893,100.290944",
+        "latitude": "40.957893",
+        "longitude": "100.290944",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_37_20200803143603.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20210908195835.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5991,
+    "location_launch_attempt_count": 131,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 291,
+    "orbital_launch_attempt_count_year": 69,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 21,
+    "type": "normal"
+}

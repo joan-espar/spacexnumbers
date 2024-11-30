@@ -1,0 +1,119 @@
+{
+    "id": "c3ff13bc-3379-4012-b9db-a3ffff06400f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c3ff13bc-3379-4012-b9db-a3ffff06400f/",
+    "slug": "long-march-2fg-shenzhou-8-shenzhou-8-gc",
+    "name": "Long March 2F/G | Shenzhou-8 & Shenzhou-8-GC",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-10-25T11:10:47Z",
+    "net": "2011-10-31T21:58:10Z",
+    "window_end": "2011-10-31T21:58:10Z",
+    "window_start": "2011-10-31T21:58:10Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1573,
+        "configuration": {
+            "id": 84,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/84/",
+            "name": "Long March 2",
+            "family": "Long March",
+            "full_name": "Long March 2F/G",
+            "variant": "F/G"
+        }
+    },
+    "mission": {
+        "id": 6604,
+        "name": "Shenzhou-8 & Shenzhou-8-GC",
+        "description": "This is the first docking mission for China's Shenzhou program. Being the first spacecraft to visit the Tiangong-1 space station, it was launched without crew to demonstrate spacecraft rendezvous and docking techniques. The spacecraft docked automatically to the station on 2 November 2011. A second undocking and re-docking to test accuracy and reliability of equipment and sensors in a bright environment was performed on 14 November 2011. Shenzhou 8 undocked on 17 November 2011 and landed safely back on Earth the same day.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/37/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-1 / 921)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.957893,100.290944",
+        "latitude": "40.957893",
+        "longitude": "100.290944",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_37_20200803143603.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20210908195835.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 7,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/7/",
+            "name": "Shenzhou",
+            "description": "The Shenzhou program is a crewed spaceflight initiative by China. The program put the first Chinese citizen, Yang Liwei, into orbit on 15 October 2003.",
+            "agencies": [
+                {
+                    "id": 17,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+                    "name": "China National Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_program_20200820204745.PNG",
+            "start_date": "1993-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Shenzhou_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5172,
+    "location_launch_attempt_count": 56,
+    "pad_launch_attempt_count": 9,
+    "agency_launch_attempt_count": 95,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 13,
+    "type": "normal"
+}

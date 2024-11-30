@@ -1,0 +1,94 @@
+{
+    "id": "bc321d24-1c15-47e1-a966-497f1ca9dff2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bc321d24-1c15-47e1-a966-497f1ca9dff2/",
+    "slug": "epsilon-raise-2-others",
+    "name": "Epsilon | RAISE-2 & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-16T06:37:21Z",
+    "net": "2021-11-09T00:55:16Z",
+    "window_end": "2021-11-09T00:59:00Z",
+    "window_start": "2021-11-09T00:48:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3000,
+        "configuration": {
+            "id": 112,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/112/",
+            "name": "Epsilon",
+            "family": "Epsilon",
+            "full_name": "Epsilon",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1426,
+        "name": "RAISE-2 & others",
+        "description": "8 payloads will fly on this mission : \"RApid Innovative payload demonstration SatellitE-2\" (RAISE-2), DRUMS (Debris Removal Unprecedented Micro-Satellite), Hibari, Z-Sat, and four CubeSat (ASTERISC, ARICA, NANODRAGON, KOSEN-1).",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/epsilon_image_20221009075145.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6147,
+    "location_launch_attempt_count": 42,
+    "pad_launch_attempt_count": 35,
+    "agency_launch_attempt_count": 34,
+    "orbital_launch_attempt_count_year": 110,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,119 @@
+{
+    "id": "7c636c00-7cda-4daf-9dce-52b8f29414ef",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7c636c00-7cda-4daf-9dce-52b8f29414ef/",
+    "slug": "proton-uragan-29-to-31",
+    "name": "Proton | Uragan 29 to 31",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:35:06Z",
+    "net": "1988-09-16T02:00:47Z",
+    "window_end": "1988-09-16T02:00:47Z",
+    "window_start": "1988-09-16T02:00:47Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6111,
+        "configuration": {
+            "id": 80,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/80/",
+            "name": "Proton",
+            "family": "Proton / UR-500",
+            "full_name": "Proton K/DM-2",
+            "variant": "K/DM-2"
+        }
+    },
+    "mission": {
+        "id": 4501,
+        "name": "Uragan 29 to 31",
+        "description": "GLONASS navigation satellites",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 15,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/15/",
+        "agency_id": null,
+        "name": "200/39 (200L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.039984,63.032093",
+        "latitude": "46.039984",
+        "longitude": "63.032093",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_15_20200803143530.jpg",
+        "total_launch_count": 167,
+        "orbital_launch_attempt_count": 167
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 34,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/34/",
+            "name": "GLONASS",
+            "description": "GLONASS (\u0413\u041b\u041e\u041d\u0410\u0421\u0421, IPA: [\u0261\u026b\u0250\u02c8nas]; Russian: \u0413\u043b\u043e\u0431\u0430\u043b\u044c\u043d\u0430\u044f \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u043f\u0443\u0442\u043d\u0438\u043a\u043e\u0432\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430, tr. Global'naya Navigatsionnaya Sputnikovaya Sistema, lit. 'Global Navigation Satellite System') is a Russian satellite navigation system operating as part of a radionavigation-satellite service. It provides an alternative to Global Positioning System (GPS) and is the second navigational system in operation with global coverage and of comparable precision.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/glonass_program_20240102170258.png",
+            "start_date": "1982-10-12T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.glonass-iac.ru/en/",
+            "wiki_url": "https://en.wikipedia.org/wiki/GLONASS",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3342,
+    "location_launch_attempt_count": 884,
+    "pad_launch_attempt_count": 48,
+    "agency_launch_attempt_count": 2218,
+    "orbital_launch_attempt_count_year": 89,
+    "location_launch_attempt_count_year": 36,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 71,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "b874f013-5a64-407d-8ca4-c35835c4dde2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b874f013-5a64-407d-8ca4-c35835c4dde2/",
+    "slug": "delta-iv-m42-afspc-6",
+    "name": "Delta IV M+(4,2) | AFSPC-6",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:24Z",
+    "net": "2016-08-19T04:52:00Z",
+    "window_end": "2016-08-19T05:52:00Z",
+    "window_start": "2016-08-19T04:47:00Z",
+    "net_precision": null,
+    "probability": 80,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1948,
+        "configuration": {
+            "id": 33,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/33/",
+            "name": "Delta IV M+(4,2)",
+            "family": "Delta",
+            "full_name": "Delta IV M+(4,2)",
+            "variant": "M+(4,2)"
+        }
+    },
+    "mission": {
+        "id": 122,
+        "name": "AFSPC-6",
+        "description": "The third and fourth satellites in the Geosynchronous Space Situational Awareness Program (GSSAP) will be launched for the US Air Force.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_iv_m252b_image_20220302002926.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5581,
+    "location_launch_attempt_count": 749,
+    "pad_launch_attempt_count": 81,
+    "agency_launch_attempt_count": 111,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "ca78b818-63d5-4280-853e-478db107b022",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/ca78b818-63d5-4280-853e-478db107b022/",
+    "slug": "h-iia-202-igs-radar-8",
+    "name": "H-IIA 202 | IGS Radar 8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-26T07:44:20Z",
+    "net": "2024-09-26T05:24:20Z",
+    "window_end": "2024-09-26T05:25:21Z",
+    "window_start": "2024-09-26T05:24:20Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 98,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2999,
+        "configuration": {
+            "id": 32,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/32/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 202",
+            "variant": "202"
+        }
+    },
+    "mission": {
+        "id": 5896,
+        "name": "IGS Radar 8",
+        "description": "The IGS Radar 8 is a Japanese radar reconnaissance satellite. The satellite is operated by the Cabinet Satellite Information Center. The satellite serves both Japan's national defense and civil natural disaster monitoring.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_20240325123250.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6769,
+    "location_launch_attempt_count": 92,
+    "pad_launch_attempt_count": 56,
+    "agency_launch_attempt_count": 52,
+    "orbital_launch_attempt_count_year": 180,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

@@ -1,0 +1,125 @@
+{
+    "id": "0ea29a26-0aa3-4a6b-9b21-9517b48bf7a0",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0ea29a26-0aa3-4a6b-9b21-9517b48bf7a0/",
+    "slug": "soyuz-stafregat-sentinel-1a",
+    "name": "Soyuz STA/Fregat | Sentinel-1A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:08:29Z",
+    "net": "2014-04-03T21:02:26Z",
+    "window_end": "2014-04-04T21:02:26Z",
+    "window_start": "2014-04-03T21:02:26Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1746,
+        "configuration": {
+            "id": 49,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/49/",
+            "name": "Soyuz STA",
+            "family": "Soyuz",
+            "full_name": "Soyuz STA Fregat",
+            "variant": "Fregat"
+        }
+    },
+    "mission": {
+        "id": 889,
+        "name": "Sentinel-1A",
+        "description": "Sentinel-1 is a C-band imaging radar mission to provide an all-weather day-and-night supply of imagery for Copernicus user services. The first Sentinel-1 satellite is scheduled to be launched on 3 April 2014 and will be followed by the second satellite a few years later.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 81,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/81/",
+        "agency_id": 115,
+        "name": "Soyuz Launch Complex",
+        "description": "The Ensemble de Lancement Soyouz (ELS)  is a launch complex at the Guiana Space Centre in Kourou/Sinnamary, French Guiana. It was used by Soyuz-ST rockets: modified versions of the Soyuz-2 optimised for launch from Kourou under Soyuz at the Guiana Space Centre programme.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Ensemble_de_Lancement_Soyouz",
+        "map_url": "https://www.google.com/maps?q=5.3019,-52.8346",
+        "latitude": "5.3019",
+        "longitude": "-52.8346",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_81_20200803143601.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520sta_image_20191210133244.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/22/",
+            "name": "Copernicus",
+            "description": "Copernicus is the European Union's Earth observation programme coordinated and managed for the European Commission by the European Union Agency for the Space Programme in partnership with the European Space Agency (ESA), the EU Member States. It aims at achieving a global, continuous, autonomous, high quality, wide range Earth observation capacity. Providing accurate, timely and easily accessible information to, among other things, improve the management of the environment, understand and mitigate the effects of climate change, and ensure civil security.",
+            "agencies": [
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                },
+                {
+                    "id": 1043,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/1043/",
+                    "name": "European Union Agency for the Space Programme",
+                    "type": "Multinational"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/copernicus_program_20221129162831.png",
+            "start_date": "2014-04-03T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.copernicus.eu",
+            "wiki_url": "https://en.wikipedia.org/wiki/Copernicus_Programme",
+            "mission_patches": [],
+            "type": {
+                "id": 8,
+                "name": "Earth Observation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5365,
+    "location_launch_attempt_count": 235,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 220,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

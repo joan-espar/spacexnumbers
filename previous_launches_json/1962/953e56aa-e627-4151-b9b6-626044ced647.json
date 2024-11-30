@@ -1,0 +1,94 @@
+{
+    "id": "953e56aa-e627-4151-b9b6-626044ced647",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/953e56aa-e627-4151-b9b6-626044ced647/",
+    "slug": "thor-delta-oso-1",
+    "name": "Thor Delta | OSO 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:16Z",
+    "net": "1962-03-07T16:06:18Z",
+    "window_end": "1962-03-07T16:06:18Z",
+    "window_start": "1962-03-07T16:06:18Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3108,
+        "configuration": {
+            "id": 398,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/398/",
+            "name": "Thor Delta",
+            "family": "Thor",
+            "full_name": "Thor Delta",
+            "variant": "Delta"
+        }
+    },
+    "mission": {
+        "id": 1530,
+        "name": "OSO 1",
+        "description": "OSO (Orbital Solar Observatory) satellite. Its purpose was to return data on the ultraviolet, X-ray and gamma ray emissions of the sun and galaxy.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 150,
+    "location_launch_attempt_count": 77,
+    "pad_launch_attempt_count": 15,
+    "agency_launch_attempt_count": 78,
+    "orbital_launch_attempt_count_year": 8,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "fa85c4d7-d413-49d9-a32e-b5c0d56c5a7b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fa85c4d7-d413-49d9-a32e-b5c0d56c5a7b/",
+    "slug": "delta-0300-itos-e",
+    "name": "Delta 0300 | ITOS E",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:52:48Z",
+    "net": "1973-07-16T17:10:21Z",
+    "window_end": "1973-07-16T17:10:21Z",
+    "window_start": "1973-07-16T17:10:21Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4377,
+        "configuration": {
+            "id": 275,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/275/",
+            "name": "Delta 0300",
+            "family": "Delta",
+            "full_name": "Delta 0300",
+            "variant": "0300"
+        }
+    },
+    "mission": {
+        "id": 2795,
+        "name": "ITOS E",
+        "description": "Meteorological satellite using radiometric imaging",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 39,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/39/",
+        "agency_id": null,
+        "name": "Space Launch Complex 2W",
+        "description": "SLC-2W was originally used for Delta, Thor-Agena and Delta II launches. After the last Delta II flight in 2018, SLC-2W was repurposed to launch Firefly Alpha rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_2",
+        "map_url": "https://www.google.com/maps?q=34.7556,-120.6224",
+        "latitude": "34.7556",
+        "longitude": "-120.6224",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_39_20200803143542.jpg",
+        "total_launch_count": 97,
+        "orbital_launch_attempt_count": 97
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1474,
+    "location_launch_attempt_count": 401,
+    "pad_launch_attempt_count": 28,
+    "agency_launch_attempt_count": 601,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}

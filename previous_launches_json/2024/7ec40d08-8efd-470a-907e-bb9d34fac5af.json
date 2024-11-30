@@ -1,0 +1,99 @@
+{
+    "id": "7ec40d08-8efd-470a-907e-bb9d34fac5af",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7ec40d08-8efd-470a-907e-bb9d34fac5af/",
+    "slug": "kuaizhou-1a-tianmu-1-15-18",
+    "name": "Kuaizhou-1A | Tianmu-1 15-18",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:43:19Z",
+    "net": "2024-01-05T11:20:00Z",
+    "window_end": "2024-01-05T11:32:00Z",
+    "window_start": "2024-01-05T11:09:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 194,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/194/",
+        "name": "ExPace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8155,
+        "configuration": {
+            "id": 135,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/135/",
+            "name": "Kuaizhou",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-1A",
+            "variant": "1A"
+        }
+    },
+    "mission": {
+        "id": 6716,
+        "name": "Tianmu-1 15-18",
+        "description": "Small meteorology research satellites using GNSS radio occultation by CASIC subsidiary Xiyong Microelectronics Park.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou-1a252_image_20240105142702.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6593,
+    "location_launch_attempt_count": 219,
+    "pad_launch_attempt_count": 50,
+    "agency_launch_attempt_count": 24,
+    "orbital_launch_attempt_count_year": 4,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

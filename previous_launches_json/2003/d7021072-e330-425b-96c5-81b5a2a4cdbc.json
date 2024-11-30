@@ -1,0 +1,119 @@
+{
+    "id": "d7021072-e330-425b-96c5-81b5a2a4cdbc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d7021072-e330-425b-96c5-81b5a2a4cdbc/",
+    "slug": "space-shuttle-columbia-ov-102-sts-107",
+    "name": "Space Shuttle Columbia / OV-102 | STS-107",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T08:51:05Z",
+    "net": "2003-01-16T15:39:00Z",
+    "window_end": "2003-01-16T15:39:00Z",
+    "window_start": "2003-01-16T15:39:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "The seven members of the crew were killed on February 1 when Columbia disintegrated during reentry into the atmosphere. The Columbia Accident Investigation Board determined the failure was caused by a piece of foam that broke off during launch and damaged the thermal protection system (reinforced carbon-carbon panels and thermal protection tiles) on the leading edge of the orbiter's Left wing. During re-entry the damaged wing slowly overheated and came apart, eventually leading to loss of control and disintegration of the vehicle.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 191,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/191/",
+        "name": "United Space Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 489,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 461,
+        "name": "STS-107",
+        "description": "STS-107 was the 113th flight of the Space Shuttle program, and the disastrous final flight of Space Shuttle Columbia. The mission launched from Kennedy Space Center in Florida on January 16, 2003, and during its 15 days, 22 hours, 20 minutes, 32 seconds in orbit conducted a multitude of international scientific experiments.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4579,
+    "location_launch_attempt_count": 130,
+    "pad_launch_attempt_count": 78,
+    "agency_launch_attempt_count": 29,
+    "orbital_launch_attempt_count_year": 3,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

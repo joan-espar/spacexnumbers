@@ -1,0 +1,80 @@
+{
+    "id": "e33d72fe-d44d-4efa-b477-13acc833f49b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e33d72fe-d44d-4efa-b477-13acc833f49b/",
+    "slug": "long-march-4c-yaogan-19",
+    "name": "Long March 4C | Yaogan 19",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T06:09:58Z",
+    "net": "2013-11-20T03:31:04Z",
+    "window_end": "2013-11-20T03:31:04Z",
+    "window_start": "2013-11-20T03:31:04Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1717,
+        "configuration": {
+            "id": 64,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/64/",
+            "name": "Long March 4C",
+            "family": "Long March",
+            "full_name": "Long March 4C",
+            "variant": "C"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5335,
+    "location_launch_attempt_count": 48,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 130,
+    "orbital_launch_attempt_count_year": 5335,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}

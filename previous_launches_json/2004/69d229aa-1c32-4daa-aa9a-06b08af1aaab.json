@@ -1,0 +1,94 @@
+{
+    "id": "69d229aa-1c32-4daa-aa9a-06b08af1aaab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/69d229aa-1c32-4daa-aa9a-06b08af1aaab/",
+    "slug": "soyuz-u-pvb-yantar-4k2m-1",
+    "name": "Soyuz-U-PVB | Yantar-4K2M 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:50:21Z",
+    "net": "2004-09-24T16:50:00Z",
+    "window_end": "2004-09-24T16:50:00Z",
+    "window_start": "2004-09-24T16:50:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7199,
+        "configuration": {
+            "id": 378,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/378/",
+            "name": "Soyuz-U-PVB",
+            "family": "Soyuz",
+            "full_name": "Soyuz-U-PVB",
+            "variant": "U-PVB"
+        }
+    },
+    "mission": {
+        "id": 5588,
+        "name": "Yantar-4K2M 1",
+        "description": "Film-return reconnaisance satellite. Maneuvered on October 1 to a 213 x 330 km orbit. Believed to be an improved Yantar-4K1 with a longer lifetime - and given the code name 'Kobalt' previously applied to the defunct Yantar-4K2 system. When re-entry was commanded after only 107 days in orbit, there was speculation that problems had arisen with the satellite. Sources claimed the satellite had some kind of control problem, which was brought under control, and the two smaller film return capsules were successfully returned.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 35,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/35/",
+        "agency_id": 163,
+        "name": "16/2",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.960091,40.682983",
+        "latitude": "62.960091",
+        "longitude": "40.682983",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_35_20200803143306.jpg",
+        "total_launch_count": 136,
+        "orbital_launch_attempt_count": 136
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4678,
+    "location_launch_attempt_count": 1538,
+    "pad_launch_attempt_count": 123,
+    "agency_launch_attempt_count": 59,
+    "orbital_launch_attempt_count_year": 39,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

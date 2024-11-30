@@ -1,0 +1,129 @@
+{
+    "id": "b16513d8-1821-4418-8d06-dc821ec1808c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b16513d8-1821-4418-8d06-dc821ec1808c/",
+    "slug": "chollima-1-malligyong-1c",
+    "name": "Chollima-1 | Malligyong-1c",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-19T16:53:00Z",
+    "net": "2023-11-21T13:42:58Z",
+    "window_end": "2023-11-21T13:42:58Z",
+    "window_start": "2023-11-21T13:42:58Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1074,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1074/",
+        "name": "National Aerospace Development Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8018,
+        "configuration": {
+            "id": 495,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/495/",
+            "name": "Chollima-1",
+            "family": "Taepodong",
+            "full_name": "Chollima-1",
+            "variant": "Chollima-1"
+        }
+    },
+    "mission": {
+        "id": 6554,
+        "name": "Malligyong-1c",
+        "description": "Malligyong-1c (meaning \"Telescope-1\") is the third attempt by North Korea to launch a satellite officially declared to be for military reconnaissance purposes, and the first successful one. It became the third North Korean satellite to reach orbit.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [
+            {
+                "id": 1074,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/1074/",
+                "name": "National Aerospace Development Administration",
+                "featured": false,
+                "type": "Government",
+                "country_code": "PRK",
+                "abbrev": "NADA",
+                "description": "National Aerospace Development Administration is the official space agency of North Korea, succeeding the Korean Committee of Space Technology (KCST). It was founded on April 1, 2013.",
+                "administrator": null,
+                "founding_year": "2013",
+                "launchers": "Chollima",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 5,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 2,
+                "failed_launches": 3,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": null,
+                "wiki_url": "https://en.wikipedia.org/wiki/National_Aerospace_Development_Administration",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aerospace2520development2520administration_logo_20230824063913.png",
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 208,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/208/",
+        "agency_id": null,
+        "name": "Malligyong-1 Pad",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://goo.gl/maps/DgkrTCHCsAcw1CWR7",
+        "latitude": "39.652861",
+        "longitude": "124.736639",
+        "location": {
+            "id": 7,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/7/",
+            "name": "Sohae Satellite Launching Station,  Cholsan County, North Pyongan Province, Democratic People's Republic of Korea",
+            "country_code": "PRK",
+            "description": "Sohae Satellite Launching Station is a rocket launching site in Tongch'ang-ri, Cholsan County, North Pyongan Province, North Korea. The base is located among hills close to the northern border with China. The spaceport was built on the site of the village Pongdong-ri which was displaced during construction.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_7_20200803142414.jpg",
+            "timezone_name": "Asia/Pyongyang",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "PRK",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_unknown_pad_prk_2023_20230601125308.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 4
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/chollima-1_lift_image_20240919165247.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6556,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 188,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

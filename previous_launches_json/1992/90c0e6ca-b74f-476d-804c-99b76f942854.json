@@ -1,0 +1,111 @@
+{
+    "id": "90c0e6ca-b74f-476d-804c-99b76f942854",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/90c0e6ca-b74f-476d-804c-99b76f942854/",
+    "slug": "soyuz-u2-progress-m-14",
+    "name": "Soyuz-U2 | Progress M-14",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:41:05Z",
+    "net": "1992-08-15T22:18:32Z",
+    "window_end": "1992-08-15T22:18:32Z",
+    "window_start": "1992-08-15T22:18:32Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2287,
+        "configuration": {
+            "id": 101,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/101/",
+            "name": "Soyuz-U",
+            "family": "",
+            "full_name": "Soyuz-U2",
+            "variant": "2"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-u_image_20191229074852.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/16/",
+            "name": "Mir",
+            "description": "Mir was a space station that operated in low Earth orbit from 1986 to 2001, operated by the Soviet Union and later by Russia. Mir was the first modular space station and was assembled in orbit from 1986 to 1996.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mir_program_20200821092345.jpeg",
+            "start_date": "1986-02-20T21:28:23Z",
+            "end_date": "2001-03-23T05:59:00Z",
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Mir",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 3744,
+    "location_launch_attempt_count": 988,
+    "pad_launch_attempt_count": 312,
+    "agency_launch_attempt_count": 9,
+    "orbital_launch_attempt_count_year": 3744,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

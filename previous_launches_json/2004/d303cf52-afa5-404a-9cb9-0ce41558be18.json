@@ -1,0 +1,94 @@
+{
+    "id": "d303cf52-afa5-404a-9cb9-0ce41558be18",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d303cf52-afa5-404a-9cb9-0ce41558be18/",
+    "slug": "ariane-5-g-anik-f2",
+    "name": "Ariane 5 G+ | Anik F2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:24Z",
+    "net": "2004-07-18T00:44:00Z",
+    "window_end": "2004-07-18T00:44:00Z",
+    "window_start": "2004-07-18T00:44:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 503,
+        "configuration": {
+            "id": 146,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/146/",
+            "name": "Ariane 5 G+",
+            "family": "Ariane",
+            "full_name": "Ariane 5 G+",
+            "variant": "G+"
+        }
+    },
+    "mission": {
+        "id": 611,
+        "name": "Anik F2",
+        "description": "The Anik satellites are a series of geostationary communications satellites launched by Telesat Canada for television in Canada. ",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520g252b_image_20190222030334.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4666,
+    "location_launch_attempt_count": 172,
+    "pad_launch_attempt_count": 19,
+    "agency_launch_attempt_count": 158,
+    "orbital_launch_attempt_count_year": 27,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

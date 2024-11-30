@@ -1,0 +1,94 @@
+{
+    "id": "504ba71a-bf09-48f1-9346-48c3d79e580b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/504ba71a-bf09-48f1-9346-48c3d79e580b/",
+    "slug": "momo-flight-7",
+    "name": "MOMO | Flight 7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:22:05Z",
+    "net": "2021-07-03T08:45:00Z",
+    "window_end": "2021-07-03T08:50:00Z",
+    "window_start": "2021-07-03T02:10:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1002,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1002/",
+        "name": "Interstellar Technologies",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2730,
+        "configuration": {
+            "id": 466,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/466/",
+            "name": "MOMO v1",
+            "family": "MOMO",
+            "full_name": "MOMO v1",
+            "variant": "v1"
+        }
+    },
+    "mission": {
+        "id": 1132,
+        "name": "Flight 7",
+        "description": "Sixth flight of Interstellar Technologies MOMO rocket. First flight using the MOMO v1 design bringing various improvements over MOMO v0.\r\nIt reached an apogee altitude of 99 km.",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 106,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/106/",
+        "agency_id": 1002,
+        "name": "Launch Complex 0",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Taiki_Aerospace_Research_Field",
+        "map_url": "https://www.google.com/maps?q=42.50000000,143.441389",
+        "latitude": "42.5",
+        "longitude": "143.441389",
+        "location": {
+            "id": 32,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/32/",
+            "name": "Hokkaido Spaceport, Japan",
+            "country_code": "JPN",
+            "description": "Rocket launch pad of Interstellar Technologies, located next to the Taiki Aerospace Research Field.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_32_20200803142407.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_106_20200803143453.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/momo2520257c_image_20210703063014.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

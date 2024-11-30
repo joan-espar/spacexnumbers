@@ -1,0 +1,119 @@
+{
+    "id": "2ac49b3d-a02b-4e78-ac8e-1a585d5be00b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2ac49b3d-a02b-4e78-ac8e-1a585d5be00b/",
+    "slug": "soyuz-stbfregat-galileo-l3-foc-fm01-fm02",
+    "name": "Soyuz STB/Fregat | Galileo L3 (FOC FM01-FM02)",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2024-04-28T05:46:38Z",
+    "net": "2014-08-22T12:27:11Z",
+    "window_end": "2014-08-22T12:27:11Z",
+    "window_start": "2014-08-22T12:27:11Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Satellites were placed into an incorrect orbit due to an anomaly with the Fregat upper stage. Both payloads recovered using their own propulsion.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1780,
+        "configuration": {
+            "id": 171,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/171/",
+            "name": "Soyuz STB",
+            "family": "Soyuz",
+            "full_name": "Soyuz STB Fregat",
+            "variant": "STB/Fregat"
+        }
+    },
+    "mission": {
+        "id": 33,
+        "name": "Galileo L3 (FOC FM01-FM02)",
+        "description": "These are the first two Full Operational Capability satellites of the Galileo constellation, ESA's satellite navigation system and is expected to be completed by 2020. Galileo will provide Europe with an alternative to the American GPS and Russian GLONASS constellations, but will be interoperable with both systems.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 81,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/81/",
+        "agency_id": 115,
+        "name": "Soyuz Launch Complex",
+        "description": "The Ensemble de Lancement Soyouz (ELS)  is a launch complex at the Guiana Space Centre in Kourou/Sinnamary, French Guiana. It was used by Soyuz-ST rockets: modified versions of the Soyuz-2 optimised for launch from Kourou under Soyuz at the Guiana Space Centre programme.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Ensemble_de_Lancement_Soyouz",
+        "map_url": "https://www.google.com/maps?q=5.3019,-52.8346",
+        "latitude": "5.3019",
+        "longitude": "-52.8346",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_81_20200803143601.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_stb_image_20211130181029.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 30,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/30/",
+            "name": "Galileo",
+            "description": "Galileo is a global navigation satellite system (GNSS) that went live in 2016, created by the European Union through the European Space Agency (ESA), operated by the European Union Agency for the Space Programme (EUSPA).",
+            "agencies": [
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/galileo_program_20231230110547.png",
+            "start_date": "2011-10-21T10:30:00Z",
+            "end_date": null,
+            "info_url": "https://www.gsc-europa.eu/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)",
+            "mission_patches": [],
+            "type": {
+                "id": 4,
+                "name": "Navigation Constellation"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5401,
+    "location_launch_attempt_count": 239,
+    "pad_launch_attempt_count": 9,
+    "agency_launch_attempt_count": 224,
+    "orbital_launch_attempt_count_year": 52,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "b91a488c-1c12-477c-ab24-cebb7a6b8780",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b91a488c-1c12-477c-ab24-cebb7a6b8780/",
+    "slug": "pslv-ca-teleos-2",
+    "name": "PSLV-CA | TeLEOS-2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:58:52Z",
+    "net": "2023-04-22T08:50:00Z",
+    "window_end": "2023-04-22T08:50:00Z",
+    "window_start": "2023-04-22T08:50:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7815,
+        "configuration": {
+            "id": 43,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/43/",
+            "name": "PSLV",
+            "family": "PSLV",
+            "full_name": "PSLV-CA",
+            "variant": "CA"
+        }
+    },
+    "mission": {
+        "id": 6321,
+        "name": "TeLEOS-2",
+        "description": "TeLEOS-2 is a Singaporean Earth Observation satellite built by ST Electronics (Satellite Systems). It carries a made-in-Singapore Synthetic Aperture Radar (SAR) capable of providing 1 m resolution data. It will be equipped with a 500 GB onboard recorder for recording the data captured and a high speed 800 Mbps downlink.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv-ca252025_image_20240101090852.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6430,
+    "location_launch_attempt_count": 87,
+    "pad_launch_attempt_count": 55,
+    "agency_launch_attempt_count": 83,
+    "orbital_launch_attempt_count_year": 62,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

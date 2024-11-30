@@ -1,0 +1,85 @@
+{
+    "id": "5837f755-b461-4a06-b24c-68813361b59d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5837f755-b461-4a06-b24c-68813361b59d/",
+    "slug": "long-march-3a-compass-igso-4",
+    "name": "Long March 3A | Compass-IGSO-4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:32:54Z",
+    "net": "2011-07-26T21:44:28Z",
+    "window_end": "2011-07-26T21:44:28Z",
+    "window_start": "2011-07-26T21:44:28Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1541,
+        "configuration": {
+            "id": 71,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/71/",
+            "name": "Long March 3A",
+            "family": "Long March",
+            "full_name": "Long March 3A",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203a_image_20190222031143.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5145,
+    "location_launch_attempt_count": 65,
+    "pad_launch_attempt_count": 25,
+    "agency_launch_attempt_count": 87,
+    "orbital_launch_attempt_count_year": 5145,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

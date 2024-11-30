@@ -1,0 +1,94 @@
+{
+    "id": "a00068b5-89e5-4913-89e6-5167b3bdb4c5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a00068b5-89e5-4913-89e6-5167b3bdb4c5/",
+    "slug": "ariane-44lp-brasilsat-b2-hotbird-1",
+    "name": "Ariane 44LP | Brasilsat B2 & Hotbird 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:19Z",
+    "net": "1995-03-28T23:14:19Z",
+    "window_end": "1995-03-28T23:14:19Z",
+    "window_start": "1995-03-28T23:14:19Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6655,
+        "configuration": {
+            "id": 226,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/226/",
+            "name": "Ariane 44LP",
+            "family": "Ariane",
+            "full_name": "Ariane 44LP",
+            "variant": "44LP"
+        }
+    },
+    "mission": {
+        "id": 5045,
+        "name": "Brasilsat B2 & Hotbird 1",
+        "description": "Brasilsat B2 and Hotbird 1 are Brazilian and international communications satellites operating in geostationary orbit.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_44lp_at__image_20240401083402.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3980,
+    "location_launch_attempt_count": 80,
+    "pad_launch_attempt_count": 46,
+    "agency_launch_attempt_count": 70,
+    "orbital_launch_attempt_count_year": 19,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

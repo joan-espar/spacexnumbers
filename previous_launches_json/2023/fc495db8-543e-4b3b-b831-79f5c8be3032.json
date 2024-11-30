@@ -1,0 +1,99 @@
+{
+    "id": "fc495db8-543e-4b3b-b831-79f5c8be3032",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fc495db8-543e-4b3b-b831-79f5c8be3032/",
+    "slug": "smart-dragon-3-satnet-test-satellite",
+    "name": "Smart Dragon 3 | SatNet test satellite",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-22T15:26:36Z",
+    "net": "2023-12-05T19:24:00Z",
+    "window_end": "2023-12-05T20:02:00Z",
+    "window_start": "2023-12-05T19:17:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 272,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/272/",
+        "name": "China Rocket Co. Ltd.",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8105,
+        "configuration": {
+            "id": 484,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/484/",
+            "name": "Smart Dragon 3",
+            "family": "Smart Dragon",
+            "full_name": "Smart Dragon 3",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6663,
+        "name": "SatNet test satellite",
+        "description": "Officially described as \"Satellite-Internet Technology Demonstration Satellite(s)\" built by Chinese Academy of Sciences. Probable 1 (?) test satellite for the Chinese state-owned LEO communication satellite constellation SatNet.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 217,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/217/",
+        "agency_id": null,
+        "name": "Bo Run Jiu Zhou mobile launch platform",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=21.283333,112.0",
+        "latitude": "21.283333",
+        "longitude": "112.0",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_bo_run_jiu_zhou_mobile_launch_platform_20231206001303.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart2520drago_image_20231206073547.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6567,
+    "location_launch_attempt_count": 47,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 199,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

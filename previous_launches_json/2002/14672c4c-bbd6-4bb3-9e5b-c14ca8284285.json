@@ -1,0 +1,94 @@
+{
+    "id": "14672c4c-bbd6-4bb3-9e5b-c14ca8284285",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/14672c4c-bbd6-4bb3-9e5b-c14ca8284285/",
+    "slug": "delta-iv-m42-eutelsat-w5",
+    "name": "Delta IV M+(4,2) | Eutelsat W5",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:43:27Z",
+    "net": "2002-11-20T22:39:00Z",
+    "window_end": "2002-11-20T22:39:00Z",
+    "window_start": "2002-11-20T22:39:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+        "name": "Boeing",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7110,
+        "configuration": {
+            "id": 33,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/33/",
+            "name": "Delta IV M+(4,2)",
+            "family": "Delta",
+            "full_name": "Delta IV M+(4,2)",
+            "variant": "M+(4,2)"
+        }
+    },
+    "mission": {
+        "id": 5499,
+        "name": "Eutelsat W5",
+        "description": "EUTELSAT W5 was a European (EUTELSAT Consortium) geostationary communication spacecraft. EUTELSAT W5 was to provide voice, video, and Internet services to all countries in western Europe, central Asia, and the Indian subcontinent",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 3,
+            "name": "Geosynchronous Orbit",
+            "abbrev": "GSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 38,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/38/",
+        "agency_id": null,
+        "name": "Space Launch Complex 37B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37",
+        "map_url": "https://www.google.com/maps?q=28.5317,-80.56495",
+        "latitude": "28.5317",
+        "longitude": "-80.56495",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_38_20200803143515.jpg",
+        "total_launch_count": 40,
+        "orbital_launch_attempt_count": 40
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_iv_m252b_image_20220302002926.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4564,
+    "location_launch_attempt_count": 603,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 53,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

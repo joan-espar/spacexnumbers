@@ -1,0 +1,99 @@
+{
+    "id": "2f255496-16b0-4ae6-ac9e-8e24f5deae7a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2f255496-16b0-4ae6-ac9e-8e24f5deae7a/",
+    "slug": "ceres-1s-tianqi-21-24",
+    "name": "Ceres-1S | Tianqi 21-24",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:18:19Z",
+    "net": "2023-09-05T09:34:46Z",
+    "window_end": "2023-09-05T10:02:00Z",
+    "window_start": "2023-09-05T09:25:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1021,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7995,
+        "configuration": {
+            "id": 500,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/500/",
+            "name": "Ceres-1S",
+            "family": "Ceres-1",
+            "full_name": "Ceres-1S",
+            "variant": "Ceres-1S"
+        }
+    },
+    "mission": {
+        "id": 6528,
+        "name": "Tianqi 21-24",
+        "description": "4 small satellites for LEO Internet of Things (IoT) communication purposes.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 89,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/89/",
+        "agency_id": 88,
+        "name": "DeFu-15002 mobile launch platform",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=36.631333,121.198361",
+        "latitude": "36.631333",
+        "longitude": "121.198361",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_89_20200803143242.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s25202_image_20230905114300.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6510,
+    "location_launch_attempt_count": 45,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 9,
+    "orbital_launch_attempt_count_year": 142,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

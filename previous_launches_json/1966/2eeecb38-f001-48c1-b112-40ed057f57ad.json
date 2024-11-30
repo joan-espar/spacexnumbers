@@ -1,0 +1,119 @@
+{
+    "id": "2eeecb38-f001-48c1-b112-40ed057f57ad",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2eeecb38-f001-48c1-b112-40ed057f57ad/",
+    "slug": "atlas-slv-3-agena-d-gatv-9",
+    "name": "Atlas SLV-3 Agena D | GATV 9",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:42:43Z",
+    "net": "1966-05-17T15:15:03Z",
+    "window_end": "1966-05-17T15:15:03Z",
+    "window_start": "1966-05-17T15:15:03Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3526,
+        "configuration": {
+            "id": 258,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/258/",
+            "name": "Atlas SLV-3 Agena D",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3 Agena D",
+            "variant": "SLV-3 Agena D"
+        }
+    },
+    "mission": {
+        "id": 1946,
+        "name": "GATV 9",
+        "description": "The GATV (Gemini Agena Target Vehicle) was designed to be launched into Earth orbit prior to a Gemini mission and used for rendezvous and docking practice.",
+        "launch_designator": null,
+        "type": "Test Target",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 17,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/17/",
+        "agency_id": 1048,
+        "name": "Space Launch Complex 14",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_14",
+        "map_url": "https://www.google.com/maps?q=28.49103,-80.54687",
+        "latitude": "28.49103",
+        "longitude": "-80.54687",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_17_20200803143405.jpg",
+        "total_launch_count": 20,
+        "orbital_launch_attempt_count": 16
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [
+        {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/3/",
+            "name": "Gemini",
+            "description": "Project Gemini was NASA's second human spaceflight program. Conducted between projects Mercury and Apollo, Gemini started in 1961 and concluded in 1966.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520gem_program_20200820195350.png",
+            "start_date": "1961-12-07T00:00:00Z",
+            "end_date": "1966-11-15T19:21:04Z",
+            "info_url": "https://www.nasa.gov/mission_pages/gemini/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Project_Gemini",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 564,
+    "location_launch_attempt_count": 167,
+    "pad_launch_attempt_count": 16,
+    "agency_launch_attempt_count": 322,
+    "orbital_launch_attempt_count_year": 47,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 23,
+    "type": "normal"
+}

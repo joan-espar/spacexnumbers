@@ -1,0 +1,94 @@
+{
+    "id": "62eb8ff7-c3c6-4892-8bac-34b707ed21bb",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/62eb8ff7-c3c6-4892-8bac-34b707ed21bb/",
+    "slug": "kosmos-3m-tselina-o-20",
+    "name": "Kosmos-3M | Tselina-O 20",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:27:29Z",
+    "net": "1973-08-28T10:08:29Z",
+    "window_end": "1973-08-28T10:08:29Z",
+    "window_start": "1973-08-28T10:08:29Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4390,
+        "configuration": {
+            "id": 102,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/102/",
+            "name": "Kosmos-3M",
+            "family": "Kosmos",
+            "full_name": "Kosmos-3M (11K65M)",
+            "variant": "-3M"
+        }
+    },
+    "mission": {
+        "id": 2808,
+        "name": "Tselina-O 20",
+        "description": "The Tselina-O (11F616) was one component of two-satellite Tselina ELINT satellite system. Tselina-O provided general ELINT surveillance to be examined in detail by the larger Tselina-D satellites.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 167,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/167/",
+        "agency_id": null,
+        "name": "132/2",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=62.883,40.869806",
+        "latitude": "62.883",
+        "longitude": "40.869806",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_167_20200803143417.jpg",
+        "total_launch_count": 172,
+        "orbital_launch_attempt_count": 172
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1488,
+    "location_launch_attempt_count": 305,
+    "pad_launch_attempt_count": 44,
+    "agency_launch_attempt_count": 761,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 31,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 49,
+    "type": "normal"
+}

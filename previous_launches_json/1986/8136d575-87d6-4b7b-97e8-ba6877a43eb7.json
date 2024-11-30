@@ -1,0 +1,94 @@
+{
+    "id": "8136d575-87d6-4b7b-97e8-ba6877a43eb7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8136d575-87d6-4b7b-97e8-ba6877a43eb7/",
+    "slug": "soyuz-u-yantar-4k2-26",
+    "name": "Soyuz U | Yantar-4K2 26",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:41:07Z",
+    "net": "1986-11-13T10:59:59Z",
+    "window_end": "1986-11-13T10:59:59Z",
+    "window_start": "1986-11-13T10:59:59Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 5908,
+        "configuration": {
+            "id": 37,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/37/",
+            "name": "Soyuz U",
+            "family": "Soyuz",
+            "full_name": "Soyuz U",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 4304,
+        "name": "Yantar-4K2 26",
+        "description": "Film-return reconnaissance satellite",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 419,
+        "orbital_launch_attempt_count": 419
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520u_image_20190222031023.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3122,
+    "location_launch_attempt_count": 796,
+    "pad_launch_attempt_count": 295,
+    "agency_launch_attempt_count": 2035,
+    "orbital_launch_attempt_count_year": 93,
+    "location_launch_attempt_count_year": 33,
+    "pad_launch_attempt_count_year": 9,
+    "agency_launch_attempt_count_year": 79,
+    "type": "normal"
+}

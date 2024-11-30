@@ -1,0 +1,99 @@
+{
+    "id": "b8173cec-0f32-4268-bbb6-af7bab0be436",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b8173cec-0f32-4268-bbb6-af7bab0be436/",
+    "slug": "vega-c-lares-2-maiden-flight",
+    "name": "Vega-C | LARES-2 (Maiden flight)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-11-07T09:36:16Z",
+    "net": "2022-07-13T13:13:17Z",
+    "window_end": "2022-07-13T13:13:17Z",
+    "window_start": "2022-07-13T13:13:17Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 27,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+        "name": "European Space Agency",
+        "type": "Multinational"
+    },
+    "rocket": {
+        "id": 2471,
+        "configuration": {
+            "id": 127,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/127/",
+            "name": "Vega-C",
+            "family": "Vega",
+            "full_name": "Vega-C",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6086,
+        "name": "LARES-2 (Maiden flight)",
+        "description": "Maiden flight of the Vega-C launch vehicle, carrying the LARES-2 passive satellite. It is a 40 cm diameter sphere with laser mirrors to study the Earth gravitational field and relativistic effects. Also onboard are six European research cubesats.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 12,
+            "name": "Medium Earth Orbit",
+            "abbrev": "MEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 34,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/34/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 1 (ELV)",
+        "description": "ELA-1, now named Ensemble de Lancement Vega (short ELV), is a launch pad at the Centre Spatial Guyanais in French Guiana. It has been used to support launches of the Europa rocket, Ariane 1, Ariane 3, and is currently used to launch Vega rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-1",
+        "map_url": "https://www.google.com/maps?q=5.236,-52.775",
+        "latitude": "5.236",
+        "longitude": "-52.775",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
+        "total_launch_count": 50,
+        "orbital_launch_attempt_count": 50
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6265,
+    "location_launch_attempt_count": 314,
+    "pad_launch_attempt_count": 47,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 83,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,541 @@
+{
+    "id": "d5a80dcc-105b-445f-a8c4-394d7c7825ed",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d5a80dcc-105b-445f-a8c4-394d7c7825ed/",
+    "slug": "falcon-9-block-5-badr-8",
+    "flightclub_url": "https://flightclub.io/result?llId=d5a80dcc-105b-445f-a8c4-394d7c7825ed",
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 Block 5 | BADR-8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-05-27T17:20:07Z",
+    "updates": [
+        {
+            "id": 4207,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Launch success.",
+            "info_url": "https://www.airbus.com/en/newsroom/press-releases/2023-05-arabsat-badr-8-successfully-launched-featuring-airbus-innovative",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-27T13:41:50Z"
+        },
+        {
+            "id": 4172,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Liftoff.",
+            "info_url": "https://www.youtube.com/watch?v=lBJ9uWdCLRI",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-27T04:30:32Z"
+        },
+        {
+            "id": 4171,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=lBJ9uWdCLRI",
+            "created_by": "LL2",
+            "created_on": "2023-05-27T04:12:42Z"
+        },
+        {
+            "id": 4170,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/spacex/status/1662281271178051585",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-27T02:19:22Z"
+        },
+        {
+            "id": 4165,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+            "comment": "Weather 30% GO",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Arabsat%20BADR-8%20L-1%20Fcst%2026%20May%20Launch.pdf",
+            "created_by": "hitura-nobad",
+            "created_on": "2023-05-26T19:45:18Z"
+        },
+        {
+            "id": 4133,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Weather 40% GO.",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Arabsat%20BADR-8%20L-2%20Fcst%2026%20May%20Launch.pdf?ver=k6ZawCXfqrzaUDcqOSZcNQ%3d%3d",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-25T02:22:31Z"
+        },
+        {
+            "id": 4132,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Delayed to NET May 27 due to weather.",
+            "info_url": "https://twitter.com/SpaceX/status/1661548900912857090",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-25T01:47:11Z"
+        },
+        {
+            "id": 4126,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Confirmed rescheduled for May 25 UTC.",
+            "info_url": "https://www.spacex.com/launches/mission/?missionId=ARABSAT-BADR-8",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T17:34:32Z"
+        },
+        {
+            "id": 4117,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Scrub due to weather; next launch attempt tomorrow.",
+            "info_url": "https://www.youtube.com/watch?v=0q-0eD5s-sk",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T05:22:52Z"
+        },
+        {
+            "id": 4116,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Hold.",
+            "info_url": "https://www.youtube.com/watch?v=0q-0eD5s-sk",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T05:19:34Z"
+        },
+        {
+            "id": 4115,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=0q-0eD5s-sk",
+            "created_by": "LL2",
+            "created_on": "2023-05-24T05:05:30Z"
+        },
+        {
+            "id": 4113,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/spacex/status/1661228309798346753",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T04:33:50Z"
+        },
+        {
+            "id": 4112,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/SpaceflightNow/status/1661225608032972800",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T04:28:09Z"
+        },
+        {
+            "id": 4111,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/cbs_spacenews/status/1661222368503648256",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T04:11:10Z"
+        },
+        {
+            "id": 4110,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/SpaceX/status/1661215800177594369",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T03:49:05Z"
+        },
+        {
+            "id": 4109,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0.",
+            "info_url": "https://twitter.com/SpaceX/status/1661206230931742721",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T03:04:12Z"
+        },
+        {
+            "id": 4108,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET 04:00 UTC.",
+            "info_url": "https://twitter.com/SpaceflightNow/status/1661190969105207296",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-24T02:20:45Z"
+        },
+        {
+            "id": 4103,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "Setting GO. Weather 25%",
+            "info_url": "https://twitter.com/SpaceX/status/1660739475746721792",
+            "created_by": "Nosu",
+            "created_on": "2023-05-22T20:13:40Z"
+        },
+        {
+            "id": 4082,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "Weather 30%",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%209%20Arabsat%20BADR-8%20L-3%20Fcst%2023%20May%20Launch.pdf",
+            "created_by": "Nosu",
+            "created_on": "2023-05-22T06:30:30Z"
+        },
+        {
+            "id": 4067,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Updated launch window.",
+            "info_url": "https://www.fly.faa.gov/adv/adv_spt.jsp",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-20T10:14:57Z"
+        },
+        {
+            "id": 4054,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Tweaked T-0.",
+            "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-18T02:03:08Z"
+        },
+        {
+            "id": 4052,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET May 24 UTC.",
+            "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-17T17:34:57Z"
+        },
+        {
+            "id": 4044,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "No longer scheduled on May 22.",
+            "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-15T23:39:42Z"
+        },
+        {
+            "id": 3880,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added launch time.",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-25T16:08:04Z"
+        },
+        {
+            "id": 3725,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "Targeting May 22",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Nosu",
+            "created_on": "2023-04-01T17:50:21Z"
+        },
+        {
+            "id": 3362,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "NET May",
+            "info_url": "https://www.einnews.com/pr_news/617117035/morocco-major-player-in-arab-satellite-communications-organization-arabsat-official",
+            "created_by": "Nosu",
+            "created_on": "2023-02-20T13:52:06Z"
+        },
+        {
+            "id": 2779,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+            "comment": "Adding launch NET 2023",
+            "info_url": "https://twitter.com/airbusspace/status/1590273920628043776",
+            "created_by": "Nosu",
+            "created_on": "2022-11-09T10:34:48Z"
+        }
+    ],
+    "net": "2023-05-27T04:30:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "window_end": "2023-05-27T05:32:00Z",
+    "window_start": "2023-05-27T03:25:00Z",
+    "probability": 30,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 254,
+        "consecutive_successful_launches": 15,
+        "successful_launches": 244,
+        "failed_launches": 10,
+        "pending_launches": 114,
+        "consecutive_successful_landings": 123,
+        "successful_landings": 205,
+        "failed_landings": 17,
+        "attempted_landings": 222,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
+    },
+    "rocket": {
+        "id": 7697,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "active": true,
+            "reusable": true,
+            "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 254,
+                "consecutive_successful_launches": 15,
+                "successful_launches": 244,
+                "failed_launches": 10,
+                "pending_launches": 114,
+                "consecutive_successful_landings": 123,
+                "successful_landings": 205,
+                "failed_landings": 17,
+                "attempted_landings": 222,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20230531064544.jpg"
+            },
+            "program": [
+                {
+                    "id": 5,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+                    "name": "Commercial Crew Program",
+                    "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA; in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+                    "agencies": [
+                        {
+                            "id": 80,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                            "name": "Boeing",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20200820201209.png",
+                    "start_date": "2011-04-18T00:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+                    "mission_patches": []
+                },
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights; covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Block 5",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 2,
+            "length": 70,
+            "diameter": 3.65,
+            "maiden_flight": "2018-05-11",
+            "launch_cost": "52000000",
+            "launch_mass": 549,
+            "leo_capacity": 22800,
+            "gto_capacity": 8300,
+            "to_thrust": 7607,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
+            "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+            "total_launch_count": 176,
+            "consecutive_successful_launches": 176,
+            "successful_launches": 176,
+            "failed_launches": 0,
+            "pending_launches": 103,
+            "attempted_landings": 171,
+            "successful_landings": 167,
+            "failed_landings": 4,
+            "consecutive_successful_landings": 122
+        },
+        "launcher_stage": [
+            {
+                "id": 344,
+                "type": "Core",
+                "reused": true,
+                "launcher_flight_number": 14,
+                "launcher": {
+                    "id": 73,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/73/",
+                    "details": "Landed on ASOG as of Oct 20; 2022.",
+                    "flight_proven": true,
+                    "serial_number": "B1062",
+                    "status": "active",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/73_image_20220426161427.jpeg",
+                    "successful_landings": 14,
+                    "attempted_landings": 14,
+                    "flights": 14,
+                    "last_launch_date": "2023-05-27T04:30:00Z",
+                    "first_launch_date": "2020-11-05T23:24:23Z"
+                },
+                "landing": {
+                    "id": 1167,
+                    "attempt": true,
+                    "success": true,
+                    "description": "B1062 has landed on ASDS JRTI after its fourteenth flight.",
+                    "downrange_distance": null,
+                    "location": {
+                        "id": 3,
+                        "name": "Just Read the Instructions",
+                        "abbrev": "JRTI",
+                        "description": "First (Marmac 300) and third (Marmac 303) ASDS barge; Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                        "location": null,
+                        "successful_landings": 54
+                    },
+                    "type": {
+                        "id": 1,
+                        "name": "Autonomous Spaceport Drone Ship",
+                        "abbrev": "ASDS",
+                        "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge; outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                    }
+                },
+                "previous_flight_date": "2023-03-09T19:13:28Z",
+                "turn_around_time_days": 78,
+                "previous_flight": {
+                    "id": "7d6982f5-d7e3-4d10-9655-0e83999d81a6",
+                    "name": "Falcon 9 Block 5 | OneWeb 17"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 6213,
+        "name": "BADR-8",
+        "description": "Geostationary communications satellite built by Airbus Defense and Space and based on the Eurostar Neo platform for Arabsat.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        }
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122;-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 890,
+            "total_landing_count": 34
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 184,
+        "orbital_launch_attempt_count": 184
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "title": "SpaceX",
+            "description": "SpaceX designs; manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/mission/?missionId=ARABSAT-BADR-8"
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 9,
+            "title": "ARABSAT BADR-8 Mission",
+            "description": "SpaceX is targeting Wednesday; May 24 for Falcon 9\u2019s launch of the ARABSAT BADR-8 mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SL...",
+            "feature_image": "https://i.ytimg.com/vi/lBJ9uWdCLRI/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=lBJ9uWdCLRI"
+        },
+        {
+            "priority": 10,
+            "title": "ARABSAT BADR-8 Mission",
+            "description": "SpaceX is targeting Tuesday; May 23 for Falcon 9\u2019s launch of the ARABSAT BADR-8 mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-...",
+            "feature_image": "https://i.ytimg.com/vi/0q-0eD5s-sk/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=0q-0eD5s-sk"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6437,
+    "location_launch_attempt_count": 888,
+    "pad_launch_attempt_count": 182,
+    "agency_launch_attempt_count": 249,
+    "orbital_launch_attempt_count_year": 79,
+    "location_launch_attempt_count_year": 20,
+    "pad_launch_attempt_count_year": 19,
+    "agency_launch_attempt_count_year": 36,
+    "mission_patches": []
+}

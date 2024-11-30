@@ -1,0 +1,94 @@
+{
+    "id": "ffaceda9-2d21-4c79-b854-3414b774d8af",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ffaceda9-2d21-4c79-b854-3414b774d8af/",
+    "slug": "astra-rocket-32-flight-2",
+    "name": "Astra Rocket 3.2 | Flight 2",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:20:31Z",
+    "net": "2020-12-15T20:55:00Z",
+    "window_end": "2020-12-15T22:00:00Z",
+    "window_start": "2020-12-15T19:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Premature second stage engine cutoff prevented successful orbit insertion.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 285,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/285/",
+        "name": "Astra Space",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2808,
+        "configuration": {
+            "id": 213,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/213/",
+            "name": "Astra Rocket 3",
+            "family": "Astra Rocket",
+            "full_name": "Astra Rocket 3",
+            "variant": "3"
+        }
+    },
+    "mission": {
+        "id": 1208,
+        "name": "Flight 2",
+        "description": "Astra will attempt a second test flight of Rocket 3.0 following an unsuccessful first flight",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 114,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/114/",
+        "agency_id": null,
+        "name": "Launch Pad 3B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Pacific_Spaceport_Complex_%E2%80%93_Alaska",
+        "map_url": "https://www.google.com/maps?q=57.430673,-152.353077",
+        "latitude": "57.430673",
+        "longitude": "-152.353077",
+        "location": {
+            "id": 25,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/25/",
+            "name": "Pacific Spaceport Complex, Alaska, USA",
+            "country_code": "USA",
+            "description": "The Pacific Spaceport Complex \u2013 Alaska (PSCA), formerly known as the Kodiak Launch Complex (KLC), is a dual-use commercial and military spaceport for sub-orbital and orbital launch vehicles. The facility is owned and operated by the Alaska Aerospace Corporation, a corporation owned by the Government of Alaska, and is located on Kodiak Island in Alaska.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_25_20200803142500.jpg",
+            "timezone_name": "America/Anchorage",
+            "total_launch_count": 9,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_114_20200803145248.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_3_image_20211012141057.jpg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/astra2520rocke_infographic_20220831040803.png",
+    "program": [],
+    "orbital_launch_attempt_count": 6031,
+    "location_launch_attempt_count": 5,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 109,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

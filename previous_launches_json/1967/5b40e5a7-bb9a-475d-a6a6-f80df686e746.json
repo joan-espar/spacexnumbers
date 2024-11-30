@@ -1,0 +1,94 @@
+{
+    "id": "5b40e5a7-bb9a-475d-a6a6-f80df686e746",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5b40e5a7-bb9a-475d-a6a6-f80df686e746/",
+    "slug": "sparta-wresat",
+    "name": "SPARTA | WRESAT",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:29:59Z",
+    "net": "1967-11-29T04:49:00Z",
+    "window_end": "1967-11-29T04:49:00Z",
+    "window_start": "1967-11-29T04:49:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1016,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1016/",
+        "name": "Weapons Research Establishment",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3733,
+        "configuration": {
+            "id": 354,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/354/",
+            "name": "SPARTA",
+            "family": "",
+            "full_name": "SPARTA",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 2151,
+        "name": "WRESAT",
+        "description": "Australian satellite carrying four astrophysics experiments.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 181,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/181/",
+        "agency_id": null,
+        "name": "Launch Area 8",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/RAAF_Woomera_Range_Complex",
+        "map_url": "https://www.google.com/maps?q=-30.9552778,136.5300282",
+        "latitude": "-30.9552778",
+        "longitude": "136.5300282",
+        "location": {
+            "id": 152,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/152/",
+            "name": "RAAF Woomera Range Complex",
+            "country_code": "AUS",
+            "description": "The RAAF Woomera Range Complex (WRC) is a major Australian military and civil aerospace facility and operation located in South Australia, approximately 450 km (280 mi) north-west of Adelaide. The WRC is operated by the Royal Australian Air Force (RAAF), a Service of the Australian Defence Force (ADF). The complex has a land area of 122,188 km2 (47,177 sq mi) or roughly the size of North Korea or Pennsylvania. The airspace above the area is restricted and controlled by the RAAF for safety and security. The WRC is a highly specialised ADF test and evaluation capability operated by the RAAF for the purposes of testing defence materiel.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_152_20200803142502.jpg",
+            "timezone_name": "Australia/Adelaide",
+            "total_launch_count": 6,
+            "total_landing_count": 0
+        },
+        "country_code": "AUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_181_20200803143447.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sparta_rocket_o_image_20240411095008.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 779,
+    "location_launch_attempt_count": 1,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 1,
+    "orbital_launch_attempt_count_year": 131,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

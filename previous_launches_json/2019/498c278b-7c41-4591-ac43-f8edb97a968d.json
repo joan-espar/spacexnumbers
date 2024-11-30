@@ -1,0 +1,94 @@
+{
+    "id": "498c278b-7c41-4591-ac43-f8edb97a968d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/498c278b-7c41-4591-ac43-f8edb97a968d/",
+    "slug": "electron-thats-a-funny-looking-cactus-stp-27rd",
+    "name": "Electron | That's a Funny Looking Cactus (STP-27RD)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T12:10:18Z",
+    "net": "2019-05-05T06:00:00Z",
+    "window_end": "2019-05-05T10:00:00Z",
+    "window_start": "2019-05-05T06:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2416,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 985,
+        "name": "That's a Funny Looking Cactus (STP-27RD)",
+        "description": "The mission has been procured by the DoD Space Test Program in partnership with Defense Innovation Unit (DIU) as part of its Rapid Agile Launch Initiative .The payload consists of three satellites, SPARC-1, Falcon ODE and Harbinger, that will deployed in a precise sequence. The Space Plug and Play Architecture Research CubeSat-1 (SPARC-1) mission, sponsored by the Air Force Research Laboratory Space Vehicles Directorate (AFRL/RV), is a joint Swedish-United States experiment to explore technology developments in avionics miniaturization, software defined radio  systems,  and  space  situational  awareness  (SSA).    The  Falcon  Orbital  Debris  Experiment  (Falcon  ODE),  sponsored  by  the  United  States  Air  Force  Academy,  will  evaluate  ground-based  tracking of space objects.  Harbinger, a commercial small satellite built by York Space Systems and sponsored by the U.S Army, will demonstrate the ability of an experimental commercial system to meet DoD space capability requirements.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+            "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+            "country_code": "NZL",
+            "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of M\u0101hia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+            "timezone_name": "Pacific/Auckland",
+            "total_launch_count": 51,
+            "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 27,
+        "orbital_launch_attempt_count": 27
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5849,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 29,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

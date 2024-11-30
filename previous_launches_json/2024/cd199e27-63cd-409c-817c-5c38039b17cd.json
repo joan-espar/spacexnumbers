@@ -1,0 +1,129 @@
+{
+    "id": "cd199e27-63cd-409c-817c-5c38039b17cd",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/cd199e27-63cd-409c-817c-5c38039b17cd/",
+    "slug": "vulcan-vc2s-certification-flight-2",
+    "name": "Vulcan VC2S | Certification Flight 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-10-04T17:03:52Z",
+    "net": "2024-10-04T11:25:00Z",
+    "window_end": "2024-10-04T13:00:00Z",
+    "window_start": "2024-10-04T10:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": 95,
+    "weather_concerns": "None",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8277,
+        "configuration": {
+            "id": 201,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/201/",
+            "name": "Vulcan VC2S",
+            "family": "Vulcan",
+            "full_name": "Vulcan VC2S",
+            "variant": "VC2S"
+        }
+    },
+    "mission": {
+        "id": 6858,
+        "name": "Certification Flight 2",
+        "description": "Replacement Vulcan test launch with inert payload, experiments, and demonstrations for certification with the USSF after delays caused by payload testing of the Sierra Space Dreamchaser CRS SNC-1 mission, the original planned payload.\r\n\r\nOne of the GEM-63XL SRBs was observed to blown out its booster nozzle at T+37 seconds, causing reduced and asymmetric thrust during ascent, however the performance shortfall was fully compensated by Vulcan's other stages.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [
+            {
+                "id": 124,
+                "url": "https://lldev.thespacedevs.com/2.2.0/agencies/124/",
+                "name": "United Launch Alliance",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "ULA",
+                "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+                "administrator": "CEO: Tory Bruno",
+                "founding_year": "2006",
+                "launchers": "Atlas | Delta IV | Vulcan",
+                "spacecraft": "CST-100 Starliner",
+                "launch_library_url": null,
+                "total_launch_count": 164,
+                "consecutive_successful_launches": 164,
+                "successful_launches": 164,
+                "failed_launches": 0,
+                "pending_launches": 43,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.ulalaunch.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/United_Launch_Alliance",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 988,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6772,
+    "location_launch_attempt_count": 977,
+    "pad_launch_attempt_count": 114,
+    "agency_launch_attempt_count": 164,
+    "orbital_launch_attempt_count_year": 183,
+    "location_launch_attempt_count_year": 50,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

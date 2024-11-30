@@ -1,0 +1,94 @@
+{
+    "id": "e845c910-05f9-4330-88fb-8592007e42a4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e845c910-05f9-4330-88fb-8592007e42a4/",
+    "slug": "atlas-slv-3c-centaur-oao-2",
+    "name": "Atlas SLV-3C Centaur | OAO 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:39:57Z",
+    "net": "1968-12-07T08:40:09Z",
+    "window_end": "1968-12-07T08:40:09Z",
+    "window_start": "1968-12-07T08:40:09Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3852,
+        "configuration": {
+            "id": 260,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/260/",
+            "name": "Atlas SLV-3C Centaur",
+            "family": "Atlas",
+            "full_name": "Atlas SLV-3C Centaur",
+            "variant": "SLV-3C Centaur"
+        }
+    },
+    "mission": {
+        "id": 2270,
+        "name": "OAO 2",
+        "description": "OAO 2 (Orbiting Astronomical Observatory), also known as Stargazer, was one of a series of automated astronomical observatories that was ground controllable in orientation and was placed in a low-earth orbit.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 122,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/122/",
+        "agency_id": 161,
+        "name": "Launch Complex 36B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=28.4705556,-80.542194",
+        "latitude": "28.4705556",
+        "longitude": "-80.542194",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_122_20200803143232.jpg",
+        "total_launch_count": 76,
+        "orbital_launch_attempt_count": 76
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 910,
+    "location_launch_attempt_count": 226,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 471,
+    "orbital_launch_attempt_count_year": 122,
+    "location_launch_attempt_count_year": 12,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 38,
+    "type": "normal"
+}

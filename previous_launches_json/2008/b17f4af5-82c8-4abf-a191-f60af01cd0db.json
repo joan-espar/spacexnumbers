@@ -1,0 +1,94 @@
+{
+    "id": "b17f4af5-82c8-4abf-a191-f60af01cd0db",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b17f4af5-82c8-4abf-a191-f60af01cd0db/",
+    "slug": "long-march-4c-feng-yun-3a",
+    "name": "Long March 4C | Feng Yun 3A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:49:02Z",
+    "net": "2008-05-27T03:02:33Z",
+    "window_end": "2008-05-27T03:02:33Z",
+    "window_start": "2008-05-27T03:02:33Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7354,
+        "configuration": {
+            "id": 64,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/64/",
+            "name": "Long March 4C",
+            "family": "Long March",
+            "full_name": "Long March 4C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 5743,
+        "name": "Feng Yun 3A",
+        "description": "Chinese 2nd generation polar orbiting meteorological satellite",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 33,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/33/",
+        "agency_id": null,
+        "name": "Launch Complex 7",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.8489311,111.6079339",
+        "latitude": "38.8489311",
+        "longitude": "111.6079339",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_33_20200803143335.jpg",
+        "total_launch_count": 32,
+        "orbital_launch_attempt_count": 32
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4911,
+    "location_launch_attempt_count": 27,
+    "pad_launch_attempt_count": 24,
+    "agency_launch_attempt_count": 52,
+    "orbital_launch_attempt_count_year": 26,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

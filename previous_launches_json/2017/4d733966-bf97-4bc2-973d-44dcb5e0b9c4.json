@@ -1,0 +1,94 @@
+{
+    "id": "4d733966-bf97-4bc2-973d-44dcb5e0b9c4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4d733966-bf97-4bc2-973d-44dcb5e0b9c4/",
+    "slug": "zenit-3f-angosat-1",
+    "name": "Zenit-3F | AngoSat-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:30:59Z",
+    "net": "2017-12-26T19:00:03Z",
+    "window_end": "2017-12-26T19:00:03Z",
+    "window_start": "2017-12-26T19:00:03Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 122,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/122/",
+        "name": "Sea Launch",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2060,
+        "configuration": {
+            "id": 58,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/58/",
+            "name": "Zenit 3F",
+            "family": "Zenith",
+            "full_name": "Zenit",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 473,
+        "name": "AngoSat-1",
+        "description": "AngoSat-1 is a geostationary communications satellite operated by Angosat and built by Russian RSC Energia. It is Angola's first communications satellite. Angosat-1 is fitted with C-band and Ku-band transponders and has an operational lifetime of 15 years.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 2,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/2/",
+        "agency_id": null,
+        "name": "45/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.943492,63.653014",
+        "latitude": "45.943492",
+        "longitude": "63.653014",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_2_20200803143256.jpg",
+        "total_launch_count": 46,
+        "orbital_launch_attempt_count": 46
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5706,
+    "location_launch_attempt_count": 1486,
+    "pad_launch_attempt_count": 46,
+    "agency_launch_attempt_count": 43,
+    "orbital_launch_attempt_count_year": 91,
+    "location_launch_attempt_count_year": 13,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

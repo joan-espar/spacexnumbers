@@ -1,0 +1,94 @@
+{
+    "id": "ece77e04-f0d4-4c6a-b57d-abc112e3f0dd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ece77e04-f0d4-4c6a-b57d-abc112e3f0dd/",
+    "slug": "kaituozhe-1-hangtian-tsinghua-1-02",
+    "name": "Kaituozhe-1 | Hangtian Tsinghua 1-02",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-07-08T06:03:15Z",
+    "net": "2003-09-16T10:30:00Z",
+    "window_end": "2003-09-16T10:30:00Z",
+    "window_start": "2003-09-16T10:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7149,
+        "configuration": {
+            "id": 326,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/326/",
+            "name": "Kaituozhe-1",
+            "family": "Kaituozhe",
+            "full_name": "Kaituozhe-1",
+            "variant": "1"
+        }
+    },
+    "mission": {
+        "id": 5538,
+        "name": "Hangtian Tsinghua 1-02",
+        "description": "Tsinghua-1 or Hangtian Qinghua 1 is the first demonstrator for the Disaster Monitoring Constellation and carries multi-spectral Earth imaging cameras providing 39-meter nadir ground resolution in 3 spectral bands.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 142,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/142/",
+        "agency_id": null,
+        "name": "Kaituozhe Launch Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Taiyuan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=38.835756,111.606406",
+        "latitude": "38.835756",
+        "longitude": "111.606406",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_142_20200803143244.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4618,
+    "location_launch_attempt_count": 16,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 15,
+    "orbital_launch_attempt_count_year": 42,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

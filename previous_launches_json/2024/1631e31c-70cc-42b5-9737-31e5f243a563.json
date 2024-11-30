@@ -1,0 +1,129 @@
+{
+    "id": "1631e31c-70cc-42b5-9737-31e5f243a563",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/1631e31c-70cc-42b5-9737-31e5f243a563/",
+    "slug": "new-shepard-ns-28",
+    "name": "New Shepard | NS-28",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-11-22T18:47:56Z",
+    "net": "2024-11-22T15:30:00Z",
+    "window_end": "2024-11-22T22:30:00Z",
+    "window_start": "2024-11-22T14:30:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 141,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/141/",
+        "name": "Blue Origin",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8413,
+        "configuration": {
+            "id": 137,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/137/",
+            "name": "New Shepard",
+            "family": "",
+            "full_name": "New Shepard",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 7002,
+        "name": "NS-28",
+        "description": "Twenty-eighth flight of New Shepard carrying six passengers.",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [
+            {
+                "id": 141,
+                "url": "https://lldev.thespacedevs.com/2.2.0/agencies/141/",
+                "name": "Blue Origin",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "BO",
+                "description": "Blue Origin is an American privately funded aerospace manufacturer and spaceflight services company set up by Amazon.com founder Jeff Bezos with its headquarters in Kent, Washington. The company is developing technologies to enable private human access to space with the goal to dramatically lower costs and increase reliability. Blue Origin currently launches its New Shepard sub-orbital vehicle from its West Texas launch site, they are currently constructing a launch pad for their orbital vehicle New Glenn at Cape Canaveral LC-36.",
+                "administrator": "CEO: Jeff Bezos",
+                "founding_year": "2000",
+                "launchers": "New Shepard | New Glenn",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 28,
+                "consecutive_successful_launches": 5,
+                "successful_launches": 27,
+                "failed_launches": 1,
+                "pending_launches": 5,
+                "consecutive_successful_landings": 5,
+                "successful_landings": 26,
+                "failed_landings": 2,
+                "attempted_landings": 28,
+                "info_url": "http://www.blueorigin.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Blue_Origin",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_image_20190207032427.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_nation_20240222073724.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 90,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/90/",
+        "agency_id": 141,
+        "name": "West Texas Suborbital Launch Site/ Corn Ranch",
+        "description": null,
+        "info_url": "http://www.blueorigin.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Corn_Ranch",
+        "map_url": "https://www.google.com/maps?q=31.422878000000000,-104.757121000000000",
+        "latitude": "31.422878",
+        "longitude": "-104.757121",
+        "location": {
+            "id": 29,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/29/",
+            "name": "Corn Ranch, Van Horn, TX, USA",
+            "country_code": "USA",
+            "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 28,
+            "total_landing_count": 28
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_90_20200803143233.jpg",
+        "total_launch_count": 28,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 28,
+    "pad_launch_attempt_count": 28,
+    "agency_launch_attempt_count": 28,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

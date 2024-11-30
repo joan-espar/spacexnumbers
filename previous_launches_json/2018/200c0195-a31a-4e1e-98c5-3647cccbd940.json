@@ -1,0 +1,94 @@
+{
+    "id": "200c0195-a31a-4e1e-98c5-3647cccbd940",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/200c0195-a31a-4e1e-98c5-3647cccbd940/",
+    "slug": "epsilon-asnaro-2",
+    "name": "Epsilon | ASNARO-2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T17:15:11Z",
+    "net": "2018-01-17T21:06:11Z",
+    "window_end": "2018-01-17T21:30:13Z",
+    "window_start": "2018-01-17T21:06:11Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2067,
+        "configuration": {
+            "id": 112,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/112/",
+            "name": "Epsilon",
+            "family": "Epsilon",
+            "full_name": "Epsilon",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 475,
+        "name": "ASNARO-2",
+        "description": "ASNARO-2 (Advanced Satellite with New system ARchitecture for Observation) is an advanced small X-band radar satellite for Earth observation for Japan. Satellite weighs about 495 kg and is to operate in sun-synchronous orbit.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/epsilon_image_20221009075145.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5713,
+    "location_launch_attempt_count": 39,
+    "pad_launch_attempt_count": 33,
+    "agency_launch_attempt_count": 30,
+    "orbital_launch_attempt_count_year": 7,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,452 @@
+{
+    "id": "571bf2c1-59eb-4079-b785-0472324d3a2d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/571bf2c1-59eb-4079-b785-0472324d3a2d/",
+    "slug": "falcon-heavy-ussf-67",
+    "flightclub_url": "https://flightclub.io/result?llId=571bf2c1-59eb-4079-b785-0472324d3a2d",
+    "r_spacex_api_id": null,
+    "name": "Falcon Heavy | USSF-67",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T00:36:43Z",
+    "updates": [
+        {
+            "id": 3177,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Launch success.",
+            "info_url": "https://twitter.com/nasaspaceflight/status/1614856188444774401",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-01-16T05:27:50Z"
+        },
+        {
+            "id": 3176,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/swgustav_profile_20210218062738.jpg",
+            "comment": "Liftoff",
+            "info_url": "https://www.youtube.com/watch?v=nfxyF1_Ylkk",
+            "created_by": "SwGustav",
+            "created_on": "2023-01-15T22:56:16Z"
+        },
+        {
+            "id": 3175,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/swgustav_profile_20210218062738.jpg",
+            "comment": "Coverage live",
+            "info_url": "https://www.youtube.com/watch?v=nfxyF1_Ylkk",
+            "created_by": "SwGustav",
+            "created_on": "2023-01-15T22:41:04Z"
+        },
+        {
+            "id": 3167,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "One day slip",
+            "info_url": "https://twitter.com/SpaceX/status/1614335113575411714",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-01-14T18:57:03Z"
+        },
+        {
+            "id": 3160,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Updating launch window",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Nosu",
+            "created_on": "2023-01-13T18:55:04Z"
+        },
+        {
+            "id": 3147,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Weather 80%",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20USSF-67%20L-3%20Forecast%20-%2014%20Jan%20Launch.pdf",
+            "created_by": "Nosu",
+            "created_on": "2023-01-11T15:09:44Z"
+        },
+        {
+            "id": 3138,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Targeting NET January 14",
+            "info_url": "https://twitter.com/SpaceX/status/1612879048107261952",
+            "created_by": "Nosu",
+            "created_on": "2023-01-10T18:30:40Z"
+        },
+        {
+            "id": 3119,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "One day slip.",
+            "info_url": "https://www.launchphotography.com/USSF-67",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-01-08T23:55:35Z"
+        },
+        {
+            "id": 3107,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Updating window start",
+            "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+            "created_by": "Nosu",
+            "created_on": "2023-01-06T07:58:43Z"
+        },
+        {
+            "id": 3094,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Setting TBC",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Nosu",
+            "created_on": "2023-01-03T16:44:54Z"
+        },
+        {
+            "id": 2538,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET January 2023",
+            "info_url": "https://spaceflightnow.com/2022/10/05/after-a-three-year-wait-spacexs-falcon-heavy-could-launch-again-later-this-month/",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2022-10-06T02:35:48Z"
+        },
+        {
+            "id": 1467,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "NET November 2022",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Nosu",
+            "created_on": "2022-03-25T22:17:15Z"
+        }
+    ],
+    "net": "2023-01-15T22:56:00Z",
+    "net_precision": null,
+    "window_end": "2023-01-15T23:33:00Z",
+    "window_start": "2023-01-15T22:56:00Z",
+    "probability": 95,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 248,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 111,
+        "consecutive_successful_landings": 117,
+        "successful_landings": 199,
+        "failed_landings": 17,
+        "attempted_landings": 216,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2741,
+        "configuration": {
+            "id": 161,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/161/",
+            "name": "Falcon Heavy",
+            "active": true,
+            "reusable": true,
+            "description": "The Falcon Heavy is a variant of the Falcon 9 full thrust launch vehicle and consists of a standard Falcon 9 rocket core; with two additional boosters derived from the Falcon 9 first stage.",
+            "family": "Falcon",
+            "full_name": "Falcon Heavy",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 248,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 111,
+                "consecutive_successful_landings": 117,
+                "successful_landings": 199,
+                "failed_landings": 17,
+                "attempted_landings": 216,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [],
+            "variant": "Heavy",
+            "alias": "",
+            "min_stage": 3,
+            "max_stage": 3,
+            "length": 70,
+            "diameter": 12.2,
+            "maiden_flight": "2018-02-06",
+            "launch_cost": "90000000",
+            "launch_mass": 1400,
+            "leo_capacity": 63800,
+            "gto_capacity": 26700,
+            "to_thrust": 22819,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
+            "info_url": "http://www.spacex.com/falcon-heavy",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_Heavy",
+            "total_launch_count": 6,
+            "consecutive_successful_launches": 6,
+            "successful_launches": 6,
+            "failed_launches": 0,
+            "pending_launches": 8
+        },
+        "launcher_stage": [
+            {
+                "id": 273,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 109,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/109/",
+                    "details": "Falcon Heavy core booster expended on its first flight as part of the USSF-67 mission.",
+                    "flight_proven": true,
+                    "serial_number": "B1070",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/109_image_20230114190131.jpeg",
+                    "successful_landings": 0,
+                    "attempted_landings": 0,
+                    "flights": 1,
+                    "last_launch_date": "2023-01-15T22:56:00Z",
+                    "first_launch_date": "2023-01-15T22:56:00Z"
+                },
+                "landing": {
+                    "id": 301,
+                    "attempt": false,
+                    "success": null,
+                    "description": "The center core will be expended on this flight.",
+                    "location": {
+                        "id": 6,
+                        "name": "Atlantic Ocean",
+                        "abbrev": "ATL",
+                        "description": "Atlantic Ocean",
+                        "location": null,
+                        "successful_landings": 0
+                    },
+                    "type": {
+                        "id": 3,
+                        "name": "Ocean",
+                        "abbrev": "Ocean",
+                        "description": "No recovery attempt"
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            },
+            {
+                "id": 272,
+                "type": "Strap-On Booster",
+                "reused": true,
+                "launcher_flight_number": 2,
+                "launcher": {
+                    "id": 86,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/86/",
+                    "details": "Landed at LZ-1 as of Nov 1; 2022.",
+                    "flight_proven": true,
+                    "serial_number": "B1065",
+                    "status": "active",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/86_image_20221102112707.jpeg",
+                    "successful_landings": 2,
+                    "attempted_landings": 2,
+                    "flights": 2,
+                    "last_launch_date": "2023-01-15T22:56:00Z",
+                    "first_launch_date": "2022-11-01T13:41:00Z"
+                },
+                "landing": {
+                    "id": 300,
+                    "attempt": true,
+                    "success": true,
+                    "description": "B1065 has successfully landed back at the launch site after this flight.",
+                    "location": {
+                        "id": 4,
+                        "name": "Landing Zone 1",
+                        "abbrev": "LZ-1",
+                        "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13",
+                        "location": {
+                            "id": 12,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                            "name": "Cape Canaveral; FL, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                            "timezone_name": "America/New_York",
+                            "total_launch_count": 887,
+                            "total_landing_count": 34
+                        },
+                        "successful_landings": 27
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": "2022-11-01T13:41:00Z",
+                "turn_around_time_days": 75,
+                "previous_flight": {
+                    "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+                    "name": "Falcon Heavy | USSF-44"
+                }
+            },
+            {
+                "id": 271,
+                "type": "Strap-On Booster",
+                "reused": true,
+                "launcher_flight_number": 2,
+                "launcher": {
+                    "id": 85,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/85/",
+                    "details": "Landed at LZ-1 as of Nov 1; 2022.",
+                    "flight_proven": true,
+                    "serial_number": "B1064",
+                    "status": "active",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/85_image_20221102112709.jpeg",
+                    "successful_landings": 2,
+                    "attempted_landings": 2,
+                    "flights": 2,
+                    "last_launch_date": "2023-01-15T22:56:00Z",
+                    "first_launch_date": "2022-11-01T13:41:00Z"
+                },
+                "landing": {
+                    "id": 299,
+                    "attempt": true,
+                    "success": true,
+                    "description": "B1064 has successfully landed back at the launch site after this flight.",
+                    "location": {
+                        "id": 5,
+                        "name": "Landing Zone 2",
+                        "abbrev": "LZ-2",
+                        "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                        "location": {
+                            "id": 12,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                            "name": "Cape Canaveral; FL, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_12_20200803142519.jpg",
+                            "timezone_name": "America/New_York",
+                            "total_launch_count": 887,
+                            "total_landing_count": 34
+                        },
+                        "successful_landings": 6
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": "2022-11-01T13:41:00Z",
+                "turn_around_time_days": 75,
+                "previous_flight": {
+                    "id": "aa88b853-9e04-4a28-9433-d87799331b1b",
+                    "name": "Falcon Heavy | USSF-44"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 1140,
+        "name": "USSF-67",
+        "description": "USSF-67 is a mission for the United States Space Force with two satellites; including the LDPE-3A rapid prototype platform hosting 5 USSF payloads.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        }
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681;-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 219,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 161,
+        "orbital_launch_attempt_count": 160
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "title": "SpaceX",
+            "description": "SpaceX designs; manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/mission/?missionId=ussf-67"
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 10,
+            "title": "YouTube",
+            "description": "Enjoy the videos and music you love; upload original content, and share it all with friends, family, and the world on YouTube.",
+            "feature_image": null,
+            "url": "https://www.youtube.com/watch?v=nfxyF1_Ylkk"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520heav_image_20230114185830.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6368,
+    "location_launch_attempt_count": 214,
+    "pad_launch_attempt_count": 156,
+    "agency_launch_attempt_count": 216,
+    "orbital_launch_attempt_count_year": 10,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "mission_patches": [
+        {
+            "id": 763,
+            "name": "USSF-67 SpaceX Patch",
+            "priority": 10,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/ussf-672520spa_mission_patch_20230114210551.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ]
+}

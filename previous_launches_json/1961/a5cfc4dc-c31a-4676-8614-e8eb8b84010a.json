@@ -1,0 +1,94 @@
+{
+    "id": "a5cfc4dc-c31a-4676-8614-e8eb8b84010a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a5cfc4dc-c31a-4676-8614-e8eb8b84010a/",
+    "slug": "thor-dm-21-agena-b-kh-5-1",
+    "name": "Thor DM-21 Agena-B | KH-5 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:18:27Z",
+    "net": "1961-02-17T20:25:02Z",
+    "window_end": "1961-02-17T20:25:02Z",
+    "window_start": "1961-02-17T20:25:02Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2366,
+        "configuration": {
+            "id": 186,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/186/",
+            "name": "Thor DM-21 Agena-B",
+            "family": "Thor",
+            "full_name": "Thor DM-21 Agena-B",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1391,
+        "name": "KH-5 1",
+        "description": "KH-5 (Keyhole 5, codenamed Argon) was the area survey component of the Corona program.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 95,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/95/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 1W",
+        "description": "Space Launch Complex 1 West (SLC-1W) was a launch pad at Vandenberg Space Force Base in California, United States. It was built in 1958 for the never activated 75th Strategic Missile Squadron for Thor Agena A launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=34.7572,-120.6303",
+        "latitude": "34.7572",
+        "longitude": "-120.6303",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_95_20200803143209.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/thor2520dm-212520agena-b_image_20190414123658.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 98,
+    "location_launch_attempt_count": 22,
+    "pad_launch_attempt_count": 11,
+    "agency_launch_attempt_count": 40,
+    "orbital_launch_attempt_count_year": 5,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

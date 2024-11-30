@@ -1,0 +1,125 @@
+{
+    "id": "c42fee2c-72de-48bf-93c0-d4777436af3f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c42fee2c-72de-48bf-93c0-d4777436af3f/",
+    "slug": "soyuz-u-soyuz-tm-24",
+    "name": "Soyuz-U | Soyuz TM-24",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:40:40Z",
+    "net": "1996-08-17T13:18:03Z",
+    "window_end": "1996-08-17T13:18:03Z",
+    "window_start": "1996-08-17T13:18:03Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 405,
+        "configuration": {
+            "id": 37,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/37/",
+            "name": "Soyuz U",
+            "family": "Soyuz",
+            "full_name": "Soyuz U",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 365,
+        "name": "Soyuz TM-24",
+        "description": "Soyuz TM-24 was the 27th mission and the 22nd long-duration expedition to Mir space station. It was also a part of the US/Russian Shuttle-Mir Program.\nThe mission began on 17 August 1996, 13:18:03 UTC, launching Commander Valery Korzun, Flight Engineer Aleksandr Kaleri and Research Cosmonaut Claudie Andr\u00c3\u00a9-Deshays into orbit. They docked with Mir two days later. During their stay there, cosmonauts performed several EVAs and various scientific experiments. Station crew was visited by several Progress resupply spacecrafts, STS-79 and STS-81, and welcomed aboard Soyuz TM-25 with the next expedition crew. \nThe mission concluded with a safe landing back on Earth on  March 2, 1997, 06:44:16 UTC.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz2520u_image_20190222031023.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 4092,
+    "location_launch_attempt_count": 1078,
+    "pad_launch_attempt_count": 339,
+    "agency_launch_attempt_count": 62,
+    "orbital_launch_attempt_count_year": 51,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

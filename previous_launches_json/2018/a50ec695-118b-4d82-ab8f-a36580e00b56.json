@@ -1,0 +1,94 @@
+{
+    "id": "a50ec695-118b-4d82-ab8f-a36580e00b56",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a50ec695-118b-4d82-ab8f-a36580e00b56/",
+    "slug": "long-march-2d-saudisat-5a-5b",
+    "name": "Long March 2D | SaudiSat 5A & 5B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T15:48:07Z",
+    "net": "2018-12-07T04:12:05Z",
+    "window_end": "2018-12-07T04:25:00Z",
+    "window_start": "2018-12-07T04:04:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2162,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 23,
+        "name": "SaudiSat 5A & 5B",
+        "description": "SaudiSat 5A and 5B are Earth observation satellites developed by KACST (King Abdulaziz City for Science & Technology). They share the launch with several microsatellites for private Chinese companies.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5810,
+    "location_launch_attempt_count": 111,
+    "pad_launch_attempt_count": 61,
+    "agency_launch_attempt_count": 240,
+    "orbital_launch_attempt_count_year": 104,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 10,
+    "agency_launch_attempt_count_year": 33,
+    "type": "normal"
+}

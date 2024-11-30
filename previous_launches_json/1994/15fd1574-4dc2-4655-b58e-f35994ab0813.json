@@ -1,0 +1,94 @@
+{
+    "id": "15fd1574-4dc2-4655-b58e-f35994ab0813",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/15fd1574-4dc2-4655-b58e-f35994ab0813/",
+    "slug": "titan-401a-centaur-mercury-14",
+    "name": "Titan 401A Centaur | Mercury 14",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:40Z",
+    "net": "1994-08-27T08:58:01Z",
+    "window_end": "1994-08-27T08:58:01Z",
+    "window_start": "1994-08-27T08:58:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6609,
+        "configuration": {
+            "id": 427,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/427/",
+            "name": "Titan 401A Centaur",
+            "family": "Titan",
+            "full_name": "Titan 401A Centaur",
+            "variant": "401A Centaur"
+        }
+    },
+    "mission": {
+        "id": 4999,
+        "name": "Mercury 14",
+        "description": "The Mercury (MC) series, although known to the public as 'Advanced Vortex', are the latest generation of USAF ELINT/SIGINT satellites. They were focussed on communications intelligence (COMINT), focused at strategic level communications, but had the capability added to intercept also missile telemetry. These satellites were launched under the designation Program 7500 and were part of NRO's Program A.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3925,
+    "location_launch_attempt_count": 486,
+    "pad_launch_attempt_count": 22,
+    "agency_launch_attempt_count": 942,
+    "orbital_launch_attempt_count_year": 57,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

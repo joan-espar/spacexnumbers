@@ -1,0 +1,94 @@
+{
+    "id": "d44eba0e-a463-408c-bd6d-111a5be15d09",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d44eba0e-a463-408c-bd6d-111a5be15d09/",
+    "slug": "delta-ii-mars-odyssey",
+    "name": "Delta II | Mars Odyssey",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:17Z",
+    "net": "2001-04-07T15:02:22Z",
+    "window_end": "2001-04-07T15:02:22Z",
+    "window_start": "2001-04-07T15:02:22Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7038,
+        "configuration": {
+            "id": 140,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/140/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925-9.5",
+            "variant": "7925-9.5"
+        }
+    },
+    "mission": {
+        "id": 5427,
+        "name": "Mars Odyssey",
+        "description": "2001 Mars Odyssey is a robotic spacecraft orbiting the planet Mars. The project was developed by NASA, and contracted out to Lockheed Martin, with an expected cost for the entire mission of US$297 million. Its mission is to use spectrometers and a thermal imager to detect evidence of past or present water and ice, as well as study the planet's geology and radiation environment.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_ii_7925-9_image_20240312090356.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4466,
+    "location_launch_attempt_count": 589,
+    "pad_launch_attempt_count": 129,
+    "agency_launch_attempt_count": 1032,
+    "orbital_launch_attempt_count_year": 14,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "7cea85fa-b373-4896-83ae-2629f4030806",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7cea85fa-b373-4896-83ae-2629f4030806/",
+    "slug": "falcon-9-full-thrust-orbcomm-og2-mission-2",
+    "name": "Falcon 9 Full Thrust | Orbcomm OG2 Mission 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:44Z",
+    "net": "2015-12-22T01:29:00Z",
+    "window_end": "2015-12-22T01:34:00Z",
+    "window_start": "2015-12-22T01:29:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1897,
+        "configuration": {
+            "id": 55,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/55/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Full Thrust",
+            "variant": "Full Thrust"
+        }
+    },
+    "mission": {
+        "id": 97,
+        "name": "Orbcomm OG2 Mission 2",
+        "description": "11 next generation Orbcomm-2 F satellites will be launched into Low Earth Orbit to enhance Orbcomm\u00e2\u20ac\u2122s existing M2M network. The satellites will feature larger message and better performance, as well as providing better global coverage. Each of the new second generation satellites will be equivalent to 6 first generation craft.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5527,
+    "location_launch_attempt_count": 736,
+    "pad_launch_attempt_count": 74,
+    "agency_launch_attempt_count": 25,
+    "orbital_launch_attempt_count_year": 85,
+    "location_launch_attempt_count_year": 17,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

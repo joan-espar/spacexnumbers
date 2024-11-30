@@ -1,0 +1,94 @@
+{
+    "id": "e20cf1e8-1676-4725-868b-73c68598af23",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e20cf1e8-1676-4725-868b-73c68598af23/",
+    "slug": "zenit-2-tselina-2-16",
+    "name": "Zenit-2 | Tselina-2 16",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:30:59Z",
+    "net": "1994-11-24T09:15:59Z",
+    "window_end": "1994-11-24T09:15:59Z",
+    "window_start": "1994-11-24T09:15:59Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6627,
+        "configuration": {
+            "id": 455,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/455/",
+            "name": "Zenit-2",
+            "family": "Zenith",
+            "full_name": "Zenit-2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 5017,
+        "name": "Tselina-2 16",
+        "description": "Second generation ELING satellite",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 2,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/2/",
+        "agency_id": null,
+        "name": "45/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.943492,63.653014",
+        "latitude": "45.943492",
+        "longitude": "63.653014",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_2_20200803143256.jpg",
+        "total_launch_count": 46,
+        "orbital_launch_attempt_count": 46
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3948,
+    "location_launch_attempt_count": 1045,
+    "pad_launch_attempt_count": 23,
+    "agency_launch_attempt_count": 45,
+    "orbital_launch_attempt_count_year": 80,
+    "location_launch_attempt_count_year": 26,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 15,
+    "type": "normal"
+}

@@ -1,0 +1,85 @@
+{
+    "id": "c9b79d9a-6199-4344-a40f-2508615cefa5",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c9b79d9a-6199-4344-a40f-2508615cefa5/",
+    "slug": "long-march-3b-palapa-d",
+    "name": "Long March 3B | Palapa-D",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2024-06-13T18:00:24Z",
+    "net": "2009-08-31T09:28:00Z",
+    "window_end": "2009-08-31T09:28:00Z",
+    "window_start": "2009-08-31T09:28:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "The satellite was deployed into the wrong orbit.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1425,
+        "configuration": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/19/",
+            "name": "Long March 3",
+            "family": "Long March",
+            "full_name": "Long March 3B",
+            "variant": "3B"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5003,
+    "location_launch_attempt_count": 53,
+    "pad_launch_attempt_count": 33,
+    "agency_launch_attempt_count": 64,
+    "orbital_launch_attempt_count_year": 5003,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "8226d219-b612-4797-a9d2-c5ca7ab0b076",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8226d219-b612-4797-a9d2-c5ca7ab0b076/",
+    "slug": "falcon-9-block-5-swot-surface-water-and-ocean-topo",
+    "name": "Falcon 9 Block 5 | SWOT (Surface Water and Ocean Topography)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:58:16Z",
+    "net": "2022-12-16T11:46:47Z",
+    "window_end": "2022-12-16T11:56:47Z",
+    "window_start": "2022-12-16T11:46:47Z",
+    "net_precision": null,
+    "probability": 100,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 177,
+        "configuration": {
+            "id": 164,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Block 5",
+            "variant": "Block 5"
+        }
+    },
+    "mission": {
+        "id": 6160,
+        "name": "SWOT (Surface Water and Ocean Topography)",
+        "description": "Satellite altimeter jointly developed by NASA and CNES, the French space agency, in partnership with the Canadian Space Agency (CSA) and UK Space Agency (UKSA) designed to make the first global survey of the Earth's surface water, to observe the fine details of the ocean surface topography, and to measure how terrestrial surface water bodies change over time.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 168,
+        "orbital_launch_attempt_count": 168
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221215075439.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6361,
+    "location_launch_attempt_count": 708,
+    "pad_launch_attempt_count": 99,
+    "agency_launch_attempt_count": 209,
+    "orbital_launch_attempt_count_year": 179,
+    "location_launch_attempt_count_year": 15,
+    "pad_launch_attempt_count_year": 12,
+    "agency_launch_attempt_count_year": 57,
+    "type": "normal"
+}

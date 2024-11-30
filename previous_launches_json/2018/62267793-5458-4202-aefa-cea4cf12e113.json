@@ -1,0 +1,125 @@
+{
+    "id": "62267793-5458-4202-aefa-cea4cf12e113",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/62267793-5458-4202-aefa-cea4cf12e113/",
+    "slug": "soyuz-fg-soyuz-ms-10",
+    "name": "Soyuz-FG | Soyuz MS-10",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T08:42:12Z",
+    "net": "2018-10-11T08:40:15Z",
+    "window_end": "2018-10-11T08:40:15Z",
+    "window_start": "2018-10-11T08:40:15Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "An anomaly occurred during flight resulting in loss of vehicle, both crew members returned to Earth safely following a nominal ballistic abort.",
+    "hashtag": "#SoyuzMS10",
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 12,
+        "configuration": {
+            "id": 34,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/34/",
+            "name": "Soyuz",
+            "family": "",
+            "full_name": "Soyuz FG",
+            "variant": "FG"
+        }
+    },
+    "mission": {
+        "id": 667,
+        "name": "Soyuz MS-10",
+        "description": "Soyuz MS-10 was expected to begin expedition 57 by carrying Roscosmos cosmonaut Alexey Ovchinin and NASA astronaut Nick Hague to the International Space Station. However a launch failure occurred resulting in a loss of vehicle during flight, both crew members returned to Earth nominally.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_image_20190717035537.jpg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/8/",
+            "name": "Soyuz",
+            "description": "The Soyuz programme is a human spaceflight programme initiated by the Soviet Union in the early 1960s. The Soyuz spacecraft was originally part of a Moon landing project intended to put a Soviet cosmonaut on the Moon. It was the third Soviet human spaceflight programme after the Vostok and Voskhod programmes.",
+            "agencies": [
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                },
+                {
+                    "id": 66,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+                    "name": "Soviet Space Program",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_program_20201129185543.png",
+            "start_date": "1966-11-28T11:02:00Z",
+            "end_date": null,
+            "info_url": null,
+            "wiki_url": "https://en.wikipedia.org/wiki/Soyuz_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5784,
+    "location_launch_attempt_count": 1492,
+    "pad_launch_attempt_count": 482,
+    "agency_launch_attempt_count": 276,
+    "orbital_launch_attempt_count_year": 78,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

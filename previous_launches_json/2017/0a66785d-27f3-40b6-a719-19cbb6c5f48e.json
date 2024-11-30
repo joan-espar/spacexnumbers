@@ -1,0 +1,94 @@
+{
+    "id": "0a66785d-27f3-40b6-a719-19cbb6c5f48e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0a66785d-27f3-40b6-a719-19cbb6c5f48e/",
+    "slug": "ariane-5-eca-sgdc-1-koreasat-7",
+    "name": "Ariane 5 ECA | SGDC 1 & Koreasat 7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:00:49Z",
+    "net": "2017-05-04T21:50:00Z",
+    "window_end": "2017-05-04T23:19:00Z",
+    "window_start": "2017-05-04T20:31:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1228,
+        "configuration": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/20/",
+            "name": "Ariane 5 ECA",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA",
+            "variant": "ECA"
+        }
+    },
+    "mission": {
+        "id": 381,
+        "name": "SGDC 1 & Koreasat 7",
+        "description": "Both SGDC 1 and Koreasat 7 are geostationary telecommunications satellites. SGDC 1 is a 5800 kg satellite for Brazil, equipped with 50 Ka-band and 7 X-band transponders, and intended for both civil and military use. Koreasat 7 is to provide internet access, multimedia, broadcasting and fixed communications services to South Korea, Philippines, Indonesia and India. Satellite weighs around 3500 kg, and its operational lifetime is 15 years.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5639,
+    "location_launch_attempt_count": 270,
+    "pad_launch_attempt_count": 93,
+    "agency_launch_attempt_count": 255,
+    "orbital_launch_attempt_count_year": 24,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

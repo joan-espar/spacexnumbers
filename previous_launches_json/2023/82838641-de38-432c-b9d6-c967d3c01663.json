@@ -1,0 +1,99 @@
+{
+    "id": "82838641-de38-432c-b9d6-c967d3c01663",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/82838641-de38-432c-b9d6-c967d3c01663/",
+    "slug": "long-march-4b-fengyun-3g",
+    "name": "Long March 4B | Fengyun-3G",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:29:35Z",
+    "net": "2023-04-16T01:36:30Z",
+    "window_end": "2023-04-16T01:51:00Z",
+    "window_start": "2023-04-16T01:28:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7791,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 6345,
+        "name": "Fengyun-3G",
+        "description": "Fengyun-3G is a dedicated Low Earth Orbit precipitation measurement satellite, previously named FY-3RM-1, of the FY-3 series of Chinese Low Earth Orbit weather satellites.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20231227135144.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6428,
+    "location_launch_attempt_count": 192,
+    "pad_launch_attempt_count": 101,
+    "agency_launch_attempt_count": 418,
+    "orbital_launch_attempt_count_year": 60,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 13,
+    "type": "normal"
+}

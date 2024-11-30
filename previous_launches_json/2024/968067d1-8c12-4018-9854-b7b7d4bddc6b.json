@@ -1,0 +1,243 @@
+{
+    "id": "968067d1-8c12-4018-9854-b7b7d4bddc6b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/968067d1-8c12-4018-9854-b7b7d4bddc6b/",
+    "slug": "atlas-v-n22-cst-100-starliner-crewed-flight-test",
+    "name": "Atlas V N22 | CST-100 Starliner Crewed Flight Test",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-21T06:18:41Z",
+    "net": "2024-06-05T14:52:15Z",
+    "window_end": "2024-06-05T14:52:15Z",
+    "window_start": "2024-06-05T14:52:15Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": 90,
+    "weather_concerns": "Cumulus Cloud Rule",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 103,
+        "configuration": {
+            "id": 166,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/166/",
+            "name": "Atlas V N22",
+            "family": "Atlas",
+            "full_name": "Atlas V N22",
+            "variant": "V N22"
+        }
+    },
+    "mission": {
+        "id": 1052,
+        "name": "CST-100 Starliner Crewed Flight Test",
+        "description": "This is the first crewed test flight of Starliner spacecraft. It will carry NASA astronauts Barry Wilmore and\r\nSuni Williams to the International Space Station.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 80,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                "name": "Boeing",
+                "featured": false,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "BA",
+                "description": "Boeing as a space agency has recently provided NASA with assistance on sending humans to the ISS from American with both their construction of the CST-100 Starliner crew capsule and their work on the SLS Avionics to return to the moon and beyond. Their ventures in GPS satellite systems and Tracking and Data Relay Satellites provide information about earth-orbiting craft to stations on the ground. They also enable research on the ISS and will be helping with the construction of the Lunar Gateway.",
+                "administrator": "CEO: Kelly Ortberg",
+                "founding_year": "1916",
+                "launchers": "SLS",
+                "spacecraft": "Starliner",
+                "launch_library_url": null,
+                "total_launch_count": 2,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 1,
+                "failed_launches": 1,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.boeing.com",
+                "wiki_url": "http://en.wikipedia.org/wiki/Boeing",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_logo_20201128183345.png",
+                "image_url": null,
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/boeing_nation_20230804083022.jpg"
+            },
+            {
+                "id": 44,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "launch_library_url": null,
+                "total_launch_count": 141,
+                "consecutive_successful_launches": 11,
+                "successful_launches": 121,
+                "failed_launches": 20,
+                "pending_launches": 6,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.nasa.gov",
+                "wiki_url": "http://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_n22_lif_image_20240621061835.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
+            "name": "International Space Station",
+            "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+            "agencies": [
+                {
+                    "id": 16,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+                    "name": "Canadian Space Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 27,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+                    "name": "European Space Agency",
+                    "type": "Multinational"
+                },
+                {
+                    "id": 37,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+                    "name": "Japan Aerospace Exploration Agency",
+                    "type": "Government"
+                },
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 63,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                    "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+            "start_date": "1998-11-20T06:40:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        },
+        {
+            "id": 5,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+            "name": "Commercial Crew Program",
+            "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+            "agencies": [
+                {
+                    "id": 80,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                    "name": "Boeing",
+                    "type": "Commercial"
+                },
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                },
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+            "start_date": "2011-04-18T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 6701,
+    "location_launch_attempt_count": 958,
+    "pad_launch_attempt_count": 112,
+    "agency_launch_attempt_count": 162,
+    "orbital_launch_attempt_count_year": 112,
+    "location_launch_attempt_count_year": 31,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

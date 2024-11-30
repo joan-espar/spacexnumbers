@@ -1,0 +1,94 @@
+{
+    "id": "a03444e3-c1b7-426a-b48f-4a18c60c5f28",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a03444e3-c1b7-426a-b48f-4a18c60c5f28/",
+    "slug": "ariane-5-eca-galaxy-30-mev-2-bsat-4b",
+    "name": "Ariane 5 ECA+ | Galaxy 30, MEV-2 & BSAT-4B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:21Z",
+    "net": "2020-08-15T22:04:00Z",
+    "window_end": "2020-08-15T22:20:00Z",
+    "window_start": "2020-08-15T21:33:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2734,
+        "configuration": {
+            "id": 215,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/215/",
+            "name": "Ariane 5 ECA+",
+            "family": "Ariane",
+            "full_name": "Ariane 5 ECA+",
+            "variant": "ECA+"
+        }
+    },
+    "mission": {
+        "id": 1133,
+        "name": "Galaxy 30, MEV-2 & BSAT-4B",
+        "description": "Galaxy-30 is a geostationary communications satellite for Intelsat. Satellite is built by Northrop Grumman Innovation Systems (NGIS) and is planned to provide video distribution and broadcast services to customers in North America. \r\nGalaxy 30 satellite is launched in tandem with MEV-2 vehicle. MEV-2, which stands for Mission Extension Vehicle-2, is the second servicing mission by NGIS. MEV-2 will rendezvous and dock with the Intelsat 1002 satellite in early 2021. Then, MEV-2 will use its own thrusters and fuel supply to control the satellite\u2019s orbit, thereby extending its useful lifetime. \r\nAnother passenger of the flight is the BSAT-4b satellite for the Japanese operator BSAT. BSAT-4b will serve as a back-up for BSAT-4a satellite, launched in 2017. BSAT-4b will provide Direct-to-Home television services and is expected to operate for at least 15 years.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520eca_image_20190224012333.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/ariane2520525_infographic_20200803120232.png",
+    "program": [],
+    "orbital_launch_attempt_count": 5984,
+    "location_launch_attempt_count": 300,
+    "pad_launch_attempt_count": 110,
+    "agency_launch_attempt_count": 287,
+    "orbital_launch_attempt_count_year": 62,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

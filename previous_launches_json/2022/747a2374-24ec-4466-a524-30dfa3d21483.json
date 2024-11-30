@@ -1,0 +1,94 @@
+{
+    "id": "747a2374-24ec-4466-a524-30dfa3d21483",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/747a2374-24ec-4466-a524-30dfa3d21483/",
+    "slug": "kuaizhou-11-xingyun-vdes",
+    "name": "Kuaizhou 11 | Xingyun VDES",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-05-20T15:58:44Z",
+    "net": "2022-12-07T01:15:00Z",
+    "window_end": "2022-12-07T01:36:00Z",
+    "window_start": "2022-12-07T01:04:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 194,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/194/",
+        "name": "ExPace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7725,
+        "configuration": {
+            "id": 194,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/194/",
+            "name": "Kuaizhou-11",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-11",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6244,
+        "name": "Xingyun VDES",
+        "description": "Test satellite for CASIC's own Xingyun Low Earth Orbit communication satellite constellation, with a VHF Data Exchange System payload for maritime traffic operation uses.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_20240520155835.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6351,
+    "location_launch_attempt_count": 180,
+    "pad_launch_attempt_count": 35,
+    "agency_launch_attempt_count": 17,
+    "orbital_launch_attempt_count_year": 169,
+    "location_launch_attempt_count_year": 23,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

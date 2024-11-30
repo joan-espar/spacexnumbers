@@ -1,0 +1,94 @@
+{
+    "id": "263e799b-e3a2-437b-9cb5-96d178645f61",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/263e799b-e3a2-437b-9cb5-96d178645f61/",
+    "slug": "pegasus-xl-ionospheric-connection-explorer-icon",
+    "name": "Pegasus XL | Ionospheric Connection Explorer (ICON)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:09:27Z",
+    "net": "2019-10-11T02:00:30Z",
+    "window_end": "2019-10-11T02:55:00Z",
+    "window_start": "2019-10-11T01:30:00Z",
+    "net_precision": null,
+    "probability": 70,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": "#NASAICON",
+    "launch_service_provider": {
+        "id": 257,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+        "name": "Northrop Grumman Space Systems",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 10,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 696,
+        "name": "Ionospheric Connection Explorer (ICON)",
+        "description": "Ionospheric Connection Explorer (ICON) is a NASA mission to study Earth's thermosphere and ionosphere and the connection between space weather and weather on our planet. Mission is planned to last for two years.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 84,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/84/",
+        "agency_id": null,
+        "name": "Cape Canaveral",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral",
+        "map_url": "https://www.google.com/maps?q=28.455556,-80.527778",
+        "latitude": "28.455556",
+        "longitude": "-80.527778",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_84_20200803143436.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/pegasus2520xl_infographic_20200806035709.png",
+    "program": [],
+    "orbital_launch_attempt_count": 5893,
+    "location_launch_attempt_count": 44,
+    "pad_launch_attempt_count": 7,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 73,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

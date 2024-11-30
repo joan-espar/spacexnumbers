@@ -1,0 +1,80 @@
+{
+    "id": "bec69034-c41e-48da-90d5-1f00bdc64318",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bec69034-c41e-48da-90d5-1f00bdc64318/",
+    "slug": "delta-iv-m52-nrol-25-fia-r-usa-234",
+    "name": "Delta IV M+(5,2) | NROL-25 (FIA-R) (USA-234)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:25:29Z",
+    "net": "2012-04-03T23:12:57Z",
+    "window_end": "2012-04-03T23:12:57Z",
+    "window_start": "2012-04-03T23:12:57Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1597,
+        "configuration": {
+            "id": 35,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/35/",
+            "name": "Delta IV M+(5,2)",
+            "family": "Delta",
+            "full_name": "Delta IV M+(5,2)",
+            "variant": "M+(5,2)"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 11,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/11/",
+        "agency_id": null,
+        "name": "Space Launch Complex 6",
+        "description": "Space Launch Complex 6 at Vandenberg Space Force Base in California is a launch pad and support area. The site was originally developed starting in 1966, but no launches occurred until 1995, as it was repurposed sequentially for three programs that were subsequently cancelled. Initially to be used for Titan IIIM rockets and the Manned Orbiting Laboratory, these were cancelled before construction of SLC-6 was complete. The complex was later rebuilt to serve as the west coast launch site for the Space Shuttle, but went unused due to budget, safety and political considerations. The pad was subsequently used for four Athena rocket launches before being modified to support the Delta IV launch vehicle family, which used the pad for ten launches from 2006 until 2022. The last Delta IV launched in September 2022, and SpaceX leased SLC-6 in 2023 to convert it to launch Falcon 9 and Falcon Heavy starting in 2025.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_6",
+        "map_url": "https://www.google.com/maps?q=34.5815,-120.6262",
+        "latitude": "34.5815",
+        "longitude": "-120.6262",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_11_20200803143550.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_iv_m252b_image_20240308073355.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5204,
+    "location_launch_attempt_count": 651,
+    "pad_launch_attempt_count": 8,
+    "agency_launch_attempt_count": 60,
+    "orbital_launch_attempt_count_year": 5204,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

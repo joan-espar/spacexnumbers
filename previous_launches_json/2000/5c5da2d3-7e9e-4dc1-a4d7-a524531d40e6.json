@@ -1,0 +1,94 @@
+{
+    "id": "5c5da2d3-7e9e-4dc1-a4d7-a524531d40e6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/5c5da2d3-7e9e-4dc1-a4d7-a524531d40e6/",
+    "slug": "tsiklon-3-strela-3-125-to-127-gonets-7-to-9",
+    "name": "Tsiklon-3 | Strela-3 125 to 127 & Gonets 7 to 9",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:22:45Z",
+    "net": "2000-12-27T09:56:31Z",
+    "window_end": "2000-12-27T09:56:31Z",
+    "window_start": "2000-12-27T09:56:31Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 270,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/270/",
+        "name": "Strategic Rocket Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7030,
+        "configuration": {
+            "id": 445,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/445/",
+            "name": "Tsiklon-3",
+            "family": "Tsiklon",
+            "full_name": "Tsiklon-3",
+            "variant": "3"
+        }
+    },
+    "mission": {
+        "id": 5419,
+        "name": "Strela-3 125 to 127 & Gonets 7 to 9",
+        "description": "Gonets- satellite were the civilian derivate of the military Strela-3 satellite system. The Gonets system was offered to support international health organizations to meet their global communications needs for the transfer of medical data and records to remote sites. Strela-3 was second generation of strategic store-dump military communications satellite. Development of this generation to replace the first generation Strela-1M and Strela-2M satellites began in 1973.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 126,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/126/",
+        "agency_id": 63,
+        "name": "32/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome_Site_32",
+        "map_url": "https://www.google.com/maps?q=62.9063889,40.7844727",
+        "latitude": "62.9063889",
+        "longitude": "40.7844727",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_126_20200803143238.jpg",
+        "total_launch_count": 57,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4452,
+    "location_launch_attempt_count": 1511,
+    "pad_launch_attempt_count": 56,
+    "agency_launch_attempt_count": 14,
+    "orbital_launch_attempt_count_year": 85,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

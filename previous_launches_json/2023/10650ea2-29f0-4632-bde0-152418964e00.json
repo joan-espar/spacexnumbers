@@ -1,0 +1,99 @@
+{
+    "id": "10650ea2-29f0-4632-bde0-152418964e00",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/10650ea2-29f0-4632-bde0-152418964e00/",
+    "slug": "soyuz-21b-kosmos-2570-lotos-s1-8",
+    "name": "Soyuz 2.1b | Kosmos 2570 (Lotos-S1 #8)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:01:41Z",
+    "net": "2023-10-27T06:04:43Z",
+    "window_end": "2023-10-27T08:00:00Z",
+    "window_start": "2023-10-27T04:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8055,
+        "configuration": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
+            "name": "Soyuz 2.1b",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6603,
+        "name": "Kosmos 2570 (Lotos-S1 #8)",
+        "description": "Note: Payload identity uncertain. Multiple other military payloads that are not identified may be on board.\r\n\r\nLotos-S1 spacecraft is a part of the Liana constellation, designed for orbital electronic intelligence.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 36,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/36/",
+        "agency_id": 163,
+        "name": "43/3 (43L)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.9273,40.45",
+        "latitude": "62.9273",
+        "longitude": "40.45",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_36_20200803143534.jpg",
+        "total_launch_count": 229,
+        "orbital_launch_attempt_count": 229
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1b_image_20231029095145.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6542,
+    "location_launch_attempt_count": 1663,
+    "pad_launch_attempt_count": 229,
+    "agency_launch_attempt_count": 134,
+    "orbital_launch_attempt_count_year": 174,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

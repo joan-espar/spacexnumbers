@@ -1,0 +1,80 @@
+{
+    "id": "17b411a8-a3d6-46f3-8596-28caccac62bc",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/17b411a8-a3d6-46f3-8596-28caccac62bc/",
+    "slug": "minotaur-iv-tacsat-4",
+    "name": "Minotaur IV+ | TacSat-4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:51Z",
+    "net": "2011-09-27T15:49:00Z",
+    "window_end": "2011-09-27T15:49:00Z",
+    "window_start": "2011-09-27T15:49:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1555,
+        "configuration": {
+            "id": 85,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/85/",
+            "name": "Minotaur IV",
+            "family": "Minotaur",
+            "full_name": "Minotaur IV+",
+            "variant": "+"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 57,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/57/",
+        "agency_id": null,
+        "name": "Launch Pad 1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Pacific_Spaceport_Complex_%E2%80%93_Alaska",
+        "map_url": "https://www.google.com/maps?q=57.435833,-152.337778",
+        "latitude": "57.435833",
+        "longitude": "-152.337778",
+        "location": {
+            "id": 25,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/25/",
+            "name": "Pacific Spaceport Complex, Alaska, USA",
+            "country_code": "USA",
+            "description": "The Pacific Spaceport Complex \u2013 Alaska (PSCA), formerly known as the Kodiak Launch Complex (KLC), is a dual-use commercial and military spaceport for sub-orbital and orbital launch vehicles. The facility is owned and operated by the Alaska Aerospace Corporation, a corporation owned by the Government of Alaska, and is located on Kodiak Island in Alaska.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_25_20200803142500.jpg",
+            "timezone_name": "America/Anchorage",
+            "total_launch_count": 9,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_57_20200803143509.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/minotaur2520iv_image_20190222030607.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5161,
+    "location_launch_attempt_count": 3,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 63,
+    "orbital_launch_attempt_count_year": 5161,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

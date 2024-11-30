@@ -1,0 +1,99 @@
+{
+    "id": "6f67b2bf-6d5b-4911-9bf9-2c76e5aada22",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/6f67b2bf-6d5b-4911-9bf9-2c76e5aada22/",
+    "slug": "delta-ii-7920h-10c-glast",
+    "name": "Delta II 7920H-10C | GLAST",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T14:40:59Z",
+    "net": "2008-06-11T16:05:01Z",
+    "window_end": "2008-06-11T16:05:01Z",
+    "window_start": "2008-06-11T16:05:01Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1396,
+        "configuration": {
+            "id": 154,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/154/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7920H-10C",
+            "variant": "7920H-10C"
+        }
+    },
+    "mission": {
+        "id": 534,
+        "name": "GLAST",
+        "description": "A joint mission between NASA, USA Department of Energy and government agencies of France, Germany, Italy, Japan and Sweden. Its mission to suvery astrophysical and cosmological phenomena, also has instruments to study Gamma-ray bursts.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030414.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4914,
+    "location_launch_attempt_count": 657,
+    "pad_launch_attempt_count": 129,
+    "agency_launch_attempt_count": 19,
+    "orbital_launch_attempt_count_year": 29,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

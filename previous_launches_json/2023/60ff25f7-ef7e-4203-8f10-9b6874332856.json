@@ -1,0 +1,99 @@
+{
+    "id": "60ff25f7-ef7e-4203-8f10-9b6874332856",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/60ff25f7-ef7e-4203-8f10-9b6874332856/",
+    "slug": "long-march-2d-yaogan-39-group-03",
+    "name": "Long March 2D | Yaogan 39 Group 03",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T17:40:38Z",
+    "net": "2023-10-05T00:24:00Z",
+    "window_end": "2023-10-05T00:34:00Z",
+    "window_start": "2023-10-05T00:14:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8042,
+        "configuration": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+            "name": "Long March 2D",
+            "family": "Long March",
+            "full_name": "Long March 2D",
+            "variant": "2D"
+        }
+    },
+    "mission": {
+        "id": 6589,
+        "name": "Yaogan 39 Group 03",
+        "description": "Chinese reconnaissance satellites.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 95,
+        "orbital_launch_attempt_count": 95
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20231005054230.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6529,
+    "location_launch_attempt_count": 193,
+    "pad_launch_attempt_count": 83,
+    "agency_launch_attempt_count": 437,
+    "orbital_launch_attempt_count_year": 161,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 32,
+    "type": "normal"
+}

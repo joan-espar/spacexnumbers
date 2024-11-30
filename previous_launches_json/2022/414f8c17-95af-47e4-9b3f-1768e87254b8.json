@@ -1,0 +1,94 @@
+{
+    "id": "414f8c17-95af-47e4-9b3f-1768e87254b8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/414f8c17-95af-47e4-9b3f-1768e87254b8/",
+    "slug": "smart-dragon-3-maiden-flight",
+    "name": "Smart Dragon 3 | Maiden Flight",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-09-22T15:26:25Z",
+    "net": "2022-12-09T06:35:00Z",
+    "window_end": "2022-12-09T07:38:00Z",
+    "window_start": "2022-12-09T06:25:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 272,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/272/",
+        "name": "China Rocket Co. Ltd.",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7726,
+        "configuration": {
+            "id": 484,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/484/",
+            "name": "Smart Dragon 3",
+            "family": "Smart Dragon",
+            "full_name": "Smart Dragon 3",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6243,
+        "name": "Maiden Flight",
+        "description": "First flight of the new solid fuel powered rocket developed by CAST.\r\n\r\nPayload consists of 14 satellites:\r\n\r\n* Jilin-1 HR-03D 44-50\r\n* Jilin-1 PT-01A 01\r\n* Tianqi-7\r\n* HEAD-2H\r\n* CAS-5A\r\n* Golden Bauhinia 1-05 & 06\r\n* Huoju-1",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 186,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/186/",
+        "agency_id": 88,
+        "name": "Tai Rui mobile launch platform",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=34.899444,121.190278",
+        "latitude": "34.899444",
+        "longitude": "121.190278",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_long_march_11_launch_platform_20200901183938.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6354,
+    "location_launch_attempt_count": 44,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 172,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

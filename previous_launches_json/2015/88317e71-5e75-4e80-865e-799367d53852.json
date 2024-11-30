@@ -1,0 +1,85 @@
+{
+    "id": "88317e71-5e75-4e80-865e-799367d53852",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/88317e71-5e75-4e80-865e-799367d53852/",
+    "slug": "atlas-v-421-mexsat-2-morelos-iii",
+    "name": "Atlas V 421 | Mexsat-2 (Morelos III)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:31:07Z",
+    "net": "2015-10-02T10:28:30Z",
+    "window_end": "2015-10-02T10:28:30Z",
+    "window_start": "2015-10-02T10:28:30Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1873,
+        "configuration": {
+            "id": 28,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/28/",
+            "name": "Atlas V 421",
+            "family": "Atlas",
+            "full_name": "Atlas V 421",
+            "variant": "421"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 114,
+        "orbital_launch_attempt_count": 114
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_421_image_20210519053741.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5501,
+    "location_launch_attempt_count": 733,
+    "pad_launch_attempt_count": 74,
+    "agency_launch_attempt_count": 101,
+    "orbital_launch_attempt_count_year": 5501,
+    "location_launch_attempt_count_year": 14,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

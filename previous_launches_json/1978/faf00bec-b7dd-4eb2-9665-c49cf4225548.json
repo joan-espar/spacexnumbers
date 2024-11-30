@@ -1,0 +1,94 @@
+{
+    "id": "faf00bec-b7dd-4eb2-9665-c49cf4225548",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/faf00bec-b7dd-4eb2-9665-c49cf4225548/",
+    "slug": "scout-d-1-hcmm",
+    "name": "Scout D-1 | HCMM",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:25:51Z",
+    "net": "1978-04-26T10:20:00Z",
+    "window_end": "1978-04-26T10:20:00Z",
+    "window_start": "1978-04-26T10:20:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4953,
+        "configuration": {
+            "id": 360,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/360/",
+            "name": "Scout D-1",
+            "family": "Scout",
+            "full_name": "Scout D-1",
+            "variant": "D-1"
+        }
+    },
+    "mission": {
+        "id": 3369,
+        "name": "HCMM",
+        "description": "Earth surface research satellite",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 154,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/154/",
+        "agency_id": null,
+        "name": "Space Launch Complex 5",
+        "description": "Space Launch Complex 5 (SLC-5) was a launch pad at Vandenberg Space Force Base in California, United States. It was previously part of the Point Arguello Naval Air Station, during which time it was designated Launch Complex D or LC-D. Constructed in 1961, it was used by 69 Scout launch vehicles between 1962 and 1994.",
+        "info_url": "http://www.astronautix.com/v/vandenbergslc5.html",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Air_Force_Base_Space_Launch_Complex_5",
+        "map_url": "https://www.google.com/maps?q=34.6080,-120.6247",
+        "latitude": "34.608",
+        "longitude": "-120.6247",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_154_20200803143408.jpg",
+        "total_launch_count": 69,
+        "orbital_launch_attempt_count": 69
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2087,
+    "location_launch_attempt_count": 460,
+    "pad_launch_attempt_count": 53,
+    "agency_launch_attempt_count": 132,
+    "orbital_launch_attempt_count_year": 42,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

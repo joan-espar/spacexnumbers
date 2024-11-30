@@ -1,0 +1,94 @@
+{
+    "id": "46580acb-1299-4a54-bdf0-884029a83a84",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/46580acb-1299-4a54-bdf0-884029a83a84/",
+    "slug": "project-pilot-nots-5",
+    "name": "Project Pilot | NOTS 5",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T04:25:21Z",
+    "net": "1958-08-26T00:00:00Z",
+    "window_end": "1958-08-26T00:00:00Z",
+    "window_start": "1958-08-26T00:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 166,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/166/",
+        "name": "US Navy",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3023,
+        "configuration": {
+            "id": 344,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/344/",
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1445,
+        "name": "NOTS 5",
+        "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 145,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/145/",
+        "agency_id": null,
+        "name": "Naval Air Weapons Station China Lake",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Naval_Air_Weapons_Station_China_Lake",
+        "map_url": "https://www.google.com/maps?q=35.6855556,-117.6941384",
+        "latitude": "35.6855556",
+        "longitude": "-117.6941384",
+        "location": {
+            "id": 144,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/144/",
+            "name": "Air launch to Suborbital flight",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_144_20200803142439.jpg",
+            "timezone_name": "",
+            "total_launch_count": 86,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_145_20200803143330.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 21,
+    "location_launch_attempt_count": 5,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 11,
+    "orbital_launch_attempt_count_year": 18,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}

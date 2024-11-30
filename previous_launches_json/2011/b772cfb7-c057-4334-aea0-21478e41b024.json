@@ -1,0 +1,105 @@
+{
+    "id": "b772cfb7-c057-4334-aea0-21478e41b024",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b772cfb7-c057-4334-aea0-21478e41b024/",
+    "slug": "delta-ii-7920h-10c-grail-a-ebb-grail-b-flow",
+    "name": "Delta II 7920H-10C | GRAIL-A (Ebb) & GRAIL-B (Flow)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-05-05T06:40:37Z",
+    "net": "2011-09-10T13:08:52Z",
+    "window_end": "2011-09-10T13:08:52Z",
+    "window_start": "2011-09-10T13:08:52Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1550,
+        "configuration": {
+            "id": 154,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/154/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7920H-10C",
+            "variant": "7920H-10C"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030414.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 33,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/33/",
+            "name": "Discovery Program",
+            "description": "The Discovery Program is a series of Solar System exploration missions funded by the U.S. National Aeronautics and Space Administration (NASA) through its Planetary Missions Program Office. The cost of each mission is capped at a lower level than missions from NASA's New Frontiers or Flagship Programs. As a result, Discovery missions tend to be more focused on a specific scientific goal rather than serving a general purpose.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/discovery2520p_program_20231231122246.jpeg",
+            "start_date": "1990-01-01T00:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.nasa.gov/planetarymissions/discovery-program/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Discovery_Program",
+            "mission_patches": [],
+            "type": {
+                "id": 5,
+                "name": "Exploration"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 5155,
+    "location_launch_attempt_count": 682,
+    "pad_launch_attempt_count": 132,
+    "agency_launch_attempt_count": 55,
+    "orbital_launch_attempt_count_year": 5155,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

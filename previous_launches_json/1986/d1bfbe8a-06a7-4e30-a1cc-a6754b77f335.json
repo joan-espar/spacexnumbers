@@ -1,0 +1,94 @@
+{
+    "id": "d1bfbe8a-06a7-4e30-a1cc-a6754b77f335",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/d1bfbe8a-06a7-4e30-a1cc-a6754b77f335/",
+    "slug": "ariane-3-gstar-2-brasilsat-a2",
+    "name": "Ariane 3 | Gstar 2 & Brasilsat A2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:24Z",
+    "net": "1986-03-28T23:30:00Z",
+    "window_end": "1986-03-28T23:30:00Z",
+    "window_start": "1986-03-28T23:30:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 5845,
+        "configuration": {
+            "id": 221,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/221/",
+            "name": "Ariane 3",
+            "family": "Ariane",
+            "full_name": "Ariane 3",
+            "variant": "3"
+        }
+    },
+    "mission": {
+        "id": 4243,
+        "name": "Gstar 2 & Brasilsat A2",
+        "description": "Geostationary communications satellites",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_3_liftof_image_20240314095002.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3057,
+    "location_launch_attempt_count": 26,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 16,
+    "orbital_launch_attempt_count_year": 28,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

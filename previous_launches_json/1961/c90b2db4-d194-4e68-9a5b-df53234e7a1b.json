@@ -1,0 +1,80 @@
+{
+    "id": "c90b2db4-d194-4e68-9a5b-df53234e7a1b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/c90b2db4-d194-4e68-9a5b-df53234e7a1b/",
+    "slug": "thor-dm-21-ablestar-transit-3b-lofti-1",
+    "name": "Thor DM-21 Ablestar | Transit 3B & LOFTI-1",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2023-06-14T17:42:52Z",
+    "net": "1961-02-22T03:45:00Z",
+    "window_end": "1961-02-22T03:45:00Z",
+    "window_start": "1961-02-22T03:45:00Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Failed to seperate from upper stage, failed to place into correct orbit.",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2368,
+        "configuration": {
+            "id": 187,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/187/",
+            "name": "Thor DM-21 Ablestar",
+            "family": "Thor",
+            "full_name": "Thor DM-21 Ablestar",
+            "variant": "DM-21"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/thor2520dm-212520ablestar_image_20191201205131.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 100,
+    "location_launch_attempt_count": 53,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 42,
+    "orbital_launch_attempt_count_year": 100,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

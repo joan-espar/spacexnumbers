@@ -1,0 +1,94 @@
+{
+    "id": "74d39bb8-34a6-4a8b-8554-d2d3ec22aee6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/74d39bb8-34a6-4a8b-8554-d2d3ec22aee6/",
+    "slug": "vanguard-vanguard-3",
+    "name": "Vanguard | Vanguard",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:59Z",
+    "net": "1958-03-17T12:15:41Z",
+    "window_end": "1958-03-17T12:15:41Z",
+    "window_start": "1958-03-17T12:15:41Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 166,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/166/",
+        "name": "US Navy",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3009,
+        "configuration": {
+            "id": 449,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/449/",
+            "name": "Vanguard",
+            "family": "",
+            "full_name": "Vanguard",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1432,
+        "name": "Vanguard",
+        "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 118,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/118/",
+        "agency_id": 166,
+        "name": "Launch Complex 18A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_18",
+        "map_url": "https://www.google.com/maps?q=28.4493,-80.564494",
+        "latitude": "28.4493",
+        "longitude": "-80.564494",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_118_20200803143338.jpg",
+        "total_launch_count": 18,
+        "orbital_launch_attempt_count": 11
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vanguard_1_on_p_image_20240411114304.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 7,
+    "location_launch_attempt_count": 5,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 4,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

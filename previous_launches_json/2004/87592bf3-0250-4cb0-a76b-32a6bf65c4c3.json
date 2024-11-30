@@ -1,0 +1,94 @@
+{
+    "id": "87592bf3-0250-4cb0-a76b-32a6bf65c4c3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/87592bf3-0250-4cb0-a76b-32a6bf65c4c3/",
+    "slug": "shavit-2-ofeq-6",
+    "name": "Shavit-2 | Ofeq-6",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:58:14Z",
+    "net": "2004-09-06T10:53:00Z",
+    "window_end": "2004-09-06T10:53:00Z",
+    "window_start": "2004-09-06T10:53:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 35,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/35/",
+        "name": "Israeli Space Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7196,
+        "configuration": {
+            "id": 110,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/110/",
+            "name": "Shavit-2",
+            "family": "Shavit",
+            "full_name": "Shavit-2",
+            "variant": "2"
+        }
+    },
+    "mission": {
+        "id": 5585,
+        "name": "Ofeq-6",
+        "description": "Military observation satellite failed to reach orbit. Finanical loss estimated by Israeli press as $ 100 million..",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 75,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/75/",
+        "agency_id": 95,
+        "name": "Shavit Launch Pad",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Palmachim_Airbase",
+        "map_url": "https://www.google.com/maps?q=31.884444,34.680278",
+        "latitude": "31.884444",
+        "longitude": "34.680278",
+        "location": {
+            "id": 4,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/4/",
+            "name": "Palmachim Airbase, State of Israel",
+            "country_code": "ISR",
+            "description": "Palmachim Airbase is an Israeli Air Force (IAF) base and spaceport, which the IAF and the Israel Space Agency (ISA) operate jointly. It is located west of the city of Yavne on the Mediterranean coast, 12 km south of the Gush Dan metropolitan area with Tel Aviv, named after the Kibbutz Palmachim north of it.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_4_20200803142418.jpg",
+            "timezone_name": "Asia/Jerusalem",
+            "total_launch_count": 12,
+            "total_landing_count": 0
+        },
+        "country_code": "ISR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_75_20200803143316.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4674,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 35,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

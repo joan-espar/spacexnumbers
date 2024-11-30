@@ -1,0 +1,94 @@
+{
+    "id": "f265ae21-236d-492a-bec1-4e8293785ed8",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f265ae21-236d-492a-bec1-4e8293785ed8/",
+    "slug": "molniya-8k78-molniya-1-7",
+    "name": "Molniya 8K78 | Molniya-1 7",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:48:44Z",
+    "net": "1967-10-22T08:40:01Z",
+    "window_end": "1967-10-22T08:40:01Z",
+    "window_start": "1967-10-22T08:40:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3719,
+        "configuration": {
+            "id": 184,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/184/",
+            "name": "Molniya 8K78",
+            "family": "R-7",
+            "full_name": "Molniya 8K78",
+            "variant": "8K78"
+        }
+    },
+    "mission": {
+        "id": 2137,
+        "name": "Molniya-1 7",
+        "description": "The Molniya were Soviet communication satellites operating from an inclined highly elliptical earth orbit of 500 km \u00d7 40000 km with 12 hour period for coverage of high northern latitudes.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 32,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/32/",
+        "agency_id": null,
+        "name": "1/5",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.92,63.342",
+        "latitude": "45.92",
+        "longitude": "63.342",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_32_20200803143513.jpg",
+        "total_launch_count": 487,
+        "orbital_launch_attempt_count": 487
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/molniya25208k78_image_20191201210000.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 761,
+    "location_launch_attempt_count": 197,
+    "pad_launch_attempt_count": 99,
+    "agency_launch_attempt_count": 273,
+    "orbital_launch_attempt_count_year": 113,
+    "location_launch_attempt_count_year": 31,
+    "pad_launch_attempt_count_year": 15,
+    "agency_launch_attempt_count_year": 58,
+    "type": "normal"
+}

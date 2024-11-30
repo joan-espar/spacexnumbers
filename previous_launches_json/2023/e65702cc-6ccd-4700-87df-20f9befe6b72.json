@@ -1,0 +1,99 @@
+{
+    "id": "e65702cc-6ccd-4700-87df-20f9befe6b72",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e65702cc-6ccd-4700-87df-20f9befe6b72/",
+    "slug": "long-march-2cyz-1s-satnet-test-satellite",
+    "name": "Long March 2C/YZ-1S | SatNet test satellite",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:03:07Z",
+    "net": "2023-12-30T00:13:00Z",
+    "window_end": "2023-12-30T00:25:00Z",
+    "window_start": "2023-12-30T00:04:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8154,
+        "configuration": {
+            "id": 156,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/156/",
+            "name": "Long March 2C/YZ-1S",
+            "family": "Long March",
+            "full_name": "Long March 2C/YZ-1S",
+            "variant": "C/YZ-1S"
+        }
+    },
+    "mission": {
+        "id": 6715,
+        "name": "SatNet test satellite",
+        "description": "Officially described as \"Satellite-Internet Technology Demonstration Satellite(s)\" manufactured by CAST. Probable 1 (?) test satellite for the Chinese state-owned LEO communication satellite constellation SatNet.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 22,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/22/",
+        "agency_id": null,
+        "name": "Launch Area 4 (SLS-2 / 603)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
+        "map_url": "https://www.google.com/maps?q=40.960482,100.298059",
+        "latitude": "40.960482",
+        "longitude": "100.298059",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_22_20200803143437.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20231230080002.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6589,
+    "location_launch_attempt_count": 218,
+    "pad_launch_attempt_count": 111,
+    "agency_launch_attempt_count": 452,
+    "orbital_launch_attempt_count_year": 221,
+    "location_launch_attempt_count_year": 36,
+    "pad_launch_attempt_count_year": 15,
+    "agency_launch_attempt_count_year": 47,
+    "type": "normal"
+}

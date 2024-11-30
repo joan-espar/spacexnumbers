@@ -1,0 +1,94 @@
+{
+    "id": "a03ac4fa-7d6f-49c6-8243-379dd136ed64",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a03ac4fa-7d6f-49c6-8243-379dd136ed64/",
+    "slug": "proton-kdm-2m-directv-5",
+    "name": "Proton-K/DM-2M | DirecTV-5",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:32:41Z",
+    "net": "2002-05-07T17:00:00Z",
+    "window_end": "2002-05-07T17:00:00Z",
+    "window_start": "2002-05-07T17:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7087,
+        "configuration": {
+            "id": 350,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/350/",
+            "name": "Proton-K/DM-2M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-K/DM-2M",
+            "variant": "DM-2M"
+        }
+    },
+    "mission": {
+        "id": 5476,
+        "name": "DirecTV-5",
+        "description": "T5 (formerly DirecTV-5) is a dormant communications satellite launched from Baikonur Cosmodrome, Kazakhstan in May, 2002 to provide mainly Spanish language satellite television programs to DirecTV customers from the 119 degrees West longitudinal orbit. It was built by Space Systems/Loral, as part of its LS-1300 line. In May 2004, DIRECTV successfully launched DIRECTV 7S (later T7S), their second high powered spot beam. T7S is located at the 119 degree orbital slot. The satellite was renamed to T5 in 2017.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton_image_20231231095535.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4534,
+    "location_launch_attempt_count": 1190,
+    "pad_launch_attempt_count": 42,
+    "agency_launch_attempt_count": 89,
+    "orbital_launch_attempt_count_year": 23,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

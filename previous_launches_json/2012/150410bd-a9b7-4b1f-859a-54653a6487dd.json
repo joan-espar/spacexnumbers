@@ -1,0 +1,85 @@
+{
+    "id": "150410bd-a9b7-4b1f-859a-54653a6487dd",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/150410bd-a9b7-4b1f-859a-54653a6487dd/",
+    "slug": "proton-m-briz-m-enhanced-luch-5b-yamal-300k",
+    "name": "Proton-M / Briz-M Enhanced | Luch 5B & Yamal-300K",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T17:48:19Z",
+    "net": "2012-11-02T21:04:00Z",
+    "window_end": "2012-11-02T21:04:00Z",
+    "window_start": "2012-11-02T21:04:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1643,
+        "configuration": {
+            "id": 87,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/87/",
+            "name": "Proton-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Briz-M Enhanced",
+            "variant": "Briz-M Enhanced"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5254,
+    "location_launch_attempt_count": 1397,
+    "pad_launch_attempt_count": 71,
+    "agency_launch_attempt_count": 160,
+    "orbital_launch_attempt_count_year": 5254,
+    "location_launch_attempt_count_year": 18,
+    "pad_launch_attempt_count_year": 6,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

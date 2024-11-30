@@ -1,0 +1,430 @@
+{
+    "id": "fc7a010b-0e88-43cb-8953-9a969c475dd6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fc7a010b-0e88-43cb-8953-9a969c475dd6/",
+    "slug": "starship-sn11-10-km-flight",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Starship SN11 | 10 km Flight",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit; or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-01-21T01:21:18Z",
+    "updates": [
+        {
+            "id": 423,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Starship SN11 launch failure; possibly due to engine issues.",
+            "info_url": "https://twitter.com/elonmusk/status/1376891464333017090",
+            "created_by": "Nosu",
+            "created_on": "2021-03-30T14:12:30Z"
+        },
+        {
+            "id": 422,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Boca Chica road closure and evacuation confirmed for a Starship SN11 launch attempt as early as 13:00 UTC.",
+            "info_url": "https://twitter.com/BocaChicaGal/status/1376853719619399680",
+            "created_by": "Nosu",
+            "created_on": "2021-03-30T11:10:46Z"
+        },
+        {
+            "id": 421,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Starship SN11 launch NET tomorrow (March 30).",
+            "info_url": "https://twitter.com/elonmusk/status/1376558233624666120",
+            "created_by": "Nosu",
+            "created_on": "2021-03-29T15:36:44Z"
+        },
+        {
+            "id": 417,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Starship SN11 launch NET Monday (March 29).",
+            "info_url": "https://twitter.com/elonmusk/status/1375545176324734978",
+            "created_by": "Nosu",
+            "created_on": "2021-03-26T20:30:28Z"
+        },
+        {
+            "id": 416,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "No Starship SN11 launch today.",
+            "info_url": "https://www.cameroncounty.us/spacex/",
+            "created_by": "Nosu",
+            "created_on": "2021-03-26T19:43:44Z"
+        },
+        {
+            "id": 414,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Boca Chica evacuation confirmed. Starship SN11 10 km flight attempt later today.",
+            "info_url": "https://twitter.com/BocaChicaGal/status/1375464984881283075",
+            "created_by": "Nosu",
+            "created_on": "2021-03-26T15:12:42Z"
+        },
+        {
+            "id": 412,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Starship SN11 static fire followed by a 10 km flight attempt tomorrow (March 26); per Cameron County notice. Still pending an evacuation or overpressure notice to residents.",
+            "info_url": "https://www.cameroncounty.us/order-closing-boca-chica-beach-and-state-hwy-4-march-26/",
+            "created_by": "Nosu",
+            "created_on": "2021-03-25T22:22:03Z"
+        },
+        {
+            "id": 407,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/scottm3_profile_20210817212204.png",
+            "comment": "March 25 road closure cancelled. NET Friday March 26 pending road closures.",
+            "info_url": "https://www.cameroncounty.us/spacex/",
+            "created_by": "scottm3",
+            "created_on": "2021-03-24T00:54:09Z"
+        },
+        {
+            "id": 406,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Road closure cancelled for March 24. Starship SN11 flight NET March 25.",
+            "info_url": "https://www.cameroncounty.us/spacex/",
+            "created_by": "Nosu",
+            "created_on": "2021-03-23T18:35:58Z"
+        },
+        {
+            "id": 400,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Alert notices are out for a Starship SN11 Static Fire attempt tomorrow (March 22) between 12:00 and 20:00 UTC.",
+            "info_url": "https://twitter.com/BocaChicaGal/status/1373737224257277954?s=20",
+            "created_by": "Nosu",
+            "created_on": "2021-03-21T21:19:13Z"
+        },
+        {
+            "id": 358,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Starship SN11 flight NET Friday March 19; pending a successful static fire.",
+            "info_url": "https://tfr.faa.gov/save_pages/detail_1_5839.html",
+            "created_by": "Nosu",
+            "created_on": "2021-03-16T16:57:33Z"
+        },
+        {
+            "id": 357,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Alert notices are out for a Starship SN11 Static Fire attempt today (March 15) between 11:00 and 17:00 UTC.",
+            "info_url": "https://twitter.com/BocaChicaGal/status/1371229431172378625?s=20",
+            "created_by": "Nosu",
+            "created_on": "2021-03-15T06:26:14Z"
+        },
+        {
+            "id": 354,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230526162814.jpg",
+            "comment": "Adding the SN11 launch NET Tuesday March 16. Still pending a successful static fire; preparations for flight and FAA approval.",
+            "info_url": "https://tfr.faa.gov/save_pages/detail_1_4748.html",
+            "created_by": "Nosu",
+            "created_on": "2021-03-14T06:42:22Z"
+        }
+    ],
+    "net": "2021-03-30T13:00:00Z",
+    "net_precision": null,
+    "window_end": "2021-03-30T20:00:00Z",
+    "window_start": "2021-03-30T12:00:00Z",
+    "probability": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 248,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 111,
+        "consecutive_successful_landings": 117,
+        "successful_landings": 199,
+        "failed_landings": 17,
+        "attempted_landings": 216,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2845,
+        "configuration": {
+            "id": 207,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/207/",
+            "name": "Starship Prototype",
+            "active": false,
+            "reusable": true,
+            "description": "Prototype of SpaceX's Starship; a fully reusable second stage and space vehicle.",
+            "family": "Starship",
+            "full_name": "Starship Prototype",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 248,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 111,
+                "consecutive_successful_landings": 117,
+                "successful_landings": 199,
+                "failed_landings": 17,
+                "attempted_landings": 216,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 1,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+                    "name": "SpaceX Starship",
+                    "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+                    "agencies": [
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/spacex2520star_program_20201129204513.png",
+                    "start_date": "2019-03-01T05:00:00Z",
+                    "end_date": null,
+                    "info_url": "https://www.spacex.com/vehicles/starship/",
+                    "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Prototype",
+            "alias": "",
+            "min_stage": 1,
+            "max_stage": 1,
+            "length": 50,
+            "diameter": 9,
+            "maiden_flight": "2019-07-26",
+            "launch_cost": null,
+            "launch_mass": 45,
+            "leo_capacity": null,
+            "gto_capacity": null,
+            "to_thrust": null,
+            "apogee": null,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/starship_protot_image_20210506061556.jpeg",
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "total_launch_count": 9,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 6,
+            "failed_launches": 3,
+            "pending_launches": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 167,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 92,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/92/",
+                    "details": "SN11 is a Starship Prototype similar in design to SN10 and SN9. It got destroyed during its first flight to an altitude of 10 km.",
+                    "flight_proven": true,
+                    "serial_number": "SN11",
+                    "status": "destroyed",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/92_image_20210326174157.jpeg",
+                    "successful_landings": 0,
+                    "attempted_landings": 1,
+                    "flights": 1,
+                    "last_launch_date": "2021-03-30T13:00:00Z",
+                    "first_launch_date": "2021-03-30T13:00:00Z"
+                },
+                "landing": {
+                    "id": 198,
+                    "attempt": true,
+                    "success": false,
+                    "description": "Starship SN11 failed to land back at the launch site after its high-altitude flight.",
+                    "location": {
+                        "id": 14,
+                        "name": "SpaceX Starship Landing Pad",
+                        "abbrev": "LZ",
+                        "description": "This is the landing pad used for early Starship development flights.",
+                        "location": {
+                            "id": 143,
+                            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+                            "name": "SpaceX Space Launch Facility; TX, USA",
+                            "country_code": "USA",
+                            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
+                            "timezone_name": "America/Chicago",
+                            "total_launch_count": 10,
+                            "total_landing_count": 9
+                        },
+                        "successful_landings": 5
+                    },
+                    "type": {
+                        "id": 2,
+                        "name": "Return to Launch Site",
+                        "abbrev": "RTLS",
+                        "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from."
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 1252,
+        "name": "10 km Flight",
+        "description": "The SN11 Starship prototype performed a test flight similar to SN8; SN9 and SN10. It launched up to an altitude of 10 km or 33,000 ft and did a belly flop maneuver followed by a controlled descent, but got destroyed during the landing maneuver.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        }
+    },
+    "pad": {
+        "id": 187,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/187/",
+        "agency_id": 121,
+        "name": "Launch Pad B",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_South_Texas_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=25.997116;-97.15503099856647",
+        "latitude": "25.997116",
+        "longitude": "-97.15503099856647",
+        "location": {
+            "id": 143,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+            "name": "SpaceX Space Launch Facility; TX, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_143_20200803142438.jpg",
+            "timezone_name": "America/Chicago",
+            "total_launch_count": 10,
+            "total_landing_count": 9
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_launch_pad_b_20201211004226.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 0
+    },
+    "infoURLs": [
+        {
+            "priority": 10,
+            "title": "",
+            "description": "SpaceX designs; manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+            "feature_image": null,
+            "url": "https://www.spacex.com/launches/starship-sn11-flight-test/"
+        }
+    ],
+    "vidURLs": [
+        {
+            "priority": 0,
+            "title": "Starship SN11 10km Flight",
+            "description": "Full flight of Starship 11 with breaks cut out",
+            "feature_image": "https://i.ytimg.com/vi/PKZeSfasJ-8/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=PKZeSfasJ-8"
+        },
+        {
+            "priority": 1,
+            "title": "Starship | SN11 | High-Altitude Flight Test",
+            "description": "As early as Tuesday; March 30, the SpaceX team will attempt a high-altitude flight test of Starship serial number 11 (SN11) \u2013 our fourth high-altitude flight...",
+            "feature_image": "https://i.ytimg.com/vi/gjCSJIAKEPM/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=gjCSJIAKEPM"
+        },
+        {
+            "priority": 6,
+            "title": "Nerdle Cam 4K- SpaceX Starship SN11 Launch Live At Boca Chica Starship Launch Facility",
+            "description": "THURSDAY 3/25/2021 Welcome to the LabPadre 24/7 Livestream! || Onsite weather provided by INITWeather.com || BOCA CHICA NEWS: GSE pressure test conducted Mar...",
+            "feature_image": "https://i.ytimg.com/vi/sTA0GTgFn5E/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=sTA0GTgFn5E"
+        },
+        {
+            "priority": 7,
+            "title": "Launch Pad Cam - SpaceX Starship SN11 Live At SpaceX Boca Chica Launch Facility",
+            "description": "THURSDAY 3/25/2021 Welcome to the LabPadre 24/7 Livestream! || Onsite weather provided by INITWeather.com || BOCA CHICA NEWS: GSE pressure test conducted Mar...",
+            "feature_image": "https://i.ytimg.com/vi/qCbgoqMcirI/maxresdefault_live.jpg",
+            "url": "https://youtu.be/qCbgoqMcirI"
+        },
+        {
+            "priority": 8,
+            "title": "LIVE: Starship SN11 Test Flight",
+            "description": "SpaceX is set to launch the Starship SN11 prototype to an altitude of approximately 10 kilometers. A launch attempt is possible in the morning local time on ...",
+            "feature_image": "https://i.ytimg.com/vi/bDL-ZMRHYrE/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=bDL-ZMRHYrE"
+        },
+        {
+            "priority": 9,
+            "title": "LIVE: Starship SN11 Test Flight",
+            "description": "SpaceX is set to launch the Starship SN11 prototype to an altitude of approximately 10 kilometers. A launch attempt is possible in the afternoon local time o...",
+            "feature_image": "https://i.ytimg.com/vi/XCUGKZFIcxk/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=XCUGKZFIcxk"
+        },
+        {
+            "priority": 10,
+            "title": "LIVE: Starship SN11 Flight Test",
+            "description": "SpaceX is set to launch the Starship SN11 prototype to an altitude of approximately 10 kilometers. A launch attempt is possible in the afternoon local time o...",
+            "feature_image": "https://i.ytimg.com/vi/JJXEq9IX1To/maxresdefault_live.jpg",
+            "url": "https://youtu.be/JJXEq9IX1To"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/starship2520sn_image_20210314064221.jpeg",
+    "infographic": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/starship2520sn_infographic_20210324002218.jpeg",
+    "program": [
+        {
+            "id": 1,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+            "name": "SpaceX Starship",
+            "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012; as a self-funded private spaceflight project.  The second stage of the Starship \u2014 is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+            "agencies": [
+                {
+                    "id": 121,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                    "name": "SpaceX",
+                    "type": "Commercial"
+                }
+            ],
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/spacex2520star_program_20201129204513.png",
+            "start_date": "2019-03-01T05:00:00Z",
+            "end_date": null,
+            "info_url": "https://www.spacex.com/vehicles/starship/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+            "mission_patches": []
+        }
+    ],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 8,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 129,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 12,
+    "mission_patches": []
+}

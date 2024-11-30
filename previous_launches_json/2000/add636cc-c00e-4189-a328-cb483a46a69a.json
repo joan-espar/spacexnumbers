@@ -1,0 +1,99 @@
+{
+    "id": "add636cc-c00e-4189-a328-cb483a46a69a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/add636cc-c00e-4189-a328-cb483a46a69a/",
+    "slug": "ariane-5-g-insat-3b-asiastar",
+    "name": "Ariane 5 G | INSAT-3B & AsiaStar",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:51:15Z",
+    "net": "2000-03-21T23:28:19Z",
+    "window_end": "2000-03-21T23:28:19Z",
+    "window_start": "2000-03-21T23:28:19Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 451,
+        "configuration": {
+            "id": 131,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/131/",
+            "name": "Ariane 5 G",
+            "family": "Ariane",
+            "full_name": "Ariane 5 G",
+            "variant": "G"
+        }
+    },
+    "mission": {
+        "id": 571,
+        "name": "INSAT-3B & AsiaStar",
+        "description": "INSAT-3B is an Indian communications satellite which was built and operated by ISRO. AsiaStar is a US communications satellite operated by 1worldspace, operating at a geostarionary orbit at 105 degrees east.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane252052520g_image_20190222030331.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4385,
+    "location_launch_attempt_count": 137,
+    "pad_launch_attempt_count": 5,
+    "agency_launch_attempt_count": 124,
+    "orbital_launch_attempt_count_year": 18,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

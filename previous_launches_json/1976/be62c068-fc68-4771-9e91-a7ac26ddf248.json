@@ -1,0 +1,94 @@
+{
+    "id": "be62c068-fc68-4771-9e91-a7ac26ddf248",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be62c068-fc68-4771-9e91-a7ac26ddf248/",
+    "slug": "vostok-8a92m-meteor-1-24-37l",
+    "name": "Vostok 8A92M | Meteor-1 24 (37L)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:29:24Z",
+    "net": "1976-04-07T13:05:00Z",
+    "window_end": "1976-04-07T13:05:00Z",
+    "window_start": "1976-04-07T13:05:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4695,
+        "configuration": {
+            "id": 452,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/452/",
+            "name": "Vostok 8A92M",
+            "family": "Vostok",
+            "full_name": "Vostok 8A92M",
+            "variant": "8A92M"
+        }
+    },
+    "mission": {
+        "id": 3113,
+        "name": "Meteor-1 24 (37L)",
+        "description": "The Meteor-1 series was the first series of Soviet meteorological satellites.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 168,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/168/",
+        "agency_id": null,
+        "name": "41/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=62.941,40.526806",
+        "latitude": "62.941",
+        "longitude": "40.526806",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_168_20200803143446.jpg",
+        "total_launch_count": 310,
+        "orbital_launch_attempt_count": 310
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1816,
+    "location_launch_attempt_count": 474,
+    "pad_launch_attempt_count": 148,
+    "agency_launch_attempt_count": 1002,
+    "orbital_launch_attempt_count_year": 33,
+    "location_launch_attempt_count_year": 16,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 23,
+    "type": "normal"
+}

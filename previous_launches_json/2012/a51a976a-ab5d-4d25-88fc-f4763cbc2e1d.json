@@ -1,0 +1,80 @@
+{
+    "id": "a51a976a-ab5d-4d25-88fc-f4763cbc2e1d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/a51a976a-ab5d-4d25-88fc-f4763cbc2e1d/",
+    "slug": "long-march-4b-ziyuan-3-vesselsat-2",
+    "name": "Long March 4B | Ziyuan 3 & VesselSat-2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T06:07:10Z",
+    "net": "2012-01-09T03:17:09Z",
+    "window_end": "2012-01-09T03:17:09Z",
+    "window_start": "2012-01-09T03:17:09Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1585,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5191,
+    "location_launch_attempt_count": 40,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 102,
+    "orbital_launch_attempt_count_year": 5191,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,80 @@
+{
+    "id": "1cb9fb8c-abfa-4c09-b094-b93b855b5388",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1cb9fb8c-abfa-4c09-b094-b93b855b5388/",
+    "slug": "naro-1-stsat-2b",
+    "name": "Naro-1 | STSAT-2B",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:55:16Z",
+    "net": "2010-06-10T08:01:00Z",
+    "window_end": "2010-06-10T08:01:00Z",
+    "window_start": "2010-06-10T08:01:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Rapid Unscheduled Disassembly during first stage burn.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/41/",
+        "name": "Korea Aerospace Research Institute",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1464,
+        "configuration": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/12/",
+            "name": "Naro-1",
+            "family": "KSLV",
+            "full_name": "KSLV Naro-1",
+            "variant": "1"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 64,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/64/",
+        "agency_id": 41,
+        "name": "LC-1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Naro_Space_Center",
+        "map_url": "https://www.google.com/maps?q=34.431867,127.535069",
+        "latitude": "34.431867",
+        "longitude": "127.535069",
+        "location": {
+            "id": 9,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/9/",
+            "name": "Naro Space Center, South Korea",
+            "country_code": "KOR",
+            "description": "The Naro Space Center is a South Korean spaceport in South Jeolla's Goheung County, operated by the state-run Korea Aerospace Research Institute.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_9_20200803142441.jpg",
+            "timezone_name": "Asia/Seoul",
+            "total_launch_count": 7,
+            "total_landing_count": 0
+        },
+        "country_code": "KOR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_64_20200803143347.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5060,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 5060,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

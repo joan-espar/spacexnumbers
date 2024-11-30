@@ -1,0 +1,94 @@
+{
+    "id": "8717277d-416b-4ed8-bb4e-95d2ba9da31d",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8717277d-416b-4ed8-bb4e-95d2ba9da31d/",
+    "slug": "falcon-9-full-thrust-eutelsat-117-west-b-abs-2a",
+    "name": "Falcon 9 Full Thrust | Eutelsat 117 West B & ABS-2A",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:41:54Z",
+    "net": "2016-06-15T14:29:00Z",
+    "window_end": "2016-06-15T15:13:00Z",
+    "window_start": "2016-06-15T14:29:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 1935,
+        "configuration": {
+            "id": 55,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/55/",
+            "name": "Falcon 9",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Full Thrust",
+            "variant": "Full Thrust"
+        }
+    },
+    "mission": {
+        "id": 316,
+        "name": "Eutelsat 117 West B & ABS-2A",
+        "description": "Eutelsat 117 West B and ABS 2A will be launched atop a Falcon 9 Full Thrust. Both sattelites will be launched into a geostationary orbit to provide communications services. Eutelsat 117 West B with 48 Ku-band transponders in a inclination at 116.8 degrees west will provide communications to Latin American customers in the video telecommunications and government sectors. Also Wide Are Augmentation System (WAAS) payload will enable the United States Federal Aviation Administration (FAA) improve aviation safety for the United States. ABS 2A with 48 Ku-band transponders in a inclination 78 degree orbit east. it will serve  Eastern Europe , Russia, Middle East and India. This will be the 26 launch of the Falcon 9 and will attempt a first stage landing on the drone ship Of Course I still Love You.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 275,
+        "orbital_launch_attempt_count": 275
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5567,
+    "location_launch_attempt_count": 744,
+    "pad_launch_attempt_count": 79,
+    "agency_launch_attempt_count": 31,
+    "orbital_launch_attempt_count_year": 38,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

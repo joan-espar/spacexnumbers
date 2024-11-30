@@ -1,0 +1,94 @@
+{
+    "id": "b29bfc4f-2819-4ebf-9887-4b1295171157",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b29bfc4f-2819-4ebf-9887-4b1295171157/",
+    "slug": "electron-its-business-time-rideshare",
+    "name": "Electron | It's Business Time (Rideshare)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T12:07:10Z",
+    "net": "2018-11-11T03:50:00Z",
+    "window_end": "2018-11-11T07:00:00Z",
+    "window_start": "2018-11-11T03:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#ItsBusinessTime",
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 24,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 709,
+        "name": "It's Business Time (Rideshare)",
+        "description": "Electron's first commercial launch will feature two Lemur-2 cubesats for Spire Global, a single cubesat for GeoOptics, a NABEO drag sail demonstrator for High Performance Space Structure Systems, an IRVINE01 cubesat from the Irvine CubeSat STEM Program, and two Proxima cubesats from Fleet Space Technologies.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+            "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+            "country_code": "NZL",
+            "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of M\u0101hia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+            "timezone_name": "Pacific/Auckland",
+            "total_launch_count": 51,
+            "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 27,
+        "orbital_launch_attempt_count": 27
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5796,
+    "location_launch_attempt_count": 3,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 90,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

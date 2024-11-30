@@ -1,0 +1,119 @@
+{
+    "id": "f3855eeb-9eda-4ddd-bb4d-c2acbad0a0e2",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f3855eeb-9eda-4ddd-bb4d-c2acbad0a0e2/",
+    "slug": "saturn-ib-skylab-4",
+    "name": "Saturn IB | Skylab 4",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T08:44:58Z",
+    "net": "1973-11-16T14:01:23Z",
+    "window_end": "1973-11-16T14:01:23Z",
+    "window_start": "1973-11-16T14:01:23Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 44,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+        "name": "National Aeronautics and Space Administration",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 241,
+        "configuration": {
+            "id": 163,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/163/",
+            "name": "Saturn IB",
+            "family": "Saturn",
+            "full_name": "Saturn IB",
+            "variant": "IB"
+        }
+    },
+    "mission": {
+        "id": 268,
+        "name": "Skylab 4",
+        "description": "Skylab 4 (also known as SL-4 or SLM-3) was the third and the last crewed mission to the first US orbital space station Skylab. The mission began on November 16, 1973, 14:01:23 UTC with the launch of a three-person crew. Crew members were the Commander Gerald P. Carr, Science Pilot Edward G. Gibson and William R. Pogue. During their 83-day stay on the station, crew performed Earth and solar observations. The mission ended successfully with the splashdown in the Pacific Ocean on February 8, 1974, 15:16:53 UTC.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 4,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/4/",
+        "agency_id": 44,
+        "name": "Launch Complex 39B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39B",
+        "map_url": "https://www.google.com/maps?q=28.62711233,-80.62101503",
+        "latitude": "28.62711233",
+        "longitude": "-80.62101503",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
+        "total_launch_count": 58,
+        "orbital_launch_attempt_count": 57
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/saturn2520ib_image_20190222030046.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/13/",
+            "name": "Skylab",
+            "description": "Skylab was the first United States space station, launched by NASA, occupied for about 24 weeks between May 1973 and February 1974. It was operated by three separate three-astronaut crews: SL-2, SL-3 and SL-4. Major operations included an orbital workshop, a solar observatory, Earth observation, and hundreds of experiments.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skylab_program_20240305184407.png",
+            "start_date": "1973-05-14T17:30:00Z",
+            "end_date": "1979-07-11T16:37:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/skylab/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Skylab",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 1519,
+    "location_launch_attempt_count": 16,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 124,
+    "orbital_launch_attempt_count_year": 97,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

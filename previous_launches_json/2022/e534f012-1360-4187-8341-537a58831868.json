@@ -1,0 +1,94 @@
+{
+    "id": "e534f012-1360-4187-8341-537a58831868",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e534f012-1360-4187-8341-537a58831868/",
+    "slug": "long-march-4b-terrestrial-ecosystem-carbon-invento",
+    "name": "Long March 4B | Terrestrial Ecosystem Carbon Inventory Satellite (TECIS)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:42:37Z",
+    "net": "2022-08-04T03:08:00Z",
+    "window_end": "2022-08-04T03:28:00Z",
+    "window_start": "2022-08-04T03:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2678,
+        "configuration": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/10/",
+            "name": "Long March 4B",
+            "family": "Long March",
+            "full_name": "Long March 4B",
+            "variant": "B"
+        }
+    },
+    "mission": {
+        "id": 6115,
+        "name": "Terrestrial Ecosystem Carbon Inventory Satellite (TECIS)",
+        "description": "Note: Launch vehicle and payload uncertain.\r\n\r\nThe Terrestrial Ecosystem Carbon Monitoring Satellite (TECIS) is intended to evaluate forest biomass, measure atmospheric aerosol content, and detect photosynthetic fluorescence. These measurements will contribute to efforts to combat global warming. \r\n\r\nThe satellite carries 4 instruments: Multi-Beam LIDAR, Directional Multi-Spectral Camera, Directional Polarization Camera, and Chlorophyll Fluorescence Hyper-Spectral Monitor (SIFIS)\r\n\r\nThe satellite will operate in a sun-synchronous orbit at a height of 506 km, at 10:30 AM local time in the descending mode, with a designed lifetime of 8 years.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6275,
+    "location_launch_attempt_count": 107,
+    "pad_launch_attempt_count": 61,
+    "agency_launch_attempt_count": 377,
+    "orbital_launch_attempt_count_year": 93,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 25,
+    "type": "normal"
+}

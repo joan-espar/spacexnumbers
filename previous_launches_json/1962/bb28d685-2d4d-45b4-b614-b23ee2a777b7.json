@@ -1,0 +1,94 @@
+{
+    "id": "bb28d685-2d4d-45b4-b614-b23ee2a777b7",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bb28d685-2d4d-45b4-b614-b23ee2a777b7/",
+    "slug": "kosmos-2i-63s1-1ms-1",
+    "name": "Kosmos-2I 63S1 | 1MS 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:19:16Z",
+    "net": "1962-04-06T17:15:00Z",
+    "window_end": "1962-04-06T17:15:00Z",
+    "window_start": "1962-04-06T17:15:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3112,
+        "configuration": {
+            "id": 190,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/190/",
+            "name": "Kosmos-2I 63S1",
+            "family": "Kosmos",
+            "full_name": "Kosmos-2I",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1534,
+        "name": "1MS 1",
+        "description": "Cosmos 2 was the first 1MS satellite. It re-entered the atmosphere on August 19, 1963.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/100/",
+        "agency_id": null,
+        "name": "Mayak-2",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=48.569551,46.295814",
+        "latitude": "48.569551",
+        "longitude": "46.295814",
+        "location": {
+            "id": 30,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/30/",
+            "name": "Kapustin Yar, Russian Federation",
+            "country_code": "RUS",
+            "description": "Kapustin Yar is a Russian military training area and a rocket launch complex in Astrakhan Oblast, about 100 km east of Volgograd. It was established by the Soviet Union on 13 May 1946. In the beginning, Kapustin Yar used technology, material, and scientific support gained from the defeat of Germany in World War II. Numerous launches of test rockets for the Russian military were carried out at the site, as well as satellite and sounding rocket launches.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_30_20200803142515.jpg",
+            "timezone_name": "Europe/Volgograd",
+            "total_launch_count": 101,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_100_20200803143212.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kosmos-2i252063s1_image_20191201205435.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 154,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 29,
+    "orbital_launch_attempt_count_year": 12,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

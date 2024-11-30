@@ -1,0 +1,94 @@
+{
+    "id": "f0d2b3d7-d475-4912-bbd6-6869e4e13de1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f0d2b3d7-d475-4912-bbd6-6869e4e13de1/",
+    "slug": "kuaizhou-1a-yinhe-1",
+    "name": "Kuaizhou-1A | Yinhe-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-08T08:19:59Z",
+    "net": "2020-01-16T03:02:00Z",
+    "window_end": "2020-01-16T03:07:00Z",
+    "window_start": "2020-01-16T02:52:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 194,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/194/",
+        "name": "ExPace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2618,
+        "configuration": {
+            "id": 135,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/135/",
+            "name": "Kuaizhou",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-1A",
+            "variant": "1A"
+        }
+    },
+    "mission": {
+        "id": 1088,
+        "name": "Yinhe-1",
+        "description": "Yinhe 1 is technology demonstration mission for the planned 144 satellite global 5G communications constellation which is to be built by Chinese Galaxy Space company.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5926,
+    "location_launch_attempt_count": 123,
+    "pad_launch_attempt_count": 17,
+    "agency_launch_attempt_count": 8,
+    "orbital_launch_attempt_count_year": 4,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

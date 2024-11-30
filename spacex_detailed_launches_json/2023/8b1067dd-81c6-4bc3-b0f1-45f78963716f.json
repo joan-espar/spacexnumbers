@@ -1,0 +1,640 @@
+{
+    "id": "8b1067dd-81c6-4bc3-b0f1-45f78963716f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8b1067dd-81c6-4bc3-b0f1-45f78963716f/",
+    "slug": "falcon-heavy-viasat-3-americas-others",
+    "flightclub_url": "https://flightclub.io/result?llId=8b1067dd-81c6-4bc3-b0f1-45f78963716f",
+    "r_spacex_api_id": null,
+    "name": "Falcon Heavy | ViaSat-3 Americas & Others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-05-01T05:34:06Z",
+    "updates": [
+        {
+            "id": 3923,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Launch success.",
+            "info_url": "https://twitter.com/ViasatInc/status/1652905969335308288",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-01T05:34:06Z"
+        },
+        {
+            "id": 3921,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Liftoff.",
+            "info_url": "https://www.youtube.com/watch?v=YFbp6PVbJQA",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-05-01T00:26:51Z"
+        },
+        {
+            "id": 3920,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=YFbp6PVbJQA",
+            "created_by": "LL2",
+            "created_on": "2023-05-01T00:09:41Z"
+        },
+        {
+            "id": 3919,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Weather 95%",
+            "info_url": "https://twitter.com/SpaceX/status/1652817138099585025",
+            "created_by": "Jay",
+            "created_on": "2023-04-30T23:47:22Z"
+        },
+        {
+            "id": 3918,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Adding T-0 precision",
+            "info_url": null,
+            "created_by": "Nosu",
+            "created_on": "2023-04-30T23:26:52Z"
+        },
+        {
+            "id": 3917,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Targeting the end of the launch window due to ground winds",
+            "info_url": "https://twitter.com/SpaceX/status/1652782872460140544",
+            "created_by": "Jay",
+            "created_on": "2023-04-30T21:17:45Z"
+        },
+        {
+            "id": 3915,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Weather 80% GO.",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20Viasat-3_1%20L-1%20Forecast%20-%2029%20Apr%20Launch.pdf?ver=R0SbHRAWG07s7XU1sRWEUw%3d%3d",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-29T04:47:08Z"
+        },
+        {
+            "id": 3914,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET April 30",
+            "info_url": "https://twitter.com/spacex/status/1652168899771920385",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-29T04:38:30Z"
+        },
+        {
+            "id": 3913,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET April 30",
+            "info_url": "https://twitter.com/spacex/status/1652168899771920385",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-29T04:38:20Z"
+        },
+        {
+            "id": 3911,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Scrubbed for the day.",
+            "info_url": "https://www.youtube.com/watch?v=joqNT2amTpQ",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-29T00:33:46Z"
+        },
+        {
+            "id": 3910,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Hold.",
+            "info_url": "https://www.youtube.com/watch?v=joqNT2amTpQ",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-29T00:25:42Z"
+        },
+        {
+            "id": 3909,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+            "comment": "Livestream has started",
+            "info_url": "https://www.youtube.com/watch?v=joqNT2amTpQ",
+            "created_by": "LL2",
+            "created_on": "2023-04-29T00:06:16Z"
+        },
+        {
+            "id": 3908,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "New T-0",
+            "info_url": "https://twitter.com/spacex/status/1652077996977827841?s=61&t=MY809gRyiRKJkNWJgFMYKw",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-28T22:33:11Z"
+        },
+        {
+            "id": 3905,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Weather 50-70% GO.",
+            "info_url": "https://twitter.com/spacex/status/1652064421924212736",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-28T21:40:26Z"
+        },
+        {
+            "id": 3901,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Setting GO",
+            "info_url": "https://twitter.com/SpaceX/status/1651947742783209473",
+            "created_by": "Jay",
+            "created_on": "2023-04-28T13:56:34Z"
+        },
+        {
+            "id": 3899,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Standing down from today's attempt due to weather",
+            "info_url": "https://twitter.com/SpaceX/status/1651723569230135296",
+            "created_by": "Jay",
+            "created_on": "2023-04-27T23:04:51Z"
+        },
+        {
+            "id": 3898,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Targeting the end of the launch window as teams continue to monitor weather conditions",
+            "info_url": "https://twitter.com/SpaceX/status/1651713672329437184",
+            "created_by": "Jay",
+            "created_on": "2023-04-27T22:26:52Z"
+        },
+        {
+            "id": 3896,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Weather 20% GO.",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20Viasat-3_1%20L-0%20Forecast%20-%2027%20Apr%20Launch.pdf?ver=frm-AmQGUCKZkaD57GZ3fw%3d%3d",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-27T14:58:05Z"
+        },
+        {
+            "id": 3888,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "24 hours delay for more data reviews.",
+            "info_url": "https://twitter.com/SpaceX/status/1651247783238828033",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-26T15:39:28Z"
+        },
+        {
+            "id": 3883,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Updated launch window; added live stream.",
+            "info_url": "https://www.youtube.com/watch?v=joqNT2amTpQ",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-26T11:58:47Z"
+        },
+        {
+            "id": 3881,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Weather 60%",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20Viasat-3_1%20L-1%20Forecast%20-%2026%20Apr%20Launch.pdf",
+            "created_by": "Nosu",
+            "created_on": "2023-04-25T18:58:54Z"
+        },
+        {
+            "id": 3876,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "GO for launch.",
+            "info_url": "https://www.viasat.com/about/viasat-3/",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-25T15:08:36Z"
+        },
+        {
+            "id": 3863,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Weather 40%",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20Viasat-3_1%20L-2%20Forecast%20-%2026%20Apr%20Launch.pdf?ver=bwBM6LMV5b0Pw2KSyrec-g%3d%3d",
+            "created_by": "Jay",
+            "created_on": "2023-04-24T17:05:15Z"
+        },
+        {
+            "id": 3861,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Weather 30% GO.",
+            "info_url": "https://www.patrick.spaceforce.mil/Portals/14/Weather/Falcon%20Heavy%20Viasat-3_1%20L-3%20Forecast%20-%2026%20Apr%20Launch.pdf",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-24T04:04:41Z"
+        },
+        {
+            "id": 3825,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET April 26.",
+            "info_url": "https://twitter.com/spacex/status/1648001245767155713",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-17T16:37:54Z"
+        },
+        {
+            "id": 3815,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Refined launch window.",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-16T06:07:42Z"
+        },
+        {
+            "id": 3803,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Slip to NET April 24",
+            "info_url": "https://www.fly.faa.gov/adv/adv_spt.jsp",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-14T23:53:52Z"
+        },
+        {
+            "id": 3787,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "GO for launch.",
+            "info_url": "https://twitter.com/spacex/status/1646554954814099457",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-13T16:51:01Z"
+        },
+        {
+            "id": 3776,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added launch window.",
+            "info_url": "https://www.fly.faa.gov/adv/adv_spt.jsp",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-04-11T04:04:21Z"
+        },
+        {
+            "id": 3688,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Updating T-0",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Nosu",
+            "created_on": "2023-03-28T15:30:25Z"
+        },
+        {
+            "id": 3668,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added back launch window for April 18.",
+            "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-03-25T17:24:07Z"
+        },
+        {
+            "id": 3665,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Delayed to NET April 18",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=46655.msg2469457#msg2469457",
+            "created_by": "Nosu",
+            "created_on": "2023-03-25T09:53:29Z"
+        },
+        {
+            "id": 3340,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "Added launch time",
+            "info_url": "https://spaceflightnow.com/launch-schedule/",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-02-17T03:46:04Z"
+        },
+        {
+            "id": 3283,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "NET week of April 8th",
+            "info_url": "https://investors.viasat.com/static-files/caaaea6a-6f1e-460e-9f57-ad6ddb2353de",
+            "created_by": "Jay",
+            "created_on": "2023-02-07T21:52:43Z"
+        },
+        {
+            "id": 3215,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET March 24",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=46655.msg2452101#msg2452101",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2023-01-25T06:56:52Z"
+        },
+        {
+            "id": 2774,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+            "comment": "NET early January 2023",
+            "info_url": "https://forum.nasaspaceflight.com/index.php?topic=46655.msg2424496#msg2424496",
+            "created_by": "Cosmic_Penguin",
+            "created_on": "2022-11-08T15:59:04Z"
+        },
+        {
+            "id": 2217,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/nosudrum_profile_20210217201305.jpg",
+            "comment": "Targeting Q4 2022",
+            "info_url": "https://investors.viasat.com/static-files/dc52e5ee-f094-4e7e-9a31-d380a4bb9bd2",
+            "created_by": "Nosu",
+            "created_on": "2022-08-10T09:01:27Z"
+        },
+        {
+            "id": 1251,
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/profile_images/jay2520keegan_profile_20221218022555.jpg",
+            "comment": "Launch delayed due to payload readiness issues.",
+            "info_url": "https://twitter.com/thesheetztweetz/status/1489609711498547207",
+            "created_by": "Jay",
+            "created_on": "2022-02-04T17:05:17Z"
+        }
+    ],
+    "net": "2023-05-01T00:26:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "window_end": "2023-05-01T00:26:00Z",
+    "window_start": "2023-04-30T23:29:00Z",
+    "probability": 95,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 248,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 238,
+        "failed_launches": 10,
+        "pending_launches": 111,
+        "consecutive_successful_landings": 117,
+        "successful_landings": 199,
+        "failed_landings": 17,
+        "attempted_landings": 216,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2142,
+        "configuration": {
+            "id": 161,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/161/",
+            "name": "Falcon Heavy",
+            "active": true,
+            "reusable": true,
+            "description": "The Falcon Heavy is a variant of the Falcon 9 full thrust launch vehicle and consists of a standard Falcon 9 rocket core; with two additional boosters derived from the Falcon 9 first stage.",
+            "family": "Falcon",
+            "full_name": "Falcon Heavy",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 248,
+                "consecutive_successful_launches": 9,
+                "successful_launches": 238,
+                "failed_launches": 10,
+                "pending_launches": 111,
+                "consecutive_successful_landings": 117,
+                "successful_landings": 199,
+                "failed_landings": 17,
+                "attempted_landings": 216,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [],
+            "variant": "Heavy",
+            "alias": "",
+            "min_stage": 3,
+            "max_stage": 3,
+            "length": 70,
+            "diameter": 12.2,
+            "maiden_flight": "2018-02-06",
+            "launch_cost": "90000000",
+            "launch_mass": 1400,
+            "leo_capacity": 63800,
+            "gto_capacity": 26700,
+            "to_thrust": 22819,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_heavy_image_20220129192819.jpeg",
+            "info_url": "http://www.spacex.com/falcon-heavy",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_Heavy",
+            "total_launch_count": 6,
+            "consecutive_successful_launches": 6,
+            "successful_launches": 6,
+            "failed_launches": 0,
+            "pending_launches": 8
+        },
+        "launcher_stage": [
+            {
+                "id": 221,
+                "type": "Core",
+                "reused": false,
+                "launcher_flight_number": 1,
+                "launcher": {
+                    "id": 108,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/108/",
+                    "details": "Falcon Heavy core booster expended on its first flight as part of the ViaSat-3 Americas mission.",
+                    "flight_proven": true,
+                    "serial_number": "B1068",
+                    "status": "expended",
+                    "image_url": null,
+                    "successful_landings": 0,
+                    "attempted_landings": 0,
+                    "flights": 1,
+                    "last_launch_date": "2023-05-01T00:26:00Z",
+                    "first_launch_date": "2023-05-01T00:26:00Z"
+                },
+                "landing": {
+                    "id": 254,
+                    "attempt": false,
+                    "success": null,
+                    "description": "B1068 will be expended after its first flight.",
+                    "location": {
+                        "id": 6,
+                        "name": "Atlantic Ocean",
+                        "abbrev": "ATL",
+                        "description": "Atlantic Ocean",
+                        "location": null,
+                        "successful_landings": 0
+                    },
+                    "type": {
+                        "id": 3,
+                        "name": "Ocean",
+                        "abbrev": "Ocean",
+                        "description": "No recovery attempt"
+                    }
+                },
+                "previous_flight_date": null,
+                "turn_around_time_days": 0,
+                "previous_flight": null
+            },
+            {
+                "id": 223,
+                "type": "Strap-On Booster",
+                "reused": true,
+                "launcher_flight_number": 3,
+                "launcher": {
+                    "id": 59,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/59/",
+                    "details": "Stage Expended",
+                    "flight_proven": true,
+                    "serial_number": "B1053",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/59_image_20191115083445.jpeg",
+                    "successful_landings": 2,
+                    "attempted_landings": 2,
+                    "flights": 3,
+                    "last_launch_date": "2023-05-01T00:26:00Z",
+                    "first_launch_date": "2019-04-11T22:35:00Z"
+                },
+                "landing": {
+                    "id": 252,
+                    "attempt": false,
+                    "success": null,
+                    "description": "B1053 will be expended following its third flight.",
+                    "location": {
+                        "id": 6,
+                        "name": "Atlantic Ocean",
+                        "abbrev": "ATL",
+                        "description": "Atlantic Ocean",
+                        "location": null,
+                        "successful_landings": 0
+                    },
+                    "type": {
+                        "id": 3,
+                        "name": "Ocean",
+                        "abbrev": "Ocean",
+                        "description": "No recovery attempt"
+                    }
+                },
+                "previous_flight_date": "2019-06-25T06:30:00Z",
+                "turn_around_time_days": 1405,
+                "previous_flight": {
+                    "id": "0a0a1326-c772-4027-8dc2-365b716f6691",
+                    "name": "Falcon Heavy | STP-2"
+                }
+            },
+            {
+                "id": 222,
+                "type": "Strap-On Booster",
+                "reused": true,
+                "launcher_flight_number": 8,
+                "launcher": {
+                    "id": 58,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/58/",
+                    "details": "Stage Expended",
+                    "flight_proven": true,
+                    "serial_number": "B1052",
+                    "status": "expended",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/58_image_20220202001612.jpeg",
+                    "successful_landings": 7,
+                    "attempted_landings": 7,
+                    "flights": 8,
+                    "last_launch_date": "2023-05-01T00:26:00Z",
+                    "first_launch_date": "2019-04-11T22:35:00Z"
+                },
+                "landing": {
+                    "id": 253,
+                    "attempt": false,
+                    "success": null,
+                    "description": "B1052 will be expended following its 8th flight.",
+                    "location": {
+                        "id": 6,
+                        "name": "Atlantic Ocean",
+                        "abbrev": "ATL",
+                        "description": "Atlantic Ocean",
+                        "location": null,
+                        "successful_landings": 0
+                    },
+                    "type": {
+                        "id": 3,
+                        "name": "Ocean",
+                        "abbrev": "Ocean",
+                        "description": "No recovery attempt"
+                    }
+                },
+                "previous_flight_date": "2022-09-05T02:09:40Z",
+                "turn_around_time_days": 237,
+                "previous_flight": {
+                    "id": "84bf3b54-96ca-4ac4-bbaf-e25ed03e831c",
+                    "name": "Falcon 9 Block 5 | Starlink Group 4-20 & Varuna-TDM"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 699,
+        "name": "ViaSat-3 Americas & Others",
+        "description": "The ViaSat-3 is a series of three Ka-band satellites is expected to provide vastly superior capabilities in terms of service speed and flexibility for a satellite platform. Each ViaSat-3 class satellite is expected to deliver more than 1-Terabit per second of network capacity; and to leverage high levels of flexibility to dynamically direct capacity to where customers are located.  Also onboard this mission is Astranis's first MicroGEO satellite and Gravity Space\u2019s GS-1 satellite.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        }
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681;-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 219,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 161,
+        "orbital_launch_attempt_count": 160
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 9,
+            "title": "ViaSat-3 Americas Mission",
+            "description": "SpaceX is targeting Sunday; April 30 for a Falcon Heavy launch of the ViaSat-3 Americas mission to geostationary orbit from Launch Complex 39A (LC-39A) at NA...",
+            "feature_image": "https://i.ytimg.com/vi/YFbp6PVbJQA/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=YFbp6PVbJQA"
+        },
+        {
+            "priority": 9,
+            "title": "ViaSat-3 Americas Mission",
+            "description": "SpaceX is targeting Sunday; April 30 for a Falcon Heavy launch of the ViaSat-3 Americas mission to geostationary orbit from Launch Complex 39A (LC-39A) at NA...",
+            "feature_image": "https://i.ytimg.com/vi/YFbp6PVbJQA/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=YFbp6PVbJQA"
+        },
+        {
+            "priority": 10,
+            "title": "ViaSat-3 Americas Mission",
+            "description": "SpaceX is targeting Wednesday; April 26 for a Falcon Heavy launch of the ViaSat-3 Americas mission to geostationary orbit from Launch Complex 39A (LC-39A) at...",
+            "feature_image": "https://i.ytimg.com/vi/joqNT2amTpQ/maxresdefault_live.jpg",
+            "url": "https://www.youtube.com/watch?v=joqNT2amTpQ"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520heav_image_20230426123306.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6422,
+    "location_launch_attempt_count": 218,
+    "pad_launch_attempt_count": 160,
+    "agency_launch_attempt_count": 242,
+    "orbital_launch_attempt_count_year": 64,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 29,
+    "mission_patches": []
+}

@@ -1,0 +1,94 @@
+{
+    "id": "f53e5b9f-8b42-4097-8316-673c550cc7eb",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f53e5b9f-8b42-4097-8316-673c550cc7eb/",
+    "slug": "ariane-44p-n-star-a",
+    "name": "Ariane 44P | N-STAR a",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:22:18Z",
+    "net": "1995-08-29T06:41:00Z",
+    "window_end": "1995-08-29T06:41:00Z",
+    "window_start": "1995-08-29T06:41:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 6679,
+        "configuration": {
+            "id": 227,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/227/",
+            "name": "Ariane 44P",
+            "family": "Ariane",
+            "full_name": "Ariane 44P",
+            "variant": "44P"
+        }
+    },
+    "mission": {
+        "id": 5069,
+        "name": "N-STAR a",
+        "description": "Two Space Systems/Loral (SS/L) satellites with the highest capacity of any commercial payloads in space were delivered on orbit in 1995 and 1996 and are now providing a variety of fixed and mobile domestic communications services to customers throughout Japan. These satellites, N-STAR-a and -b, replace the service of the SS/L CS satellites, which have now exceeded their expected lifetimes, and will also provide significant new services, which range from providing alternate routes for telephony, to emergency communications, to marine and terrestrial mobile services, and ISDN.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/124/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 2",
+        "description": "The ELA-2 pad, built in 1986, had been used for Ariane 4 launches from 1988 until 2003. Before 1988, although purpose-built for Ariane 4, the pad hosted an Ariane-2 and two Ariane-3 launches.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/ELA-2",
+        "map_url": "https://www.google.com/maps?q=5.232,-52.778194",
+        "latitude": "5.232",
+        "longitude": "-52.778194",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_124_20200803143241.jpg",
+        "total_launch_count": 119,
+        "orbital_launch_attempt_count": 119
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_44p_at_e_image_20240401083030.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4010,
+    "location_launch_attempt_count": 86,
+    "pad_launch_attempt_count": 52,
+    "agency_launch_attempt_count": 76,
+    "orbital_launch_attempt_count_year": 49,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

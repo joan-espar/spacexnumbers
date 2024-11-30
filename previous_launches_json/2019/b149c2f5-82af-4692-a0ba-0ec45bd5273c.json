@@ -1,0 +1,94 @@
+{
+    "id": "b149c2f5-82af-4692-a0ba-0ec45bd5273c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b149c2f5-82af-4692-a0ba-0ec45bd5273c/",
+    "slug": "sarge-launch-4",
+    "name": "SARGE | Launch 4",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T09:48:57Z",
+    "net": "2019-10-26T17:40:15Z",
+    "window_end": "2019-10-26T17:40:15Z",
+    "window_start": "2019-10-26T17:40:15Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1001,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1001/",
+        "name": "EXOS Aerospace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2569,
+        "configuration": {
+            "id": 197,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/197/",
+            "name": "SARGE",
+            "family": "",
+            "full_name": "SARGE",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 1048,
+        "name": "SARGE Launch 4",
+        "description": "The 4th launch of EXOS Aerospace's reusable launch vehicle.",
+        "launch_designator": null,
+        "type": "Suborbital",
+        "orbit": {
+            "id": 15,
+            "name": "Suborbital",
+            "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 105,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/105/",
+        "agency_id": 1001,
+        "name": "Vertical Launch Area",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=32.9901856,-106.9750602",
+        "latitude": "32.9901856",
+        "longitude": "-106.9750602",
+        "location": {
+            "id": 31,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/31/",
+            "name": "Spaceport America, NM, USA",
+            "country_code": "USA",
+            "description": "Spaceport America is an FAA-licensed spaceport located in the Jornada del Muerto desert basin north of Las Cruces, New Mexico, and southeast of Truth or Consequences. With Virgin Galactic's launch of the VSS Unity, with three people aboard, on May 22, 2021, New Mexico became the third US state to launch humans into space after California and Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_31_20200803142505.jpg",
+            "timezone_name": "America/Denver",
+            "total_launch_count": 4,
+            "total_landing_count": 4
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_105_20200803143432.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 0
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sarge_image_20191026175316.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": null,
+    "location_launch_attempt_count": 4,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 4,
+    "orbital_launch_attempt_count_year": 0,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

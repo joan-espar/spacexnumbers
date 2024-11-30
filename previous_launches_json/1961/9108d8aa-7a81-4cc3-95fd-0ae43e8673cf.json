@@ -1,0 +1,80 @@
+{
+    "id": "9108d8aa-7a81-4cc3-95fd-0ae43e8673cf",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9108d8aa-7a81-4cc3-95fd-0ae43e8673cf/",
+    "slug": "juno-ii-s-45",
+    "name": "Juno II | S-45",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T17:40:22Z",
+    "net": "1961-02-25T00:13:16Z",
+    "window_end": "1961-02-25T00:13:16Z",
+    "window_start": "1961-02-25T00:13:16Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Third stage failed to ignite.",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 271,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/271/",
+        "name": "Army Ballistic Missile Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2369,
+        "configuration": {
+            "id": 188,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/188/",
+            "name": "Juno II",
+            "family": "",
+            "full_name": "Juno II",
+            "variant": ""
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 97,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/97/",
+        "agency_id": 161,
+        "name": "Launch Complex 26B",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_26",
+        "map_url": "https://www.google.com/maps?q=28.4433,-80.5712",
+        "latitude": "28.4433",
+        "longitude": "-80.5712",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_97_20200803143224.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/juno2520ii_image_20191201204701.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 101,
+    "location_launch_attempt_count": 54,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 10,
+    "orbital_launch_attempt_count_year": 101,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

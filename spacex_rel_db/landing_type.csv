@@ -1,0 +1,5 @@
+id,name,abbrev,description
+1,Autonomous Spaceport Drone Ship,ASDS,An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge; outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory.
+2,Return to Launch Site,RTLS,A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site; landing near where it initially launched from.
+3,Ocean,Ocean,No recovery attempt
+8,Expended,EXP,Vehicle did not perform any landing operations after launch

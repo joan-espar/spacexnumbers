@@ -1,0 +1,94 @@
+{
+    "id": "f8c7055d-4f4a-458e-b337-cde120965f73",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f8c7055d-4f4a-458e-b337-cde120965f73/",
+    "slug": "long-march-3a-dfh-3",
+    "name": "Long March 3A | DFH-3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:53:45Z",
+    "net": "1994-11-29T17:02:00Z",
+    "window_end": "1994-11-29T17:02:00Z",
+    "window_start": "1994-11-29T17:02:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 189,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/189/",
+        "name": "China Aerospace Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6630,
+        "configuration": {
+            "id": 71,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/71/",
+            "name": "Long March 3A",
+            "family": "Long March",
+            "full_name": "Long March 3A",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 5020,
+        "name": "DFH-3",
+        "description": "The DFH-3 satellite is a medium-capacity geostationary communications satellite based on the DFH-3 Bus (three-axis-stabilized telecommunications satellite platform). The 2200 kg satellite carries 24 C-band transponders, providing six television channels and 18 communications transmission channels. It has a power supply of 2 kW and a design life of 8 years.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245564,102.026751",
+        "latitude": "28.245564",
+        "longitude": "102.026751",
+        "location": {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+            "name": "Xichang Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 214,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 113,
+        "orbital_launch_attempt_count": 113
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203a_image_20190222031143.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3951,
+    "location_launch_attempt_count": 15,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 83,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "21b5e558-b6d4-430d-b358-86ab20807d3c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/21b5e558-b6d4-430d-b358-86ab20807d3c/",
+    "slug": "long-march-4c-yaogan-weixing-8",
+    "name": "Long March 4C | Yaogan Weixing 8",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:42:35Z",
+    "net": "2009-12-15T02:31:05Z",
+    "window_end": "2009-12-15T02:31:05Z",
+    "window_start": "2009-12-15T02:31:05Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7414,
+        "configuration": {
+            "id": 64,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/64/",
+            "name": "Long March 4C",
+            "family": "Long March",
+            "full_name": "Long March 4C",
+            "variant": "C"
+        }
+    },
+    "mission": {
+        "id": 5803,
+        "name": "Yaogan Weixing 8",
+        "description": "Believed to be a surveillance satellite to track and locate naval ships.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 25,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/25/",
+        "agency_id": null,
+        "name": "Launch Complex 9",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=38.863128,111.589567",
+        "latitude": "38.863128",
+        "longitude": "111.589567",
+        "location": {
+            "id": 19,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+            "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 135,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_25_20200803143501.jpg",
+        "total_launch_count": 75,
+        "orbital_launch_attempt_count": 75
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5029,
+    "location_launch_attempt_count": 32,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 67,
+    "orbital_launch_attempt_count_year": 75,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

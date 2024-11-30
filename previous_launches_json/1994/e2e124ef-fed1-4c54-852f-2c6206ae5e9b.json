@@ -1,0 +1,94 @@
+{
+    "id": "e2e124ef-fed1-4c54-852f-2c6206ae5e9b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e2e124ef-fed1-4c54-852f-2c6206ae5e9b/",
+    "slug": "atlas-iia-orion-1",
+    "name": "Atlas IIA | Orion 1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:39:59Z",
+    "net": "1994-11-29T10:21:02Z",
+    "window_end": "1994-11-29T10:21:02Z",
+    "window_start": "1994-11-29T10:21:02Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 6629,
+        "configuration": {
+            "id": 254,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/254/",
+            "name": "Atlas IIA",
+            "family": "Atlas",
+            "full_name": "Atlas IIA",
+            "variant": "IIA"
+        }
+    },
+    "mission": {
+        "id": 5019,
+        "name": "Orion 1",
+        "description": "The Orion 1 telecommunications satellite, launched in November 1994, was the first purchase of a European satellite by a US-based company. Its 34 Ku-band transponders serve Europe, the United States to the Rocky Mountains and parts of Canada and Mexico, providing video for broadcast and business television, high-speed Internet access and multimedia services, broadband and data networking.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/121/",
+        "agency_id": 161,
+        "name": "Launch Complex 36A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_36",
+        "map_url": "https://www.google.com/maps?q=28.4705556,-80.542194",
+        "latitude": "28.4705556",
+        "longitude": "-80.542194",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_121_20200803143231.jpg",
+        "total_launch_count": 68,
+        "orbital_launch_attempt_count": 68
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 3950,
+    "location_launch_attempt_count": 489,
+    "pad_launch_attempt_count": 37,
+    "agency_launch_attempt_count": 946,
+    "orbital_launch_attempt_count_year": 82,
+    "location_launch_attempt_count_year": 11,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 12,
+    "type": "normal"
+}

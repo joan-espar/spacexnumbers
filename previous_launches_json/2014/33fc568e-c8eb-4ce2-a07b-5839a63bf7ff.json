@@ -1,0 +1,94 @@
+{
+    "id": "33fc568e-c8eb-4ce2-a07b-5839a63bf7ff",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/33fc568e-c8eb-4ce2-a07b-5839a63bf7ff/",
+    "slug": "proton-m-briz-m-ekspress-am6",
+    "name": "Proton-M Briz-M | Ekspress AM6",
+    "status": {
+        "id": 7,
+        "name": "Launch was a Partial Failure",
+        "abbrev": "Partial Failure",
+        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+    },
+    "last_updated": "2023-06-14T03:32:39Z",
+    "net": "2014-10-21T15:09:32Z",
+    "window_end": "2014-10-21T15:09:32Z",
+    "window_start": "2014-10-21T15:09:32Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "The payload was placed into a lower than planned orbit.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 96,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/96/",
+        "name": "Khrunichev State Research and Production Space Center",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1792,
+        "configuration": {
+            "id": 22,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/22/",
+            "name": "Proton-M Briz-M",
+            "family": "Proton / UR-500",
+            "full_name": "Proton-M Briz-M",
+            "variant": "Briz-M"
+        }
+    },
+    "mission": {
+        "id": 65,
+        "name": "Ekspress AM6",
+        "description": "Television and radio broadcasting, broadband Internet, multimedia services and mobile communications for the Russian Satellite Communications Co.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 7,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/7/",
+        "agency_id": null,
+        "name": "81/24 (81P)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=46.071001,62.984999",
+        "latitude": "46.071001",
+        "longitude": "62.984999",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1552,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_7_20200803143454.jpg",
+        "total_launch_count": 92,
+        "orbital_launch_attempt_count": 92
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m2520briz-m_image_20190224012317.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5415,
+    "location_launch_attempt_count": 1438,
+    "pad_launch_attempt_count": 79,
+    "agency_launch_attempt_count": 170,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 15,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 6,
+    "type": "normal"
+}

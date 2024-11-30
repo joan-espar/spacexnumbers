@@ -1,0 +1,94 @@
+{
+    "id": "ef852bc1-acb6-4300-bc16-6703047d5a4c",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ef852bc1-acb6-4300-bc16-6703047d5a4c/",
+    "slug": "soyuz-21vvolga-kosmos-2561-kosmos-2562",
+    "name": "Soyuz 2.1v/Volga | Kosmos 2561 & Kosmos 2562",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:11:05Z",
+    "net": "2022-10-21T19:20:15Z",
+    "window_end": "2022-10-21T21:00:00Z",
+    "window_start": "2022-10-21T19:00:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7655,
+        "configuration": {
+            "id": 60,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/60/",
+            "name": "Soyuz 2-1v",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2-1v Volga",
+            "variant": "Volga"
+        }
+    },
+    "mission": {
+        "id": 6173,
+        "name": "Kosmos 2561 & Kosmos 2562",
+        "description": "Unidentified classified satellites for the Russian military.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 85,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/85/",
+        "agency_id": 163,
+        "name": "43/4 (43R)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.92883,40.457098",
+        "latitude": "62.92883",
+        "longitude": "40.457098",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_85_20200803143554.jpg",
+        "total_launch_count": 321,
+        "orbital_launch_attempt_count": 321
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202-1v_image_20191122081651.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6324,
+    "location_launch_attempt_count": 1656,
+    "pad_launch_attempt_count": 312,
+    "agency_launch_attempt_count": 127,
+    "orbital_launch_attempt_count_year": 142,
+    "location_launch_attempt_count_year": 10,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

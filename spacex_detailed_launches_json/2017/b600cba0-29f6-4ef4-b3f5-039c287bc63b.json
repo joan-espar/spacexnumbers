@@ -1,0 +1,279 @@
+{
+    "id": "b600cba0-29f6-4ef4-b3f5-039c287bc63b",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b600cba0-29f6-4ef4-b3f5-039c287bc63b/",
+    "slug": "falcon-9-full-thrust-bulgariasat-1",
+    "flightclub_url": null,
+    "r_spacex_api_id": null,
+    "name": "Falcon 9 Full Thrust | BulgariaSat-1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-01-21T01:01:56Z",
+    "updates": [],
+    "net": "2017-06-23T19:10:00Z",
+    "net_precision": null,
+    "window_end": "2017-06-23T20:10:00Z",
+    "window_start": "2017-06-23T18:10:00Z",
+    "probability": 90,
+    "holdreason": null,
+    "failreason": null,
+    "hashtag": "#BulgariaSat1",
+    "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+        "total_launch_count": 249,
+        "consecutive_successful_launches": 10,
+        "successful_launches": 239,
+        "failed_launches": 10,
+        "pending_launches": 110,
+        "consecutive_successful_landings": 118,
+        "successful_landings": 200,
+        "failed_landings": 17,
+        "attempted_landings": 217,
+        "info_url": "http://www.spacex.com/",
+        "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+        "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+    },
+    "rocket": {
+        "id": 2013,
+        "configuration": {
+            "id": 55,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/55/",
+            "name": "Falcon 9",
+            "active": false,
+            "reusable": true,
+            "description": "The Full Thrust variants first stage includes all systems necessary for an operational re-use of stages while the second stage is operated as an expendable rocket stage.",
+            "family": "Falcon",
+            "full_name": "Falcon 9 Full Thrust",
+            "manufacturer": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp.; known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "launch_library_url": "https://launchlibrary.net/1.4/agency/121",
+                "total_launch_count": 249,
+                "consecutive_successful_launches": 10,
+                "successful_launches": 239,
+                "failed_launches": 10,
+                "pending_launches": 110,
+                "consecutive_successful_landings": 118,
+                "successful_landings": 200,
+                "failed_landings": 17,
+                "attempted_landings": 217,
+                "info_url": "http://www.spacex.com/",
+                "wiki_url": "http://en.wikipedia.org/wiki/SpaceX",
+                "logo_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/logo/spacex_logo_20220826094919.png",
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/spacex_image_20190207032501.jpeg",
+                "nation_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_nation/spacex_nation_20190207032501.jpeg"
+            },
+            "program": [
+                {
+                    "id": 11,
+                    "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+                    "name": "Commercial Resupply Services",
+                    "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights; covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+                    "agencies": [
+                        {
+                            "id": 44,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                            "name": "National Aeronautics and Space Administration",
+                            "type": "Government"
+                        },
+                        {
+                            "id": 257,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                            "name": "Northrop Grumman Space Systems",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 1020,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                            "name": "Sierra Nevada Corporation",
+                            "type": "Commercial"
+                        },
+                        {
+                            "id": 121,
+                            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                            "name": "SpaceX",
+                            "type": "Commercial"
+                        }
+                    ],
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/program_images/commercial2520_program_20201129212219.png",
+                    "start_date": "2008-12-23T00:00:00Z",
+                    "end_date": null,
+                    "info_url": null,
+                    "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+                    "mission_patches": []
+                }
+            ],
+            "variant": "Full Thrust",
+            "alias": "",
+            "min_stage": 2,
+            "max_stage": 2,
+            "length": 71,
+            "diameter": 3.65,
+            "maiden_flight": "2015-12-22",
+            "launch_cost": "50000000",
+            "launch_mass": 546,
+            "leo_capacity": 22800,
+            "gto_capacity": 8305,
+            "to_thrust": 6804,
+            "apogee": 200,
+            "vehicle_range": null,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+            "info_url": "http://www.spacex.com/falcon9",
+            "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+            "total_launch_count": 25,
+            "consecutive_successful_launches": 16,
+            "successful_launches": 24,
+            "failed_launches": 1,
+            "pending_launches": 0
+        },
+        "launcher_stage": [
+            {
+                "id": 37,
+                "type": "Core",
+                "reused": true,
+                "launcher_flight_number": 2,
+                "launcher": {
+                    "id": 37,
+                    "url": "https://ll.thespacedevs.com/2.2.0/launcher/37/",
+                    "details": "Retired.",
+                    "flight_proven": true,
+                    "serial_number": "B1029",
+                    "status": "retired",
+                    "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_core_images/37_image_20190226081059.jpeg",
+                    "successful_landings": 2,
+                    "attempted_landings": 2,
+                    "flights": 2,
+                    "last_launch_date": "2017-06-23T19:10:00Z",
+                    "first_launch_date": "2017-01-14T17:54:34Z"
+                },
+                "landing": {
+                    "id": 75,
+                    "attempt": true,
+                    "success": true,
+                    "description": "The first stage of the Falcon 9 landed on the ASDS; OCISLY, stationed of the east coast.",
+                    "location": {
+                        "id": 1,
+                        "name": "Of Course I Still Love You",
+                        "abbrev": "OCISLY",
+                        "description": "The second ASDS barge; Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                        "location": null,
+                        "successful_landings": 64
+                    },
+                    "type": {
+                        "id": 1,
+                        "name": "Autonomous Spaceport Drone Ship",
+                        "abbrev": "ASDS",
+                        "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge; outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+                    }
+                },
+                "previous_flight_date": "2017-01-14T17:54:34Z",
+                "turn_around_time_days": 160,
+                "previous_flight": {
+                    "id": "908879a4-f0da-4843-bd35-04eadd1dfb93",
+                    "name": "Falcon 9 Full Thrust | Iridium-1"
+                }
+            }
+        ],
+        "spacecraft_stage": null
+    },
+    "mission": {
+        "id": 421,
+        "name": "BulgariaSat-1",
+        "description": "BulgariaSat-1 is a geostationary communications satellite operated by Bulgaria Sat and manufactured by SSL. Its payload is composed of 30 Ku band BSS transponders and 2 Ku-band FSS transponders for fixed satellite services and high-definition television broadcasts. It is designed to deliver service for 15 years with a projected fuel life of over 20 years. BulgariaSat-1 is designed to provide direct-to-home television service and data communications services to the Balkans and other European regions.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        }
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681;-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center; FL, USA",
+            "country_code": "USA",
+            "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 219,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 161,
+        "orbital_launch_attempt_count": 160
+    },
+    "infoURLs": [],
+    "vidURLs": [
+        {
+            "priority": 0,
+            "title": "BulgariaSat-1 Launch Webcast",
+            "description": "SpaceX is targeting launch of BulgariaSat-1 from Launch Complex 39A (LC-39A) at NASA\u2019s Kennedy Space Center in Florida. The two-hour launch window opens on M...",
+            "feature_image": "https://i.ytimg.com/vi/Y8mLi-rRTh8/maxresdefault.jpg",
+            "url": "https://www.youtube.com/watch?v=Y8mLi-rRTh8"
+        }
+    ],
+    "webcast_live": false,
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon252092520full2520thrust_image_20190222031117.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5646,
+    "location_launch_attempt_count": 160,
+    "pad_launch_attempt_count": 103,
+    "agency_launch_attempt_count": 42,
+    "orbital_launch_attempt_count_year": 40,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 7,
+    "agency_launch_attempt_count_year": 8,
+    "mission_patches": [
+        {
+            "id": 536,
+            "name": "BulgariaSat-1 Patch",
+            "priority": 10,
+            "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/mission_patch_images/bulgariasat-12_mission_patch_20211031044144.png",
+            "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "id": "ad18f1d5-0cf8-49a1-a58b-ed36bee7af79",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ad18f1d5-0cf8-49a1-a58b-ed36bee7af79/",
+    "slug": "space-shuttle-challenger-ov-099-sts-51-f",
+    "name": "Space Shuttle Challenger / OV-099 | STS-51-F",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-13T18:55:00Z",
+    "net": "1985-07-29T21:00:00Z",
+    "window_end": "1985-07-29T21:00:00Z",
+    "window_start": "1985-07-29T21:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 192,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/192/",
+        "name": "Lockheed Space Operations Company",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 308,
+        "configuration": {
+            "id": 493,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/493/",
+            "name": "Space Shuttle",
+            "family": "",
+            "full_name": "Space Shuttle",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 649,
+        "name": "STS-51-F",
+        "description": "STS-51-F was the nineteenth flight of the shuttle program and the eighth flight of Space Shuttle Challenger. It flew in orbit for 8 days performing science in Spacelab 2.",
+        "launch_designator": null,
+        "type": "",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 87,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/87/",
+        "agency_id": 121,
+        "name": "Launch Complex 39A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39#Launch_Pad_39A",
+        "map_url": "https://www.google.com/maps?q=28.60822681,-80.60428186",
+        "latitude": "28.60822681",
+        "longitude": "-80.60428186",
+        "location": {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
+            "name": "Kennedy Space Center, FL, USA",
+            "country_code": "USA",
+            "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 247,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_87_20200803143537.jpg",
+        "total_launch_count": 189,
+        "orbital_launch_attempt_count": 188
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_shuttle_image_20230422074810.jpeg",
+    "infographic": null,
+    "program": [
+        {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/program/6/",
+            "name": "Space Shuttle",
+            "description": "The Space Shuttle program was the fourth human spaceflight program carried out by the National Aeronautics and Space Administration (NASA), which accomplished routine transportation for Earth-to-orbit crew and cargo from 1981 to 2011.",
+            "agencies": [
+                {
+                    "id": 44,
+                    "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                    "name": "National Aeronautics and Space Administration",
+                    "type": "Government"
+                }
+            ],
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520shutt_program_20200820202237.png",
+            "start_date": "1981-04-12T12:00:03Z",
+            "end_date": "2011-07-08T15:29:00Z",
+            "info_url": "https://www.nasa.gov/mission_pages/shuttle/main/index.html",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Shuttle_program",
+            "mission_patches": [],
+            "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+            }
+        }
+    ],
+    "orbital_launch_attempt_count": 2968,
+    "location_launch_attempt_count": 36,
+    "pad_launch_attempt_count": 31,
+    "agency_launch_attempt_count": 10,
+    "orbital_launch_attempt_count_year": 64,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

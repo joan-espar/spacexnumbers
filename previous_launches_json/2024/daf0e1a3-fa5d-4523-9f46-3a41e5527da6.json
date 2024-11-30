@@ -1,0 +1,129 @@
+{
+    "id": "daf0e1a3-fa5d-4523-9f46-3a41e5527da6",
+    "url": "https://lldev.thespacedevs.com/2.2.0/launch/daf0e1a3-fa5d-4523-9f46-3a41e5527da6/",
+    "slug": "sslv-eos-08microsat-2c",
+    "name": "SSLV | EOS-08/Microsat-2C",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-18T06:14:28Z",
+    "net": "2024-08-16T03:47:00Z",
+    "window_end": "2024-08-16T04:47:00Z",
+    "window_start": "2024-08-16T03:47:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://lldev.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8284,
+        "configuration": {
+            "id": 150,
+            "url": "https://lldev.thespacedevs.com/2.2.0/config/launcher/150/",
+            "name": "SSLV",
+            "family": "",
+            "full_name": "SSLV",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6865,
+        "name": "EOS-08/Microsat-2C",
+        "description": "Earth observation micro-satellite for ISRO designed to test new technologies for building an Earth observation satellite in a micro-satellite bus. The satellite hoists an Electro-Optical Infrared Payload (EOIR) for Earth observation, a Global Navigation Satellite System-Reflectometry payload (GNSS-R) for weather studies, and an UV Dosimeter to measure UV radiation in low Earth orbit.\r\nAlso flying is the cubesat Space Rickshaw-0.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 31,
+                "url": "https://lldev.thespacedevs.com/2.2.0/agencies/31/",
+                "name": "Indian Space Research Organization",
+                "featured": true,
+                "type": "Government",
+                "country_code": "IND",
+                "abbrev": "ISRO",
+                "description": "The Indian Space Research Organisation (ISRO) is the space agency of the Government of India headquartered in the city of Bangalore. Its vision is to \"harness space technology for national development while pursuing space science research and planetary exploration.\"",
+                "administrator": "Chairman: S. Somanath",
+                "founding_year": "1969",
+                "launchers": "PSLV | GSLV",
+                "spacecraft": "Gaganyaan",
+                "launch_library_url": null,
+                "total_launch_count": 91,
+                "consecutive_successful_launches": 13,
+                "successful_launches": 78,
+                "failed_launches": 13,
+                "pending_launches": 19,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.isro.gov.in/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Indian_Space_Research_Organization",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_logo_20190215225409.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_image_20190215225409.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_nation_20230624125733.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://lldev.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://lldev.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 95,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_liftoff_2_image_20240818061425.JPG",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6740,
+    "location_launch_attempt_count": 95,
+    "pad_launch_attempt_count": 59,
+    "agency_launch_attempt_count": 91,
+    "orbital_launch_attempt_count_year": 151,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

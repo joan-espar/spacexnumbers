@@ -1,0 +1,99 @@
+{
+    "id": "7d2a8b35-9abd-4b2b-aced-212f83b5aff9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d2a8b35-9abd-4b2b-aced-212f83b5aff9/",
+    "slug": "delta-ii-7925-phoenix",
+    "name": "Delta II 7925 | Phoenix",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:26:57Z",
+    "net": "2007-08-04T09:26:34Z",
+    "window_end": "2007-08-04T09:26:34Z",
+    "window_start": "2007-08-04T09:26:34Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 542,
+        "configuration": {
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/159/",
+            "name": "Delta II",
+            "family": "Delta",
+            "full_name": "Delta II 7925",
+            "variant": "7925"
+        }
+    },
+    "mission": {
+        "id": 538,
+        "name": "Phoenix",
+        "description": "A robotic spacecraft to land on mars under the Mars Scout Program. It studied environments suitable for life, and to research the history of water.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 6,
+            "name": "Heliocentric N/A",
+            "abbrev": "Helio-N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 14,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/14/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4472,-80.565",
+        "latitude": "28.4472",
+        "longitude": "-80.565",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_14_20200803143451.jpg",
+        "total_launch_count": 145,
+        "orbital_launch_attempt_count": 145
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520ii_image_20190222030440.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4853,
+    "location_launch_attempt_count": 648,
+    "pad_launch_attempt_count": 140,
+    "agency_launch_attempt_count": 7,
+    "orbital_launch_attempt_count_year": 36,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

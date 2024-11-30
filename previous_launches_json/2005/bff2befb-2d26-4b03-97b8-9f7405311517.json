@@ -1,0 +1,94 @@
+{
+    "id": "bff2befb-2d26-4b03-97b8-9f7405311517",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bff2befb-2d26-4b03-97b8-9f7405311517/",
+    "slug": "rokot-briz-km-cryosat",
+    "name": "Rokot / Briz-KM | CRYOSAT",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2023-06-14T03:31:48Z",
+    "net": "2005-10-08T15:02:00Z",
+    "window_end": "2005-10-08T15:02:00Z",
+    "window_start": "2005-10-08T15:02:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/117/",
+        "name": "Eurockot Launch Services",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7245,
+        "configuration": {
+            "id": 40,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/40/",
+            "name": "Rokot/Briz-KM",
+            "family": "Rokot",
+            "full_name": "Rokot/Briz-KM",
+            "variant": "Briz-KM"
+        }
+    },
+    "mission": {
+        "id": 5634,
+        "name": "CRYOSAT",
+        "description": "CryoSat-1 was launched from the Plesetsk Cosmodrome in Russia on October 8, 2005, using a Rockot launcher. (Rockot is a modified SS-19 rocket which was originally an ICBM designed to deliver nuclear weapons, but which Russia is now eliminating in accordance with the START treaties.) According to Mr. Yuri Bakhvalov, First Deputy Director General of the Khrunichev Space Centre, when the automatic command to switch off the second stage engine did not take effect, the second stage continued to operate until it ran out of fuel and as a consequence the planned separation of the third (Breeze-KM) stage of the rocket which carried the CryoSat satellite did not take place, and would thus have remained attached to the second stage. The upper rocket stages, together with the satellite, probably crashed in the Lincoln Sea. Analysis of the error revealed that it was caused by faults in the programming of the rocket, which had not been detected in simulations.",
+        "launch_designator": null,
+        "type": "Planetary Science",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 3,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/3/",
+        "agency_id": 163,
+        "name": "133/3 (133L)",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=62.886999,40.846984",
+        "latitude": "62.886999",
+        "longitude": "40.846984",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_3_20200803143438.jpg",
+        "total_launch_count": 159,
+        "orbital_launch_attempt_count": 159
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rokot25202f2520briz-km_image_20190224012237.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4737,
+    "location_launch_attempt_count": 1544,
+    "pad_launch_attempt_count": 135,
+    "agency_launch_attempt_count": 6,
+    "orbital_launch_attempt_count_year": 43,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

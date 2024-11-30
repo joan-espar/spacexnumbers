@@ -1,0 +1,94 @@
+{
+    "id": "91a152d3-2b18-4a18-b7c1-5402ae413003",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/91a152d3-2b18-4a18-b7c1-5402ae413003/",
+    "slug": "delta-2914-isee-1-2",
+    "name": "Delta 2914 | ISEE 1 & 2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:52Z",
+    "net": "1977-10-22T13:53:00Z",
+    "window_end": "1977-10-22T13:53:00Z",
+    "window_start": "1977-10-22T13:53:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4893,
+        "configuration": {
+            "id": 287,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/287/",
+            "name": "Delta 2914",
+            "family": "Delta",
+            "full_name": "Delta 2914",
+            "variant": "2914"
+        }
+    },
+    "mission": {
+        "id": 3309,
+        "name": "ISEE 1 & 2",
+        "description": "Highly eccentric multi-spacecraft astrophysics mission",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 1,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/1/",
+        "agency_id": null,
+        "name": "Space Launch Complex 17B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_17",
+        "map_url": "https://www.google.com/maps?q=28.4458,-80.5657",
+        "latitude": "28.4458",
+        "longitude": "-80.5657",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_1_20200803143208.jpg",
+        "total_launch_count": 132,
+        "orbital_launch_attempt_count": 132
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta_2910_image_20231231105214.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 2022,
+    "location_launch_attempt_count": 333,
+    "pad_launch_attempt_count": 61,
+    "agency_launch_attempt_count": 699,
+    "orbital_launch_attempt_count_year": 107,
+    "location_launch_attempt_count_year": 16,
+    "pad_launch_attempt_count_year": 5,
+    "agency_launch_attempt_count_year": 19,
+    "type": "normal"
+}

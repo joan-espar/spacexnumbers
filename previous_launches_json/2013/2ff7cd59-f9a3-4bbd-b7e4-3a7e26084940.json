@@ -1,0 +1,94 @@
+{
+    "id": "2ff7cd59-f9a3-4bbd-b7e4-3a7e26084940",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2ff7cd59-f9a3-4bbd-b7e4-3a7e26084940/",
+    "slug": "epsilon-hisaki-sprint-a",
+    "name": "Epsilon | Hisaki (SPRINT-A)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-02T17:03:04Z",
+    "net": "2013-09-14T05:00:00Z",
+    "window_end": "2013-09-14T05:00:00Z",
+    "window_start": "2013-09-14T05:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 1701,
+        "configuration": {
+            "id": 112,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/112/",
+            "name": "Epsilon",
+            "family": "Epsilon",
+            "full_name": "Epsilon",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6457,
+        "name": "Hisaki (SPRINT-A)",
+        "description": "Hisaki, also known as the Spectroscopic Planet Observatory for Recognition of Interaction of Atmosphere (SPRINT-A) is a Japanese ultraviolet astronomy satellite operated by the Japan Aerospace Exploration Agency (JAXA). Hisaki carries an extreme ultraviolet spectrometer which will be used to study the composition of the atmospheres and the behavior of the magnetospheres of the planets of the Solar System.",
+        "launch_designator": null,
+        "type": "Astrophysics",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 47,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/47/",
+        "agency_id": 37,
+        "name": "Mu Center",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Uchinoura_Space_Center",
+        "map_url": "https://www.google.com/maps?q=31.2509794,131.0821319",
+        "latitude": "31.2509794",
+        "longitude": "131.0821319",
+        "location": {
+            "id": 24,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/24/",
+            "name": "Uchinoura Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Uchinoura Space Center is a space launch facility in the Japanese town of Kimotsuki, Kagoshima Prefecture. All of Japan's scientific satellites were launched from Uchinoura prior to the M-V launch vehicles being decommissioned in 2006. It continues to be used for suborbital launches, stratospheric balloons and has also been used for the Epsilon orbital launch vehicle. Additionally, the center has antennas for communication with interplanetary space probes.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_24_20200803142411.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 43,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_47_20200803143524.jpg",
+        "total_launch_count": 36,
+        "orbital_launch_attempt_count": 36
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/epsilon_image_20221009075145.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5319,
+    "location_launch_attempt_count": 36,
+    "pad_launch_attempt_count": 31,
+    "agency_launch_attempt_count": 27,
+    "orbital_launch_attempt_count_year": 51,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

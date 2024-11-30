@@ -1,0 +1,94 @@
+{
+    "id": "706f414a-a817-471d-9fe8-edb155a61fe1",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/706f414a-a817-471d-9fe8-edb155a61fe1/",
+    "slug": "voskhod-zenit-4m-11",
+    "name": "Voskhod | Zenit-4M 11",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:51:46Z",
+    "net": "1971-02-18T13:59:59Z",
+    "window_end": "1971-02-18T13:59:59Z",
+    "window_start": "1971-02-18T13:59:59Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/66/",
+        "name": "Soviet Space Program",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 4105,
+        "configuration": {
+            "id": 104,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/104/",
+            "name": "Voskhod",
+            "family": "R-7",
+            "full_name": "Voskhod",
+            "variant": "Voskhod"
+        }
+    },
+    "mission": {
+        "id": 2523,
+        "name": "Zenit-4M 11",
+        "description": "The soviet Zenit-4M (Rotor, 11F691) was an improved version of the Zenit-4 high resolution reconnaissance satellite and was part of the Vostok-based Zenit-family.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 36,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/36/",
+        "agency_id": 163,
+        "name": "43/3 (43L)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.9273,40.45",
+        "latitude": "62.9273",
+        "longitude": "40.45",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1670,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_36_20200803143534.jpg",
+        "total_launch_count": 229,
+        "orbital_launch_attempt_count": 229
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 1187,
+    "location_launch_attempt_count": 167,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 549,
+    "orbital_launch_attempt_count_year": 16,
+    "location_launch_attempt_count_year": 6,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 8,
+    "type": "normal"
+}

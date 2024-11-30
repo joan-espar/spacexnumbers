@@ -1,0 +1,94 @@
+{
+    "id": "556fe0d2-567a-4074-a20e-ec1809a6277f",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/556fe0d2-567a-4074-a20e-ec1809a6277f/",
+    "slug": "soyuz-stbfregat-csg-1-cheops-others",
+    "name": "Soyuz STB/Fregat | CSG-1, CHEOPS, & others",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:08:36Z",
+    "net": "2019-12-18T08:54:20Z",
+    "window_end": "2019-12-18T08:54:20Z",
+    "window_start": "2019-12-18T08:54:20Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2606,
+        "configuration": {
+            "id": 171,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/171/",
+            "name": "Soyuz STB",
+            "family": "Soyuz",
+            "full_name": "Soyuz STB Fregat",
+            "variant": "STB/Fregat"
+        }
+    },
+    "mission": {
+        "id": 828,
+        "name": "CSG-1, CHEOPS, & others",
+        "description": "The COSMO-SkyMed Second Generation satellite (CSG-1) is an Earth observation spacecraft featuring state-of-the-art technologies and engineering solutions, further bolstering Italian leadership in this sector. It's one out of two satellites to replace the first generation COSMO-SkyMed system.\n\nThis second-generation system, including its ground segment, will set a new performance standard for space-based radar observation systems in terms of precision, image quality and the flexibility of user services. It is a dual (civil/military) system, designed to address the requirements of both commercial and government customers, as well as the scientific community. The COSMO-SkyMed Second Generation satellites are equipped with synthetic aperture radar (SAR), capable of observations under any weather or light conditions, day or night. \n\nThe Characterising Exoplanet Satellite (CHEOPS) is an ESA mission implemented in partnership \u00e2\u20ac\u201c in particular with Switzerland.\n\nCHEOPS is the first mission dedicated to studying bright, nearby stars that already are known to host  exoplanets in order to make high-precision observations of the planet's size as it passes in front of its host star. The spacecraft will focus on planets in the super-Earth to Neptune size range, with its data enabling the bulk density of the planets to be derived \u00e2\u20ac\u201c a first characterization step towards understanding these alien worlds.\n\nFlight also includes 3 auxiliary payloads: OPS-SAT, EyeSat, ANGELS.\n\nOPS-SAT is the world\u00e2\u20ac\u2122s first free-for-use, in-orbit test bed for new software, applications and techniques in satellite control. It enables new software to be tested in orbit. In the first year of operation, OPS-SAT will host over 100 in-flight experiments submitted from many ESA Member States.\n\nEyeSat is a 3U CubeSat designed to study the zodiacal light and image the Milky Way. It's fitted with an instrument called IRIS, which is a small space telescope.\n\nANGELS is a 12U CubeSat, and is the French industry\u00e2\u20ac\u2122s first nanosatellite. The satellite will be fitted with a miniaturized ARGOS N\u00c3\u00a9o instrument, which is 10-times smaller than the equivalent previous-generation device. The instrument collects and determines the position of low-power signals and messages sent by the 20,000 ARGOS beacons now in service worldwide.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 81,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/81/",
+        "agency_id": 115,
+        "name": "Soyuz Launch Complex",
+        "description": "The Ensemble de Lancement Soyouz (ELS)  is a launch complex at the Guiana Space Centre in Kourou/Sinnamary, French Guiana. It was used by Soyuz-ST rockets: modified versions of the Soyuz-2 optimised for launch from Kourou under Soyuz at the Guiana Space Centre programme.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Ensemble_de_Lancement_Soyouz",
+        "map_url": "https://www.google.com/maps?q=5.3019,-52.8346",
+        "latitude": "5.3019",
+        "longitude": "-52.8346",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_81_20200803143601.jpg",
+        "total_launch_count": 26,
+        "orbital_launch_attempt_count": 26
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_stb_image_20211130181029.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5917,
+    "location_launch_attempt_count": 297,
+    "pad_launch_attempt_count": 22,
+    "agency_launch_attempt_count": 282,
+    "orbital_launch_attempt_count_year": 97,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 9,
+    "type": "normal"
+}

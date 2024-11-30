@@ -1,0 +1,94 @@
+{
+    "id": "36bf2bad-839f-4aa6-9726-634be33e57aa",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/36bf2bad-839f-4aa6-9726-634be33e57aa/",
+    "slug": "electron-the-owl-spreads-its-wings-strix-1",
+    "name": "Electron | The Owl Spreads Its Wings (StriX-1)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-08-01T16:37:23Z",
+    "net": "2022-09-15T20:38:00Z",
+    "window_end": "2022-09-15T20:38:00Z",
+    "window_start": "2022-09-15T20:38:00Z",
+    "net_precision": null,
+    "probability": 80,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7568,
+        "configuration": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+            "name": "Electron",
+            "family": "",
+            "full_name": "Electron",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6124,
+        "name": "The Owl Spreads Its Wings (StriX 1)",
+        "description": "Second of three launches of a StriX satellite as part of Synspective\u2019s SAR constellation. StriX-1 can gather high resolution Earth observation data regardless of conditions or daylight, offering a resilient and effective resource for the purposes of urban development, infrastructure monitoring, and disaster response.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 185,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/185/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+            "id": 10,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+            "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+            "country_code": "NZL",
+            "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of M\u0101hia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+            "timezone_name": "Pacific/Auckland",
+            "total_launch_count": 51,
+            "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_185_20200803143540.jpg",
+        "total_launch_count": 24,
+        "orbital_launch_attempt_count": 24
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6299,
+    "location_launch_attempt_count": 30,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 30,
+    "orbital_launch_attempt_count_year": 117,
+    "location_launch_attempt_count_year": 7,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 7,
+    "type": "normal"
+}

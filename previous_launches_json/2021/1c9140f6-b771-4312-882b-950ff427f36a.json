@@ -1,0 +1,94 @@
+{
+    "id": "1c9140f6-b771-4312-882b-950ff427f36a",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1c9140f6-b771-4312-882b-950ff427f36a/",
+    "slug": "launcherone-tubular-bells-part-one",
+    "name": "LauncherOne | Tubular Bells, Part One",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:54:37Z",
+    "net": "2021-06-30T14:47:00Z",
+    "window_end": "2021-06-30T16:00:00Z",
+    "window_start": "2021-06-30T14:00:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 199,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/199/",
+        "name": "Virgin Orbit",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2421,
+        "configuration": {
+            "id": 141,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/141/",
+            "name": "LauncherOne",
+            "family": "",
+            "full_name": "LauncherOne",
+            "variant": "One"
+        }
+    },
+    "mission": {
+        "id": 1294,
+        "name": "Tubular Bells, Part One",
+        "description": "The mission includes three cubesats for US Department of Defense which are launched as a part of the DoS Space Test Program (STP); the Netherland's first military satellite, a cubesat called BRIK II; and two optical satellites, STORK-4 and STORK-5, for SatRevolution's STORK constellation.\r\nThe mission name, \"Tubular Bells, Part One\", references the first music album released by Virgin Records label in the 1970s. The label was established by Virgin Orbit CEO Richard Branson.",
+        "launch_designator": null,
+        "type": "Dedicated Rideshare",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 53,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/53/",
+        "agency_id": null,
+        "name": "Mojave Air and Space Port",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Mojave_Air_and_Space_Port",
+        "map_url": "https://www.google.com/maps?q=35.059444,-118.151667",
+        "latitude": "35.059444",
+        "longitude": "-118.151667",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_53_20200803143612.jpg",
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/launcherone_image_20200101110016.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6098,
+    "location_launch_attempt_count": 48,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 61,
+    "location_launch_attempt_count_year": 3,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}

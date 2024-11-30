@@ -1,0 +1,94 @@
+{
+    "id": "534dff1b-24b3-4ec5-81fe-7160d03e12d6",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/534dff1b-24b3-4ec5-81fe-7160d03e12d6/",
+    "slug": "atlas-agena-d-vela-3a-3b",
+    "name": "Atlas Agena D | Vela 3A & 3B",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:23Z",
+    "net": "1965-07-20T08:27:00Z",
+    "window_end": "1965-07-20T08:27:00Z",
+    "window_start": "1965-07-20T08:27:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3420,
+        "configuration": {
+            "id": 232,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/232/",
+            "name": "Atlas Agena D",
+            "family": "Atlas",
+            "full_name": "Atlas LV-3 Agena D",
+            "variant": "Agena D"
+        }
+    },
+    "mission": {
+        "id": 1840,
+        "name": "Vela 3A & 3B",
+        "description": "The Vela (meaning \"watchman\" in Spanish) series of spacecraft were designed to monitor worldwide compliance with the 1963 nuclear test ban treaty.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 117,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/117/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 13",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Launch_Complex_13",
+        "map_url": "https://www.google.com/maps?q=28.4859,-80.546594",
+        "latitude": "28.4859",
+        "longitude": "-80.546594",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_117_20200803143223.jpg",
+        "total_launch_count": 21,
+        "orbital_launch_attempt_count": 21
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 459,
+    "location_launch_attempt_count": 148,
+    "pad_launch_attempt_count": 4,
+    "agency_launch_attempt_count": 273,
+    "orbital_launch_attempt_count_year": 66,
+    "location_launch_attempt_count_year": 22,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 42,
+    "type": "normal"
+}

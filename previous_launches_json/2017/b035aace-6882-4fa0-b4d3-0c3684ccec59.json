@@ -1,0 +1,94 @@
+{
+    "id": "b035aace-6882-4fa0-b4d3-0c3684ccec59",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b035aace-6882-4fa0-b4d3-0c3684ccec59/",
+    "slug": "minotaur-iv-ors-5",
+    "name": "Minotaur IV | ORS-5",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:42:47Z",
+    "net": "2017-08-26T06:04:00Z",
+    "window_end": "2017-08-26T07:15:00Z",
+    "window_start": "2017-08-26T03:15:00Z",
+    "net_precision": null,
+    "probability": 70,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 179,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/179/",
+        "name": "Orbital ATK",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2025,
+        "configuration": {
+            "id": 52,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/52/",
+            "name": "Minotaur IV",
+            "family": "Minotaur",
+            "full_name": "Minotaur IV",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 82,
+        "name": "ORS-5",
+        "description": "Also known as SensorSat, the Operationally Responsive Space 5 (ORS-5) will perform surveillance on geostationary (GEO) satellites. The craft will provide a stopgap for the existing space based surveillance system (SBSS), since full replacements are not expected until after 2020. With a mass of approximately 100kg the solar powered craft will operate in low earth orbit at an altitude of 600km.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 27,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/27/",
+        "agency_id": null,
+        "name": "Space Launch Complex 46",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Spaceport_Florida_Launch_Complex_46",
+        "map_url": "https://www.google.com/maps?q=28.4584,-80.5284",
+        "latitude": "28.4584",
+        "longitude": "-80.5284",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_27_20200803143319.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 5
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/minotaur_iv_lau_image_20240307170209.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5669,
+    "location_launch_attempt_count": 759,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 54,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

@@ -1,0 +1,99 @@
+{
+    "id": "3798c774-67aa-43f7-bf23-5cb9b8d831ef",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/3798c774-67aa-43f7-bf23-5cb9b8d831ef/",
+    "slug": "kuaizhou-1a-centispace-1-s1",
+    "name": "Kuaizhou-1A | Centispace-1-S1",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-06-15T13:30:43Z",
+    "net": "2018-09-29T04:13:30Z",
+    "window_end": "2018-09-29T04:36:00Z",
+    "window_start": "2018-09-29T04:05:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 194,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/194/",
+        "name": "ExPace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2132,
+        "configuration": {
+            "id": 135,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/135/",
+            "name": "Kuaizhou",
+            "family": "Kuaizhou",
+            "full_name": "Kuaizhou-1A",
+            "variant": "1A"
+        }
+    },
+    "mission": {
+        "id": 675,
+        "name": "CentiSpace-1-S1",
+        "description": "CentiSpace-1-S1 is an experimental satellite to test navigation and and positioning enhancement system being developed by Beijing Future Navigation Technology Co., Ltd.",
+        "launch_designator": null,
+        "type": "Navigation",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+            "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+            "country_code": "CHN",
+            "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 236,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 55,
+        "orbital_launch_attempt_count": 55
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5781,
+    "location_launch_attempt_count": 106,
+    "pad_launch_attempt_count": 6,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 75,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

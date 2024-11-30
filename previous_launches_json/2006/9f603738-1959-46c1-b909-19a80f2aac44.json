@@ -1,0 +1,94 @@
+{
+    "id": "9f603738-1959-46c1-b909-19a80f2aac44",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9f603738-1959-46c1-b909-19a80f2aac44/",
+    "slug": "pegasus-xl-st-5-fwd",
+    "name": "Pegasus XL | ST-5 FWD",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:55:13Z",
+    "net": "2006-03-22T14:03:45Z",
+    "window_end": "2006-03-22T14:03:45Z",
+    "window_start": "2006-03-22T14:03:45Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 100,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/100/",
+        "name": "Orbital Sciences Corporation",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 7259,
+        "configuration": {
+            "id": 173,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/173/",
+            "name": "Pegasus XL",
+            "family": "Pegasus",
+            "full_name": "Pegasus XL",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 5648,
+        "name": "ST-5 FWD",
+        "description": "NASA's three micro-sats were launched to test and validate new technologies for future science missions. ST5's objective was to demonstrate and flight qualify several innovative technologies and concepts for application to future space missions.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 62,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/62/",
+        "agency_id": null,
+        "name": "Vandenberg Space Force Base",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Force_Base",
+        "map_url": "https://www.google.com/maps?q=34.732778,-120.568056",
+        "latitude": "34.732778",
+        "longitude": "-120.568056",
+        "location": {
+            "id": 20,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/20/",
+            "name": "Air launch to orbit",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
+            "timezone_name": "",
+            "total_launch_count": 51,
+            "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_62_20200803143441.jpg",
+        "total_launch_count": 22,
+        "orbital_launch_attempt_count": 22
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4758,
+    "location_launch_attempt_count": 36,
+    "pad_launch_attempt_count": 18,
+    "agency_launch_attempt_count": 48,
+    "orbital_launch_attempt_count_year": 8,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

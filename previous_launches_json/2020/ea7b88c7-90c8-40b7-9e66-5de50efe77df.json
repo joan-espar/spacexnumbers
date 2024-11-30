@@ -1,0 +1,94 @@
+{
+    "id": "ea7b88c7-90c8-40b7-9e66-5de50efe77df",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ea7b88c7-90c8-40b7-9e66-5de50efe77df/",
+    "slug": "long-march-11-jilin-1-high-resolution-03b-01-06-03",
+    "name": "Long March 11 | Jilin-1 High Resolution 03B 01-06 & 03C 01-03",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-08-04T07:12:59Z",
+    "net": "2020-09-15T01:23:00Z",
+    "window_end": "2020-09-15T01:43:00Z",
+    "window_start": "2020-09-15T01:13:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2752,
+        "configuration": {
+            "id": 47,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/47/",
+            "name": "Long March 11",
+            "family": "Long March",
+            "full_name": "Long March 11",
+            "variant": "11"
+        }
+    },
+    "mission": {
+        "id": 1152,
+        "name": "Jilin-1 High Resolution 03B 01-06 & 03C 01-03",
+        "description": "Earth observation satellites for the Jilin-1 commercial Earth observation satellites constellation.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 144,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/144/",
+        "agency_id": 88,
+        "name": "DeBo 3 mobile launch platform",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=34.311667,123.761111",
+        "latitude": "34.311667",
+        "longitude": "123.761111",
+        "location": {
+            "id": 3,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
+            "name": "Sea Launch",
+            "country_code": "???",
+            "description": "",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
+            "timezone_name": "",
+            "total_launch_count": 53,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_144_20200803143251.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march252011_image_20190222031217.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 5995,
+    "location_launch_attempt_count": 41,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 293,
+    "orbital_launch_attempt_count_year": 73,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 23,
+    "type": "normal"
+}

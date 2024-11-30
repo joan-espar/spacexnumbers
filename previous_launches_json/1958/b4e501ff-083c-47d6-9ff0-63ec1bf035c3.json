@@ -1,0 +1,94 @@
+{
+    "id": "b4e501ff-083c-47d6-9ff0-63ec1bf035c3",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b4e501ff-083c-47d6-9ff0-63ec1bf035c3/",
+    "slug": "juno-i-explorer-3",
+    "name": "Juno-I | Explorer 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T17:40:21Z",
+    "net": "1958-03-26T17:38:01Z",
+    "window_end": "1958-03-26T17:38:01Z",
+    "window_start": "1958-03-26T17:38:01Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 271,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/271/",
+        "name": "Army Ballistic Missile Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 3010,
+        "configuration": {
+            "id": 324,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/324/",
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+        }
+    },
+    "mission": {
+        "id": 1435,
+        "name": "Explorer 3",
+        "description": "Small satellite launched into an eccentric orbit with a cosmic ray counter and a micrometeorite detector.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/193/",
+        "agency_id": 161,
+        "name": "Launch Complex 26A",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Launch_Complex_26",
+        "map_url": "https://www.google.com/maps?q=28.4433,-80.5712",
+        "latitude": "28.4433",
+        "longitude": "-80.5712",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_space_launch_complex_26a_20210830170946.jpg",
+        "total_launch_count": 3,
+        "orbital_launch_attempt_count": 3
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/juno_i_on_the_p_image_20240411120216.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 8,
+    "location_launch_attempt_count": 6,
+    "pad_launch_attempt_count": 3,
+    "agency_launch_attempt_count": 3,
+    "orbital_launch_attempt_count_year": 5,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 3,
+    "type": "normal"
+}

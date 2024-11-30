@@ -1,0 +1,94 @@
+{
+    "id": "dbab3ea3-e37f-4d1d-b5c1-abc49a59ef85",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dbab3ea3-e37f-4d1d-b5c1-abc49a59ef85/",
+    "slug": "ariane-5-gs-intelsat-11-optus-d2",
+    "name": "Ariane 5 GS | Intelsat 11 & Optus D2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T04:01:23Z",
+    "net": "2007-10-05T22:02:00Z",
+    "window_end": "2007-10-05T22:02:00Z",
+    "window_start": "2007-10-05T22:02:00Z",
+    "net_precision": null,
+    "probability": -1,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": null,
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 115,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+        "name": "Arianespace",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 548,
+        "configuration": {
+            "id": 149,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/149/",
+            "name": "Ariane 5 GS",
+            "family": "Ariane",
+            "full_name": "Ariane 5 GS",
+            "variant": "GS"
+        }
+    },
+    "mission": {
+        "id": 802,
+        "name": "Intelsat 11 & Optus D2",
+        "description": "Intelsat 11 is a communications satellite owned by Intelsat and located at 43 degrees West, serving the Americas market. Optus D2 is a communications satellite serving many customers.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 77,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/77/",
+        "agency_id": 115,
+        "name": "Ariane Launch Area 3",
+        "description": "ELA-3, is a launch pad and associated facilities at the Centre Spatial Guyanais in French Guiana. ELA-3 was operated by Arianespace as part of the expendable launch system for Ariane 5 launch vehicles.",
+        "info_url": null,
+        "wiki_url": "http://en.wikipedia.org/wiki/ELA-3",
+        "map_url": "https://www.google.com/maps?q=5.239,-52.768",
+        "latitude": "5.239",
+        "longitude": "-52.768",
+        "location": {
+            "id": 13,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/13/",
+            "name": "Guiana Space Centre, French Guiana",
+            "country_code": "GUF",
+            "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5\u00b0. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
+            "timezone_name": "America/Cayenne",
+            "total_launch_count": 322,
+            "total_landing_count": 0
+        },
+        "country_code": "GUF",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_77_20200803143458.jpg",
+        "total_launch_count": 118,
+        "orbital_launch_attempt_count": 118
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_5_gs_image_20240307183745.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4864,
+    "location_launch_attempt_count": 187,
+    "pad_launch_attempt_count": 34,
+    "agency_launch_attempt_count": 173,
+    "orbital_launch_attempt_count_year": 47,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

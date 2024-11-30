@@ -1,0 +1,99 @@
+{
+    "id": "8cfa00a5-a72e-48b7-80bd-944664688f59",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/8cfa00a5-a72e-48b7-80bd-944664688f59/",
+    "slug": "delta-iv-heavy-nrol-68",
+    "name": "Delta IV Heavy | NROL-68",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-03-05T18:09:57Z",
+    "net": "2023-06-22T09:18:00Z",
+    "window_end": "2023-06-22T11:45:00Z",
+    "window_start": "2023-06-22T07:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": 90,
+    "weather_concerns": "Anvil Cloud Rules, Ground Winds",
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "#NROL68",
+    "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 2533,
+        "configuration": {
+            "id": 21,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/21/",
+            "name": "Delta IV Heavy",
+            "family": "Delta",
+            "full_name": "Delta IV Heavy",
+            "variant": "Heavy"
+        }
+    },
+    "mission": {
+        "id": 6167,
+        "name": "NROL-68",
+        "description": "Classified payload for the National Reconnaissance Office.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 1,
+            "name": "Geostationary Orbit",
+            "abbrev": "Direct-GEO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 38,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/38/",
+        "agency_id": null,
+        "name": "Space Launch Complex 37B",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37",
+        "map_url": "https://www.google.com/maps?q=28.5317,-80.56495",
+        "latitude": "28.5317",
+        "longitude": "-80.56495",
+        "location": {
+            "id": 12,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+            "name": "Cape Canaveral SFS, FL, USA",
+            "country_code": "USA",
+            "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+            "timezone_name": "America/New_York",
+            "total_launch_count": 989,
+            "total_landing_count": 59
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_38_20200803143515.jpg",
+        "total_launch_count": 40,
+        "orbital_launch_attempt_count": 40
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/delta2520iv25_image_20230622183505.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6463,
+    "location_launch_attempt_count": 892,
+    "pad_launch_attempt_count": 39,
+    "agency_launch_attempt_count": 157,
+    "orbital_launch_attempt_count_year": 95,
+    "location_launch_attempt_count_year": 24,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

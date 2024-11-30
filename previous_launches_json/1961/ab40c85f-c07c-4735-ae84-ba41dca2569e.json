@@ -1,0 +1,80 @@
+{
+    "id": "ab40c85f-c07c-4735-ae84-ba41dca2569e",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/ab40c85f-c07c-4735-ae84-ba41dca2569e/",
+    "slug": "atlas-lv-3a-midas-3",
+    "name": "Atlas LV-3A | MIDAS 3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-06-14T03:42:23Z",
+    "net": "1961-07-12T15:11:46Z",
+    "window_end": "1961-07-12T15:11:46Z",
+    "window_start": "1961-07-12T15:11:46Z",
+    "net_precision": null,
+    "probability": 0,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": "",
+    "launch_service_provider": {
+        "id": 161,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/161/",
+        "name": "United States Air Force",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 2384,
+        "configuration": {
+            "id": 183,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/183/",
+            "name": "Atlas Agena B",
+            "family": "Atlas",
+            "full_name": "Atlas LV-3 Agena B",
+            "variant": "LV-3 Agena B"
+        }
+    },
+    "mission": null,
+    "pad": {
+        "id": 24,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/24/",
+        "agency_id": 161,
+        "name": "Space Launch Complex 3E",
+        "description": "SLC-3E is a launch pad at Vandenberg Space Force Base. It was originally built for the MIDAS program and later used for various other missions. After a period of inactivity, it was refurbished in the early 2000s to launch Atlas V rockets. The pad is now being upgraded to accommodate the new Vulcan Centaur rocket. The last Atlas V launch from SLC-3E happened in November 2022, with the first Vulcan launch expected in 2025.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_3#SLC-3E",
+        "map_url": "https://www.google.com/maps?q=34.64,-120.5895",
+        "latitude": "34.64",
+        "longitude": "-120.5895",
+        "location": {
+            "id": 11,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+            "name": "Vandenberg SFB, CA, USA",
+            "country_code": "USA",
+            "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+            "timezone_name": "America/Los_Angeles",
+            "total_launch_count": 780,
+            "total_landing_count": 21
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_24_20200803143552.jpg",
+        "total_launch_count": 48,
+        "orbital_launch_attempt_count": 45
+    },
+    "webcast_live": false,
+    "image": null,
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 116,
+    "location_launch_attempt_count": 29,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 51,
+    "orbital_launch_attempt_count_year": 116,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 13,
+    "type": "normal"
+}

@@ -1,0 +1,94 @@
+{
+    "id": "4b0352cb-185d-48c8-ac3d-c763ccfdfaf9",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/4b0352cb-185d-48c8-ac3d-c763ccfdfaf9/",
+    "slug": "h-iia-2022-himawari-6-mtsat-1r",
+    "name": "H-IIA 2022 | Himawari-6 (MTSAT-1R)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-09-08T09:13:54Z",
+    "net": "2005-02-26T09:25:00Z",
+    "window_end": "2005-02-26T09:25:00Z",
+    "window_start": "2005-02-26T09:25:00Z",
+    "net_precision": null,
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 37,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+        "name": "Japan Aerospace Exploration Agency",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 7216,
+        "configuration": {
+            "id": 321,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/321/",
+            "name": "H-IIA",
+            "family": "H-II",
+            "full_name": "H-IIA 2022",
+            "variant": "2022"
+        }
+    },
+    "mission": {
+        "id": 5605,
+        "name": "Himawari-6 (MTSAT-1R)",
+        "description": "Multi-functional satellite providing communications and navigational services for aircraft, and provide weather data to users throughout the entire Asia-Pacific region, as far south as Australia / New Zealand.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 2,
+            "name": "Geostationary Transfer Orbit",
+            "abbrev": "GTO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 41,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/41/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400813,130.977748",
+        "latitude": "30.400813",
+        "longitude": "130.977748",
+        "location": {
+            "id": 26,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+            "name": "Tanegashima Space Center, Japan",
+            "country_code": "JPN",
+            "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 93,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_41_20200803143551.jpg",
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-ii_2022_lifto_image_20240411175401.png",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 4700,
+    "location_launch_attempt_count": 38,
+    "pad_launch_attempt_count": 14,
+    "agency_launch_attempt_count": 14,
+    "orbital_launch_attempt_count_year": 6,
+    "location_launch_attempt_count_year": 1,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 1,
+    "type": "normal"
+}

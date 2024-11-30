@@ -1,0 +1,4 @@
+id,name,abbrev,description
+3,Launch Successful,Success,The launch vehicle successfully inserted its payload(s) into the target orbit(s).
+4,Launch Failure,Failure,Either the launch vehicle did not reach orbit; or the payload(s) failed to separate.
+7,Launch was a Partial Failure,Partial Failure,Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit; or an exceptional event made it impossible to consider the mission a success.
