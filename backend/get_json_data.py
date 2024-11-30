@@ -186,12 +186,12 @@ if __name__ == "__main__":
     #     print(f"{year}: {count} launches")
 
     # UPDATE PREVIOUS LAUNCHES
-    # new = update_launches(base_directory)
-    # print(f"\nTotal new launches added: {new}")
+    new = update_launches(base_directory)
+    print(f"\nTotal new launches added: {new}")
 
     # FILTER SPACEX AND NEW JSON DIRECTORY
-    # filter_and_save_spacex_launches(base_directory, spacex_directory)
+    filter_and_save_spacex_launches(base_directory, spacex_directory)
 
     # GET DETAILED INFORMATION FOR THE SPACEX LAUNCHES
-    # get_detailed_launches(spacex_directory, spacex_detailed_directory)
+    get_detailed_launches(spacex_directory, spacex_detailed_directory)
 
