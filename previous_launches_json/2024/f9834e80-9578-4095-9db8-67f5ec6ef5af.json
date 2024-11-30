@@ -1,0 +1,99 @@
+{
+    "id": "f9834e80-9578-4095-9db8-67f5ec6ef5af",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/f9834e80-9578-4095-9db8-67f5ec6ef5af/",
+    "slug": "soyuz-21afregat-m-kondor-fka-no2",
+    "name": "Soyuz 2.1a/Fregat-M | Kondor-FKA No.2",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-11-29T23:49:44Z",
+    "net": "2024-11-29T21:50:25Z",
+    "window_end": "2024-11-29T21:50:25Z",
+    "window_start": "2024-11-29T21:50:25Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8179,
+        "configuration": {
+            "id": 45,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/45/",
+            "name": "Soyuz 2.1a/Fregat-M",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1a Fregat-M",
+            "variant": "Fregat-M"
+        }
+    },
+    "mission": {
+        "id": 6757,
+        "name": "Kondor-FKA No.2",
+        "description": "The Kondor-FKA is a small civilian radar Earth observation satellite designed by NPO Mashinostroyeniya as a civilian counterpart to the Kondor-E satellite.\r\n\r\nThe Kondor satellite features a S-band synthetic aperture radar (SAR), which can conduct both continous swath surweys or detailed spot surveys. The swath width is 10 km. Ground resolution is 1 to 2 m in spotlight mode, 1 to 3 m in stripmap mode and 5 to 30 m in ScanSAR mode.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 83,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/83/",
+        "agency_id": 63,
+        "name": "Cosmodrome Site 1S",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vostochny_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=51.884395,128.333932",
+        "latitude": "51.884395",
+        "longitude": "128.333932",
+        "location": {
+            "id": 18,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/18/",
+            "name": "Vostochny Cosmodrome, Siberia, Russian Federation",
+            "country_code": "RUS",
+            "description": "The Vostochny Cosmodrome is a Russian spaceport above the 51st parallel north in the Amur Oblast, in the Russian Far East. It is intended to reduce Russia's dependency on the Baikonur Cosmodrome in Kazakhstan. The first launch took place on 28 April 2016 at 02:01 UTC.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_18_20200803142401.jpg",
+            "timezone_name": "Asia/Yakutsk",
+            "total_launch_count": 19,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_83_20200803143544.jpg",
+        "total_launch_count": 18,
+        "orbital_launch_attempt_count": 18
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_on_the_la_image_20241127185454.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6816,
+    "location_launch_attempt_count": 19,
+    "pad_launch_attempt_count": 18,
+    "agency_launch_attempt_count": 328,
+    "orbital_launch_attempt_count_year": 227,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 10,
+    "type": "normal"
+}
