@@ -1,10 +1,11 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Change to the directory where your script is located
-:: cd /d "" :: directory is already in the same as the .bat file
+:: Change to the parent directory of the current script's location
+cd /d "%~dp0\.."
 
-:: Run Python scripts
+:: Run Python scripts from the backend directory
+cd backend
 echo Running Python scripts...
 python get_json_data.py
 python get_rel_db.py
