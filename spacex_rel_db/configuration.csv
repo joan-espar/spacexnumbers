@@ -1,4 +1,4 @@
-id,name,family,full_name,variant
+id,name,active,reusable,family,full_name,variant
 14,Falcon 9,False,False,Falcon,Falcon 9 v1.1,v1.1
 55,Falcon 9,False,True,Falcon,Falcon 9 Full Thrust,Full Thrust
 133,Falcon 1,False,False,Falcon,Falcon 1,1

@@ -67,7 +67,7 @@ def get_configuration(spacex_directory, rel_db_directory):
     config_file = os.path.join(rel_db_directory, 'configuration.csv')
     with open(config_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['id', 'name', 'family', 'full_name', 'variant'])
+        writer.writerow(['id', 'name', 'active', 'reusable', 'family', 'full_name', 'variant'])
         writer.writerows(configurations)
 
     print(f"Stored {len(configurations)} configurations in {config_file}")
@@ -470,7 +470,7 @@ def get_rocket_to_launcher_stage(spacex_directory, rel_db_directory):
     rocket_launcher_stages.sort(key=lambda x: (x[0],x[1]))  # Sort by id
 
     # Save to CSV file
-    launcher_stage_file = os.path.join(rel_db_directory, 'rocket_launcher_stage.csv')
+    launcher_stage_file = os.path.join(rel_db_directory, 'rocket_to_launcher_stage.csv')
     with open(launcher_stage_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['rocket_id', 'launcher_stage_id'])
@@ -482,17 +482,17 @@ def get_rocket_to_launcher_stage(spacex_directory, rel_db_directory):
 if __name__ == "__main__":
     spacex_directory = "./../spacex_detailed_launches_json"
     spacex_rel_db = "./../spacex_rel_db"
-    get_launches(spacex_directory, spacex_rel_db)
+    # get_launches(spacex_directory, spacex_rel_db)
     get_configuration(spacex_directory, spacex_rel_db)
-    get_rocket_to_configuration(spacex_directory, spacex_rel_db)
-    get_status(spacex_directory, spacex_rel_db) 
-    get_pad(spacex_directory, spacex_rel_db)
-    get_mission(spacex_directory, spacex_rel_db) 
-    get_orbit(spacex_directory, spacex_rel_db)
-    get_launch_service_provider(spacex_directory, spacex_rel_db)
-    get_launcher_stage(spacex_directory, spacex_rel_db)
-    get_launcher(spacex_directory, spacex_rel_db)   
-    get_landing(spacex_directory, spacex_rel_db)
-    get_landing_location(spacex_directory, spacex_rel_db)
-    get_landing_type(spacex_directory, spacex_rel_db)
-    get_rocket_to_launcher_stage(spacex_directory, spacex_rel_db)
+    # get_rocket_to_configuration(spacex_directory, spacex_rel_db)
+    # get_status(spacex_directory, spacex_rel_db) 
+    # get_pad(spacex_directory, spacex_rel_db)
+    # get_mission(spacex_directory, spacex_rel_db) 
+    # get_orbit(spacex_directory, spacex_rel_db)
+    # get_launch_service_provider(spacex_directory, spacex_rel_db)
+    # get_launcher_stage(spacex_directory, spacex_rel_db)
+    # get_launcher(spacex_directory, spacex_rel_db)   
+    # get_landing(spacex_directory, spacex_rel_db)
+    # get_landing_location(spacex_directory, spacex_rel_db)
+    # get_landing_type(spacex_directory, spacex_rel_db)
+    # get_rocket_to_launcher_stage(spacex_directory, spacex_rel_db)
