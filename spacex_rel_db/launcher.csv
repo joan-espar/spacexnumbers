@@ -100,5 +100,6 @@ id,flight_proven,serial_number,status,successful_landings,attempted_landings,fli
 149,True,Booster 11,lost,1,1,1,2024-06-06T12:50:00Z,2024-06-06T12:50:00Z
 150,True,Booster 12,retired,1,1,1,2024-10-13T12:25:00Z,2024-10-13T12:25:00Z
 151,True,B1085,active,3,3,3,2024-11-07T20:19:00Z,2024-08-20T13:20:00Z
+153,True,B1088,active,1,1,1,2024-11-30T08:10:00Z,2024-11-30T08:10:00Z
 154,False,B1089,expended,0,0,1,2024-10-14T16:06:00Z,2024-10-14T16:06:00Z
 188,False,Booster 13,lost,0,1,1,2024-11-19T22:00:00Z,2024-11-19T22:00:00Z
