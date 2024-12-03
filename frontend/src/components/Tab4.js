@@ -39,7 +39,7 @@ function Tab4() {
 
   const dimensionOptions = ['year', 'year_month'];
 
-  const chartViewOptions = [
+  const chartViewOptions = [ 
     { value: 'total', label: 'Total' },
     { value: 'pad_name', label: 'Launch Pad' },
     { value: 'mission_orbit_abbrev', label: 'Orbit' },
