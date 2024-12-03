@@ -1,4 +1,4 @@
-// src/Tab1.js
+// src/Tab4.js
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 import { Bar } from 'react-chartjs-2';
@@ -16,16 +16,48 @@ import { Slider } from '@mui/material';
 // Register the necessary components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-function Tab3() {
+function Tab4() {
+
+  // Configuration for dynamic filters
+  const filterConfigs = [
+    {
+      key: 'configuration_name', 
+      label: 'Rocket', 
+      accessor: row => row.configuration_name
+    },
+    {
+      key: 'starlink_commercial', 
+      label: 'Starlink', 
+      accessor: row => row.starlink_commercial
+    },
+    {
+      key: 'pad_name', 
+      label: 'Pad', 
+      accessor: row => row.pad_name
+    } 
+  ];
 
   const dimensionOptions = ['year', 'year_month'];
 
-  const chartViewOptions = [
+  const chartViewOptions = [ 
     { value: 'total', label: 'Total' },
-    { value: 'pad', label: 'Launch Pad' },
-    { value: 'orbit', label: 'Orbit' }
+    { value: 'pad_name', label: 'Launch Pad' },
+    { value: 'mission_orbit_abbrev', label: 'Orbit' },
+    { value: 'starlink_commercial', label: 'Starlink / Commercial' },
   ];
 
+  // State for dynamic filters
+  const [dynamicFilters, setDynamicFilters] = useState(
+    filterConfigs.map(config => ({
+      key: config.key,
+      label: config.label,
+      selected: [],
+      isAllSelected: true,
+      showDropdown: false,
+      uniqueValues: []
+    }))
+  );
+  
   const [selectedChartView, setSelectedChartView] = useState(chartViewOptions[0].value);
   const [showDropdownChartView, setShowDropdownChartView] = useState(false);
 
@@ -33,24 +65,12 @@ function Tab3() {
   const [error, setError] = useState(null);
   const [filteredData, setFilteredData] = useState([]);
   
-  const [showDropdownDimension, setShowDropdownDimension] = useState(false);
   const [selectedDimension, setSelectedDimension] = useState(dimensionOptions[0]);
+  const [showDropdownDimension, setShowDropdownDimension] = useState(false);
 
   const [minYear, setMinYear] = useState(0);
   const [maxYear, setMaxYear] = useState(0);
   const [sliderValue, setSliderValue] = useState([0, 0]); // Range for the slider
-
-  const [showDropdownFilter1, setShowDropdownFilter1] = useState(false);
-  const [selectedFilter1, setSelectedFilter1] = useState([]);
-  const [isAllSelected1, setIsAllSelected1] = useState(true); // Track if "All" is selected
-
-  const [showDropdownFilterOrbit, setShowDropdownFilterOrbit] = useState(false);
-  const [selectedFilterOrbit, setSelectedFilterOrbit] = useState([]);
-  const [isAllSelectedOrbit, setIsAllSelectedOrbit] = useState(true);
-
-  const [showDropdownFilterPad, setShowDropdownFilterPad] = useState(false);
-  const [selectedFilterPad, setSelectedFilterPad] = useState([]);
-  const [isAllSelectedPad, setIsAllSelectedPad] = useState(true);
 
   const columnConfigs = [
     { originalName: 'net', displayName: 'Date and Time', visible: true },
@@ -64,13 +84,15 @@ function Tab3() {
     { originalName: 'landing_type_abbrev', displayName: 'Landing Type', visible: true },
     { originalName: 'landing_attempt', displayName: 'Landing Attempt', visible: false },
     { originalName: 'landing_success', displayName: 'Landing Success', visible: false },
+    { originalName: 'starlink_commercial', displayName: 'Starlink / Commercial', visible: false },
   ];
 
+  
   // Read data
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('data/table_launch_1.csv'); // Replace with the path to your CSV file
+        const response = await fetch('data/table_launch_1.csv');
         const csvText = await response.text();
         Papa.parse(csvText, {
           header: true,
@@ -79,18 +101,26 @@ function Tab3() {
             setCsvData(cleanedData);
             setFilteredData(cleanedData);
             
-            // Determine min and max years from the data
+            // Determine min and max years
             const years = cleanedData.map(row => new Date(row.net).getFullYear());
             const min = Math.min(...years);
             const max = Math.max(...years);
-
+  
             setMinYear(min);
             setMaxYear(max);
-            setSliderValue([min, max]); // Initialize slider value
-
-            setSelectedFilter1([...new Set(cleanedData.map(row => row.configuration_name))]); // Set all rockets as selected by default
-            setSelectedFilterOrbit([...new Set(cleanedData.map(row => row.mission_orbit_abbrev))]);
-            setSelectedFilterPad([...new Set(cleanedData.map(row => row.pad_name))]);
+            setSliderValue([min, max]);
+  
+            // Update dynamic filters with unique values
+            const updatedFilters = filterConfigs.map(config => ({
+              key: config.key,
+              label: config.label,
+              selected: [...new Set(cleanedData.map(config.accessor))],
+              isAllSelected: true,
+              showDropdown: false,
+              uniqueValues: [...new Set(cleanedData.map(config.accessor))]
+            }));
+            setDynamicFilters(updatedFilters);
+            // console.log(updatedFilters)
           },
           error: (error) => {
             setError(error.message);
@@ -100,203 +130,181 @@ function Tab3() {
         setError(error.message);
       }
     };
+    
     fetchData();
   }, []);
 
+  const handleFilter = (filterKey, value) => {
+    setDynamicFilters(prevFilters => {
+      const updatedFilters = prevFilters.map(filter => {
+        if (filter.key !== filterKey) return filter;
+  
+        let newSelected;
+        let newIsAllSelected;
+  
+        if (value === 'All') {
+          // Toggle between all and none
+          newIsAllSelected = !filter.isAllSelected;
+          newSelected = newIsAllSelected ? [...filter.uniqueValues] : [];
+        } else {
+          // Create a copy of current selected values
+          newSelected = [...filter.selected];
+          
+          // Toggle the specific value
+          if (newSelected.includes(value)) {
+            newSelected = newSelected.filter(item => item !== value);
+          } else {
+            newSelected.push(value);
+          }
+  
+          // Update "All" selection status
+          newIsAllSelected = newSelected.length === filter.uniqueValues.length;
+        }
+  
+        return {
+          ...filter,
+          selected: newSelected,
+          isAllSelected: newIsAllSelected
+        };
+      });
+  
+      // Here we've updated the filters, now apply them
+      applyFilters(updatedFilters);  // Pass the new state to applyFilters
+  
+      return updatedFilters;  // Return the new state
+    });
+  };
+  
+  // Modify applyFilters to accept the new filters directly
+  const applyFilters = (newFilters) => {
+    const filtered = csvData.filter(row => {
+      // Check dynamic filters
+      const passedDynamicFilters = newFilters.every(filter => {
+        // Find the corresponding config to get the correct accessor
+        const config = filterConfigs.find(config => config.key === filter.key);
+        
+        // If no config found, return true (don't filter)
+        if (!config) return true;
+  
+        // If all are selected or the row's value is in the selected values
+        return filter.isAllSelected || 
+               filter.selected.includes(config.accessor(row));
+      });
+  
+      return passedDynamicFilters;
+    });
+  
+    setFilteredData(filtered);
+  };
+  
+  // Modify the filterTime function to ensure it triggers filter application
+  const filterTime = (newSliderValue) => {
+    setSliderValue(newSliderValue);
+    // Directly call applyFilters to update the filtered data
+    const filtered = filteredData.filter(row => {
+      const year = new Date(row.net).getFullYear();
+      return year >= newSliderValue[0] && year <= newSliderValue[1];
+    });
+  
+    setFilteredData(filtered);
+  };
+
+  // Get button label for a filter
+  const getFilterButtonLabel = (filter) => {
+    if (filter.isAllSelected) {
+      return `${filter.label}: All`;
+    } else if (filter.selected.length === 0) {
+      return `${filter.label}: None`;
+    } else if (filter.selected.length === 1) {
+      return `${filter.label}: ${filter.selected[0]}`;
+    } else {
+      return `${filter.label}: Multiple Values`;
+    }
+  };
+
+  // Render dropdown for a filter
+  const renderFilterDropdown = (filter, index) => (
+    <div key={filter.key} style={{ position: 'relative' }}>
+      <button
+        onClick={() => {
+          const updatedFilters = [...dynamicFilters];
+          updatedFilters[index].showDropdown = !updatedFilters[index].showDropdown;
+          setDynamicFilters(updatedFilters);
+        }}
+        style={{
+          padding: '10px',
+          backgroundColor: filter.selected.length < filter.uniqueValues.length ? '#fff0f0' : '#f0f0f0',
+          color: '#333',
+          border: '1px solid #ddd',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          fontSize: '16px',
+          width: '220px',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center'
+        }}
+      >
+        {getFilterButtonLabel(filter)}
+        <span style={{ marginLeft: '10px' }}>▼</span>
+      </button>
+      {filter.showDropdown && (
+        <div
+          style={{
+            position: 'absolute',
+            top: '100%',
+            left: 0,
+            backgroundColor: '#fff',
+            borderRadius: '5px',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+            padding: '10px',
+            zIndex: 1,
+            minWidth: '150px',
+            marginTop: '5px'
+          }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <label
+            style={{ display: 'block', padding: '10px', cursor: 'pointer', width: '100%', textAlign: 'left' }}
+          >
+            <input 
+              type="checkbox" 
+              checked={filter.isAllSelected} 
+              onChange={() => handleFilter(filter.key, 'All')}
+              style={{ marginRight: '10px' }} 
+            />
+            All
+          </label>
+          {filter.uniqueValues.map((value, valueIndex) => (
+            <label 
+              key={valueIndex} 
+              style={{ 
+                display: 'block', 
+                padding: '8px', 
+                cursor: 'pointer' 
+              }}
+            >
+              <input
+                type="checkbox"
+                checked={filter.selected.includes(value)}
+                onChange={() => handleFilter(filter.key, value)}
+                style={{ marginRight: '10px' }}
+              />
+              {value}
+            </label>
+          ))}
+        </div>
+      )}
+    </div>
+  );
 
   const visibleColumns = columnConfigs.filter(config => config.visible);
   const columnNames = visibleColumns.map(config => config.originalName);
-
-  // Get unique values for different filters
-  const uniqueRockets = [...new Set(csvData.map(row => row.configuration_name))];
-  const uniquePads = [...new Set(csvData.map(row => row.pad_name))];
-  const uniqueOrbits = [...new Set(csvData.map(row => row.mission_orbit_abbrev))];
   
-  const handleFilterRocket = (rocket) => {
-    let newSelectedFilter;
-    let newIsAllSelected;
-    console.log(rocket)
-    if (rocket === 'All') {
-      if (isAllSelected1) {
-        newSelectedFilter = []; // Deselect all rockets
-        newIsAllSelected = false;
-      } else {
-        newSelectedFilter = uniqueRockets; // Select all rockets
-        newIsAllSelected = true;
-      }
-    } else {
-      newSelectedFilter = [...selectedFilter1];
-      if (newSelectedFilter.includes(rocket)) {
-        newSelectedFilter.splice(newSelectedFilter.indexOf(rocket), 1); // Deselect the rocket
-      } else {
-        newSelectedFilter.push(rocket); // Select the rocket
-      }
-
-      // Update "All" selection status based on individual selections
-      newIsAllSelected = newSelectedFilter.length === uniqueRockets.length;
-    }
-
-    // Update state
-    setSelectedFilter1(newSelectedFilter);
-    setIsAllSelected1(newIsAllSelected);
-
-    // Perform filtering based on the new state
-    filterData(newSelectedFilter, newIsAllSelected, 'rocket');
-  };
-
-
-  const handleFilterPad = (pad) => {
-    let newSelectedFilter;
-    let newIsAllSelected;
-    
-    if (pad === 'All') {
-      if (isAllSelectedPad) {
-        newSelectedFilter = []; // Deselect all 
-        newIsAllSelected = false;
-      } else {
-        newSelectedFilter = uniquePads; // Select all
-        newIsAllSelected = true;
-      }
-    } else {
-      newSelectedFilter = [...selectedFilterPad];
-      if (newSelectedFilter.includes(pad)) {
-        newSelectedFilter.splice(newSelectedFilter.indexOf(pad), 1); // Deselect
-      } else {
-        newSelectedFilter.push(pad); // Select
-      }
-
-      // Update "All" selection status based on individual selections
-      newIsAllSelected = newSelectedFilter.length === uniquePads.length;
-    }
-
-    // Update state
-    setSelectedFilterPad(newSelectedFilter);
-    setIsAllSelectedPad(newIsAllSelected);
-
-    // Perform filtering based on the new state
-    filterData(newSelectedFilter, newIsAllSelected, 'pad');
-  };
-
-  const handleFilterOrbit = (orbit) => {
-    let newSelectedFilter;
-    let newIsAllSelected;
-    
-    if (orbit === 'All') {
-      if (isAllSelectedOrbit) {
-        newSelectedFilter = []; // Deselect all 
-        newIsAllSelected = false;
-      } else {
-        newSelectedFilter = uniqueOrbits; // Select all
-        newIsAllSelected = true;
-      }
-    } else {
-      newSelectedFilter = [...selectedFilterOrbit];
-      if (newSelectedFilter.includes(orbit)) {
-        newSelectedFilter.splice(newSelectedFilter.indexOf(orbit), 1); // Deselect
-      } else {
-        newSelectedFilter.push(orbit); // Select
-      }
-
-      // Update "All" selection status based on individual selections
-      newIsAllSelected = newSelectedFilter.length === uniqueOrbits.length;
-    }
-
-    // Update state
-    setSelectedFilterOrbit(newSelectedFilter);
-    setIsAllSelectedOrbit(newIsAllSelected);
-
-    // Perform filtering based on the new state
-    filterData(newSelectedFilter, newIsAllSelected, 'orbit');
-  };
-
-  // Modify filtering logic to include new filters
-  const filterData = (newFilter, isAllSelected, filterType) => {
-    // Determine which filter was changed and update its state
-    let updatedRocketFilter = selectedFilter1;
-    let updatedOrbitFilter = selectedFilterOrbit;
-    let updatedPadFilter = selectedFilterPad;
-    let updatedRocketAllSelected = isAllSelected1;
-    let updatedOrbitAllSelected = isAllSelectedOrbit;
-    let updatedPadAllSelected = isAllSelectedPad;
-
-    switch(filterType) {
-      case 'rocket':
-        updatedRocketFilter = newFilter;
-        updatedRocketAllSelected = isAllSelected;
-        break;
-      case 'orbit':
-        updatedOrbitFilter = newFilter;
-        updatedOrbitAllSelected = isAllSelected;
-        break;
-      case 'pad':
-        updatedPadFilter = newFilter;
-        updatedPadAllSelected = isAllSelected;
-        break;
-    }
-
-    // Apply all filters
-    const filteredRows = csvData.filter(row => 
-      (updatedRocketAllSelected || updatedRocketFilter.includes(row.configuration_name)) &&
-      (updatedOrbitAllSelected || updatedOrbitFilter.includes(row.mission_orbit_abbrev)) &&
-      (updatedPadAllSelected || updatedPadFilter.includes(row.pad_name))
-    ).filter(row => {
-      const year = new Date(row.net).getFullYear();
-      return year >= sliderValue[0] && year <= sliderValue[1];
-    });
-
-    setFilteredData(filteredRows);
-  };
-
-  const filterTime = (sliderNewValue) => {
-    // Apply all filters
-    const filteredRows = csvData.filter(row => {
-      const year = new Date(row.net).getFullYear();
-      return year >= sliderNewValue[0] && year <= sliderNewValue[1];
-    });
-    setFilteredData(filteredRows);
-  };
-  
-  // Get button labels for filters
-  const getRocketButtonLabel = () => {
-    if (isAllSelected1) {
-      return 'Rocket: All';
-    } else if (selectedFilter1.length === 0) {
-      return 'Rocket: None';
-    } else if (selectedFilter1.length === 1) {
-      return `Rocket: ${selectedFilter1[0]}`;
-    } else {
-      return `Rocket: Multiple Values`;
-    }
-  };
-
-  const getOrbitButtonLabel = () => {
-    if (isAllSelectedOrbit) {
-      return 'Orbit: All';
-    } else if (selectedFilterOrbit.length === 0) {
-      return 'Orbit: None';
-    } else if (selectedFilterOrbit.length === 1) {
-      return `Orbit: ${selectedFilterOrbit[0]}`;
-    } else {
-      return `Orbit: Multiple Values`;
-    }
-  };
-
-  const getPadButtonLabel = () => {
-    if (isAllSelectedPad) {
-      return 'Pad: All';
-    } else if (selectedFilterPad.length === 0) {
-      return 'Pad: None';
-    } else if (selectedFilterPad.length === 1) {
-      return `Pad: ${selectedFilterPad[0]}`;
-    } else {
-      return `Pad: Multiple Values`;
-    }
-  };
-
   const getDimensionLabel = () => {
-    if (selectedDimension == 'year') {
+    if (selectedDimension === 'year') {
       return 'Year';
-    } else if (selectedDimension == 'year_month') {
+    } else if (selectedDimension === 'year_month') {
       return 'Month';
     }
     return selectedDimension; // This line might not be necessary if you ensure selectedDimension is always either 'year' or 'year_month'
@@ -325,22 +333,8 @@ function Tab3() {
       }
     } 
 
-    // Filter data and count occurrences
-    const counts = filteredData.reduce((acc, row) => {
-      const dimensionValue = row[selectedDimension]; // Use the selected dimension (year or year_month)
-      acc[dimensionValue] = (acc[dimensionValue] || 0) + 1; // Count occurrences of each dimension value
-      return acc;
-    }, {});
-
     // Sort labels in ascending order
     const sortedLabels = allLabels.sort((a, b) => new Date(a) - new Date(b));
-
-    // Determine which grouping to use based on selected view
-    const groupingKey = selectedChartView === 'pad' 
-      ? 'pad_name' 
-      : (selectedChartView === 'orbit' 
-        ? 'mission_orbit_abbrev' 
-        : null);
 
     if (selectedChartView === 'total') {
       // Total view (original implementation)
@@ -365,12 +359,12 @@ function Tab3() {
     } else {
       // Grouped view (pad or orbit)
       // Get unique groups
-      const uniqueGroups = [...new Set(filteredData.map(row => row[groupingKey]))];
+      const uniqueGroups = [...new Set(filteredData.map(row => row[selectedChartView]))];
 
       // Count launches per dimension and group
       const groupedCounts = filteredData.reduce((acc, row) => {
         const dimensionValue = row[selectedDimension];
-        const groupName = row[groupingKey];
+        const groupName = row[selectedChartView];
         
         if (!acc[dimensionValue]) {
           acc[dimensionValue] = {};
@@ -424,196 +418,14 @@ function Tab3() {
                 marks 
               />
           </div>
-          {/* Filters */}
+          {/* Dynamic Filters */}
           <div style={{ 
             display: 'flex', 
             gap: '10px', 
             marginBottom: '20px', 
             position: 'relative' 
           }}>
-            {/* Rocket Filter */}
-            <div style={{ position: 'relative' }}>
-              <button
-                onClick={() => setShowDropdownFilter1(!showDropdownFilter1)}
-                style={{
-                  padding: '10px',
-                  backgroundColor: '#f0f0f0',
-                  color: '#333',
-                  border: '1px solid #ddd',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  fontSize: '16px',
-                  width: '220px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center'
-                }}
-              >
-                {getRocketButtonLabel()}
-                <span style={{ marginLeft: '10px' }}>&#x25BC;</span>
-              </button>
-              {showDropdownFilter1 && (
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '100%',
-                    left: 0,
-                    backgroundColor: '#fff',
-                    borderRadius: '5px',
-                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-                    padding: '10px',
-                    zIndex: 1,
-                    minWidth:'150px',
-                    marginTop:'5px'
-                  }}
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <button onClick={() => handleFilterRocket('All')} style={{ padding:'10px', width:'100%', textAlign:'left' }}>
-                    <input type="checkbox" checked={isAllSelected1} onChange={() => handleFilterRocket('All')} style={{ marginRight:'10px' }} />
-                    All
-                  </button>
-                  {uniqueRockets.map((rocket, index) => (
-                    <label key={index} style={{ display:'block', padding:'8px', cursor:'pointer' }}>
-                      <input
-                        type="checkbox"
-                        checked={selectedFilter1.includes(rocket)}
-                        onChange={() => handleFilterRocket(rocket)}
-                        style={{ marginRight:'10px' }}
-                      />
-                      {rocket}
-                    </label>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Orbit Filter */}
-            <div style={{ position: 'relative' }}>
-              <button
-                onClick={() => setShowDropdownFilterOrbit(!showDropdownFilterOrbit)}
-                style={{
-                  padding: '10px',
-                  backgroundColor: '#f0f0f0',
-                  color: '#333',
-                  border: '1px solid #ddd',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  fontSize: '16px',
-                  width: '220px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center'
-                }}
-              >
-                {getOrbitButtonLabel()}
-                <span style={{ marginLeft: '10px' }}>&#x25BC;</span>
-              </button>
-              {showDropdownFilterOrbit && (
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '100%',
-                    left: 0,
-                    backgroundColor: '#fff',
-                    borderRadius: '5px',
-                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-                    padding: '10px',
-                    zIndex: 1,
-                    minWidth:'150px',
-                    marginTop:'5px'
-                  }}
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <button 
-                    onClick={() => handleFilterOrbit('All')} 
-                    style={{ padding:'10px', width:'100%', textAlign:'left' }}
-                  >
-                    <input 
-                      type="checkbox" 
-                      checked={isAllSelectedOrbit} 
-                      onChange={() => handleFilterOrbit('All')} 
-                      style={{ marginRight:'10px' }} 
-                    />
-                    All
-                  </button>
-                  {uniqueOrbits.map((orbit, index) => (
-                    <label key={index} style={{ display:'block', padding:'8px', cursor:'pointer' }}>
-                      <input
-                        type="checkbox"
-                        checked={selectedFilterOrbit.includes(orbit)}
-                        onChange={() => handleFilterOrbit(orbit)}
-                        style={{ marginRight:'10px' }}
-                      />
-                      {orbit}
-                    </label>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Pad Filter */}
-            <div style={{ position: 'relative' }}>
-              <button
-                onClick={() => setShowDropdownFilterPad(!showDropdownFilterPad)}
-                style={{
-                  padding: '10px',
-                  backgroundColor: '#f0f0f0',
-                  color: '#333',
-                  border: '1px solid #ddd',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  fontSize: '16px',
-                  width: '220px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center'
-                }}
-              >
-                {getPadButtonLabel()}
-                <span style={{ marginLeft: '10px' }}>&#x25BC;</span>
-              </button>
-              {showDropdownFilterPad && (
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '100%',
-                    left: 0,
-                    backgroundColor: '#fff',
-                    borderRadius: '5px',
-                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-                    padding: '10px',
-                    zIndex: 1,
-                    minWidth:'150px',
-                    marginTop:'5px'
-                  }}
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <button 
-                    onClick={() => handleFilterPad('All')} 
-                    style={{ padding:'10px', width:'100%', textAlign:'left' }}
-                  >
-                    <input 
-                      type="checkbox" 
-                      checked={isAllSelectedPad} 
-                      onChange={() => handleFilterPad('All')} 
-                      style={{ marginRight:'10px' }} 
-                    />
-                    All
-                  </button>
-                  {uniquePads.map((pad, index) => (
-                    <label key={index} style={{ display:'block', padding:'8px', cursor:'pointer' }}>
-                      <input
-                        type="checkbox"
-                        checked={selectedFilterPad.includes(pad)}
-                        onChange={() => handleFilterPad(pad)}
-                        style={{ marginRight:'10px' }}
-                      />
-                      {pad}
-                    </label>
-                  ))}
-                </div>
-              )}
-            </div>
+            {dynamicFilters.map(renderFilterDropdown)}
           </div>
           {/* Dimension Selector */}
           <div style={{ position: 'relative', marginBottom: '20px' }}>
@@ -759,7 +571,6 @@ function Tab3() {
               }
             }} 
           />
-
           {/* Data Table */}
           <table style={{ 
             borderCollapse: 'separate', 
@@ -942,4 +753,4 @@ function Tab3() {
   );
 }
 
-export default Tab3;
+export default Tab4;
