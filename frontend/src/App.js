@@ -19,9 +19,9 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<Tab1 />} />
-        <Route path="/tab2" element={<Tab2 />} />
-        <Route path="/tab3" element={<Tab3 />} />
+        <Route path="/" element={<Tab4 />} />
+        <Route path="/tab2" element={<Tab4 />} />
+        <Route path="/tab3" element={<Tab4 />} />
         <Route path="/tab4" element={<Tab4 />} />
       </Routes>
     </BrowserRouter>
