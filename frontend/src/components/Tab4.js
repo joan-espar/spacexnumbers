@@ -34,7 +34,7 @@ function Tab4() {
       key: 'pad_name', 
       label: 'Pad', 
       accessor: row => row.pad_name
-    }
+    } 
   ];
 
   const dimensionOptions = ['year', 'year_month'];
