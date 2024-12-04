@@ -84,7 +84,7 @@ df_table_launch = pd.merge(df_table_launch_1, df_table_launch_2_agg, on='id', ho
 df_table_launch = df_table_launch.dropna(how='all') # drop empty rows
 
 # Filter data
-df_table_launch = df_table_launch[df_table_launch['configuration_name'].isin(['Falcon 9', 'Falcon Heavy', 'Starship'])]
+df_table_launch = df_table_launch[df_table_launch['configuration_name'].isin(['Falcon 9', 'Falcon Heavy', 'Starship', 'Falcon 1'])]
 
 # Add columns 
 df_table_launch['net'] = pd.to_datetime(df_table_launch['net'])

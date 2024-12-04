@@ -1,0 +1,129 @@
+{
+    "id": "66475296-048d-480b-b886-3644c1a1b6a4",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/66475296-048d-480b-b886-3644c1a1b6a4/",
+    "slug": "soyuz-21b-kosmos-unknown-payload",
+    "name": "Soyuz 2.1b | Kosmos (Unknown Payload)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-12-04T20:48:20Z",
+    "net": "2024-12-04T17:59:00Z",
+    "window_end": "2024-12-04T19:00:00Z",
+    "window_start": "2024-12-04T16:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 193,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
+        "name": "Russian Space Forces",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8412,
+        "configuration": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
+            "name": "Soyuz 2.1b",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 7001,
+        "name": "Kosmos (Unknown Payload)",
+        "description": "Russian military satellite(s) of unknown variant.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+            "id": 25,
+            "name": "Unknown",
+            "abbrev": "N/A"
+        },
+        "agencies": [
+            {
+                "id": 175,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/175/",
+                "name": "Ministry of Defence of the Russian Federation",
+                "featured": false,
+                "type": "Government",
+                "country_code": "RUS",
+                "abbrev": "MOD_RUS",
+                "description": "The Ministry of Defence of the Russian Federation is the governing body of the Russian Armed Forces.",
+                "administrator": "Minister: Gen. Sergey Shoygu",
+                "founding_year": "1717",
+                "launchers": "",
+                "spacecraft": "",
+                "launch_library_url": null,
+                "total_launch_count": 0,
+                "consecutive_successful_launches": 0,
+                "successful_launches": 0,
+                "failed_launches": 0,
+                "pending_launches": 0,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "http://www.mil.ru",
+                "wiki_url": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Russia)",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ministry2520of2520defence2520of2520the2520russian2520federation_logo_20210905134213.png",
+                "image_url": null,
+                "nation_url": null
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 48,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/48/",
+        "agency_id": 163,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=62.925556,40.577778",
+        "latitude": "62.925556",
+        "longitude": "40.577778",
+        "location": {
+            "id": 6,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+            "name": "Plesetsk Cosmodrome, Russian Federation",
+            "country_code": "RUS",
+            "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+            "timezone_name": "Europe/Moscow",
+            "total_launch_count": 1671,
+            "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_48_20200803143459.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6823,
+    "location_launch_attempt_count": 1671,
+    "pad_launch_attempt_count": 1,
+    "agency_launch_attempt_count": 141,
+    "orbital_launch_attempt_count_year": 234,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 1,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

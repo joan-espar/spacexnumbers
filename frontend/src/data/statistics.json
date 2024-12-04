@@ -1,0 +1,14 @@
+[
+  {
+    "value": "1,234+",
+    "label": "Total Research Datasets"
+  },
+  {
+    "value": "97%", 
+    "label": "Analysis Precision Rate"
+  },
+  {
+    "value": "42",
+    "label": "Research Domains"
+  }
+]
