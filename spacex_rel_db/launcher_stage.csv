@@ -452,4 +452,5 @@ id,type,reused,launcher_flight_number,launcher_id,landing_id
 623,Core,True,15,120,1487
 624,Core,True,6,126,1488
 625,Core,False,1,153,1489
+626,Core,True,12,124,1490
 631,Core,True,24,101,1493

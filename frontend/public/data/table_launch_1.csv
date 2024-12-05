@@ -1,4 +1,6 @@
 id,net,status_abbrev,pad_name,mission_name,mission_orbit_abbrev,configuration_name,launcher_serial_number,landing_location_abbrev,landing_type_abbrev,landing_attempt,landing_success,year,year_month,starlink_commercial
+a757f8b0-4e5c-4223-bc27-361a8206a3bf,2024-12-05 03:05:00+00:00,Success,Space Launch Complex 4E,Starlink Group 9-14,LEO,Falcon 9,['B1081'],['OCISLY'],['ASDS'],[True],[True],2024,2024-12,Starlink
+f50d89cf-7c9a-4b7e-bc6e-f7e59950995d,2024-12-04 10:13:10+00:00,Success,Space Launch Complex 40,Starlink Group 6-70,LEO,Falcon 9,['B1067'],['ASOG'],['ASDS'],[True],[True],2024,2024-12,Starlink
 fed1b36f-965c-46ac-bb4d-8154930c4492,2024-11-30 08:10:00+00:00,Success,Space Launch Complex 4E,NROL-126,,Falcon 9,['B1088'],['OCISLY'],['ASDS'],[True],[True],2024,2024-11,Commercial
 7beb2fcf-acb3-4cf1-b31b-f2655416d1ed,2024-11-30 05:00:00+00:00,Success,Space Launch Complex 40,Starlink Group 6-65,LEO,Falcon 9,['B1083'],['JRTI'],['ASDS'],[True],[True],2024,2024-11,Starlink
 ffc148dc-76cc-4c5e-95b6-c2c78d6f0ba6,2024-11-27 04:41:30+00:00,Success,Launch Complex 39A,Starlink Group 6-76,LEO,Falcon 9,['B1078'],['ASOG'],['ASDS'],[True],[True],2024,2024-11,Starlink
@@ -421,3 +423,8 @@ e12d20b3-8b5c-4dcf-a635-f6106ee784bc,2013-09-29 16:00:00+00:00,Success,Space Lau
 ef3b84de-7f1e-4b44-8263-4145f771bfb2,2012-05-22 07:44:38+00:00,Success,Space Launch Complex 40,SpaceX COTS Demo Flight 2,LEO,Falcon 9,['B0005'],[nan],[nan],[False],[nan],2012,2012-05,Commercial
 04106da6-a43c-4fcf-9cae-4e97dfb37345,2010-12-08 15:43:00+00:00,Success,Space Launch Complex 40,SpaceX COTS Demo Flight 1,LEO,Falcon 9,['B0004'],[nan],[nan],[False],[nan],2010,2010-12,Commercial
 2ead3d70-ac04-40ee-b4a6-dfecfe519ee5,2010-06-04 18:45:00+00:00,Success,Space Launch Complex 40,Dragon Spacecraft Qualification Unit (DSQU),LEO,Falcon 9,['B0003'],[nan],[nan],[False],[nan],2010,2010-06,Commercial
+10be093a-ad74-46e6-a26c-37626e6d72b7,2009-07-14 03:35:00+00:00,Success,Omelek Island,,,Falcon 1,[nan],[nan],[nan],[nan],[nan],2009,2009-07,Commercial
+0560cfb0-ed19-4e8b-9fe9-728feb0f817c,2008-09-28 23:15:00+00:00,Success,Omelek Island,,,Falcon 1,[nan],[nan],[nan],[nan],[nan],2008,2008-09,Commercial
+cdeb321f-0860-4064-ba76-4ad0f9022103,2008-08-03 03:34:00+00:00,Failure,Omelek Island,,,Falcon 1,[nan],[nan],[nan],[nan],[nan],2008,2008-08,Commercial
+9a50023f-07fe-45ac-9ac6-7fb6b5ea970d,2007-03-21 01:10:00+00:00,Failure,Omelek Island,,,Falcon 1,[nan],[nan],[nan],[nan],[nan],2007,2007-03,Commercial
+b8741d6a-bf47-44eb-b740-f091b5fd3c62,2006-03-24 22:30:00+00:00,Failure,Omelek Island,,,Falcon 1,[nan],[nan],[nan],[nan],[nan],2006,2006-03,Commercial

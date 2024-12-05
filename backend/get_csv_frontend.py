@@ -91,6 +91,7 @@ df_table_launch['net'] = pd.to_datetime(df_table_launch['net'])
 df_table_launch['year'] = df_table_launch['net'].dt.year
 df_table_launch['year_month'] = df_table_launch['net'].dt.to_period('M').astype(str)
 
+df_table_launch['mission_name'] = df_table_launch['mission_name'].fillna('')
 df_table_launch['starlink_commercial'] = df_table_launch['mission_name'].apply(lambda x: 'Starlink' if 'starlink'.lower() in x.lower() else 'Commercial')
 
 # Save the joined DataFrame to a new CSV file
