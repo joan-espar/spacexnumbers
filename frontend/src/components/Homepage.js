@@ -1,5 +1,6 @@
 import React from 'react';
-import backgroundImage from './../assets/space_background_1.jpg'; // Ensure you have this image
+import backgroundImage from './../assets/space_background_1.jpg';
+import HomePageData from './HomePageData'; // Adjust the path according to your project structure
 
 const Homepage = () => {
   return (
@@ -18,7 +19,7 @@ const Homepage = () => {
       <div className="absolute inset-0 bg-spacex-gradient z-10"></div>
 
       {/* Content Container */}
-      <div className="relative z-20 container mx-auto px-6 py-24 flex flex-col justify-center h-screen">
+      <div className="relative z-20 container mx-auto px-6 py-24 flex flex-col justify-center h-[calc(100vh+300px)]">
         <div className="max-w-4xl">
           {/* Title */}
           <h1 className="text-7xl font-bold mb-6 text-white tracking-tight">
@@ -48,22 +49,11 @@ const Homepage = () => {
               Learn More
             </a>
           </div>
+        </div>
 
-          {/* Statistics */}
-          <div className="grid grid-cols-3 gap-8 text-white">
-            <div className="bg-black/40 p-6 rounded-xl border border-white/10">
-              <h3 className="text-4xl font-bold mb-2">1,234+</h3>
-              <p className="text-gray-300">Datasets Analyzed</p>
-            </div>
-            <div className="bg-black/40 p-6 rounded-xl border border-white/10">
-              <h3 className="text-4xl font-bold mb-2">97%</h3>
-              <p className="text-gray-300">Precision Rate</p>
-            </div>
-            <div className="bg-black/40 p-6 rounded-xl border border-white/10">
-              <h3 className="text-4xl font-bold mb-2">42</h3>
-              <p className="text-gray-300">Research Domains</p>
-            </div>
-          </div>
+        {/* Data and Filters - Full width */}
+        <div className="w-full">
+          <HomePageData />
         </div>
       </div>
     </div>

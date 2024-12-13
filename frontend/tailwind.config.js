@@ -23,4 +23,15 @@ module.exports = {
     },
   },
   plugins: [],
+  variants: {
+    extend: {}
+  },
+  // Adding the custom flex utilities
+  extend: {
+    flex: {
+      'grow': '1 0 0',
+      'shrink-0': '0 0 auto',
+      'basis-0': '0 1 0%',
+    }
+  }
 }
