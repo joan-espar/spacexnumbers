@@ -1,0 +1,117 @@
+{
+    "id": "2a780cb9-9bf9-4537-927e-389f1659a709",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2a780cb9-9bf9-4537-927e-389f1659a709/",
+    "slug": "pslv-xl-proba-3",
+    "name": "PSLV-XL | Proba-3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-12-09T14:34:03Z",
+    "net": "2024-12-05T10:34:00Z",
+    "window_end": "2024-12-05T10:34:00Z",
+    "window_start": "2024-12-05T10:34:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 55,
+        "configuration": {
+            "id": 38,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/38/",
+            "name": "PSLV-XL",
+            "family": "PSLV",
+            "full_name": "PSLV XL",
+            "variant": "XL"
+        }
+    },
+    "mission": {
+        "id": 6791,
+        "name": "Proba-3",
+        "description": "Proba-3 (Project for On-Board Autonomy 3) is the first close formation flying mission for the European Space Agency (ESA). It consists of two independent, three-axis stabilised spacecraft flying 150 meters from one another with the ability to accurately control the attitude and separation of the two craft. Such formation flying will be maintained for 6 hours, creating \u2033artificial solar eclipse\u2033 for the satellite below. \r\n\r\nThe spacecraft pair will fly a highly elliptical orbit divided between periods of accurate formation flying around apogee, when payload operations will be possible, and periods of free flight.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 0,
+            "name": "Elliptical Orbit",
+            "abbrev": "Elliptical"
+        },
+        "agencies": [],
+        "info_urls": [
+            {
+                "priority": 10,
+                "source": "www.esa.int",
+                "title": "Proba-3",
+                "description": "Proba-3 is ESA\u2019s \u2013 and the world\u2019s \u2013 first precision formation flying mission. Flying together, a pair of spacecraft will form an artificial solar eclipse in space, casting a precisely-controlled shadow from one platform to the other to open up sustained views of the Sun's faint surrounding corona",
+                "feature_image": null,
+                "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba-3",
+                "type": {
+                    "id": 1,
+                    "name": "Official Page"
+                },
+                "language": {
+                    "id": 1,
+                    "name": "English",
+                    "code": "en"
+                }
+            }
+        ],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 96,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 60,
+        "orbital_launch_attempt_count": 59
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv-xl_liftoff_image_20241209143400.JPG",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6826,
+    "location_launch_attempt_count": 96,
+    "pad_launch_attempt_count": 60,
+    "agency_launch_attempt_count": 92,
+    "orbital_launch_attempt_count_year": 237,
+    "location_launch_attempt_count_year": 4,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 4,
+    "type": "normal"
+}

@@ -1,6 +1,9 @@
 import pandas as pd
 import os
-import datetime
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+import pytz
+import numpy as np
 
 # Define the directory path
 directory_path = './../spacex_rel_db'
@@ -58,7 +61,7 @@ try:
     df_table_launch_2 = pd.merge(df_table_launch_1, dataframes['rocket_to_launcher_stage'], on='rocket_id', how='left')
     df_table_launch_2 = pd.merge(df_table_launch_2, df_launcher_stage, on='launcher_stage_id', how='left')
 
-    # print(df_table_launch_2.tail(5))
+    # print(df_launcher_stage)
     # print(df_launcher_stage.columns)
     # print(df_table_launch_2.columns)
     print("Successfully joined launch and rocket_to_configuration DataFrames.")
@@ -66,12 +69,15 @@ except Exception as e:
     print(f"Error joining launch and rocket_to_configuration DataFrames: {e}")
 
 
+# print(df_table_launch_2.columns)
+
 selected_columns_1 = ['id', 'net', 'status_abbrev', 'pad_name', 'mission_name', 'mission_orbit_abbrev', 'configuration_name']
-selected_columns_2 = ['id', 'launcher_serial_number', 'landing_location_abbrev', 'landing_type_abbrev', 'landing_attempt','landing_success']
+selected_columns_2 = ['id', 'reused', 'launcher_serial_number', 'landing_location_abbrev', 'landing_type_abbrev', 'landing_attempt','landing_success']
 df_table_launch_1 = df_table_launch_1[selected_columns_1]
 df_table_launch_2 = df_table_launch_2[selected_columns_2]
 
 df_table_launch_2_agg = df_table_launch_2.groupby('id').agg({
+    'reused': list,
     'launcher_serial_number': list,
     'landing_location_abbrev': list,
     'landing_type_abbrev': list,
@@ -85,6 +91,10 @@ df_table_launch = df_table_launch.dropna(how='all') # drop empty rows
 
 # Filter data
 df_table_launch = df_table_launch[df_table_launch['configuration_name'].isin(['Falcon 9', 'Falcon Heavy', 'Starship', 'Falcon 1'])]
+
+# Change columns that need it
+df_table_launch['net'] = pd.to_datetime(df_table_launch['net'], utc=True)
+df_table_launch['net'] = df_table_launch['net'].dt.tz_localize(None).dt.strftime('%Y-%m-%d %H:%M:%S')
 
 # Add columns 
 df_table_launch['net'] = pd.to_datetime(df_table_launch['net'])
@@ -101,6 +111,81 @@ print(f"Joined DataFrame saved to {output_file_path}")
 
 # Save last refresh datetime
 output_file_path_last_refresh = "./../frontend/public/data/last_refresh.txt"
-current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 with open(output_file_path_last_refresh, 'w') as file:
     file.write(current_time)
+
+
+
+# Get data for the HomePage
+selected_columns_summary = ['id', 'status_abbrev', 'configuration_name', 'landing_attempt', 'landing_success']
+df_table_launch_summary = df_table_launch[selected_columns_summary]
+
+df_totals = df_table_launch_summary.groupby('configuration_name').agg({'id': 'count'}).reset_index()
+df_totals = df_totals.rename(columns={'id': 'launch_count'})
+df_totals[['launch_success', 'landing_count', 'landing_attempt']] = 0
+
+# Iterate over each row in the DataFrame
+for index, row in df_table_launch_summary.iterrows():
+
+    if row.status_abbrev != 'Failure':
+        mask = df_totals['configuration_name'] == row.configuration_name
+        df_totals.loc[mask, 'launch_success'] += 1
+
+    for landing_attempt in row.landing_attempt:
+        if landing_attempt == True:
+            mask = df_totals['configuration_name'] == row.configuration_name
+            df_totals.loc[mask, 'landing_attempt'] += 1
+
+    for landing_success in row.landing_success:
+        if landing_success == True:
+            mask = df_totals['configuration_name'] == row.configuration_name
+            df_totals.loc[mask, 'landing_count'] += 1
+
+output_file_path_totals = "./../frontend/public/data/table_totals.csv"
+df_totals.to_csv(output_file_path_totals, index=False)
+print(f"Totals DataFrame saved to {output_file_path_totals}")
+
+
+
+# Calculate current year and previous year comparable (same date as current year)
+current_year = datetime.now().year
+df_cy = df_table_launch[df_table_launch['year'] == current_year] # current year
+
+last_date = datetime.now() - relativedelta(years=1)
+df_cy_yoy = df_table_launch[df_table_launch['year'] == current_year - 1]
+df_cy_yoy = df_cy_yoy[df_table_launch['net'] <= last_date] 
+
+df_py = df_table_launch[df_table_launch['year'] == current_year - 1]
+
+df_py_yoy = df_table_launch[df_table_launch['year'] == current_year - 2]
+
+# Transfor df
+df_cy_summary = df_cy[selected_columns_summary]
+df_cy_yoy_summary = df_cy_yoy[selected_columns_summary]
+df_py_summary = df_py[selected_columns_summary]
+df_py_yoy_summary = df_py_yoy[selected_columns_summary]
+
+df_cy_totals = df_cy_summary.groupby('configuration_name').agg({'id': 'count'}).reset_index()
+df_cy_totals = df_cy_totals.rename(columns={'id': 'launch_count_cy'})
+
+df_cy_yoy_totals = df_cy_yoy_summary.groupby('configuration_name').agg({'id': 'count'}).reset_index()
+df_cy_yoy_totals = df_cy_yoy_totals.rename(columns={'id': 'launch_count_cy_yoy'})
+
+df_py_totals = df_py_summary.groupby('configuration_name').agg({'id': 'count'}).reset_index()
+df_py_totals = df_py_totals.rename(columns={'id': 'launch_count_py'})
+
+df_py_yoy_totals = df_py_yoy_summary.groupby('configuration_name').agg({'id': 'count'}).reset_index()
+df_py_yoy_totals = df_py_yoy_totals.rename(columns={'id': 'launch_count_py_yoy'})
+
+df_all_years_totals = pd.merge(df_cy_totals, df_cy_yoy_totals, on='configuration_name', how='left')
+df_all_years_totals = pd.merge(df_all_years_totals, df_py_totals, on='configuration_name', how='left')
+df_all_years_totals = pd.merge(df_all_years_totals, df_py_yoy_totals, on='configuration_name', how='left').fillna(0)
+
+# Clean the data
+float_columns = df_all_years_totals.select_dtypes(include=[float])
+df_all_years_totals[float_columns.columns] = float_columns.astype(int)
+
+output_file_path_year_totals = "./../frontend/public/data/table_year_totals.csv"
+df_all_years_totals.to_csv(output_file_path_year_totals, index=False)
+print(f"Year totals DataFrame saved to {output_file_path_year_totals}")

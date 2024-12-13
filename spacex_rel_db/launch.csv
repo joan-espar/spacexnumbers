@@ -1,4 +1,6 @@
 id,net,name,status_id,launch_service_provider_id,rocket_id,mission_id,pad_id
+d1b5f507-66a9-450a-86ac-b7b86c34eee4,2024-12-08T05:12:30Z,Falcon 9 Block 5 | Starlink Group 12-5,3,121,8440,7029,80
+ae15ed89-63fa-4256-8b71-cb3c30e23e31,2024-12-05T16:10:00Z,Falcon 9 Block 5 | Sirius SXM-9,3,121,8289,6870,87
 a757f8b0-4e5c-4223-bc27-361a8206a3bf,2024-12-05T03:05:00Z,Falcon 9 Block 5 | Starlink Group 9-14,3,121,8422,7011,16
 f50d89cf-7c9a-4b7e-bc6e-f7e59950995d,2024-12-04T10:13:10Z,Falcon 9 Block 5 | Starlink Group 6-70,3,121,8432,7021,80
 fed1b36f-965c-46ac-bb4d-8154930c4492,2024-11-30T08:10:00Z,Falcon 9 Block 5 | NROL-126,3,121,8421,7010,16

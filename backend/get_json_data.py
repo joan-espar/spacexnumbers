@@ -5,10 +5,12 @@ import time
 from datetime import datetime
 import shutil
 
+DELAY = 10 # 240  # 240 seconds (4 minutes) between API calls
+
 def update_launches(base_directory):
     url = "https://ll.thespacedevs.com/2.2.0/launch/previous/?sort=-net"
     params = {'limit': 100, 'sort': '-net'}  # Maximum number of results per page
-    delay = 240  # 240 seconds (4 minutes) between API calls
+
 
     if not os.path.exists(base_directory):
         os.makedirs(base_directory)
@@ -63,8 +65,8 @@ def update_launches(base_directory):
 
             if data['next']:
                 url = data['next']
-                print(f"Waiting for {delay} seconds before next request...")
-                time.sleep(delay)
+                print(f"Waiting for {DELAY} seconds before next request...")
+                time.sleep(DELAY)
             else:
                 url = None
 
@@ -128,7 +130,6 @@ def get_detailed_launches(spacex_directory, spacex_detailed_directory):
         os.makedirs(spacex_detailed_directory)
 
     api_base_url = "https://ll.thespacedevs.com/2.2.0/launch/"
-    delay = 240  # 240 seconds (4 minutes) between API calls
 
     for year_dir in os.listdir(spacex_directory):
         year_path = os.path.join(spacex_directory, year_dir)
@@ -165,7 +166,7 @@ def get_detailed_launches(spacex_directory, spacex_detailed_directory):
                             print(f"Saved detailed data for launch {launch_id}")
 
                             # Delay to respect API rate limits
-                            time.sleep(delay)
+                            time.sleep(DELAY)
 
                         except requests.exceptions.RequestException as e:
                             print(f"Error fetching detailed data for launch {launch_id}: {e}")
