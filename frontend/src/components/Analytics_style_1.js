@@ -12,7 +12,7 @@ import {
   Legend
 } from 'chart.js';
 import { Slider } from '@mui/material';
-import backgroundImage from './../assets/space_background_2.jpg'; // Ensure you have this image
+import backgroundImage from './../assets/space_background_5.jpg'; // Ensure you have this image
 
 // Register the necessary components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -169,14 +169,15 @@ function Analytics() {
       });
   
       // Here we've updated the filters, now apply them
-      applyFilters(updatedFilters);  // Pass the new state to applyFilters
+      applyFilters(updatedFilters, sliderValue);  // Pass the new state to applyFilters
   
       return updatedFilters;  // Return the new state
     });
   };
   
   // Modify applyFilters to accept the new filters directly
-  const applyFilters = (newFilters) => {
+  const applyFilters = (newFilters = dynamicFilters, newSliderValue = sliderValue) => {
+    // console.log(newFilters)
     const filtered = csvData.filter(row => {
       // Check dynamic filters
       const passedDynamicFilters = newFilters.every(filter => {
@@ -186,7 +187,9 @@ function Analytics() {
         // If no config found, return true (don't filter)
         if (!config) return true;
   
-        // If all are selected or the row's value is in the selected values
+        // Check if the filter passes:
+        // - Either all values are selected (isAllSelected is true)
+        // - OR the row's value is in the selected values
         return filter.isAllSelected || 
                filter.selected.includes(config.accessor(row));
       });
@@ -194,7 +197,7 @@ function Analytics() {
       // Add time filter
       const year = new Date(row.net).getFullYear();
       const passedTimeFilter = 
-        year >= sliderValue[0] && year <= sliderValue[1];
+        year >= newSliderValue[0] && year <= newSliderValue[1];
 
       return passedDynamicFilters && passedTimeFilter;
     });
@@ -204,14 +207,10 @@ function Analytics() {
   
   // Modify the filterTime function to ensure it triggers filter application
   const filterTime = (newSliderValue) => {
+    // Update the slider value state
     setSliderValue(newSliderValue);
-    // Directly call applyFilters to update the filtered data
-    const filtered = filteredData.filter(row => {
-      const year = new Date(row.net).getFullYear();
-      return year >= newSliderValue[0] && year <= newSliderValue[1];
-    });
-    console.log(filtered)
-    setFilteredData(filtered);
+    // Reapply all existing filters including the new time filter
+    applyFilters(dynamicFilters, newSliderValue);
   };
 
   // Get button label for a filter
