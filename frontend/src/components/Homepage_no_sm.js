@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from './../assets/space_background_1.jpg';
-import HomePageData from './HomePageData';
+import HomePageData from './HomePageData'; // Adjust the path according to your project structure
 
 const Homepage = () => {
   return (
@@ -11,7 +11,6 @@ const Homepage = () => {
         style={{ 
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center', // Explicitly centers the image
           filter: 'brightness(0.6)' 
         }}
       />
@@ -20,32 +19,32 @@ const Homepage = () => {
       <div className="absolute inset-0 bg-spacex-gradient z-10"></div>
 
       {/* Content Container */}
-      <div className="relative z-20 container mx-auto py-24 sm:py-32 px-6 flex flex-col justify-center h-auto">
+      <div className="relative z-20 container mx-auto px-6 py-24 flex flex-col justify-center h-[calc(100vh+300px)]">
         <div className="max-w-4xl">
           {/* Title */}
-          <h1 className="text-4xl md:text-7xl font-bold mb-4 md:mb-6 text-white tracking-tight">
+          <h1 className="text-7xl font-bold mb-6 text-white tracking-tight">
             SpaceX Data Analysis
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-2xl text-gray-300 mb-6 md:mb-12 max-w-2xl">
+          <p className="text-2xl text-gray-300 mb-12 max-w-2xl">
             Showing the latest news and statistics about SpaceX and providing tools to satisfy your curiosity.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8 sm:mb-16">
+          <div className="flex space-x-6 mb-16">
             <a 
               href="#" 
-              className="px-4 sm:px-8 py-2 sm:py-4 bg-spacex-blue text-white font-semibold 
-                        rounded-full hover:bg-opacity-90 transition duration-300 h-13 w-40 sm:w-auto"
+              className="px-8 py-4 bg-spacex-blue text-white font-semibold 
+                         rounded-full hover:bg-opacity-90 transition duration-300"
             >
               Go To Analytics
             </a>
             <a 
               href="#" 
-              className="px-4 sm:px-8 py-2 sm:py-4 border-2 border-white text-white 
-                        rounded-full hover:bg-white hover:text-black 
-                        transition duration-300 w-40 sm:w-auto"
+              className="px-8 py-4 border-2 border-white text-white 
+                         rounded-full hover:bg-white hover:text-black 
+                         transition duration-300"
             >
               Learn More
             </a>

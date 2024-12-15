@@ -112,7 +112,7 @@ const HomePageData = () => {
     const growth = launchesPYYoY !== 0 ? ((launchesPY / launchesPYYoY) - 1) * 100 : 0;
     
     const pastYear = (new Date()).getFullYear() - 1
-    const daysBetweenLaunches = (pastYear % 4 == 0 ? 366 : 365) / launchesPY
+    const daysBetweenLaunches = (pastYear % 4 === 0 ? 366 : 365) / launchesPY
 
     const transformedData =  [
       {
@@ -142,7 +142,7 @@ const HomePageData = () => {
     <button 
       key={name}
       onClick={() => toggleFilter(name)}
-      className={`px-4 py-2 m-1 rounded-full text-xl ${filters[name] ? 'bg-white text-black border border-white': 'bg-black text-white border border-white'}`}
+      className={`px-2 sm:px-4 py-1 m-1 rounded-full text-base sm:text-xl h-8 sm:h-12 items-center ${filters[name] ? 'bg-white text-black border border-white': 'bg-black text-white border border-white'}`}
     >
       {name}
     </button>
@@ -159,11 +159,11 @@ const HomePageData = () => {
     </div>
 
     {/* Container for grids - now using CSS Grid with fixed column layout */}
-    <div className="grid grid-cols-4 gap-8 w-full">
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 w-full">
         {/* Left Grid - Total Numbers */}
         <div className="col-span-2">
             <div className="mb-4">
-            <h2 className="text-5xl font-bold text-white mb-2">Total Numbers</h2>
+            <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2">Total</h2>
             <div className="w-full border-t border-white"></div>
             </div>
 
@@ -176,12 +176,12 @@ const HomePageData = () => {
                 const numbersInParenthesis = parts[1] ? `(${parts[1]}` : '';
 
                 return (
-                <div key={index} className="bg-black/40 p-6 rounded-xl border border-white/10">
-                    <h3 className="text-4xl font-bold mb-2">
+                <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
+                    <h3 className="text-2xl xl:text-4xl font-bold mb-2">
                     {percentage}
-                    <span className="text-lg">{numbersInParenthesis}</span>
+                    <span className="text-sm xl:text-lg">{numbersInParenthesis}</span>
                     </h3>
-                    <p className="text-gray-300">{item.label}</p>
+                    <p className="text-gray-300 text-sm xl:text-lg">{item.label}</p>
                 </div>
                 );
             })}
@@ -190,9 +190,9 @@ const HomePageData = () => {
 
         {/* Middle Grid - 2024 */}
         <div className="col-span-1">
-          <h2 className="text-5xl font-bold text-white mb-2">2024</h2>
+          <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2">2024</h2>
           <div className="w-full border-t border-white mb-4"></div>
-          <div className="grid grid-rows-2 gap-8 text-white">
+          <div className="grid grid-cols-1 gap-8 text-white">
             {homepageNumbersCY.map((stat, index) => {
                 const valueString = String(stat.value);
                 const parts = valueString.split('(');
@@ -200,12 +200,12 @@ const HomePageData = () => {
                 const secondaryValue = parts[1] ? `(${parts[1]}` : '';
 
                 return (
-                    <div key={index} className="bg-black/40 p-6 rounded-xl border border-white/10">
-                    <h3 className="text-4xl font-bold mb-2">
+                    <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
+                    <h3 className="text-2xl xl:text-4xl font-bold mb-2">
                         {primaryValue}
-                        <span className="text-lg">{secondaryValue}</span>
+                        <span className="text-sm xl:text-lg">{secondaryValue}</span>
                     </h3>
-                    <p className="text-gray-300">{stat.label}</p>
+                    <p className="text-gray-300 text-sm xl:text-lg">{stat.label}</p>
                     </div>
                 );
             })}
@@ -214,9 +214,9 @@ const HomePageData = () => {
 
         {/* Right Grid - 2023 */}
         <div className="col-span-1">
-            <h2 className="text-5xl font-bold text-white mb-2">2023</h2>
+            <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2">2023</h2>
             <div className="w-full border-t border-white mb-4"></div>
-            <div className="grid grid-rows-2 gap-8 text-white">
+            <div className="grid grid-cols-1 gap-8 text-white">
                 {homepageNumbersPY.map((stat, index) => {
                     const valueString = String(stat.value);
                     const parts = valueString.split('(');
@@ -224,12 +224,12 @@ const HomePageData = () => {
                     const secondaryValue = parts[1] ? `(${parts[1]}` : '';
 
                     return (
-                        <div key={index} className="bg-black/40 p-6 rounded-xl border border-white/10">
-                        <h3 className="text-4xl font-bold mb-2">
+                        <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
+                        <h3 className="text-2xl xl:text-4xl font-bold mb-2">
                             {primaryValue}
-                            <span className="text-lg">{secondaryValue}</span>
+                            <span className="text-sm xl:text-lg">{secondaryValue}</span>
                         </h3>
-                        <p className="text-gray-300">{stat.label}</p>
+                        <p className="text-gray-300 text-sm xl:text-lg">{stat.label}</p>
                         </div>
                     );
                 })}

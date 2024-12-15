@@ -12,7 +12,7 @@ import {
   Legend
 } from 'chart.js';
 import { Slider } from '@mui/material';
-import backgroundImage from './../assets/space_background_5.jpg'; // Ensure you have this image
+import backgroundImage from './../assets/space_background_1.jpg'; // Ensure you have this image
 
 // Register the necessary components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -44,7 +44,7 @@ function Analytics() {
     { value: 'total', label: 'Total' },
     { value: 'pad_name', label: 'Launch Pad' },
     { value: 'mission_orbit_abbrev', label: 'Orbit' },
-    { value: 'starlink_commercial', label: 'Starlink / Commercial' },
+    { value: 'starlink_commercial', label: 'Starlink / Com.' },
   ];
 
   // State for dynamic filters
@@ -87,6 +87,7 @@ function Analytics() {
     { originalName: 'landing_success', displayName: 'Landing Success', visible: false },
     { originalName: 'starlink_commercial', displayName: 'Starlink / Commercial', visible: false },
   ];
+
 
   // Read data
   useEffect(() => {
@@ -222,77 +223,77 @@ function Analytics() {
     } else if (filter.selected.length === 1) {
       return `${filter.label}: ${filter.selected[0]}`;
     } else {
-      return `${filter.label}: Multiple Values`;
+      return `${filter.label}: Multiple`;
     }
   };
 
+  const classButtons = "px-4 py-2 rounded-3xl bg-black/10 text-black border border-black w-56 flex justify-between items-center";
+
+  const classDropdown = {
+    position: 'absolute',
+    top: '100%',
+    left: 0,
+    backgroundColor: 'rgba(255, 255, 255, 1)', 
+    borderRadius: '20px',  // Tailwind's way for fully rounded corners
+    border: '1px solid grey',
+    zIndex: 1,
+    minWidth: '14rem',  // Equivalent to w-56 in Tailwind
+    maxHeight: '400px',  // To prevent dropdown from getting too large
+    overflowY: 'auto',  // Scroll if content exceeds max height
+    padding: '0.5rem',  // px-4 in Tailwind
+    margin: '0.5rem 0 0 0',  // Adjust margin-top for spacing
+    display: 'flex',
+    flexDirection: 'column', // To stack elements vertically
+  }
+  
+  const classDropdownLabel = {
+    display: 'flex',
+    alignItems: 'center',
+    padding: '0.5rem 1rem',  // py-2 px-4 in Tailwind
+    cursor: 'pointer',
+    color: 'black',  // text-white
+  }
+
   // Render dropdown for a filter
   const renderFilterDropdown = (filter, index) => (
-    <div key={filter.key} style={{ position: 'relative' }}>
+    <div key={filter.key} style={{ position: 'relative' }} className="max-w-[250px]">
       <button
         onClick={() => {
           const updatedFilters = [...dynamicFilters];
           updatedFilters[index].showDropdown = !updatedFilters[index].showDropdown;
           setDynamicFilters(updatedFilters);
         }}
-        style={{
-          padding: '10px',
-          backgroundColor: filter.selected.length < filter.uniqueValues.length ? '#fff0f0' : '#f0f0f0',
-          color: '#333',
-          border: '1px solid #ddd',
-          borderRadius: '5px',
-          cursor: 'pointer',
-          fontSize: '16px',
-          width: '220px',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center'
-        }}
+        className={classButtons}
       >
         {getFilterButtonLabel(filter)}
         <span style={{ marginLeft: '10px' }}>▼</span>
       </button>
       {filter.showDropdown && (
         <div
-          style={{
-            position: 'absolute',
-            top: '100%',
-            left: 0,
-            backgroundColor: '#fff',
-            borderRadius: '5px',
-            boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-            padding: '10px',
-            zIndex: 1,
-            minWidth: '150px',
-            marginTop: '5px'
-          }}
+          style={classDropdown}
           onClick={(e) => e.stopPropagation()}
         >
           <label
-            style={{ display: 'block', padding: '10px', cursor: 'pointer', width: '100%', textAlign: 'left' }}
+            style={classDropdownLabel}
           >
             <input 
               type="checkbox" 
               checked={filter.isAllSelected} 
               onChange={() => handleFilter(filter.key, 'All')}
-              style={{ marginRight: '10px' }} 
+              style={{ marginRight: '0.5rem' }}  // Space to the right of the checkbox
             />
             All
           </label>
           {filter.uniqueValues.map((value, valueIndex) => (
             <label 
               key={valueIndex} 
-              style={{ 
-                display: 'block', 
-                padding: '8px', 
-                cursor: 'pointer' 
-              }}
+              style={classDropdownLabel}
             >
               <input
                 type="checkbox"
                 checked={filter.selected.includes(value)}
                 onChange={() => handleFilter(filter.key, value)}
-                style={{ marginRight: '10px' }}
+                style={{ marginRight: '0.5rem' }}  // Space to the right of the checkbox
               />
               {value}
             </label>
@@ -354,8 +355,8 @@ function Analytics() {
           {
             label: 'Launch Count',
             data: sortedLabels.map(label => counts[label] || 0),
-            backgroundColor: 'rgba(75,192,192,0.4)',
-            borderColor: 'rgba(75,192,192,1)',
+            backgroundColor: 'rgba(0,0,0,0.4)',
+            borderColor: 'rgba(0,0,0,0.5)',
             borderWidth: 1,
           },
         ],
@@ -383,7 +384,7 @@ function Analytics() {
         data: sortedLabels.map(label => 
           groupedCounts[label] ? (groupedCounts[label][group] || 0) : 0
         ),
-        backgroundColor: `rgba(${75 + index * 30},${192 - index * 20},${192 + index * 10},0.6)`,
+        backgroundColor: `rgba(${index * 30}, ${index * 30}, ${index * 30}, 0.6)`,
       }));
 
       return {
@@ -391,14 +392,6 @@ function Analytics() {
         datasets: datasets,
       };
     }        
-  };
-  
-  const containerStyle = {
-    backgroundColor: 'rgba(200, 200, 200, 0.9)', // Main white background
-    borderRadius: '10px', 
-    padding: '20px', 
-    marginBottom: '20px',
-    boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
   };
 
   // Function to get the label for the chart view dropdown
@@ -410,95 +403,74 @@ function Analytics() {
   return (
     <div 
       style={{ 
-        paddingTop: '80px', // Prevents content from clipping navbar
+        paddingTop: '70px', 
         minHeight: 'calc(100vh - 80px)', 
-        backgroundImage: `url(${backgroundImage})`, 
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`, 
         backgroundSize: 'cover', 
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
+        backgroundPosition: 'center', 
+        backgroundAttachment: 'fixed', 
+        color: 'white'
       }}
     >
       <div style={{ width: '80%', margin: '20px auto' }}>
-        {/* Year Range Slider */}
-        <div style={{ 
-          ...containerStyle
-        }}>
-          <label>Year Range: {sliderValue[0]} - {sliderValue[1]}</label>
-          <Slider
-            value={sliderValue}
-            onChange={(event, newValue) => {
-              setSliderValue(newValue);
-              filterTime(newValue);
-            }}
-            valueLabelDisplay="auto"
-            min={minYear}
-            max={maxYear}
-            step={1}
-            marks 
-          />
-        </div>
         {/* All selectors Filters */}
-        <div style={{ 
-          ...containerStyle
-        }}>
-        {/* Dynamic Filters */}
-          <div style={{ 
-            display: 'flex', 
-            gap: '10px', 
-            position: 'relative' 
-          }}>
-            {dynamicFilters.map(renderFilterDropdown)}
+        <div className="bg-white/60 rounded-3xl p-5 mb-5 shadow-md h-[170px]">
+          {/* First Row: Year Range Slider and Dynamic Filters */}
+          <div className="flex flex-nowrap items-center mb-4 w-full max-h-[80px]">
+            <div className="pl-4 pr-6 flex-1 max-w-[150px]">
+              <h1 className="text-2xl font-bold mb-6 text-black tracking-tight">
+                Filter By: 
+              </h1>
+            </div>
+            <div className="pl-4 pr-6 flex-1 max-w-[250px]">
+              <label className="block mb-2 text-black">Year Range: {sliderValue[0]} - {sliderValue[1]}</label>
+              <Slider
+                value={sliderValue}
+                onChange={(event, newValue) => {
+                  setSliderValue(newValue);
+                  filterTime(newValue);
+                }}
+                valueLabelDisplay="auto"
+                min={minYear}
+                max={maxYear}
+                step={1}
+                marks 
+                className="w-full text-black"
+                color='black'
+              />
+            </div>
+            {/* Dynamic Filters */}
+            <div className="flex-1">
+              <div className="flex gap-2 relative">
+                {dynamicFilters.map(renderFilterDropdown)}
+              </div>
+            </div>
           </div>
-          {/* Dimension and Chart View Selectors */}
-          <div style={{ 
-            display: 'flex', 
-            gap: '10px', 
-            marginTop: '20px' 
-          }}>
+          {/* Second Row: Dimension and Chart View Selectors */}
+          <div className="flex gap-2 w-full">
+            <div className="pl-4 pr-6 flex-1 max-w-[150px]">
+              <h1 className="text-2xl font-bold mb-6 text-black tracking-tight">
+                X Axis: 
+              </h1>
+            </div>
             {/* Dimension Selector */}
-            <div style={{ position: 'relative', marginBottom: '20px' }}>
+            <div className="relative flex-1">
               <button
                 onClick={() => setShowDropdownDimension(!showDropdownDimension)}
-                style={{
-                  padding: '10px',
-                  backgroundColor: '#f0f0f0',
-                  color: '#333',
-                  border: '1px solid #ddd',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  fontSize: '16px',
-                  width: '220px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center'
-                }}
+                className={classButtons}
               >
                 {getDimensionLabel()}
-                <span style={{ marginLeft: '10px' }}>▼</span>
+                <span>▼</span>
               </button>
               {showDropdownDimension && (
                 <div
-                  style={{
-                    position: 'absolute',
-                    backgroundColor: '#fff',
-                    borderRadius: '5px',
-                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-                    padding: '10px',
-                    zIndex: 1,
-                    minWidth: '150px',
-                    marginTop: '5px'
-                  }}
+                  style={classDropdown}
                   onClick={(e) => e.stopPropagation()}
                 >
                   {dimensionOptions.map((dim, index) => (
                     <label 
                       key={index} 
-                      style={{ 
-                        display: 'block', 
-                        padding: '8px', 
-                        cursor: 'pointer',
-                        backgroundColor: selectedDimension === dim ? '#f0f0f0' : 'transparent' 
-                      }}
+                      style={classDropdownLabel}
                     >
                       <input
                         type="radio"
@@ -515,49 +487,28 @@ function Analytics() {
               )}
             </div>
             {/* Chart View Selector - Using the same dropdown style as other selectors */}
-            <div style={{ position: 'relative', marginBottom: '20px' }}>
+            <div className="pl-4 pr-6 flex-1 max-w-[150px]">
+              <h1 className="text-2xl font-bold mb-6 text-black tracking-tight">
+                Bar by: 
+              </h1>
+            </div>
+            <div className="relative flex-1">
               <button
                 onClick={() => setShowDropdownChartView(!showDropdownChartView)}
-                style={{
-                  padding: '10px',
-                  backgroundColor: '#f0f0f0',
-                  color: '#333',
-                  border: '1px solid #ddd',
-                  borderRadius: '5px',
-                  cursor: 'pointer',
-                  fontSize: '16px',
-                  width: '220px',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center'
-                }}
+                className={classButtons}
               >
                 {getChartViewLabel()}
-                <span style={{ marginLeft: '10px' }}>▼</span>
+                <span>▼</span>
               </button>
               {showDropdownChartView && (
                 <div
-                  style={{
-                    position: 'absolute',
-                    backgroundColor: '#fff',
-                    borderRadius: '5px',
-                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-                    padding: '10px',
-                    zIndex: 1,
-                    minWidth: '150px',
-                    marginTop: '5px'
-                  }}
+                  style={classDropdown}
                   onClick={(e) => e.stopPropagation()}
                 >
                   {chartViewOptions.map((option, index) => (
                     <label 
                       key={index} 
-                      style={{ 
-                        display: 'block', 
-                        padding: '8px', 
-                        cursor: 'pointer',
-                        backgroundColor: selectedChartView === option.value ? '#f0f0f0' : 'transparent' 
-                      }}
+                      style={classDropdownLabel}
                     >
                       <input
                         type="radio"
@@ -579,109 +530,114 @@ function Analytics() {
           </div>
         </div>
         {/* Bar Graph */}
-        <div style={{ 
-          ...containerStyle
-        }}>
-          <Bar 
-            data={chartData()} 
-            options={{
-              responsive: true,
-              scales: {
-                y: {
-                  stacked: selectedChartView !== 'total',
-                  ticks: {
-                    beginAtZero: true,
+        <div className="bg-white/60 rounded-3xl p-5 mb-5 shadow-md h-[400px]">
+        <Bar 
+          data={chartData()} 
+          options={{
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              y: {
+                stacked: selectedChartView !== 'total',
+                ticks: {
+                  beginAtZero: true,
+                  color: 'black', // Change text color to black
+                  font: {
+                    size: 12, // Increase or decrease font size
+                    family: "'Arial', sans-serif" // Change font family
                   }
                 },
-                x: {
-                  stacked: selectedChartView !== 'total',
+                title: {
+                  display: true,
+                  text: 'Launches', 
+                  color: 'black',
+                  font: {
+                    size: 20,
+                    style: 'italic'
+                  }
+                },
+                grid: {
+                  color: 'rgba(0, 0, 0, 0.1)', // Change grid line color with opacity
+                  borderColor: 'rgba(0, 0, 0, 0.1)', // Color for the border around the chart area
                 }
               },
-              plugins: {
-                legend: {
-                  display: selectedChartView !== 'total'
+              x: {
+                stacked: selectedChartView !== 'total',
+                ticks: {
+                  color: 'black', // Change text color to black
+                  font: {
+                    size: 12,
+                    family: "'Arial', sans-serif"
+                  }
+                },
+                title: {
+                  display: true,
+                  text: selectedDimension == 'year' ? 'Year' : 'Month',
+                  color: 'black',
+                  font: {
+                    size: 20,
+                    style: 'italic'
+                  }
+                },
+                grid: {
+                  display: false // Hide the grid lines if you want
                 }
               }
-            }} 
-          />
+            },
+            plugins: {
+              legend: {
+                display: selectedChartView !== 'total',
+                labels: {
+                  color: 'black', // Legend text color
+                  font: {
+                    size: 12,
+                    family: "'Arial', sans-serif"
+                  }
+                }
+              },
+              tooltip: {
+                backgroundColor: 'rgba(0, 0, 0, 0.8)', // Darker tooltip background
+                titleFont: {
+                  size: 14
+                },
+                bodyFont: {
+                  size: 12
+                },
+                borderColor: 'rgba(255, 255, 255, 0.2)', // Border for tooltip
+                borderWidth: 1
+              },
+              title: {
+                display: true,
+                text: 'Launches by ' + (selectedDimension == 'year' ? 'Year' : 'Month') ,
+                color: 'black',
+                font: {
+                  size: 20,
+                  weight: 'bold'
+                }
+              }
+            }
+          }} 
+        />
         </div>
         {/* Data Table */}
-        <div style={{ 
-          ...containerStyle
-        }}>
-          <table style={{ 
-            borderCollapse: 'separate', 
-            borderSpacing: '0', 
-            width: '100%', 
-            border: '1px solid #555', 
-            backgroundColor: 'rgba(200, 200, 200, 0.9)',
-            color: '#333',
-            borderRadius: '10px', 
-            overflow: 'hidden'
-          }}>
+        <div className="bg-white/60 rounded-3xl p-5 mb-5 shadow-md overflow-hidden">
+          <table className="w-full border border-gray-300 rounded-3xl overflow-hidden">
             <thead>
               {/* Main category headers */}
-              <tr style={{ 
-                backgroundColor: '#a0a0a0', 
-                border: 'none' 
-              }}>
-                <th 
-                  colSpan={6} 
-                  style={{ 
-                    textAlign: 'center', 
-                    padding: '10px', 
-                    borderBottom: '1px solid #555',
-                    borderTop: '1px solid #555',
-                    borderRight: '1px solid #555',
-                    borderLeft: '1px solid #555',
-                    fontWeight: 'bold',
-                    color: '#000'
-                  }}
-                >
-                  Launches
-                </th>
-                <th 
-                  colSpan={3} 
-                  style={{ 
-                    textAlign: 'center', 
-                    padding: '10px', 
-                    borderBottom: '1px solid #555',
-                    borderTop: '1px solid #555',
-                    borderRight: '1px solid #555',
-                    fontWeight: 'bold',
-                    color: '#000'
-                  }}
-                >
-                  Landings
-                </th>
+              <tr className="bg-gray-600">
+                <th colSpan={6} className="border border-gray-300 p-2 text-center text-white">Launches</th>
+                <th colSpan={3} className="border border-gray-300 p-2 text-center text-white">Landings</th>
               </tr>
               {/* Specific column headers */}
-              <tr style={{ backgroundColor: '#b0b0b0' }}>
+              <tr className="bg-gray-500">
                 {columnConfigs.filter(config => config.visible).map((col, index) => (
-                  <th 
-                    key={index} 
-                    style={{ 
-                      padding: '10px', 
-                      borderBottom: '1px solid #555',
-                      borderRight: index < columnConfigs.filter(config => config.visible).length - 1 ? '1px solid #555' : 'none',
-                      textAlign: 'left',
-                      color: '#000',
-                      ...(col.displayName === 'Mission' && { width: '100px', overflow: 'hidden', textOverflow: 'ellipsis' })
-                    }}
-                  >
-                    {col.displayName}
-                  </th>
+                  <th key={index} className="border border-gray-300 p-2 text-left text-white">{col.displayName}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
               {filteredData.map((row, index) => (
-                <tr 
-                  key={index} 
-                  style={{ 
-                    backgroundColor: index % 2 === 0 ? '#c0c0c0' : '#d0d0d0',
-                  }}
-                >
+                <tr key={index} className={index % 2 === 0 ? "bg-black/30" : "bg-black/40"}>
                   {columnNames.map((columnName) => {
                     // Check if the column is one that might have multiple values
                     const isMultiValueColumn = ['launcher_serial_number', 'landing_location_abbrev', 'landing_type_abbrev'].includes(columnName);
@@ -730,24 +686,15 @@ function Analytics() {
                         const landingAttempt = landingAttemptArray[landingAttemptIndex] === 'true';
                         const landingSuccess = landingSuccessArray[landingAttemptIndex] === 'true';
 
-                        if (!landingAttempt) return '#ffff00'; // Yellow for no attempt
-                        if (landingSuccess) return '#90EE90'; // Light green for successful landing
-                        return '#FF6347'; // Tomato red for failed landing attempt
+                        if (!landingAttempt) return '#707070'; // Grey for no attempt
+                        if (landingSuccess) return '#66ba00'; // Green for successful landing
+                        return '#bf0000'; // Tomato red for failed landing attempt
                       }
                       return 'transparent';
                     };
 
                     return (
-                      <td 
-                        key={columnName} 
-                        style={{ 
-                          padding: '10px', 
-                          borderBottom: '1px solid #555',
-                          borderRight: columnNames.indexOf(columnName) < columnNames.length - 1 ? '1px solid #555' : 'none',
-                          verticalAlign: 'top',
-                          color: '#000',
-                        }}
-                      >
+                      <td key={columnName} className="border border-gray-600 p-2">
                         {isMultiValueColumn ? (
                           <div style={{ 
                             display: 'flex', 
