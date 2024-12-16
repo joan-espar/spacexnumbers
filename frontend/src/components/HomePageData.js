@@ -160,37 +160,10 @@ const HomePageData = () => {
 
     {/* Container for grids - now using CSS Grid with fixed column layout */}
     <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 w-full">
-        {/* Left Grid - Total Numbers */}
-        <div className="col-span-2">
-            <div className="mb-4">
-            <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2">Total</h2>
-            <div className="w-full border-t border-white"></div>
-            </div>
 
-            {/* Statistics - now showing 6 items in 2 rows */}
-            <div className="grid grid-cols-2 gap-8 text-white">
-            {homepageNumbers.map((item, index) => {
-                const valueString = String(item.value);
-                const parts = valueString.split('(');
-                const percentage = parts[0] || valueString; // Use the whole value if there's no '('
-                const numbersInParenthesis = parts[1] ? `(${parts[1]}` : '';
-
-                return (
-                <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
-                    <h3 className="text-2xl xl:text-4xl font-bold mb-2">
-                    {percentage}
-                    <span className="text-sm xl:text-lg">{numbersInParenthesis}</span>
-                    </h3>
-                    <p className="text-gray-300 text-sm xl:text-lg">{item.label}</p>
-                </div>
-                );
-            })}
-            </div>
-        </div>
-
-        {/* Middle Grid - 2024 */}
+        {/* Left Grid - 2024 */}
         <div className="col-span-1">
-          <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2">2024</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-2">2024</h2>
           <div className="w-full border-t border-white mb-4"></div>
           <div className="grid grid-cols-1 gap-8 text-white">
             {homepageNumbersCY.map((stat, index) => {
@@ -201,7 +174,7 @@ const HomePageData = () => {
 
                 return (
                     <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
-                    <h3 className="text-2xl xl:text-4xl font-bold mb-2">
+                    <h3 className="text-3xl xl:text-4xl font-bold mb-2">
                         {primaryValue}
                         <span className="text-sm xl:text-lg">{secondaryValue}</span>
                     </h3>
@@ -212,9 +185,9 @@ const HomePageData = () => {
           </div>
         </div>
 
-        {/* Right Grid - 2023 */}
+        {/* Middle Grid - 2023 */}
         <div className="col-span-1">
-            <h2 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2">2023</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-2">2023</h2>
             <div className="w-full border-t border-white mb-4"></div>
             <div className="grid grid-cols-1 gap-8 text-white">
                 {homepageNumbersPY.map((stat, index) => {
@@ -225,7 +198,7 @@ const HomePageData = () => {
 
                     return (
                         <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
-                        <h3 className="text-2xl xl:text-4xl font-bold mb-2">
+                        <h3 className="text-3xl xl:text-4xl font-bold mb-2">
                             {primaryValue}
                             <span className="text-sm xl:text-lg">{secondaryValue}</span>
                         </h3>
@@ -234,6 +207,34 @@ const HomePageData = () => {
                     );
                 })}
             </div>
+        </div>
+
+        {/* Right Grid - Total Numbers */}
+        <div className="col-span-2">
+          <div className="mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-2">Total</h2>
+          <div className="w-full border-t border-white"></div>
+          </div>
+
+          {/* Statistics - now showing 6 items in 2 rows */}
+          <div className="grid grid-cols-2 gap-8 text-white">
+          {homepageNumbers.map((item, index) => {
+              const valueString = String(item.value);
+              const parts = valueString.split('(');
+              const percentage = parts[0] || valueString; // Use the whole value if there's no '('
+              const numbersInParenthesis = parts[1] ? `(${parts[1]}` : '';
+
+              return (
+              <div key={index} className="bg-black/40 p-4 rounded-xl border border-white/10">
+                  <h3 className="text-3xl xl:text-4xl font-bold mb-2">
+                  {percentage}
+                  <span className="text-sm xl:text-lg">{numbersInParenthesis}</span>
+                  </h3>
+                  <p className="text-gray-300 text-sm xl:text-lg">{item.label}</p>
+              </div>
+              );
+          })}
+          </div>
         </div>
     </div>
   </div>

@@ -74,20 +74,27 @@ function Analytics() {
   const [sliderValue, setSliderValue] = useState([0, 0]); // Range for the slider
 
   const columnConfigs = [
-    { originalName: 'net', displayName: 'Date and Time', visible: true },
+    { originalName: 'date_time', displayName: 'Date', visible: true },
     { originalName: 'configuration_name', displayName: 'Rocket', visible: true },
-    { originalName: 'status_abbrev', displayName: 'Status', visible: true },
+    { originalName: 'status_abbrev', displayName: 'Status', visible: false },
     { originalName: 'pad_name', displayName: 'Pad', visible: true },
     { originalName: 'mission_name', displayName: 'Mission', visible: true },
     { originalName: 'mission_orbit_abbrev', displayName: 'Orbit', visible: true },
     { originalName: 'launcher_serial_number', displayName: 'Booster', visible: true },
-    { originalName: 'landing_location_abbrev', displayName: 'Landing Location', visible: true },
-    { originalName: 'landing_type_abbrev', displayName: 'Landing Type', visible: true },
+    { originalName: 'landing_location_abbrev', displayName: 'Location', visible: true },
+    { originalName: 'landing_type_abbrev', displayName: 'Landing Type', visible: false },
     { originalName: 'landing_attempt', displayName: 'Landing Attempt', visible: false },
     { originalName: 'landing_success', displayName: 'Landing Success', visible: false },
     { originalName: 'starlink_commercial', displayName: 'Starlink / Commercial', visible: false },
   ];
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Read data
   useEffect(() => {
@@ -227,36 +234,14 @@ function Analytics() {
     }
   };
 
-  const classButtons = "px-4 py-2 rounded-3xl bg-black/10 text-black border border-black w-56 flex justify-between items-center";
-
-  const classDropdown = {
-    position: 'absolute',
-    top: '100%',
-    left: 0,
-    backgroundColor: 'rgba(255, 255, 255, 1)', 
-    borderRadius: '20px',  // Tailwind's way for fully rounded corners
-    border: '1px solid grey',
-    zIndex: 1,
-    minWidth: '14rem',  // Equivalent to w-56 in Tailwind
-    maxHeight: '400px',  // To prevent dropdown from getting too large
-    overflowY: 'auto',  // Scroll if content exceeds max height
-    padding: '0.5rem',  // px-4 in Tailwind
-    margin: '0.5rem 0 0 0',  // Adjust margin-top for spacing
-    display: 'flex',
-    flexDirection: 'column', // To stack elements vertically
-  }
-  
-  const classDropdownLabel = {
-    display: 'flex',
-    alignItems: 'center',
-    padding: '0.5rem 1rem',  // py-2 px-4 in Tailwind
-    cursor: 'pointer',
-    color: 'black',  // text-white
-  }
+  const classButtonContainer = "relative max-w-[250px]";
+  const classButtons = "min-w-full max-w-full px-3 py-2 text-sm text-black bg-white border border-gray-300 rounded-3xl shadow-md hover:bg-gray-100 sm:px-3 sm:py-2 sm:text-sm";
+  const classDropdown = "absolute z-10 w-auto min-w-full mt-1 bg-white border border-gray-300 rounded-3xl shadow-lg max-h-[300px] overflow-y-auto overflow-x-hidden";
+  const classDropdownLabel = "flex items-center px-3 py-2 text-sm text-black cursor-pointer hover:bg-gray-100 sm:px-4 sm:py-3 sm:text-base lg:px-3 lg:py-2 lg:text-sm";
 
   // Render dropdown for a filter
   const renderFilterDropdown = (filter, index) => (
-    <div key={filter.key} style={{ position: 'relative' }} className="max-w-[250px]">
+    <div key={filter.key} className={classButtonContainer}>
       <button
         onClick={() => {
           const updatedFilters = [...dynamicFilters];
@@ -266,34 +251,34 @@ function Analytics() {
         className={classButtons}
       >
         {getFilterButtonLabel(filter)}
-        <span style={{ marginLeft: '10px' }}>▼</span>
+        <span className="ml-2">▼</span>
       </button>
       {filter.showDropdown && (
         <div
-          style={classDropdown}
+          className={classDropdown}
           onClick={(e) => e.stopPropagation()}
         >
           <label
-            style={classDropdownLabel}
+            className={classDropdownLabel}
           >
             <input 
               type="checkbox" 
               checked={filter.isAllSelected} 
               onChange={() => handleFilter(filter.key, 'All')}
-              style={{ marginRight: '0.5rem' }}  // Space to the right of the checkbox
+              className="mr-2"
             />
             All
           </label>
           {filter.uniqueValues.map((value, valueIndex) => (
             <label 
               key={valueIndex} 
-              style={classDropdownLabel}
+              className={classDropdownLabel}
             >
               <input
                 type="checkbox"
                 checked={filter.selected.includes(value)}
                 onChange={() => handleFilter(filter.key, value)}
-                style={{ marginRight: '0.5rem' }}  // Space to the right of the checkbox
+                className="mr-2"
               />
               {value}
             </label>
@@ -402,42 +387,32 @@ function Analytics() {
 
   return (
     <div 
+      className="pt-[70px] min-h-[calc(100vh-80px)] bg-cover bg-center bg-no-repeat bg-fixed text-white overflow-auto"
       style={{ 
-        paddingTop: '70px', 
-        minHeight: 'calc(100vh - 80px)', 
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`, 
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center', 
-        backgroundAttachment: 'fixed', 
-        color: 'white'
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`
       }}
     >
-      <div style={{ width: '80%', margin: '20px auto' }}>
+      <div className="w-full px-2 md:w-[95%] lg:w-[90%] xl:w-[80%] mx-auto my-5">
         {/* All selectors Filters */}
-        <div className="bg-white/60 rounded-3xl p-5 mb-5 shadow-md h-[170px]">
+        <div className="bg-white/60 rounded-3xl p-1 sm:p-2 md:p-3 lg:p-4 mb-5 shadow-md">
           {/* First Row: Year Range Slider and Dynamic Filters */}
           <div className="flex flex-nowrap items-center mb-4 w-full max-h-[80px]">
-            <div className="pl-4 pr-6 flex-1 max-w-[150px]">
-              <h1 className="text-2xl font-bold mb-6 text-black tracking-tight">
-                Filter By: 
-              </h1>
-            </div>
-            <div className="pl-4 pr-6 flex-1 max-w-[250px]">
-              <label className="block mb-2 text-black">Year Range: {sliderValue[0]} - {sliderValue[1]}</label>
-              <Slider
-                value={sliderValue}
-                onChange={(event, newValue) => {
-                  setSliderValue(newValue);
-                  filterTime(newValue);
-                }}
-                valueLabelDisplay="auto"
-                min={minYear}
-                max={maxYear}
-                step={1}
-                marks 
-                className="w-full text-black"
-                color='black'
-              />
+            <div className="flex-1 max-w-[250px] pr-2">
+              <div className="min-w-full max-w-full h-10 px-5 text-sm text-black bg-white border border-gray-300 rounded-3xl shadow-md hover:bg-gray-100">
+                <Slider
+                  aria-label='year'
+                  value={sliderValue}
+                  onChange={(event, newValue) => {
+                    setSliderValue(newValue);
+                    filterTime(newValue);
+                  }}
+                  valueLabelDisplay="auto"
+                  min={minYear}
+                  max={maxYear}
+                  step={1}
+                  color='black'
+                />
+              </div>
             </div>
             {/* Dynamic Filters */}
             <div className="flex-1">
@@ -448,13 +423,8 @@ function Analytics() {
           </div>
           {/* Second Row: Dimension and Chart View Selectors */}
           <div className="flex gap-2 w-full">
-            <div className="pl-4 pr-6 flex-1 max-w-[150px]">
-              <h1 className="text-2xl font-bold mb-6 text-black tracking-tight">
-                X Axis: 
-              </h1>
-            </div>
             {/* Dimension Selector */}
-            <div className="relative flex-1">
+            <div className={classButtonContainer}>
               <button
                 onClick={() => setShowDropdownDimension(!showDropdownDimension)}
                 className={classButtons}
@@ -464,13 +434,13 @@ function Analytics() {
               </button>
               {showDropdownDimension && (
                 <div
-                  style={classDropdown}
+                  className={classDropdown}
                   onClick={(e) => e.stopPropagation()}
                 >
                   {dimensionOptions.map((dim, index) => (
                     <label 
                       key={index} 
-                      style={classDropdownLabel}
+                      className={classDropdownLabel}
                     >
                       <input
                         type="radio"
@@ -487,12 +457,7 @@ function Analytics() {
               )}
             </div>
             {/* Chart View Selector - Using the same dropdown style as other selectors */}
-            <div className="pl-4 pr-6 flex-1 max-w-[150px]">
-              <h1 className="text-2xl font-bold mb-6 text-black tracking-tight">
-                Bar by: 
-              </h1>
-            </div>
-            <div className="relative flex-1">
+            <div className={classButtonContainer}>
               <button
                 onClick={() => setShowDropdownChartView(!showDropdownChartView)}
                 className={classButtons}
@@ -502,13 +467,13 @@ function Analytics() {
               </button>
               {showDropdownChartView && (
                 <div
-                  style={classDropdown}
+                  className={classDropdown}
                   onClick={(e) => e.stopPropagation()}
                 >
                   {chartViewOptions.map((option, index) => (
                     <label 
                       key={index} 
-                      style={classDropdownLabel}
+                      className={classDropdownLabel}
                     >
                       <input
                         type="radio"
@@ -530,108 +495,88 @@ function Analytics() {
           </div>
         </div>
         {/* Bar Graph */}
-        <div className="bg-white/60 rounded-3xl p-5 mb-5 shadow-md h-[400px]">
-        <Bar 
-          data={chartData()} 
-          options={{
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-              y: {
-                stacked: selectedChartView !== 'total',
-                ticks: {
-                  beginAtZero: true,
-                  color: 'black', // Change text color to black
-                  font: {
-                    size: 12, // Increase or decrease font size
-                    family: "'Arial', sans-serif" // Change font family
+        <div className="bg-white/60 rounded-3xl p-1 sm:p-2 md:p-3 lg:p-4 mb-5 shadow-md h-[400px] md:h-[400px] sm:h-auto">
+          <Bar 
+            data={chartData()} 
+            options={{
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                x: {
+                  stacked: selectedChartView !== 'total',
+                  ticks: {
+                    color: 'black', // Change text color to black
+                    font: {
+                      size: 12,
+                      family: "'Arial', sans-serif"
+                    }
+                  },
+                },
+                y: {
+                  stacked: selectedChartView !== 'total', // Add this for stacking on y-axis
+                  beginAtZero: true, // Optional, ensures bars start from zero
+                  ticks: {
+                    color: 'black',
+                    font: {
+                      size: 12,
+                      family: "'Arial', sans-serif"
+                    }
                   }
+                }
+              },
+              plugins: {
+                legend: {
+                  display: selectedChartView !== 'total',
+                  labels: {
+                    color: 'black', // Legend text color
+                    font: {
+                      size: 12,
+                      family: "'Arial', sans-serif"
+                    }
+                  }
+                },
+                tooltip: {
+                  backgroundColor: 'rgba(0, 0, 0, 0.8)', // Darker tooltip background
+                  titleFont: {
+                    size: 14
+                  },
+                  bodyFont: {
+                    size: 12
+                  },
+                  borderColor: 'rgba(255, 255, 255, 0.2)', // Border for tooltip
+                  borderWidth: 1
                 },
                 title: {
                   display: true,
-                  text: 'Launches', 
+                  text: 'Launches by ' + (selectedDimension == 'year' ? 'Year' : 'Month') ,
                   color: 'black',
                   font: {
                     size: 20,
-                    style: 'italic'
+                    weight: 'bold'
                   }
-                },
-                grid: {
-                  color: 'rgba(0, 0, 0, 0.1)', // Change grid line color with opacity
-                  borderColor: 'rgba(0, 0, 0, 0.1)', // Color for the border around the chart area
-                }
-              },
-              x: {
-                stacked: selectedChartView !== 'total',
-                ticks: {
-                  color: 'black', // Change text color to black
-                  font: {
-                    size: 12,
-                    family: "'Arial', sans-serif"
-                  }
-                },
-                title: {
-                  display: true,
-                  text: selectedDimension == 'year' ? 'Year' : 'Month',
-                  color: 'black',
-                  font: {
-                    size: 20,
-                    style: 'italic'
-                  }
-                },
-                grid: {
-                  display: false // Hide the grid lines if you want
                 }
               }
-            },
-            plugins: {
-              legend: {
-                display: selectedChartView !== 'total',
-                labels: {
-                  color: 'black', // Legend text color
-                  font: {
-                    size: 12,
-                    family: "'Arial', sans-serif"
-                  }
-                }
-              },
-              tooltip: {
-                backgroundColor: 'rgba(0, 0, 0, 0.8)', // Darker tooltip background
-                titleFont: {
-                  size: 14
-                },
-                bodyFont: {
-                  size: 12
-                },
-                borderColor: 'rgba(255, 255, 255, 0.2)', // Border for tooltip
-                borderWidth: 1
-              },
-              title: {
-                display: true,
-                text: 'Launches by ' + (selectedDimension == 'year' ? 'Year' : 'Month') ,
-                color: 'black',
-                font: {
-                  size: 20,
-                  weight: 'bold'
-                }
-              }
-            }
-          }} 
-        />
+            }} 
+          />
         </div>
         {/* Data Table */}
-        <div className="bg-white/60 rounded-3xl p-5 mb-5 shadow-md overflow-hidden">
+        <div className="bg-white/60 rounded-3xl p-1 sm:p-2 md:p-3 lg:p-4 mb-5 shadow-md overflow-auto">
           <table className="w-full border border-gray-300 rounded-3xl overflow-hidden">
             <thead>
               {/* Main category headers */}
               <tr className="bg-gray-600">
-                <th colSpan={6} className="border border-gray-300 p-2 text-center text-white">Launches</th>
-                <th colSpan={3} className="border border-gray-300 p-2 text-center text-white">Landings</th>
+                <th colSpan={windowWidth < 600 ? 3 : 5} className="border border-gray-300 p-2 text-center text-white text-xs sm:text-sm col-span-3 sm:col-span-5">Launches</th>
+                <th colSpan={2} className="border border-gray-300 p-2 text-center text-white text-xs sm:text-sm">Landings</th>
               </tr>
               {/* Specific column headers */}
               <tr className="bg-gray-500">
                 {columnConfigs.filter(config => config.visible).map((col, index) => (
-                  <th key={index} className="border border-gray-300 p-2 text-left text-white">{col.displayName}</th>
+                  <th 
+                    key={index} 
+                    className={`border border-gray-300 p-2 text-left text-white text-xs sm:text-sm ${col.originalName === 'mission_orbit_abbrev' || col.originalName === 'pad_name' ? 'hidden sm:table-cell' : ''}`}
+                  >
+                    {col.displayName}
+                  </th>
                 ))}
               </tr>
             </thead>
@@ -655,6 +600,11 @@ function Analytics() {
                       : [row[columnName]];
 
                     const getCellColor = (value) => {
+                      if (columnName === 'mission_name') {
+                        if (row['status_abbrev'] === 'Failure') return '#bf0000'; // Red for failure
+                        return '#66ba00'; // Green for success or other cases
+                      }
+
                       if (isMultiValueColumn) {
                         // Find the index of the current value in the cellValues array
                         const landingAttemptIndex = cellValues.indexOf(value);
@@ -688,49 +638,43 @@ function Analytics() {
 
                         if (!landingAttempt) return '#707070'; // Grey for no attempt
                         if (landingSuccess) return '#66ba00'; // Green for successful landing
-                        return '#bf0000'; // Tomato red for failed landing attempt
+                        return '#bf0000'; // Red for failed landing attempt
+                        
                       }
                       return 'transparent';
                     };
 
                     return (
-                      <td key={columnName} className="border border-gray-600 p-2">
-                        {isMultiValueColumn ? (
-                          <div style={{ 
-                            display: 'flex', 
-                            flexDirection: 'column',
-                            gap: '0',
-                            height: '100%'
-                          }}>
-                            {cellValues.map((val, valIndex) => (
-                              <div 
-                                key={valIndex} 
-                                style={{ 
-                                  backgroundColor: getCellColor(val),
-                                  flex: '1',
-                                  display: 'flex',
-                                  alignItems: 'center',
-                                  padding: '2px 5px',
-                                  whiteSpace: 'nowrap',
-                                  overflow: 'hidden',
-                                  textOverflow: 'ellipsis'
-                                }}
-                              >
-                                {val || 'N/A'}
-                              </div>
-                            ))}
-                          </div>
-                        ) : (
-                          <div 
-                            style={{ 
-                              width: '100%', 
-                              height: '100%',
-                              backgroundColor: 'transparent'
-                            }}
-                          >
-                            {row[columnName] || 'N/A'}
-                          </div>
-                        )}
+                      <td key={columnName} className={`border border-gray-600 p-1 max-w-[100px] sm:max-w-[150px] md:max-w-[200px] lg:max-w-[250px] break-words whitespace-normal ${columnName === 'mission_orbit_abbrev' || columnName === 'pad_name' ? 'hidden sm:table-cell' : ''}`}>
+                        <div className="w-full h-full break-words whitespace-normal">
+                          {isMultiValueColumn ? (
+                            <div className="flex flex-col gap-0 h-full">
+                              {cellValues.map((val, valIndex) => (
+                                <div 
+                                  key={valIndex} 
+                                  className="flex items-center whitespace-nowrap overflow-hidden text-ellipsis text-xs sm:text-sm"
+                                  style={{ backgroundColor: getCellColor(val) }}
+                                >
+                                  {val || ''}
+                                </div>
+                              ))}
+                            </div>
+                          ) : (columnName === 'mission_name' ? (
+                            <div 
+                              className="flex flex-col gap-0 h-full text-xs sm:text-sm"
+                              style={{ backgroundColor: getCellColor(row[columnName]) }}
+                            >
+                              {row[columnName] || ''}
+                            </div>
+                          ) : (
+                            <div 
+                              className="w-full h-full text-xs sm:text-sm"
+                              style={{ backgroundColor: 'transparent' }}
+                            >
+                              {row[columnName] || ''}
+                            </div>
+                          ))}
+                        </div>
                       </td>
                     );
                   })}

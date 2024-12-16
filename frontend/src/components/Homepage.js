@@ -20,7 +20,7 @@ const Homepage = () => {
       <div className="absolute inset-0 bg-spacex-gradient z-10"></div>
 
       {/* Content Container */}
-      <div className="relative z-20 container mx-auto py-24 sm:py-32 px-6 flex flex-col justify-center h-auto">
+      <div className="relative z-20 container mx-auto py-24 md:py-28 px-6 flex flex-col justify-center h-auto">
         <div className="max-w-4xl">
           {/* Title */}
           <h1 className="text-4xl md:text-7xl font-bold mb-4 md:mb-6 text-white tracking-tight">
