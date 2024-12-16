@@ -93,6 +93,7 @@ df_table_launch = df_table_launch.dropna(how='all') # drop empty rows
 df_table_launch = df_table_launch[df_table_launch['configuration_name'].isin(['Falcon 9', 'Falcon Heavy', 'Starship', 'Falcon 1'])]
 
 # Change columns that need it
+# datetime clean and delete seconds
 df_table_launch['net'] = pd.to_datetime(df_table_launch['net'], utc=True)
 df_table_launch['net'] = df_table_launch['net'].dt.tz_localize(None).dt.strftime('%Y-%m-%d %H:%M:%S')
 
@@ -101,8 +102,34 @@ df_table_launch['net'] = pd.to_datetime(df_table_launch['net'])
 df_table_launch['year'] = df_table_launch['net'].dt.year
 df_table_launch['year_month'] = df_table_launch['net'].dt.to_period('M').astype(str)
 
+df_table_launch.insert(2, 'date_time', df_table_launch['net'].dt.tz_localize(None).dt.strftime('%Y-%m-%d %H:%M'))
+
+# starlink comercial
 df_table_launch['mission_name'] = df_table_launch['mission_name'].fillna('')
 df_table_launch['starlink_commercial'] = df_table_launch['mission_name'].apply(lambda x: 'Starlink' if 'starlink'.lower() in x.lower() else 'Commercial')
+
+
+# group orbit into LEO - GEO - SSO - Other
+# Define the mapping
+orbit_mapping = {
+    'LEO': 'LEO',
+    'GTO': 'GEO',
+    'Direct-GEO': 'GEO',
+    'SSO': 'SSO'
+}
+# Create a new column or replace the existing one
+df_table_launch['mission_orbit_abbrev'] = df_table_launch['mission_orbit_abbrev'].map(lambda x: orbit_mapping.get(x, 'OTHER'))
+
+# PAD NAME change
+orbit_mapping = {
+    'Space Launch Complex 4E': 'SLC 4E',
+    'Space Launch Complex 40': 'SLC 40',
+    'Launch Complex 39A': 'LC 39A',
+    'Omelek Island': 'Omelek',
+    'Orbital Launch Mount A': 'OLM A'
+}
+df_table_launch['pad_name'] = df_table_launch['pad_name'].map(lambda x: orbit_mapping.get(x, 'OTHER'))
+
 
 # Save the joined DataFrame to a new CSV file
 output_file_path = "./../frontend/public/data/table_launch_1.csv"
@@ -116,6 +143,9 @@ with open(output_file_path_last_refresh, 'w') as file:
     file.write(current_time)
 
 
+
+
+### HOME PAGE TOTALS ###
 
 # Get data for the HomePage
 selected_columns_summary = ['id', 'status_abbrev', 'configuration_name', 'landing_attempt', 'landing_success']

@@ -14,8 +14,8 @@ function App() {
       <nav className="bg-transparent absolute top-0 left-0 right-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center border-b border-white/20 pb-4">
-            <div className="text-white text-2xl sm:text-3xl font-bold tracking-wide">SpaceX Numbers</div>
-            <div className="sm:hidden">
+            <div className="text-white text-3xl font-bold tracking-wide">SpaceX Numbers</div>
+            <div className="md:hidden">
               {isOpen ? (
                 <FaTimes 
                   className="text-white text-2xl cursor-pointer"
@@ -28,7 +28,7 @@ function App() {
                 />
               )}
             </div>
-            <ul className="hidden sm:flex space-x-8">
+            <ul className="hidden md:flex space-x-8">
               <li>
                 <NavLink 
                   to="/" 
@@ -69,7 +69,7 @@ function App() {
           </div>
           {/* Mobile Dropdown */}
           {isOpen && (
-            <div className="sm:hidden">
+            <div className="md:hidden">
               <ul className="flex flex-col items-end space-y-4 py-6 px-6 bg-black bg-opacity-95 rounded-3xl w-fit ml-auto">
                 <li>
                   <NavLink 
@@ -115,7 +115,7 @@ function App() {
           )}
         </div>
       </nav>
-      <div className="mt sm:mt"> 
+      <div className="mt"> 
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/analytics" element={<Analytics />} />
