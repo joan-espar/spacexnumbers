@@ -1,4 +1,10 @@
 id,net,date_time,status_abbrev,pad_name,mission_name,mission_orbit_abbrev,configuration_name,reused,launcher_serial_number,landing_location_abbrev,landing_type_abbrev,landing_attempt,landing_success,year,year_month,starlink_commercial
+9ba9d2de-f94b-4cca-b395-ee83b4b46b28,2024-12-23 05:35:30,2024-12-23 05:35,Success,LC 39A,Starlink Group 12-2,LEO,Falcon 9,[True],['B1080'],['JRTI'],['ASDS'],[True],[True],2024,2024-12,Starlink
+50a1337c-db6f-4bf4-b7b0-919c9fca906e,2024-12-21 11:34:24,2024-12-21 11:34,Success,SLC 4E,Bandwagon 2 (Dedicated Mid-Inclination Rideshare),LEO,Falcon 9,[True],['B1071'],['LZ-4'],['RTLS'],[True],[True],2024,2024-12,Commercial
+8ee42a39-0851-4674-9815-95b62e9a2c4b,2024-12-17 22:26:00,2024-12-17 22:26,Success,LC 39A,O3b mPower 7 & 8,OTHER,Falcon 9,[False],['B1090'],['JRTI'],['ASDS'],[True],[True],2024,2024-12,Commercial
+a889a7d1-844f-40c5-adcc-4bc54f43a51d,2024-12-17 13:19:00,2024-12-17 13:19,Success,SLC 4E,NROL-149,LEO,Falcon 9,[True],['B1063'],['OCISLY'],['ASDS'],[True],[True],2024,2024-12,Commercial
+99570ecf-f7e4-40ec-b84a-5758425a6d99,2024-12-17 00:52:00,2024-12-17 00:52,Success,SLC 40,GPS III SV07 (RRT-1),OTHER,Falcon 9,[True],['B1085'],['ASOG'],['ASDS'],[True],[True],2024,2024-12,Commercial
+c0da2601-59db-4529-bb05-b3908e964890,2024-12-13 21:55:40,2024-12-13 21:55,Success,SLC 4E,Starlink Group 11-2,LEO,Falcon 9,[True],['B1082'],['OCISLY'],['ASDS'],[True],[True],2024,2024-12,Starlink
 d1b5f507-66a9-450a-86ac-b7b86c34eee4,2024-12-08 05:12:30,2024-12-08 05:12,Success,SLC 40,Starlink Group 12-5,LEO,Falcon 9,[True],['B1086'],['ASOG'],['ASDS'],[True],[True],2024,2024-12,Starlink
 ae15ed89-63fa-4256-8b71-cb3c30e23e31,2024-12-05 16:10:00,2024-12-05 16:10,Success,LC 39A,Sirius SXM-9,GEO,Falcon 9,[True],['B1076'],['JRTI'],['ASDS'],[True],[True],2024,2024-12,Commercial
 a757f8b0-4e5c-4223-bc27-361a8206a3bf,2024-12-05 03:05:00,2024-12-05 03:05,Success,SLC 4E,Starlink Group 9-14,LEO,Falcon 9,[True],['B1081'],['OCISLY'],['ASDS'],[True],[True],2024,2024-12,Starlink

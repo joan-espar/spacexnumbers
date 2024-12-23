@@ -1,0 +1,99 @@
+{
+    "id": "2baf1b13-6159-4640-864d-7959f9bfe978",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/2baf1b13-6159-4640-864d-7959f9bfe978/",
+    "slug": "kairos-flight-2",
+    "name": "KAIROS | Flight 2",
+    "status": {
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+    },
+    "last_updated": "2024-12-18T08:33:06Z",
+    "net": "2024-12-18T02:00:00Z",
+    "window_end": "2024-12-18T02:20:00Z",
+    "window_start": "2024-12-18T02:00:00Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "Vehicle lost attitude control after first stage motor nozzle thrust vector control (TVC) failure at T+80s.",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 1083,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1083/",
+        "name": "Space One",
+        "type": "Commercial"
+    },
+    "rocket": {
+        "id": 8310,
+        "configuration": {
+            "id": 507,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/507/",
+            "name": "KAIROS",
+            "family": "",
+            "full_name": "Kii-based Advanced & Instant ROcket System",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6891,
+        "name": "Flight 2",
+        "description": "Second flight of the KAIROS launch vehicle. \r\n\r\n5 satellites for testing various technologies will be on board:\r\n\r\n* TATARA-1\r\n* PARUS-T1A\r\n* SC-Sat1\r\n* ISHIKI",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 220,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/220/",
+        "agency_id": null,
+        "name": "Space One Launch Pad",
+        "description": "",
+        "info_url": "https://www.space-one.co.jp/",
+        "wiki_url": null,
+        "map_url": null,
+        "latitude": "33.544224",
+        "longitude": "135.889502",
+        "location": {
+            "id": 166,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/166/",
+            "name": "Spaceport Kii, Japan",
+            "country_code": "JPN",
+            "description": "Spaceport Kii is a commercial spaceport located in Kushimoto, Wakayama Prefecture in Japan.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_space_port_kii252c_japan_20240126073749.jpg",
+            "timezone_name": "Asia/Tokyo",
+            "total_launch_count": 2,
+            "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_space_one_launch_pad_20240126074332.jpg",
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kairos_image_20240216144656.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6838,
+    "location_launch_attempt_count": 2,
+    "pad_launch_attempt_count": 2,
+    "agency_launch_attempt_count": 2,
+    "orbital_launch_attempt_count_year": 249,
+    "location_launch_attempt_count_year": 2,
+    "pad_launch_attempt_count_year": 2,
+    "agency_launch_attempt_count_year": 2,
+    "type": "normal"
+}
