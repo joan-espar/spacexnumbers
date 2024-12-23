@@ -73,8 +73,6 @@ function Analytics() {
   const [maxYear, setMaxYear] = useState(0);
   const [sliderValue, setSliderValue] = useState([0, 0]); // Range for the slider
 
-  const [showFilters, setShowFilters] = useState(false);
-
   const columnConfigs = [
     { originalName: 'date_time', displayName: 'Date', visible: true },
     { originalName: 'configuration_name', displayName: 'Rocket', visible: true },
@@ -290,7 +288,6 @@ function Analytics() {
     </div>
   );
 
-
   const visibleColumns = columnConfigs.filter(config => config.visible);
   const columnNames = visibleColumns.map(config => config.originalName);
   
@@ -395,118 +392,109 @@ function Analytics() {
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(${backgroundImage})`
       }}
     >
-      <div className="container w-full px-4 mx-auto my-5">
+      <div className="w-full px-2 md:w-[95%] lg:w-[90%] xl:w-[80%] mx-auto my-5">
         {/* All selectors Filters */}
-        <div className="bg-white/60 rounded-3xl -mx-3 sm:mx-0 py-1 px-1 sm:px-2 md:px-3 lg:px-4 mb-5 shadow-md">
-          <div className="flex items-center w-full flex-wrap">
-            <div className="max-w-[300px] w-full flex items-center px-3 text-black">
-              <span className="text-black text-xl font-bold w-100 pr-4">Years:</span>
-              <Slider
-                value={sliderValue}
-                onChange={(event, newValue) => {
-                  setSliderValue(newValue);
-                  filterTime(newValue);
-                }}
-                valueLabelDisplay="auto"
-                min={minYear}
-                max={maxYear}
-                step={1}
-                color='black'
-                ticks={true}
-              />
+        <div className="bg-white/60 rounded-3xl p-1 sm:p-2 md:p-3 lg:p-4 mb-5 shadow-md">
+          {/* First Row: Year Range Slider and Dynamic Filters */}
+          <div className="flex flex-nowrap items-center mb-4 w-full max-h-[80px]">
+            <div className="flex-1 max-w-[250px] pr-2">
+              <div className="min-w-full max-w-full h-10 px-5 text-sm text-black bg-white border border-gray-300 rounded-3xl shadow-md hover:bg-gray-100">
+                <Slider
+                  value={sliderValue}
+                  onChange={(event, newValue) => {
+                    setSliderValue(newValue);
+                    filterTime(newValue);
+                  }}
+                  valueLabelDisplay="auto"
+                  min={minYear}
+                  max={maxYear}
+                  step={1}
+                  color='black'
+                />
+              </div>
             </div>
-            <div className="w-full sm:flex-1 flex justify-center">
-              <button 
-                onClick={() => setShowFilters(!showFilters)}
-                className="max-w-[200px] w-full px-3 py-2 text-sm text-black bg-white border border-gray-300 rounded-3xl shadow-md hover:bg-gray-100 sm:px-3 sm:py-2"
-              >
-                {showFilters ? 'Hide Filters' : 'Show Filters'}
-              </button>
+            {/* Dynamic Filters */}
+            <div className="flex-1">
+              <div className="flex gap-2 relative">
+                {dynamicFilters.map(renderFilterDropdown)}
+              </div>
             </div>
           </div>
-          {showFilters && (
-              <div className="space-y-4 mt-3 p-1">
-                {/* Dynamic Filters */}
-                <div className="flex gap-2 relative">
-                  {dynamicFilters.map(renderFilterDropdown)}
-                </div>
-                {/* Second Row: Dimension and Chart View Selectors */}
-                <div className="flex gap-2 w-full">
-                  {/* Dimension Selector */}
-                  <div className={classButtonContainer}>
-                    <button
-                      onClick={() => setShowDropdownDimension(!showDropdownDimension)}
-                      className={classButtons}
+          {/* Second Row: Dimension and Chart View Selectors */}
+          <div className="flex gap-2 w-full">
+            {/* Dimension Selector */}
+            <div className={classButtonContainer}>
+              <button
+                onClick={() => setShowDropdownDimension(!showDropdownDimension)}
+                className={classButtons}
+              >
+                {getDimensionLabel()}
+                <span>▼</span>
+              </button>
+              {showDropdownDimension && (
+                <div
+                  className={classDropdown}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {dimensionOptions.map((dim, index) => (
+                    <label 
+                      key={index} 
+                      className={classDropdownLabel}
                     >
-                      {getDimensionLabel()}
-                      <span>▼</span>
-                    </button>
-                    {showDropdownDimension && (
-                      <div
-                        className={classDropdown}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        {dimensionOptions.map((dim, index) => (
-                          <label 
-                            key={index} 
-                            className={classDropdownLabel}
-                          >
-                            <input
-                              type="radio"
-                              name="dimension"
-                              value={dim}
-                              checked={selectedDimension === dim}
-                              onChange={() => handleSelectDimension(dim)}
-                              style={{ marginRight: '10px' }}
-                            />
-                            {dim === 'year' ? 'Year' : 'Month'}
-                          </label>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                  {/* Chart View Selector */}
-                  <div className={classButtonContainer}>
-                    <button
-                      onClick={() => setShowDropdownChartView(!showDropdownChartView)}
-                      className={classButtons}
-                    >
-                      {getChartViewLabel()}
-                      <span>▼</span>
-                    </button>
-                    {showDropdownChartView && (
-                      <div
-                        className={classDropdown}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        {chartViewOptions.map((option, index) => (
-                          <label 
-                            key={index} 
-                            className={classDropdownLabel}
-                          >
-                            <input
-                              type="radio"
-                              name="chartView"
-                              value={option.value}
-                              checked={selectedChartView === option.value}
-                              onChange={() => {
-                                setSelectedChartView(option.value);
-                                setShowDropdownChartView(false);
-                              }}
-                              style={{ marginRight: '10px' }}
-                            />
-                            {option.label}
-                          </label>
-                        ))}
-                      </div>
-                    )}
-                  </div>
+                      <input
+                        type="radio"
+                        name="dimension"
+                        value={dim}
+                        checked={selectedDimension === dim}
+                        onChange={() => handleSelectDimension(dim)}
+                        style={{ marginRight: '10px' }}
+                      />
+                      {dim === 'year' ? 'Year' : 'Month'}
+                    </label>
+                  ))}
                 </div>
-              </div>
-            )}
+              )}
+            </div>
+            {/* Chart View Selector - Using the same dropdown style as other selectors */}
+            <div className={classButtonContainer}>
+              <button
+                onClick={() => setShowDropdownChartView(!showDropdownChartView)}
+                className={classButtons}
+              >
+                {getChartViewLabel()}
+                <span>▼</span>
+              </button>
+              {showDropdownChartView && (
+                <div
+                  className={classDropdown}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {chartViewOptions.map((option, index) => (
+                    <label 
+                      key={index} 
+                      className={classDropdownLabel}
+                    >
+                      <input
+                        type="radio"
+                        name="chartView"
+                        value={option.value}
+                        checked={selectedChartView === option.value}
+                        onChange={() => {
+                          setSelectedChartView(option.value);
+                          setShowDropdownChartView(false);
+                        }}
+                        style={{ marginRight: '10px' }}
+                      />
+                      {option.label}
+                    </label>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
         </div>
         {/* Bar Graph */}
-        <div className="bg-white/60 rounded-3xl h-[400px] -mx-3 sm:mx-0 py-1 px-1 sm:px-2 md:px-3 lg:p-4 mb-5 shadow-md">
+        <div className="bg-white/60 rounded-3xl p-1 sm:p-2 md:p-3 lg:p-4 mb-5 shadow-md h-[400px] md:h-[400px] sm:h-auto">
           <Bar 
             data={chartData()} 
             options={{
@@ -571,7 +559,7 @@ function Analytics() {
           />
         </div>
         {/* Data Table */}
-        <div className="bg-white/60 rounded-3xl -mx-3 sm:mx-0 p-0.5 sm:p-1 md:p-2 lg:p-4 mb-5 shadow-md overflow-auto">
+        <div className="bg-white/60 rounded-3xl p-1 sm:p-2 md:p-3 lg:p-4 mb-5 shadow-md overflow-auto">
           <table className="w-full border border-gray-300 rounded-3xl overflow-hidden">
             <thead>
               {/* Main category headers */}
@@ -656,7 +644,7 @@ function Analytics() {
                     };
 
                     return (
-                      <td key={columnName} className={`border border-gray-600 p-0.5 sm:p-1 max-w-[100px] sm:max-w-[150px] md:max-w-[200px] lg:max-w-[250px] break-words whitespace-normal ${columnName === 'mission_orbit_abbrev' || columnName === 'pad_name' ? 'hidden sm:table-cell' : ''}`}>
+                      <td key={columnName} className={`border border-gray-600 p-1 max-w-[100px] sm:max-w-[150px] md:max-w-[200px] lg:max-w-[250px] break-words whitespace-normal ${columnName === 'mission_orbit_abbrev' || columnName === 'pad_name' ? 'hidden sm:table-cell' : ''}`}>
                         <div className="w-full h-full break-words whitespace-normal">
                           {isMultiValueColumn ? (
                             <div className="flex flex-col gap-0 h-full">

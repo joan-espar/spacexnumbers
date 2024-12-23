@@ -1,9 +1,9 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import constructionAnimation from './../assets/website_in_progress.json'; // Replace with your actual file path
+import constructionAnimation from '../assets/website_in_progress.json'; // Replace with your actual file path
 import backgroundImage from './../assets/space_background_1.jpg'; // Ensure you have this image
 
-const AdvancedAnalytics = () => {
+const Advanced = () => {
   return (
       <div className="relative min-h-screen overflow-hidden">
         {/* Background Image */}
@@ -23,7 +23,7 @@ const AdvancedAnalytics = () => {
           <Lottie 
             animationData={constructionAnimation} 
             loop={true} 
-            className="mx-auto mb-6 w-full max-w-[400px] h-auto"
+            className="mx-auto mb-6 w-full max-w-[400px] max-h-[300px] h-auto"
           />
             <h1 className="text-2xl font-bold text-gray-800 mb-4">
               Our website is currently under construction.
@@ -36,4 +36,4 @@ const AdvancedAnalytics = () => {
       </div>
     );
   };
-export default AdvancedAnalytics;
+export default Advanced;

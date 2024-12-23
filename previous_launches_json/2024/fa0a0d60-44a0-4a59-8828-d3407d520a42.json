@@ -1,0 +1,99 @@
+{
+    "id": "fa0a0d60-44a0-4a59-8828-d3407d520a42",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/fa0a0d60-44a0-4a59-8828-d3407d520a42/",
+    "slug": "long-march-5byz-2-satnet-leo-group-01",
+    "name": "Long March 5B/YZ-2 | SatNet LEO Group 01",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-12-16T11:48:23Z",
+    "net": "2024-12-16T10:00:00Z",
+    "window_end": "2024-12-16T12:10:00Z",
+    "window_start": "2024-12-16T10:00:00Z",
+    "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8443,
+        "configuration": {
+            "id": 508,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/508/",
+            "name": "Long March 5B/YZ-2",
+            "family": "Long March",
+            "full_name": "Long March 5B/YZ-2",
+            "variant": "B/YZ-2"
+        }
+    },
+    "mission": {
+        "id": 7032,
+        "name": "SatNet LEO Group 01",
+        "description": "A batch of 10 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+            "id": 13,
+            "name": "Polar Orbit",
+            "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 175,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/175/",
+        "agency_id": null,
+        "name": "101",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.614334,110.951011",
+        "latitude": "19.614334",
+        "longitude": "110.951011",
+        "location": {
+            "id": 8,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+            "name": "Wenchang Space Launch Site, People's Republic of China",
+            "country_code": "CHN",
+            "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19\u00b0 north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+            "timezone_name": "Asia/Shanghai",
+            "total_launch_count": 34,
+            "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_175_20200803143424.jpg",
+        "total_launch_count": 13,
+        "orbital_launch_attempt_count": 13
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_5b_image_20210428182650.JPG",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6833,
+    "location_launch_attempt_count": 34,
+    "pad_launch_attempt_count": 13,
+    "agency_launch_attempt_count": 499,
+    "orbital_launch_attempt_count_year": 244,
+    "location_launch_attempt_count_year": 9,
+    "pad_launch_attempt_count_year": 3,
+    "agency_launch_attempt_count_year": 47,
+    "type": "normal"
+}

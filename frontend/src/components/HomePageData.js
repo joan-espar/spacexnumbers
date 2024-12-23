@@ -97,7 +97,7 @@ const HomePageData = () => {
         label: 'Launches'
       },
       { value: daysBetweenLaunches.toFixed(2),
-        label: 'Days Between Lauches'
+        label: 'Days Between Launches'
       }
     ];
 

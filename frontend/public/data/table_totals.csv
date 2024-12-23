@@ -1,5 +1,5 @@
 configuration_name,launch_count,launch_success,landing_count,landing_attempt
 Falcon 1,5,2,0,0
-Falcon 9,409,406,362,374
+Falcon 9,415,412,368,380
 Falcon Heavy,11,11,19,21
 Starship,6,5,2,5

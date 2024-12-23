@@ -103,3 +103,4 @@ id,flight_proven,serial_number,status,successful_landings,attempted_landings,fli
 153,True,B1088,active,1,1,1,2024-11-30T08:10:00Z,2024-11-30T08:10:00Z
 154,False,B1089,expended,0,0,1,2024-10-14T16:06:00Z,2024-10-14T16:06:00Z
 188,False,Booster 13,lost,0,1,1,2024-11-19T22:00:00Z,2024-11-19T22:00:00Z
+190,True,B1090,active,1,1,1,2024-12-17T22:26:00Z,2024-12-17T22:26:00Z

@@ -1,4 +1,10 @@
 id,net,name,status_id,launch_service_provider_id,rocket_id,mission_id,pad_id
+9ba9d2de-f94b-4cca-b395-ee83b4b46b28,2024-12-23T05:35:30Z,Falcon 9 Block 5 | Starlink Group 12-2,3,121,8444,7033,87
+50a1337c-db6f-4bf4-b7b0-919c9fca906e,2024-12-21T11:34:24Z,Falcon 9 Block 5 | Bandwagon 2 (Dedicated Mid-Inclination Rideshare),3,121,7986,6512,16
+8ee42a39-0851-4674-9815-95b62e9a2c4b,2024-12-17T22:26:00Z,Falcon 9 Block 5 | O3b mPower 7 & 8,3,121,7577,6157,87
+a889a7d1-844f-40c5-adcc-4bc54f43a51d,2024-12-17T13:19:00Z,Falcon 9 Block 5 | NROL-149,3,121,8436,7025,16
+99570ecf-f7e4-40ec-b84a-5758425a6d99,2024-12-17T00:52:00Z,Falcon 9 Block 5 | GPS III SV07 (RRT-1),3,121,8076,6629,80
+c0da2601-59db-4529-bb05-b3908e964890,2024-12-13T21:55:40Z,Falcon 9 Block 5 | Starlink Group 11-2,3,121,8435,7024,16
 d1b5f507-66a9-450a-86ac-b7b86c34eee4,2024-12-08T05:12:30Z,Falcon 9 Block 5 | Starlink Group 12-5,3,121,8440,7029,80
 ae15ed89-63fa-4256-8b71-cb3c30e23e31,2024-12-05T16:10:00Z,Falcon 9 Block 5 | Sirius SXM-9,3,121,8289,6870,87
 a757f8b0-4e5c-4223-bc27-361a8206a3bf,2024-12-05T03:05:00Z,Falcon 9 Block 5 | Starlink Group 9-14,3,121,8422,7011,16

@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundImage from './../assets/space_background_1.jpg';
 import HomePageData from './HomePageData';
+import { NavLink } from 'react-router-dom';
 
 const Homepage = () => {
   return (
@@ -34,21 +35,21 @@ const Homepage = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8 sm:mb-16">
-            <a 
-              href="#" 
+            <NavLink 
+              to="/analytics" 
               className="px-4 sm:px-8 py-2 sm:py-4 bg-spacex-blue text-white font-semibold 
                         rounded-full hover:bg-opacity-90 transition duration-300 h-13 w-40 sm:w-auto"
             >
               Go To Analytics
-            </a>
-            <a 
-              href="#" 
+            </NavLink>
+            <NavLink 
+              to="/about" 
               className="px-4 sm:px-8 py-2 sm:py-4 border-2 border-white text-white 
                         rounded-full hover:bg-white hover:text-black 
                         transition duration-300 w-40 sm:w-auto"
             >
               Learn More
-            </a>
+            </NavLink>
           </div>
         </div>
 
