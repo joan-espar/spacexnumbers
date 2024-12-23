@@ -2,11 +2,12 @@ import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './index.css'; // Ensure Tailwind is imported
 import Homepage from './components/Homepage';
-import Analytics from './components/Analytics';
+import AnalyticsTab from './components/Analytics';
 import Advanced from './components/Advanced';
 import About from './components/About';
 import CustomTooltip from './components/CustomTooltip';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Assuming you're using react-icons for icons
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -192,11 +193,12 @@ function App() {
       <div className="mt"> 
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/analytics" element={<Analytics />} />
+          <Route path="/analytics" element={<AnalyticsTab />} />
           <Route path="/advanced" element={<Advanced />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
+      <Analytics />
     </BrowserRouter>
   );
 }
