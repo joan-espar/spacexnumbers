@@ -117,8 +117,7 @@ const HomePageData = () => {
   
     const growth = launchesCYYoY !== 0 ? ((launchesCY / launchesCYYoY) - 1) * 100 : 0;
     
-    // const daysOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
-    const daysOfYear = (new Date()).getFullYear() % 4 === 0 ? 366 : 365
+    const daysOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
     const daysBetweenLaunches =  daysOfYear / launchesCY
 
     const transformedData = [

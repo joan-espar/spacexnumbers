@@ -10,6 +10,7 @@ echo Running Python scripts...
 python get_json_data.py
 python get_rel_db.py
 python get_csv_frontend.py
+python get_starlink_data.py
 
 :: Check if any Python script failed
 if %errorlevel% neq 0 (

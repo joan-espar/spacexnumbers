@@ -3,11 +3,20 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './index.css'; // Ensure Tailwind is imported
 import Homepage from './components/Homepage';
 import AnalyticsTab from './components/Analytics';
+import Starlink from './components/Starlink';
 import Advanced from './components/Advanced';
 import About from './components/About';
 import CustomTooltip from './components/CustomTooltip';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Analytics } from "@vercel/analytics/react";
+
+const NAVIGATION_ITEMS = [
+  { path: '/', label: 'Home' },
+  { path: '/analytics', label: 'Analytics' },
+  { path: '/starlink', label: 'Starlink' },
+  { path: '/advanced', label: 'Advanced' },
+  { path: '/about', label: 'About' }
+];
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +60,7 @@ function App() {
       <nav className="bg-transparent absolute top-0 left-0 right-0 z-50">
         <div className="container h-12 mx-auto px-4 py-4">
           <div className="flex justify-between items-center border-b border-white/20 pb-4 h-12">
-           <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2">
               <NavLink 
                 to="/" 
                 ref={siteNameRef}
@@ -65,7 +74,23 @@ function App() {
                 siteNameRef={siteNameRef}
               />
             </div>
-            <div className="md:hidden">
+            <ul className="hidden md:flex space-x-6 lg:space-x-8 ml-auto mr-6">
+              {NAVIGATION_ITEMS.map(({ path, label }, index) => (
+                <li key={path} className={`${index >= 4 ? 'hidden lg:block' : ''}`}>
+                  <NavLink 
+                    to={path} 
+                    className={({ isActive }) => 
+                      `text-xl sm:text-2xl hover:text-white transition duration-300 ${
+                        isActive ? 'text-white font-semibold' : 'text-white/70'
+                      }`
+                    }
+                  >
+                    {label}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+            <div className="md:block">
               {isOpen ? (
                 <FaTimes 
                   className="text-white text-2xl cursor-pointer"
@@ -78,113 +103,26 @@ function App() {
                 />
               )}
             </div>
-            <ul className="hidden md:flex space-x-8">
-              <li>
-                <NavLink 
-                  to="/" 
-                  className={({ isActive }) => 
-                    `text-xl sm:text-2xl  hover:text-white transition duration-300 ${
-                      isActive ? 'text-white font-semibold' : 'text-white/70'
-                    }`
-                  }
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink 
-                  to="/analytics" 
-                  className={({ isActive }) => 
-                    `text-xl sm:text-2xl hover:text-white transition duration-300 ${
-                      isActive ? 'text-white font-semibold' : 'text-white/70'
-                    }`
-                  }
-                >
-                  Analytics
-                </NavLink>
-              </li>
-              <li>
-                <NavLink 
-                  to="/advanced" 
-                  className={({ isActive }) => 
-                    `text-xl sm:text-2xl hover:text-white transition duration-300 ${
-                      isActive ? 'text-white font-semibold' : 'text-white/70'
-                    }`
-                  }
-                >
-                  Advanced
-                </NavLink>
-              </li>
-              <li>
-                <NavLink 
-                  to="/about" 
-                  className={({ isActive }) => 
-                    `text-xl sm:text-2xl hover:text-white transition duration-300 ${
-                      isActive ? 'text-white font-semibold' : 'text-white/70'
-                    }`
-                  }
-                >
-                  About
-                </NavLink>
-              </li>
-            </ul>
           </div>
           {/* Mobile Dropdown */}
           {isOpen && (
-            <div className="md:hidden">
+            <div className="block">
               <ul className="flex flex-col items-end space-y-4 py-6 px-6 bg-black bg-opacity-95 rounded-3xl w-fit ml-auto">
-                <li>
-                  <NavLink 
-                    to="/" 
-                    onClick={() => setIsOpen(false)}
-                    className={({ isActive }) => 
-                      `text-xl hover:text-white transition duration-300 ${
-                        isActive ? 'text-white font-semibold' : 'text-white/70'
-                      }`
-                    }
-                  >
-                    Home
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink 
-                    to="/analytics" 
-                    onClick={() => setIsOpen(false)}
-                    className={({ isActive }) => 
-                      `text-xl hover:text-white transition duration-300 ${
-                        isActive ? 'text-white font-semibold' : 'text-white/70'
-                      }`
-                    }
-                  >
-                    Analytics
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink 
-                    to="/advanced" 
-                    onClick={() => setIsOpen(false)}
-                    className={({ isActive }) => 
-                      `text-xl hover:text-white transition duration-300 ${
-                        isActive ? 'text-white font-semibold' : 'text-white/70'
-                      }`
-                    }
-                  >
-                    Advanced
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink 
-                    to="/about" 
-                    onClick={() => setIsOpen(false)}
-                    className={({ isActive }) => 
-                      `text-xl hover:text-white transition duration-300 ${
-                        isActive ? 'text-white font-semibold' : 'text-white/70'
-                      }`
-                    }
-                  >
-                    About
-                  </NavLink>
-                </li>
+                {NAVIGATION_ITEMS.map(({ path, label }) => (
+                  <li key={path}>
+                    <NavLink 
+                      to={path} 
+                      onClick={() => setIsOpen(false)}
+                      className={({ isActive }) => 
+                        `text-xl hover:text-white transition duration-300 ${
+                          isActive ? 'text-white font-semibold' : 'text-white/70'
+                        }`
+                      }
+                    >
+                      {label}
+                    </NavLink>
+                  </li>
+                ))}
               </ul>
             </div>
           )}
@@ -194,6 +132,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/analytics" element={<AnalyticsTab />} />
+          <Route path="/starlink" element={<Starlink />} />
           <Route path="/advanced" element={<Advanced />} />
           <Route path="/about" element={<About />} />
         </Routes>

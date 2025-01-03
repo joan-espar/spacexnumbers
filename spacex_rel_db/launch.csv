@@ -1,4 +1,7 @@
 id,net,name,status_id,launch_service_provider_id,rocket_id,mission_id,pad_id
+58e080d1-90cd-42ac-8152-9f56fc580f8d,2024-12-31T05:39:10Z,Falcon 9 Block 5 | Starlink Group 12-6,3,121,8452,7041,87
+33bf462e-796f-441c-bc36-206ba52bb90e,2024-12-29T05:00:00Z,Falcon 9 Block 5 | Astranis: From One to Many (4x Astranis MicroGEO),3,121,7561,5986,80
+eea43b3f-eddc-437a-ada5-8e23286f1eef,2024-12-29T01:58:30Z,Falcon 9 Block 5 | Starlink Group 11-3,3,121,8447,7036,16
 9ba9d2de-f94b-4cca-b395-ee83b4b46b28,2024-12-23T05:35:30Z,Falcon 9 Block 5 | Starlink Group 12-2,3,121,8444,7033,87
 50a1337c-db6f-4bf4-b7b0-919c9fca906e,2024-12-21T11:34:24Z,Falcon 9 Block 5 | Bandwagon 2 (Dedicated Mid-Inclination Rideshare),3,121,7986,6512,16
 8ee42a39-0851-4674-9815-95b62e9a2c4b,2024-12-17T22:26:00Z,Falcon 9 Block 5 | O3b mPower 7 & 8,3,121,7577,6157,87

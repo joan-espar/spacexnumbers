@@ -372,7 +372,8 @@ function Analytics() {
         data: sortedLabels.map(label => 
           groupedCounts[label] ? (groupedCounts[label][group] || 0) : 0
         ),
-        backgroundColor: `rgba(${index * 30}, ${index * 30}, ${index * 30}, 0.6)`,
+        // Using a more vibrant color scheme with better contrast
+        backgroundColor: `hsl(${index * 36}, 70%, 50%)`,
       }));
 
       return {

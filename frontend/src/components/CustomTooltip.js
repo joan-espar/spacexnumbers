@@ -57,7 +57,7 @@ const CustomTooltip = ({ dateTime, siteNameRef }) => {
           className="fixed z-[1000] w-64 p-4 text-sm text-white bg-black rounded-lg shadow-lg"
         >
           <p>For a better experience on Analytics use a desktop computer or desktop mode in your phone.</p>
-          {dateTime && <p className="mt-2 text-xs">Last refresh: <span className="ml-3">{dateTime}</span></p>}
+          {dateTime && <p className="mt-2 text-sm">Last refresh: <span className="ml-3">{dateTime}</span></p>}
         </div>
       )}
     </div>

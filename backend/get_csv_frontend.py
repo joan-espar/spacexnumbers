@@ -143,8 +143,6 @@ with open(output_file_path_last_refresh, 'w') as file:
     file.write(current_time)
 
 
-
-
 ### HOME PAGE TOTALS ###
 
 # Get data for the HomePage
@@ -178,16 +176,17 @@ print(f"Totals DataFrame saved to {output_file_path_totals}")
 
 
 
-# Calculate current year and previous year comparable (same date as current year)
-current_year = datetime.now().year
+# Calculate current year, py comparable (same date as current year)
+# ho fem manualment ara per teni full 2024 i 2023 data, despres ja afegim algo per el current year que sigui fiull automatitzat
+
+current_year = 2024 #datetime.now().year 
 df_cy = df_table_launch[df_table_launch['year'] == current_year] # current year
 
-last_date = datetime.now() - relativedelta(years=1)
+# last_date = datetime.now() - relativedelta(years=1)
 df_cy_yoy = df_table_launch[df_table_launch['year'] == current_year - 1]
-df_cy_yoy = df_cy_yoy[df_table_launch['net'] <= last_date] 
+# df_cy_yoy = df_cy_yoy[df_table_launch['net'] <= last_date] 
 
 df_py = df_table_launch[df_table_launch['year'] == current_year - 1]
-
 df_py_yoy = df_table_launch[df_table_launch['year'] == current_year - 2]
 
 # Transfor df
