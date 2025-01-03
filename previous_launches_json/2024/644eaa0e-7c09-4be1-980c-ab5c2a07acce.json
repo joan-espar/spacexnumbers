@@ -1,0 +1,129 @@
+{
+    "id": "644eaa0e-7c09-4be1-980c-ab5c2a07acce",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/644eaa0e-7c09-4be1-980c-ab5c2a07acce/",
+    "slug": "pslv-ca-spadex-space-docking-experiment",
+    "name": "PSLV-CA | SPADEX (Space Docking Experiment)",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-12-31T10:18:51Z",
+    "net": "2024-12-30T16:30:15Z",
+    "window_end": "2024-12-30T16:30:15Z",
+    "window_start": "2024-12-30T16:30:15Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 31,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+        "name": "Indian Space Research Organization",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8379,
+        "configuration": {
+            "id": 43,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/43/",
+            "name": "PSLV",
+            "family": "PSLV",
+            "full_name": "PSLV-CA",
+            "variant": "CA"
+        }
+    },
+    "mission": {
+        "id": 6960,
+        "name": "SPADEX (Space Docking Experiment)",
+        "description": "SPADEX (Space Docking Experiment) is an Indian Space Research Organisation (ISRO) technology mission to demonstrate autonomous docking between 2 spacecraft in orbit.\r\n\r\nThe mission will involve two spacecraft (Chaser and Target) rendezvous and docking together, plus testing attitude control of the combined spacecraft under docked conditions. The Chaser and Target spacecraft will then be separated for operating other payload. The mission is critical to develop rendezvous and docking abilities for ISRO\u2019s future human spaceflight and lunar sample return missions.",
+        "launch_designator": null,
+        "type": "Technology",
+        "orbit": {
+            "id": 8,
+            "name": "Low Earth Orbit",
+            "abbrev": "LEO"
+        },
+        "agencies": [
+            {
+                "id": 31,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/31/",
+                "name": "Indian Space Research Organization",
+                "featured": true,
+                "type": "Government",
+                "country_code": "IND",
+                "abbrev": "ISRO",
+                "description": "The Indian Space Research Organisation (ISRO) is the space agency of the Government of India headquartered in the city of Bangalore. Its vision is to \"harness space technology for national development while pursuing space science research and planetary exploration.\"",
+                "administrator": "Chairman: S. Somanath",
+                "founding_year": "1969",
+                "launchers": "PSLV | GSLV",
+                "spacecraft": "Gaganyaan",
+                "launch_library_url": null,
+                "total_launch_count": 93,
+                "consecutive_successful_launches": 15,
+                "successful_launches": 80,
+                "failed_launches": 13,
+                "pending_launches": 17,
+                "consecutive_successful_landings": 0,
+                "successful_landings": 0,
+                "failed_landings": 0,
+                "attempted_landings": 0,
+                "info_url": "https://www.isro.gov.in/",
+                "wiki_url": "http://en.wikipedia.org/wiki/Indian_Space_Research_Organization",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_logo_20190215225409.png",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_image_20190215225409.jpeg",
+                "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/indian2520space2520research2520organization_nation_20230624125733.jpg"
+            }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 50,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
+        "agency_id": 31,
+        "name": "Satish Dhawan Space Centre First Launch Pad",
+        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
+        "map_url": "https://www.google.com/maps?q=13.733,80.235",
+        "latitude": "13.733",
+        "longitude": "80.235",
+        "location": {
+            "id": 14,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
+            "name": "Satish Dhawan Space Centre, India",
+            "country_code": "IND",
+            "description": "Satish Dhawan Space Centre \u2013 SDSC (formerly Sriharikota Range \u2013 SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
+            "timezone_name": "Asia/Kolkata",
+            "total_launch_count": 97,
+            "total_landing_count": 0
+        },
+        "country_code": "IND",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
+        "total_launch_count": 61,
+        "orbital_launch_attempt_count": 60
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20230730102956.jpeg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6848,
+    "location_launch_attempt_count": 97,
+    "pad_launch_attempt_count": 61,
+    "agency_launch_attempt_count": 93,
+    "orbital_launch_attempt_count_year": 259,
+    "location_launch_attempt_count_year": 5,
+    "pad_launch_attempt_count_year": 4,
+    "agency_launch_attempt_count_year": 5,
+    "type": "normal"
+}

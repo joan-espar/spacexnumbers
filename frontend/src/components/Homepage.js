@@ -40,7 +40,7 @@ const Homepage = () => {
               className="px-4 sm:px-8 py-2 sm:py-4 bg-spacex-blue text-white font-semibold 
                         rounded-full hover:bg-opacity-90 transition duration-300 h-13 w-40 sm:w-auto"
             >
-              Go To Analytics
+              Analytics
             </NavLink>
             <NavLink 
               to="/about" 

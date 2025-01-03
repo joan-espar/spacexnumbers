@@ -1,0 +1,99 @@
+{
+    "id": "37ebb629-0999-46af-84c4-ae7b2584ac38",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/37ebb629-0999-46af-84c4-ae7b2584ac38/",
+    "slug": "soyuz-21b-resurs-p-no5",
+    "name": "Soyuz 2.1b | Resurs-P No.5",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2024-12-27T06:03:56Z",
+    "net": "2024-12-25T07:45:42Z",
+    "window_end": "2024-12-25T07:45:42Z",
+    "window_start": "2024-12-25T07:45:42Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "probability": null,
+    "weather_concerns": null,
+    "holdreason": "",
+    "failreason": "",
+    "hashtag": null,
+    "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "type": "Government"
+    },
+    "rocket": {
+        "id": 8308,
+        "configuration": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
+            "name": "Soyuz 2.1b",
+            "family": "Soyuz",
+            "full_name": "Soyuz 2.1b",
+            "variant": ""
+        }
+    },
+    "mission": {
+        "id": 6889,
+        "name": "Resurs-P No.5",
+        "description": "Resurs-P is a series of Russian commercial Earth observation satellites capable of acquiring high-resolution imagery (resolution up to 1.0 m).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+            "id": 17,
+            "name": "Sun-Synchronous Orbit",
+            "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+    },
+    "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+            "id": 15,
+            "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+            "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+            "country_code": "KAZ",
+            "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+            "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+            "timezone_name": "Asia/Qyzylorda",
+            "total_launch_count": 1553,
+            "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 420,
+        "orbital_launch_attempt_count": 420
+    },
+    "webcast_live": false,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_lift_image_20241225121717.jpg",
+    "infographic": null,
+    "program": [],
+    "orbital_launch_attempt_count": 6844,
+    "location_launch_attempt_count": 1553,
+    "pad_launch_attempt_count": 420,
+    "agency_launch_attempt_count": 329,
+    "orbital_launch_attempt_count_year": 255,
+    "location_launch_attempt_count_year": 8,
+    "pad_launch_attempt_count_year": 8,
+    "agency_launch_attempt_count_year": 11,
+    "type": "normal"
+}

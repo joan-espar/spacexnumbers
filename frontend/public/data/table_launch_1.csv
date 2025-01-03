@@ -1,4 +1,7 @@
 id,net,date_time,status_abbrev,pad_name,mission_name,mission_orbit_abbrev,configuration_name,reused,launcher_serial_number,landing_location_abbrev,landing_type_abbrev,landing_attempt,landing_success,year,year_month,starlink_commercial
+58e080d1-90cd-42ac-8152-9f56fc580f8d,2024-12-31 05:39:10,2024-12-31 05:39,Success,LC 39A,Starlink Group 12-6,LEO,Falcon 9,[True],['B1078'],['JRTI'],['ASDS'],[True],[True],2024,2024-12,Starlink
+33bf462e-796f-441c-bc36-206ba52bb90e,2024-12-29 05:00:00,2024-12-29 05:00,Success,SLC 40,Astranis: From One to Many (4x Astranis MicroGEO),GEO,Falcon 9,[True],['B1083'],['ASOG'],['ASDS'],[True],[True],2024,2024-12,Commercial
+eea43b3f-eddc-437a-ada5-8e23286f1eef,2024-12-29 01:58:30,2024-12-29 01:58,Success,SLC 4E,Starlink Group 11-3,LEO,Falcon 9,[True],['B1075'],['OCISLY'],['ASDS'],[True],[True],2024,2024-12,Starlink
 9ba9d2de-f94b-4cca-b395-ee83b4b46b28,2024-12-23 05:35:30,2024-12-23 05:35,Success,LC 39A,Starlink Group 12-2,LEO,Falcon 9,[True],['B1080'],['JRTI'],['ASDS'],[True],[True],2024,2024-12,Starlink
 50a1337c-db6f-4bf4-b7b0-919c9fca906e,2024-12-21 11:34:24,2024-12-21 11:34,Success,SLC 4E,Bandwagon 2 (Dedicated Mid-Inclination Rideshare),LEO,Falcon 9,[True],['B1071'],['LZ-4'],['RTLS'],[True],[True],2024,2024-12,Commercial
 8ee42a39-0851-4674-9815-95b62e9a2c4b,2024-12-17 22:26:00,2024-12-17 22:26,Success,LC 39A,O3b mPower 7 & 8,OTHER,Falcon 9,[False],['B1090'],['JRTI'],['ASDS'],[True],[True],2024,2024-12,Commercial

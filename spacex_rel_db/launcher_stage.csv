@@ -318,6 +318,7 @@ id,type,reused,launcher_flight_number,launcher_id,landing_id
 385,Core,True,17,69,1210
 386,Core,True,12,107,1271
 387,Core,True,2,124,1241
+388,Core,True,7,126,1501
 389,Core,True,18,72,1268
 391,Core,True,10,118,1284
 392,Core,True,4,126,1361
@@ -462,3 +463,5 @@ id,type,reused,launcher_flight_number,launcher_id,landing_id
 635,Core,True,22,84,1495
 638,Core,True,2,148,1499
 639,Core,True,14,123,1505
+640,Core,True,16,114,1506
+643,Core,True,16,120,1508

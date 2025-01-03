@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import backgroundImage from './../assets/space_background_1.jpg';
-import HomePageData from './HomePageData';
 
 const About = () => {
 
