@@ -50,7 +50,7 @@ const About = () => {
           For a better experience on Analytics use a desktop computer or desktop mode in your phone.
           </p>
           <p className="text-lg md:text-2xl text-gray-300 mb-6 md:mb-12 text-justify">
-          Last refresh:  <span className="text-white ml-5">{dateTime}</span>
+          Last refresh:  <span className="text-white ml-2">{dateTime} UTC</span>
           </p>
         </div>
       </div>
