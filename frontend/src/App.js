@@ -9,6 +9,7 @@ import About from './components/About';
 import CustomTooltip from './components/CustomTooltip';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Analytics } from "@vercel/analytics/react";
+import apiClient from './apiClient';
 
 const NAVIGATION_ITEMS = [
   { path: '/', label: 'Home' },
@@ -27,17 +28,18 @@ function App() {
   const [dateTime, setDateTime] = React.useState('');
 
   useEffect(() => {
-    // Fetch the text file
-    fetch('/data/last_refresh.txt')  // Adjust the path according to where your file is located in public
-      .then(response => response.text())
-      .then(text => {
-        // Here we assume the text file contains only the date and time string
-        setDateTime(text);
-      })
-      .catch(error => {
-        console.error('Error reading the file:', error);
-      });
-  }, []); // Empty dependency array means this effect runs once on mount
+    const fetchDateTime = async () => {
+      try {
+        const response = await apiClient.get('/last_refresh'); 
+        // console.log('DATA::', response.data[0].last_refresh);
+        setDateTime(response.data[0].last_refresh);
+      } catch (err) {
+        console.error('Error fetching data from the API:', err);
+      }
+    };
+
+    fetchDateTime();
+  }, []); // Empty dependency array to run on mount
 
   useEffect(() => {
     const handleResize = () => {
@@ -69,7 +71,6 @@ function App() {
                 {siteName}
               </NavLink>
               <CustomTooltip 
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 dateTime={dateTime}
                 siteNameRef={siteNameRef}
               />

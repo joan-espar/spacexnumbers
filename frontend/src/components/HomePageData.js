@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
+import apiClient from './../apiClient';
 
 
 const StatCard = ({ value, label }) => {
@@ -44,37 +45,35 @@ const HomePageData = () => {
     'Falcon 1': false
   });
 
+
   useEffect(() => {
     const fetchData = async () => {
-
       try {
         // Fetching data for totals
-        const responseTotals = await fetch('/data/table_totals.csv');
-        const textTotals = await responseTotals.text();
-        const resultsTotals = Papa.parse(textTotals, { 
-          header: true, 
-          dynamicTyping: true,
-          skipEmptyLines: true
-        });
-        setData(resultsTotals.data);
+        const responseTotals = await apiClient.get('/totals'); 
+        const totalsData = responseTotals.data; 
+        setData(totalsData);
+        console.log('Totals Data: ', totalsData);
 
         // Fetching data for yearly totals
-        const responseYear = await fetch('/data/table_year_totals.csv');
-        const textYear = await responseYear.text();
-        const resultsYear = Papa.parse(textYear, { 
-          header: true, 
-          dynamicTyping: true,
-          skipEmptyLines: true
-        });
-        setYearData(resultsYear.data);
-        
-        // Update the stats according to the default values
-        updateStats(resultsTotals.data.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key)));
-        updateStatsCY(resultsYear.data.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key)));
-        updateStatsPY(resultsYear.data.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key)));
+        const responseYear = await apiClient.get('/year_totals'); 
+        const yearData = responseYear.data;
+        setYearData(yearData);
+        console.log('Year Totals Data: ', yearData);
 
+        // Update the stats according to the default values
+        const filteredTotals = totalsData.filter(row =>
+          Object.keys(filters).some(key => filters[key] && row.configuration_name === key)
+        );
+        const filteredYearTotals = yearData.filter(row =>
+          Object.keys(filters).some(key => filters[key] && row.configuration_name === key)
+        );
+
+        updateStats(filteredTotals);
+        updateStatsCY(filteredYearTotals);
+        updateStatsPY(filteredYearTotals);
       } catch (error) {
-        console.error("Error fetching or parsing CSV data: ", error);
+        console.error('Error fetching data from the API: ', error);
       }
     };
 

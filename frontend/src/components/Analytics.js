@@ -1,6 +1,5 @@
 // src/Tab4.js
 import React, { useState, useEffect } from 'react';
-import Papa from 'papaparse';
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -13,6 +12,7 @@ import {
 } from 'chart.js';
 import { Slider } from '@mui/material';
 import backgroundImage from './../assets/space_background_1.jpg'; // Ensure you have this image
+import apiClient from './../apiClient';
 
 // Register the necessary components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -102,40 +102,33 @@ function Analytics() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('data/table_launch_1.csv');
-        const csvText = await response.text();
-        Papa.parse(csvText, {
-          header: true,
-          complete: (results) => {
-            const cleanedData = results.data.filter(row => Object.values(row).some(value => value !== ''));
-            setCsvData(cleanedData);
-            setFilteredData(cleanedData);
-            
-            // Determine min and max years
-            const years = cleanedData.map(row => new Date(row.net).getFullYear());
-            const min = Math.min(...years);
-            const max = Math.max(...years);
-  
-            setMinYear(min);
-            setMaxYear(max);
-            setSliderValue([min, max]);
-  
-            // Update dynamic filters with unique values
-            const updatedFilters = filterConfigs.map(config => ({
-              key: config.key,
-              label: config.label,
-              selected: [...new Set(cleanedData.map(config.accessor))],
-              isAllSelected: true,
-              showDropdown: false,
-              uniqueValues: [...new Set(cleanedData.map(config.accessor))]
-            }));
-            setDynamicFilters(updatedFilters);
-            // console.log(updatedFilters)
-          },
-          error: (error) => {
-            setError(error.message);
-          },
-        });
+        // NEW method using the API
+        const response = await apiClient.get('/launch');
+        // console.log('DATA::', response.data);
+        const cleanedData = response.data.filter(row => Object.values(row).some(value => value !== ''));
+        setCsvData(cleanedData);
+        setFilteredData(cleanedData);
+          
+        // Determine min and max years
+        const years = cleanedData.map(row => new Date(row.net).getFullYear());
+        const min = Math.min(...years);
+        const max = Math.max(...years);
+
+        setMinYear(min);
+        setMaxYear(max);
+        setSliderValue([min, max]);
+
+        // Update dynamic filters with unique values
+        const updatedFilters = filterConfigs.map(config => ({
+          key: config.key,
+          label: config.label,
+          selected: [...new Set(cleanedData.map(config.accessor))],
+          isAllSelected: true,
+          showDropdown: false,
+          uniqueValues: [...new Set(cleanedData.map(config.accessor))]
+        }));
+        setDynamicFilters(updatedFilters);
+
       } catch (error) {
         setError(error.message);
       }
@@ -603,7 +596,8 @@ function Analytics() {
                     const cellValues = isMultiValueColumn 
                       ? (row[columnName] 
                           ? row[columnName]
-                              .replace(/^\[|\]$/g, '') // Remove surrounding brackets
+                              .replace(/^\[|\]$/g, '') // Remove surrounding []
+                              .replace(/^\{|\}$/g, '') // Remove surrounding {}
                               .replace(/'/g, '') // Remove all single quotes
                               .replace(/"/g, '') // Remove all double quotes
                               .split(',')
