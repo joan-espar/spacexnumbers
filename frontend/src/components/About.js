@@ -1,22 +1,24 @@
 import React, { useEffect } from 'react';
 import backgroundImage from './../assets/space_background_1.jpg';
+import apiClient from './../apiClient';
 
 const About = () => {
 
   const [dateTime, setDateTime] = React.useState('');
 
   useEffect(() => {
-    // Fetch the text file
-    fetch('/data/last_refresh.txt')  // Adjust the path according to where your file is located in public
-      .then(response => response.text())
-      .then(text => {
-        // Here we assume the text file contains only the date and time string
-        setDateTime(text);
-      })
-      .catch(error => {
-        console.error('Error reading the file:', error);
-      });
-  }, []); // Empty dependency array means this effect runs once on mount
+    const fetchDateTime = async () => {
+      try {
+        const response = await apiClient.get('/last_refresh'); 
+        console.log('Last Refresh:', response.data[0].last_refresh);
+        setDateTime(response.data[0].last_refresh);
+      } catch (err) {
+        console.error('Error fetching data from the API:', err);
+      }
+    };
+
+    fetchDateTime();
+  }, []); // Empty dependency array to run on mount
 
   return (
     <div className="relative min-h-screen overflow-hidden">

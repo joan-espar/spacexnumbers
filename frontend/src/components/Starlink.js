@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Papa from 'papaparse';
+import apiClient from './../apiClient';
 import backgroundImage from './../assets/space_background_1.jpg'; // Ensure you have this image
 
 function Starlink() {
-  const [csvData, setCSVData] = useState([]);
+  const [starlinkTotalsData, setStarlinkTotalsData] = useState([]);
   const [error, setError] = useState(null);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -81,36 +81,29 @@ function Starlink() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('data/starlink_totals.csv');
-        const csvText = await response.text();
-        Papa.parse(csvText, {
-          header: true,
-          complete: (results) => {
-            const cleanedData = results.data.filter(row => Object.values(row).some(value => value !== ''));
-            setCSVData(cleanedData);
-          },
-          error: (error) => {
-            setError(error.message);
-          },
-        });
+        // Fetching data for totals
+        const responseTotals = await apiClient.get('/starlink_totals'); 
+        const starlinkData = responseTotals.data; 
+        console.log('Starlink Data: ', starlinkData);
+
+        const cleanedData = starlinkData.filter(row => Object.values(row).some(value => value !== ''));
+        setStarlinkTotalsData(cleanedData);
+
       } catch (error) {
-        setError(error.message);
+        console.error('Error fetching data from the API: ', error);
       }
-    //   console.log(csvData);
     };
-    
+
     fetchData();
   }, []);
-
 
   // Filter columnConfigs based on visibility for the current screen size
   const visibleColumns = columnConfigs.filter(config => config.visible);
   const columnNames = visibleColumns.map(config => config.originalName);
-
 
   return (
     <div 
@@ -135,7 +128,7 @@ function Starlink() {
                 </tr>
                 </thead>
                 <tbody>
-                {csvData.map((row, index) => {
+                {starlinkTotalsData.map((row, index) => {
                     // Determine row highlight based on index
                     let rowHighlight = '';
                     let missionPadding = '';
