@@ -141,7 +141,7 @@ function Starlink() {
                         totalTextStyle = 'font-extrabold text-lg'; // Bolder and slightly larger text
                         break;
                       case 2:
-                      case 9:
+                      case 10:
                         rowHighlight = 'bg-gray-600 text-white'; // Highlighted rows (Subtotals)
                         missionPadding = 'pl-2'; // More padding for "Subtotal" rows
                         totalTextStyle = 'font-bold text-base'; // Bolder and slightly larger text

@@ -57,9 +57,16 @@ async def verify_api_key_and_https(request: Request, call_next):
 def root():
     return {"message": "Backend is running"}
 
+# Allow requests from your React app's domain
+origins = [
+    "https://www.spacexnumbers.com",  # Add the allowed origin
+    "https://spacexnumbers.hopto.org",  # Add any other allowed origins if needed
+    "http://localhost:3000",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://spacexnumbers.com", "http://localhost:3000"],  # Updated for production and development
+    allow_origins=origins,  # Updated for production and development
     # allow_origins=["*"],  # React app URL
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods

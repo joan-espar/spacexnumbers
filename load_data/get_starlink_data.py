@@ -62,7 +62,7 @@ if tables:
     df = pd.DataFrame(data, columns=headers)
 
     # Manually select the rows we don't need, and remove them
-    rows_to_delete = [0, 1, 12, 14, 21, 23]  # first is 0 and headers are not a row
+    rows_to_delete = [0, 1, 12, 14, 22, 24]  # first is 0 and headers are not a row
 
     # Delete rows by index
     df = df.drop(rows_to_delete).reset_index(drop=True)
@@ -75,10 +75,10 @@ if tables:
     df = df.drop(columns=columns_to_remove)
 
     # Define rows order
-    new_index_order = {18:0, 17:1, 11:2, 12:3, 13:4, 14:5, 15:6, 16:7, 10:8, 0:9, 1:10, 2:11, 3:12, 4:13, 5:14, 6:15, 7:16, 8:17, 9:18}
+    new_index_order = {19:0, 18:1, 11:2, 12:3, 13:4, 14:5, 15:6, 16:7, 17:8, 10:9, 0:10, 1:11, 2:12, 3:13, 4:14, 5:15, 6:16, 7:17, 8:18, 9:19}
     df = df.reindex(new_index_order.keys())
     df = df.reset_index(drop=True)
-    
+
     if df.shape[0] > 0:
         conn = psycopg2.connect(**db_info)
 
