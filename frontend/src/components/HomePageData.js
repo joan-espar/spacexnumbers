@@ -58,7 +58,7 @@ const HomePageData = () => {
         const responseYear = await apiClient.get('/year_totals'); 
         const yearData = responseYear.data;
         setYearData(yearData);
-        console.log('Year Totals Data: ', yearData);
+        // console.log('Year Totals Data: ', yearData);
 
         // Update the stats according to the default values
         const filteredTotals = totalsData.filter(row =>
@@ -88,10 +88,10 @@ const HomePageData = () => {
   // Update stats based on current filter selection
   const updateStats = (filteredData = data.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key))) => {
 
-    const totalLaunches = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_count'), 0);
-    const totalLandings = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_count'), 0);
-    const totalLaunchSuccess = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_success'), 0);
-    const totalLandingAttempts = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_attempt'), 0);
+    const totalLaunches = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_total'), 0);
+    const totalLandings = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_success_total'), 0);
+    const totalLaunchSuccess = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_success_total'), 0);
+    const totalLandingAttempts = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_attempt_total'), 0);
 
     const transformedData = [
       { value: totalLaunchSuccess, label: "Total Launches" },

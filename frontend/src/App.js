@@ -15,7 +15,7 @@ const NAVIGATION_ITEMS = [
   { path: '/', label: 'Home' },
   { path: '/analytics', label: 'Analytics' },
   { path: '/starlink', label: 'Starlink' },
-  { path: '/advanced', label: 'Advanced' },
+  // { path: '/advanced', label: 'Advanced' },
   { path: '/about', label: 'About' }
 ];
 
@@ -31,7 +31,7 @@ function App() {
     const fetchDateTime = async () => {
       try {
         const response = await apiClient.get('/last_refresh'); 
-        console.log('Last Refresh:', response.data[0].last_refresh);
+        // console.log('Last Refresh:', response.data[0].last_refresh);
         setDateTime(response.data[0].last_refresh);
       } catch (err) {
         console.error('Error fetching data from the API:', err);
