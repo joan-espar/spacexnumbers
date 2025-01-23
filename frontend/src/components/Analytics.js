@@ -104,7 +104,7 @@ function Analytics() {
       try {
         // NEW method using the API
         const response = await apiClient.get('/launch');
-        // console.log('DATA::', response.data);
+        console.log('DATA::', response.data);
         const cleanedData = response.data.filter(row => Object.values(row).some(value => value !== ''));
         setCsvData(cleanedData);
         setFilteredData(cleanedData);
@@ -619,6 +619,7 @@ function Analytics() {
                         const landingAttemptArray = row['landing_attempt'] 
                           ? row['landing_attempt']
                               .replace(/^\[|\]$/g, '') // Remove brackets
+                              .replace(/^\{|\}$/g, '') // Remove {}
                               .replace(/'/g, '') // Remove quotes
                               .replace(/True/g, 'true')
                               .replace(/False/g, 'false')
@@ -629,7 +630,8 @@ function Analytics() {
                         
                         const landingSuccessArray = row['landing_success'] 
                           ? row['landing_success']
-                              .replace(/^\[|\]$/g, '') // Remove brackets
+                              .replace(/^\[|\]$/g, '') // Remove brackets []
+                              .replace(/^\{|\}$/g, '') // Remove {}
                               .replace(/'/g, '') // Remove quotes
                               .replace(/True/g, 'true')
                               .replace(/False/g, 'false')
@@ -639,8 +641,8 @@ function Analytics() {
                           : [];
                         
                         // Check the corresponding values at the same index
-                        const landingAttempt = landingAttemptArray[landingAttemptIndex] === 'true';
-                        const landingSuccess = landingSuccessArray[landingAttemptIndex] === 'true';
+                        const landingAttempt = landingAttemptArray[landingAttemptIndex] === 't';
+                        const landingSuccess = landingSuccessArray[landingAttemptIndex] === 't';
 
                         if (!landingAttempt) return '#707070'; // Grey for no attempt
                         if (landingSuccess) return '#66ba00'; // Green for successful landing
