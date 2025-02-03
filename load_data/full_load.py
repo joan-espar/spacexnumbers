@@ -1295,7 +1295,7 @@ def get_data_frontend_old():
 
     print("Frontend data updated successfully.")
 
-def get_data_frontend_new():
+def get_data_frontend():
 
     # List of file names
     table_names = [
@@ -1527,7 +1527,6 @@ def get_data_frontend_new():
 
     print("Frontend data updated successfully.")
 
-
 def get_last_refresh_frontend():
 
     # Assuming 'db_info' contains your database connection details
@@ -1559,7 +1558,7 @@ if __name__ == "__main__":
     
     # Only update the detailed data if there are new SpaceX launches
     # or any launch that has been updated
-    if new_spacex_launches > 0 or updated_launches > 0:
+    if new_spacex_launches > 0 or updated_launches > 0 or True:
         # GET DETAILED INFORMATION FOR THE SPACEX LAUNCHES
         update_spacex_detailed_launches()
 

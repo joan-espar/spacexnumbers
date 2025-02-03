@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Request
 from app.routes.launch import router as launch_router
 from app.routes.totals import router as totals_router
+from app.routes.homepage_totals import router as homepage_totals_router
 from app.routes.year_totals import router as year_totals_router
 from app.routes.last_refresh import router as last_refresh_router
 from app.routes.starlink_totals import router as starlink_totals_router
@@ -21,6 +22,7 @@ app = FastAPI()
 # Include routes
 app.include_router(launch_router, prefix="/api")
 app.include_router(totals_router, prefix="/api")  
+app.include_router(homepage_totals_router, prefix="/api")  
 app.include_router(year_totals_router, prefix="/api")  
 app.include_router(last_refresh_router, prefix="/api")  
 app.include_router(starlink_totals_router, prefix="/api")  

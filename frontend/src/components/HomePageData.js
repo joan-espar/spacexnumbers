@@ -1,42 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import apiClient from './../apiClient';
-
-
-const StatCard = ({ value, label }) => {
-  const [primaryValue, secondaryValue] = String(value).split(/(?=\()/);
-  
-  return (
-    <div className="bg-black/40 p-4 rounded-xl border border-white/10 flex flex-col justify-between h-full">
-      <h3 className="text-3xl xl:text-4xl font-bold mb-2">
-        {primaryValue}
-        <span className="text-sm xl:text-lg">{secondaryValue}</span>
-      </h3>
-      <p className="text-gray-300 text-sm xl:text-lg">{label}</p>
-    </div>
-  );
-};
-
-const GridSection = ({ title, data }) => (
-  <div className={`${title === 'Total' ? 'col-span-2' : 'col-span-1'} grid-section`}>
-    <div className="mb-4">
-      <h2 className="text-3xl md:text-5xl font-bold text-white mb-2">{title}</h2>
-      <div className="w-full border-t border-white" />
-    </div>
-    <div className={`grid ${title === 'Total' ? 'grid-cols-2' : 'grid-cols-1'} gap-8 text-white`}>
-      {data.map((stat, index) => (
-        <StatCard key={index} value={stat.value} label={stat.label} />
-      ))}
-    </div>
-  </div>
-);
+import apiClient from '../apiClient';
 
 const HomePageData = () => {
 
-  const [homepageNumbers, setHomepageNumbers] = useState([]);
-  const [homepageNumbersCY, setHomepageNumbersCY] = useState([]);
-  const [homepageNumbersPY, setHomepageNumbersPY] = useState([]);
+  const [homepageNumbers, setHomepageNumbers] = useState({
+    CY: [],
+    PY: [],
+    PPY: [],
+    TOTAL: []
+  });
   const [data, setData] = useState([]);
-  const [yearData, setYearData] = useState([]);
   const [filters, setFilters] = useState({
     'Falcon 9': true,
     'Falcon Heavy': true,
@@ -49,28 +22,18 @@ const HomePageData = () => {
     const fetchData = async () => {
       try {
         // Fetching data for totals
-        const responseTotals = await apiClient.get('/totals'); 
+        const responseTotals = await apiClient.get('/homepage_totals'); 
         const totalsData = responseTotals.data; 
         setData(totalsData);
         console.log('Totals Data: ', totalsData);
 
-        // Fetching data for yearly totals
-        const responseYear = await apiClient.get('/year_totals'); 
-        const yearData = responseYear.data;
-        setYearData(yearData);
-        // console.log('Year Totals Data: ', yearData);
 
         // Update the stats according to the default values
         const filteredTotals = totalsData.filter(row =>
           Object.keys(filters).some(key => filters[key] && row.configuration_name === key)
         );
-        const filteredYearTotals = yearData.filter(row =>
-          Object.keys(filters).some(key => filters[key] && row.configuration_name === key)
-        );
 
         updateStats(filteredTotals);
-        updateStatsCY(filteredYearTotals);
-        updateStatsPY(filteredYearTotals);
       } catch (error) {
         console.error('Error fetching data from the API: ', error);
       }
@@ -85,74 +48,47 @@ const HomePageData = () => {
     return isNaN(value) ? sum : sum + value;
   };
 
-  // Update stats based on current filter selection
-  const updateStats = (filteredData = data.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key))) => {
-
-    const totalLaunches = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_total'), 0);
-    const totalLandings = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_success_total'), 0);
-    const totalLaunchSuccess = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_success_total'), 0);
-    const totalLandingAttempts = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_attempt_total'), 0);
-
-    const transformedData = [
-      { value: totalLaunchSuccess, label: "Total Launches" },
-      { value: totalLandings, label: "Total Landings" },
-      {
-        value: `${((totalLaunchSuccess / totalLaunches * 100) || 0).toFixed(1)}% (${totalLaunchSuccess}/${totalLaunches})`,
-        label: "Launch Success"
-      },
-      {
-        value: `${((totalLandings / totalLandingAttempts * 100) || 0).toFixed(1)}% (${totalLandings}/${totalLandingAttempts})`,
-        label: "Landing Success"
-      },
-    ];
-    setHomepageNumbers(transformedData);
-  };
-
-  const updateStatsCY = (filteredData = yearData.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key))) => {
-
-    const launchesCY = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_count_cy'), 0);
-    const launchesCYYoY = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_count_cy_yoy'), 0);
-  
-    const growth = launchesCYYoY !== 0 ? ((launchesCY / launchesCYYoY) - 1) * 100 : 0;
+  const updateStats = (filteredData = data.filter(row => filters[row.configuration_name])) => {
+    const launch_attempt_total = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_total'), 0);
+    const launch_success_total = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_success_total'), 0);
+    const landing_attempt_total = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_attempt_total'), 0);
+    const landing_success_total = filteredData.reduce((sum, row) => sumSafe(sum, row, 'landing_success_total'), 0);
     
-    // const daysOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
-    const daysOfYear = (new Date()).getFullYear() % 4 === 0 ? 366 : 365
-    const daysBetweenLaunches =  daysOfYear / launchesCY
-
-    const transformedData = [
-      {
-        value: `${launchesCY} (${growth > 0 ? '+' : ''}${growth.toFixed(1)}%)`,
-        label: 'Launches'
-      },
-      { value: daysBetweenLaunches.toFixed(2),
-        label: 'Days Between Launches'
-      }
-    ];
-
-    setHomepageNumbersCY(transformedData);
-  };
-
-  const updateStatsPY = (filteredData = yearData.filter(row => Object.keys(filters).some(key => filters[key] && row.configuration_name === key))) => {
-
-    const launchesPY = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_count_py'), 0);
-    const launchesPYYoY = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_count_py_yoy'), 0);
-  
-    const growth = launchesPYYoY !== 0 ? ((launchesPY / launchesPYYoY) - 1) * 100 : 0;
+    const launch_attempt_cy = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_cy'), 0);
+    const launch_attempt_cy_yoy = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_cy_yoy'), 0);
+    const launch_attempt_py = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_py'), 0);
+    const launch_attempt_py_yoy = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_py_yoy'), 0);
+    const launch_attempt_ppy = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_ppy'), 0);
+    const launch_attempt_ppy_yoy = filteredData.reduce((sum, row) => sumSafe(sum, row, 'launch_attempt_ppy_yoy'), 0);
     
-    const pastYear = (new Date()).getFullYear() - 1
-    const daysBetweenLaunches = (pastYear % 4 === 0 ? 366 : 365) / launchesPY
+    const growthCY = launch_attempt_cy_yoy !== 0 ? ((launch_attempt_cy / launch_attempt_cy_yoy) - 1) * 100 : 0;
+    const growthPY = launch_attempt_py_yoy !== 0 ? ((launch_attempt_py / launch_attempt_py_yoy) - 1) * 100 : 0;
+    const growthPPY = launch_attempt_ppy_yoy !== 0 ? ((launch_attempt_ppy / launch_attempt_ppy_yoy) - 1) * 100 : 0;
+    
+    const daysOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
 
-    const transformedData =  [
-      {
-        value: `${launchesPY} (${growth > 0 ? '+' : ''}${growth.toFixed(1)}%)`,
-        label: 'Launches'
-      },
-      { value: daysBetweenLaunches.toFixed(2),
-        label: 'Days Between Lauches'
-      }
-    ];
-
-    setHomepageNumbersPY(transformedData);
+    const transformedStats = {
+      CY: [
+        { value: `${launch_attempt_cy} (${growthCY > 0 ? '+' : ''}${growthCY.toFixed(1)}%)`, label: 'Current Launches' },
+        { value: `${(launch_attempt_cy * 365 / daysOfYear).toFixed(0)}`, label: 'Projected Launches' },
+        { value: (daysOfYear / launch_attempt_cy).toFixed(2), label: 'Days Between Launches' }
+      ],
+      PY: [
+        { value: `${launch_attempt_py} (${growthPY > 0 ? '+' : ''}${growthPY.toFixed(1)}%)`, label: 'Launches' },
+        { value: (366 / launch_attempt_py).toFixed(2), label: 'Days Between Launches' }
+      ],
+      PPY: [
+        { value: `${launch_attempt_ppy} (${growthPPY > 0 ? '+' : ''}${growthPPY.toFixed(1)}%)`, label: 'Launches' },
+        { value: (365 / launch_attempt_ppy).toFixed(2), label: 'Days Between Launches' }
+      ],
+      TOTAL: [
+        { value: launch_success_total, label: "Launches" },
+        { value: landing_success_total, label: "Landings" },
+        { value: `${((launch_success_total / launch_attempt_total * 100) || 0).toFixed(1)}% (${launch_success_total}/${launch_attempt_total})`, label: "Launch Success" },
+        { value: `${((landing_success_total / landing_attempt_total * 100) || 0).toFixed(1)}% (${landing_success_total}/${landing_attempt_total})`, label: "Landing Success" }
+      ]
+    };
+    setHomepageNumbers(transformedStats);
   };
 
   const toggleFilter = (name) => {
@@ -161,27 +97,11 @@ const HomePageData = () => {
       const filteredData = data.filter(row => 
         Object.keys(newState).some(key => newState[key] && row.configuration_name === key)
       );
-      const filteredYearData = yearData.filter(row =>
-        Object.keys(newState).some(key => newState[key] && row.configuration_name === key)
-      );
       
       updateStats(filteredData);
-      updateStatsCY(filteredYearData);
-      updateStatsPY(filteredYearData);
       return newState;
     });
   };
-
-  // Make buttons bigger
-  const buttons = Object.keys(filters).map(name => (
-    <button 
-      key={name}
-      onClick={() => toggleFilter(name)}
-      className={`px-2 sm:px-4 py-1 m-1 rounded-full text-base sm:text-xl h-8 sm:h-12 items-center ${filters[name] ? 'bg-white text-black border border-white': 'bg-black text-white border border-white'}`}
-    >
-      {name}
-    </button>
-  ));
 
   return (
     <div>
@@ -199,11 +119,81 @@ const HomePageData = () => {
           </button>
         ))}
       </div>
+      <div className="w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {/* 2025 (Current Year) Box */}
+          <div className="bg-black bg-opacity-50 p-4 sm:p-6 rounded-2xl text-white">
+            <h3 className="text-lg sm:text-xl font-bold mb-2">2025</h3>
+            <div className="space-y-1 sm:space-y-2">
+              {homepageNumbers.CY.map((item, index) => (
+                <div 
+                  key={index} 
+                  className="transition-all duration-300 p-2 sm:p-3 rounded-lg 
+                            hover:bg-white/10 hover:scale-105 transform"
+                >
+                  <div className="flex justify-between items-start">
+                    <span className="text-xs sm:text-sm text-gray-300 flex-shrink-0">{item.label}</span>
+                    <span className="text-sm sm:text-lg font-bold text-white text-right break-words w-2/3 pl-2">{item.value}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full auto-cols-fr">
-        <GridSection title="2024" data={homepageNumbersCY} />
-        <GridSection title="2023" data={homepageNumbersPY} />
-        <GridSection title="Total" data={homepageNumbers} />
+          {/* Previous Years Box */}
+          <div className="bg-black bg-opacity-50 p-4 sm:p-6 rounded-2xl text-white">
+            <h3 className="text-lg sm:text-xl font-bold mb-1">2024</h3>
+            <div className="space-y-1 sm:space-y-2 mb-2">
+              {homepageNumbers.PY.map((item, index) => (
+                <div 
+                  key={index} 
+                  className="transition-all duration-300 p-2 sm:p-3 rounded-lg 
+                            hover:bg-white/10 hover:scale-105 transform"
+                >
+                  <div className="flex justify-between items-start">
+                    <span className="text-xs sm:text-sm text-gray-300 flex-shrink-0">{item.label}</span>
+                    <span className="text-sm sm:text-lg font-bold text-white text-right break-words w-2/3 pl-2">{item.value}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <h3 className="text-lg sm:text-xl font-bold mb-1">2023</h3>
+            <div className="space-y-1 sm:space-y-2">
+              {homepageNumbers.PPY.map((item, index) => (
+                <div 
+                  key={index} 
+                  className="transition-all duration-300 p-2 sm:p-3 rounded-lg 
+                            hover:bg-white/10 hover:scale-105 transform"
+                >
+                  <div className="flex justify-between items-start">
+                    <span className="text-xs sm:text-sm text-gray-300 flex-shrink-0">{item.label}</span>
+                    <span className="text-sm sm:text-lg font-bold text-white text-right break-words w-2/3 pl-2">{item.value}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Total Box */}
+          <div className="sm:col-span-2 lg:col-span-1 bg-black bg-opacity-50 p-4 sm:p-6 rounded-2xl text-white">
+            <h3 className="text-lg sm:text-xl font-bold mb-2">Total</h3>
+            <div className="space-y-1 sm:space-y-2">
+              {homepageNumbers.TOTAL.map((item, index) => (
+                <div 
+                  key={index} 
+                  className="transition-all duration-300 p-2 sm:p-3 rounded-lg 
+                            hover:bg-white/10 hover:scale-105 transform"
+                >
+                  <div className="flex justify-between items-start">
+                    <span className="text-xs sm:text-sm text-gray-300 flex-shrink-0">{item.label}</span>
+                    <span className="text-sm sm:text-lg font-bold text-white text-right break-words w-2/3 pl-2">{item.value}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
